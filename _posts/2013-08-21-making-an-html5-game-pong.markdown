@@ -16,6 +16,6 @@ A video tutorial on how to make a Pong clone using PlayCanvas.
 
 Will has put together a short video showing how you can make a Pong game using PlayCanvas. It will take you through creating Primitive shapes, how to use the built-in physics engine, and some gameplay scripting to move the player paddles. It's a great introduction to PlayCanvas and building games.
 
-Check it out on [YouTube](http://www.youtube.com/watch?v=oeR-flW-ojw) or below:
+Check it out on [YouTube](https://www.youtube.com/watch?v=oeR-flW-ojw) or below:
 
-http://www.youtube.com/watch?v=oeR-flW-ojw
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oeR-flW-ojw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

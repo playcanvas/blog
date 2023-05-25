@@ -26,18 +26,16 @@ We are excited to announce the launch of our WebXR AR Starter Kit, available in 
 The starter kit comes with all you need to kickstart your AR experience for WebXR including:
 
 - Real world light estimation
-
 - AR shadow renderer
-
 - AR object resizing and positioning controls
-
 - Physics raycasting
-
 - And more!
 
 Look how quickly you can create AR experiences below!
 
-https://www.youtube.com/watch?v=kbymJ5ib1gQ
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/kbymJ5ib1gQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [Pacman Arcade + animation](https://sketchfab.com/3d-models/pacman-arcade-animation-0b43f85af5384ea4bac5d6e2d3cbd008) by Daniel Brück is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
