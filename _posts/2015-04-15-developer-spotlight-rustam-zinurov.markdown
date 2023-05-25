@@ -5,19 +5,17 @@ date: 2015-04-15 14:48:46+00:00
 layout: post
 link: https://blog.playcanvas.com/developer-spotlight-rustam-zinurov/
 slug: developer-spotlight-rustam-zinurov
-title: 'Developer Spotlight: Rustam Zinurov'
+title: "Developer Spotlight: Rustam Zinurov"
 wordpress_id: 2076
 categories:
-- News
+  - News
 ---
 
 _After two successful entries into the PLAYHACK game jam, we thought it was time to share some insights from one of our star community members: Rustam Zinurov._
 
-****![rzinurov](https://blog.playcanvas.com/wp-content/uploads/2015/04/rzinurov.jpg)****
-
+\***\*![rzinurov](https://blog.playcanvas.com/wp-content/uploads/2015/04/rzinurov.jpg)\*\***
 
 <blockquote>I liked the idea that I didn't need to install anything - all I needed was a browser</blockquote>
-
 
 **Hi Rustam, tell us a little about yourself?**
 I'm 29 years old, born in St. Petersburg, Russia, currently living in Copenhagen, Denmark, married, have a Scottish Fold cat. I've been a software developer since 2007
@@ -33,9 +31,7 @@ I watched all [your videos](http://youtube.com/user/playcanvas/) and checked mos
 
 **[![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](http://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)**
 
-
 <blockquote>Try to start with some simple tasks. I've seen a lot of guys who were trying to implement a very difficult game as a first project here. If you do that you will definitely fail.</blockquote>
-
 
 **You’ve won two of our monthly game jams PLAYHACK. Congratulations! How do you decide what sort of game you are going to build for the PLAYHACK?**
 Thanks a lot! I like that you guys are giving us an initial kick with the model you provide for every PLAYHACK. Frankly, I'm usually thinking about spending a minimal time effort to get a complete product within one month because it's kind of a motivation deadline for me. I've abandoned a lot of very cool projects after this period because I get bored fast.
@@ -56,6 +52,5 @@ Try to start with some simple tasks. I've seen a lot of guys who were trying to 
 Not sure about the genre but it should be a dark space game with a lot of metal and scary robots
 
 _Thanks to Rustam for taking the time to talk to us. You try his winning PLAYHACK entries, [Yet Another Gems](http://playcanv.as/p/p87UuuNV) and [Space Buggy](http://playcanv.as/p/3RerJIcy) on PlayCanvas. All his [projects](https://playcanvas.com/lmao) are open for inspection and are great learning tools for getting to grips with PlayCanvas._
-
 
 **Try your hand at the latest [PLAYHACK](https://playcanvas.com/project/341268/overview/playhack-apr-15) going on now.**

@@ -8,7 +8,7 @@ slug: welcome-ludum-darers
 title: Welcome Ludum Darers
 wordpress_id: 744
 categories:
-- News
+  - News
 ---
 
 ![Ludum Dare logo](http://playcanvas.com/wp-content/uploads/2013/04/LudumDare.png)

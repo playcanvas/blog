@@ -8,7 +8,7 @@ slug: mobile-brand-experiences-in-webgl
 title: Mobile Brand Experiences in WebGL
 wordpress_id: 2245
 categories:
-- News
+  - News
 ---
 
 <!-- more -->
@@ -23,26 +23,17 @@ With this in mind, the team at PlayCanvas set about creating a brand experience
 
 <!-- more -->
 
-
 ## BMW i8 Configurator
-
-
-
 
 ### Mobile first
 
-
 From low-end devices such as an iPhone 4S to the latest handset, this demo runs everywhere. PlayCanvas is exceedingly lightweight and efficient and as such is the **only solution that can deliver** realistic graphics to mobile devices.
-
 
 ### Mixed media HTML5 & WebGL
 
-
 Using the right-tool for the job is the best way to go. Utilizing WebGL for the 3D graphics and pure HTML and CSS for the interface, your design team doesn't have to learn new tools and the 3D content can be **integrated into any regular web site**.
 
-
 ### Built in hours not weeks
-
 
 ![Editor](https://blog.playcanvas.com/wp-content/uploads/2015/10/Editor-small.png)
 

@@ -8,7 +8,7 @@ slug: intel-gives-html5-some-love-at-the-buzz-workshop
 title: Intel gives HTML5 some love at the Buzz Workshop
 wordpress_id: 1673
 categories:
-- News
+  - News
 ---
 
 Last Thursday, Intel staged one heck of an awesome event in London: 'The Buzz Workshop: Be Mobile'. It was essentially a mini-conference that consisted of talks given by industry experts, a panel and even an indie game pitch event.
@@ -38,5 +38,3 @@ After the talk, I took part in a panel, with a remit to consider the future of v
 As you can imagine, this was my specialist subject and it was good to chat with some great co-panelists about where things are heading. As I see it, it's all about community, collaboration and accessibility - and PlayCanvas nails all of those, and then some.
 
 And with that, I'll end with this piece of advice: go download the XDK today and have a play with it. Intel have built something wondrous so don't miss out!
-
-

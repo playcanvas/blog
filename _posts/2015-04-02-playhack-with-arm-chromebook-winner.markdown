@@ -5,20 +5,18 @@ date: 2015-04-02 14:55:47+00:00
 layout: post
 link: https://blog.playcanvas.com/playhack-with-arm-chromebook-winner/
 slug: playhack-with-arm-chromebook-winner
-title: 'PLAYHACK with ARM: Chromebook Winner'
+title: "PLAYHACK with ARM: Chromebook Winner"
 wordpress_id: 2063
 categories:
-- Announcement
-- PLAYHACK
+  - Announcement
+  - PLAYHACK
 ---
 
 Last month we worked with ARM to launch our first **Prize PLAYHACK**. They provided the great prize of a **Samsung Chromebook 2 13.3".**
 
 70 developers forked the starter project and slaved over the coding for the last month. ARM and PlayCanvas spent a tough few hours playing all the games and we've picked out a winner.
 
-
 ## Space Buggy
-
 
 [![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](http://playcanv.as/p/3RerJIcy)
 
@@ -30,22 +28,16 @@ See it in action:
 
 [![Space Buggy animation](https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/announcements/space_buggy.gif)](http://playcanv.as/p/3RerJIcy)
 
-
 [PLAY SPACE BUGGY HERE](http://playcanv.as/p/3RerJIcy)
-
 
 Massive congratulations to lmao, your Chromebook will be winging it's way over to you shortly.
 
 We want to make a couple of **special mentions** to [alphacodemonkey](https://playcanvas.com/alphacodemonkey) for his addictive high-score chaser [Boarddrive](http://playcanv.as/p/xx4btYi9) and [lizzip](https://playcanvas.com/lizzip) for dinosaur escape game [Desperately Fleeing Susan](http://playcanv.as/p/Qx3Kepfq)
 
-
 ## Optimized for ARM Mali
-
 
 We've been working hard with ARM to make sure that PlayCanvas runs really well on their Mali mobile GPUs. You'll see this in the Seemore demo we developed in association with ARM.
 
 [![Screen Shot 2015-04-02 at 15.49.43](https://blog.playcanvas.com/wp-content/uploads/2015/04/Screen-Shot-2015-04-02-at-15.49.43.png)](http://seemore.playcanvas.com/)
 
 Find out more at [http://malideveloper.arm.com](http://malideveloper.arm.com/)
-
-

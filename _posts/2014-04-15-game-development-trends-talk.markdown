@@ -8,8 +8,8 @@ slug: game-development-trends-talk
 title: Game Development Trends Talk
 wordpress_id: 1196
 categories:
-- Announcement
-- News
+  - Announcement
+  - News
 ---
 
 Last week, I did a talk at the [London Game Space](http://londongamespace.com) about game development trends and how it is influencing what we are doing at [PlayCanvas](http://playcanvas.com).

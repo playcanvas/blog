@@ -8,7 +8,7 @@ slug: getting-started-with-webvr
 title: Getting started with WebVR
 wordpress_id: 2355
 categories:
-- News
+  - News
 ---
 
 ![helper](https://blog.playcanvas.com/wp-content/uploads/2016/06/helper.png)

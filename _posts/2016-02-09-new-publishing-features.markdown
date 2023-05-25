@@ -8,7 +8,7 @@ slug: new-publishing-features
 title: New Publishing Features
 wordpress_id: 2307
 categories:
-- News
+  - News
 ---
 
 Today we've launched an update to streamline the way you publish your applications and to give your collaborators more information about what is changing.

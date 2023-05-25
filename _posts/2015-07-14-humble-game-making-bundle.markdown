@@ -8,34 +8,26 @@ slug: humble-game-making-bundle
 title: Humble Game Making Bundle
 wordpress_id: 2214
 categories:
-- News
+  - News
 ---
 
 PlayCanvas is delighted to be part of the [Humble Game Making Bundle](https://www.humblebundle.com/).
 
 If you've just bought the bundle and you're looking for some help here's a few pointers.
 
-
 ## Activating your Promo
 
-
 [![account-promo-code](https://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)
-
-
 
 Once you've signed up. Head over to your [account page](https://playcanvas.com/account), scroll down the Promotional Codes section, enter your code and Submit.
 
 This will give you 3 months with all the Pro features (like private projects and more storage). At the end of the 3 months, **don't worry you won't be charged, **your account will revert to a Free account. Hopefully, if you've enjoyed using PlayCanvas, you can upgrade your account back to Pro.
 
-
 ## Tutorials and Documentation
-
 
 Learning to use a new program is always a challenge, but we've tried hard to make sure as much as possible is covered in our [documentation and tutorials](http://developer.playcanvas.com) site.
 
-
 ## Devlogs and Community
-
 
 One of the best parts of PlayCanvas is the community of developers and game makers building stuff on the site.
 
@@ -43,18 +35,12 @@ Once you've got started and published your first build, be sure to tell everyone
 
 When you see projects that you like, don't forget to Watch and Star them.
 
-
 ## Questions and Chat
-
 
 If you're struggling with a problem, hit up the [answers site](http://answers.playcanvas.com) to ask the community. If you just want to chat about the game your making try our [forum](http://forum.playcanvas.com).
 
-
 ## PLAYHACK and Game Making Contests
-
 
 Every month we run a friendly game jam called the PLAYHACK. This month we're running the [PLAYHACK](http://blog.playcanvas.com/playhack-july-15-join-the-indie-game-maker-contest/) in parallel with the Game Dev Fort [Indie Game Making Contest](http://contest.gamedevfort.com/). It's the perfect way to get used to a new game engine and there are even prizes to be won!
 
 Hope you enjoy using PlayCanvas. See you in the devlogs!
-
-

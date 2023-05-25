@@ -8,7 +8,7 @@ slug: playcanvas-voted-number-1-webgl-engine-by-develop-magazine
 title: PlayCanvas Voted the Leading WebGL Engine
 wordpress_id: 1475
 categories:
-- News
+  - News
 ---
 
 [![develop 1001-003](https://blog.playcanvas.com/wp-content/uploads/2014/07/develop-1001-003.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/07/develop-1001-003.jpg)

@@ -8,7 +8,7 @@ slug: webgl-texture-compression-made-easy
 title: WebGL Texture Compression Made Easy
 wordpress_id: 2426
 categories:
-- News
+  - News
 ---
 
 Big news! PlayCanvas is excited to introduce **easy texture compression**, enabling you to build bigger and better WebGL apps.
@@ -23,17 +23,9 @@ The image is 4096 by 2048 but compresses well to a 1.81MB JPG file. Under the h
 
 WebGL solves this problem by providing support for a number of compressed texture formats supported in hardware on the GPU. Each GPU tends to support at least one of these formats. Today, WebGL has fairly widespread support for:
 
-
-
- 	
-  * DXT: supported by all desktop devices and some Android devices
-
- 	
-  * PVR: supported by all iOS devices and some Android devices
-
- 	
-  * ETC1: supported by most Android devices
-
+- DXT: supported by all desktop devices and some Android devices
+- PVR: supported by all iOS devices and some Android devices
+- ETC1: supported by most Android devices
 
 PlayCanvas exposes these formats through a simple inspector panel on a texture asset. For the Earth image, it gives the following results:
 
@@ -42,6 +34,7 @@ PlayCanvas exposes these formats through a simple inspector panel on a texture a
 The first number is the GZIPed file size and the second number denotes how much VRAM is occupied by the texture. Notice how the compressed images occupy one sixth of the VRAM when compared to the original JPG. This is a stunning reduction!
 
 Let's turn out attention to the demo iframed at the top of this article. VRAM usage is as follows:
+
 <table >
 <tbody >
 <tr >
@@ -86,22 +79,11 @@ Texture compression suddenly makes the demo mobile friendly. But notice how it l
 
 PlayCanvas' approach ensures that the most optimal texture format is selected for the device on which your application is running. In contrast, the Unity WebGL solution loads DDS files and decompresses as necessary on platforms that don't support it. This means that mobile devices do not benefit despite mobile devices having the greatest need for compression.
 
-
 ### Summary
 
-
-
-
-
- 	
-  * **One-click texture compression** for DXT, PVR and ETC1
-
- 	
-  * Achieve at least **6 times compression** of all texture data in your WebGL apps
-
- 	
-  * **Most optimal image format selected** for device running a PlayCanvas app
-
+- **One-click texture compression** for DXT, PVR and ETC1
+- Achieve at least **6 times compression** of all texture data in your WebGL apps
+- **Most optimal image format selected** for device running a PlayCanvas app
 
 PlayCanvas Texture Compression is available from today for Organization and Personal account holders ([see the manual](http://developer.playcanvas.com/en/user-manual/assets/textures/#texture-compression) for more info). It will be rolled out to all users following a short beta period. So go forth, compress your textures and take your WebGL apps to a whole new level. And if you're new to PlayCanvas, why not [sign up today](https://playcanvas.com/). We can't wait to see what you make!
 

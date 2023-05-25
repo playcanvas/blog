@@ -8,54 +8,26 @@ slug: playcanvas-update-150814
 title: PlayCanvas Update 15/08/14
 wordpress_id: 1614
 categories:
-- News
+  - News
 ---
 
 **This week, PlayCanvas travelled far and wide to attend the world's biggest games and graphics conferences.**
 
-
-
-
-
 ## GDC Europe, gamescom and SIGGRAPH
-
 
 Will (PlayCanvas CEO) headed off to [GDC Europe](http://www.gdceurope.com/) and [gamescom ](http://www.gamescom-cologne.com/en/gamescom/home/index.php)this week while Dave (PlayCanvas CTO) travelled to Vancouver for SIGGRAPH. PlayCanvas made a real splash at both and in the next few days, we'll be writing a blog entry dedicated to each trip.
 
-
 ## Features and Fixes:
 
-
-
-
-
-	
-  * We improved the rendering of the PlayCanvas website at mobile resolutions. Explore the site on your smartphone to see how great the site looks now.
-
-	
-  * Kevin, our Design Guru, has refreshed the design on various 'logged in' pages, making navigation clearer and simpler.
-
-
-
+- We improved the rendering of the PlayCanvas website at mobile resolutions. Explore the site on your smartphone to see how great the site looks now.
+- Kevin, our Design Guru, has refreshed the design on various 'logged in' pages, making navigation clearer and simpler.
 
 ## Stay In The Loop
 
-
-
-
 Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
-
-
 
 Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-
-
-
 Join and start discussions on the [PlayCanvas Forum](http://forum.playcanvas.com/).
-
-
-
 
 Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).
