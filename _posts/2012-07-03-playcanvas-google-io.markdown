@@ -8,13 +8,11 @@ slug: playcanvas-google-io
 title: PlayCanvas @ Google I/O
 wordpress_id: 341
 categories:
-- News
+  - News
 ---
 
 A massive thank you to everybody who took the time to swing by our stand at Google I/O last week. We had an amazing time and hope you did too. If you weren't at the conference, here's our space in the Developer Sandbox:
 
-
 [![](http://playcanvas.com/wp-content/uploads/2012/07/playcanvas_google_io.jpg)](http://playcanvas.com/wp-content/uploads/2012/07/playcanvas_google_io.jpg)
-
 
 We were really excited to be showing our latest game/demo: a networked multiplayer, third person shooter. We were running MacBook Pro and a ChromeBook connected to a node.js server. We think we did a great job of showing just what's possible with HTML5 (and WebGL) with only moderate hardware. Expect some more info soon on the near-term plans we have for the demo...

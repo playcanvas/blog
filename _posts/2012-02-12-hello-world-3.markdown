@@ -8,7 +8,7 @@ slug: hello-world-3
 title: Hello World
 wordpress_id: 83
 categories:
-- News
+  - News
 ---
 
 Welcome to the PlayCanvas blog (and the new look website!).

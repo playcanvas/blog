@@ -8,27 +8,20 @@ slug: playcanvas-feature-update
 title: PlayCanvas Feature Update
 wordpress_id: 2238
 categories:
-- News
+  - News
 ---
 
 [![Editor](https://blog.playcanvas.com/wp-content/uploads/2015/09/Editor-1024x522.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/09/Editor.jpg)
 
-
 ## Entity Materials
-
 
 Have you ever been bothered by changes to your materials affecting all Entities with that model? You no longer need to worry. With the new Entity Materials feature you can customize which materials are applied on a per Entity basis.
 
 Simply drag a material onto your model to create new Entity material. Or manage it from the model component interface.
 
-
 ## [![shader_update](https://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)](http://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)
 
-
-
-
 ## Shader Assets
-
 
 We now let you upload and create GLSL shader code as an asset in your project. Simply drop a **.glsl** file into the scene. Or create a new file from scratch in the asset panel.
 
@@ -36,6 +29,5 @@ Also, if you're smart, you can use the **asset.on("change")** event to automatic
 
 **Live editing of material shaders anyone?**
 These are just two of the new features we've added over the past few months. If you haven't visited PlayCanvas in a while. Now is the perfect time to get back to building.
-
 
 [TRY PLAYCANVAS NOW](https://playcanvas.com)

@@ -8,7 +8,7 @@ slug: webvr-lab-launch
 title: WebVR Lab launches with Chrome 56 for Daydream
 wordpress_id: 2517
 categories:
-- News
+  - News
 ---
 
 Today we're excited to launch the [WebVR Lab](http://webvr.playcanvas.com), a living project built by the PlayCanvas team to help developers learn about creating scalable and responsive WebVR applications for all devices.
@@ -24,10 +24,8 @@ WebVR is a new standard that makes VR experiences accessible to the billions of 
 
 Chrome 56 for Android, launched this week, supports WebVR using the Daydream View headsets.
 
-
 <blockquote>“WebVR allows developers to build an experience that scales across all VR platforms from Google Cardboard and Daydream to desktop VR headsets, while also supporting 2D displays. Different platforms have different capabilities and the PlayCanvas WebVR Lab project gives developers an example of how to manage that diversity.”
 **Megan Lindsay, Google Product Manager for WebVR**</blockquote>
-
 
 We launched our [official WebVR support](https://blog.playcanvas.com/webvr-support-in-playcanvas/) back in November and the WebVR Lab marks the company’s next step to ensure that developers can quickly and efficiently build the most beautiful WebVR experiences possible.
 

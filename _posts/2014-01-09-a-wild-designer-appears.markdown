@@ -8,13 +8,13 @@ slug: a-wild-designer-appears
 title: A wild designer appears!
 wordpress_id: 1056
 categories:
-- Announcement
-- News
+  - Announcement
+  - News
 ---
 
 To kick off 2014 with a bang, we're welcoming a brand new member to the PlayCanvas family.
 
-[caption id="attachment_1058" align="aligncenter" width="600"][![Roonio logo](https://blog.playcanvas.com/wp-content/uploads/2014/01/roonio.png)](http://blog.playcanvas.com/wp-content/uploads/2014/01/roonio.png) Kevin's image doesn't appear on film, so we've used this instead.[/caption]
+[caption id="attachment_1058" align="aligncenter" width="600"]![Roonio logo](https://blog.playcanvas.com/wp-content/uploads/2014/01/roonio.png)](http://blog.playcanvas.com/wp-content/uploads/2014/01/roonio.png) Kevin's image doesn't appear on film, so we've used this instead.[/caption]
 
 Kevin Rooney joins us as Creative Director, check out his [amazing portfolio](http://www.roonio.com/). Kevin is an experienced designer who has sampled the start-up life before at [Memrise](http://memrise.com).
 

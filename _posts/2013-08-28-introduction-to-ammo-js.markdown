@@ -8,8 +8,8 @@ slug: introduction-to-ammo-js
 title: Introduction to ammo.js
 wordpress_id: 900
 categories:
-- Announcement
-- News
+  - Announcement
+  - News
 ---
 
 Last night I presented at the [London HTML5 Game Dev meetup](http://www.meetup.com/London-HTML5-Game-Developers/). As usual we had an awesome time and if you're based in or around London then you should definitely try and get along to the next one.

@@ -8,16 +8,14 @@ slug: the-making-of-seemore-webgl
 title: The Making of Seemore WebGL
 wordpress_id: 2094
 categories:
-- News
+  - News
 ---
 
 At GDC 2015, ARM and PlayCanvas unveiled the Seemore WebGL demo. If you haven’t seen it yet, it takes WebGL graphics to a whole new level.
 
-
 [![seemore](https://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)
 [**CLICK HERE**](http://seemore.playcanvas.com)
 TO LAUNCH SEEMORE
-
 
 So why did we build this demo? We had two key goals:
 
@@ -31,9 +29,7 @@ ARM Mali GPUs pack a serious graphical punch and Seemore is designed to fully de
 
 It's not practical to examine all of the engine updates we made to bring Seemore to life. So instead, let’s examine three of the more interesting engine features that were developed for the project.
 
-
 ### Prefiltered Cubemaps
-
 
 This is the generation and usage of prefiltered cubemaps. Each mipmap level stores environment reflection at different level of surface roughness - from mirror-like to diffuse.
 
@@ -51,9 +47,7 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 [http://http.developer.nvidia.com/GPUGems3/gpugems3_ch20.html](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch20.html)
 [https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/](https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/)
 
-
 #### Box-projected cubemaps
-
 
 This feature makes cubemaps work as if projected onto the insides of a box, instead of being infinitely far away (as with a regular skybox cubemap). This technique is widely used in games for interior reflection and refraction.
 
@@ -71,36 +65,25 @@ This effect is implemented using a world-space AABB projection. Refraction uses 
 
 [http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/](http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/)
 
-
 #### Custom shader chunks
-
 
 Standard material shaders in PlayCanvas are assembled from multiple code 'chunks'. Often, you don't want to replace the whole shader, but you'd like to only change some parts of it, like adding some procedural ambient occlusion or changing the way a surface reflects light.
 
 This feature was required in Seemore to achieve the following:
 
-
-
-	
-  * **Dual baked ambient occlusion.** The main plant uses 2 AO maps for open and closed mouth states which are interpolated dynamically.
-[![AO](https://blog.playcanvas.com/wp-content/uploads/2015/04/AO.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/04/AO.jpg)
-
-	
-  * **Fake foliage translucency.** This attenuates emission to make it appear as though light is scattered on the back-faces of leaves in a hemispherically lit room. The plant’s head uses a more complex version of the effect, calculating per-vertex procedural light occlusion.
-[![fol](https://blog.playcanvas.com/wp-content/uploads/2015/04/fol.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/04/fol.jpg)
-
-	
-  * **Plant/tentacle animation.** Procedural code that drives vertex positions/normals/tangents.
-
+- **Dual baked ambient occlusion.** The main plant uses 2 AO maps for open and closed mouth states which are interpolated dynamically.
+  [![AO](https://blog.playcanvas.com/wp-content/uploads/2015/04/AO.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/04/AO.jpg)
+- **Fake foliage translucency.** This attenuates emission to make it appear as though light is scattered on the back-faces of leaves in a hemispherically lit room. The plant’s head uses a more complex version of the effect, calculating per-vertex procedural light occlusion.
+  [![fol](https://blog.playcanvas.com/wp-content/uploads/2015/04/fol.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/04/fol.jpg)
+- **Plant/tentacle animation.** Procedural code that drives vertex positions/normals/tangents.
 
 **How did we do it?**
 
 Shader chunks are stored in the engine sourcebase as .vert and .frag files that contain snippets of GLSL. You can find all of these files [here](https://github.com/playcanvas/engine/tree/master/src/graphics/programlib/chunks). Here’s an example chunk that applies exponential squared fog to a fragment:
 
-    
       uniform vec3 fog_color;
       uniform float fog_density;
-    
+
       vec3 addFog(inout psInternalData data, vec3 color) {
           float depth = gl_FragCoord.z / gl_FragCoord.w;
           float fogFactor = exp(-depth * depth * fog_density * fog_density);
@@ -108,12 +91,9 @@ Shader chunks are stored in the engine sourcebase as .vert and .frag files that 
           return mix(fog_color, color, fogFactor);
       }
 
-
 Each chunk file’s name becomes its name at runtime, with PS or VS appended, depending on whether the chunk forms part of a vertex or pixel shader. In the case above, the filename is fogExp2.frag. It’s a simple matter to replace this fragment on a material. Simply do:
 
-    
       material.chunks.fogExp2PS = myCustomShaderString;
-
 
 **Show me the code!**
 

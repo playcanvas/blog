@@ -8,7 +8,7 @@ slug: ios-webgl-support
 title: iOS WebGL Support
 wordpress_id: 1267
 categories:
-- News
+  - News
 ---
 
 [![PlayCanvas on iPhone](https://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)

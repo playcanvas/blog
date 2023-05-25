@@ -8,7 +8,7 @@ slug: better-asset-management
 title: Better Asset Management
 wordpress_id: 2249
 categories:
-- News
+  - News
 ---
 
 [![Screen Shot 2015-11-03 at 17.45.06](https://blog.playcanvas.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-03-at-17.45.06.png)](http://blog.playcanvas.com/wp-content/uploads/2015/11/Screen-Shot-2015-11-03-at-17.45.06.png)
@@ -23,7 +23,7 @@ _Some special notes because nothing is quite that simple:_
 
 **Source assets** are now always visible in your asset panel. This means you might see some extra files that you didn't realize you had. Source assets are files that are in a format that you can't use at runtime in your game. You'll see these for some textures and for 3D model and animation formats, they look like asset icons with a dashed border around them.
 
-[caption id="attachment_2252" align="aligncenter" width="627"][![source-assets](https://blog.playcanvas.com/wp-content/uploads/2015/11/source-assets.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/11/source-assets.jpg) Source asset visible in the editor[/caption]
+[caption id="attachment_2252" align="aligncenter" width="627"]![source-assets](https://blog.playcanvas.com/wp-content/uploads/2015/11/source-assets.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/11/source-assets.jpg) Source asset visible in the editor[/caption]
 
 **Scripts** are still a little bit special and we've put them in their own Scripts folder which you can't put other assets in or modify at the moment. We're working on some exciting changes to the way scripting is handled.
 

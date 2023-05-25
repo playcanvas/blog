@@ -8,8 +8,8 @@ slug: playcanvas-scripts-2-0
 title: PlayCanvas Scripts 2.0
 wordpress_id: 2378
 categories:
-- Announcement
-- Features
+  - Announcement
+  - Features
 ---
 
 https://www.youtube.com/watch?v=PS4oMLPyYfI&feature;=youtu.be
@@ -18,29 +18,13 @@ We've just launched "Scripts 2.0", a complete re-design and re-implementation o
 
 Here's a list of the improvements you can enjoy with the new script system:
 
-
-
- 	
-  * rapid iteration by hot-swapping code at run-time
-
- 	
-  * real-time collaborative code editing
-
- 	
-  * script concatenation and minification for publishing
-
- 	
-  * better error handling and fault tolerance
-
- 	
-  * full folder support for script assets
-
- 	
-  * multiple script definitions in a single file
-
- 	
-  * simpler interface and boilerplate
-
+- rapid iteration by hot-swapping code at run-time
+- real-time collaborative code editing
+- script concatenation and minification for publishing
+- better error handling and fault tolerance
+- full folder support for script assets
+- multiple script definitions in a single file
+- simpler interface and boilerplate
 
 **Live hot-swapping**
 

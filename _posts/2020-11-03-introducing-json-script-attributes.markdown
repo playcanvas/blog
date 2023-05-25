@@ -8,54 +8,21 @@ slug: introducing-json-script-attributes
 title: Introducing JSON Script Attributes
 wordpress_id: 2654
 categories:
-- News
+  - News
 tags:
-- editor
-- scripting
-- workflow
+  - editor
+  - scripting
+  - workflow
 ---
-
-
-
-
-
-
-
-
-
 
 ![JSON Script Attributes Preview](https://blog.playcanvas.com/wp-content/uploads/2020/11/json-thumbnail-no-arrow-1024x576.jpg)
 
-
-
-
-
-
-
 We have levelled up the Script Attributes that makes it much easier to organize and group related attributes together.
-
-
-
-
-
-
 
 Using JSON, developers are able to define a schema for a data object that has multiple attributes and have them grouped together in the Inspector.
 
-
-
-
-
-
-
 In the example below, we have created a JSON schema with the name ‘settings’ and has the attributes ‘gravity’, ‘startingHealth’ and ‘godMode’.
 
-
-
-
-
-
-    
     <code>GameManager.attributes.add('settings', {
         type: 'json',
         schema: [{
@@ -73,38 +40,14 @@ In the example below, we have created a JSON schema with the name ‘settings’
         }]
     });</code>
 
-
-
-
-
-
-
 In the Inspector, the data object is shown as a collapsible section:
-
-
-
-
-
-
 
 ![Collapsible script settings](https://blog.playcanvas.com/wp-content/uploads/2020/11/Kapture-2020-10-21-at-12.27.36-1.gif)
 
+Even better, **these data objects can made into an array**! This is a huge improvement over having to organize multiple attribute arrays that was difficult to update and error prone to maintain.
 
-
-
-
-
-
-Even better, **these data objects can made into an array**! This is a huge improvement over having to organize multiple attribute arrays that was difficult to update and error prone to maintain.  
-  
 Example JSON schema for an array of enemies:
 
-
-
-
-
-
-    
     <code>GameManager.attributes.add('enemies', {
         type: 'json',
         schema: [{
@@ -127,29 +70,8 @@ Example JSON schema for an array of enemies:
         array: true
     });</code>
 
-
-
-
-
-
-
 Becomes the following in the inspector which is so much cleaner!
-
-
-
-
-
-
 
 ![Arrays of JSON objects](https://blog.playcanvas.com/wp-content/uploads/2020/11/image-22.png)
 
-
-
-
-
-
-
 Read more in the [documentation](https://developer.playcanvas.com/en/user-manual/scripting/script-attributes/) and let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
-
-
-

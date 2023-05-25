@@ -8,7 +8,7 @@ slug: tanx-takes-webgl-gaming-to-a-new-level
 title: TANX Takes WebGL Gaming to a New Level
 wordpress_id: 2453
 categories:
-- News
+  - News
 ---
 
 One of the most popular WebGL games today is TANX, our online tank battle game. WebGL brings developers amazing new possibilities: lightning fast load times, cross-platform play, easy sharing, incredible performance. It all adds up to instant, pure fun.
@@ -31,18 +31,11 @@ To turn up the mayhem, we've added camera shake and punchy explosions, built wit
 
 ![tanx-boom](https://blog.playcanvas.com/wp-content/uploads/2016/11/tanx-boom.gif)
 
-
-
 The game even has a new URL. Play now at:
-
 
 #### [https://tanx.io](https://tanx.io)
 
-
-
-
 <blockquote>Public Service Announcement: TANX is highly addictive. Please take occasional breaks!</blockquote>
-
 
 Can you believe this game is playable after loading just 2.8MB of data? Massive fun delivered to your browser in seconds.
 

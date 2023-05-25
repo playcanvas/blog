@@ -8,22 +8,18 @@ slug: playcanvas-in-ludum-dare-31
 title: PLAYCANVAS in LUDUM DARE 31
 wordpress_id: 1842
 categories:
-- News
+  - News
 ---
 
 **Ludum Dare 31 has come and gone, but many great projects featured PlayCanvas over the course of the weekend. Here's your round up for our involvement in one of the most popular Game Jams in the world.**
 
 ![VAIOSGAME](https://blog.playcanvas.com/wp-content/uploads/2014/12/VAIOSGAME.png)
 
-
 ### **What is the Ludum Dare?**
-
 
 Remaining active for over 12 years (making it one of the longest Game Jams in existence) to this day LUDUM DARE is an **event run by game developers for game developers**. During a Ludum Dare, 'developers from around the world spend a weekend creating games based on a theme suggested by the community' competing for a grand prize of nothing. Crazy we know, but this grand prize is for good reason. **Your prize is your product**.
 
-
 ### **Ludum Dare 31 and PlayCanvas**
-
 
 Over the past weekend there was some great developing happening with PlayCanvas in the Ludum Dare. You can find the projects on our explore page but these incredible developers endured espionage grade sleep deprivation and probably experienced the full spectrum of human emotion. So for their efforts, we'll happily give their creations some love.
 
@@ -35,7 +31,7 @@ PlayCanvas user [FELLADRIN](https://playcanvas.com/felladrin) made a colourful 
 
 [CREFOSSUS](https://playcanvas.com/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](http://apps.playcanvas.com/crefossus/psi/Alpha002).
 
-**[Winter Blast](http://apps.playcanvas.com/vaios/ld31/winterblast), ****a twin stick shooter style game **was also created over the course of the weekend. In this game you play a snowman in the unfortunate position of being subjected to wave after wave of evil, life draining snowmen. [How long will you survive?](http://apps.playcanvas.com/vaios/ld31/winterblast)
+**[Winter Blast](http://apps.playcanvas.com/vaios/ld31/winterblast), \*\***a twin stick shooter style game \*\*was also created over the course of the weekend. In this game you play a snowman in the unfortunate position of being subjected to wave after wave of evil, life draining snowmen. [How long will you survive?](http://apps.playcanvas.com/vaios/ld31/winterblast)
 
 One game 'jumped' right into LD entry with [**Boing**](http://apps.playcanvas.com/dave/onescreen/boing). Including things like super cool level transitions, the finished game is an incredibly fun **side scrolling 2D style game**. Why not check it out [here](http://apps.playcanvas.com/dave/onescreen/boing)?
 
@@ -43,14 +39,9 @@ While admittedly the finished version of **[Last Line of Defense](http://apps.p
 
 If you have enjoyed playing any of these games, **log in on the [Ludum Dare](http://ludumdare.com/compo/) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
 
-
 ### PLAYHACK December
 
-
-
-
 [![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
-
 
 If you feel that a weekend is too much of a rush to take part in a game jam then we have a great alternative for you. **Last week we started our second PLAYHACK**, after some great entries in our first PLAYHACK.
 

@@ -8,7 +8,7 @@ slug: playcanvas-versus-unity-webgl
 title: PlayCanvas versus Unity WebGL
 wordpress_id: 2393
 categories:
-- News
+  - News
 ---
 
 A question we get asked a lot is "How does PlayCanvas compare to Unity's WebGL export?". So let's examine this in a blog post.
@@ -25,11 +25,10 @@ The application above is the PlayCanvas app. I'm not embedding the Unity app si
 
 We decided to look at 3 key metrics: download size, load time and frame rate.
 
-
 ### Download Size
 
-
 To check the download size of each app, we disabled the cache in Chrome Dev Tools and recorded the total transfer:
+
 <table >
 <tbody >
 <tr >
@@ -50,11 +49,10 @@ PlayCanvas
 
 Unity, on the other hand, relies on Emscripten to export to WebGL. This tool auto-converts C# code to C++, which in turn is compiled to LLVM before finally being turned into JavaScript. A side effect of this process is the generation of huge amounts of code, which bloats the exported application, overwhelms modern JavaScript engines and often causes the browser to run out of memory.
 
-
 ### Load Time
 
-
 We ran both apps on 12 different devices, from low end to high end. These were the recorded load times on a 50Mb/s connection to the net:
+
 <table >
 <tbody >
 <tr >
@@ -235,24 +233,14 @@ PlayCanvas (s)
 </table>
 Key things to notice:
 
-
-
- 	
-  * **The PlayCanvas app's load times are up to 43 times faster than the Unity app.**
-
- 	
-  * The Unity app fails to even load on lower end devices. The sheer amount of JavaScript causes the browser on those devices to run out of memory loading the page.
-
- 	
-  * Load times for Unity are up to twice as slow in Chrome as Safari. This could be down to Chrome spending more time preparing the app's huge JavaScript codebase for execution.
-
-
-
+- **The PlayCanvas app's load times are up to 43 times faster than the Unity app.**
+- The Unity app fails to even load on lower end devices. The sheer amount of JavaScript causes the browser on those devices to run out of memory loading the page.
+- Load times for Unity are up to twice as slow in Chrome as Safari. This could be down to Chrome spending more time preparing the app's huge JavaScript codebase for execution.
 
 ### Frame Rate
 
-
 Here are the frame rates recorded for the same set of devices:
+
 <table >
 <tbody >
 <tr >
@@ -433,36 +421,17 @@ PlayCanvas (fps)
 </table>
 Key things to notice:
 
-
-
- 	
-  * **PlayCanvas frame rates are up to 4 times greater than Unity.** In particular, Unity seems to perform poorly in Safari on iOS.
-
- 	
-  * Unity exhibits very unstable performance in Chrome for Android. Initially, the app's frame rate is in the mid to high teens for approximately 20 seconds before it starts to rise to a number in the 50s. At that point it, it regularly drops frames and never reaches a solid 60FPS.
-
- 	
-  * PlayCanvas easily locks to 60FPS across all devices except iPhone 4S where an occasional frame is dropped. Ideally, a much heavier stress test would be required to start taxing PlayCanvas.
-
-
-
+- **PlayCanvas frame rates are up to 4 times greater than Unity.** In particular, Unity seems to perform poorly in Safari on iOS.
+- Unity exhibits very unstable performance in Chrome for Android. Initially, the app's frame rate is in the mid to high teens for approximately 20 seconds before it starts to rise to a number in the 50s. At that point it, it regularly drops frames and never reaches a solid 60FPS.
+- PlayCanvas easily locks to 60FPS across all devices except iPhone 4S where an occasional frame is dropped. Ideally, a much heavier stress test would be required to start taxing PlayCanvas.
 
 ### Conclusion
 
-
 To summarise:
 
-
-
- 	
-  * **Unity WebGL apps are up to 21 times larger.**
-
- 	
-  * **PlayCanvas apps load up to 43 times faster.**
-
- 	
-  * **PlayCanvas app frame rates are up to 4 times higher.**
-
+- **Unity WebGL apps are up to 21 times larger.**
+- **PlayCanvas apps load up to 43 times faster.**
+- **PlayCanvas app frame rates are up to 4 times higher.**
 
 Even for the most basic of 3D apps, Unity struggles to achieve anything close to acceptable download size, load time and frame rate. It's important not to somehow blame browser vendors or HTML5/WebGL for these results. As PlayCanvas proves, you can achieve incredible performance using these web technologies _today_ as long as a sensible approach is taken when architecting an engine.
 

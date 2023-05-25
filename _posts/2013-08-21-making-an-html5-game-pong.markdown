@@ -5,11 +5,11 @@ date: 2013-08-21 09:39:31+00:00
 layout: post
 link: https://blog.playcanvas.com/making-an-html5-game-pong/
 slug: making-an-html5-game-pong
-title: 'Making an HTML5 game : Pong'
+title: "Making an HTML5 game : Pong"
 wordpress_id: 887
 categories:
-- Announcement
-- Tutorial
+  - Announcement
+  - Tutorial
 ---
 
 A video tutorial on how to make a Pong clone using PlayCanvas.

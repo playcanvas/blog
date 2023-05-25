@@ -8,7 +8,7 @@ slug: playcanvas-sxsw
 title: PlayCanvas @ SXSW
 wordpress_id: 1098
 categories:
-- News
+  - News
 ---
 
 [caption id="attachment_1099" align="aligncenter" width="575"]![CEO Will Eastcott at SXSW Accelerator](https://blog.playcanvas.com/wp-content/uploads/2014/03/IMG_20140308_171838.jpg) CEO Will Eastcott at SXSW Accelerator[/caption]

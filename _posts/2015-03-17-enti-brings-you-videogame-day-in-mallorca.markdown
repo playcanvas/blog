@@ -8,7 +8,7 @@ slug: enti-brings-you-videogame-day-in-mallorca
 title: ENTI Brings you VideoGame Day in Mallorca
 wordpress_id: 2038
 categories:
-- News
+  - News
 ---
 
 PlayCanvas is passionate about education and many universities throughout the world are already using PlayCanvas to teach videogame development skills. One such school is ENTI, which is attached to the University of Barcelona in Catalonia, Spain.
@@ -32,4 +32,4 @@ You can apply for participation sending an e-mail to: info@enti.cat or confirm 
 
 It is recommended that all attendees bring a notebook for the practical part of the workshop.
 
-So what are you waiting for? Why not enjoy some Mediterranean sun _and_ learn some great new development skills at the same time?
+So what are you waiting for? Why not enjoy some Mediterranean sun *and* learn some great new development skills at the same time?

@@ -8,11 +8,9 @@ slug: playhack-december-player-character
 title: PLAYHACK December - Player Character
 wordpress_id: 1855
 categories:
-- PLAYHACK
-- Tutorial
+  - PLAYHACK
+  - Tutorial
 ---
-
-
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I'll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](http://blog.playcanvas.com/playhack-december-jolly-santa/) about this month's PLAYHACK._
 
@@ -34,18 +32,14 @@ To follow along with this tutorial, fork the [PLAYHACK December project](https:/
 
 So you've forked the repository and got it open in the editor. We're going to need to make a few changes to start making our game.
 
-
 ## Camera
-
 
 Firstly, the camera. There are two camera types in PlayCanvas - Perspective and Orthographic. Perspective is what you want for most 3D games – it’s how things look in life.
 However, our game is pretty much 2D - which means an Orthographic projection would be best for us. To make the switch, select the Camera in the Pack Explorer, then in the Attribute Editor on the right, change Projection from "Perspective" to "Orthographic."
 
 If you test now by pressing the Launch button, you'll see that Santa is tiny in the middle of the screen! That's not what we want. We can fix this by reducing the Ortho Height attribute of the camera. Reduce it from 100 down to about 10, and now check the game. Santa's now a much better size!
 
-
 ## Player
-
 
 [![Santa_Player](https://blog.playcanvas.com/wp-content/uploads/2014/12/Designer_-_PlayCanvas-2.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/Designer_-_PlayCanvas-2.jpg)
 
@@ -57,100 +51,79 @@ Let's get Santa moving. We're going to create two ways for Santa to move - by mo
 
 To do this, right click on Santa_sleigh in the Pack Explorer, and select Add Component > Script. Now we can attach scripts to Santa. To attach a new script to Santa, simply type the name of the new script (in our case, "Santa_Controller") in the URL box of the Script Attribute we just added to Santa.
 
-
 ## Player Controller
-
 
 Now we've created the new script and attached it to Santa, let's edit it and make Santa do something! Click on the blue Santa_Controller.js link that should have appeared below the URL box to get editing!
 
 You'll be greeted by a new script that should look like this:
 
-    
     pc.script.create('Santa_Controller', function (context) {
         // Creates a new Santa_Controller instance
         var Santa_Controller = function (entity) {
             this.entity = entity;
         };
-    
+
         Santa_Controller.prototype = {
             // Called once after all resources are loaded
             initialize: function () {
             },
-    
+
             // Called every frame, dt is time in seconds since last update
             update: function (dt) {
             }
         };
-    
+
         return Santa_Controller;
     });
-    
-
 
 Let’s think about what we need to do to make Santa move up and down. Well, we’ll need the speed we want him to move – so let’s put that as an attribute so we can change it easily.
 
-    
     ...
     pc.script.attribute("speed", "number", 10);
     pc.script.create('Santa_Controller', function (context) {
     ...
-    
-
 
 Now, let’s make 2 functions – one that moves Santa up, and one that moves Santa down.
 
-    
     ...
             // Called every frame, dt is time in seconds since last update
             update: function (dt) {
             },
-            
+
             moveUp: function(dt) {
                 this.entity.translate(0, this.speed * dt, 0);
             },
-            
+
             moveDown: function(dt) {
                 this.entity.translate(0, -this.speed * dt, 0);
-            } 
+            }
     };
     ...
-    
-
 
 The translate function is one that all entities have, and simply moves the entity by a specified amount. In this case, we want Santa to move up or down by the speed, multiplied by the amount of time passed in the current frame. We do this so that Santa will move the same speed however fast our game is running!
 
-
 ## Keyboard Controls
-
 
 Now, let’s look at keyboard controls. To do anything with the keyboard in PlayCanvas, we need to use context.keyboard. context is available in all scripts, and allows us access to all the data our game has to offer – in this case, we need the keyboard, which deals with keyboard input.
 
 We can use context.keyboard.isPressed to check if specific keys are pressed – if W or S are pressed, we’ll move Santa up or down accordingly. We’ll need to check every frame, so put the following code in the update function:
 
-    
     if(context.keyboard.isPressed(pc.input.KEY_W)) {
         this.moveUp(dt);
     }
     if(context.keyboard.isPressed(pc.input.KEY_S)) {
         this.moveDown(dt);
     }
-    
-
 
 Before we test the game, however, there’s something we need to do. The editor needs to be told when we add an attribute to a script, so back in the editor, and go Entity>Refresh Script Attributes. A box should come up underneath our Santa_Controller.js script allowing us to change the speed of Santa.
 
 Now test the game – we should be able to move Santa up and down now using the W and S keys! Change the speed in the editor until you find something that feels fun.
 
-
 ## Mouse Controls
-
 
 That’s all good, however, we want the option of using the mouse or the keyboard! Let’s add another attribute in our script that will allow us to change between mouse and keyboard when testing:
 
-    
     pc.script.attribute("keyboard", "boolean", true);
-    
-
 
 If you do Entity>Refresh Script Attributes again, you’ll see another attribute that we can change, and this time it’s a check box. That’s all a Boolean is – a true or a false value. Either off or on. If keyboard is ticked we’ll use the keyboard input, and if it’s not we’ll use the mouse.
 
@@ -162,8 +135,7 @@ A listener is simply a function that we define, that gets called by a specific e
 
 So, let’s set this up:
 
-    
-    ... 
+    ...
         // Called once after all resources are loaded
         initialize: function () {
             //Used to store the mouse position
@@ -171,27 +143,22 @@ So, let’s set this up:
             context.mouse.on(pc.input.EVENT_MOUSEMOVE, this.onMouseMove, this);
         },
     ...
-    
-
 
 We’ve got a variable called pos that we’ll store the current mouse position in. The next line is what creates our listener. We’re saying when there’s a mouse move event, we want a function called onMouseMove to execute. Let’s write that function now:
 
-    
-    ... 
+    ...
         moveDown: function(dt) {
             this.entity.translate(0, -this.speed * dt, 0);
         },
-    
+
         onMouseMove: function () {
-            // Use the camera component's screenToWorld function to convert the 
+            // Use the camera component's screenToWorld function to convert the
             // position of the mouse into a position in 3D space
             var depth = 10;
             var cameraEntity = context.root.findByName('Camera');
             cameraEntity.camera.screenToWorld(event.x, event.y, depth, this.pos);
         }
     ...
-    
-
 
 In the onMouseMove function, which gets called every time the mouse moves, we have to do some work to get the position we need. Because the mouse is only on a 2D screen, we have to look at use the camera’s screenToWorld function to get the position we want.
 
@@ -199,7 +166,6 @@ Have a look at this [mouse tutorial](http://developer.playcanvas.com/tutorials/b
 
 Now we’ve got the position of the mouse in this.pos – we can use that to move Santa! Let’s update our update function:
 
-    
             update: function (dt) {
                 if(this.keyboard) {
                     if(context.keyboard.isPressed(pc.input.KEY_W)) {
@@ -216,9 +182,7 @@ Now we’ve got the position of the mouse in this.pos – we can use that to mov
                         this.moveDown(dt);
                     }
                 }
-            }, 
-    
-
+            },
 
 First things first - we now check to see if we’re using keyboard or mouse. If we’re using the keyboard, we do exactly what we did before – otherwise, we can use the mouse for input.
 

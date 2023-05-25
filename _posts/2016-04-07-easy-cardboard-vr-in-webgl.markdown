@@ -8,7 +8,7 @@ slug: easy-cardboard-vr-in-webgl
 title: Easy Cardboard VR in WebGL
 wordpress_id: 2334
 categories:
-- Features
+  - Features
 ---
 
 Today we've launched a new [library](https://github.com/playcanvas/webvr) and [developer tutorial](http://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) and [sample project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) showing you how to implement your own Cardboard VR web applications using PlayCanvas.
