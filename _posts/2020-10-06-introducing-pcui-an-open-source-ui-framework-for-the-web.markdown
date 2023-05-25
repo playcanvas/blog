@@ -30,7 +30,7 @@ Check out the viewer's [GitHub repo](https://github.com/playcanvas/playcanvas-vi
 If these applications inspire you to build your own browser-based tools, why not get started with PCUI today? Here are some useful links:
 
 - [GitHub repo](https://github.com/playcanvas/pcui) - open sourced under MIT
-- [Developer site](http://playcanvas.github.io/pcui/) - including Storybook support for browsing components
+- [Developer site](https://playcanvas.github.io/pcui/) - including Storybook support for browsing components
 - [NPM page](https://www.npmjs.com/package/@playcanvas/pcui) - released today as version 1.0.0
 
 PCUI works great with vanilla JS projects, Typescript projects and React-based projects. It's open source so we encourage you to get involved and help us advance PCUI.

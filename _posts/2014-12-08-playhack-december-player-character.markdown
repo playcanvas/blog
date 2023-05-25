@@ -162,7 +162,7 @@ We’ve got a variable called pos that we’ll store the current mouse position 
 
 In the onMouseMove function, which gets called every time the mouse moves, we have to do some work to get the position we need. Because the mouse is only on a 2D screen, we have to look at use the camera’s screenToWorld function to get the position we want.
 
-Have a look at this [mouse tutorial](http://developer.playcanvas.com/tutorials/beginner/mouse-input/) if you want to know more about how this works!
+Have a look at this [mouse tutorial](https://developer.playcanvas.com/tutorials/beginner/mouse-input/) if you want to know more about how this works!
 
 Now we’ve got the position of the mouse in this.pos – we can use that to move Santa! Let’s update our update function:
 

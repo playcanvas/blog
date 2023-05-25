@@ -165,4 +165,4 @@ If you were using this to make resource requests like loading Packs or asking f
       }
     });
 
-That's it! If you notice any problems or have trouble upgrading, get in touch on the [forum](http://forum.playcanvas.com/).
+That's it! If you notice any problems or have trouble upgrading, get in touch on the [forum](https://forum.playcanvas.com/).

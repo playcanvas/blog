@@ -11,8 +11,8 @@ categories:
   - News
 ---
 
-[![icon](https://blog.playcanvas.com/wp-content/uploads/2016/01/icon.jpg)](http://developer.playcanvas.com/en/tutorials/beginner/keepyup-part-one/)
+[![icon](https://blog.playcanvas.com/wp-content/uploads/2016/01/icon.jpg)](https://developer.playcanvas.com/en/tutorials/beginner/keepyup-part-one/)
 
-In preparation for your [PLAYHACK game jam](http://blog.playcanvas.com/playhack-with-playjam-starts-on-monday/), why not run through our [6 part tutorial](http://developer.playcanvas.com/en/tutorials/beginner/keepyup-part-one/) that takes you through building a complete game in PlayCanvas?
+In preparation for your [PLAYHACK game jam](http://blog.playcanvas.com/playhack-with-playjam-starts-on-monday/), why not run through our [6 part tutorial](https://developer.playcanvas.com/en/tutorials/beginner/keepyup-part-one/) that takes you through building a complete game in PlayCanvas?
 
 The six parts cover: Scene setup, Materials, Scripting, Audio and Particle effects and User Interface

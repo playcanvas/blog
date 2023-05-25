@@ -22,7 +22,7 @@ As this is our first PLAYHACK we thought it would be sensible to start with a fe
 
 ### <del></del>Rotating Turret
 
-In the previous blog posts we set up keyboard controls to move the tank by apply forces to the rigidbody. Now we going to add separate controls to rotate the tanks turret. You try [this project](https://playcanvas.com/playcanvas/gamejam-nov-14) for yourself by running [this pack.](http://playcanvas.com/dave/playhack-nov/designer/pack/30176192-65d3-11e4-9aee-12313b0a5ec6)
+In the previous blog posts we set up keyboard controls to move the tank by apply forces to the rigidbody. Now we going to add separate controls to rotate the tanks turret. You try [this project](https://playcanvas.com/playcanvas/gamejam-nov-14) for yourself by running [this pack.](https://playcanvas.com/dave/playhack-nov/designer/pack/30176192-65d3-11e4-9aee-12313b0a5ec6)
 
     initialize: function () {
         this.turret = this.entity.findByName("Tank_gun_turret");
@@ -76,7 +76,7 @@ To fire the bullet, we clone it, add it into the hierarchy and set it's position
 
 [![PLAYHACK_boxes](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)
 
-Finally we've just added some boxes for target practice. The boxes are simply Entities with a dynamic rigidbody and a collision component. Don't forget you try [this project](https://playcanvas.com/playcanvas/gamejam-nov-14) for yourself by running [this pack.](http://playcanvas.com/dave/playhack-nov/designer/pack/30176192-65d3-11e4-9aee-12313b0a5ec6)
+Finally we've just added some boxes for target practice. The boxes are simply Entities with a dynamic rigidbody and a collision component. Don't forget you try [this project](https://playcanvas.com/playcanvas/gamejam-nov-14) for yourself by running [this pack.](https://playcanvas.com/dave/playhack-nov/designer/pack/30176192-65d3-11e4-9aee-12313b0a5ec6)
 
 ### PLAYHACK
 

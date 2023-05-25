@@ -25,7 +25,7 @@ When it came to applying for jobs after university I fell into game development 
 
 **Can you briefly describe your role at PlayCanvas?**
 
-I'm the CTO, which is a grand title for a small team. But basically I make sure that the development of the PlayCanvas tools and engine are all on track. Making sure all the programmers have stuff to do along with making sure what they are doing makes sense for [PlayCanvas](http://playcanvas.com) in the longer term (i.e. it'll scale as we grow, it's maintainable for the future, etc). I try and get a bit of coding done most days, but that's not always possible. Finally, along with the rest of the team, I'm supporting all our users to make sure they are happy and productive.
+I'm the CTO, which is a grand title for a small team. But basically I make sure that the development of the PlayCanvas tools and engine are all on track. Making sure all the programmers have stuff to do along with making sure what they are doing makes sense for [PlayCanvas](https://playcanvas.com) in the longer term (i.e. it'll scale as we grow, it's maintainable for the future, etc). I try and get a bit of coding done most days, but that's not always possible. Finally, along with the rest of the team, I'm supporting all our users to make sure they are happy and productive.
 
 **Favourite aspect of PlayCanvas' service?**
 
@@ -33,7 +33,7 @@ The speed at which you can prototype a game idea and share it with other people
 
 **How is PlayCanvas changing the way people make games?**
 
-Online communities are massive accelerators where people can learn new skills and create new things. The [PlayCanvas community](http://forum.playcanvas.com/) is built around our tools and we can already see it bringing together game developers from all over the world.
+Online communities are massive accelerators where people can learn new skills and create new things. The [PlayCanvas community](https://forum.playcanvas.com/) is built around our tools and we can already see it bringing together game developers from all over the world.
 
 **Where do you see web-based gaming in the future?**
 

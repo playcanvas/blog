@@ -22,4 +22,4 @@ We're now displaying the camera's of all the users who are viewing your pack. No
 
 So, invite your friends and get building!
 
-Let us know what you think about this feature in the [forums](http://forum.playcanvas.com/t/see-your-friends/95)
+Let us know what you think about this feature in the [forums](https://forum.playcanvas.com/t/see-your-friends/95)

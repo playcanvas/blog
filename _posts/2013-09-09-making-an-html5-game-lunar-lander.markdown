@@ -18,4 +18,4 @@ This is our second video tutorial. It's a bit longer (around 45mins) but it cove
 
 http://www.youtube.com/watch?v=zQQCfd1xEKg
 
-Enjoy and don't forget to leave us feedback on the [forums](http://forum.playcanvas.com/).
+Enjoy and don't forget to leave us feedback on the [forums](https://forum.playcanvas.com/).

@@ -17,7 +17,7 @@ categories:
 
 Our Engineering team have been busy:
 
-- Updates to the Developer Site. We now have full search functionality on [developer.playcanvas.com](http://developer.playcanvas.com) which makes finding what you need much easier. We've also made the API reference a lot nicer to look at.
+- Updates to the Developer Site. We now have full search functionality on [developer.playcanvas.com](https://developer.playcanvas.com) which makes finding what you need much easier. We've also made the API reference a lot nicer to look at.
 - Improved camera zoom in the Designer: zooming the camera within the PlayCanvas Designer could at times be too slow, depending on where your viewpoint was focused this has now been fixed – no more slow-down!.
 - Fixed some issues with creating new materials: sometimes the Create Material button in the Designer would be wrongly disabled but this is now, of course, fixed.
 - Creating and selecting materials is now faster.
@@ -45,6 +45,6 @@ Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for update
 
 Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](http://forum.playcanvas.com/).
+Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
 Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).

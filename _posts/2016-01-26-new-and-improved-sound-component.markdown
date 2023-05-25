@@ -44,20 +44,20 @@ These features open up a whole bunch of doors with what you can do with audio in
 
 [![analyzer-thin](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)
 
-To help you get up to speed with all the new features, we've update the [documentation](http://developer.playcanvas.com/en/user-manual/packs/components/sound/) and the [reference api](http://developer.playcanvas.com/en/api/pc.SoundComponent.html).
+To help you get up to speed with all the new features, we've update the [documentation](https://developer.playcanvas.com/en/user-manual/packs/components/sound/) and the [reference api](https://developer.playcanvas.com/en/api/pc.SoundComponent.html).
 
 But we've also created a few tutorials to show you how it all works.
 
 ### Basic Audio
 
-This [tutorial](http://developer.playcanvas.com/en/tutorials/beginner/basic-audio/) covers how to setup a component and managing the audio settings on different slots. Like the looping and overlap properties.
+This [tutorial](https://developer.playcanvas.com/en/tutorials/beginner/basic-audio/) covers how to setup a component and managing the audio settings on different slots. Like the looping and overlap properties.
 
 ### Audio Effects
 
-This [tutorial](http://developer.playcanvas.com/en/tutorials/advanced/audio-effects/) shows you how to add audio effects by manipulating the Web Audio API nodes
+This [tutorial](https://developer.playcanvas.com/en/tutorials/advanced/audio-effects/) shows you how to add audio effects by manipulating the Web Audio API nodes
 
 ### Audio Visualizer
 
-This [tutorial](http://developer.playcanvas.com/en/tutorials/intermediate/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyzer node.
+This [tutorial](https://developer.playcanvas.com/en/tutorials/intermediate/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyzer node.
 
 Go forth and **make some noise!**

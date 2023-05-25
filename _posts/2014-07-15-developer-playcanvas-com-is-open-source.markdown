@@ -14,7 +14,7 @@ categories:
 
 [![os-all-the-things](https://blog.playcanvas.com/wp-content/uploads/2014/07/os-all-the-things.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/07/os-all-the-things.jpg)
 
-As part of our continuing drive to make PlayCanvas more open and a better service we've moved the source to our developer resources site: [developer.playcanvas.com](http://developer.playcanvas.com) onto [github](https://github.com/playcanvas/developer.playcanvas.com).
+As part of our continuing drive to make PlayCanvas more open and a better service we've moved the source to our developer resources site: [developer.playcanvas.com](https://developer.playcanvas.com) onto [github](https://github.com/playcanvas/developer.playcanvas.com).
 
 This means that the community can be more involved in building tutorials, making sure everything is up-to-date and improving the experience for other PlayCanvas users.
 

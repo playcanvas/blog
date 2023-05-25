@@ -37,4 +37,4 @@ Again a room full of people got a quick introduction to HTML5 Game Engines and 3
 
 ---
 
-If you run a university CS or gamedev society or a programming meetup and you'd like us to come and do session with your group let us know via [email](mailto:info@playcanvas.com) or [twitter](http://twitter.com/playcanvas).
+If you run a university CS or gamedev society or a programming meetup and you'd like us to come and do session with your group let us know via [email](mailto:info@playcanvas.com) or [twitter](https://twitter.com/playcanvas).

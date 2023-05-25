@@ -61,7 +61,7 @@ So with all that out of the way. Think deep about the themes and start building 
 
 ## [Go and fork the PLAYHACK project](https://playcanvas.com/project/374578/overview/playhack-feb-16)
 
-Are you excited? Got Questions? Head over to the [forum](http://forum.playcanvas.com) to shout about it.
+Are you excited? Got Questions? Head over to the [forum](https://forum.playcanvas.com) to shout about it.
 
 **Terms & Conditions**
 

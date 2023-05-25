@@ -25,7 +25,7 @@ This will give you 3 months with all the Pro features (like private projects and
 
 ## Tutorials and Documentation
 
-Learning to use a new program is always a challenge, but we've tried hard to make sure as much as possible is covered in our [documentation and tutorials](http://developer.playcanvas.com) site.
+Learning to use a new program is always a challenge, but we've tried hard to make sure as much as possible is covered in our [documentation and tutorials](https://developer.playcanvas.com) site.
 
 ## Devlogs and Community
 
@@ -37,7 +37,7 @@ When you see projects that you like, don't forget to Watch and Star them.
 
 ## Questions and Chat
 
-If you're struggling with a problem, hit up the [answers site](http://answers.playcanvas.com) to ask the community. If you just want to chat about the game your making try our [forum](http://forum.playcanvas.com).
+If you're struggling with a problem, hit up the [answers site](http://answers.playcanvas.com) to ask the community. If you just want to chat about the game your making try our [forum](https://forum.playcanvas.com).
 
 ## PLAYHACK and Game Making Contests
 

@@ -16,11 +16,11 @@ The all new front-page shows an overview of all PlayCanvas activity.
 
 [caption align="aligncenter" width="500"]![Cloud Gate (The Bean)](http://farm1.staticflickr.com/1/414896_925f2c7a1c.jpg)](http://www.flickr.com/photos/josh/414896/)New shiny thing[/caption]
 
-Today we're launching the new front-page for PlayCanvas users. When you log in and visit http://playcanvas.com/ you'll now get a nice overview of activity across the whole PlayCanvas community.
+Today we're launching the new front-page for PlayCanvas users. When you log in and visit https://playcanvas.com/ you'll now get a nice overview of activity across the whole PlayCanvas community.
 
 ## Feature Games and Projects
 
-We're highlighting the more interesting public projects and games so that you can get inspiration from what other people are building. If you want to get your project in the featured section make sure it's got nice image uploaded for the project, and let us know about it via the [forums](http://forum.playcanvas.com) or [twitter](http://twitter.com/playcanvas).
+We're highlighting the more interesting public projects and games so that you can get inspiration from what other people are building. If you want to get your project in the featured section make sure it's got nice image uploaded for the project, and let us know about it via the [forums](https://forum.playcanvas.com) or [twitter](https://twitter.com/playcanvas).
 
 ## Activity
 
