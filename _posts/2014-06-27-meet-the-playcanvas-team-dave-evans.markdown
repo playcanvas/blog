@@ -53,6 +53,6 @@ COD
 
 Mario
 
-**Favourite game of all time?**
+**Favorite game of all time?**
 
 That's a tough one... [Monkey Island](<http://en.wikipedia.org/wiki/Monkey_Island_(series)>) or Multiplayer Halo.

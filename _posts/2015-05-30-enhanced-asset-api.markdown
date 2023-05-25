@@ -53,7 +53,7 @@ On to the changes:
 
 [![preload](https://blog.playcanvas.com/wp-content/uploads/2015/05/preload.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/05/preload.jpg)
 
-The first new feature is **asset preload**. Previously we would load any assets that were referenced by your scene. We changed this behaviour so that now assets have a specific **preload** property which you can enable or disable. Any asset marked as preload, _and we default this to true for new assets_, will be loaded during the loading screen stage and will be ready to use when your application starts. Any that are not marked as preload, will remain on the server, ready to be loaded when you need them.
+The first new feature is **asset preload**. Previously we would load any assets that were referenced by your scene. We changed this behavior so that now assets have a specific **preload** property which you can enable or disable. Any asset marked as preload, _and we default this to true for new assets_, will be loaded during the loading screen stage and will be ready to use when your application starts. Any that are not marked as preload, will remain on the server, ready to be loaded when you need them.
 
 We've updated existing assets to mark all existing target assets are preload. So you may need to uncheck this option on some assets if you don't actually need them.
 

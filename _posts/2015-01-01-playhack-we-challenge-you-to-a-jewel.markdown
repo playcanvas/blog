@@ -51,15 +51,15 @@ We will be holding things down here at HQ during the month long Game Jam by shar
 
 ### **Featured Winner**
 
-On the 1st of February we will judge your projects and our favourite will be featured on the PlayCanvas landing page
+On the 1st of February we will judge your projects and our favorite will be featured on the PlayCanvas landing page
 
 ### **Last Month**
 
-With Side Scrolling Santa's, Youtube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favourite PLAYHACK so far.
+With Side Scrolling Santa's, Youtube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favorite PLAYHACK so far.
 
 [![santa_winner](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)
 
-Our favourite entry is '[Five For Christmas](http://apps.playcanvas.com/felladrin/playhack-dec-14/five-for-christmas)' by [felladrin](https://playcanvas.com/felladrin).
+Our favorite entry is '[Five For Christmas](http://apps.playcanvas.com/felladrin/playhack-dec-14/five-for-christmas)' by [felladrin](https://playcanvas.com/felladrin).
 
 Making great use of light and particles, felladrin created a "topdown survival game where the player (Santa) had his location revealed and all the kids are now trying to reach him. The player must throw gifts for the children, so that they don't delay the delivery of gifts this Christmas". Go visit the [game project](https://playcanvas.com/felladrin/playhack-dec-14) and give it a star and leave a comment.
 

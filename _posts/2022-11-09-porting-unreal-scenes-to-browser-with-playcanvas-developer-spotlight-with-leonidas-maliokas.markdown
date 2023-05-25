@@ -79,7 +79,7 @@ Taking into account these factors is mandatory when building a high-quality HTML
 
 ### What are the team's favorite features of PlayCanvas?
 
-Our favorite feature is the editor, by far. The fact that it is collaborative in real time makes PlayCanvas the best tool for teams to work together. Also, the fact that PlayCanvas has version control integrated is pretty cool! Something else I would add is that PlayCanvas provides a very clean API to work with. Seiously, not only HTML5 devs but also native game devs should give PlayCanvas a try. It’s a great tool to quickly be productive!
+Our favorite feature is the editor, by far. The fact that it is collaborative in real time makes PlayCanvas the best tool for teams to work together. Also, the fact that PlayCanvas has version control integrated is pretty cool! Something else I would add is that PlayCanvas provides a very clean API to work with. Seriously, not only HTML5 devs but also native game devs should give PlayCanvas a try. It’s a great tool to quickly be productive!
 
 Other than that:
 

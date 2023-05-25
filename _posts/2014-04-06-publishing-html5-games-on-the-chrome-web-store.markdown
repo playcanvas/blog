@@ -14,7 +14,7 @@ categories:
   - Tutorial
 ---
 
-If you're building HTML5 games, chances are that you want as many people to play your game as possible and, in an ideal world, you'll make some money in the process. Monetization on the web is harder than it is on mobile app stores, where payment processing is standardised and credit card details are stored. But there are still a number of options. One great platform you should consider for your game is the [Chrome Web Store](https://chrome.google.com/webstore).
+If you're building HTML5 games, chances are that you want as many people to play your game as possible and, in an ideal world, you'll make some money in the process. Monetization on the web is harder than it is on mobile app stores, where payment processing is standardized and credit card details are stored. But there are still a number of options. One great platform you should consider for your game is the [Chrome Web Store](https://chrome.google.com/webstore).
 
 It's a carefully curated app store for the desktop version of Chrome (available on Win, Mac, Linux and Chrome OS). Publishing your game here will expose it to a wider audience and offer you a simple mechanism for taking payments. In this article, I won't cover the options for charging money for your game (a story for another day). Instead, let's step through the process for publishing a free game.
 

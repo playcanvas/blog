@@ -19,7 +19,7 @@ tags:
   - webgl2
 ---
 
-**Cambridge/Santa Monica, August 1 2019 -** Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimised way, as well as using it to incorporate some of its performant features and components into their own projects.
+**Cambridge/Santa Monica, August 1 2019 -** Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimized way, as well as using it to incorporate some of its performant features and components into their own projects.
 
 ![](https://lh5.googleusercontent.com/Dlt7lMuKZ9SJ3uszf62h1H0SjWSTMnlrU796xEtuvfWUlRQ7mqCs4AjfJSss7S4Ap555XvPQYzmIX5iLagjJJFx_GoRjjp37BWQsLJfFJmnlL2J-VRn_fYqn7Hwu_MjeZA1R5GVs)
 

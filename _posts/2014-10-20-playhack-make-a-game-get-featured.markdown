@@ -49,7 +49,7 @@ We will be holding things down here at HQ during the month long jam by sharing s
 
 ### Featured Winner
 
-On the **1st December** we will judge your projects and our favourite will be **featured** on the **PlayCanvas** **front \*\***page\*\*!
+On the **1st December** we will judge your projects and our favorite will be **featured** on the **PlayCanvas** **front \*\***page\*\*!
 
 [![button](https://blog.playcanvas.com/wp-content/uploads/2014/10/button.png)](https://playcanvas.com/playcanvas/gamejam-nov-14)
 

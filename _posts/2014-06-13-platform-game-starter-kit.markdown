@@ -24,7 +24,7 @@ The Starter Kit contains the following assets:
 
 - Our hero Playbot - a fully rigged and animated robot character for you to use.
 - Idle, Run, Jump and Die animations for Playbot
-- A set of platforms in various shapes and sizes from 1x1 upto 4x4
+- A set of platforms in various shapes and sizes from 1x1 up to 4x4
 - Spike, our dumb and stupid AI bot
 - Punch, still pretty dumb, but don't get too close or he'll shoot.
 

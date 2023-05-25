@@ -37,4 +37,4 @@ Team Godlike's efforts were rewarded as they came away with **2nd place**, and h
 
 [![Trophy](https://blog.playcanvas.com/wp-content/uploads/2014/07/trophy.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/07/trophy.jpg)
 
-If you're entering a game jam in the future, why not give PlayCanvas a try? Don't forget to put in a little practise first though!
+If you're entering a game jam in the future, why not give PlayCanvas a try? Don't forget to put in a little practice first though!

@@ -27,7 +27,7 @@ One of the most memorable WebGL apps of 2015 was the [BMW i8 Configurator](http:
 
 [![bmw](https://blog.playcanvas.com/wp-content/uploads/2016/01/bmw.jpg)](http://blog.playcanvas.com/wp-content/uploads/2016/01/bmw.jpg)
 
-2015 was the year WebGL developers cried out for tools that actually work. In response, we launched our new Editor! A realtime-colloborative development environment that's only 650KB? You bet!
+2015 was the year WebGL developers cried out for tools that actually work. In response, we launched our new Editor! A realtime-collaborative development environment that's only 650KB? You bet!
 
 [![editort800](https://blog.playcanvas.com/wp-content/uploads/2016/01/editort800.png)](http://blog.playcanvas.com/wp-content/uploads/2016/01/editort800.png)
 

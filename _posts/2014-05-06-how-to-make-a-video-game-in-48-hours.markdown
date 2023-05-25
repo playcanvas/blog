@@ -42,7 +42,7 @@ I needed a dramatic undersea landscape. Unfortunately, my modelling skills suck 
 
 [![terrain](https://blog.playcanvas.com/wp-content/uploads/2014/05/terrain.png)](http://blog.playcanvas.com/wp-content/uploads/2014/05/terrain.png)
 
-I also exported a 75x75 division version which I would use for environment collision which would essentially be an optimisation for the physics engine. It would have been nice if I had had time to texture map it. In Ludum Dare, you have to avoid getting caught up in the detail. Keep your eye on the goal and if you have time left at the end, come back and polish.
+I also exported a 75x75 division version which I would use for environment collision which would essentially be an optimization for the physics engine. It would have been nice if I had had time to texture map it. In Ludum Dare, you have to avoid getting caught up in the detail. Keep your eye on the goal and if you have time left at the end, come back and polish.
 
 ### Building the Submarine
 

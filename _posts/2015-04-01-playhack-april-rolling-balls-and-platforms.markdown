@@ -33,7 +33,7 @@ Second, you'll be using our the **brand new version** of the **PlayCanvas Editor
 
 [![models](https://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)
 
-**PLAYHACK** starts right now and runs until the end of April. On the 1st of May we'll go through all the projects forked from our starter project with a published game and pick our favourite.
+**PLAYHACK** starts right now and runs until the end of April. On the 1st of May we'll go through all the projects forked from our starter project with a published game and pick our favorite.
 
 The winner will join an elite club of **PLAYHACK** past winner's and their game will be featured on our explore page. Bonus points are awarded for posting to your devlog, posting screenshots to Twitter and Facebook and generally sharing the development process with everyone. As a community we will build better things.
 
@@ -47,7 +47,7 @@ How it works:
 
 4. Publish your game.
 
-5. On the 1st May, we'll pick our favourite.
+5. On the 1st May, we'll pick our favorite.
 
 **What are you waiting for!**
 
