@@ -23,7 +23,7 @@ If you need something to do while PlayCanvas is down you could watch the tutor
 
 Or take a read of the user manual on our developer site.
 
-[![PlayCanvas_Developer_Resources___PlayCanvas_Developers](https://blog.playcanvas.com/wp-content/uploads/2014/10/PlayCanvas_Developer_Resources___PlayCanvas_Developers.jpg)](http://developer.playcanvas.com)
+[![PlayCanvas_Developer_Resources___PlayCanvas_Developers](https://blog.playcanvas.com/wp-content/uploads/2014/10/PlayCanvas_Developer_Resources___PlayCanvas_Developers.jpg)](https://developer.playcanvas.com)
 
 Thanks,
 

@@ -27,7 +27,7 @@ Your feedback is what makes PlayCanvas great.
 
 [caption id="attachment_926" align="aligncenter" width="600"]![roseninja and jellycakes working on platformer "Squeaky Wheel"](https://blog.playcanvas.com/wp-content/uploads/2013/09/roseninja.jpg)](http://blog.playcanvas.com/wp-content/uploads/2013/09/roseninja.jpg) roseninja and jellycakes working on platformer "Squeaky Wheel"[/caption]
 
-Go check out users [roseninja](http://playcanvas.com/roseninja), [jellycakes](http://playcanvas.com/jellycakes), [wilbefast](http://playcanvas.com/wilbefast), [nebulousflynn](http://playcanvas.com/nebulousflynn) and [balkango](http://playcanvas.com/balkango). Who were all building games yesterday. It's early days for [Flying robots of Death](http://apps.playcanvas.com/wilbefast/test/shoot_test) and [Squeaky Wheel](apps.playcanvas.com/roseninja/blah/squeakywheel), but terrific work for an afternoon of coding and modelling.
+Go check out users [roseninja](https://playcanvas.com/roseninja), [jellycakes](https://playcanvas.com/jellycakes), [wilbefast](https://playcanvas.com/wilbefast), [nebulousflynn](https://playcanvas.com/nebulousflynn) and [balkango](https://playcanvas.com/balkango). Who were all building games yesterday. It's early days for [Flying robots of Death](http://apps.playcanvas.com/wilbefast/test/shoot_test) and [Squeaky Wheel](apps.playcanvas.com/roseninja/blah/squeakywheel), but terrific work for an afternoon of coding and modelling.
 
 [caption id="attachment_924" align="aligncenter" width="600"]![wilbefast staring at screen with his game](https://blog.playcanvas.com/wp-content/uploads/2013/09/concentration.jpg)](http://blog.playcanvas.com/wp-content/uploads/2013/09/concentration.jpg) wilbefast contentrating on make robots kill each other[/caption]
 

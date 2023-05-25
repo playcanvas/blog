@@ -15,7 +15,7 @@ tags:
 
 [![Roonio](https://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)
 
-In our latest instalment of this series we chat to Kevin, [PlayCanvas](http://playcanvas.com)' Creative Director from Sligo, Ireland
+In our latest instalment of this series we chat to Kevin, [PlayCanvas](https://playcanvas.com)' Creative Director from Sligo, Ireland
 
 **How did you get into the video games industry?**
 

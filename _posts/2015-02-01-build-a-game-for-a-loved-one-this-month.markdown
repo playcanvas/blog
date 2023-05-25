@@ -58,7 +58,7 @@ The process of judging is as broad as the rules. You won’t be marked on the st
 
 This month we want to start up a discussion about what you can build.
 
-We've got some ideas about what games suit the the theme and what would work best as a unique and personal gift for a loved one. But what do you think? Join the discussion [in the forum](http://forum.playcanvas.com/t/playhack-february-game-ideas/539).
+We've got some ideas about what games suit the the theme and what would work best as a unique and personal gift for a loved one. But what do you think? Join the discussion [in the forum](https://forum.playcanvas.com/t/playhack-february-game-ideas/539).
 
 Enough from us though.
 

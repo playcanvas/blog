@@ -33,7 +33,7 @@ Once you've finished work in your branch, you'll want to merge you branch back i
 
 ![](https://blog.playcanvas.com/wp-content/uploads/2019/01/conflicts-resolved-1024x609.jpg)
 
-We've been testing the version control features over the last few months and we know you're going to love them. Read more about how you can use branches in your project in our [developer docs.](http://developer.playcanvas.com/user-manual/version-control/)
+We've been testing the version control features over the last few months and we know you're going to love them. Read more about how you can use branches in your project in our [developer docs.](https://developer.playcanvas.com/user-manual/version-control/)
 
 ## What's next?
 

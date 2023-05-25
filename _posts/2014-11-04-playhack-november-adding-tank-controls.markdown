@@ -77,7 +77,7 @@ We've also added a ground collision box so the tank doesn't fall through the fl
 
 This script is attached to the **Tank** entity. It's pretty self-explanatory. Each frame, update() is called. This function checks to see if the any of the arrow keys on the keyboard have been pressed. If they have a force or torque is applied to the rigidbody attached to the entity.
 
-[Here is the Pack](http://playcanvas.com/dave/playhack-nov/designer/bootstrap?e=d3e2d116-641c-11e4-9aee-12313b0a5ec6&repository=true) with this already set up for you to try. Run the pack and use the arrow keys to control the tank.
+[Here is the Pack](https://playcanvas.com/dave/playhack-nov/designer/bootstrap?e=d3e2d116-641c-11e4-9aee-12313b0a5ec6&repository=true) with this already set up for you to try. Run the pack and use the arrow keys to control the tank.
 
 ### PLAYHACK
 

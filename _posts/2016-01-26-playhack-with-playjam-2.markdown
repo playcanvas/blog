@@ -29,4 +29,4 @@ PLAYHACK will kick-off on the 1st of February and run for 6 weeks and they'll b
 
 [GET PRACTISING AT PLAYCANVAS](https://playcanvas.com/)
 
-If you're excited about the PLAYHACK game jam, come over to the [forum](http://forum.playcanvas.com) to let us know your ideas.
+If you're excited about the PLAYHACK game jam, come over to the [forum](https://forum.playcanvas.com) to let us know your ideas.

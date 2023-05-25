@@ -45,4 +45,4 @@ Green bars represent individual asynchronous asset loads. Orange bars are blocki
 
 So we hope you enjoy using the new Profiler. But remember, true believers, more goodness is yet to come. This is our initial beta version but we have plenty of improvements coming down the pipe.
 
-Any comments? [Join the Forum thread](http://forum.playcanvas.com/t/introducing-the-new-playcanvas-profiler/1171).
+Any comments? [Join the Forum thread](https://forum.playcanvas.com/t/introducing-the-new-playcanvas-profiler/1171).

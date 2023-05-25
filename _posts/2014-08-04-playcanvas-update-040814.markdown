@@ -21,7 +21,7 @@ We've created a new series of videos that run through a complete introduction to
 
 ## Features and Fixes:
 
-- New tutorials abound, including an [Introduction to Materials](http://developer.playcanvas.com/tutorials/beginner/basic-materials/) in PlayCanvas - if you haven't seen them yet, just go to your projects page and click the 'Start Learning' link to... umm, start learning! The video tutorials are all on [our YouTube page](http://www.youtube.com/user/playcanvas).
+- New tutorials abound, including an [Introduction to Materials](https://developer.playcanvas.com/tutorials/beginner/basic-materials/) in PlayCanvas - if you haven't seen them yet, just go to your projects page and click the 'Start Learning' link to... umm, start learning! The video tutorials are all on [our YouTube page](http://www.youtube.com/user/playcanvas).
 - The projects and profile pages have been revamped.
 - The site is now also compatible with more mobile devices (updates to cater for more mobile resolutions).
 
@@ -43,6 +43,6 @@ Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for update
 
 Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](http://forum.playcanvas.com/).
+Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
 Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).

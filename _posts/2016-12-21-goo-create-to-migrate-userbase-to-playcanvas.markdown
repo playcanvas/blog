@@ -43,7 +43,7 @@ We provide a REST API to enable you to automate common tasks such as app downloa
 **Robustness and Scalability**
 As the leading tools platform for building WebGL content, PlayCanvas is battle-hardened following the development and release of high profile projects from companies like Disney, King, Leapfrog and Nickelodeon. We've seen PlayCanvas projects containing over 15,000 entities. You can be assured that PlayCanvas can handle your data sets.
 
-To help you migrate, we've added a [Goo Create Migration Guide](http://developer.playcanvas.com/en/user-manual/migration-guides/from-goo-create/) to the PlayCanvas Developer Site.
+To help you migrate, we've added a [Goo Create Migration Guide](https://developer.playcanvas.com/en/user-manual/migration-guides/from-goo-create/) to the PlayCanvas Developer Site.
 
 #### We Are Here to Support You
 

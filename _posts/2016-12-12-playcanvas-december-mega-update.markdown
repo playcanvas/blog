@@ -83,4 +83,4 @@ Huge speedups achieved for both loading and rendering of scenes!
 - Double click or right mouse click on number fields now will select whole content of the field and not just part of number separated by a dot or minus sign.
 - Networking improvements have been made to reduce disconnects.
 
-Phew! We hope you like these latest additions. Got any feedback? [Comment on the forum](http://forum.playcanvas.com/t/playcanvas-december-mega-update/2983)! We'd love to hear what you think.
+Phew! We hope you like these latest additions. Got any feedback? [Comment on the forum](https://forum.playcanvas.com/t/playcanvas-december-mega-update/2983)! We'd love to hear what you think.

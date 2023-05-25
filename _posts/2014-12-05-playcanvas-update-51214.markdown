@@ -66,6 +66,6 @@ Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for update
 
 Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](http://forum.playcanvas.com/).
+Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
 Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).

@@ -19,4 +19,4 @@ Second big change, we've added some additional properties when you publish a n
 
 ![blog-post-publish](https://blog.playcanvas.com/wp-content/uploads/2016/02/blog-post-publish.jpg)
 
-We hope you enjoy the new features. Be sure to let us know in the [forum](http://forum.playcanvas.com) if you have any comments or suggestions.
+We hope you enjoy the new features. Be sure to let us know in the [forum](https://forum.playcanvas.com) if you have any comments or suggestions.

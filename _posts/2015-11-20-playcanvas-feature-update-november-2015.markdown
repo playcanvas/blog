@@ -39,7 +39,7 @@ The Curve Editor now has zoom (use the mouse wheel), scroll (use the right mous
 
 ## **New Developer Site**
 
-We've given our [developer site](http://developer.playcanvas.com) some well needed love and attention. A new look, better API reference, better search and new tutorials. Plus it's now being translated into Japanese and Russian.
+We've given our [developer site](https://developer.playcanvas.com) some well needed love and attention. A new look, better API reference, better search and new tutorials. Plus it's now being translated into Japanese and Russian.
 
 ## **Loads More**
 

@@ -13,7 +13,7 @@ categories:
 
 [![PlayCanvas Answers logo](https://blog.playcanvas.com/wp-content/uploads/2013/01/answers_logo.png)](http://blog.playcanvas.com/wp-content/uploads/2013/01/answers_logo.png)
 
-One of our little mantras at PlayCanvas, is that _making games is too slow, too hard, and too expensive_, and we want to fix that. One way we're going about that is by making [great tools](http://playcanvas.com/technology/) which you can use to create games quickly, easily and cheaply.
+One of our little mantras at PlayCanvas, is that _making games is too slow, too hard, and too expensive_, and we want to fix that. One way we're going about that is by making [great tools](https://playcanvas.com/technology/) which you can use to create games quickly, easily and cheaply.
 
 But tools are are only part of the equation, the next important part of the PlayCanvas story is the Community. A community of smart and creative individuals can lift beginners out of the n00b backwater, push intermediates to excel, and give experts an audience to both educate and impress.
 

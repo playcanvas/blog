@@ -21,4 +21,4 @@ Ryoichi Sugimura, a Tizen Association Board Member from NTT DOCOMO, kindly gave 
 
 More specifically, you can now count Tizen as an officially supported target for your PlayCanvas games. Tizen has absolutely awesome HTML5 and WebGL support so you can be sure performance will be stellar and your games will translate with minimal fuss. In the coming days, we will add a Tizen publishing guide to our documentation. In the meantime, if you want to get started with the platform, why not [download the SDK](https://developer.tizen.org/downloads/tizen-sdk) and try the simulator.
 
-We want to hear about your experiences getting your PlayCanvas creations running on Tizen. So head to the [forums](http://forum.playcanvas.com/) and tell us all about it!
+We want to hear about your experiences getting your PlayCanvas creations running on Tizen. So head to the [forums](https://forum.playcanvas.com/) and tell us all about it!
