@@ -34,7 +34,7 @@ To win this lovely bit of kit we want you to build a game, and to help you build
 
 We've set up the vehicle physics for you (but feel free to re-write that if you like). All you need to do is come up with an interesting idea for a game (Racing, Stunt driving, Buggy Football!) and code it up. You don't even need to make the buggy the center of attention, as long as it's in your scene you're good.
 
-Short on ideas? Check out the [forum thread](http://forum.playcanvas.com/t/playhack-march-game-ideas/571) to join the idea discussion.
+Short on ideas? Check out the [forum thread](https://forum.playcanvas.com/t/playhack-march-game-ideas/571) to join the idea discussion.
 
 ## HOW TO ENTER
 

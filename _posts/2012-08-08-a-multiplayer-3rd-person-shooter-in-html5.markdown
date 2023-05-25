@@ -14,7 +14,7 @@ tags:
   - news
 ---
 
-[caption id="attachment_416" align="alignnone" width="575"]![D.E.M.O. screenshot](http://playcanvas.com/wp-content/uploads/2012/08/demo_game.jpg) D.E.M.O. Multiplayer 3rd-person shooter running in the browser[/caption]
+[caption id="attachment_416" align="alignnone" width="575"]![D.E.M.O. screenshot](https://playcanvas.com/wp-content/uploads/2012/08/demo_game.jpg) D.E.M.O. Multiplayer 3rd-person shooter running in the browser[/caption]
 
 This page is also available in [Spanish](http://www.webhostinghub.com/support/es/misc/hacer-un-shooter-multijugador-en-3-persona-en-html5), translated by Maria Ramos  from [webhostinghub.com](http://www.webhostinghub.com/support/edu).
 
@@ -46,7 +46,7 @@ Two weeks is very short time to build an app like D.E.M.O. and along with lots o
 
 ### Asset wrangling
 
-[caption id="attachment_420" align="alignnone" width="575"]![Side-by-side rendering of SWAT model](http://playcanvas.com/wp-content/uploads/2012/08/swat_in_tools.jpg) Side-by-side rendering in 3DS Max and PlayCanvas Engine[/caption]
+[caption id="attachment_420" align="alignnone" width="575"]![Side-by-side rendering of SWAT model](https://playcanvas.com/wp-content/uploads/2012/08/swat_in_tools.jpg) Side-by-side rendering in 3DS Max and PlayCanvas Engine[/caption]
 
 We’ve made a beautiful looking game in 3D in next to no time. We could do this because the PlayCanvas asset tools are built to ingest a wide range of model formats and set up to ensure that default materials from popular 3D packages appear identical in engine as they do for the artist.
 
@@ -54,7 +54,7 @@ The sci-fi levels and the SWAT character and animations were all created using 3
 
 ### Building the level
 
-[caption id="attachment_419" align="alignnone" width="575"]![Building the D.E.M.O. in PlayCanvas Designer](http://playcanvas.com/wp-content/uploads/2012/08/build_scifi.jpg) Building the D.E.M.O. in PlayCanvas Designer[/caption]
+[caption id="attachment_419" align="alignnone" width="575"]![Building the D.E.M.O. in PlayCanvas Designer](https://playcanvas.com/wp-content/uploads/2012/08/build_scifi.jpg) Building the D.E.M.O. in PlayCanvas Designer[/caption]
 
 Traditionally, this would consist of building out the level in low detail (often called grey-boxing) and running about it in to get feel for the how the game plays, where the choke points are and how the spawn points should be placed. Unfortunately, we didn’t have the art resources to design the level in this way but we did have a set of 5 or 6 components which fitted together like jigsaw pieces.
 

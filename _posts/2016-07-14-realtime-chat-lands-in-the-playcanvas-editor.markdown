@@ -23,4 +23,4 @@ There are lots of cool features in the chat control. For example, hyperlinks are
 
 [![notify](https://blog.playcanvas.com/wp-content/uploads/2016/07/notify.gif)](http://blog.playcanvas.com/wp-content/uploads/2016/07/notify.gif)
 
-Try it out and [give us your suggestions](http://forum.playcanvas.com/t/realtime-chat-lands-in-the-playcanvas-editor/2155) on how we can make it even better. And if you're a WebGL developer that's never tried PlayCanvas before, you're seriously missing out! Sign up today at [https://playcanvas.com](https://playcanvas.com)!
+Try it out and [give us your suggestions](https://forum.playcanvas.com/t/realtime-chat-lands-in-the-playcanvas-editor/2155) on how we can make it even better. And if you're a WebGL developer that's never tried PlayCanvas before, you're seriously missing out! Sign up today at [https://playcanvas.com](https://playcanvas.com)!

@@ -44,4 +44,4 @@ Supported desktop browsers are:
 - Chrome
 - Internet Explorer (the game will request you install Chrome Frame if you do not already have it installed)
 
-We'll be regularly updating the game in the coming weeks so give us your feedback. We'll also be releasing further blog entries detailing how we built the game. In the meantime, if you're interested in making your own HTML5 games with PlayCanvas, why not [join the beta](http://playcanvas.com/join-us/)?
+We'll be regularly updating the game in the coming weeks so give us your feedback. We'll also be releasing further blog entries detailing how we built the game. In the meantime, if you're interested in making your own HTML5 games with PlayCanvas, why not [join the beta](https://playcanvas.com/join-us/)?

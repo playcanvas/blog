@@ -20,7 +20,7 @@ Today's new features are part of our on-going process of making your PlayCanvas 
 
 We've introduced a lot more control over the way that assets are imported into PlayCanvas. You will discover these options in the Asset Tasks panel and the Asset Task Settings.
 
-You can read all about new asset pipeline features in [our developer documentation](http://developer.playcanvas.com/en/user-manual/assets/import-pipeline/). But here are the key facts.
+You can read all about new asset pipeline features in [our developer documentation](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/). But here are the key facts.
 
 ### Auto-run
 

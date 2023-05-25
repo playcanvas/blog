@@ -29,6 +29,6 @@ To get started, select the VR Starter Kit in the New Project dialog.
 
 ![project-select](https://blog.playcanvas.com/wp-content/uploads/2016/06/project-select-2.jpg)
 
-Once you've created your first scene take a look at our [WebVR Tutorial](http://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) to see how you can include the camera code yourself and learn how we interact with the virtual world.
+Once you've created your first scene take a look at our [WebVR Tutorial](https://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) to see how you can include the camera code yourself and learn how we interact with the virtual world.
 
-Looking for more features around WebVR? Get in touch with us on [twitter](https://twitter.com/playcanvas) or over at our [forum](http://forum.playcanvas.com).
+Looking for more features around WebVR? Get in touch with us on [twitter](https://twitter.com/playcanvas) or over at our [forum](https://forum.playcanvas.com).

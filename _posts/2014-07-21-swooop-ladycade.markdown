@@ -19,7 +19,7 @@ Last Friday night PlayCanvas resident artist [Philippa Moore](http://www.philip
 
 A fantastic event which we were delighted to be able to attend. Look out for future LadyCade's at other events like Nottingham Game City later this year. Make sure you [follow them on Twitter](https://twitter.com/_LadyCADE) for more updates.
 
-We held a make-shift high score competition with post-it notes on the wall and big congratulations to [@flappyfingers](http://twitter.com/flappyfingers) for his determination in taking away to the top spot.
+We held a make-shift high score competition with post-it notes on the wall and big congratulations to [@flappyfingers](https://twitter.com/flappyfingers) for his determination in taking away to the top spot.
 
 The final results are here:
 

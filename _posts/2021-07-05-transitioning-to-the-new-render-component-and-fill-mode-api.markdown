@@ -39,7 +39,7 @@ The expected changes over the upcoming months are as follows:
 
 - Add/Rename a Project Setting to switch between the two mesh import pipelines (Currently, this is the ‘Import Hierarchy’ setting).
 - Newly created projects will default to using the Render Component pipeline.
-- [developer.playcanvas.com](http://developer.playcanvas.com) tutorials will be updated to use Render Component ([playcanvas.github.io](http://playcanvas.github.io) engine examples have already been updated).
+- [developer.playcanvas.com](https://developer.playcanvas.com) tutorials will be updated to use Render Component ([playcanvas.github.io](https://playcanvas.github.io) engine examples have already been updated).
 - The template projects (Blank Project, Model Viewer Starter Kit, VR Starter Kit) will be updated to use Render Component.
 - User Manual updates and mitigation steps from using the Model Component to Render Component pipelines.
 

@@ -31,7 +31,7 @@ It's still early days for WebVR which means it's not yet supported on all platfo
 
 ### Tutorials and Documentation
 
-PlayCanvas is renowned for its extensive documentation and VR is no different. [Basic instructions](http://developer.playcanvas.com/user-manual/vr), [API reference](http://developer.playcanvas.com/en/api/pc.VrManager.html) and [specific optimization tips](http://developer.playcanvas.com/en/user-manual/vr/optimizing-webvr/), we've got it all.
+PlayCanvas is renowned for its extensive documentation and VR is no different. [Basic instructions](https://developer.playcanvas.com/user-manual/vr), [API reference](https://developer.playcanvas.com/en/api/pc.VrManager.html) and [specific optimization tips](https://developer.playcanvas.com/en/user-manual/vr/optimizing-webvr/), we've got it all.
 
 ### Samples and Starter Kits
 
