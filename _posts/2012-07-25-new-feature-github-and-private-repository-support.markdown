@@ -21,7 +21,7 @@ This weeks big ticket item is integration with Github and support for private re
 
 When we started developing PlayCanvas, we knew that we wanted to change the way games are made, but we didn't want to reinvent everything. Programmers have been honing the software development craft for decades and we don't want to mess with that, which is why we knew integration with source control systems would be essential.
 
-Up until now we supported public Bitbucket repositories but as of today we're pleased to extend our support to the web's most popular code hosting site, [Github](http://github.com).
+Up until now we supported public Bitbucket repositories but as of today we're pleased to extend our support to the web's most popular code hosting site, [Github](https://github.com).
 
 Github really is a best of breed web application, and their ideals are tightly aligned with ours. Seamless collaboration and workflows, and now using Github with PlayCanvas is just as seamless.
 

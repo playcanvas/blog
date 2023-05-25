@@ -22,7 +22,7 @@ In 2014 our community has grown from roughly 2,000 to over 20,000 users and ther
 
 **Open-source**
 
-The entire runtime engine is available right now on [github](http://github.com/playcanvas/engine) under the lovely [MIT license](http://blog.playcanvas.com/playcanvas-goes-open-source/opensource.org/licenses/MIT). Which means you can download it, fork it, and generally use it for anything you like.
+The entire runtime engine is available right now on [github](https://github.com/playcanvas/engine) under the lovely [MIT license](http://blog.playcanvas.com/playcanvas-goes-open-source/opensource.org/licenses/MIT). Which means you can download it, fork it, and generally use it for anything you like.
 
 **Asset Store**
 
