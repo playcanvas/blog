@@ -9,16 +9,14 @@ slug: goo-create-to-migrate-userbase-to-playcanvas
 title: Goo Create to Migrate Userbase to PlayCanvas
 wordpress_id: 2492
 categories:
-- News
+  - News
 ---
 
 Goo Create is a platform for creating WebGL-based interactive web content offered by Goo Technologies. Today, Goo Technologies is announcing an important change to the Goo Create service.
 
-
 <blockquote>All support services relating to Goo Create have unfortunately ended. Goo Create will continue for 3 months after which we cannot guarantee that the service will accept new signups.
 
 This process begins today and will complete within the next 3 months. Create users are encouraged to export important projects to avoid to losing their data and assets.</blockquote>
-
 
 In light of this announcement, Goo Technologies is partnering with PlayCanvas to migrate the Goo Create userbase across to PlayCanvas as efficiently as possible.
 
@@ -47,12 +45,8 @@ As the leading tools platform for building WebGL content, PlayCanvas is battle-h
 
 To help you migrate, we've added a [Goo Create Migration Guide](http://developer.playcanvas.com/en/user-manual/migration-guides/from-goo-create/) to the PlayCanvas Developer Site.
 
-
 #### We Are Here to Support You
-
 
 You may well have further questions about this news. You can be assured that we are on hand to address your concerns. Either follow up below in the comments, post on the forum, or for more sensitive matters, reach out to us at [info@playcanvas.com](mailto:info@playcanvas.com). We're here to help.
 
 Team PlayCanvas
-
-

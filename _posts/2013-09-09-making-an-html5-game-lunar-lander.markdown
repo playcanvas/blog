@@ -5,11 +5,11 @@ date: 2013-09-09 18:27:44+00:00
 layout: post
 link: https://blog.playcanvas.com/making-an-html5-game-lunar-lander/
 slug: making-an-html5-game-lunar-lander
-title: 'Making an HTML5 game: Lunar Lander'
+title: "Making an HTML5 game: Lunar Lander"
 wordpress_id: 919
 categories:
-- Announcement
-- Tutorial
+  - Announcement
+  - Tutorial
 ---
 
 A video tutorial recreating arcade classic, Lunar Lander in 3D.

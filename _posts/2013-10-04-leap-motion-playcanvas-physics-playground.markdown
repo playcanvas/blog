@@ -8,9 +8,9 @@ slug: leap-motion-playcanvas-physics-playground
 title: Leap Motion + PlayCanvas = Physics Playground
 wordpress_id: 971
 categories:
-- Announcement
-- News
-- Technology
+  - Announcement
+  - News
+  - Technology
 ---
 
 Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device into one of our USB ports and fired up PlayCanvas.
@@ -24,5 +24,3 @@ http://www.youtube.com/watch?v=LoQyUDw8Ngg
 If you are the proud owner of your own Leap Motion, you can run the demo by clicking [here](http://apps.playcanvas.com/will/leapmotion/crates).
 
 And if you're curious to see how we built the demo, why not [explore the project](http://playcanvas.com/will/leapmotion) and get inspired to build your own Leap Motion powered masterpiece!
-
-

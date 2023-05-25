@@ -8,7 +8,7 @@ slug: realtime-chat-lands-in-the-playcanvas-editor
 title: Realtime Chat Lands in the PlayCanvas Editor
 wordpress_id: 2381
 categories:
-- News
+  - News
 ---
 
 Hot on the heels of the new scripting system, we're happy to announce the arrival of realtime chat in the PlayCanvas Editor!

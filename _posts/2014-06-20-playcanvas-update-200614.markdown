@@ -8,11 +8,10 @@ slug: playcanvas-update-200614
 title: PlayCanvas Update 20/06/14
 wordpress_id: 1395
 categories:
-- Features
+  - Features
 ---
 
 **Now it really has been a busy week for us and we have so much to tell you about. Here's a run down on improvements to the engine and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week. **
-
 
 **User Camera View**
 
@@ -22,9 +21,7 @@ You can now view your scene from any Entity that has a camera component in your 
 
 **Entity Context Menu**
 
-
 We added a new Entity context menu that appears when you right-click on an Entity in the 3D view. From there you can see all the parent Entities of the selected Entity up to the root and you can select a parent Entity easily. You can also see more options for Entities like Delete, Add Component, etc.
-
 
 [![Entity context](https://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)
 
@@ -44,25 +41,12 @@ We also showed our faces at a number of events this week. Dave showed off some o
 
 [![VR night](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)
 
-
 Stay In The Loop
-
-
-
 
 Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-
-
-
 Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-
-
-
 Join and start discussions on the [PlayCanvas Forum](http://forum.playcanvas.com/).
-
-
-
 
 Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).

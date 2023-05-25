@@ -8,7 +8,7 @@ slug: playhack-with-playjam-2
 title: PLAYHACK with PlayJam
 wordpress_id: 2293
 categories:
-- News
+  - News
 ---
 
 [![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
@@ -27,10 +27,6 @@ Thanks to PlayJam we've got some **great prizes** for the best entries.
 
 PLAYHACK will kick-off on the 1st of February and run for 6 weeks and they'll be more details coming up. On the 1st, we'll announce a theme and give you access to a set of 3D models to base your game on. So warm up your coding fingers and get yourself familiar with all the new PlayCanvas goodies. Here's a hint, think mobile.
 
-
 [GET PRACTISING AT PLAYCANVAS](https://playcanvas.com/)
-
-
-
 
 If you're excited about the PLAYHACK game jam, come over to the [forum](http://forum.playcanvas.com) to let us know your ideas.

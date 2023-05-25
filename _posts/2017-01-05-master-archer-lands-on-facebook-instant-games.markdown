@@ -8,7 +8,7 @@ slug: master-archer-lands-on-facebook-instant-games
 title: Master Archer lands on Facebook Instant Games
 wordpress_id: 2501
 categories:
-- News
+  - News
 ---
 
 https://youtu.be/uxFMr_XekPY

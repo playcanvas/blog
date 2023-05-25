@@ -8,29 +8,23 @@ slug: primitives-are-dead-long-live-the-model
 title: Primitives are dead! Long live the Model!
 wordpress_id: 1080
 categories:
-- Announcement
-- Features
+  - Announcement
+  - Features
 ---
 
 One of our most requested features has landed today, and with it, it brings new power (and no new responsibility). Our most requested feature? Applying textures and materials to primitive shapes in the Designer.
 
-
 ### A bit of history
-
 
 When we created the primitive component, we had simplicity in mind. Create box, set the color. That's it. Also, this was another time, when material editing wasn't available as part of the PlayCanvas Designer. So we created two components, the model, which allowed you to upload a 3D asset complete with materials and textures; and the primitive, the little brother, which only allowed you to set a color.
 
 To get us going this was great, but pretty soon you all started demanding more from the primitive. First it was a lack of a setVisible() method which existed on the model. Then you wanted to set a texture map, but in reality you wanted a full-on material.
 
-
 ### Long live the Model Component!
-
 
 Once we realized we were going to be recreating the primitive component with these new features, we gave it a bit of thought and came to the conclusion that the primitive is just a model component with a special built-in set of models, i.e.  box, sphere, capsule, etc. So, combining the two makes perfect sense. We give you the power and flexibility of the model component, but with the ease and speed of the primitive component.
 
-
 ### How it works
-
 
 He's a quick 4 step guide to create a primitive and applying a material.
 
@@ -42,9 +36,7 @@ He's a quick 4 step guide to create a primitive and applying a material.
 
 **4.** Click Create Material, then open up the diffuse and normal panels in the Material Editor and drag the assets from the Asset Explorer into the material slots.
 
-
 [![Primitive Materials](https://blog.playcanvas.com/wp-content/uploads/2014/01/primitive_materials.png)](http://blog.playcanvas.com/wp-content/uploads/2014/01/primitive_materials.png)
-
 
 We hope you enjoy the new power we've given you today. Just enjoy it responsibly. ;-)
 

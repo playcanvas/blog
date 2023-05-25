@@ -8,14 +8,12 @@ slug: playcanvas-in-2016-webgl-everywhere
 title: PlayCanvas in 2016 - WebGL Everywhere
 wordpress_id: 2495
 categories:
-- News
+  - News
 ---
 
 Farewell, 2016! It seems that WebGL was everywhere last year, spreading across every corner of the web. And this added up to PlayCanvas’ best year yet!
 
-
 #### Big Name Users
-
 
 The last twelve months have seen some incredible companies adopt PlayCanvas. Here’s our pick of the bunch:
 
@@ -40,9 +38,7 @@ https://vimeo.com/152996271
 
 So what's attracting incredible companies like these to PlayCanvas? It's because they need WebGL tooling that works. [Other game engines have let them down](https://blog.playcanvas.com/playcanvas-versus-unity-webgl/) and PlayCanvas is delivering the technology they need.
 
-
 #### 2016 Tech Updates
-
 
 Here are our top 5 picks for PlayCanvas tech improvements during 2016:
 
@@ -60,9 +56,7 @@ https://www.youtube.com/watch?v=B9QAptFocQQ
 
 [**REST API**](https://blog.playcanvas.com/playcanvas-rest-api/) for automating development tasks via script.
 
-
 #### Cool Games
-
 
 Plenty of PlayCanvas games have been released during 2016 but we have to give special mention to Midgard's [BlastArena](http://blastarena.io)! It pays homage to the classic Bomberman with frenetic, insanely fun online play.
 

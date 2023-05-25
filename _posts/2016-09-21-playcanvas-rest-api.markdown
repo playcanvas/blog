@@ -8,7 +8,7 @@ slug: playcanvas-rest-api
 title: PlayCanvas REST API
 wordpress_id: 2409
 categories:
-- News
+  - News
 ---
 
 ![api](https://blog.playcanvas.com/wp-content/uploads/2016/09/api.png)

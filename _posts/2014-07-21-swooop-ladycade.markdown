@@ -8,7 +8,7 @@ slug: swooop-ladycade
 title: SWOOOP @ LadyCADE
 wordpress_id: 1559
 categories:
-- News
+  - News
 ---
 
 ![SWOOOP at LadyCADE](https://blog.playcanvas.com/wp-content/uploads/2014/07/ladycade1.jpg)

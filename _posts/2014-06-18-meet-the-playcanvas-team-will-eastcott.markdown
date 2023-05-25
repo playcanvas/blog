@@ -5,26 +5,21 @@ date: 2014-06-18 17:12:59+00:00
 layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-will-eastcott/
 slug: meet-the-playcanvas-team-will-eastcott
-title: 'Meet the PlayCanvas team: Will Eastcott'
+title: "Meet the PlayCanvas team: Will Eastcott"
 wordpress_id: 1365
 categories:
-- News
+  - News
 tags:
-- MeetPlayCanvas
+  - MeetPlayCanvas
 ---
 
 **Our recent commitment to open sourcing is not the only thing we at PlayCanvas are open about. To help get in touch with our community, we are starting a series of posts about the people behind PlayCanvas. From the informative down to the outright silly, step deeper into our world.**
 
-
-
-
-[caption id="attachment_1367" align="alignnone" width="640"][!['I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'](https://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg) 'I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'[/caption]
-
+[caption id="attachment_1367" align="alignnone" width="640"]!['I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'](https://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg) 'I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'[/caption]
 
 First up is Will, our CEO and co-founder, from everyone's favourite sleepy little town Bedford, England!
 
-
- **How did you get into the video games industry?**
+**How did you get into the video games industry?**
 
 I never intended to get into making games. During my time at Imperial College in London where I studied Computing, I had to do a 6 month industrial placement. I joined a VR company that's still around today in the form of [Virtalis](http://www.virtalis.com/). But being the late 90s, the technology was underwhelming and I wanted to be back near to London, so I took an interview at Criterion Software where I started out as an engineer developing RenderWare. If you haven't heard of RenderWare before, it powered hundreds of PS2 titles (including the GTA series). I think it's fair to say, I learned a lot working with such awesome teams.
 
@@ -47,8 +42,6 @@ I see it becoming the pinnacle in convenience. Ultimate accessiblity. Completely
 **Can you describe one interesting thing about yourself?**
 
 I wanted to work at Marvel Comics when I was 18. I used to take my portfolio along to the London Comic Art Convention looking for a job. In the end, my coding skills won out which is probably for the best!
-
-
 
 **The Quick-fire Round (this is where things get a little interesting)**
 

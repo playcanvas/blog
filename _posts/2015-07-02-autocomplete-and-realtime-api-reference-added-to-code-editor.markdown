@@ -8,20 +8,15 @@ slug: autocomplete-and-realtime-api-reference-added-to-code-editor
 title: Autocomplete and Realtime API Reference added to Code Editor
 wordpress_id: 2209
 categories:
-- Announcement
-- News
+  - Announcement
+  - News
 ---
 
 PlayCanvas scripters rejoice! The Code Editor has just received a major upgrade. We have just deployed two new related features:
 
+1. Autocompletion
 
-
-	
-  1. Autocompletion
-
-	
-  2. Realtime API reference documentation
-
+2. Realtime API reference documentation
 
 So what does this look like? An animated GIF is worth 1000 words, so behold:
 
@@ -32,5 +27,3 @@ As you can see, the Code Editor now displays the properties of a variable and ca
 Let us know what you think. Anything else you would like us to add?
 
 That's all for now folks. Over and out.
-
-

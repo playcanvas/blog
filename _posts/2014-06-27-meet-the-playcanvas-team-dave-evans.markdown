@@ -5,16 +5,15 @@ date: 2014-06-27 10:03:10+00:00
 layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-dave-evans/
 slug: meet-the-playcanvas-team-dave-evans
-title: 'Meet the PlayCanvas team: Dave Evans'
+title: "Meet the PlayCanvas team: Dave Evans"
 wordpress_id: 1435
 categories:
-- News
+  - News
 tags:
-- MeetPlayCanvas
+  - MeetPlayCanvas
 ---
 
 [![dave_s.jpg](https://blog.playcanvas.com/wp-content/uploads/2014/06/dave_s.jpg.jpeg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/dave_s.jpg.jpeg)
-
 
 Next up is PlayCanvas' Chief Technical Officer who shares his name with beanie clad U2 Guitarist 'The Edge', [Dave Evans](https://twitter.com/daredevildave). Dave grew up just outside of Cambridge in Duxford where he says he was regularly dive-bombed by old planes from the nearby Imperial war Museum.
 
@@ -40,9 +39,7 @@ Online communities are massive accelerators where people can learn new skills an
 
 Web-based gaming is the future! If there is one thing you can be certain of, it's that every device released in the future, from phone, to TV, to something we haven't thought of yet, will have have a web browser. And we're right on the brink, as with PlayCanvas and WebGL you can now create great looking games to play on any of these machines.
 
-
-
-**The Quick Fire round**** (this is where things get a little interesting)**
+**The Quick Fire round\*\*** (this is where things get a little interesting)\*\*
 
 **Zelda or Final fantasy?**
 
@@ -58,4 +55,4 @@ Mario
 
 **Favourite game of all time?**
 
-That's a tough one... [Monkey Island](http://en.wikipedia.org/wiki/Monkey_Island_(series)) or Multiplayer Halo.
+That's a tough one... [Monkey Island](<http://en.wikipedia.org/wiki/Monkey_Island_(series)>) or Multiplayer Halo.

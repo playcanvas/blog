@@ -8,94 +8,38 @@ slug: arm-and-playcanvas-open-source-seemore-webgl-demo%ef%bb%bf
 title: "Arm and PlayCanvas Open Source Seemore WebGL Demo\uFEFF"
 wordpress_id: 2571
 categories:
-- News
+  - News
 tags:
-- 3d
-- arm
-- mali
-- PlayCanvas
-- seemore
-- webgl
-- webgl2
+  - 3d
+  - arm
+  - mali
+  - PlayCanvas
+  - seemore
+  - webgl
+  - webgl2
 ---
 
-
-
-
-**Cambridge/Santa Monica, August 1 2019 -** Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimised way, as well as using it to incorporate some of its performant features and components into their own projects.  
-
-
-
-
-
+**Cambridge/Santa Monica, August 1 2019 -** Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimised way, as well as using it to incorporate some of its performant features and components into their own projects.
 
 ![](https://lh5.googleusercontent.com/Dlt7lMuKZ9SJ3uszf62h1H0SjWSTMnlrU796xEtuvfWUlRQ7mqCs4AjfJSss7S4Ap555XvPQYzmIX5iLagjJJFx_GoRjjp37BWQsLJfFJmnlL2J-VRn_fYqn7Hwu_MjeZA1R5GVs)
 
+[**PLAY NOW**](https://playcanv.as/p/MflWvdTW/)
 
+[**EXPLORE PROJECT**](https://playcanvas.com/project/612100/overview/seemore-2019)
 
+“I’m so excited to be relaunching the Seemore demo. Open sourcing it in partnership with Arm will bring a host of benefits to the WebGL development community,” said Will Eastcott, CEO of PlayCanvas. “It’s an incredible learning resource that provides many clean, easy to follow examples of some very advanced graphical techniques. Sharing this project publicly is going to help move web graphics forwards for everybody.”
 
-
-[**PLAY NOW**](https://playcanv.as/p/MflWvdTW/)  
-
-
-
-
-
-
-
-
-[**EXPLORE PROJECT**](https://playcanvas.com/project/612100/overview/seemore-2019)  
-
-
-
-
-
-
-
-
-“I’m so excited to be relaunching the Seemore demo. Open sourcing it in partnership with Arm will bring a host of benefits to the WebGL development community,” said Will Eastcott, CEO of PlayCanvas. “It’s an incredible learning resource that provides many clean, easy to follow examples of some very advanced graphical techniques. Sharing this project publicly is going to help move web graphics forwards for everybody.”  
-
-
-
-
-
-
-
-
-“PlayCanvas and Arm have always strived to push the boundaries of graphics and the original demo is a testament to that,” said Pablo Fraile, Director of Developer Ecosystems at Arm. “It’s encouraging to see how PlayCanvas have advanced mobile web rendering performance since the original demo. This re-release provides a unique resource into graphics for the mobile web that is both easy to follow and incorporate into your own projects.”  
-
-
-
-
-
-
-
+“PlayCanvas and Arm have always strived to push the boundaries of graphics and the original demo is a testament to that,” said Pablo Fraile, Director of Developer Ecosystems at Arm. “It’s encouraging to see how PlayCanvas have advanced mobile web rendering performance since the original demo. This re-release provides a unique resource into graphics for the mobile web that is both easy to follow and incorporate into your own projects.”
 
 The Seemore demo was originally created as a graphical showcase for the mobile browser and takes full advantage of Arm Mali GPUs. It has been upgraded to utilize the full capabilities of WebGL 2, the latest iteration of the web graphics API. Some of the main features of the demo include:
 
-
-
-
-
-
-
-
-
-
-
-
-
-  * Physical shading with image based lighting and box-projected cube maps.
-  * Stunning refraction effects.
-  * HDR lightmaps.
-  * Interpolated pre-baked shadow maps as a fast substitute for real time shadow-mapping.
-  * ETC2 texture compression to ensure that highly detailed textures occupy only a small amount of system memory.
-  * Draw call batching.
-  * Asynchronous streaming of assets to ensure the demo loads in mere seconds (approximately 5x faster than the original version).
-  * Fully GPU-driven mesh animation.
-
-
-
+- Physical shading with image based lighting and box-projected cube maps.
+- Stunning refraction effects.
+- HDR lightmaps.
+- Interpolated pre-baked shadow maps as a fast substitute for real time shadow-mapping.
+- ETC2 texture compression to ensure that highly detailed textures occupy only a small amount of system memory.
+- Draw call batching.
+- Asynchronous streaming of assets to ensure the demo loads in mere seconds (approximately 5x faster than the original version).
+- Fully GPU-driven mesh animation.
 
 ![](https://lh6.googleusercontent.com/2FR-XGYTKZwP77phlpQ6DlNfaM5NSW4Mjo1Y3LOfQ_k1CaRWzT9iIWf-i2h2PpuF1PeKdNoys3yYotu4wkHsX9AAS1G0AbayKoOrl6z6dLeBHiZnwX1Bo0uvLerI_0SJVeQ9f6aS)
-

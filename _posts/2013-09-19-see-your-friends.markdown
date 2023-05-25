@@ -8,8 +8,8 @@ slug: see-your-friends
 title: See Your Friends!
 wordpress_id: 940
 categories:
-- Announcement
-- Features
+  - Announcement
+  - Features
 ---
 
 See what all your friends are looking at, as remote user cameras show up in the Designer.

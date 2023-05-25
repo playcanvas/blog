@@ -5,10 +5,10 @@ date: 2015-05-01 11:43:27+00:00
 layout: post
 link: https://blog.playcanvas.com/playhack-may-spaceships-and-win-a-google-cardboard/
 slug: playhack-may-spaceships-and-win-a-google-cardboard
-title: 'PLAYHACK May: Spaceships and win a Google Cardboard'
+title: "PLAYHACK May: Spaceships and win a Google Cardboard"
 wordpress_id: 2122
 categories:
-- News
+  - News
 ---
 
 [![ships_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)
@@ -27,96 +27,58 @@ This month's **PLAYHACK** is the perfect opportunity to learn about the particle
 
 [![ship_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)](http://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)
 
-
 #### Win a Google Cardboard
-
 
 We'll pick our favourite entry (make sure you have a published build for us to play) at the end of the month, and we'll send the winner a **[Google Cardboard](https://www.google.com/get/cardboard/) **which lets you browse VR scenes just using your phone. It's the future!
 
-
 ### **[START PLAYHACKING](https://playcanvas.com/project/344381/overview/playhack-may-15)**
 
-
-
-
-
-* * *
-
-
-
-
+---
 
 **Terms and Conditions**
 
 _These Terms defined below apply to the PLAYHACK May Competition._
 
+1. _By entering the Competition, entrants agree to be bound by the Terms. In addition, all entrants are required to comply with the PlayCanvas Terms of Use._
 
+2. _PlayCanvas reserves the right to cancel or amend Competitions or the Terms at its sole discretion._
 
-	
-  1. _By entering the Competition, entrants agree to be bound by the Terms. In addition, all entrants are required to comply with the PlayCanvas Terms of Use._
+3. _In the event of any dispute regarding the Terms, conduct, results and all other matters relating to a Competition, the decision of PlayCanvas shall be final and no correspondence or discussion shall be entered into._
 
-	
-  2. _PlayCanvas reserves the right to cancel or amend Competitions or the Terms at its sole discretion._
+4. _PlayCanvas reserves the right to disqualify any entrant if it has reasonable grounds to believe the entrant is not eligible or has otherwise breached any of the Terms._
 
-	
-  3. _In the event of any dispute regarding the Terms, conduct, results and all other matters relating to a Competition, the decision of PlayCanvas shall be final and no correspondence or discussion shall be entered into._
+5. _PlayCanvas does not guarantee to use any entry. PlayCanvas may also, in appropriate circumstances, and at its sole discretion, reject, edit, remove or disable access to entries that it considers may be legally or otherwise problematic._
 
-	
-  4. _PlayCanvas reserves the right to disqualify any entrant if it has reasonable grounds to believe the entrant is not eligible or has otherwise breached any of the Terms._
+6. _By entering the Competition entrants are also confirming that they own the rights to or have permission for all work submitted and any violation of this disqualifies them from the competition._
 
-	
-  5. _PlayCanvas does not guarantee to use any entry. PlayCanvas may also, in appropriate circumstances, and at its sole discretion, reject, edit, remove or disable access to entries that it considers may be legally or otherwise problematic._
+7. _By entering the Competition entrants give PlayCanvas permission to use your game and details for any marketing purposes._
 
-	
-  6. _By entering the Competition entrants are also confirming that they own the rights to or have permission for all work submitted and any violation of this disqualifies them from the competition._
+8. _The competition Start Date is May 1st, 2015._
 
-	
-  7. _By entering the Competition entrants give PlayCanvas permission to use your game and details for any marketing purposes._
+9. _The competition Closing Date is May 31st, 2015._
 
-	
-  8. _The competition Start Date is May 1st, 2015._
+10. _All Entries must be created using PlayCanvas and final games must be published and hosted on the PlayCanvas site._
 
-	
-  9. _The competition Closing Date is May 31st, 2015._
+11. _Judging will consist of playing the published primary app in the submitted project._
 
-	
-  10. _All Entries must be created using PlayCanvas and final games must be published and hosted on the PlayCanvas site._
+12. _The following prizes will be awarded based on the set criteria for the competition: A Google Cardboard._
 
-	
-  11. _Judging will consist of playing the published primary app in the submitted project._
+13. _If the entry was made by a team, the person who owns the account used for submission is eligible for the prize._
 
-	
-  12. _The following prizes will be awarded based on the set criteria for the competition: A Google Cardboard._
+14. _PlayCanvas employees are not eligible to enter the competition._
 
-	
-  13. _If the entry was made by a team, the person who owns the account used for submission is eligible for the prize._
+15. _All entrants under the age of 18 must have their parents’ permission before any prizes are awarded._
 
-	
-  14. _PlayCanvas employees are not eligible to enter the competition._
+16. _There is no limit to the number of entries that an entrant can submit._
 
-	
-  15. _All entrants under the age of 18 must have their parents’ permission before any prizes are awarded._
+17. _Each game can only be entered once._
 
-	
-  16. _There is no limit to the number of entries that an entrant can submit._
+18. _In order to participate in the competition entries must:_
+    _ - Be created using the online PlayCanvas platform and game engine._
+    _ - Be a fork of the original PLAYHACK May project._
+    _ - Include and use the contents of the PLAYHACK May project._
+    _ - Have a published primary app._
 
-	
-  17. _Each game can only be entered once._
+19. _Winners will be notified by PlayCanvas on or before Friday, June 5th, 2015._
 
-	
-  18. _In order to participate in the competition entries must:_
-_ - Be created using the online PlayCanvas platform and game engine._
-_ - Be a fork of the original PLAYHACK May project._
-_ - Include and use the contents of the PLAYHACK May project._
-_ - Have a published primary app._
-
-	
-  19. _Winners will be notified by PlayCanvas on or before Friday, June 5th, 2015._
-
-	
-  20. _Competition winners will be announced via the PlayCanvas website._
-
-
-
-
-
+20. _Competition winners will be announced via the PlayCanvas website._
