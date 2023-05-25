@@ -35,7 +35,7 @@ It is now possible to control antialiasing in Scene Settings.
 
 ### Model Placement
 
-When dragging a model to the Viewport from the Assets panel, if CRTL is held (CMD on Mac) it will put the model in front of the camera rather than at the origin.
+When dragging a model to the Viewport from the Assets panel, if CTRL is held (CMD on Mac) it will put the model in front of the camera rather than at the origin.
 
 ### Assets Panel Enhancements
 
@@ -67,10 +67,10 @@ GIF files are no longer translated to PNG. They are now treated as another valid
 Huge speedups achieved for both loading and rendering of scenes!
 
 - New thumbnail rendering system reduces VRAM usage in the Editor by up to a factor of two. This makes the Editor more stable and faster to load, especially for larger scenes.
-- Major optimisations for loading and Editor rendering process so projects with thousands of entities and assets can load and render now up to 10 times faster in extreme cases.
+- Major optimizations for loading and Editor rendering process so projects with thousands of entities and assets can load and render now up to 10 times faster in extreme cases.
 - Asset load operations are now batched rather than performed one by one.
 - All engine assets are loaded only when they are required (when they are enabled), leading to reduced traffic and loading times.
-- Optimisations in internal API of Editor and UI leading to reduced garbage collection (and therefore GC stalls) and speeds up UI templating for Hierarchy and Assets panels.
+- Optimizations in internal API of Editor and UI leading to reduced garbage collection (and therefore GC stalls) and speeds up UI templating for Hierarchy and Assets panels.
 - Enabled GZIP on WebSocket traffic, which reduces data transfers for initial loading.
 
 ### Fixes

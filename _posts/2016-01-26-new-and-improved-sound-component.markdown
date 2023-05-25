@@ -42,7 +42,7 @@ These features open up a whole bunch of doors with what you can do with audio in
 
 ## Documentation & Tutorials
 
-[![analyser-thin](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)
+[![analyzer-thin](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)
 
 To help you get up to speed with all the new features, we've update the [documentation](http://developer.playcanvas.com/en/user-manual/packs/components/sound/) and the [reference api](http://developer.playcanvas.com/en/api/pc.SoundComponent.html).
 
@@ -58,6 +58,6 @@ This [tutorial](http://developer.playcanvas.com/en/tutorials/advanced/audio-effe
 
 ### Audio Visualizer
 
-This [tutorial](http://developer.playcanvas.com/en/tutorials/intermediate/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyser node.
+This [tutorial](http://developer.playcanvas.com/en/tutorials/intermediate/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyzer node.
 
 Go forth and **make some noise!**

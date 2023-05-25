@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-Have you noticed that everybody seems to go on vacation in August? Not PlayCanvas! We've been burning the midnight oil to bring you a raft of new features and improvements to your favourite browser-based 3D engine. Want the deets? Read on!
+Have you noticed that everybody seems to go on vacation in August? Not PlayCanvas! We've been burning the midnight oil to bring you a raft of new features and improvements to your favorite browser-based 3D engine. Want the deets? Read on!
 
 #### Editor Improvements
 

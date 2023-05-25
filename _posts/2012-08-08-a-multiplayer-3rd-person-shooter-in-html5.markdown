@@ -20,7 +20,7 @@ This page is also available in [Spanish](http://www.webhostinghub.com/support/e
 
 PlayCanvas were lucky enough to show a demo of our collaborative HTML5 game development toolset at Google I/O a few months back. We had a few existing demos of simple games that we had made in order to test the platform.
 
-However, we really wanted to show something a little more high-end, to showcase the possiblities that HTML5 offers for next-generation browser games. With a little under two weeks to go we started work on the demo we'd feature on the show floor. A networked multiplayer 3rd-person shooter we descriptively called 'scifi'. We’ve since renamed it to the slightly less descriptive D.E.M.O.
+However, we really wanted to show something a little more high-end, to showcase the possibilities that HTML5 offers for next-generation browser games. With a little under two weeks to go we started work on the demo we'd feature on the show floor. A networked multiplayer 3rd-person shooter we descriptively called 'scifi'. We’ve since renamed it to the slightly less descriptive D.E.M.O.
 
 [Try playing D.E.M.O. now](http://apps.playcanvas.com/playcanvas/scifi/latest).
 _**Firefox:** Hiding the mouse cursor only works in Fullscreen mode, press SPACE to toggle fullscreen._

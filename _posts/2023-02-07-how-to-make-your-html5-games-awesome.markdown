@@ -376,6 +376,6 @@ Here's a few resources if you want to try and make something similar to juice up
 
 [Juice it or lose it - a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
 
-**And there's this awesome INDIGO class** that goes in-depth about my favourite game juice - screen shake!
+**And there's this awesome INDIGO class** that goes in-depth about my favorite game juice - screen shake!
 
 [Vlambeer - The art of screenshake by Jan Willem Nijman](https://www.youtube.com/watch?v=AJdEqssNZ-U)

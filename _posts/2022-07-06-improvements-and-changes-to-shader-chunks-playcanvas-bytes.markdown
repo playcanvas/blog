@@ -17,7 +17,7 @@ PlayCanvas Bytes is where we talk about upcoming work with PlayCanvas and relate
 
 https://youtu.be/L4SNJ2in3pA
 
-Today we have our tech lead, Donvoan and our graphics engineer, Gustav who are here to talk about work they've done and planning to do with the Shader Chunk system
+Today we have our tech lead, Donovan and our graphics engineer, Gustav who are here to talk about work they've done and planning to do with the Shader Chunk system
 
 - 00:00 Intro
 - 00:45 Why are we making these changes?

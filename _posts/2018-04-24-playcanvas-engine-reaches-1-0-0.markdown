@@ -15,7 +15,7 @@ PlayCanvas was born 7 years ago, way back on 9th May 2011. In the early days, we
 
 1. Our rapid deployment meant we never delivered a monster release that seemed to warrant going to 1.0.0.
 
-2. We always made a huge effort to maintain backwards compatiblity. Projects like the inane [Doom3: Gangnam Style](https://playcanvas.com/project/23/overview/doom3-gangnam-style) created in December 2011 still work fine today! So we never (intentionally) broke your projects.
+2. We always made a huge effort to maintain backwards compatibility. Projects like the inane [Doom3: Gangnam Style](https://playcanvas.com/project/23/overview/doom3-gangnam-style) created in December 2011 still work fine today! So we never (intentionally) broke your projects.
 
 3. We, uh, just never got around to it!
 

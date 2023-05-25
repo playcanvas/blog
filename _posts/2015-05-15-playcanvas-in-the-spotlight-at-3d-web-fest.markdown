@@ -40,4 +40,4 @@ Check out our Seemore demo up on the dual big screens:
 
 The man behind the controls was Brad Grantham of ARM. He selected some superb music to accompany the visuals. Check 'Hush' out [here](http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400004). Kudos to Brad for doing an incredible job!
 
-It's very exciting to see WebGL content being recognised as an artform and even more exciting to see PlayCanvas content representing the best of the web. We're looking forward to a follow up event at some point in the future!
+It's very exciting to see WebGL content being recognized as an artform and even more exciting to see PlayCanvas content representing the best of the web. We're looking forward to a follow up event at some point in the future!

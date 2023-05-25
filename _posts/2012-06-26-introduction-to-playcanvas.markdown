@@ -25,7 +25,7 @@ We think that the web is awesome, and that the browser is the future of the OS. 
 
 First off, PlayCanvas provides a professional standard 3D game engine, written by people with years of PC and console game engine experience. This means that people who want to make the browser games of the future don't need to re-invent all the low-level stuff and worry about cross-browser compatibility. Exciting because now anyone who can program JavaScript can make really high quality graphics render straight into the browser.
 
-Secondly, tools. As anyone who has done any serious game development knows, tools are the most important part of your game technology. A fancy engine means nothing if no one can get artwork into it, or your designers have to manually edit XML files to change behaviours. The PlayCanvas Designer is a our key tool which allows you to build your game visually with a WYSIWYG interface.
+Secondly, tools. As anyone who has done any serious game development knows, tools are the most important part of your game technology. A fancy engine means nothing if no one can get artwork into it, or your designers have to manually edit XML files to change behaviors. The PlayCanvas Designer is a our key tool which allows you to build your game visually with a WYSIWYG interface.
 
 However, most exciting is the real-time collaboration features. It is truly revolutionary to be able to work with a colleague on the other side of world and edit 3D worlds in real-time as if you were drawing on the same sheet of paper. Seriously, you have to try it.
 

@@ -17,7 +17,7 @@ tags:
 
 [caption id="attachment_1367" align="alignnone" width="640"]!['I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'](https://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/will_s.jpg) 'I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'[/caption]
 
-First up is Will, our CEO and co-founder, from everyone's favourite sleepy little town Bedford, England!
+First up is Will, our CEO and co-founder, from everyone's favorite sleepy little town Bedford, England!
 
 **How did you get into the video games industry?**
 
@@ -37,7 +37,7 @@ It's becoming more transparent. If you choose to work in public, I can see your 
 
 **Where do you see web based gaming in the future?**
 
-I see it becoming the pinnacle in convenience. Ultimate accessiblity. Completely cross-platform. And even more dynamic and open than it is today.
+I see it becoming the pinnacle in convenience. Ultimate accessibility. Completely cross-platform. And even more dynamic and open than it is today.
 
 **Can you describe one interesting thing about yourself?**
 

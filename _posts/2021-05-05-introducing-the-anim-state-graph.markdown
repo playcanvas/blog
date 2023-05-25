@@ -27,7 +27,7 @@ With the release of the Anim component, Anim State Graph assets and Anim State G
 
 It’s now easier than ever to make your game characters move just the way you’d like, while writing minimal code in the process!
 
-Having recently beta tested this feature with a number of developers, we’ve already seen some fantastic results! For instance, the developer of the popular online shooter [venge.io](http://venge.io/) is utilising the anim state graph to drive character animations in their up and coming online RPG.
+Having recently beta tested this feature with a number of developers, we’ve already seen some fantastic results! For instance, the developer of the popular online shooter [venge.io](http://venge.io/) is utilizing the anim state graph to drive character animations in their up and coming online RPG.
 
 A clip of an early build of this game can be seen below, showcasing the blending of multiple animation clips. When combined together in a state graph they create realistic and fluid movement for the main character.
 
@@ -45,7 +45,7 @@ We can’t wait to see what other developers can create with this system!
 
 **Multiple characters** - Because anim state graphs are stored as assets, a single graph can be used to drive the animation of as many entities as you want by assigning your graph asset to multiple entity anim components.
 
-![](https://lh5.googleusercontent.com/YTBSDXAQybmQELV3f0kl1pEWOUK294lvgWeppWipsdenBmcsjrtuepgSnJY2Zq3YOH5cr290eUzQI0V4wEvPft-f-usXAZ41aNpxPv_uzU4zQ-HqPWFdnTgZvVRdPm4Pi4GxMMUd)Multiple characters utilising the same anim state graph
+![](https://lh5.googleusercontent.com/YTBSDXAQybmQELV3f0kl1pEWOUK294lvgWeppWipsdenBmcsjrtuepgSnJY2Zq3YOH5cr290eUzQI0V4wEvPft-f-usXAZ41aNpxPv_uzU4zQ-HqPWFdnTgZvVRdPm4Pi4GxMMUd)Multiple characters utilizing the same anim state graph
 
 While these two characters use different animations for their various actions, they share the same behavior. With the anim state graph you can update this behavior in one place while still using it with as many characters as you like.
 
