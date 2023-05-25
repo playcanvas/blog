@@ -26,7 +26,7 @@ Today we are excited to be joined by [Christina Kaliora](https://solargames.io/c
 She will showing us the how she recently ported the [John Lemon's Haunted Jaunt](https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner) Unity project to PlayCanvas in the video presentation below covering areas:
 
 - Exporting the scene from Unity
-- Perfomance concerns
+- Performance concerns
 - Use of shaders and effects
 - And more!
 

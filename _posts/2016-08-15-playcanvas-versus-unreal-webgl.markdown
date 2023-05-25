@@ -105,7 +105,7 @@ Things to notice:
 
 ### Runtime Performance
 
-To analyse runtime performance, let's compare captures of the two games using the Timeline panel in Chrome Dev Tools. Here's a capture for the PlayCanvas-powered Flappy Bird showing a frame executed in 0.57ms:
+To analyze runtime performance, let's compare captures of the two games using the Timeline panel in Chrome Dev Tools. Here's a capture for the PlayCanvas-powered Flappy Bird showing a frame executed in 0.57ms:
 
 [![flappy_timeline](https://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)](http://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)
 

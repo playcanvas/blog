@@ -29,4 +29,4 @@ Github really is a best of breed web application, and their ideals are tightly a
 
 We love Github, but me, I'm a Mercurial man, which is why we're giving equal love to Bitbucket and Github with our second feature to announce, syncing private repositories.
 
-To use Github or Bitbucket accounts select your account settings page from the top navigation and go to Services. One click to authorise your account and then you can sync any of the repositories from your Bitbucket or Github user. Now head over the Code tab in your Depots and fill in the details of which repository you want to link up with your project.
+To use Github or Bitbucket accounts select your account settings page from the top navigation and go to Services. One click to authorize your account and then you can sync any of the repositories from your Bitbucket or Github user. Now head over the Code tab in your Depots and fill in the details of which repository you want to link up with your project.

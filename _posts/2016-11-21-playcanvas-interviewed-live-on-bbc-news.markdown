@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-On Friday, 18th November, PlayCanvas HQ was visited by BBC News, the world's largest broadcast news organisation. Our CEO Will was interviewed live on the 6 o'clock evening news which has viewing figures of around 1 million people.
+On Friday, 18th November, PlayCanvas HQ was visited by BBC News, the world's largest broadcast news organization. Our CEO Will was interviewed live on the 6 o'clock evening news which has viewing figures of around 1 million people.
 
 [video width="704" height="396" mp4="https://blog.playcanvas.com/wp-content/uploads/2016/11/BBC-London-Evening-News-18_11_2016.mp4"][/video]
 

@@ -72,7 +72,7 @@ In July, a PlayCanvas user walked away a prize winner in a game jam with his gam
 
 **PLAYHACK**
 
-Towards the end of this year we started our own game jam, the PLAYHACK. Running the competition monthly, we provide you the model, you make a game with it and our favourite is featured on the PlayCanvas site.
+Towards the end of this year we started our own game jam, the PLAYHACK. Running the competition monthly, we provide you the model, you make a game with it and our favorite is featured on the PlayCanvas site.
 
 ## Things to look forward to in 2015
 

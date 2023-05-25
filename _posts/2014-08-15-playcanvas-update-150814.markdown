@@ -15,7 +15,7 @@ categories:
 
 ## GDC Europe, gamescom and SIGGRAPH
 
-Will (PlayCanvas CEO) headed off to [GDC Europe](http://www.gdceurope.com/) and [gamescom ](http://www.gamescom-cologne.com/en/gamescom/home/index.php)this week while Dave (PlayCanvas CTO) travelled to Vancouver for SIGGRAPH. PlayCanvas made a real splash at both and in the next few days, we'll be writing a blog entry dedicated to each trip.
+Will (PlayCanvas CEO) headed off to [GDC Europe](http://www.gdceurope.com/) and [gamescom ](http://www.gamescom-cologne.com/en/gamescom/home/index.php)this week while Dave (PlayCanvas CTO) traveled to Vancouver for SIGGRAPH. PlayCanvas made a real splash at both and in the next few days, we'll be writing a blog entry dedicated to each trip.
 
 ## Features and Fixes:
 
