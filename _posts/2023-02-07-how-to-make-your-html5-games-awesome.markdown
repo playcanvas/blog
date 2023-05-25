@@ -43,9 +43,7 @@ However, with the right attention to detail and some careful implementation of g
 To think about what should have game juice, I always try to narrow down the most common interaction or core mechanic of the game. In our case, that would probably be:
 
 - Shooting
-
 - Destroying asteroids
-
 - Colliding with asteroids
 
 With those three key pieces in mind, let's start thinking about how we can improve them.
@@ -58,35 +56,39 @@ It's not very interesting right now:
 
 If we want to change that, there's a few key things we can do. We can increase the fire rate through a script that allows us to easily control by decreasing the fire cooldown.
 
-    <code>Gun.attributes.add('cooldown', {
-        type: 'number',
-        default: 0.25,
-        title: 'Cooldown',
-        description: 'How long the gun has to wait between firing each bullet'
-    });
+```javascript
+Gun.attributes.add('cooldown', {
+    type: 'number',
+    default: 0.25,
+    title: 'Cooldown',
+    description: 'How long the gun has to wait between firing each bullet'
+});
 
-    Gun.prototype.update = function (dt) {
-        this._cooldownTimer -= dt;
+Gun.prototype.update = function (dt) {
+    this._cooldownTimer -= dt;
 
-        if (this.app.mouse.isPressed(pc.MOUSEBUTTON_LEFT) && this.canFire()) {
-            this.fireBullet();
-        }
-    };</code>
+    if (this.app.mouse.isPressed(pc.MOUSEBUTTON_LEFT) && this.canFire()) {
+        this.fireBullet();
+    }
+};
+```
 
 In fact, while we're at it, let's make shooting a bit more unpredictable. Let's add some spread to our shots!
 
-    <code>Gun.attributes.add('spread', {
-        type: 'number',
-        default: 10,
-        title: 'Bullet Spread',
-        description: 'Up to how many degrees each bullet should vary in Y rotation.'
-    });
+```javascript
+Gun.attributes.add('spread', {
+    type: 'number',
+    default: 10,
+    title: 'Bullet Spread',
+    description: 'Up to how many degrees each bullet should vary in Y rotation.'
+});
 
-    Gun.prototype.applySpreadOn = function (bullet) {
-        var rotation = this.entity.getEulerAngles();
-        rotation.y += getRandomDeviation(this.spread);
-        bullet.setEulerAngles(rotation);
-    };</code>
+Gun.prototype.applySpreadOn = function (bullet) {
+    var rotation = this.entity.getEulerAngles();
+    rotation.y += getRandomDeviation(this.spread);
+    bullet.setEulerAngles(rotation);
+};
+```
 
 A simple but impactful change! Here's how it looks with values I put in for some fun:
 
@@ -122,31 +124,33 @@ Let's import a new mesh and texture for the asteroids.
 
 Nice! Much more visible, and much more variety - I should note I went ahead and added a simple component that further randomizes the scale of the asteroids being spawned!
 
-    <code>var ScaleRandomizer = pc.createScript('scaleRandomizer');
+```javascript
+var ScaleRandomizer = pc.createScript('scaleRandomizer');
 
-    ScaleRandomizer.attributes.add('baseScale', {
-        type: 'number',
-        title: 'Base Scale',
-        description: 'The base scale to deviate from'
-    });
+ScaleRandomizer.attributes.add('baseScale', {
+    type: 'number',
+    title: 'Base Scale',
+    description: 'The base scale to deviate from'
+});
 
-    ScaleRandomizer.attributes.add('scaleDeviation', {
-        type: 'number',
-        title: 'Scale Deviation',
-        description: 'The amount by which the effective scale should deviate from the base scale'
-    });
+ScaleRandomizer.attributes.add('scaleDeviation', {
+    type: 'number',
+    title: 'Scale Deviation',
+    description: 'The amount by which the effective scale should deviate from the base scale'
+});
 
-    // initialize code called once per entity
-    ScaleRandomizer.prototype.initialize = function () {
-        this.entity.setLocalScale(this.getRandomScale());
-    };
+// initialize code called once per entity
+ScaleRandomizer.prototype.initialize = function () {
+    this.entity.setLocalScale(this.getRandomScale());
+};
 
-    ScaleRandomizer.prototype.getRandomScale = function () {
-        var deviation = getRandomFloatDeviation(this.scaleDeviation, 3);
-        var randomScale = this.baseScale + deviation;
+ScaleRandomizer.prototype.getRandomScale = function () {
+    var deviation = getRandomFloatDeviation(this.scaleDeviation, 3);
+    var randomScale = this.baseScale + deviation;
 
-        return new pc.Vec3(randomScale, randomScale, randomScale);
-    };</code>
+    return new pc.Vec3(randomScale, randomScale, randomScale);
+};
+```
 
 Awesome, the asteroids look much nicer. Let's turn our attention back to our background for a moment as it looks very static.
 
@@ -174,102 +178,108 @@ I also made the FakeAsteroid texture much darker, so as not to distract or confu
 
 My approach to the ‘fragment’ asteroids was similar, except I made them much smaller, and gave the regular asteroids a component to spawn fragments on death.
 
-    <code>FragmentSpawner.attributes.add('minMaxCount', {
-        type: 'vec2',
-        title: 'Min, Max Count',
-        description: 'The minimum and maximum amount of fragments to spawn.'
-    });
+```javascript
+FragmentSpawner.attributes.add('minMaxCount', {
+    type: 'vec2',
+    title: 'Min, Max Count',
+    description: 'The minimum and maximum amount of fragments to spawn.'
+});
 
-    FragmentSpawner.prototype.spawnFragments = function () {
-        if (FragmentSpawner.fragmentParent === null) {
-            return;
-        }
+FragmentSpawner.prototype.spawnFragments = function () {
+    if (FragmentSpawner.fragmentParent === null) {
+        return;
+    }
 
-        var spawnCount = getRandomInRange(this.minMaxCount.x, this.minMaxCount.y);
+    var spawnCount = getRandomInRange(this.minMaxCount.x, this.minMaxCount.y);
 
-        for (i = 0; i < spawnCount; i++) {
-            this.spawnSingleFragment();
-        }
-    };
+    for (i = 0; i < spawnCount; i++) {
+        this.spawnSingleFragment();
+    }
+};
 
-    FragmentSpawner.prototype.spawnSingleFragment = function () {
-        var fragment = this.fragmentTemplate.resource.instantiate();
-        fragment.reparent(FragmentSpawner.fragmentParent);
-        var position = this.getFragmentPosition();
-        fragment.setPosition(position);
-    };</code>
+FragmentSpawner.prototype.spawnSingleFragment = function () {
+    var fragment = this.fragmentTemplate.resource.instantiate();
+    fragment.reparent(FragmentSpawner.fragmentParent);
+    var position = this.getFragmentPosition();
+    fragment.setPosition(position);
+};
+```
 
 And, while we’re at it, why don't we add a dust puff and small particles when the asteroid gets destroyed to complement our fragments?
 
 I gathered a few textures online, duplicated our bullet hit particle effects and modified them. To spawn the particle effects, I used the same component I had used in the bullet:
 
-    <code>// A script that spawns a particle effect on death
-    var DeathEffect = pc.createScript('deathEffect');
+```javascript
+// A script that spawns a particle effect on death
+var DeathEffect = pc.createScript('deathEffect');
 
-    DeathEffect.attributes.add('particleEffects', {
-        type: 'asset',
-        assetType: 'template',
-        array: true,
-        title: 'Particle Effect Templates',
-    });
+DeathEffect.attributes.add('particleEffects', {
+    type: 'asset',
+    assetType: 'template',
+    array: true,
+    title: 'Particle Effect Templates',
+});
 
-    DeathEffect.effectParent = null;
+DeathEffect.effectParent = null;
 
-    // initialize code called once per entity
-    DeathEffect.prototype.initialize = function () {
-        this.entity.on('destroy', this.onDestroy, this);
+// initialize code called once per entity
+DeathEffect.prototype.initialize = function () {
+    this.entity.on('destroy', this.onDestroy, this);
 
-        if (!DeathEffect.effectParent) {
-            DeathEffect.effectParent = this.entity.parent;
-        }
-    };
+    if (!DeathEffect.effectParent) {
+        DeathEffect.effectParent = this.entity.parent;
+    }
+};
 
-    DeathEffect.prototype.onDestroy = function () {
-        for (var i = 0; i < this.particleEffects.length; i++) {
-            var effect = this.particleEffects[i].resource.instantiate();
-            effect.setPosition(this.entity.getPosition());
-            effect.reparent(effectParent);
-        }
-    };</code>
+DeathEffect.prototype.onDestroy = function () {
+    for (var i = 0; i < this.particleEffects.length; i++) {
+        var effect = this.particleEffects[i].resource.instantiate();
+        effect.setPosition(this.entity.getPosition());
+        effect.reparent(effectParent);
+    }
+};
+```
 
 And lastly for the background, I added a script to lerp the transparency of our blue space material towards 0. This slowly reveals a purple material underneath.
 
-    <code>// A script that manages ambient color.
-    var AmbientManager = pc.createScript('ambientManager');
+```javascript
+// A script that manages ambient color.
+var AmbientManager = pc.createScript('ambientManager');
 
-    AmbientManager.attributes.add('startingColor', {
-        type: 'rgba',
-        title: 'Starting Color',
-        description: 'The starting color for the ambient'
-    });
+AmbientManager.attributes.add('startingColor', {
+    type: 'rgba',
+    title: 'Starting Color',
+    description: 'The starting color for the ambient'
+});
 
-    AmbientManager.attributes.add('finalColor', {
-        type: 'rgba',
-        title: 'Final Color',
-        description: 'The final color for the ambient'
-    });
+AmbientManager.attributes.add('finalColor', {
+    type: 'rgba',
+    title: 'Final Color',
+    description: 'The final color for the ambient'
+});
 
-    AmbientManager.attributes.add('targetMaterial', {
-        type: 'asset',
-        assetType: 'material',
-        title: 'Target Material',
-        description: 'The material whose color to set (Matching the ambient color)'
-    });
+AmbientManager.attributes.add('targetMaterial', {
+    type: 'asset',
+    assetType: 'material',
+    title: 'Target Material',
+    description: 'The material whose color to set (Matching the ambient color)'
+});
 
-    // initialize code called once per entity
-    AmbientManager.prototype.initialize = function () {
-        this.updateTransition(0);
-    };
+// initialize code called once per entity
+AmbientManager.prototype.initialize = function () {
+    this.updateTransition(0);
+};
 
-    AmbientManager.prototype.updateTransition = function (transitionProgress) {
-        var color = new pc.Color();
-        color.lerp(this.startingColor, this.finalColor, transitionProgress);
+AmbientManager.prototype.updateTransition = function (transitionProgress) {
+    var color = new pc.Color();
+    color.lerp(this.startingColor, this.finalColor, transitionProgress);
 
-        var mat = this.targetMaterial.resource;
-        mat.emissive = color;
-        mat.opacity = color.a;
-        mat.update();
-    };</code>
+    var mat = this.targetMaterial.resource;
+    mat.emissive = color;
+    mat.opacity = color.a;
+    mat.update();
+};
+```
 
 Here's the end result with all of our asteroid changes:
 
@@ -299,40 +309,44 @@ Next up, let's try to emulate that ‘bump’ feeling. We can do this by adding 
 
 Making it slow mo is fairly simple - one component does it:
 
-    <code>var BulletTimeEffect = pc.createScript('bulletTimeEffect');
+```javascript
+var BulletTimeEffect = pc.createScript('bulletTimeEffect');
 
-    BulletTimeEffect.attributes.add('effectDuration', {
-        type: 'number',
-        default: 1,
-        title: 'Effect Duration',
-        description: 'How long the bullet time effect should last.'
-    });
+BulletTimeEffect.attributes.add('effectDuration', {
+    type: 'number',
+    default: 1,
+    title: 'Effect Duration',
+    description: 'How long the bullet time effect should last.'
+});
 
-    BulletTimeEffect.attributes.add('timeCurve', {
-        type: 'curve',
-        title: 'Time Curve',
-        description: 'How much the time scale should be over unscaled time.'
-    });
+BulletTimeEffect.attributes.add('timeCurve', {
+    type: 'curve',
+    title: 'Time Curve',
+    description: 'How much the time scale should be over unscaled time.'
+});
 
-    // initialize code called once per entity
-    BulletTimeEffect.prototype.initialize = function () {
-        this._time = 0;
-        this.entity.on('destroy', function () {
-            this.app.timeScale = 1;
-        }, this);
-    };
+// initialize code called once per entity
+BulletTimeEffect.prototype.initialize = function () {
+    this._time = 0;
+    this.entity.on('destroy', function () {
+        this.app.timeScale = 1;
+    }, this);
+};
 
-    // update code called every frame
-    BulletTimeEffect.prototype.update = function (dt) {
-        this._time += (dt / this.app.timeScale) / this.effectDuration;
-        this.app.timeScale = this.timeCurve.value(this._time);
-        this.app.timeScale = Math.min(1, this.app.timeScale);
-    };</code>
+// update code called every frame
+BulletTimeEffect.prototype.update = function (dt) {
+    this._time += (dt / this.app.timeScale) / this.effectDuration;
+    this.app.timeScale = this.timeCurve.value(this._time);
+    this.app.timeScale = Math.min(1, this.app.timeScale);
+};
+```
 
 As for making the screen shake, its a bit more complex (Though certainly not magic!). The underlying logic is to simply move the camera randomly. To do so, we can use a script that tracks the camera's original position, and translates it randomly. We reset to the original position at the beginning of each new frame, and repeat.
 
-    <code>this.entity.setPosition(originalPosition);
-    this.entity.translate(this.getRandomTranslation());</code>
+```javascript
+this.entity.setPosition(originalPosition);
+this.entity.translate(this.getRandomTranslation());
+```
 
 The above getRandomTranslation() method could simply return a random Vector3, and it would work. Problem is, though, this approach can make the camera feel like it is jittering, not shaking, particularly if the shake distance is large. This can cause motion sickness.
 

@@ -23,22 +23,24 @@ Using JSON, developers are able to define a schema for a data object that has mu
 
 In the example below, we have created a JSON schema with the name ‘settings’ and has the attributes ‘gravity’, ‘startingHealth’ and ‘godMode’.
 
-    <code>GameManager.attributes.add('settings', {
-        type: 'json',
-        schema: [{
-            name: 'gravity',
-            type: 'number',
-            default: -9.8
-        }, {
-            name: 'startingHealth',
-            type: 'number',
-            default: 20
-        }, {
-            name: 'godMode',
-            type: 'boolean',
-            default: false
-        }]
-    });</code>
+```javascript
+GameManager.attributes.add('settings', {
+    type: 'json',
+    schema: [{
+        name: 'gravity',
+        type: 'number',
+        default: -9.8
+    }, {
+        name: 'startingHealth',
+        type: 'number',
+        default: 20
+    }, {
+        name: 'godMode',
+        type: 'boolean',
+        default: false
+    }]
+});
+```
 
 In the Inspector, the data object is shown as a collapsible section:
 
@@ -48,27 +50,29 @@ Even better, **these data objects can made into an array**! This is a huge impro
 
 Example JSON schema for an array of enemies:
 
-    <code>GameManager.attributes.add('enemies', {
-        type: 'json',
-        schema: [{
-            name: 'health',
-            type: 'number',
-            default: 10
-        }, {
-            name: 'type',
-            type: 'number',
-            enum: [
-                { 'Close Combat': 1 },
-                { 'Range': 2 },
-                { 'Both': 3 }
-            ]
-        }, {
-            name: 'templateAsset',
-            type: 'asset',
-            assetType: 'template'
-        }],
-        array: true
-    });</code>
+```javascript
+GameManager.attributes.add('enemies', {
+    type: 'json',
+    schema: [{
+        name: 'health',
+        type: 'number',
+        default: 10
+    }, {
+        name: 'type',
+        type: 'number',
+        enum: [
+            { 'Close Combat': 1 },
+            { 'Range': 2 },
+            { 'Both': 3 }
+        ]
+    }, {
+        name: 'templateAsset',
+        type: 'asset',
+        assetType: 'template'
+    }],
+    array: true
+});
+```
 
 Becomes the following in the inspector which is so much cleaner!
 

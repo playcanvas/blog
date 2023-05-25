@@ -17,23 +17,27 @@ IE11 was released on October 17, 2013. But even today, [StatCounter](https://gs.
 
 Over time, the engine codebase has grown significantly. It's now nearly 100,000 lines long. Maintaining and building such a large codebase can be problematic. To help bring some level of consistency and structure, we imposed the following pattern:
 
-    <code>Object.assign(pc, (function () {
-        var SomeClass = function () {
-            this.other = new pc.OtherClass();
-        };
+```javascript
+Object.assign(pc, (function () {
+    var SomeClass = function () {
+        this.other = new pc.OtherClass();
+    };
 
-        Object.assign(SomeClass.prototype, {
-            someFunction: function () {}
-        });
+    Object.assign(SomeClass.prototype, {
+        someFunction: function () {}
+    });
 
-        return {
-            SomeClass: SomeClass
-        };
-    }()));</code>
+    return {
+        SomeClass: SomeClass
+    };
+}()));
+```
 
 `pc` is the PlayCanvas library namespace. So a developer would create instances of this class as follows:
 
-    <code>var thing = new pc.SomeClass();</code>
+```javascript
+var thing = new pc.SomeClass();
+```
 
 To build the engine, we wrote a node.js script which would parse a list of dependencies (JavaScript filenames) and concatenate them. There were several problems:
 
@@ -46,17 +50,19 @@ To build the engine, we wrote a node.js script which would parse a list of depen
 
 We believed the solution to these problems was to migrate the engine codebase from vanilla ES5 to ES6 modules. This would transform the original module pattern to:
 
-    <code>import { OtherClass } from './other-class.js';
+```javascript
+import { OtherClass } from './other-class.js';
 
-    var SomeClass = function () {
-        this.other = new OtherClass();
-    };
+var SomeClass = function () {
+    this.other = new OtherClass();
+};
 
-    Object.assign(SomeClass.prototype, {
-        someFunction: function () {}
-    });
+Object.assign(SomeClass.prototype, {
+    someFunction: function () {}
+});
 
-    export { SomeClass };</code>
+export { SomeClass };</code>
+```
 
 Much better!
 

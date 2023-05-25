@@ -26,54 +26,32 @@ First let's give you a little sample of how the Maths library is going to work.
 
 Here is some code from our recent Ludum Dare game Going Around.
 
-    <code> // In this code, we get the camera position,
-    // We convert a mouse click into world space
-    // Then we calculate the ray end point from
-    // the mouse click using a variety of vector operations</code>
+```javascript
+// In this code, we get the camera position,
+// We convert a mouse click into world space
+// Then we calculate the ray end point from
+// the mouse click using a variety of vector operations
+pc.math.vec3.copy(camera.getPosition(), this.rayStart);
+camera.camera.screenToWorld(event.x, event.y, 1, this.rayEnd);
+pc.math.vec3.subtract(this.rayEnd, this.rayStart, this.rayEnd);
+pc.math.vec3.normalize(this.rayEnd,this.rayEnd);
+pc.math.vec3.scale(this.rayEnd, RAY_LENGTH, this.rayEnd);
+pc.math.vec3.add(this.rayStart, this.rayEnd, this.rayEnd);
 
-
-
-
-
-
-
-    <code> pc.math.vec3.copy(camera.getPosition(), this.rayStart);
-    camera.camera.screenToWorld(event.x, event.y, 1, this.rayEnd);
-    pc.math.vec3.subtract(this.rayEnd, this.rayStart, this.rayEnd);
-    pc.math.vec3.normalize(this.rayEnd,this.rayEnd);
-    pc.math.vec3.scale(this.rayEnd, RAY_LENGTH, this.rayEnd);
-    pc.math.vec3.add(this.rayStart, this.rayEnd, this.rayEnd);
-    </code>
-
-
-
-
-
-
-
-    <code>context.systems.rigidbody.raycastFirst(this.rayStart, this.rayEnd, this.onRayHit.bind(this));
-    </code>
+context.systems.rigidbody.raycastFirst(this.rayStart, this.rayEnd, this.onRayHit.bind(this));
+```
 
 This is what this will look like in the new API.
 
-    <code>this.rayStart.copy(camera.getPosition());
-    camera.camera.screenToWorld(event.x, event.y, 1, this.rayEnd);
-    </code>
+```javascript
+this.rayStart.copy(camera.getPosition());
+camera.camera.screenToWorld(event.x, event.y, 1, this.rayEnd);
 
+// subtract, then normalize, then scale by RAY_LENGTH, then add
+this.rayEnd.sub(this.rayStart).normalize().scale(RAY_LENGTH).add(this.rayStart);
 
-
-
-
-    <code>// subtract, then normalize, then scale by RAY_LENGTH, then add
-    this.rayEnd.sub(this.rayStart).normalize().scale(RAY_LENGTH).add(this.rayStart);
-    </code>
-
-
-
-
-
-    <code>context.systems.rigidbody.raycastFirst(this.rayStart, this.rayEnd, this.onRayHit.bind(this));
-    </code>
+context.systems.rigidbody.raycastFirst(this.rayStart, this.rayEnd, this.onRayHit.bind(this));
+```
 
 As you can see we now support chaining vector operations together. This makes the code more concise, and also more readable. If you read through the line you can see we subtract, normalize, scale then add. All into the same vector.
 
