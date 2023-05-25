@@ -8,7 +8,7 @@ slug: playhack-with-playjam
 title: PLAYHACK with Playjam
 wordpress_id: 2287
 categories:
-- News
+  - News
 ---
 
 [![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
@@ -20,6 +20,5 @@ Playjam are offering big cash prizes for the winners of the new PLAYHACK, plus t
 PLAYHACK will kick-off on the 1st February and run for 6 weeks. So warm up your coding fingers and get yourself familiar with all the new PlayCanvas goodies. Here's a hint, mobile games are popular these days...
 
 More info soon, it's going to be a big one!
-
 
 [GO WARM UP WITH PLAYCANVAS](https://playcanvas.com/)

@@ -5,11 +5,11 @@ date: 2018-06-15 22:08:19+00:00
 layout: post
 link: https://blog.playcanvas.com/new-feature-2d-sprites-and-9-slicing/
 slug: new-feature-2d-sprites-and-9-slicing
-title: 'New Feature: 2D Sprites and 9-slicing'
+title: "New Feature: 2D Sprites and 9-slicing"
 wordpress_id: 2547
 categories:
-- Features
-- News
+  - Features
+  - News
 ---
 
 PlayCanvas is one of the most popular ways to build 3D interactive web content today. But before 3D graphics was a thing, there was 2D graphics!
@@ -21,8 +21,6 @@ Today we're excited to launch the first part of our 2D graphics support. Great f
 There are 5 great new features which will help you build 2D games using PlayCanvas.
 
 **Texture Atlas Asset**
-
-
 
 ![](https://blog.playcanvas.com/wp-content/uploads/2018/06/texture-atlas-300x267.jpg)
 

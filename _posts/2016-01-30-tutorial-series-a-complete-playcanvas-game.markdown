@@ -5,10 +5,10 @@ date: 2016-01-30 12:45:47+00:00
 layout: post
 link: https://blog.playcanvas.com/tutorial-series-a-complete-playcanvas-game/
 slug: tutorial-series-a-complete-playcanvas-game
-title: 'Tutorial Series: A complete PlayCanvas game'
+title: "Tutorial Series: A complete PlayCanvas game"
 wordpress_id: 2299
 categories:
-- News
+  - News
 ---
 
 [![icon](https://blog.playcanvas.com/wp-content/uploads/2016/01/icon.jpg)](http://developer.playcanvas.com/en/tutorials/beginner/keepyup-part-one/)

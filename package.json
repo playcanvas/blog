@@ -4,6 +4,7 @@
   "description": "The PlayCanvas blog site",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write _posts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

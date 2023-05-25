@@ -8,7 +8,7 @@ slug: playcanvas-interviewed-live-on-bbc-news
 title: PlayCanvas Interviewed Live on BBC News
 wordpress_id: 2465
 categories:
-- News
+  - News
 ---
 
 On Friday, 18th November, PlayCanvas HQ was visited by BBC News, the world's largest broadcast news organisation. Our CEO Will was interviewed live on the 6 o'clock evening news which has viewing figures of around 1 million people.

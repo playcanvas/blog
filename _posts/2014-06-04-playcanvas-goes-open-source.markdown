@@ -8,8 +8,8 @@ slug: playcanvas-goes-open-source
 title: PlayCanvas goes open source
 wordpress_id: 1271
 categories:
-- Announcement
-- News
+  - Announcement
+  - News
 ---
 
 When we first started PlayCanvas ([over 2,716 commits ago](http://github.com/playcanvas/engine)) WebGL was just beginning to make it's way from Chrome and Firefox Nightlies into stable releases. Fast-forward to 3 years and WebGL is everywhere, Firefox and Chrome have strong support both on desktop and on mobile. And just this week the final player Apple have joined us with [WebGL support](http://blog.playcanvas.com/ios-webgl-support/) for both Safari and iOS.
@@ -18,20 +18,11 @@ When we first started PlayCanvas ([over 2,716 commits ago](http://github.com/pla
 
 Today, we have some more great news for WebGL fans, game developers and web developers alike.
 
-
 **PlayCanvas Engine is now open source.**
-
-
-
 
 The entire runtime engine is available right now on [github](http://github.com/playcanvas/engine) under the lovely [MIT license](opensource.org/licenses/MIT). Which means you can download it, fork it, and generally use it for anything you like.
 
-
-
-
-
 ### Why open source, why now?
-
 
 Ever since we started the engine open source was always on our mind. We've never hidden the source code from developers. Minified versions are available for performance reasons, but during development users always have had full access to the un-mangled engine. This is critical for debugging and fulfilling our mantra to _make game development easier_.
 
@@ -39,48 +30,24 @@ In reality the engine has been open source since the get go. Officially open sou
 
 For developers who just want to hack on the code with the overhead of the tools this news is great. Simply download the engine, open up your text editor and get cracking. For those of you who want more structure, and higher level tools, the [PlayCanvas platform](https://playcanvas.com) is a perfect addition to accelerate your game production.
 
-
 ### So, this engine? What is it?
-
 
 In case you haven't come across the PlayCanvas Engine before, it's a JavaScript library engineered specifically for building video games. It implements all of the major components that you need to write high quality games:
 
-
-
-	
-  * **Graphics:** model loading, per-pixel lighting, shadow mapping, post effects
-
-	
-  * **Physics:** rigid body simulation, ray casting, joints, trigger volumes, vehicles
-
-	
-  * **Animation:** keyframing, skeletal blending, skinning
-
-	
-  * **Audio engine:** 2D and 3D audio sources
-
-	
-  * **Input devices:** mouse, keyboard, touch and gamepad support
-
-	
-  * **Entity-component system:** high level game object management
-
-
-
+- **Graphics:** model loading, per-pixel lighting, shadow mapping, post effects
+- **Physics:** rigid body simulation, ray casting, joints, trigger volumes, vehicles
+- **Animation:** keyframing, skeletal blending, skinning
+- **Audio engine:** 2D and 3D audio sources
+- **Input devices:** mouse, keyboard, touch and gamepad support
+- **Entity-component system:** high level game object management
 
 ### Design Goals
 
-
 We had a couple of goals in mind when we originally designed the engine.
 
+1. It had to be easy to work with.
 
-
-	
-  1. It had to be easy to work with.
-
-	
-  2. It had to be blazingly fast.
-
+2. It had to be blazingly fast.
 
 **Simple Yet Powerful**
 
@@ -98,9 +65,7 @@ To ensure we get great performance, we’ve built PlayCanvas as a hybrid of hand
 
 But what about the non-asm.js parts of the codebase? Performance is clearly still super-important, especially for the graphics engine. The renderer is highly optimized to sort draw calls by material and eliminate redundant WebGL calls. It has also been carefully written to avoid making dynamic allocations to head off potential stalls due to garbage collection. So the code performs brilliantly but is also lightweight and human readable.
 
-
 ### Powering Awesome Projects
-
 
 [![play-canvas-engine-500](https://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)
 
@@ -108,39 +73,25 @@ The PlayCanvas Engine is already powering some great projects. By far and away, 
 
 For years, we’ve been frustrated with the limitations of current generation game engines. So shortly after starting work on the PlayCanvas Engine, we began designing a new breed of game development environment that would be:
 
-
-
-	
-  * **Accessible - **Using any device with a web browser, plug in a URL and instantly access simple, intuitive yet powerful tools.
-
-	
-  * **Collaborative - **See what you teammates are working on in real-time or just sit back and watch a game as it’s built live before your eyes.
-
-	
-  * **Social - **Making games is easier with the help of others. Be part of an online community of developers like you.
-
+- **Accessible - **Using any device with a web browser, plug in a URL and instantly access simple, intuitive yet powerful tools.
+- **Collaborative - **See what you teammates are working on in real-time or just sit back and watch a game as it’s built live before your eyes.
+- **Social - **Making games is easier with the help of others. Be part of an online community of developers like you.
 
 PlayCanvas ticks all of these boxes beautifully. But don’t take our word for it – [try it for yourself](https://playcanvas.com) and discover a better way to make games.
 
-
 ### Speaking of Games
-
 
 It's all very well talking about engines and tools, but engines are only as good as the games they let you make. Fortunately we've got a doozy for you.
 
-[caption id="attachment_1124" align="aligncenter" width="575"][![SWOOOP title](https://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg)](http://swooop.playcanvas.com/) SWOOOP - mobile browser game built using the PlayCanvas Engine[/caption]
+[caption id="attachment_1124" align="aligncenter" width="575"]![SWOOOP title](https://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg)](http://swooop.playcanvas.com/) SWOOOP - mobile browser game built using the PlayCanvas Engine[/caption]
 
 [SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://www.ludei.com/cocoonjs/) or the open source [Ejecta](http://impactjs.com/ejecta) project.
 
-
 ### Want!
-
 
 So you want to help us make the best damn 3D engine on the web? Great! Head over to our [github page](https://github.com/playcanvas/engine). Get cloning, starring and forking while it’s fresh!
 
-
 ### Stay in the Loop
-
 
 Lastly, stay in touch, we're a friendly bunch.
 
