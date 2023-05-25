@@ -17,7 +17,7 @@ This last week was frenzy of activity from the PlayCanvas founders. Trekking all
 
 [caption id="attachment_993" align="aligncenter" width="600"]![Co-founder Dave running a workshop on HTML5 Game Development](https://blog.playcanvas.com/wp-content/uploads/2013/10/photo-1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2013/10/photo-1.jpg) Co-founder Dave running a workshop on HTML5 Game Development[/caption]
 
-On Thursday I went up to the [Confetti Institute of Creative Technologies](http://confetti.uk.com) in Nottingham and gave a workshop to a room full of interested developers. We covered the basics of a 3D engine, some quick samples of how Graphics, Camera, Physics and Audio can be used, and the we ended the 3 hour session with a the entire group building a the [Luna Lander](http://www.youtube.com/watch?v=zQQCfd1xEKg) demo that we showed you a few weeks ago.
+On Thursday I went up to the [Confetti Institute of Creative Technologies](http://confetti.uk.com) in Nottingham and gave a workshop to a room full of interested developers. We covered the basics of a 3D engine, some quick samples of how Graphics, Camera, Physics and Audio can be used, and the we ended the 3 hour session with a the entire group building a the [Luna Lander](https://www.youtube.com/watch?v=zQQCfd1xEKg) demo that we showed you a few weeks ago.
 
 At the end of the session everyone had had a great time and had a playable game to show for it.
 
@@ -33,7 +33,7 @@ On Friday we were demoing at the Open Arcade in Nottingham town centre. The Open
 
 On Sunday, our other co-founder Will, held a short session at the [Mozilla Festival](http://mozillafestival.org/) in London.
 
-Again a room full of people got a quick introduction to HTML5 Game Engines and 3D game development. Then they dived in and this time built a working version of Pong, like in our other [tutorial video](http://www.youtube.com/watch?v=oeR-flW-ojw).
+Again a room full of people got a quick introduction to HTML5 Game Engines and 3D game development. Then they dived in and this time built a working version of Pong, like in our other [tutorial video](https://www.youtube.com/watch?v=oeR-flW-ojw).
 
 ---
 

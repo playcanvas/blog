@@ -19,7 +19,7 @@ Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device in
 
 30 minutes and [20 lines of code](https://playcanvas.com/will/leapmotion/editor/leaphand.js) later, we had a fun little demo app that shows the power of the device.
 
-http://www.youtube.com/watch?v=LoQyUDw8Ngg
+https://www.youtube.com/watch?v=LoQyUDw8Ngg
 
 If you are the proud owner of your own Leap Motion, you can run the demo by clicking [here](http://apps.playcanvas.com/will/leapmotion/crates).
 
