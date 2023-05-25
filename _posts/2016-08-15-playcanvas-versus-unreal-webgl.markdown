@@ -122,7 +122,7 @@ Things to notice:
 
 ### Conclusion
 
-To summarise:
+To summarize:
 
 - **Epic's game is over 47 times larger than the PlayCanvas game.**
 - **Chrome loads the PlayCanvas game 17.6 times faster than the Unreal game.**
