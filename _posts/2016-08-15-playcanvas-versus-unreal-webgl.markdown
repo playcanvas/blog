@@ -23,7 +23,7 @@ Unfortunately, I can't embed Tappy Chicken because Epic have restricted it to de
 
 [![tappychicken](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)](http://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)
 
-So before we begin, there's an important point to make. _T\_\_hey are not the same game and they do exhibit certain differences_. Tappy Chicken uses different textures, has parallax, uses particles and so on. But in essence, they are remarkably similar and worthy of a comparison, despite not being pixel perfect clones of each other. It's up to you, dear reader, to decide if the differences in the games account for the results of the analysis presented below.
+So before we begin, there's an important point to make. _They are not the same game and they do exhibit certain differences_. Tappy Chicken uses different textures, has parallax, uses particles and so on. But in essence, they are remarkably similar and worthy of a comparison, despite not being pixel perfect clones of each other. It's up to you, dear reader, to decide if the differences in the games account for the results of the analysis presented below.
 
 As before, we will look at three key metrics: download size, load time and runtime performance.
 
@@ -31,70 +31,22 @@ As before, we will look at three key metrics: download size, load time and runti
 
 To check the download size of each app, we disabled the cache in Chrome Dev Tools and recorded the total transfer:
 
-<table >
-<tbody >
-<tr >
-Tappy Chicken (Unreal)
-Flappy Bird (PlayCanvas)
-</tr>
-<tr >
+| Tappy Chicken (Unreal) | Flappy Bird (PlayCanvas) |
+| ---------------------- | ------------------------ |
+| 10.0MB                 | 0.22MB                   |
 
-<td >10.0MB
-</td>
-
-<td >0.22MB
-</td>
-</tr>
-</tbody>
-</table>
 **Epic's game is over 47 times larger than the PlayCanvas game.** Again, we see an Emscripten dependent engine struggle with download size. Just [the JavaScript of Tappy Chicken](https://cdn2.unrealengine.com/TappyChicken/gameFiles_1408053316/UE4Game-HTML5-Shipping.js.jgz) accounts for 7.3MB of the entire 10MB payload, and that is the GZIPped size. Uncompressed, it is over 36MB of JavaScript. PlayCanvas' hand-written, 'JavaScript-first' approach wins out here, with a tiny 147KB footprint (615KB uncompressed) for the entire engine.
 
 ### Load Time
 
 Unfortunately, Epic prevents Tappy Chicken from running on mobile so we'll just test load times on desktop. For the test, we'll use a Core i7-powered Win10 machine on a 50Mb/s connection to the net. The browser cache has been disabled.
 
-<table >
-<tbody >
-<tr >
-Browser
-Tappy Chicken (Unreal)
-Flappy Bird (PlayCanvas)
-</tr>
-<tr >
+| Browser    | Tappy Chicken (Unreal) | Flappy Bird (PlayCanvas) |
+| ---------- | ---------------------- | ------------------------ |
+| Chrome 52  | 15.8s                  | 0.9s                     |
+| Firefox 48 | 11.0s                  | 1.4s                     |
+| Edge 14    | 23.6s                  | 1.1s                     |
 
-<td >Chrome 52
-</td>
-
-<td >15.8s
-</td>
-
-<td >0.9s
-</td>
-</tr>
-<tr >
-
-<td >Firefox 48
-</td>
-
-<td >11.0s
-</td>
-
-<td >1.4s
-</td>
-</tr>
-<tr >
-
-<td >Edge 14
-</td>
-
-<td >23.6s
-</td>
-
-<td >1.1s
-</td>
-</tr>
-</tbody>
-</table>
 The PlayCanvas game was also run on a number of mobile devices and always runs at 60Hz and loaded in under 2 seconds.
 
 Things to notice:
