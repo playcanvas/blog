@@ -27,7 +27,7 @@ The PlayCanvas graphics engine is an advanced WebGL graphics engine. We've work
 
 ### Polyfill for unsupported platforms
 
-It's still early days for WebVR which means it's not yet supported on all platforms. When you enable WebVR in your PlayCanvas project, we make sure your browser can support it using the [WebVR polyfill](http://github.com/googlevr/webvr-polyfill) library from Google. PlayCanvas is smart enough to load the library only if you need it.
+It's still early days for WebVR which means it's not yet supported on all platforms. When you enable WebVR in your PlayCanvas project, we make sure your browser can support it using the [WebVR polyfill](https://github.com/googlevr/webvr-polyfill) library from Google. PlayCanvas is smart enough to load the library only if you need it.
 
 ### Tutorials and Documentation
 
