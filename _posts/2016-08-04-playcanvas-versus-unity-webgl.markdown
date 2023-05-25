@@ -29,22 +29,10 @@ We decided to look at 3 key metrics: download size, load time and frame rate.
 
 To check the download size of each app, we disabled the cache in Chrome Dev Tools and recorded the total transfer:
 
-<table >
-<tbody >
-<tr >
-Unity
-PlayCanvas
-</tr>
-<tr >
+| Unity  | PlayCanvas |
+| ------ | ---------- |
+| 4.72MB | 0.22MB     |
 
-<td >4.72MB
-</td>
-
-<td >0.22MB
-</td>
-</tr>
-</tbody>
-</table>
 **The Unity app is over 21 times larger than the PlayCanvas app**. How is this possible? The PlayCanvas engine is a miniscule 147KB when GZIPped meaning the code and assets for the app account for the remaining 73KB. The engine is so small because it is hand-crafted in JavaScript, relying on as much functionality as possible from the browser itself.
 
 Unity, on the other hand, relies on Emscripten to export to WebGL. This tool auto-converts C# code to C++, which in turn is compiled to LLVM before finally being turned into JavaScript. A side effect of this process is the generation of huge amounts of code, which bloats the exported application, overwhelms modern JavaScript engines and often causes the browser to run out of memory.
@@ -53,184 +41,21 @@ Unity, on the other hand, relies on Emscripten to export to WebGL. This tool aut
 
 We ran both apps on 12 different devices, from low end to high end. These were the recorded load times on a 50Mb/s connection to the net:
 
-<table >
-<tbody >
-<tr >
-Device
-Browser
-Unity (s)
-PlayCanvas (s)
-</tr>
-<tr >
+| Device                          | Browser         | Unity (s) | PlayCanvas (s) |
+| ------------------------------- | --------------- | --------- | -------------- |
+| iPhone 4S                       | Safari          | Crash     | 2              |
+| iPhone 5S                       | Safari          | 18        | 1              |
+| iPhone 6                        | Safari          | 17        | 1              |
+| iPad Mini 2                     | Safari          | 21        | 1              |
+| Samsung Galaxy Tab S2           | Chrome 51       | 19        | 1              |
+| Samsung Galaxy Note 10.1 2014   | Chrome 51       | 28        | 1              |
+| Samsung Galaxy S6 Edge          | Chrome 51       | 28        | 1              |
+| Samsung Galaxy Note 4           | Chrome 51       | 28        | 1              |
+| LG Nexus 4                      | Chrome 51       | 44        | 2              |
+| Leapfrog Epic                   | Chrome 51       | 43        | 1              |
+| Blackberry Z10                  | Default Browser | Crash     | 1              |
+| PC (Core i7 + GeForce GTX 880M) | Chrome 51       | 13        | 1              |
 
-<td >iPhone 4S
-</td>
-
-<td >Safari
-</td>
-
-<td >Crash
-</td>
-
-<td >2
-</td>
-</tr>
-<tr >
-
-<td >iPhone 5S
-</td>
-
-<td >Safari
-</td>
-
-<td >18
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >iPhone 6
-</td>
-
-<td >Safari
-</td>
-
-<td >17
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >iPad Mini 2
-</td>
-
-<td >Safari
-</td>
-
-<td >21
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Tab S2
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >19
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Note 10.1 2014
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >28
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy S6 Edge
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >28
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Note 4
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >28
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >LG Nexus 4
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >44
-</td>
-
-<td >2
-</td>
-</tr>
-<tr >
-
-<td >Leapfrog Epic
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >43
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >Blackberry Z10
-</td>
-
-<td >Default Browser
-</td>
-
-<td >Crash
-</td>
-
-<td >1
-</td>
-</tr>
-<tr >
-
-<td >PC (Core i7 + GeForce GTX 880M)
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >13
-</td>
-
-<td >1
-</td>
-</tr>
-</tbody>
-</table>
 Key things to notice:
 
 - **The PlayCanvas app's load times are up to 43 times faster than the Unity app.**
@@ -241,184 +66,21 @@ Key things to notice:
 
 Here are the frame rates recorded for the same set of devices:
 
-<table >
-<tbody >
-<tr >
-Device
-Browser
-Unity (fps)
-PlayCanvas (fps)
-</tr>
-<tr >
+| Device                          | Browser         | Unity (fps) | PlayCanvas (fps) |
+| ------------------------------- | --------------- | ----------- | ---------------- |
+| iPhone 4S                       | Safari          | Crash       | 58               |
+| iPhone 5S                       | Safari          | 21          | 60               |
+| iPhone 6                        | Safari          | 28          | 60               |
+| iPad Mini 2                     | Safari          | 16          | 60               |
+| Samsung Galaxy Tab S2           | Chrome 51       | 17-55       | 60               |
+| Samsung Galaxy Note 10.1 2014   | Chrome 51       | 15-50       | 60               |
+| Samsung Galaxy S6 Edge          | Chrome 51       | 15-50       | 60               |
+| Samsung Galaxy Note 4           | Chrome 51       | 15-57       | 60               |
+| LG Nexus 4                      | Chrome 51       | 15-50       | 60               |
+| Leapfrog Epic                   | Chrome 51       | 16-55       | 60               |
+| Blackberry Z10                  | Default Browser | Crash       | 60               |
+| PC (Core i7 + GeForce GTX 880M) | Chrome 51       | 57-60       | 60               |
 
-<td >iPhone 4S
-</td>
-
-<td >Safari
-</td>
-
-<td >Crash
-</td>
-
-<td >58
-</td>
-</tr>
-<tr >
-
-<td >iPhone 5S
-</td>
-
-<td >Safari
-</td>
-
-<td >21
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >iPhone 6
-</td>
-
-<td >Safari
-</td>
-
-<td >28
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >iPad Mini 2
-</td>
-
-<td >Safari
-</td>
-
-<td >16
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Tab S2
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >17-55
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Note 10.1 2014
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >15-50
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy S6 Edge
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >15-50
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Samsung Galaxy Note 4
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >15-57
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >LG Nexus 4
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >15-50
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Leapfrog Epic
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >16-55
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >Blackberry Z10
-</td>
-
-<td >Default Browser
-</td>
-
-<td >Crash
-</td>
-
-<td >60
-</td>
-</tr>
-<tr >
-
-<td >PC (Core i7 + GeForce GTX 880M)
-</td>
-
-<td >Chrome 51
-</td>
-
-<td >57-60
-</td>
-
-<td >60
-</td>
-</tr>
-</tbody>
-</table>
 Key things to notice:
 
 - **PlayCanvas frame rates are up to 4 times greater than Unity.** In particular, Unity seems to perform poorly in Safari on iOS.
@@ -427,7 +89,7 @@ Key things to notice:
 
 ### Conclusion
 
-To summarise:
+To summarize:
 
 - **Unity WebGL apps are up to 21 times larger.**
 - **PlayCanvas apps load up to 43 times faster.**
