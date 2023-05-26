@@ -29,8 +29,7 @@ But wait!!!  Who's that young fellow sitting next to Kevin? It's our new team m
 
 That's all for now, true believers.
 
-**UPDATE
-**
+**UPDATE**
 
 Vaios, our man in Greece, was jealous that he missed out on the team photo in the new office. So Kevin kindly "retouched" the photo to include him. I like the medals personally.
 

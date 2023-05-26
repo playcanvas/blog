@@ -21,13 +21,13 @@ First up is Will, our CEO and co-founder, from everyone's favorite sleepy little
 
 **How did you get into the video games industry?**
 
-I never intended to get into making games. During my time at Imperial College in London where I studied Computing, I had to do a 6 month industrial placement. I joined a VR company that's still around today in the form of [Virtalis](http://www.virtalis.com/). But being the late 90s, the technology was underwhelming and I wanted to be back near to London, so I took an interview at Criterion Software where I started out as an engineer developing RenderWare. If you haven't heard of RenderWare before, it powered hundreds of PS2 titles (including the GTA series). I think it's fair to say, I learned a lot working with such awesome teams.
+I never intended to get into making games. During my time at Imperial College in London where I studied Computing, I had to do a 6 month industrial placement. I joined a VR company that's still around today in the form of [Virtalis](https://www.virtalis.com/). But being the late 90s, the technology was underwhelming and I wanted to be back near to London, so I took an interview at Criterion Software where I started out as an engineer developing RenderWare. If you haven't heard of RenderWare before, it powered hundreds of PS2 titles (including the GTA series). I think it's fair to say, I learned a lot working with such awesome teams.
 
 **Can you briefly describe your role at PlayCanvas?**
 
 I'm CEO. I'm a technical guy, so although I don't do much coding myself these days, I know enough to keep the coding team on their toes. I spend most of my time dealing with the mechanics of running the business and promoting what we're doing out to the wider world. If I had to pick one thing I do and do best, it's predicting where we need to be 5 years from now and figuring out how we get there. So far, so good!
 
-**What is your favourite aspect of PlayCanvas' service?**
+**What is your favorite aspect of PlayCanvas' service?**
 
 Tough question, there's a lot to choose from. For me, it's the collaborative nature of the tools. It was the killer feature of Google Docs that completely blew me away. We're doing the same thing for game developers. It really is a revelation once you've experienced it.
 

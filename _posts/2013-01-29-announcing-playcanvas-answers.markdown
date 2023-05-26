@@ -51,4 +51,4 @@ Types of questions to avoid:
 
 This is the first step in the PlayCanvas Community, we have much more to come. It'll probably be a little while before Community Part II, but in the meantime, get creating, get asking, and enjoy yourselves.
 
-_\* Evil, evil [goto](http://en.wikipedia.org/wiki/Goto#Criticism_and_decline)_
+_\* Evil, evil [goto](https://en.wikipedia.org/wiki/Goto#Criticism_and_decline)_

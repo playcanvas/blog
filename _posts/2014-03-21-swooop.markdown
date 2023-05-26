@@ -27,7 +27,7 @@ Try SWOOOP for yourselves at [http://swooop.playcanvas.com/](http://swooop.playc
 
 **Mobile App Stores**
 
-While SWOOOP runs great in browsers, both desktop and mobile, it's important that we allow game creators the widest possible distribution. Which is why we've partnered with [Ludei](http://ludei.com). Using their CocoonJS technology we're able to compile SWOOOP to a native application that can run on both Android and iOS devices. Look out for SWOOOP in mobile app stores really soon.
+While SWOOOP runs great in browsers, both desktop and mobile, it's important that we allow game creators the widest possible distribution. Which is why we've partnered with Ludei. Using their [CocoonJS](https://en.wikipedia.org/wiki/CocoonJS) technology we're able to compile SWOOOP to a native application that can run on both Android and iOS devices. Look out for SWOOOP in mobile app stores really soon.
 
 **Open Project**
 
