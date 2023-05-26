@@ -11,7 +11,7 @@ categories:
   - PLAYHACK
 ---
 
-[![PLAYHACK BANNER_1](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK-BANNER_1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK-BANNER_1.jpg)
+[![PLAYHACK BANNER_1](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK-BANNER_1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK-BANNER_1.jpg)
 
 We were lucky enough to see some amazing festive entries in PLAYHACK December, but January isn't really known for a lot. So we have put our brains together to give you some sparkly assets to play with.
 
@@ -29,7 +29,7 @@ It works like this:
 
 ### **The Models**
 
-[![white-row](https://blog.playcanvas.com/wp-content/uploads/2015/01/white-row.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/01/white-row.jpg)
+[![white-row](https://blog.playcanvas.com/wp-content/uploads/2015/01/white-row.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/01/white-row.jpg)
 
 **4 Shiny Gems.**
 
@@ -37,9 +37,9 @@ For all you magpies out there, forking our PLAYHACK project this month will give
 
 For instance, platform action series **Spyro** made great use of jewels in the late 90's and more recently **Bejeweled** pushed gems into a great flash puzzle format.
 
-[![spyro](https://blog.playcanvas.com/wp-content/uploads/2015/01/spyro.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)
+[![spyro](https://blog.playcanvas.com/wp-content/uploads/2015/01/spyro.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)
 
-[![bejeweled](https://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)
+[![bejeweled](https://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/01/bejeweled.jpg)
 
 Puzzle game, platform game, physics game? **Any game, any style, the choice is yours.**
 
@@ -57,7 +57,7 @@ On the 1st of February we will judge your projects and our favorite will be feat
 
 With Side Scrolling Santa's, Youtube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favorite PLAYHACK so far.
 
-[![santa_winner](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)
+[![santa_winner](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)
 
 Our favorite entry is '[Five For Christmas](http://apps.playcanvas.com/felladrin/playhack-dec-14/five-for-christmas)' by [felladrin](https://playcanvas.com/felladrin).
 

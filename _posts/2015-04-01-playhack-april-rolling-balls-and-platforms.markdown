@@ -31,7 +31,7 @@ First, we've built the basics of a simple rolling ball game. A full set of platf
 
 Second, you'll be using our the **brand new version** of the **PlayCanvas Editor**. This is an opportunity to put the new tools through their paces.
 
-[![models](https://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)
+[![models](https://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/03/models.jpg)
 
 **PLAYHACK** starts right now and runs until the end of April. On the 1st of May we'll go through all the projects forked from our starter project with a published game and pick our favorite.
 

@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
+[![](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
 
 Calling all Game Developers!
 
@@ -37,7 +37,7 @@ It works like this:
 
 This month you get to build your game around this uber-cool, **sci-fi hover tank!**
 
-[![tank](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)
+[![tank](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)
 
 Other than incorporating the model your game can be made and presented in any way that you like, whether it be **overhead** or **side-scrolling**, **shooter** or **adventure**.
 

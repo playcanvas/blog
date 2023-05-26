@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
+[![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
 
 Big news coming in February. Our monthly Game Jam PLAYHACK is back. This time we've partnered with games publisher Playjam to offer rewards for the best games you create.
 

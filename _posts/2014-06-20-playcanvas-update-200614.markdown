@@ -17,19 +17,19 @@ categories:
 
 You can now view your scene from any Entity that has a camera component in your scene. Either right-click in the 3D view and select the camera you want from there, or alternatively do it from this new combo box (below). You can also move the selected camera wherever you want using the normal camera controls in the Designer.
 
-[![Cam combo](https://blog.playcanvas.com/wp-content/uploads/2014/06/Cam-combo.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Cam-combo.jpg)
+[![Cam combo](https://blog.playcanvas.com/wp-content/uploads/2014/06/Cam-combo.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/Cam-combo.jpg)
 
 **Entity Context Menu**
 
 We added a new Entity context menu that appears when you right-click on an Entity in the 3D view. From there you can see all the parent Entities of the selected Entity up to the root and you can select a parent Entity easily. You can also see more options for Entities like Delete, Add Component, etc.
 
-[![Entity context](https://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)
+[![Entity context](https://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/Entity-context.jpg)
 
 **Error Console**
 
 Whenever you try to launch a game from the Designer you will see errors in a new console, so you no longer need to wonder why the game is not loading. You can click on the problematic script and get transferred to the code editor at the offending line.
 
-[![error console](https://blog.playcanvas.com/wp-content/uploads/2014/06/error-console.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/error-console.jpg)
+[![error console](https://blog.playcanvas.com/wp-content/uploads/2014/06/error-console.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/error-console.jpg)
 
 **Shadow Distance**
 
@@ -39,7 +39,7 @@ We added Shadow Distance in the Scene Settings, a value that controls that maxim
 
 We also showed our faces at a number of events this week. Dave showed off some of our work with the [Oculus Rift](http://blog.playcanvas.com/virtual-reality-and-the-future-of-web-based-gaming/) at the Scenario Bar (as seen above) and we ran a [Swooop](http://swooop.playcanvas.com/) high score challenge at the [IDEA London](http://www.idea-london.co.uk/) summer party.
 
-[![VR night](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)
+[![VR night](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)
 
 Stay In The Loop
 

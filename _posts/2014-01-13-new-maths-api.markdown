@@ -14,7 +14,7 @@ categories:
 
 Our new maths API will make your life so much easier, but it will require updating your game.
 
-[![Maths](https://blog.playcanvas.com/wp-content/uploads/2014/01/think_maths.png)](http://blog.playcanvas.com/wp-content/uploads/2014/01/think_maths.png)
+[![Maths](https://blog.playcanvas.com/wp-content/uploads/2014/01/think_maths.png)](https://blog.playcanvas.com/wp-content/uploads/2014/01/think_maths.png)
 
 One of the first things that is written for a new game engine is the Maths library. A critically important base for your engine and used by almost every game that is written using the engine. The Maths library must be fast, consistent and succinct.
 

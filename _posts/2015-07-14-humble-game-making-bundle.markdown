@@ -17,7 +17,7 @@ If you've just bought the bundle and you're looking for some help here's a few 
 
 ## Activating your Promo
 
-[![account-promo-code](https://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)
+[![account-promo-code](https://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/07/account-promo-code.jpg)
 
 Once you've signed up. Head over to your [account page](https://playcanvas.com/account), scroll down the Promotional Codes section, enter your code and Submit.
 

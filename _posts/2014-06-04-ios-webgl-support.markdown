@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![PlayCanvas on iPhone](https://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)
+[![PlayCanvas on iPhone](https://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)](https://blog.playcanvas.com/wp-content/uploads/2014/06/Playiphone.png)
 
 Looks like [Will was right](http://blog.playcanvas.com/apple-embraces-webgl/) with his predictions for the Apple announcements at WWDC. Our friends at [Ludei](http://ludei.com) have [confirmed](http://blog.ludei.com/webgl-ios-8-safari-webview/) that WebGL is supported on iOS devices.
 

@@ -11,7 +11,7 @@ categories:
   - Announcement
 ---
 
-[caption id="attachment_1124" align="aligncenter" width="575"]![SWOOOP title](https://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg) SWOOOP - mobile browser game built using the PlayCanvas Engine[/caption]
+[caption id="attachment_1124" align="aligncenter" width="575"]![SWOOOP title](https://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/03/swooop_blog.jpg) SWOOOP - mobile browser game built using the PlayCanvas Engine[/caption]
 
 Today, PlayCanvas is excited to reveal [SWOOOP](http://swooop.playcanvas.com). Our latest example of true cross-platform gaming.
 
@@ -31,7 +31,7 @@ While SWOOOP runs great in browsers, both desktop and mobile, it's important tha
 
 **Open Project**
 
-[caption id="attachment_1140" align="aligncenter" width="575"]![SWOOOP in Designer](https://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png)](http://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png) The SWOOOP project is open to everyone[/caption]
+[caption id="attachment_1140" align="aligncenter" width="575"]![SWOOOP in Designer](https://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png)](https://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png) The SWOOOP project is open to everyone[/caption]
 
 For PlayCanvas developers, there's even better news. The [SWOOOP project](https://playcanvas.com/playcanvas/swooop) is open for you to view and the code is available on [Bitbucket](http://bitbucket.com/playcanvas/swooop). Browse the pack and source code for yourselves and learn about how the PlayCanvas team make games using the engine.
 

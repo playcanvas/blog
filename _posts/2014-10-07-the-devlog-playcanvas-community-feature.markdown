@@ -15,7 +15,7 @@ We've just rolled out the Developer Log or DevLog. The first of several communit
 
 ## Keeping people informed
 
-[![DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine](https://blog.playcanvas.com/wp-content/uploads/2014/10/DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/10/DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
+[![DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine](https://blog.playcanvas.com/wp-content/uploads/2014/10/DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/10/DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
 
 To create a game you have to complete thousands of little tasks over the course of development. Each day you tick off a few items in your todo list, squash a few bugs or updated a few models. When you are using source control with each change you commit to your code you include a commit message. This tells the rest of your team what's changed and gives you a good reference point to look back on what state the code was in.
 

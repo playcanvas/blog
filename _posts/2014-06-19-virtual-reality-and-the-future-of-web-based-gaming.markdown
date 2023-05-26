@@ -16,7 +16,7 @@ tags:
   - Virtual Reality
 ---
 
-**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.** [![playcanvas oculus1](https://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)
+**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.** [![playcanvas oculus1](https://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)
 
 **What is the Oculus Rift?**
 
@@ -30,7 +30,7 @@ Usually leaving users craning necks and grabbing thin air in disbelief, the Ocul
 
 **The Oculus Rift and PlayCanvas**
 
-[caption id="attachment_1379" align="aligncenter" width="600"]![Dave wearing Oculus Rift head mounted display](https://blog.playcanvas.com/wp-content/uploads/2014/06/dave-vr.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/dave-vr.jpg) Oculus Rift support coming soon to PlayCanvas[/caption]
+[caption id="attachment_1379" align="aligncenter" width="600"]![Dave wearing Oculus Rift head mounted display](https://blog.playcanvas.com/wp-content/uploads/2014/06/dave-vr.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/dave-vr.jpg) Oculus Rift support coming soon to PlayCanvas[/caption]
 
 Imagine a future where you open your Internet browser, select a VR ready online game, enable your Oculus headset and transport yourself into the game immediately. Mind blowing? Potentially yes. This is why we here at PlayCanvas are committed to intertwining the paths of both WebGL and HTML5 technologies with the capabilities of the Oculus Rift. It's crazy to think that VR games could be played and developed by simply opening your favorite web browser.
 

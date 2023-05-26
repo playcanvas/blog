@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![Editor](https://blog.playcanvas.com/wp-content/uploads/2015/09/Editor-1024x522.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/09/Editor.jpg)
+[![Editor](https://blog.playcanvas.com/wp-content/uploads/2015/09/Editor-1024x522.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/09/Editor.jpg)
 
 ## Entity Materials
 
@@ -19,7 +19,7 @@ Have you ever been bothered by changes to your materials affecting all Entities 
 
 Simply drag a material onto your model to create new Entity material. Or manage it from the model component interface.
 
-## [![shader_update](https://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)](http://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)
+## [![shader_update](https://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/09/shader_update.gif)
 
 ## Shader Assets
 

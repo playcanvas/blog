@@ -15,7 +15,7 @@ This month we have an extra special PLAYHACK, our monthly game jam, to announce.
 
 ## PRIZE
 
-[![chromebook](https://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)
+[![chromebook](https://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)
 
 This month the author of our favorite PLAYHACK game will walk away with a **Chromebook 2**, the ARM powered laptop that's perfect for game development with PlayCanvas!
 

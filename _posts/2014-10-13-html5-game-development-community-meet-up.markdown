@@ -17,7 +17,7 @@ categories:
 
 Last Thursday we hosted an event for around 50 members of the London HTML5 Game Development community at our Idea London office. After striking a deal with Papa John's, we had a great talk from Amazon's Jesse Freeman and caught up with a community that we are proud to be a part of.
 
-## [![MEETUP](https://blog.playcanvas.com/wp-content/uploads/2014/10/MEETUP.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/10/MEETUP.jpg)
+## [![MEETUP](https://blog.playcanvas.com/wp-content/uploads/2014/10/MEETUP.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/10/MEETUP.jpg)
 
 ## Responsive Game Design
 
