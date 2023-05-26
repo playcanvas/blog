@@ -36,7 +36,7 @@ With the model hierarchy being editable in the Editor, this opens a number of us
 
 However, please note that while the Model Component is compatible with both the Animation and Anim (State Graph) Component, the Render Component/Import Hierarchy feature is only compatible with the Anim (State Graph) Component.
 
-Going forward, we will be marking the Model and Animation Components as 'legacy' but if you have an existing project using these components, please do not worry. **None of the existing functionality is being removed **and you will not be forced to update projects to the new pipeline for continued development. Although no new features will be added to the Model Component, the PlayCanvas team will continue to fix bugs with the existing pipeline until our next major version (2.0.0) of the engine at the earliest.
+Going forward, we will be marking the Model and Animation Components as 'legacy' but if you have an existing project using these components, please do not worry. **None of the existing functionality is being removed** and you will not be forced to update projects to the new pipeline for continued development. Although no new features will be added to the Model Component, the PlayCanvas team will continue to fix bugs with the existing pipeline until our next major version (2.0.0) of the engine at the earliest.
 
 You can even mix both pipelines in the same project if you wish to take advantage of the features in the new pipeline in an existing project. However, please bear in mind that this can add complexity to the project code.
 
