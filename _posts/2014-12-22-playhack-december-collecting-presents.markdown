@@ -54,7 +54,7 @@ Pretty simple huh? The onTriggerEnter function gets called with one argument, wh
 
 [![DEC-PLAYHACK-TUT3-1](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-1.png)](http://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-1.png)
 
-If we run the game now though, the presents still won't get deleted even if they go off-screen! That's because trigger volumes only check for collisions with rigidbodies, so we'll need to add some more components to the present. We need to add a **collision **component and a **kinematic \*\***rigidbody \*\*component. Together, these will allow us to check when the present passes through our trigger volumes.
+If we run the game now though, the presents still won't get deleted even if they go off-screen! That's because trigger volumes only check for collisions with rigidbodies, so we'll need to add some more components to the present. We need to add a **collision** component and a **kinematic rigidbody** component. Together, these will allow us to check when the present passes through our trigger volumes.
 
 So, add those components to the Gift. Make sure you change the "type" attribute of the rigidbody component to **Kinematic** - we don't want it to be Static, because then we couldn't move the presents, and we don't need it to be **Dynamic **because then our present would get affected by gravity and physics and we don't need that. **Kinematic **allows us to move our present in code, but not have it affected by physics. You can fiddle around with the half extents of the collision box until it fits around the present too.
 

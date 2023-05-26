@@ -21,7 +21,7 @@ Next up is PlayCanvas' Chief Technical Officer who shares his name with beanie 
 
 I started writing games when I was around 13-14. Learning to program in C on a Mac LC II, which is not a great introduction to programming. Then I didn't do anything for a few years and got back into it at my last year at Oxford University where me and a friend wrote a game about a skateboarding monkey called Stunt Monkey.
 
-When it came to applying for jobs after university I fell into game development as it was the first job I applied for. I worked at Rebelllion in Oxford for a couple of years on Gameboy Advance and PlayStation 2 titles. Then I moved to London where I worked for Sony for about 7 years. During this time I made the change from AI/gameplay programmer to Tools programmer.
+When it came to applying for jobs after university I fell into game development as it was the first job I applied for. I worked at Rebellion in Oxford for a couple of years on Gameboy Advance and PlayStation 2 titles. Then I moved to London where I worked for Sony for about 7 years. During this time I made the change from AI/gameplay programmer to Tools programmer.
 
 **Can you briefly describe your role at PlayCanvas?**
 
@@ -39,7 +39,7 @@ Online communities are massive accelerators where people can learn new skills an
 
 Web-based gaming is the future! If there is one thing you can be certain of, it's that every device released in the future, from phone, to TV, to something we haven't thought of yet, will have have a web browser. And we're right on the brink, as with PlayCanvas and WebGL you can now create great looking games to play on any of these machines.
 
-**The Quick Fire round\*\*** (this is where things get a little interesting)\*\*
+**The Quick Fire round (this is where things get a little interesting)**
 
 **Zelda or Final fantasy?**
 
@@ -55,4 +55,4 @@ Mario
 
 **Favorite game of all time?**
 
-That's a tough one... [Monkey Island](<https://en.wikipedia.org/wiki/Monkey_Island_(series)>) or Multiplayer Halo.
+That's a tough one... [Monkey Island](https://en.wikipedia.org/wiki/Monkey_Island_(series)) or Multiplayer Halo.

@@ -13,9 +13,9 @@ categories:
 
 _After two successful entries into the PLAYHACK game jam, we thought it was time to share some insights from one of our star community members: Rustam Zinurov._
 
-\***\*![rzinurov](https://blog.playcanvas.com/wp-content/uploads/2015/04/rzinurov.jpg)\*\***
+![rzinurov](https://blog.playcanvas.com/wp-content/uploads/2015/04/rzinurov.jpg)
 
-<blockquote>I liked the idea that I didn't need to install anything - all I needed was a browser</blockquote>
+> I liked the idea that I didn't need to install anything - all I needed was a browser
 
 **Hi Rustam, tell us a little about yourself?**
 I'm 29 years old, born in St. Petersburg, Russia, currently living in Copenhagen, Denmark, married, have a Scottish Fold cat. I've been a software developer since 2007
@@ -29,9 +29,9 @@ Since January, 2015
 **What led you to start using PlayCanvas?**
 I watched all [your videos](http://youtube.com/user/playcanvas/) and checked most of [tutorials](https://developer.playcanvas.com/en/tutorials/). The feeling was that I can start doing something and getting the results with this platform very fast and it was true. I liked the idea that I didn't need to install anything - all I needed was a browser, so I decided to give it a chance.
 
-**[![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](http://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)**
+[![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](http://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)
 
-<blockquote>Try to start with some simple tasks. I've seen a lot of guys who were trying to implement a very difficult game as a first project here. If you do that you will definitely fail.</blockquote>
+> Try to start with some simple tasks. I've seen a lot of guys who were trying to implement a very difficult game as a first project here. If you do that you will definitely fail.
 
 **You’ve won two of our monthly game jams PLAYHACK. Congratulations! How do you decide what sort of game you are going to build for the PLAYHACK?**
 Thanks a lot! I like that you guys are giving us an initial kick with the model you provide for every PLAYHACK. Frankly, I'm usually thinking about spending a minimal time effort to get a complete product within one month because it's kind of a motivation deadline for me. I've abandoned a lot of very cool projects after this period because I get bored fast.
