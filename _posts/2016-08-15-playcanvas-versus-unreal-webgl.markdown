@@ -17,7 +17,9 @@ Our [previous article](http://blog.playcanvas.com/playcanvas-versus-unity-webgl/
 
 We could do the same experiments as before with the textured cube, but let's try to make a more real-world comparison. Flappy Bird clones have been made in both Unreal and PlayCanvas. Let's take the Epic-authored Tappy Chicken and see how it fares against the PlayCanvas-powered Flappy Bird. Here's the  (playable) PlayCanvas game:
 
-[iframe src="https://playcanv.as/e/b/ONc0qGvZ/" allowfullscreen="true"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/b/ONc0qGvZ/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 Unfortunately, I can't embed Tappy Chicken because Epic have restricted it to desktop browsers. So [here's a link](https://www.unrealengine.com/html5/) to it, along with an animated GIF:
 

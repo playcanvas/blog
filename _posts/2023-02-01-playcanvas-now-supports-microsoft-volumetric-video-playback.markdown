@@ -18,7 +18,9 @@ tags:
   - WebXR
 ---
 
-[iframe width="720" style="margin:0" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true' src="https://playcanv.as/e/p/d3xb8X2Q/"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/d3xb8X2Q/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 [Open in new tab](https://playcanv.as/p/d3xb8X2Q/)
 
