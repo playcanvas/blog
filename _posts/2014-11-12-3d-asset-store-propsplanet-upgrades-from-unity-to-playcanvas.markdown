@@ -12,7 +12,7 @@ categories:
   - News
 ---
 
-[![logos](https://blog.playcanvas.com/wp-content/uploads/2014/11/logos.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/11/logos.jpg)
+[![logos](https://blog.playcanvas.com/wp-content/uploads/2014/11/logos.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/logos.jpg)
 
 Propsplanet is an online digital marketplace which sells 3D models to independent game developers. Previously powered by the Unity Web Player browser plugin, Propsplanet has this week relaunched using the PlayCanvas engine.
 

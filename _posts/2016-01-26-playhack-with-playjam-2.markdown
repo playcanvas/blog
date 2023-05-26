@@ -11,11 +11,11 @@ categories:
   - News
 ---
 
-[![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](http://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
+[![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
 
 Did you see our teaser last week? PLAYHACK is back! Our game jam returns in partnership with game publisher PlayJam.
 
-[![pj_main_horiz_onwhite](https://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)](http://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)
+[![pj_main_horiz_onwhite](https://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)](https://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)
 
 Thanks to PlayJam we've got some **great prizes** for the best entries.
 

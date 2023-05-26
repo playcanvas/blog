@@ -14,7 +14,7 @@ categories:
 
 When we first started PlayCanvas ([over 2,716 commits ago](https://github.com/playcanvas/engine)) WebGL was just beginning to make it's way from Chrome and Firefox Nightlies into stable releases. Fast-forward to 3 years and WebGL is everywhere, Firefox and Chrome have strong support both on desktop and on mobile. And just this week the final player Apple have joined us with [WebGL support](http://blog.playcanvas.com/ios-webgl-support/) for both Safari and iOS.
 
-[![SWOOOP background](https://blog.playcanvas.com/wp-content/uploads/2014/06/background-small.png)](http://blog.playcanvas.com/wp-content/uploads/2014/06/background-small.png)
+[![SWOOOP background](https://blog.playcanvas.com/wp-content/uploads/2014/06/background-small.png)](https://blog.playcanvas.com/wp-content/uploads/2014/06/background-small.png)
 
 Today, we have some more great news for WebGL fans, game developers and web developers alike.
 
@@ -67,7 +67,7 @@ But what about the non-asm.js parts of the codebase? Performance is clearly stil
 
 ### Powering Awesome Projects
 
-[![play-canvas-engine-500](https://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)
+[![play-canvas-engine-500](https://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/play-canvas-engine-500.jpg)
 
 The PlayCanvas Engine is already powering some great projects. By far and away, the biggest is the [PlayCanvas web site](https://playcanvas.com): the world’s first cloud-hosted game development platform.
 

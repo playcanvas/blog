@@ -13,7 +13,7 @@ categories:
 
 It's been a long running issue that our Audio Source component wasn't quite feature-complete enough to do some of the more advanced features of an audio heavy game or interactive experience. Today, we're blowing those issues out of the water with a sonic boom!
 
-### [![sound-tutorial](https://blog.playcanvas.com/wp-content/uploads/2016/01/sound-tutorial.png)](http://blog.playcanvas.com/wp-content/uploads/2016/01/sound-tutorial.png)
+### [![sound-tutorial](https://blog.playcanvas.com/wp-content/uploads/2016/01/sound-tutorial.png)](https://blog.playcanvas.com/wp-content/uploads/2016/01/sound-tutorial.png)
 
 ## Sound Component
 
@@ -42,7 +42,7 @@ These features open up a whole bunch of doors with what you can do with audio in
 
 ## Documentation & Tutorials
 
-[![analyzer-thin](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)
+[![analyzer-thin](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/analyser-thin1.jpg)
 
 To help you get up to speed with all the new features, we've update the [documentation](https://developer.playcanvas.com/en/user-manual/packs/components/sound/) and the [reference api](https://developer.playcanvas.com/en/api/pc.SoundComponent.html).
 

@@ -41,7 +41,7 @@ If you have enjoyed playing any of these games, **log in on the [Ludum Dare](htt
 
 ### PLAYHACK December
 
-[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
+[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
 
 If you feel that a weekend is too much of a rush to take part in a game jam then we have a great alternative for you. **Last week we started our second PLAYHACK**, after some great entries in our first PLAYHACK.
 
