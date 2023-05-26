@@ -29,7 +29,7 @@ This month's **PLAYHACK** is the perfect opportunity to learn about the particle
 
 #### Win a Google Cardboard
 
-We'll pick our favourite entry (make sure you have a published build for us to play) at the end of the month, and we'll send the winner a **[Google Cardboard](https://www.google.com/get/cardboard/) **which lets you browse VR scenes just using your phone. It's the future!
+We'll pick our favorite entry (make sure you have a published build for us to play) at the end of the month, and we'll send the winner a **[Google Cardboard](https://www.google.com/get/cardboard/) **which lets you browse VR scenes just using your phone. It's the future!
 
 ### **[START PLAYHACKING](https://playcanvas.com/project/344381/overview/playhack-may-15)**
 
