@@ -14,7 +14,7 @@ categories:
 
 Submit a game to Ludum Dare and get a 1 year pro account for **free**!
 
-At PlayCanvas we love to Jam. Specifically, we love to Game Jam. And of all the Game Jams, the one we love the most is the "build a game in a weekend with nothing more than your wits" Jam called [Ludum Dare](http://ludumdare.com/compo).
+At PlayCanvas we love to Jam. Specifically, we love to Game Jam. And of all the Game Jams, the one we love the most is the "build a game in a weekend with nothing more than your wits" Jam called [Ludum Dare](https://ludumdare.com/).
 
 [![Ludum Dare logo](https://blog.playcanvas.com/wp-content/uploads/2013/04/LudumDare.png)](http://blog.playcanvas.com/wp-content/uploads/2013/04/LudumDare.png)
 
