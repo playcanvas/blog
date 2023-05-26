@@ -27,7 +27,7 @@ The most significant improvements are related to load time. Let's start out by c
 | Preload Transfer (MB) | 10.1                                              | 5.6                                               | ↓ 44.6%  |
 | Total Transfer (MB)   | 13.7                                              | 9.9                                               | ↓ 27.7%  |
 | Total Resources (MB)  | 26.0                                              | 12.1                                              | ↓ 53.5%  |
-| Load Time (s) *       | 1.8                                               | 1.2                                               | ↓ 33.3%  |
+| Load Time (s) \*      | 1.8                                               | 1.2                                               | ↓ 33.3%  |
 
 \* Cache disabled on 100Gbps connection
 
