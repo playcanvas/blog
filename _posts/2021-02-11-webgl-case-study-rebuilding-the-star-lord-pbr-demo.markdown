@@ -13,61 +13,23 @@ categories:
 
 Way back in 2014, [PlayCanvas was the first WebGL Engine to integrate PBR](https://blog.playcanvas.com/physically-based-rendering-comes-to-webgl/) (Physically Based Rendering). To mark the event, we built the Star-Lord tech demo:
 
-[iframe width="720" style="margin:0" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true' src="https://playcanv.as/p/SA7hVBLt/"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/SA7hVBLt/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 In the intervening 6 or so years, PlayCanvas has moved on dramatically. So we decided to leverage all of the latest engine features and republish it.
 
 The most significant improvements are related to load time. Let's start out by comparing some key stats:
 
-<table ><tbody ><tr >
-<td >
-</td>
-<td >[Star-Lord 2014](https://playcanv.as/b/dCdIuibG/)
-</td>
-<td >[Star-Lord 2021](https://playcanv.as/p/SA7hVBLt/)
-</td>
-<td >% Change
-</td></tr><tr >
-<td >HTTP Requests
-</td>
-<td >220
-</td>
-<td >39
-</td>
-<td >↓ 82.3% 
-</td></tr><tr >
-<td >Preload Transfer (MB)
-</td>
-<td >10.1
-</td>
-<td >5.6
-</td>
-<td >↓ 44.6%
-</td></tr><tr >
-<td >Total Transfer (MB)
-</td>
-<td >13.7
-</td>
-<td >9.9
-</td>
-<td >↓ 27.7%
-</td></tr><tr >
-<td >Total Resources (MB)
-</td>
-<td >26.0
-</td>
-<td >12.1
-</td>
-<td >↓ 53.5%
-</td></tr><tr >
-<td >Load Time (s) *
-</td>
-<td >1.8
-</td>
-<td >1.2
-</td>
-<td >↓ 33.3%
-</td></tr></tbody></table>* Cache disabled on 100Gbps connection
+|                       | [Star-Lord 2014](https://playcanv.as/b/dCdIuibG/) | [Star-Lord 2021](https://playcanv.as/p/SA7hVBLt/) | % Change |
+| --------------------- | ------------------------------------------------- | ------------------------------------------------- | -------- |
+| HTTP Requests         | 220                                               | 39                                                | ↓ 82.3%  |
+| Preload Transfer (MB) | 10.1                                              | 5.6                                               | ↓ 44.6%  |
+| Total Transfer (MB)   | 13.7                                              | 9.9                                               | ↓ 27.7%  |
+| Total Resources (MB)  | 26.0                                              | 12.1                                              | ↓ 53.5%  |
+| Load Time (s) *       | 1.8                                               | 1.2                                               | ↓ 33.3%  |
+
+\* Cache disabled on 100Gbps connection
 
 Those are some pretty **_significant wins_**! So what are the differences between the two builds of the demo? Let's step through them one by one.
 
@@ -87,27 +49,12 @@ You can then delete the old JSON asset (plus any unreferenced related materials)
 
 Last month, [we announced](https://blog.playcanvas.com/basis-texture-compression-arrives-in-playcanvas/) the integration of Basis texture compression into the Editor. Star-Lord was originally configured to use DXT, PVR and ETC compressed textures. A download size comparison is as follows:
 
-<table ><tbody ><tr >
-<td >Texture Format
-</td>
-<td >Download Size (MB)
-</td></tr><tr >
-<td >DXT
-</td>
-<td >7.56
-</td></tr><tr >
-<td >PVR
-</td>
-<td >6.09
-</td></tr><tr >
-<td >ETC1
-</td>
-<td >7.18
-</td></tr><tr >
-<td >Basis
-</td>
-<td >2.38
-</td></tr></tbody></table>
+| Texture Format | Download Size (MB) |
+| -------------- | ------------------ |
+| DXT            | 7.56               |
+| PVR            | 6.09               |
+| ETC1           | 7.18               |
+| Basis          | 2.38               |
 
 This explains much of the download savings in the updated version.
 
