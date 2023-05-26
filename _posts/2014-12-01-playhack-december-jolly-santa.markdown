@@ -24,14 +24,10 @@ PLAYHACK starts today! We'll provide you with a 3D model and your mission is t
 
 It works like this:
 
-1. **Fork [**this month's project**](https://playcanvas.com/playcanvas/playhack-dec-14)\*\*** into your account\*\*
-
+1. **Fork [this month's project](https://playcanvas.com/playcanvas/playhack-dec-14)** into your account.
 2. **Use the project and it's contents to build a new game.**
-
-3. **Post to your **[**devlog**](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/)** about your game throughout the month**
-
-4. **At the end of the month we'll look through all the projects that were forked from the original. **
-
+3. **Post to your [devlog](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/)** about your game throughout the month.
+4. **At the end of the month we'll look through all the projects that were forked from the original.**
 5. **We'll pick our favorite and feature it on the front page of PlayCanvas for everyone to see.**
 
 ## **The Model**
@@ -62,7 +58,7 @@ With **ramps**, **barrels**, **hyper speed turrets** and **explosions**, last mo
 
 Our favorite entry is [SRL](http://apps.playcanvas.com/lizzip/gamehack/SRL) by PlayCanvas users [lizzip](https://playcanvas.com/lizzip) and [auroraimortalis](https://playcanvas.com/auroraimortalis), whose sci-fi maze game really impressed us using security camera's, laser doors and the Hover Tank acting as the villain. Amazing!
 
-Honourable mentions go to PlayCanvas users [**Crefossus**](http://apps.playcanvas.com/crefossus/pewpew/alpha002) and [**Daniel Petterson**](http://apps.playcanvas.com/danielpettersson/hack/tank) for their games, but thank you to everyone who took part. We can't wait to see what you can come up with this month!
+Honorable mentions go to PlayCanvas users [**Crefossus**](http://apps.playcanvas.com/crefossus/pewpew/alpha002) and [**Daniel Petterson**](http://apps.playcanvas.com/danielpettersson/hack/tank) for their games, but thank you to everyone who took part. We can't wait to see what you can come up with this month!
 
 [![FotorCreated5](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)
 

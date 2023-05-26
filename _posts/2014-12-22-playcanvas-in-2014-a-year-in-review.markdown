@@ -14,7 +14,7 @@ categories:
 
 **In 2011, PlayCanvas started its journey as the world's first cloud-hosted game development platform, and over three years later we’re still giving you the next generation toolset to build, share and play video games.**
 
-In 2014 our community has grown from roughly 2,000 to over 20,000 users and there has been over 2,000,000 views of PlayCanvas projects. There really has never been a better time to join us! So without further ado, here’s a look back at PlayCanvas and the Games industry in 2014 and glance ahead into the new year.\***\* \*\***
+In 2014 our community has grown from roughly 2,000 to over 20,000 users and there has been over 2,000,000 views of PlayCanvas projects. There really has never been a better time to join us! So without further ado, here’s a look back at PlayCanvas and the Games industry in 2014 and glance ahead into the new year.
 
 ## **Features**
 

@@ -39,9 +39,9 @@ One of the main reasons why developers would want to develop games that work in 
 
 **Can you describe one interesting thing about yourself?**
 
-I used to play basketball during the period between elementary school and university and before all this I considered doing it for a living. I even played in the major leagues for a while! (well I sat on the bench that is…)
+I used to play basketball during the period between elementary school and university and before all this I considered doing it for a living. I even played in the major leagues for a while! (well I sat on the bench that is...)
 
-**The Quick-fire round\*\*** (this is where things get a little interesting)\*\*
+**The Quick-fire round (this is where things get a little interesting)**
 
 **Zelda or Final fantasy?**
 
