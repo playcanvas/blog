@@ -41,7 +41,7 @@ Importing is just as simple, on the same page you'll see an import project butto
 
 ## Custom Loading Screens
 
-Another feature for the ORG user's. Sometimes you've got a client who just doesn't want to see that PlayCanvas logo upfront when loading your application (crazy people!). So now you have access to a custom loading script which lets you do as you please during the preload phase of application loading. You'll find the **Loading Screen **option at the bottom of the Settings panel in the Editor.
+Another feature for the ORG user's. Sometimes you've got a client who just doesn't want to see that PlayCanvas logo upfront when loading your application (crazy people!). So now you have access to a custom loading script which lets you do as you please during the preload phase of application loading. You'll find the **Loading Screen** option at the bottom of the Settings panel in the Editor.
 
 ## The full list:
 

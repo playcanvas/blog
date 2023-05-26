@@ -20,28 +20,30 @@ First some terms. When we talk about a "resource" we are referring to some dat
 
 When we talk about as "asset" we are referring to a reference to a resource, with some associated data. For example a texture asset looks something like this:
 
-    {
-     "id": 14761,
-     "name": "Cerberus_G",
-     "type": "texture",
-     "preload": true,
-     "file": {
-      "url": "files/assets/14761/1/Cerberus_G.jpg",
-      "size": 816084,
-      "hash": "dc49dac4f4775191b7643b4583b3ac3f",
-      "filename": "Cerberus_G.jpg"
-     },
-     "data": {
-      "minfilter": "linear_mip_linear",
-      "name": "Cerberus_G",
-      "magfilter": "linear",
-      "addressu": "repeat",
-      "addressv": "repeat",
-      "anisotropy": 1
-     },
-    }
+```json
+{
+    "id": 14761,
+    "name": "Cerberus_G",
+    "type": "texture",
+    "preload": true,
+    "file": {
+        "url": "files/assets/14761/1/Cerberus_G.jpg",
+        "size": 816084,
+        "hash": "dc49dac4f4775191b7643b4583b3ac3f",
+        "filename": "Cerberus_G.jpg"
+    },
+    "data": {
+        "minfilter": "linear_mip_linear",
+        "name": "Cerberus_G",
+        "magfilter": "linear",
+        "addressu": "repeat",
+        "addressv": "repeat",
+        "anisotropy": 1
+    },
+}
+```
 
-You can see the asset data for this texture as an ID, a Name, a reference to the file where the resource data is, plus some additional data which isn't stored in the image file. This data is used to create the texture resource. Some assets contain lots of data (materials) some none (a text file).
+You can see the asset data for this texture as an ID, a name, a reference to the file where the resource data is, plus some additional data which isn't stored in the image file. This data is used to create the texture resource. Some assets contain lots of data (materials) some none (a text file).
 
 Once loaded into the engine, you can use the asset registry to find assets, and you can access the loaded resource (if it is loaded) from the asset using the `asset.resources` property.
 
@@ -59,11 +61,11 @@ We've updated existing assets to mark all existing target assets are preload. 
 
 ### Export and Publishing
 
-When you publish an app or choose to download an export of your app, we now include _all \_assets in the package. As you can choose whether or not to preload assets, this means that you can select only a subset of your assets to be loaded before your application starts. Then you can load other assets at any other stage later on. This lets you use many more assets in your games and applications but not worry about start up time. Just stream your assets in later on.
+When you publish an app or choose to download an export of your app, we now include _all_ assets in the package. As you can choose whether or not to preload assets, this means that you can select only a subset of your assets to be loaded before your application starts. Then you can load other assets at any other stage later on. This lets you use many more assets in your games and applications but not worry about start up time. Just stream your assets in later on.
 
 ### Script Loading Order
 
-Script loading has had an overhaul, we now load scripts in parallel with other assets so load times should be reduced. We have also changed which scripts are loaded. Previously, we'd only load scripts which are referenced in scenes. **We now load all scripts in your repository. **Because of this we've introduced a way to set the order in which your scripts are loaded.
+Script loading has had an overhaul, we now load scripts in parallel with other assets so load times should be reduced. We have also changed which scripts are loaded. Previously, we'd only load scripts which are referenced in scenes. **We now load all scripts in your repository.** Because of this we've introduced a way to set the order in which your scripts are loaded.
 
 [![script-priority](https://blog.playcanvas.com/wp-content/uploads/2015/05/script-priority.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/05/script-priority.jpg)
 
@@ -75,10 +77,12 @@ Found in the menu, you can use the script loading priority dialog to choose scri
 
 The `AssetRegistry` object has changed slightly in the new API. The core methods are shown below. As before the `AssetRegistry` object is available in your scripts as `app.assets`.
 
-    app.assets.get(id) - get by id
-    app.assets.find(name, type) - search by name, return first result
-    app.assets.findAll(name, type) - search by name, return all
-    app.assets.load(asset) - load remote resource for asset
+```javascript
+app.assets.get(id) - get by id
+app.assets.find(name, type) - search by name, return first result
+app.assets.findAll(name, type) - search by name, return all
+app.assets.load(asset) - load remote resource for asset
+```
 
 The main change here is that `load()` no longer accepts a list of assets and it no longer returns a promise. We're removing promise from the engine in favour of node.js style callbacks and events.
 
@@ -88,32 +92,38 @@ _Note, we have left in a compatibility version of assets.load which accepts a l
 
 The asset registry (and the asset object) fire a consistent set of events which you can use to react to changes on the registry. These can be used to monitor loading progress or respond if you wish to dynamically add assets to the registry.
 
-    assets.on("add", callback) - triggered when asset added to registry
-    assets.on("add:{id}", callback) - triggered when asset added to registry
-    assets.on("add:url:{url}", callback) - triggered when asset added to registry
-    assets.on("remove", callback) - triggered when asset added to registry
-    assets.on("remove:{id}", callback) - triggered when asset added to registry
-    assets.on("remove:url:{url}", callback) - triggered when asset added to registry
-    assets.on("load", callback) - triggered on successful load
-    assets.on("load:{id}", callback) - triggered on successful load
-    assets.on("error", callback) - triggered on asset loading error
-    assets.on("error:{id}", callback) - triggered on asset loading error
-    asset.on("change", callback) - triggered when asset data changes
+```javascript
+assets.on("add", callback) - triggered when asset added to registry
+assets.on("add:{id}", callback) - triggered when asset added to registry
+assets.on("add:url:{url}", callback) - triggered when asset added to registry
+assets.on("remove", callback) - triggered when asset added to registry
+assets.on("remove:{id}", callback) - triggered when asset added to registry
+assets.on("remove:url:{url}", callback) - triggered when asset added to registry
+assets.on("load", callback) - triggered on successful load
+assets.on("load:{id}", callback) - triggered on successful load
+assets.on("error", callback) - triggered on asset loading error
+assets.on("error:{id}", callback) - triggered on asset loading error
+asset.on("change", callback) - triggered when asset data changes
+```
 
 A good pattern for loading and using an asset is like this:
 
-    asset.ready(function (asset) {
-        // use asset.resource here
-    });
-    assets.load(asset);
+```javascript
+asset.ready(function (asset) {
+    // use asset.resource here
+});
+assets.load(asset);
+```
 
-asset.ready() will call the callback when if when the asset is loaded. It's it's already loaded from before, the callback is called immediately. asset.load() does nothing if the asset is already loaded.
+`asset.ready()` will call the callback when if when the asset is loaded. If it's already loaded from before, the callback is called immediately. `asset.load()` does nothing if the asset is already loaded.
 
 ### Resource Loader
 
 The resource loader is a lower level interface than the asset registry. Most users won't need to access this directly as they will use the asset registry to load data. But this API has changed significantly. We've made it much simpler:
 
-    app.loader.load(url, type, callback);
+```javascript
+app.loader.load(url, type, callback);
+```
 
 I'll just leave it there, see the API docs if you need more information.
 
@@ -121,8 +131,10 @@ I'll just leave it there, see the API docs if you need more information.
 
 We've added a simple API for loading new scene data via the `app` object
 
-    app.loadSceneHierarchy(url, callback) - load a scene file, get hierarchy, append hierarchy to app.root
-    app.loadSceneSettings(url, callback) - load a scene file, apply settings (lighting/physics) to current scene
+```javascript
+app.loadSceneHierarchy(url, callback) // load a scene file, get hierarchy, append hierarchy to app.root
+app.loadSceneSettings(url, callback)  // load a scene file, apply settings (lighting/physics) to current scene
+```
 
 These two functions accept the URL of the scene file which will be in the format "scene_id.json" e.g. "100.json".
 
@@ -134,35 +146,41 @@ Hopefully you'll find your application continues work as before, only now it loa
 
 If you are using this and passing in a single asset, we no longer return a promise. You should replace your code with this:
 
-    asset.ready(function (asset) {
-      // use asset
-    });
-    app.assets.load(asset);
+```javascript
+asset.ready(function (asset) {
+  // use asset
+});
+app.assets.load(asset);
+```
 
 **app.assets.load(assets);**
 
 If you are loading a list of assets, our compatible load should still work. However, you should update your code to use the new loading format. As below
 
-    var toload = []; // list of assets
-    var count = 0;
-    toload.forEach(function (asset) {
-       asset.ready(function (asset) {
-       count++;
-       if (count === toload.length) {
-         // done
-       }
-     });
-     app.assets.load(asset);
+```javascript
+var toload = []; // list of assets
+var count = 0;
+toload.forEach(function (asset) {
+    asset.ready(function (asset) {
+        count++;
+        if (count === toload.length) {
+            // done
+        }
     });
+    app.assets.load(asset);
+});
+```
 
 **app.loader.request()**
 
 If you were using this to make resource requests like loading Packs or asking for texture data. This is all new. You should be able to replace these calls with some other method. Maybe `app.loadSceneHierarchy()` or by using asset preloading to delay loading texture data. However if you really need to load a resource directly. You can use the resource loader API:
 
-    app.loader.load(url, function (err, resource) {
-      if (!err) {
+```javascript
+app.loader.load(url, function (err, resource) {
+    if (!err) {
         // use resource
-      }
-    });
+    }
+});
+```
 
 That's it! If you notice any problems or have trouble upgrading, get in touch on the [forum](https://forum.playcanvas.com/).
