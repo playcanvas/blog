@@ -88,7 +88,7 @@ This page is an effort to supply a list of HTML5 APIs that I think game develope
 </tr>
 </tbody>
 </table>
-[source](http://caniuse.com/#feat=canvas)
+[source](https://caniuse.com/#feat=canvas)
 
 ### WebGL
 
@@ -139,7 +139,7 @@ This page is an effort to supply a list of HTML5 APIs that I think game develope
 </tbody>
 </table>
 *In Safari and Opera WebGL must be enabled in a developer menu.
-[source](http://caniuse.com/#feat=webgl) | [spec](http://www.khronos.org/registry/webgl/specs/latest/)
+[source](https://caniuse.com/#feat=webgl) | [spec](http://www.khronos.org/registry/webgl/specs/latest/)
 
 ### Fullscreen API
 
@@ -190,7 +190,7 @@ Allow an element to render fullscreen
 </tbody>
 </table>
 *Opera are [planning](http://www.opera.com/docs/specs/presto2.12/apis/#fullscreen) fullscreen API support.
-[source](http://caniuse.com/#feat=fullscreen) | [spec](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html)
+[source](https://caniuse.com/#feat=fullscreen) | [spec](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html)
 
 ---
 
@@ -300,7 +300,7 @@ Get events from accelerometers in the device
 </tbody>
 </table>
 *Mobile Safari only
-[source](http://caniuse.com/#feat=deviceorientation) | [spec](http://dev.w3.org/geo/api/spec-source-orientation.html)
+[source](https://caniuse.com/#feat=deviceorientation) | [spec](http://dev.w3.org/geo/api/spec-source-orientation.html)
 
 ### PointerLock API
 
@@ -453,7 +453,7 @@ Get input from microphone or webcam
 </tbody>
 </table>
 *Firefox are [planning](https://wiki.mozilla.org/Platform/Features/Camera_API_-_Phase_2_(getUserMedia)) to support getUserMedia()
-[source](http://caniuse.com/#feat=stream)
+[source](https://caniuse.com/#feat=stream)
 
 ### Keyboard
 
@@ -512,7 +512,7 @@ Continuous communication over HTTP
 </tr>
 </tbody>
 </table>
-[source](http://caniuse.com/#feat=websockets) | [spec](http://dev.w3.org/2011/webrtc/editor/getusermedia.html)
+[source](https://caniuse.com/#feat=websockets) | [spec](http://dev.w3.org/2011/webrtc/editor/getusermedia.html)
 
 ### WebRTC / PeerConnection API
 
@@ -618,7 +618,7 @@ Key-Value store for local data, that can persist between page loads. Like Cookie
 </tr>
 </tbody>
 </table>
-[source](http://caniuse.com/#feat=namevalue-storage) | [spec](http://www.w3.org/TR/webstorage/)
+[source](https://caniuse.com/#feat=namevalue-storage) | [spec](http://www.w3.org/TR/webstorage/)
 
 ### Offline Storage
 
@@ -668,8 +668,8 @@ Cache entire applications locally for use when offline.
 </tr>
 </tbody>
 </table>
-[source](http://caniuse.com/#feat=offline-apps) | [spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html)
+[source](https://caniuse.com/#feat=offline-apps) | [spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html)
 
 Do you have any other suggestions for APIs you'd like to see tracked here. Or other features that game developers want that are missing from HTML5 specs? Please email me at [dave@playcanvas.com](mailto://dave@playcanvas.com).
 
-Note: [caniuse.com](http://caniuse.com) is great resource for checking which features are available in which browsers. It was used as a source for many of the tables above.
+Note: [caniuse.com](https://caniuse.com) is great resource for checking which features are available in which browsers. It was used as a source for many of the tables above.
