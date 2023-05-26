@@ -57,7 +57,7 @@ COD
 
 **Mario or Sonic?**
 
-[Contra](https://en.wikipedia.org/wiki/Contra_(video_game))
+[Contra](<https://en.wikipedia.org/wiki/Contra_(video_game)>)
 
 **Favorite game of all time?**
 
