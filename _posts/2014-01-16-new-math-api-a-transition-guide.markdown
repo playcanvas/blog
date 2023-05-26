@@ -96,7 +96,7 @@ var zeroVec = pc.Vec3.ZERO;
 
 **API Reference Pages**
 
-We strongly urge you to check out the API reference pages for the new API. We've worked hard to ensure every function has been lovingly documented (including sample code). If you spot any mistakes, have feedback or need any help whatsoever, [do let us know](https://answers.playcanvas.com)!
+We strongly urge you to check out the API reference pages for the new API. We've worked hard to ensure every function has been lovingly documented (including sample code). If you spot any mistakes, have feedback or need any help whatsoever, [do let us know](https://forum.playcanvas.com)!
 
 Reference pages can be found here:
 

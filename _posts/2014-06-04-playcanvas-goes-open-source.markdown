@@ -101,8 +101,6 @@ Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whi
 
 Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com).
 
-Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com).
-
 We’re super excited to see what the open source community will do with the PlayCanvas Engine. Get creative and be sure to let us know about your projects.
 
 Toodle pip!

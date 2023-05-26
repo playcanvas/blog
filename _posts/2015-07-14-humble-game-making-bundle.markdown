@@ -37,7 +37,7 @@ When you see projects that you like, don't forget to Watch and Star them.
 
 ## Questions and Chat
 
-If you're struggling with a problem, hit up the [answers site](http://answers.playcanvas.com) to ask the community. If you just want to chat about the game your making try our [forum](https://forum.playcanvas.com).
+If you're struggling with a problem, hit up the [forum](https://forum.playcanvas.com) to ask the community.
 
 ## PLAYHACK and Game Making Contests
 
