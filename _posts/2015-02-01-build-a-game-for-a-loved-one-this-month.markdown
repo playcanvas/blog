@@ -18,7 +18,7 @@ Our most popular PLAYHACK ever finishes today. Last month's gem challenge sparke
 
 [![yet another gem](https://blog.playcanvas.com/wp-content/uploads/2015/02/yet-another-gem.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/02/yet-another-gem.jpg)
 
-This month our favourite PLAYHACK game is [Yet Another Gems](http://playcanv.as/p/p87UuuNV) by [lmao](https://playcanvas.com/lmao). A great 3D twist on a classic format. We were most impressed by the polish of the game. From the full menu and UI, to the the inclusion of online leaderboards using [Google Play Services](https://developers.google.com/games/services/web/gettingstarted), this is a complete game. An impressive achievement for only one month's development.
+This month our favorite PLAYHACK game is [Yet Another Gems](http://playcanv.as/p/p87UuuNV) by [lmao](https://playcanvas.com/lmao). A great 3D twist on a classic format. We were most impressed by the polish of the game. From the full menu and UI, to the the inclusion of online leaderboards using [Google Play Services](https://developers.google.com/games/services/web/gettingstarted), this is a complete game. An impressive achievement for only one month's development.
 
 [![finalists](https://blog.playcanvas.com/wp-content/uploads/2015/02/finalists.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/02/finalists.jpg)
 

@@ -29,7 +29,7 @@ I started making games when I was 13 years old and always knew what I wanted. A 
 
 I’m a Full-stack developer and love to be involved in anything specific or generic. Making PlayCanvas service work fast and scale well is what makes me feel good.
 
-**What is your favourite aspect of PlayCanvas' service?**
+**What is your favorite aspect of PlayCanvas' service?**
 
 It is in the browser (1-click-away), and JavaScript.
 
@@ -59,7 +59,7 @@ COD
 
 [Contra](<https://en.wikipedia.org/wiki/Contra_(video_game)>)
 
-**Favourite game of all time?**
+**Favorite game of all time?**
 
 Tough question, which ever one has most meta-gaming (UO or EVE for instance)
 

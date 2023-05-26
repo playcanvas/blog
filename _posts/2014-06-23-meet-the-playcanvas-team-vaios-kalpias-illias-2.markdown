@@ -25,7 +25,7 @@ I wanted to get into the video games industry since I was a teenager. So I studi
 
 My work at PlayCanvas includes implementing and documenting new features for the Engine, the Designer and the backend, improving user workflows, fixing bugs and creating game demos whenever I can. We're a small team so we all contribute our ideas of what we should be working on based on our experience working on other engines and games.
 
-**What is your favourite aspect of PlayCanvas' service?**
+**What is your favorite aspect of PlayCanvas' service?**
 
 The fact that I can work on my game anywhere from any device. I'm not limited by the operating system and I don't have to worry about source control or where to store all my assets. Everything is on the cloud and I can instantly share my work with others or invite them to my project to work with me, without going through the whole process of downloading and installing tools first.
 
@@ -55,7 +55,7 @@ Same as above! I'm not a big FPS guy.
 
 Mario! It was one of the first games I played!
 
-**Favourite game of all time?**
+**Favorite game of all time?**
 
 Grim Fandango! Viva la revolution!
 

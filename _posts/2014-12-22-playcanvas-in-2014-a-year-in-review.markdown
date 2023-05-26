@@ -82,7 +82,7 @@ As we progress the new PBR feature in the PlayCanvas Engine, making visually stu
 
 **Massive Editor Improvements**
 
-We have a lot planned with regards to the Editor, so stay tuned. If PlayCanvas wasn't your favourite engine before it will be next year.
+We have a lot planned with regards to the Editor, so stay tuned. If PlayCanvas wasn't your favorite engine before it will be next year.
 
 **Enhanced Store**
 
