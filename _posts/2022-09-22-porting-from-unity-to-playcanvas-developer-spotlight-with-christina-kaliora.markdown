@@ -65,7 +65,7 @@ It is quite different in my opinion. Since things on the web work a bit differen
 
 No one wants to wait over 30 seconds for a web page to load, right?
 
-### **What are the team's favorite features of PlayCanvas? **
+### What are the team's favorite features of PlayCanvas?
 
 Favorite feature is the editor, by far. The fact that it is collaborative in real time, makes PlayCanvas the best tool for teams to work together. Also, the fact that PlayCanvas has version control integrated, is pretty cool! Something else I would add, is that PlayCanvas provides a very clean API to work with.
 

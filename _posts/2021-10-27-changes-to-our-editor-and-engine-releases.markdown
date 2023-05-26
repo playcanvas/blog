@@ -39,10 +39,12 @@ This will have knock on effects to forks of the Engine repo on GitHub. If you ha
 
 The steps from the documentation will be:
 
-`$ git branch -m master dev  
-$ git fetch origin  
-$ git branch -u origin/dev dev  
-$ git remote set-head origin -a`
+```shell
+$ git branch -m master dev
+$ git fetch origin
+$ git branch -u origin/dev dev
+$ git remote set-head origin -a
+```
 
 Alternatively, creating a fresh clone from GitHub will work as well.
 

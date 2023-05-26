@@ -31,7 +31,7 @@ Want to know how it was done? Read on!
 
 By default, PlayCanvas' rigid body component system [creates an ammo.js dynamics world](https://github.com/playcanvas/engine/blob/master/src/framework/components/rigid-body/system.js#L185) that only supports generic rigid bodies. Cloth simulation requires a soft body dynamics world ([btSoftRigidDynamicsWorld](https://pybullet.org/Bullet/BulletFull/classbtSoftRigidDynamicsWorld.html)). Currently, there's no easy way to override this, so for the purpose of these experiments, a new, parallel soft body dynamics world is created and managed by the application itself. Eventually, we may make the type of the internal dynamics world selectable, or maybe even allow multiple worlds to be created, but for now, this is how the demo was structured.
 
-**_Step 2: Implement CPU skinning _**
+**_Step 2: Implement CPU skinning_**
 
 PlayCanvas performs all skinning on the GPU. However we need skinned positions on CPU to update the soft body anchors ([btSoftBody::Anchor](https://pybullet.org/Bullet/BulletFull/structbtSoftBody_1_1Anchor.html)) to match the character's animation. CPU skinning may be supported in future PlayCanvas releases.
 
@@ -55,7 +55,7 @@ It is a prototype implementation and so expect many changes (some of which are m
 
 Want to try soft body dynamics on your own character? Here's how:
 
-**_Step 1: Fork the [PlayCanvas prototype project](https://playcanvas.com/project/691109/overview/cloth-simulation-demo). _**
+**_Step 1: Fork the [PlayCanvas prototype project](https://playcanvas.com/project/691109/overview/cloth-simulation-demo)._**
 
 **_Step 2: Mark out what parts of the character you want simulated:_**
 
