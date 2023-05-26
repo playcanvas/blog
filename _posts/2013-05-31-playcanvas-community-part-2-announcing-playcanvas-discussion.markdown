@@ -27,7 +27,7 @@ Now we expanding our community features into the world of forums and random inte
 
 [caption id="attachment_770" align="aligncenter" width="575"]![Discourse logo](/wp-content/uploads/2013/05/discourse.png)](/wp-content/uploads/2013/05/discourse.png) Civilized Discourse[/caption]
 
-Forum software is perhaps one of the most neglected areas of web development, it never seemed to have it's web 2.0 moment like photo-sharing. Perhaps because all the hackers we're busy creating another [Project Management SAAS platform](https://en.wikipedia.org/wiki/Comparison_of_project_management_software). But now Jeff Atwood, of [Coding Horror](http://codinghorror.com) and [Stack Overflow](http://stackoverflow.com) fame, and his team have created [Discourse](http://discourse.org/). A fancy new forum, designed to be great for communities and civilized discourse. Perfect for what we want for our community.
+Forum software is perhaps one of the most neglected areas of web development, it never seemed to have it's web 2.0 moment like photo-sharing. Perhaps because all the hackers we're busy creating another [Project Management SAAS platform](https://en.wikipedia.org/wiki/Comparison_of_project_management_software). But now Jeff Atwood, of [Coding Horror](http://codinghorror.com) and [Stack Overflow](https://stackoverflow.com) fame, and his team have created [Discourse](http://discourse.org/). A fancy new forum, designed to be great for communities and civilized discourse. Perfect for what we want for our community.
 
 Discourse is new software, so we're constantly updating it from their latest code. That means there maybe a few teething troubles but we think it's worth it. We hope you do to.
 

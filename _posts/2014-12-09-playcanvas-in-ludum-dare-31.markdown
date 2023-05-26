@@ -37,7 +37,7 @@ One game 'jumped' right into LD entry with [**Boing**](http://apps.playcanvas.co
 
 While admittedly the finished version of **[Last Line of Defense](http://apps.playcanvas.com/will/onescreen/lastlineofdefense)** is still in progress (post competition), one developer still managed to put together a fun **tower defense game**. Why not help this developer finish their game by commenting your advice in their **[devlog](https://playcanvas.com/will/onescreen)**?
 
-If you have enjoyed playing any of these games, **log in on the [Ludum Dare](http://ludumdare.com/compo/) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
+If you have enjoyed playing any of these games, **log in on the [Ludum Dare](https://ludumdare.com//) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
 
 ### PLAYHACK December
 

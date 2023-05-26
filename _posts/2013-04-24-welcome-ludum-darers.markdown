@@ -13,7 +13,7 @@ categories:
 
 ![Ludum Dare logo](https://playcanvas.com/wp-content/uploads/2013/04/LudumDare.png)
 
-[Ludum Dare 26](http://ludumdare.com/compo) is coming up this weekend. To celebrate we're giving anyone who wants to enter using PlayCanvas instant access to our closed Beta. To double celebrate if you submit a game using PlayCanvas we'll give you a full year's subscription to the Indie plan when we go public in a few weeks. That's over $150 worth of HTML5 game-dev goodness right there.
+[Ludum Dare 26](https://ludumdare.com/) is coming up this weekend. To celebrate we're giving anyone who wants to enter using PlayCanvas instant access to our closed Beta. To double celebrate if you submit a game using PlayCanvas we'll give you a full year's subscription to the Indie plan when we go public in a few weeks. That's over $150 worth of HTML5 game-dev goodness right there.
 
 To get involved email [info@playcanvas.com](mailto://info@playcanvas.com) or just go and [sign up](https://playcanvas.com/join-us/). Make sure to mention **LD48** and your LD48 username so we can check out what you make.
 
