@@ -49,7 +49,7 @@ I do care about things going on around and will always get obsessed by things I 
 
 **Zelda or Final fantasy?**
 
-[MediEvil](<http://en.wikipedia.org/wiki/MediEvil_(1998_video_game)>)
+[MediEvil](<https://en.wikipedia.org/wiki/MediEvil_(1998_video_game)>)
 
 **COD or Battlefield?**
 
@@ -57,7 +57,7 @@ COD
 
 **Mario or Sonic?**
 
-[Contra](<http://en.wikipedia.org/wiki/Contra_(video_game)>)
+[Contra](<https://en.wikipedia.org/wiki/Contra_(video_game)>)
 
 **Favourite game of all time?**
 

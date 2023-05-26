@@ -97,7 +97,7 @@ Lastly, stay in touch, we're a friendly bunch.
 
 Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for largely technical updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](http://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
 Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com).
 

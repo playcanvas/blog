@@ -55,4 +55,4 @@ Mario
 
 **Favorite game of all time?**
 
-That's a tough one... [Monkey Island](<http://en.wikipedia.org/wiki/Monkey_Island_(series)>) or Multiplayer Halo.
+That's a tough one... [Monkey Island](<https://en.wikipedia.org/wiki/Monkey_Island_(series)>) or Multiplayer Halo.

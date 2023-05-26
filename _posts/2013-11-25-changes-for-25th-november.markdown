@@ -32,12 +32,14 @@ This weeks important changes:
 
 Sooo, most important change here: **Internet Explorer Support**. That's something we've been waiting to say for a long time. Currently there are still a few performance issues, and rest assure we'll be talking to Microsoft to make sure we get these sorted but still it's great to be able to say it. Next important thing is the change in format for Script Components. In the lead up to a big feature release later on this week, we've altered the format you supply when creating script components. Normally, most of you won't be doing this, but if you are it now looks like this:
 
-    context.script.addComponent(entity,  {
-        scripts: [{
-            name: "myscript",
-            url: "myscript.js"
-        }]
-    });
+```javascript
+context.script.addComponent(entity,  {
+    scripts: [{
+        name: "myscript",
+        url: "myscript.js"
+    }]
+});
+```
 
 No big deal really.
 
