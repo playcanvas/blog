@@ -45,7 +45,7 @@ Just like Stack Overflow, PlayCanvas Answers serves a specific need. It is the p
 Types of questions to avoid:
 
 - Can PlayCanvas be used to make an MMO?
-- How do I add two numbers in Javascript?
+- How do I add two numbers in JavaScript?
 
 ### Step by Step
 

@@ -29,7 +29,7 @@ We think the result is something is pretty special so we’re sharing it with yo
 
 We also wanted to talk about how using PlayCanvas allowed us to make D.E.M.O. in around 2 weeks. A staggeringly short time for any game, and it really shows off the power of collaborative development and great tools.
 
-The game and the PlayCanvas Engine are written entirely in Javascript. It’s pushing at the boundaries of the browser gaming using the latest HTML5 APIs, including:
+The game and the PlayCanvas Engine are written entirely in JavaScript. It’s pushing at the boundaries of the browser gaming using the latest HTML5 APIs, including:
 
 - WebGL for the graphics;
 - Web Audio API for sound;
@@ -38,7 +38,7 @@ The game and the PlayCanvas Engine are written entirely in Javascript. It’s pu
 - PointerLock API to hide the mouse cursor;
 - Fullscreen API to give you an immersive experience;
 
-D.E.M.O. was built on top of the [PlayCanvas Engine](/technology), which provides graphics, audio, input handling, etc. The game itself is a few thousand lines of javascript, the [source code](http://bitbucket.org/playcanvas/scifi) is available if you want to take a closer look. We also wrote a simple server which runs a WebSocket server powered by [NodeJS](http://nodejs.org) to set up games and redirect messages to connected clients. The [source code](http://bitbucket.org/playcanvas/scifi-server) for this is available too.
+D.E.M.O. was built on top of the [PlayCanvas Engine](/technology), which provides graphics, audio, input handling, etc. The game itself is a few thousand lines of javascript, the [source code](http://bitbucket.org/playcanvas/scifi) is available if you want to take a closer look. We also wrote a simple server which runs a WebSocket server powered by [NodeJS](https://nodejs.org/) to set up games and redirect messages to connected clients. The [source code](http://bitbucket.org/playcanvas/scifi-server) for this is available too.
 
 ## How was it built?
 
@@ -50,7 +50,7 @@ Two weeks is very short time to build an app like D.E.M.O. and along with lots o
 
 We’ve made a beautiful looking game in 3D in next to no time. We could do this because the PlayCanvas asset tools are built to ingest a wide range of model formats and set up to ensure that default materials from popular 3D packages appear identical in engine as they do for the artist.
 
-The sci-fi levels and the SWAT character and animations were all created using 3D Studio Max default materials. With no effort on our part we could export the source assets into the PlayCanvas format and be sure they would look nearly identical at runtime. If you were to get assets from a site like [Turbo Squid](http://www.turbosquid.com/) you need to know that it will _just work_ in PlayCanvas without modification. Within minutes of receiving 3D assets from a 3rd party you can have characters and environments in game.
+The sci-fi levels and the SWAT character and animations were all created using 3D Studio Max default materials. With no effort on our part we could export the source assets into the PlayCanvas format and be sure they would look nearly identical at runtime. If you were to get assets from a site like [Turbo Squid](https://www.turbosquid.com/) you need to know that it will _just work_ in PlayCanvas without modification. Within minutes of receiving 3D assets from a 3rd party you can have characters and environments in game.
 
 ### Building the level
 

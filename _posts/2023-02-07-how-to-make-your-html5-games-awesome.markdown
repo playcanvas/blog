@@ -20,11 +20,7 @@ The quality of a video game is often determined by how polished it is. It's the 
 
 We'll use [Space Rocks!](https://playcanvas.com/project/1029772/overview/space-rocks), a simple Asteroids game created with the PlayCanvas game engine to showcase how even the smallest details can make a big impact.
 
-<blockquote>
-
 > [Game juice](https://www.youtube.com/watch?v=Fy0aCDmgnxg) is a design term to refer to the small visual and audio effects that are added to a game to make it feel more satisfying to play. This can include things like screen shakes, particle effects, and sound effects that are triggered when the player takes certain actions. Game juice is all about enhancing the overall feel of a game and making it more immersive and enjoyable.
-
-</blockquote>
 
 Particularly, we'll explore how game polish can be achieved through **game juice**.
 
@@ -168,11 +164,7 @@ For the background asteroids, I simply reused our asteroid spawner class, but mo
 
 To make it as non-impactful on performance as possible, I duplicated our template, renamed it to FakeAsteroid and removed all components, except the Mover and Rotator components.
 
-<blockquote>
-
-> This is one of the beauties of using a component-based architecture! It allows you to quickly alter the behaviour of objects without having to write or modify code at all!
-
-</blockquote>
+> This is one of the beauties of using a component-based architecture! It allows you to quickly alter the behavior of objects without having to write or modify code at all!
 
 I also made the FakeAsteroid texture much darker, so as not to distract or confuse the player.
 

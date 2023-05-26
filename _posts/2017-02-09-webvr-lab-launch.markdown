@@ -24,8 +24,8 @@ WebVR is a new standard that makes VR experiences accessible to the billions of 
 
 Chrome 56 for Android, launched this week, supports WebVR using the Daydream View headsets.
 
-<blockquote>“WebVR allows developers to build an experience that scales across all VR platforms from Google Cardboard and Daydream to desktop VR headsets, while also supporting 2D displays. Different platforms have different capabilities and the PlayCanvas WebVR Lab project gives developers an example of how to manage that diversity.”
-**Megan Lindsay, Google Product Manager for WebVR**</blockquote>
+> “WebVR allows developers to build an experience that scales across all VR platforms from Google Cardboard and Daydream to desktop VR headsets, while also supporting 2D displays. Different platforms have different capabilities and the PlayCanvas WebVR Lab project gives developers an example of how to manage that diversity.”
+**Megan Lindsay, Google Product Manager for WebVR**
 
 We launched our [official WebVR support](https://blog.playcanvas.com/webvr-support-in-playcanvas/) back in November and the WebVR Lab marks the company’s next step to ensure that developers can quickly and efficiently build the most beautiful WebVR experiences possible.
 
