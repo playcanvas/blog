@@ -16,7 +16,7 @@ tags:
   - Virtual Reality
 ---
 
-**On Thursday 19th of June we will be [showcasing](http://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.** [![playcanvas oculus1](https://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)
+**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.** [![playcanvas oculus1](https://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/playcanvas-oculus1.jpg)
 
 **What is the Oculus Rift?**
 
@@ -38,4 +38,4 @@ Firefox are already [thinking about VR on the web](https://air.mozilla.org/virtu
 
 Hyper-realistic gaming experiences should not be limited to core gaming platforms. When web-based gaming can involve products like the Oculus we're opening up an whole new class of immersive gaming experiences. The best of the features of the web; low-friction, accessible and shareable; with the best features of the Oculus, immersive, high-end experiences. It's brave new world!
 
-**Dave Evans (CTO at PlayCanvas) will be showcasing some of our work with the Oculus Rift on [June 19th at the Scenario Bar](http://www.meetup.com/London-Indie-Game-Developers/events/185608412/).** **Check out the Event link [here](http://www.meetup.com/London-Indie-Game-Developers/events/185608412/) and maybe we will see you there!**
+**Dave Evans (CTO at PlayCanvas) will be showcasing some of our work with the Oculus Rift on [June 19th at the Scenario Bar](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/).** **Check out the Event link [here](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) and maybe we will see you there!**
