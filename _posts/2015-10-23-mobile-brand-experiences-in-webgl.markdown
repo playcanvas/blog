@@ -11,9 +11,9 @@ categories:
   - News
 ---
 
-<!-- more -->
-
-[iframe src="https://playcanv.as/p/RqJJ9oU9/" width="690px" scrolling="no" class="iframe-class" frameborder="0"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/RqJJ9oU9/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 _[Try it fullscreen](http://car.playcanvas.com/)_
 

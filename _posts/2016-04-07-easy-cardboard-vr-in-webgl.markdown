@@ -21,7 +21,9 @@ The PlayCanvas WebVR plugin makes it simple to add support for VR to your appli
 
 Our [demonstration project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) shows you a example of a simple interactive VR scene that you can use to learn.
 
-[iframe src="https://playcanv.as/p/ktssxBWc/" width="100%"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/ktssxBWc/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 On a mobile device just tap the view above to enable the Cardboard VR mode. Our [tutorial](https://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) will walk you through how to add VR to your projects.
 
