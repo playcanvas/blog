@@ -41,4 +41,3 @@ Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our w
 
 Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
-Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).

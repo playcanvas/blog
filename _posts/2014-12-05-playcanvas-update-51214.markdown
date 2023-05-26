@@ -23,8 +23,8 @@ Today we** launched** the **Beta version of the PlayCanvas Store!** While the cu
 
 [http://www.propsplanet.com/](http://www.propsplanet.com/)
 [http://gamedevmarket.net/](http://gamedevmarket.net/)
-[http://cgtrader.com/](http://cgtrader.com/)
-[http://3dmodels-textures.com/](http://3dmodels-textures.com/)
+[https://www.cgtrader.com/](https://www.cgtrader.com/)
+[https://3dmodels-textures.com/](https://3dmodels-textures.com/)
 
 Soon we'll be giving all of our PlayCanvas users the chance to become vendors, opening up their assets to over 20,000 PlayCanvas game developers. If you're interested in becoming a vendor for the PlayCanvas store, please get in touch: [sales@playcanvas.com](mailto:sales@playcanvas.com)
 
@@ -67,5 +67,3 @@ Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for update
 Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
 Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
-
-Get expert responses to your questions on [PlayCanvas Answers](http://answers.playcanvas.com/).
