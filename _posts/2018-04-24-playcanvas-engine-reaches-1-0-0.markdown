@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-PlayCanvas was born 7 years ago, way back on 9th May 2011. In the early days, we were essentially prototyping, seeing what this amazing new WebGL API could do. By October 2011, we set up a source code repository and [committed our first engine prototype](https://github.com/playcanvas/engine/commit/e5bf014e). Right at the beginning, we adopted [semantic versioning](https://semver.org/) for naming our releases. Our initial commit generated [engine v0.10.0](http://code.playcanvas.com/playcanvas-0.10.0.js). From that point onwards, we adopted a rapid release cadence, often publishing more than one release a week. The months and years passed, our team grew and feature after feature was integrated into the codebase. But through all that time, we never incremented the major version number. Why? Well, there were several reasons:
+PlayCanvas was born 7 years ago, way back on 9th May 2011. In the early days, we were essentially prototyping, seeing what this amazing new WebGL API could do. By October 2011, we set up a source code repository and [committed our first engine prototype](https://github.com/playcanvas/engine/commit/e5bf014e). Right at the beginning, we adopted [semantic versioning](https://semver.org/) for naming our releases. Our initial commit generated [engine v0.10.0](https://code.playcanvas.com/playcanvas-0.10.0.js). From that point onwards, we adopted a rapid release cadence, often publishing more than one release a week. The months and years passed, our team grew and feature after feature was integrated into the codebase. But through all that time, we never incremented the major version number. Why? Well, there were several reasons:
 
 1. Our rapid deployment meant we never delivered a monster release that seemed to warrant going to 1.0.0.
 
@@ -21,8 +21,7 @@ PlayCanvas was born 7 years ago, way back on 9th May 2011. In the early days, we
 
 The semantic versioning site says:
 
-<blockquote>How do I know when to release 1.0.0?
-If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.</blockquote>
+> How do I know when to release 1.0.0? If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
 
 The PlayCanvas API is now very stable, mature and battle-hardened. Backwards compatibility is something we take very seriously indeed. And today, PlayCanvas is used in production by thousands of developers.
 
