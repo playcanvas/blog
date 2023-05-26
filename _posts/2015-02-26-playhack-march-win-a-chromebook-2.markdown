@@ -90,17 +90,13 @@ _These Terms defined below apply to the PLAYHACK March Competition._
 
 18. _In order to participate in the competition entries must:_
 
+    - _Be created using the online PlayCanvas platform and game engine._
 
-    * _Be created using the online PlayCanvas platform and game engine._
+    - _Be a fork of the original PLAYHACK March project._
 
+    - _Include and use the Buggy 3D Model in the game._
 
-    * _Be a fork of the original PLAYHACK March project._
-
-
-    * _Include and use the Buggy 3D Model in the game._
-
-
-    * _Have a published primary app._
+    - _Have a published primary app._
 
 19. _Winners will be notified by PlayCanvas on or before Friday, April 5th, 2015._
 
