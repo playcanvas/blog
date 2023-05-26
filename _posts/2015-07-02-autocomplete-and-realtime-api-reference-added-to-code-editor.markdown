@@ -15,7 +15,6 @@ categories:
 PlayCanvas scripters rejoice! The Code Editor has just received a major upgrade. We have just deployed two new related features:
 
 1. Autocompletion
-
 2. Realtime API reference documentation
 
 So what does this look like? An animated GIF is worth 1000 words, so behold:
