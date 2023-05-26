@@ -18,7 +18,7 @@ One of our most requested features has landed today, and with it, it brings new 
 
 When we created the primitive component, we had simplicity in mind. Create box, set the color. That's it. Also, this was another time, when material editing wasn't available as part of the PlayCanvas Designer. So we created two components, the model, which allowed you to upload a 3D asset complete with materials and textures; and the primitive, the little brother, which only allowed you to set a color.
 
-To get us going this was great, but pretty soon you all started demanding more from the primitive. First it was a lack of a setVisible() method which existed on the model. Then you wanted to set a texture map, but in reality you wanted a full-on material.
+To get us going this was great, but pretty soon you all started demanding more from the primitive. First it was a lack of a `setVisible()` method which existed on the model. Then you wanted to set a texture map, but in reality you wanted a full-on material.
 
 ### Long live the Model Component!
 

@@ -25,7 +25,7 @@ I developed educational language games in a previous start-up, but had always wa
 
 I’m the Creative Director, so I look after the design side of things. We are just getting warmed up!
 
-**Favourite aspect of PlayCanvas' service?**
+**Favorite aspect of PlayCanvas' service?**
 
 I think creating games is a very natural and intuitive thing for people to do, but often with creating computer games the technical aspects can make it seem like a mysterious beast. PlayCanvas is dropping this barrier bit by bit and that’s something I really like.
 
@@ -57,7 +57,7 @@ Mario
 
 **Favorite game of all time?\*\*** \*\*
 
-Oooooo tricky. I have lots of those. At the moment it's [Battlefield 4](http://en.wikipedia.org/wiki/Battlefield_4), but only when my friends are playing at the same time!
+Oooooo tricky. I have lots of those. At the moment it's [Battlefield 4](https://en.wikipedia.org/wiki/Battlefield_4), but only when my friends are playing at the same time!
 
 **Greatest Gaming Achievement?**
 
