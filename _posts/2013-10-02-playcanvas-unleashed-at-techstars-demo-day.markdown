@@ -16,7 +16,7 @@ PlayCanvas has now completed the 3 month long TechStars programme and to mark th
 
 Will took to the stage (to the sound of Gangnam Style!) to present the technology to a 350 strong audience of angel investors, venture capitalists and the press.
 
-[![playcanvas_demoday](https://blog.playcanvas.com/wp-content/uploads/2013/10/playcanvas_demoday.jpg)](http://blog.playcanvas.com/wp-content/uploads/2013/10/playcanvas_demoday.jpg)
+[![playcanvas_demoday](https://blog.playcanvas.com/wp-content/uploads/2013/10/playcanvas_demoday.jpg)](https://blog.playcanvas.com/wp-content/uploads/2013/10/playcanvas_demoday.jpg)
 
 The feedback has been incredible! After the pitch, the PlayCanvas demo booth was bustling with people hungry to know more about our plans to shake up the games industry.
 
@@ -30,4 +30,4 @@ And there's more! The Next Web ranked PlayCanvas second out of the 10 companies 
 
 No wonder we're all smiles!  :)
 
-[![team](https://blog.playcanvas.com/wp-content/uploads/2013/10/team.jpg)](http://blog.playcanvas.com/wp-content/uploads/2013/10/team.jpg)
+[![team](https://blog.playcanvas.com/wp-content/uploads/2013/10/team.jpg)](https://blog.playcanvas.com/wp-content/uploads/2013/10/team.jpg)

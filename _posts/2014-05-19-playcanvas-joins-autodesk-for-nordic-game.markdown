@@ -14,7 +14,7 @@ categories:
 
 This week, thousands of indie developers are making their way to Malmö, Sweden for a very special conference. That's right folks - [Nordic Game](http://nordicgame.com/) is here again!
 
-[![NG-Award-2014(1)](https://blog.playcanvas.com/wp-content/uploads/2014/05/NG-Award-20141.png)](http://blog.playcanvas.com/wp-content/uploads/2014/05/NG-Award-20141.png)
+[![NG-Award-2014(1)](https://blog.playcanvas.com/wp-content/uploads/2014/05/NG-Award-20141.png)](https://blog.playcanvas.com/wp-content/uploads/2014/05/NG-Award-20141.png)
 
 Of course, PlayCanvas will be there to join the fun! And first things first - we want to meet you! If you love making games, you're going to love PlayCanvas so come and check out the latest build. But where? Well, this year, we will be demoing on Autodesk's booth (C1) and demonstrating a workflow to effortlessly publish Maya LT content as realtime 3D in the browser and on mobile. So make sure you drop by and find out why PlayCanvas is a better way to make games. If you would like to arrange anything beforehand, just send an email to [info@playcanvas.com](mailto:info@playcanvas.com).
 

@@ -14,7 +14,7 @@ categories:
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We’ll follow up with more of these throughout the week. Don’t forget, these are just examples. You can make **any** game you like.
 
-### [![PLAYHACK_designer](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_designer.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_designer.jpg)
+### [![PLAYHACK_designer](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_designer.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_designer.jpg)
 
 ###
 
@@ -74,7 +74,7 @@ To fire the bullet, we clone it, add it into the hierarchy and set it's position
 
 ### Target Practice
 
-[![PLAYHACK_boxes](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)
+[![PLAYHACK_boxes](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)
 
 Finally we've just added some boxes for target practice. The boxes are simply Entities with a dynamic rigidbody and a collision component. Don't forget you try [this project](https://playcanvas.com/playcanvas/gamejam-nov-14) for yourself by running [this pack.](https://playcanvas.com/dave/playhack-nov/designer/pack/30176192-65d3-11e4-9aee-12313b0a5ec6)
 

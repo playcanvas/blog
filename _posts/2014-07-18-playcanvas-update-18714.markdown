@@ -21,11 +21,11 @@ categories:
 
 ## Updated Gizmos
 
-[![Blog_gizmo1](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo12.png)](http://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo12.png)
+[![Blog_gizmo1](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo12.png)](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo12.png)
 
 _Translation Gizmo: now you can move any selected in 2 dimensions at the same time by clicking on the planes in between the two axes you wish to translate the object over. Also the view of the planes react to your viewpoint - if you look at the model along the x axis you will only see the y-z plane._
 
-[![Blog_gizmo3 scale](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo3-scale1.png)](http://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo3-scale1.png)
+[![Blog_gizmo3 scale](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo3-scale1.png)](https://blog.playcanvas.com/wp-content/uploads/2014/07/Blog_gizmo3-scale1.png)
 
 _Scaling Gizmo: a new uniform scale control has been added - access by clicking the new white block and drag the mouse to scale in all directions._
 

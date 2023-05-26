@@ -13,7 +13,7 @@ tags:
   - MeetPlayCanvas
 ---
 
-[caption id="attachment_1385" align="aligncenter" width="640"]!['I used to play basketball. Before all this I considered doing it for a living.'](https://blog.playcanvas.com/wp-content/uploads/2014/06/vaios_s.jpg.jpeg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/vaios_s.jpg.jpeg) 'I used to play basketball. Before all this I considered doing it for a living.'[/caption]
+[caption id="attachment_1385" align="aligncenter" width="640"]!['I used to play basketball. Before all this I considered doing it for a living.'](https://blog.playcanvas.com/wp-content/uploads/2014/06/vaios_s.jpg.jpeg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/vaios_s.jpg.jpeg) 'I used to play basketball. Before all this I considered doing it for a living.'[/caption]
 
 Vaios comes from Athens, Greece (if his name wasn't giving anything away) and he is a Senior Engineer here at PlayCanvas.
 

@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![ships_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)](http://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)
+[![ships_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/05/ships_small.jpg)
 
 **PLAYHACK May** is upon us. (Which means the PLAYHACK April winner will be announced soon)
 
@@ -25,7 +25,7 @@ How does it work:
 
 This month's **PLAYHACK** is the perfect opportunity to learn about the particle system component. We've added one for you, but why not create so other effects for your game. Smoke or worm-holes, for example.
 
-[![ship_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)](http://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)
+[![ship_small](https://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)](https://blog.playcanvas.com/wp-content/uploads/2015/05/ship_small.png)
 
 #### Win a Google Cardboard
 

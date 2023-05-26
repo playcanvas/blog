@@ -15,7 +15,7 @@ Big changes to some of the underlying architecture of PlayCanvas this week. The
 
 This means you can update your materials, cubemaps and textures and share those changes in real-time with your team mates around the world.
 
-[![PBR Assets](https://blog.playcanvas.com/wp-content/uploads/2015/06/pbr-gif.gif)](http://blog.playcanvas.com/wp-content/uploads/2015/06/pbr-gif.gif)
+[![PBR Assets](https://blog.playcanvas.com/wp-content/uploads/2015/06/pbr-gif.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/06/pbr-gif.gif)
 
 This isn't just about collaborating with remote friends though. Our unique ability to synchronize your scene across the internet means that you can edit you scene on your desktop and watch in wonder as it live updates on a mobile device. Perfect for testing on all platforms.
 

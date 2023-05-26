@@ -13,7 +13,7 @@ tags:
   - MeetPlayCanvas
 ---
 
-[![Roonio](https://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)
+[![Roonio](https://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/Roonio.jpg)
 
 In our latest instalment of this series we chat to Kevin, [PlayCanvas](https://playcanvas.com)' Creative Director from Sligo, Ireland
 

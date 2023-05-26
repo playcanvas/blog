@@ -12,7 +12,7 @@ categories:
   - PLAYHACK
 ---
 
-[![PLAYHACK_clearxmas](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)
+[![PLAYHACK_clearxmas](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)
 
 **If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.**
 
@@ -32,7 +32,7 @@ It works like this:
 
 ## **The Model**
 
-[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
+[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
 
 We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the** Jolly Santa model** (complete with sleigh and Rudolph).
 
@@ -60,7 +60,7 @@ Our favorite entry is [SRL](http://apps.playcanvas.com/lizzip/gamehack/SRL) by P
 
 Honorable mentions go to PlayCanvas users [**Crefossus**](http://apps.playcanvas.com/crefossus/pewpew/alpha002) and [**Daniel Petterson**](http://apps.playcanvas.com/danielpettersson/hack/tank) for their games, but thank you to everyone who took part. We can't wait to see what you can come up with this month!
 
-[![FotorCreated5](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)
+[![FotorCreated5](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)
 
 **Click the giant button below to begin your project**!
 

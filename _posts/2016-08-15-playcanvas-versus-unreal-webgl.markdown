@@ -23,7 +23,7 @@ We could do the same experiments as before with the textured cube, but let's try
 
 Unfortunately, I can't embed Tappy Chicken because Epic have restricted it to desktop browsers. So [here's a link](https://www.unrealengine.com/html5/) to it, along with an animated GIF:
 
-[![tappychicken](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)](http://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)
+[![tappychicken](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappychicken.gif)
 
 So before we begin, there's an important point to make. _They are not the same game and they do exhibit certain differences_. Tappy Chicken uses different textures, has parallax, uses particles and so on. But in essence, they are remarkably similar and worthy of a comparison, despite not being pixel perfect clones of each other. It's up to you, dear reader, to decide if the differences in the games account for the results of the analysis presented below.
 
@@ -61,11 +61,11 @@ Things to notice:
 
 To analyze runtime performance, let's compare captures of the two games using the Timeline panel in Chrome Dev Tools. Here's a capture for the PlayCanvas-powered Flappy Bird showing a frame executed in 0.57ms:
 
-[![flappy_timeline](https://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)](http://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)
+[![flappy_timeline](https://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)](https://blog.playcanvas.com/wp-content/uploads/2016/08/flappy_timeline.png)
 
 And here's a capture for the Unreal-powered Tappy Chicken with a frame executed in 5.0ms:
 
-[![tappy_timeline](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappy_timeline-1.png)](http://blog.playcanvas.com/wp-content/uploads/2016/08/tappy_timeline-1.png)
+[![tappy_timeline](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappy_timeline-1.png)](https://blog.playcanvas.com/wp-content/uploads/2016/08/tappy_timeline-1.png)
 
 In each capture, a typical frame has been selected. Not the fastest, not the slowest. Just an 'average' frame. Note that both captures are showing a frame at the same timeline scale.
 
