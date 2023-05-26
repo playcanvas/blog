@@ -33,7 +33,7 @@ Major browsers such as Chrome and Firefox are currently in the process of [secur
 - Geolocation
 - getUserMedia (webcam access)
 
-Soon it won't be possible to access these Javascript APIs without using a secure HTTPS page. In advance of this time, we want to make sure your hosted PlayCanvas applications can support all these features.
+Soon it won't be possible to access these JavaScript APIs without using a secure HTTPS page. In advance of this time, we want to make sure your hosted PlayCanvas applications can support all these features.
 
 ### What this means for you
 

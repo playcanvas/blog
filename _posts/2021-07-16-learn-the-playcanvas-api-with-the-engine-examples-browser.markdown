@@ -20,13 +20,13 @@ Starting exploring the Examples Browser now:
 
 [**https://playcanvas.github.io/**](https://playcanvas.github.io/)
 
-The browser is written entirely in Typescript and uses a Webpack build process. Naturally, it is 100% open source (MIT license) and the source can be found [here](https://github.com/playcanvas/engine/tree/master/examples).
+The browser is written entirely in TypeScript and uses a Webpack build process. Naturally, it is 100% open source (MIT license) and the source can be found [here](https://github.com/playcanvas/engine/tree/master/examples).
 
 The Examples Browser has some pretty cool features:
 
 - **Gallery panel.** Select any of the 86 examples from the (filterable) list on the left, either by name or thumbnail.
 - **Inspect Source.** Expand the source panel (built on the awesome Monaco code editor) on the right to inspect any example's source code.
-- **Edit and hot reload.** Edit any example and hit the Play button to refresh the running example. Monaco uses PlayCanvas' Typescript definitions to provide inline API hints.
+- **Edit and hot reload.** Edit any example and hit the Play button to refresh the running example. Monaco uses PlayCanvas' TypeScript definitions to provide inline API hints.
 - **Embed links.** Want to embed PlayCanvas examples in your own site? Simply hit the embed icon and copy the URL!
 - **Share to Twitter.** Want to share a specific example with the world? Just hit the Twitter icon!
 

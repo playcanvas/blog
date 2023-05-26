@@ -25,7 +25,7 @@ Also built on PCUI is the [PlayCanvas glTF Viewer](https://playcanvas.com/viewer
 
 ![](https://blog.playcanvas.com/wp-content/uploads/2020/10/viewer-flight-helmet-1024x659.png)
 
-Check out the viewer's [GitHub repo](https://github.com/playcanvas/playcanvas-viewer) to see how a Typescript-based web application leverages PCUI.
+Check out the viewer's [GitHub repo](https://github.com/playcanvas/playcanvas-viewer) to see how a TypeScript-based web application leverages PCUI.
 
 If these applications inspire you to build your own browser-based tools, why not get started with PCUI today? Here are some useful links:
 
@@ -33,6 +33,6 @@ If these applications inspire you to build your own browser-based tools, why not
 - [Developer site](https://playcanvas.github.io/pcui/) - including Storybook support for browsing components
 - [NPM page](https://www.npmjs.com/package/@playcanvas/pcui) - released today as version 1.0.0
 
-PCUI works great with vanilla JS projects, Typescript projects and React-based projects. It's open source so we encourage you to get involved and help us advance PCUI.
+PCUI works great with vanilla JS projects, TypeScript projects and React-based projects. It's open source so we encourage you to get involved and help us advance PCUI.
 
 If you're building any kind of browser-based tool application - definitely check it out today and share your thoughts on the [forum](https://forum.playcanvas.com/t/introducing-pcui-an-open-source-ui-framework-for-the-web/15141)!
