@@ -55,7 +55,7 @@ Battlefield
 
 Mario
 
-**Favorite game of all time?\*\*** \*\*
+**Favorite game of all time?**
 
 Oooooo tricky. I have lots of those. At the moment it's [Battlefield 4](https://en.wikipedia.org/wiki/Battlefield_4), but only when my friends are playing at the same time!
 

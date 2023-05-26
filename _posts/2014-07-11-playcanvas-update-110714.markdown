@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-**Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers! \*\***What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know… anyway, the updates for this week:\*\*
+**Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers!** What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know... anyway, the updates for this week:
 
 ## **Bug fixes and new features:**
 
@@ -33,7 +33,7 @@ Some engine fixes too:
 
 [caption id="attachment_1519" align="aligncenter" width="600"]![Looks fancy doesn’t it?  You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.](https://blog.playcanvas.com/wp-content/uploads/2014/07/Develop-Conference.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/07/Develop-Conference.jpg) Looks fancy doesn’t it? You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.[/caption]
 
-We were incredibly pleased to be nominated for the **Technical Innovation Award **at the prestigious [Develop Awards](http://www.developawards.com/) last week.\*\* \*\*David Evans, CTO and co-founder of PlayCanvas put in an appearance, but sadly, we lost out to Oculus and their Rift. Next year, however, the story will be very different.
+We were incredibly pleased to be nominated for the **Technical Innovation Award** at the prestigious [Develop Awards](http://www.developawards.com/) last week. David Evans, CTO and co-founder of PlayCanvas put in an appearance, but sadly, we lost out to Oculus and their Rift. Next year, however, the story will be very different.
 
 ## **Develop Magazine**
 

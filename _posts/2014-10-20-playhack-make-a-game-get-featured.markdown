@@ -39,7 +39,7 @@ This month you get to build your game around this uber-cool, **sci-fi hover tank
 
 [![tank](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)](http://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)
 
-Other than incorporating the model your game can be made and presented in any way that you like, whether it be **overhead **or **side-scrolling**, **s\*\***hooter** or **adventure\*\*.
+Other than incorporating the model your game can be made and presented in any way that you like, whether it be **overhead** or **side-scrolling**, **shooter** or **adventure**.
 
 ### Judging
 
@@ -49,7 +49,7 @@ We will be holding things down here at HQ during the month long jam by sharing s
 
 ### Featured Winner
 
-On the **1st December** we will judge your projects and our favorite will be **featured** on the **PlayCanvas** **front \*\***page\*\*!
+On the **1st December** we will judge your projects and our favorite will be **featured** on the **PlayCanvas front page**!
 
 [![button](https://blog.playcanvas.com/wp-content/uploads/2014/10/button.png)](https://playcanvas.com/playcanvas/gamejam-nov-14)
 
