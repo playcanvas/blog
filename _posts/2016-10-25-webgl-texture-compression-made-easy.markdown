@@ -35,46 +35,13 @@ The first number is the GZIPed file size and the second number denotes how much 
 
 Let's turn out attention to the demo iframed at the top of this article. VRAM usage is as follows:
 
-<table >
-<tbody >
-<tr >
-Texture Set
-VRAM Usage (MB)
-</tr>
-<tr >
+| Texture Set | VRAM Usage (MB) |
+| ----------- | --------------- |
+| JPG + PNG   | 528.0           |
+| DXT         | 87.7            |
+| PVR         | 66.8            |
+| ETC1        | 87.7            |
 
-<td >JPG + PNG
-</td>
-
-<td >528.0
-</td>
-</tr>
-<tr >
-
-<td >DXT
-</td>
-
-<td >87.7
-</td>
-</tr>
-<tr >
-
-<td >PVR
-</td>
-
-<td >66.8
-</td>
-</tr>
-<tr >
-
-<td >ETC1
-</td>
-
-<td >87.7
-</td>
-</tr>
-</tbody>
-</table>
 Texture compression suddenly makes the demo mobile friendly. But notice how it loads incredibly quickly after loading a mere 4MB of data. How is this possible? The textures are using a technique called level of detail, where low resolution versions are loaded up front allowing the application to start, while the high resolution versions asynchronously stream in the background. Also note that the app doesn't have to load any lightmaps because they are created procedurally on application start using [PlayCanvas' runtime lightmap generation](https://blog.playcanvas.com/runtime-lightmap-generation-for-webgl/).
 
 PlayCanvas' approach ensures that the most optimal texture format is selected for the device on which your application is running. In contrast, the Unity WebGL solution loads DDS files and decompresses as necessary on platforms that don't support it. This means that mobile devices do not benefit despite mobile devices having the greatest need for compression.
