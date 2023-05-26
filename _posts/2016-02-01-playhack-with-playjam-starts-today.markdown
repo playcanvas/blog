@@ -21,7 +21,9 @@ We've teamed up with PlayJam and our 6 week game jam starts today. Check out the
 
 We’ve got three great assets for your game. Use one, two or all three in your game.
 
-[iframe width="720" style="margin:0" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true' src="https://playcanv.as/p/MFTyHFU4/"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/MFTyHFU4/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 ## Theme
 
@@ -39,23 +41,23 @@ We want games that work well in mobile browsers. That means touch support, lands
 
 Did we mention that there are incredible prizes to win! Seriously awesome ones.
 
-**1st Prize - £2000 **(~$2800)
-**2nd Prize - £1000 **(~$1400)
-**3rd Prize - £500** (~$700)
+- **1st Prize - £2000** (~$2800)
+- **2nd Prize - £1000** (~$1400)
+- **3rd Prize - £500** (~$700)
 
 Judging will start on the 12th March and we’ll only play builds that are published before that day.
 
 ## How To Enter
 
-– Fork the [PLAYHACK project](https://playcanvas.com/project/374578/overview/playhack-feb-16) into your account
-– Build your game using your newly forked project.
-– Use the 3D assets we supply and pay attention to the theme.
-– Post to your devlog about your game throughout the competition.
-– The competition ends on the 11th of March. Make sure you’ve published your game by then!
-– PlayJam and PlayCanvas will pick the best of the best.
-– Winners will get cash prizes and the chance to be published on the PlayJam Network.
+- Fork the [PLAYHACK project](https://playcanvas.com/project/374578/overview/playhack-feb-16) into your account
+- Build your game using your newly forked project.
+- Use the 3D assets we supply and pay attention to the theme.
+- Post to your devlog about your game throughout the competition.
+- The competition ends on the 11th of March. Make sure you’ve published your game by then!
+- PlayJam and PlayCanvas will pick the best of the best.
+- Winners will get cash prizes and the chance to be published on the PlayJam Network.
 
-To summarize: _Fork the project, build a game, publish on PlayCanvas.\*\* \*\*_
+To summarize: _Fork the project, build a game, publish on PlayCanvas._
 
 So with all that out of the way. Think deep about the themes and start building that awesome game.
 
@@ -85,15 +87,10 @@ These Terms defined below apply to the PLAYHACK February 2016 Competition.
 - There is no limit to the number of entries that an entrant can submit.
 - Each game can only be entered once.
 - In order to participate in the competition entries must:
-
   - Be created using the online PlayCanvas platform and game engine.
-
   - Be a fork of the original PLAYHACK February project.
-
   - Include and use at least one the supplied model assets in the game.
-
   - Have a published primary app.
-
 - Winners will be notified by Organizers on or before Friday, March 18th, 2016.
 - Competition winners will be announced via the PlayCanvas & PlayJam websites.
 

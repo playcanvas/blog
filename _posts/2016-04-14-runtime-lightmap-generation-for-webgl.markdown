@@ -15,9 +15,9 @@ For many years, lightmapping has been the mainstay of achieving low cost yet re
 
 All that changes today as we introduce **Runtime Lightmap Generation** into the PlayCanvas Engine.
 
-<!-- more -->
-
-[iframe src="https://playcanv.as/e/p/txPePQvy" width="100%" allowfullscreen="true" webkitallowfullscreen="true"]
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/txPePQvy" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
+</div>
 
 _Here's a link to [full demo](https://playcanv.as/p/txPePQvy)._
 
