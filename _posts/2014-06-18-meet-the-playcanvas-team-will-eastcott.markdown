@@ -57,7 +57,7 @@ COD
 
 Mario
 
-**Favourite game of all time?**
+**Favorite game of all time?**
 
 No contest: Elite.
 
