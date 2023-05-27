@@ -28,7 +28,7 @@ We're going to be making a side-scrolling endless runner game, where Santa must 
 
 [![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
 
-To follow along with this tutorial, fork the [PLAYHACK December project](https://playcanvas.com/playcanvas/playhack-dec-14) to get started. To see what we’ll be making this time, [look here](https://playcanvas.com/natpat/playhack_tut1). Or just check out the embedded app above.
+To follow along with this tutorial, fork the [PLAYHACK December project](https://playcanvas.com/user/playcanvas/playhack-dec-14) to get started. To see what we’ll be making this time, [look here](https://playcanvas.com/natpat/playhack_tut1). Or just check out the embedded app above.
 
 So you've forked the repository and got it open in the editor. We're going to need to make a few changes to start making our game.
 

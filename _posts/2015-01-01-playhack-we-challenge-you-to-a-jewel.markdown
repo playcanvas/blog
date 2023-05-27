@@ -21,7 +21,7 @@ PLAYHACK starts today! We'll provide you with a 3D model and your mission is to 
 
 It works like this:
 
-- **Fork [this month's project](https://playcanvas.com/playcanvas/playhack-jan-15) into your account**
+- **Fork [this month's project](https://playcanvas.com/user/playcanvas/playhack-jan-15) into your account**
 - **Use the project and it's contents to build a new game.**
 - **Post to your devlog about your game throughout the month**
 - **At the end of the month we'll look through all the projects that were forked from the original. **
@@ -63,4 +63,4 @@ Our favorite entry is '[Five For Christmas](http://apps.playcanvas.com/felladrin
 
 Making great use of light and particles, felladrin created a "topdown survival game where the player (Santa) had his location revealed and all the kids are now trying to reach him. The player must throw gifts for the children, so that they don't delay the delivery of gifts this Christmas". Go visit the [game project](https://playcanvas.com/felladrin/playhack-dec-14) and give it a star and leave a comment.
 
-# **[START PLAYHACKING!](https://playcanvas.com/playcanvas/playhack-jan-15)**
+# **[START PLAYHACKING!](https://playcanvas.com/user/playcanvas/playhack-jan-15)**
