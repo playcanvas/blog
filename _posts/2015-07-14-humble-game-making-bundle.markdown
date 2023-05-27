@@ -31,7 +31,7 @@ Learning to use a new program is always a challenge, but we've tried hard to mak
 
 One of the best parts of PlayCanvas is the community of developers and game makers building stuff on the site.
 
-Once you've got started and published your first build, be sure to tell everyone about it on your [devlog](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/).
+Once you've got started and published your first build, be sure to tell everyone about it on your [devlog](https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/).
 
 When you see projects that you like, don't forget to Watch and Star them.
 
@@ -41,6 +41,6 @@ If you're struggling with a problem, hit up the [forum](https://forum.playcanvas
 
 ## PLAYHACK and Game Making Contests
 
-Every month we run a friendly game jam called the PLAYHACK. This month we're running the [PLAYHACK](http://blog.playcanvas.com/playhack-july-15-join-the-indie-game-maker-contest/) in parallel with the Game Dev Fort [Indie Game Making Contest](http://contest.gamedevfort.com/). It's the perfect way to get used to a new game engine and there are even prizes to be won!
+Every month we run a friendly game jam called the PLAYHACK. This month we're running the [PLAYHACK](https://blog.playcanvas.com/playhack-july-15-join-the-indie-game-maker-contest/) in parallel with the Game Dev Fort [Indie Game Making Contest](http://contest.gamedevfort.com/). It's the perfect way to get used to a new game engine and there are even prizes to be won!
 
 Hope you enjoy using PlayCanvas. See you in the devlogs!

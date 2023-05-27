@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=TzHn60xlqCc
 
 ### Pricing plans
 
-We're adding additional plans to our pricing structure to better accommodate bigger users of PlayCanvas. Take a look at our [announcement post](http://blog.playcanvas.com/new-plans/).
+We're adding additional plans to our pricing structure to better accommodate bigger users of PlayCanvas. Take a look at our [announcement post](https://blog.playcanvas.com/new-plans/).
 
 ### Improvements
 

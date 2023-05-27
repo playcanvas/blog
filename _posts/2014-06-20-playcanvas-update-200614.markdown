@@ -37,7 +37,7 @@ We added Shadow Distance in the Scene Settings, a value that controls that maxim
 
 **Events & Oculus Rift Support**
 
-We also showed our faces at a number of events this week. Dave showed off some of our work with the [Oculus Rift](http://blog.playcanvas.com/virtual-reality-and-the-future-of-web-based-gaming/) at the Scenario Bar (as seen above) and we ran a [Swooop](http://swooop.playcanvas.com/) high score challenge at the [IDEA London](http://www.idea-london.co.uk/) summer party.
+We also showed our faces at a number of events this week. Dave showed off some of our work with the [Oculus Rift](https://blog.playcanvas.com/virtual-reality-and-the-future-of-web-based-gaming/) at the Scenario Bar (as seen above) and we ran a [Swooop](http://swooop.playcanvas.com/) high score challenge at the [IDEA London](http://www.idea-london.co.uk/) summer party.
 
 [![VR night](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/06/VR-night.jpg)
 

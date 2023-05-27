@@ -15,11 +15,11 @@ This week, we're preparing to attend gamescom, GDC Europe and SIGGRAPH. Here's
 
 ### SIGGRAPH
 
-In a few days PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/). We'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](http://blog.playcanvas.com/contact/) if you'd like to set up a meeting.
+In a few days PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/). We'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](https://blog.playcanvas.com/contact/) if you'd like to set up a meeting.
 
 ### gamescom and GDC Europe
 
-We'll also be at [GDC Europe](http://www.gdceurope.com/) and [gamescom](http://www.gamescom-cologne.com/en/gamescom/home/index.php). [Get in touch](http://blog.playcanvas.com/contact) if you'd like to set up a meeting or see an up-close demo of PlayCanvas.
+We'll also be at [GDC Europe](http://www.gdceurope.com/) and [gamescom](http://www.gamescom-cologne.com/en/gamescom/home/index.php). [Get in touch](https://blog.playcanvas.com/contact) if you'd like to set up a meeting or see an up-close demo of PlayCanvas.
 
 **Watch this space for SIGGRAPH and gamescom updates over the next week**
 

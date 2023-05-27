@@ -37,7 +37,7 @@ One game 'jumped' right into LD entry with [**Boing**](http://apps.playcanvas.co
 
 While admittedly the finished version of **[Last Line of Defense](http://apps.playcanvas.com/will/onescreen/lastlineofdefense)** is still in progress (post competition), one developer still managed to put together a fun **tower defense game**. Why not help this developer finish their game by commenting your advice in their **[devlog](https://playcanvas.com/will/onescreen)**?
 
-If you have enjoyed playing any of these games, **log in on the [Ludum Dare](https://ludumdare.com//) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
+If you have enjoyed playing any of these games, **log in on the [Ludum Dare](https://ludumdare.com//) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
 
 ### PLAYHACK December
 
@@ -45,4 +45,4 @@ If you have enjoyed playing any of these games, **log in on the [Ludum Dare](htt
 
 If you feel that a weekend is too much of a rush to take part in a game jam then we have a great alternative for you. **Last week we started our second PLAYHACK**, after some great entries in our first PLAYHACK.
 
-Our game jams work slightly to Ludum Dare but only in the amount of time given (1 month in our case) and the fact that we provide the model for your game. If this interests you, then you can find out everything you need to know about PLAYHACK December in our [introductory blogpost](http://blog.playcanvas.com/playhack-december-jolly-santa/) and maybe we will be talking about your game at the end of the month.
+Our game jams work slightly to Ludum Dare but only in the amount of time given (1 month in our case) and the fact that we provide the model for your game. If this interests you, then you can find out everything you need to know about PLAYHACK December in our [introductory blogpost](https://blog.playcanvas.com/playhack-december-jolly-santa/) and maybe we will be talking about your game at the end of the month.

@@ -13,7 +13,9 @@ categories:
 
 Today we've launched an update to streamline the way you publish your applications and to give your collaborators more information about what is changing.
 
-First big change, the publishing process is now right there next to you in the Editor.  Look for the new publish button in your toolbar.![Editor 3](https://blog.playcanvas.com/wp-content/uploads/2016/02/Editor-3.jpg)
+First big change, the publishing process is now right there next to you in the Editor.  Look for the new publish button in your toolbar.
+
+![Editor 3](https://blog.playcanvas.com/wp-content/uploads/2016/02/Editor-3.jpg)
 
 Second big change, we've added some additional properties when you publish a new build. First, the name and image can be different to the name and image defined in the project. Second, you can give each build a version string so that you can identify which application is which. Finally you can add release notes to give yourself some more information about what has changed in the latest version.
 

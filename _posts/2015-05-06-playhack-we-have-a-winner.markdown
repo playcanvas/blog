@@ -27,6 +27,6 @@ We also wanted to do a big shout out to our runners up, [hoshi](https://playcanv
 
 ## Inspired?
 
-Why not try your hand at building a game this month. Our new PLAYHACK is under way right now. [Get Started](http://blog.playcanvas.com/playhack-may-spaceships-and-win-a-google-cardboard/), you can win a Google Cardboard.
+Why not try your hand at building a game this month. Our new PLAYHACK is under way right now. [Get Started](https://blog.playcanvas.com/playhack-may-spaceships-and-win-a-google-cardboard/), you can win a Google Cardboard.
 
 Happy Building
