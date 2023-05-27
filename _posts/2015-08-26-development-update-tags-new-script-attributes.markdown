@@ -21,7 +21,7 @@ The feedback we've been getting is that your projects are continuing to grow. Mo
 
 [![tags](https://blog.playcanvas.com/wp-content/uploads/2015/08/tags.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/tags.gif)
 
-To search for Assets, we have introduced a new [pc.Tags API](https://developer.playcanvas.com/en/engine/api/stable/symbols/pc.Tags.html). Let's quickly look at some examples:
+To search for Assets, we have introduced a new [pc.Tags API](https://developer.playcanvas.com/en/api/pc.Tags.html). Let's quickly look at some examples:
 
 ```javascript
 // Return all assets tagged by 'level-1'
