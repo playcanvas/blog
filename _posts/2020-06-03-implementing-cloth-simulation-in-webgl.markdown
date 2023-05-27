@@ -37,11 +37,11 @@ PlayCanvas performs all skinning on the GPU. However we need skinned positions o
 
 **_Step 3: Patch shaders to support composite simulated and non-simulated mesh rendering_**
 
-Soft body meshes will generate vertex positions and normal data in world space, so in order to render the dynamically simulated (cloth) parts of character meshes correctly, we have to patch in support by overriding the current PlayCanvas [vertex transform shader chunk](https://github.com/playcanvas/engine/blob/master/src/graphics/program-lib/chunks/transform.vert). In a final implementation, no patching should be necessary, as we would probably add in-built support for composite simulated and non-simulated mesh rendering.
+Soft body meshes will generate vertex positions and normal data in world space, so in order to render the dynamically simulated (cloth) parts of character meshes correctly, we have to patch in support by overriding the current PlayCanvas [vertex transform shader chunk](https://github.com/playcanvas/engine/blob/main/src/scene/shader-lib/chunks/common/vert/transform.js). In a final implementation, no patching should be necessary, as we would probably add in-built support for composite simulated and non-simulated mesh rendering.
 
 **_Step 4: Implement render meshes to soft body meshes conversion_**
 
-PlayCanvas character meshes cannot be used directly by the soft body mesh creation functions ([btSoftBodyHelpers::CreateFromTriMesh](https://pybullet.org/Bullet/BulletFull/structbtSoftBodyHelpers.html#a272cdc7d6d2ad911550d823419bdd3e7)) and so require some conversion, so the PlayCanvas [vertex iterator](https://github.com/playcanvas/engine/blob/master/src/graphics/vertex-iterator.js) was used to access and convert the mesh data. Eventually this conversion could be done on asset import into the PlayCanvas editor.
+PlayCanvas character meshes cannot be used directly by the soft body mesh creation functions ([btSoftBodyHelpers::CreateFromTriMesh](https://pybullet.org/Bullet/BulletFull/structbtSoftBodyHelpers.html#a272cdc7d6d2ad911550d823419bdd3e7)) and so require some conversion, so the PlayCanvas [vertex iterator](https://github.com/playcanvas/engine/blob/main/src/platform/graphics/vertex-iterator.js) was used to access and convert the mesh data. Eventually this conversion could be done on asset import into the PlayCanvas editor.
 
 **_Step 5: Implement per-bone attachments_**
 

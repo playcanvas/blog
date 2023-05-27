@@ -29,7 +29,7 @@ Now, lets get to the results!
 
 ### **[Orbital Survival](https://playcanv.as/p/3G3RnfUz)**
 
-Congratulations to [el-pepi](https://playcanvas.com/el-pepi) who takes the grand prize with this fast paced orbital shooter. Defend your tiny moon from incoming UFOs and slimy blobs using only the upgradable gun on your robot arm. There's nothing more terrifying than seeing a rogue 5-shot-burst looping over the horizon back towards you. Our judges said: _"Simple but fun and keeps you coming back for more"_
+Congratulations to [el-pepi](https://playcanvas.com/user/el-pepi) who takes the grand prize with this fast paced orbital shooter. Defend your tiny moon from incoming UFOs and slimy blobs using only the upgradable gun on your robot arm. There's nothing more terrifying than seeing a rogue 5-shot-burst looping over the horizon back towards you. Our judges said: _"Simple but fun and keeps you coming back for more"_
 
 ## Second Place - £1000
 
