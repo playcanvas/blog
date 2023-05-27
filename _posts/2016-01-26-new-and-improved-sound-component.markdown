@@ -50,14 +50,14 @@ But we've also created a few tutorials to show you how it all works.
 
 ### Basic Audio
 
-This [tutorial](https://developer.playcanvas.com/en/tutorials/beginner/basic-audio/) covers how to setup a component and managing the audio settings on different slots. Like the looping and overlap properties.
+This [tutorial](https://developer.playcanvas.com/en/tutorials/basic-audio/) covers how to setup a component and managing the audio settings on different slots. Like the looping and overlap properties.
 
 ### Audio Effects
 
-This [tutorial](https://developer.playcanvas.com/en/tutorials/advanced/audio-effects/) shows you how to add audio effects by manipulating the Web Audio API nodes
+This [tutorial](https://developer.playcanvas.com/en/tutorials/audio-effects/) shows you how to add audio effects by manipulating the Web Audio API nodes
 
 ### Audio Visualizer
 
-This [tutorial](https://developer.playcanvas.com/en/tutorials/intermediate/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyzer node.
+This [tutorial](https://developer.playcanvas.com/en/tutorials/music-visualizer/) shows you how to build a music visualizer using a sound component and an Analyzer node.
 
 Go forth and **make some noise!**
