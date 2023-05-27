@@ -4,8 +4,10 @@
   "description": "The PlayCanvas blog site",
   "main": "index.js",
   "scripts": {
+    "build": "bundle exec jekyll build",
     "prettier": "prettier --write _posts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && npm run test:links",
+    "test:links": "linkinator . --server-root _site --recurse --verbosity error"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "embeddedLanguageFormatting": "off"
   },
   "devDependencies": {
+    "linkinator": "^4.1.2",
     "prettier": "^2.8.8"
   }
 }
