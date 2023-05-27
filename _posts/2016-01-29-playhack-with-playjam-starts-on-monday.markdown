@@ -27,9 +27,9 @@ On Monday 1st of February we commence our biggest PLAYHACK yet. PLAYHACK with Pl
 
 ### Prizes
 
-1st Prize - £2000
-2nd Prize - £1000
-3rd Prize - £500
+- 1st Prize - £2000
+- 2nd Prize - £1000
+- 3rd Prize - £500
 
 ### Clue
 
@@ -59,14 +59,9 @@ These Terms defined below apply to the PLAYHACK February 2016 Competition.
 - There is no limit to the number of entries that an entrant can submit.
 - Each game can only be entered once.
 - In order to participate in the competition entries must:
-
   - Be created using the online PlayCanvas platform and game engine.
-
   - Be a fork of the original PLAYHACK February project.
-
   - Include and use at least one the supplied model assets in the game.
-
   - Have a published primary app.
-
 - Winners will be notified by Organizers on or before Friday, March 18th, 2016.
 - Competition winners will be announced via the PlayCanvas & PlayJam websites.
