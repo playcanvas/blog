@@ -33,4 +33,4 @@ By now, you'll be familiar with PlayCanvas' physically based renderer. Objects i
 
 We hope you're all enjoying the new Editor. The response has been phenomenal so far. But keep that feedback coming. Head over to [the forum to join the conversation](https://forum.playcanvas.com/t/playcanvas-editor-feedback/616). Your opinion matters!
 
-That's all for now, folks. <3
+That's all for now, folks. ❤️
