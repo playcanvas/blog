@@ -24,7 +24,7 @@ It works like this:
 - **Fork [this month's project](https://playcanvas.com/user/playcanvas/playhack-jan-15) into your account**
 - **Use the project and it's contents to build a new game.**
 - **Post to your devlog about your game throughout the month**
-- **At the end of the month we'll look through all the projects that were forked from the original. **
+- **At the end of the month we'll look through all the projects that were forked from the original.**
 - **We'll pick our favorite and feature it on the front page of PlayCanvas for everyone to see.**
 
 ### **The Models**
@@ -59,8 +59,8 @@ With Side Scrolling Santa's, Youtube leaks, Medieval houses and plenty of obstac
 
 [![santa_winner](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/01/santa_winner.jpg)
 
-Our favorite entry is '[Five For Christmas](http://apps.playcanvas.com/felladrin/playhack-dec-14/five-for-christmas)' by [felladrin](https://playcanvas.com/felladrin).
+Our favorite entry is '[Five For Christmas](https://playcanv.as/p/dqK3gI4D/)' by [felladrin](https://playcanvas.com/user/felladrin).
 
-Making great use of light and particles, felladrin created a "topdown survival game where the player (Santa) had his location revealed and all the kids are now trying to reach him. The player must throw gifts for the children, so that they don't delay the delivery of gifts this Christmas". Go visit the [game project](https://playcanvas.com/felladrin/playhack-dec-14) and give it a star and leave a comment.
+Making great use of light and particles, felladrin created a "topdown survival game where the player (Santa) had his location revealed and all the kids are now trying to reach him. The player must throw gifts for the children, so that they don't delay the delivery of gifts this Christmas". Go visit the [game project](https://playcanvas.com/project/334394/overview/playhackdec14) and give it a star and leave a comment.
 
 # **[START PLAYHACKING!](https://playcanvas.com/user/playcanvas/playhack-jan-15)**
