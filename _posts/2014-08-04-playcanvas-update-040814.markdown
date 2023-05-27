@@ -29,11 +29,11 @@ We've created a new series of videos that run through a complete introduction to
 
 ### SIGGRAPH
 
-Next week PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/), represented by our esteemed CTO Dave Evans. He'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](http://blog.playcanvas.com/contact/) if you'd like to set up a meeting.
+Next week PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/), represented by our esteemed CTO Dave Evans. He'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](https://blog.playcanvas.com/contact/) if you'd like to set up a meeting.
 
 ### GAMESCOM
 
-Will, our CEO, will be attending this year's [GAMESCOM ](http://www.gamescom-cologne.com/en/gamescom/home/index.php)showing for mobile and HTML5 games. [Get in touch](http://blog.playcanvas.com/contact) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
+Will, our CEO, will be attending this year's [GAMESCOM ](http://www.gamescom-cologne.com/en/gamescom/home/index.php)showing for mobile and HTML5 games. [Get in touch](https://blog.playcanvas.com/contact) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
 
 **Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks**
 

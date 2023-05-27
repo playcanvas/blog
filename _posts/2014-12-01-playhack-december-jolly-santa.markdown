@@ -26,7 +26,7 @@ It works like this:
 
 1. **Fork [this month's project](https://playcanvas.com/playcanvas/playhack-dec-14)** into your account.
 2. **Use the project and it's contents to build a new game.**
-3. **Post to your [devlog](http://blog.playcanvas.com/the-devlog-playcanvas-community-feature/)** about your game throughout the month.
+3. **Post to your [devlog](https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/)** about your game throughout the month.
 4. **At the end of the month we'll look through all the projects that were forked from the original.**
 5. **We'll pick our favorite and feature it on the front page of PlayCanvas for everyone to see.**
 
