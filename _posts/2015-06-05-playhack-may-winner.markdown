@@ -15,7 +15,7 @@ categories:
 
 A great month for PLAYHACK, leading to one of our most stylish games yet.
 
-[Desert Moon Defender](https://playcanvas.com/project/346780/overview/desert-moon-defender) by [whydoidoit](https://playcanvas.com/whydoidoit) takes the featured spot for the month with this fantastic game of collecting gems and avoiding bad guys.
+[Desert Moon Defender](https://playcanvas.com/project/346780/overview/desert-moon-defender) by [whydoidoit](https://playcanvas.com/user/whydoidoit) takes the featured spot for the month with this fantastic game of collecting gems and avoiding bad guys.
 
 ### [TRY THE GAME](https://playcanv.as/p/LxkNoQ1D)
 

@@ -37,7 +37,7 @@ Congratulations to [el-pepi](https://playcanvas.com/el-pepi) who takes the gran
 
 ### **[Galaxies: Combat](https://playcanv.as/p/Ikq6Uk6A)**
 
-Congrats to [dstalk](https://playcanvas.com/dstalk) and [maungers](https://playcanvas.com/maungers) who take _(a very close)_ second place. An arena style shoot-em-up. Take on wave after wave of increasingly tough spaceships and earn money to upgrade your UFO with new weapons. Displaying impressive polish from the explosions to the upgrade tree and the UI. Our judges said:_ "nice physics, intuitive controls"._
+Congrats to [dstalk](https://playcanvas.com/user/dstalk) and [maungers](https://playcanvas.com/user/maungers) who take _(a very close)_ second place. An arena style shoot-em-up. Take on wave after wave of increasingly tough spaceships and earn money to upgrade your UFO with new weapons. Displaying impressive polish from the explosions to the upgrade tree and the UI. Our judges said:_ "nice physics, intuitive controls"._
 
 ## Third Place - £500
 
@@ -45,7 +45,7 @@ Congrats to [dstalk](https://playcanvas.com/dstalk) and [maungers](https://play
 
 ### **[Space Pirates](https://playcanv.as/p/VhZwmcKu)**
 
-An impressive amount of work in 6 weeks by [whydoidoit](https://playcanvas.com/whydoidoit) nabbed him third place. Bomberman meets Pac-man in this spherical dot collector game. Oh and networked multiplayer too! Our judges said: _"interesting gameplay mix, nice use of the engine"_
+An impressive amount of work in 6 weeks by [whydoidoit](https://playcanvas.com/user/whydoidoit) nabbed him third place. Bomberman meets Pac-man in this spherical dot collector game. Oh and networked multiplayer too! Our judges said: _"interesting gameplay mix, nice use of the engine"_
 
 ## Special Mentions
 
