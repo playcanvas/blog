@@ -51,6 +51,6 @@ Try to start with some simple tasks. I've seen a lot of guys who were trying to 
 **What would be your dream game to develop?**
 Not sure about the genre but it should be a dark space game with a lot of metal and scary robots
 
-_Thanks to Rustam for taking the time to talk to us. You try his winning PLAYHACK entries, [Yet Another Gems](http://playcanv.as/p/p87UuuNV) and [Space Buggy](http://playcanv.as/p/3RerJIcy) on PlayCanvas. All his [projects](https://playcanvas.com/lmao) are open for inspection and are great learning tools for getting to grips with PlayCanvas._
+_Thanks to Rustam for taking the time to talk to us. You try his winning PLAYHACK entries, [Yet Another Gems](https://playcanv.as/p/p87UuuNV) and [Space Buggy](https://playcanv.as/p/3RerJIcy) on PlayCanvas. All his [projects](https://playcanvas.com/lmao) are open for inspection and are great learning tools for getting to grips with PlayCanvas._
 
 **Try your hand at the latest [PLAYHACK](https://playcanvas.com/project/341268/overview/playhack-apr-15) going on now.**

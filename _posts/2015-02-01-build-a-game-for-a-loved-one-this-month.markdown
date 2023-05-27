@@ -18,11 +18,11 @@ Our most popular PLAYHACK ever finishes today. Last month's gem challenge sparke
 
 [![yet another gem](https://blog.playcanvas.com/wp-content/uploads/2015/02/yet-another-gem.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/02/yet-another-gem.jpg)
 
-This month our favorite PLAYHACK game is [Yet Another Gems](http://playcanv.as/p/p87UuuNV) by [lmao](https://playcanvas.com/lmao). A great 3D twist on a classic format. We were most impressed by the polish of the game. From the full menu and UI, to the the inclusion of online leaderboards using [Google Play Services](https://developers.google.com/games/services/web/gettingstarted), this is a complete game. An impressive achievement for only one month's development.
+This month our favorite PLAYHACK game is [Yet Another Gems](https://playcanv.as/p/p87UuuNV) by [lmao](https://playcanvas.com/lmao). A great 3D twist on a classic format. We were most impressed by the polish of the game. From the full menu and UI, to the the inclusion of online leaderboards using [Google Play Services](https://developers.google.com/games/services/web/gettingstarted), this is a complete game. An impressive achievement for only one month's development.
 
 [![finalists](https://blog.playcanvas.com/wp-content/uploads/2015/02/finalists.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/02/finalists.jpg)
 
-Here's a selection of some of the games made this month. Special mention to [runninglvlan](https://playcanvas.com/runninglvlan) who only started making his game [Gem Labyrinth](http://playcanv.as/p/snqvkNes) 12 days ago, but already has an addictive maze running game (my record is 130 points in 47 seconds)
+Here's a selection of some of the games made this month. Special mention to [runninglvlan](https://playcanvas.com/runninglvlan) who only started making his game [Gem Labyrinth](https://playcanv.as/p/snqvkNes) 12 days ago, but already has an addictive maze running game (my record is 130 points in 47 seconds)
 
 Go watch and star the game projects for [Gem Labyrinth](https://playcanvas.com/project/336187/overview/gemlabyrinth) and [Yet Another Gems](https://playcanvas.com/project/335386/overview/yet-another-gems).
 

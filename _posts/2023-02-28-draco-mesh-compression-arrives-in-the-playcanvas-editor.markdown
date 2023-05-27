@@ -17,7 +17,7 @@ At its core, [Draco Mesh Compression](https://google.github.io/draco/) reduces t
 
 The open source [PlayCanvas Engine](https://github.com/playcanvas/engine) has been able to load Draco-compressed glTF 2.0 files for quite some time now. But now you can generate these Draco-compressed glTF files in the Editor at import time. Check out how easy it is to use:
 
-["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed under [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/4.0/).
+["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed under [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/).
 
 In the example above, a **49.9MB** GLB file is crunched down to only **3.67MB**. That's a **92.6% reduction is file size**! And for the majority of scenes, you should notice _no difference in terms of visual quality_. The only cost is decompression time when the compressed GLB is downloaded by an end user, but this should be significantly less than what is saved in terms of download time.
 

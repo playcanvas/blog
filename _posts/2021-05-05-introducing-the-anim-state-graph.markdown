@@ -27,7 +27,7 @@ With the release of the Anim component, Anim State Graph assets and Anim State G
 
 It’s now easier than ever to make your game characters move just the way you’d like, while writing minimal code in the process!
 
-Having recently beta tested this feature with a number of developers, we’ve already seen some fantastic results! For instance, the developer of the popular online shooter [venge.io](http://venge.io/) is utilizing the anim state graph to drive character animations in their up and coming online RPG.
+Having recently beta tested this feature with a number of developers, we’ve already seen some fantastic results! For instance, the developer of the popular online shooter [venge.io](https://venge.io/) is utilizing the anim state graph to drive character animations in their up and coming online RPG.
 
 A clip of an early build of this game can be seen below, showcasing the blending of multiple animation clips. When combined together in a state graph they create realistic and fluid movement for the main character.
 
