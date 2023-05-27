@@ -44,7 +44,7 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 
 **Further reading:**
 
-[http://http.developer.nvidia.com/GPUGems3/gpugems3_ch20.html](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch20.html)
+[https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)
 [https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/](https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/)
 
 #### Box-projected cubemaps
