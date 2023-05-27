@@ -29,12 +29,12 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Venge.io](https://venge.io/) by Cem Demir
 - [Bitmoji Party](https://games.snap.com/) by Snap Games Studio
 - [Bitmoji Paint](https://games.snap.com/) by Snap Games Studio
-- [DAB Motors Configurator](https://dabmotors.com/configurator/) by DAB Motors | Visionaries 777
+- [DAB Motors Configurator](https://dabmotors.com/configurator/) by Visionaries 777 for DAB Motors
 - [After the Flood](https://playcanvas.com/project/529572/overview/after-the-flood) by PlayCanvas
 - [Ready Chef Go](https://www.mojiworks.com/) by Mojiworks
 - [Ready Set Golf](https://pikpok.com/) by PikPok
 - [Tank Royale](https://tankroyale.io/) by DevMidgard
-- [Allyracer](https://www.allyracer.com/) by Ally | MKTG
+- [Allyracer](https://www.allyracer.com/) by MKTG for Ally
 - [Aquapark](https://www.voodoo.io/) by Voodoo
 - [Color Together](https://fundayfactory.com/games/color-together/) by Funday Factory
 - [Seemore](https://playcanvas.com/project/612100/overview/seemore-2019) by PlayCanvas
