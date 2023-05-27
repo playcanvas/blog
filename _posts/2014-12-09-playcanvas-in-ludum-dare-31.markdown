@@ -27,7 +27,7 @@ Over the past weekend there was some great developing happening with PlayCanvas 
 
 PlayCanvas user [FELLADRIN](https://playcanvas.com/user/felladrin) made a colorful and thoroughly addictive balloon grabbing game called [Ora Bolas!](https://playcanv.as/p/tfHfJdt7/) (seen below).
 
-[![Screen Shot 2014-12-08 at 15.41.29](https://blog.playcanvas.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-08-at-15.41.29.png)](http://apps.playcanvas.com/felladrin/ludum-dare-31/Ora%20Bolas!)
+[![Screen Shot 2014-12-08 at 15.41.29](https://blog.playcanvas.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-08-at-15.41.29.png)](https://playcanv.as/p/tfHfJdt7/)
 
 [CREFOSSUS](https://playcanvas.com/user/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](https://playcanv.as/p/p5kAudr6/).
 
