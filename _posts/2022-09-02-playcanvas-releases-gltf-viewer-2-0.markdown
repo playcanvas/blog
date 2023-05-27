@@ -51,7 +51,7 @@ These extensions provide developers with the ability to achieve exciting new gra
 
 Let’s take a look at three of them.
 
-## **Advanced Refraction**
+## Advanced Refraction
 
 The volume, transmission and ior glTF extensions can simulate how light is refracted through transparent materials. This leverages PlayCanvas’ grab pass functionality to ‘grab’ and sample the back-buffer.
 
@@ -63,7 +63,7 @@ glTF’s sheen extension enables developers to faithfully reproduce materials wi
 
 [![](https://blog.playcanvas.com/wp-content/uploads/2022/09/cushion.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/cushion.jpg)
 
-## **Material Variants**
+## Material Variants
 
 Most product configurators allow the user to modify the appearance of a product. For example, a specific style of chair might be upholstered in various fabrics in various colors. Or a pair of shoes might be available in a number of different designs/patterns/colors.
 
