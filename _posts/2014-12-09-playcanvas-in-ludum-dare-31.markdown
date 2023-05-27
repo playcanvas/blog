@@ -25,19 +25,19 @@ Over the past weekend there was some great developing happening with PlayCanvas 
 
 **The theme for LD31 was** **'Entire Game On One Screen'**.
 
-PlayCanvas user [FELLADRIN](https://playcanvas.com/felladrin) made a colorful and thoroughly addictive balloon grabbing game called [Ora Bolas!](http://apps.playcanvas.com/felladrin/ludum-dare-31/Ora%20Bolas!) (seen below).
+PlayCanvas user [FELLADRIN](https://playcanvas.com/user/felladrin) made a colorful and thoroughly addictive balloon grabbing game called [Ora Bolas!](https://playcanv.as/p/tfHfJdt7/) (seen below).
 
 [![Screen Shot 2014-12-08 at 15.41.29](https://blog.playcanvas.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-08-at-15.41.29.png)](http://apps.playcanvas.com/felladrin/ludum-dare-31/Ora%20Bolas!)
 
-[CREFOSSUS](https://playcanvas.com/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](http://apps.playcanvas.com/crefossus/psi/Alpha002).
+[CREFOSSUS](https://playcanvas.com/user/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](https://playcanv.as/p/p5kAudr6/).
 
-**[Winter Blast](http://apps.playcanvas.com/vaios/ld31/winterblast)**, a twin stick shooter style game was also created over the course of the weekend. In this game you play a snowman in the unfortunate position of being subjected to wave after wave of evil, life draining snowmen. [How long will you survive?](http://apps.playcanvas.com/vaios/ld31/winterblast)
+**[Winter Blast](https://playcanv.as/p/WEQSCayp/)**, a twin stick shooter style game was also created over the course of the weekend. In this game you play a snowman in the unfortunate position of being subjected to wave after wave of evil, life draining snowmen. [How long will you survive?](https://playcanv.as/p/WEQSCayp/)
 
-One game 'jumped' right into LD entry with [**Boing**](http://apps.playcanvas.com/dave/onescreen/boing). Including things like super cool level transitions, the finished game is an incredibly fun **side scrolling 2D style game**. Why not check it out [here](http://apps.playcanvas.com/dave/onescreen/boing)?
+One game 'jumped' right into LD entry with [**Boing**](https://playcanv.as/p/zgwRFIzj/). Including things like super cool level transitions, the finished game is an incredibly fun **side scrolling 2D style game**. Why not check it out [here](https://playcanv.as/p/zgwRFIzj/)?
 
-While admittedly the finished version of **[Last Line of Defense](http://apps.playcanvas.com/will/onescreen/lastlineofdefense)** is still in progress (post competition), one developer still managed to put together a fun **tower defense game**. Why not help this developer finish their game by commenting your advice in their **[devlog](https://playcanvas.com/user/will/onescreen)**?
+While admittedly the finished version of **[Last Line of Defense](https://playcanv.as/p/OOoBHmSw/)** is still in progress (post competition), one developer still managed to put together a fun **tower defense game**. Why not help this developer finish their game by commenting your advice in their **[devlog](https://playcanvas.com/project/333752/overview/last-line-of-defense)**?
 
-If you have enjoyed playing any of these games, **log in on the [Ludum Dare](https://ludumdare.com//) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
+If you have enjoyed playing any of these games, **log in on the [Ludum Dare](https://ludumdare.com/) site and give them a well deserved vote **on their respective Ludum Dare pages. You can also **watch**, **star** and **comment on the games** **devlog** via their PlayCanvas Pages. [Replying to devlog posts](https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/) in particular can really help the creator improve their project as you advise help them.
 
 ### PLAYHACK December
 
