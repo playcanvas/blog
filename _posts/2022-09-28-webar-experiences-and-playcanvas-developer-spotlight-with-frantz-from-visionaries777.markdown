@@ -67,7 +67,7 @@ These sorts of experiences were fine 10 years ago on an iPhone, but now people h
 
 [![](https://blog.playcanvas.com/wp-content/uploads/2022/10/4.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/4.jpg)
 
-### **Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences? **
+### **Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences?**
 
 Augmented reality has always been exciting for brands to show a product in 3D and also integrate it into [customers’] homes or their driveway. It’s quite appealing for a brand, marketing-wise. Then, for consumers, it's something new, it's fun. You get closer to the product.
 
