@@ -79,21 +79,25 @@ This feature was required in Seemore to achieve the following:
 
 **How did we do it?**
 
-Shader chunks are stored in the engine sourcebase as .vert and .frag files that contain snippets of GLSL. You can find all of these files [here](https://github.com/playcanvas/engine/tree/master/src/graphics/programlib/chunks). Here’s an example chunk that applies exponential squared fog to a fragment:
+Shader chunks are stored in the engine sourcebase as .vert and .frag files that contain snippets of GLSL. You can find all of these files [here](https://github.com/playcanvas/engine/tree/main/src/scene/shader-lib/chunks). Here’s an example chunk that applies exponential squared fog to a fragment:
 
-      uniform vec3 fog_color;
-      uniform float fog_density;
+```
+uniform vec3 fog_color;
+uniform float fog_density;
 
-      vec3 addFog(inout psInternalData data, vec3 color) {
-          float depth = gl_FragCoord.z / gl_FragCoord.w;
-          float fogFactor = exp(-depth * depth * fog_density * fog_density);
-          fogFactor = clamp(fogFactor, 0.0, 1.0);
-          return mix(fog_color, color, fogFactor);
-      }
+vec3 addFog(inout psInternalData data, vec3 color) {
+    float depth = gl_FragCoord.z / gl_FragCoord.w;
+    float fogFactor = exp(-depth * depth * fog_density * fog_density);
+    fogFactor = clamp(fogFactor, 0.0, 1.0);
+    return mix(fog_color, color, fogFactor);
+}
+```
 
 Each chunk file’s name becomes its name at runtime, with PS or VS appended, depending on whether the chunk forms part of a vertex or pixel shader. In the case above, the filename is fogExp2.frag. It’s a simple matter to replace this fragment on a material. Simply do:
 
-      material.chunks.fogExp2PS = myCustomShaderString;
+```javascript
+material.chunks.fogExp2PS = myCustomShaderString;
+```
 
 **Show me the code!**
 
