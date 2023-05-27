@@ -107,7 +107,7 @@ Animech helps our customers to get what they want. Simply put: we empower people
 
 ### **Thank you, Staffan! Is there anything else you'd like to share?**
 
-You can visit [our website here](http://www.animech.com). You can also [follow us on Twitter](https://twitter.com/AnimechT)! You can also check out our other projects here:
+You can visit [our website here](https://www.animech.com/). You can also [follow us on Twitter](https://twitter.com/AnimechT)! You can also check out our other projects here:
 
 - [Life science marketing application Cytiva](https://www.cytivalifesciences.com/apps/aktapilot600/index.html)
 

@@ -19,7 +19,7 @@ We've taken lighting to a whole new level of realism in PlayCanvas. The Editor n
 
 [![hdr](https://blog.playcanvas.com/wp-content/uploads/2015/05/hdr.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/05/hdr.jpg)
 
-[CLICK HERE TO RUN DEMO](http://playcanv.as/p/3zUijwTX)
+[CLICK HERE TO RUN DEMO](https://playcanv.as/p/3zUijwTX)
 
 HDR image formats supported are .hdr and .exr. When a texture is selected in the Inspector, there is now a property called HDR which is either true or false. So the workflow to construct an HDR cubemap for image based lighting is now:
 
