@@ -17,9 +17,9 @@ Many strong entries this month, but we chose our winner based on how they delive
 
 [![marbleous](https://blog.playcanvas.com/wp-content/uploads/2015/05/marbleous.png)](https://playcanv.as/p/jDnjRca6)
 
-**Congratulations to [svensei_coder](https://playcanvas.com/svensei_coder) who made [Marbleous](https://playcanv.as/p/jDnjRca6) our favorite game this PLAYHACK.**
+**Congratulations to [svensei_coder](https://playcanvas.com/user/svensei_coder) who made [Marbleous](https://playcanv.as/p/jDnjRca6) our favorite game this PLAYHACK.**
 
-We also wanted to do a big shout out to our runners up, [hoshi](https://playcanvas.com/hoshi) , [roonio](https://playcanvas.com/roonio) and [knownasilya](https://playcanvas.com/knownasilya) who all made awesome games as well. Try them out below.
+We also wanted to do a big shout out to our runners up, [hoshi](https://playcanvas.com/user/hoshi) , [roonio](https://playcanvas.com/user/roonio) and [knownasilya](https://playcanvas.com/user/knownasilya) who all made awesome games as well. Try them out below.
 
 [![hOSHIs_Coins_-_PLAYCANVAS](https://blog.playcanvas.com/wp-content/uploads/2015/05/hOSHIs_Coins_-_PLAYCANVAS.jpg)](https://playcanv.as/p/R2bo1sXW)
 [![zebawl](https://blog.playcanvas.com/wp-content/uploads/2015/05/zebawl.png)](https://playcanv.as/p/g3YmCFUl)
