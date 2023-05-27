@@ -33,6 +33,6 @@ While SWOOOP runs great in browsers, both desktop and mobile, it's important tha
 
 [caption id="attachment_1140" align="aligncenter" width="575"]![SWOOOP in Designer](https://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png)](https://blog.playcanvas.com/wp-content/uploads/2014/03/designer_blog.png) The SWOOOP project is open to everyone[/caption]
 
-For PlayCanvas developers, there's even better news. The [SWOOOP project](https://playcanvas.com/playcanvas/swooop) is open for you to view and the code is available on [Bitbucket](http://bitbucket.com/playcanvas/swooop). Browse the pack and source code for yourselves and learn about how the PlayCanvas team make games using the engine.
+For PlayCanvas developers, there's even better news. The [SWOOOP project](https://playcanvas.com/user/playcanvas/swooop) is open for you to view and the code is available on [Bitbucket](http://bitbucket.com/playcanvas/swooop). Browse the pack and source code for yourselves and learn about how the PlayCanvas team make games using the engine.
 
 And finally, don't forget to share [http://swooop.playcanvas.com](http://swooop.playcanvas.com/) with your friends and share your high scores with us!
