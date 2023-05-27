@@ -11,13 +11,13 @@ categories:
   - News
 ---
 
-[![Desert Moon Defender](https://blog.playcanvas.com/wp-content/uploads/2015/06/desert-defender-small.png)](http://playcanv.as/p/LxkNoQ1D)
+[![Desert Moon Defender](https://blog.playcanvas.com/wp-content/uploads/2015/06/desert-defender-small.png)](https://playcanv.as/p/LxkNoQ1D)
 
 A great month for PLAYHACK, leading to one of our most stylish games yet.
 
 [Desert Moon Defender](https://playcanvas.com/project/346780/overview/desert-moon-defender) by [whydoidoit](https://playcanvas.com/whydoidoit) takes the featured spot for the month with this fantastic game of collecting gems and avoiding bad guys.
 
-### [TRY THE GAME](http://playcanv.as/p/LxkNoQ1D)
+### [TRY THE GAME](https://playcanv.as/p/LxkNoQ1D)
 
 Congratulations to whydoidoit
 

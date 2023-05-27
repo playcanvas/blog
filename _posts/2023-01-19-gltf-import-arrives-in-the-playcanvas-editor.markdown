@@ -14,7 +14,7 @@ categories:
 We are excited to announce a major update for the PlayCanvas Editor: **glTF 2.0 import**. This new feature allows users to easily import and use 3D models created in other applications such as Blender and SketchUp, as well as from digital asset stores like Sketchfab, directly into the PlayCanvas Editor.
 
 Model by Loïc Norgeot and mosquito scan by Geoffrey Marchal for Sketchfab licensed under CC BY 4.0  
-Author: [Sketchfab](https://sketchfab.com/Sketchfab) License: [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/) Source: [Mosquito in Amber](https://sketchfab.com/3d-models/real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1)
+Author: [Sketchfab](https://sketchfab.com/Sketchfab) License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) Source: [Mosquito in Amber](https://sketchfab.com/3d-models/real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1)
 
 [glTF](https://www.khronos.org/gltf/) (GL Transmission Format) is a file format developed by The Khronos Group for 3D models that is quickly becoming the industry standard. It is an open format that is designed to be efficient and easy to use, making it the perfect choice for use in the PlayCanvas Editor.
 
