@@ -44,8 +44,8 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 
 **Further reading:**
 
-[https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)
-[https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/](https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/)
+- [https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)
+- [https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/](https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/)
 
 #### Box-projected cubemaps
 
@@ -63,7 +63,7 @@ This effect is implemented using a world-space AABB projection. Refraction uses 
 
 **Further reading:**
 
-[http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/](http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/)
+- [http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/](http://www.gamedev.net/topic/568829-box-projected-cubemap-environment-mapping/)
 
 #### Custom shader chunks
 
