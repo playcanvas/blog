@@ -23,6 +23,6 @@ The visual element of gaming experiences is as important as any other and we wan
 
 **Custom Post Effects**
 
-We count ourselves lucky to work with very creative PlayCanvas users and many members have an incredible eye for detail. If you know some JavaScript and GLSL then you can create your own Post Effects, using our [step by step guide](https://developer.playcanvas.com/tutorials/advanced/custom-posteffect/) on writing the script for your effect/s and a library of [existing Post Effects](https://github.com/playcanvas/engine/tree/master/extras/posteffects) for reference you can really bring your entities to life (well almost).
+We count ourselves lucky to work with very creative PlayCanvas users and many members have an incredible eye for detail. If you know some JavaScript and GLSL then you can create your own Post Effects, using our [step by step guide](https://developer.playcanvas.com/tutorials/custom-posteffect/) on writing the script for your effect/s and a library of [existing Post Effects](https://github.com/playcanvas/engine/tree/master/extras/posteffects) for reference you can really bring your entities to life (well almost).
 
 Now we have given you the tools, its time for you to take your project to the next level. Modify your entities and give your game a truly stunning atmosphere.
