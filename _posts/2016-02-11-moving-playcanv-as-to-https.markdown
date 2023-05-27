@@ -24,7 +24,7 @@ With an HTTPS page you can now embed the your PlayCanvas applications in any o
 
 ### Secure Powerful Features
 
-Major browsers such as Chrome and Firefox are currently in the process of [securing all](https://code.google.com/p/chromium/issues/detail?id=481604) "powerful features". Which means only allowing access to these features on secure pages. These features include:
+Major browsers such as Chrome and Firefox are currently in the process of [securing all](https://bugs.chromium.org/p/chromium/issues/detail?id=481604) "powerful features". Which means only allowing access to these features on secure pages. These features include:
 
 - Device Motion
 - Device Orientation
