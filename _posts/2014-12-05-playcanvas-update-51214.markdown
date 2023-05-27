@@ -52,7 +52,7 @@ Our particle system beta is moving forwards. We're getting close to releasing th
 
 [![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
 
-We are 4 days in to our 2nd game jam and this month you talented developers have a pretty appropriate model to play with. We've given you Santa and one of his 'normal nosed' reindeer to keep you company this December. **Find out everything you need to know [here](http://blog.playcanvas.com/playhack-december-jolly-santa/)**.
+We are 4 days in to our 2nd game jam and this month you talented developers have a pretty appropriate model to play with. We've given you Santa and one of his 'normal nosed' reindeer to keep you company this December. **Find out everything you need to know [here](https://blog.playcanvas.com/playhack-december-jolly-santa/)**.
 
 ### Ludum Dare 31 - DEAL!
 

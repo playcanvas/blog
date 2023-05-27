@@ -17,13 +17,13 @@ It's Friday, which means feature update time. Here's a list of the latest featur
 
 [![assetfolders](https://blog.playcanvas.com/wp-content/uploads/2015/11/assetfolders.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/11/assetfolders.gif)
 
-In case you missed it. We've made [huge improvements](http://blog.playcanvas.com/better-asset-management/) to asset management in the Editor. Folders and tags mean you can organize your assets nicely both in the editor and at runtime.
+In case you missed it. We've made [huge improvements](https://blog.playcanvas.com/better-asset-management/) to asset management in the Editor. Folders and tags mean you can organize your assets nicely both in the editor and at runtime.
 
 ## **Performance Profiler**
 
 [![profiler](https://blog.playcanvas.com/wp-content/uploads/2015/11/profiler-1024x509.png)](https://blog.playcanvas.com/wp-content/uploads/2015/11/profiler.png)
 
-With mobile forming such a large part of the web these days, performance is more critical than ever before. That's why we've released an awesome [profiling tool](http://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/) to help quickly get to the bottom of performance problems and get your app running **fast.**
+With mobile forming such a large part of the web these days, performance is more critical than ever before. That's why we've released an awesome [profiling tool](https://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/) to help quickly get to the bottom of performance problems and get your app running **fast.**
 
 ## **Model Asset Metadata**
 

@@ -17,9 +17,9 @@ Over the course of 6 weeks, over 150 teams forked our original project and worke
 
 ![pj_main_horiz_onwhite](https://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)
 
-First, we want to send a big **Thank You** to [PlayJam](http://playjam.com/) our partner and sponsor for this PLAYHACK.
+First, we want to send a big **Thank You** to [PlayJam](https://www.playjam.com/) our partner and sponsor for this PLAYHACK.
 
-PlayJam is a leading game publisher from the UK currently launching a new publishing/gaming platform. Winners of this PLAYHACK automatically qualify for launch and publication on this new platform and PlayJam representatives will be in touch. PlayJam is constantly on the look out for new and exciting HTML5 games, so please don't hesitate to contact them for details, funding or even just advice. ([Steve.Horne@PlayJam.com](mailto:Steve.Horne@PlayJam.com)).
+> PlayJam is a leading game publisher from the UK currently launching a new publishing/gaming platform. Winners of this PLAYHACK automatically qualify for launch and publication on this new platform and PlayJam representatives will be in touch. PlayJam is constantly on the look out for new and exciting HTML5 games, so please don't hesitate to contact them for details, funding or even just advice. ([Steve.Horne@PlayJam.com](mailto:Steve.Horne@PlayJam.com)).
 
 Now, lets get to the results!
 

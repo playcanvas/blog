@@ -12,11 +12,11 @@ categories:
   - Tutorial
 ---
 
-_**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](http://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._
+_**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._
 
 ![PLAYHACK_clearxmas](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)
 
-We'll be following on from [last time's tutorial](http://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/natpat/playhack_december).
+We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/natpat/playhack_december).
 
 [iframe src="http://apps.playcanvas.com/natpat/playhack_december/Tut%203%20-%20Collecting%20presents" width="100%" height="480" scrolling="no" class="iframe-class" frameborder="0"]
 

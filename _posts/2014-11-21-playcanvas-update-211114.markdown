@@ -27,7 +27,7 @@ Our new** Particle System** is only in beta form but already we're seeing great 
 
 ### **Watching/ Starring**
 
-**[You can now Watch or Star PlayCanvas projects!](http://blog.playcanvas.com/watching-and-starring/) **
+**[You can now Watch or Star PlayCanvas projects!](https://blog.playcanvas.com/watching-and-starring/) **
 
 **Watching** a project tells us that you’re interested updates from this project. Soon we’ll start customizing your feed with updates from the projects that you’re watching.
 
@@ -50,15 +50,15 @@ Our new** Particle System** is only in beta form but already we're seeing great 
 
 ### **Referrals**
 
-Our new [**Referrals Program**](http://blog.playcanvas.com/playcanvas-referrals-program/) is our way of saying thank you for sharing the PlayCanvas Engine. Simply share your [unique referral link](https://playcanvas.com/referrals) where and when you please and if a user signs up to PlayCanvas using your link, you get **5% of anything they spend** on PlayCanvas for their first year.
+Our new [**Referrals Program**](https://blog.playcanvas.com/playcanvas-referrals-program/) is our way of saying thank you for sharing the PlayCanvas Engine. Simply share your [unique referral link](https://playcanvas.com/referrals) where and when you please and if a user signs up to PlayCanvas using your link, you get **5% of anything they spend** on PlayCanvas for their first year.
 
 ### Propsplanet
 
-We [announced](http://blog.playcanvas.com/3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas/) that PlayCanvas is now powering 3D Asset Store [Propsplanet](http://www.propsplanet.com). Propsplanet is a great place to pick up beautiful game ready assets. Using their 3D preview you'll see exactly what the asset looks like in your game before you buy.
+We [announced](https://blog.playcanvas.com/3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas/) that PlayCanvas is now powering 3D Asset Store [Propsplanet](http://www.propsplanet.com). Propsplanet is a great place to pick up beautiful game ready assets. Using their 3D preview you'll see exactly what the asset looks like in your game before you buy.
 
 ### **PlayHack**
 
-There is little **over a week to go till the first PlayHack Game Jam closes**, but its never too late to enter! Find out everything you need to know [**here**](http://blog.playcanvas.com/category/playhack/).
+There is little **over a week to go till the first PlayHack Game Jam closes**, but its never too late to enter! Find out everything you need to know [**here**](https://blog.playcanvas.com/category/playhack/).
 
 ### **Stay In The Loop**
 

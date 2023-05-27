@@ -21,7 +21,7 @@ PlayCanvas on mobile is built upon bleeding edge technologies and as such, the g
 
 - Firefox for Android
 
-  - The game works in the Release Channel build but performance is far higher in the [Nightly Channel](http://nightly.mozilla.org/).
+  - The game works in the Release Channel build but performance is far higher in the [Nightly Channel](https://www.mozilla.org/en-US/firefox/channel/android/#nightly).
 
 - Chrome for Android
 
@@ -44,4 +44,4 @@ Supported desktop browsers are:
 - Chrome
 - Internet Explorer (the game will request you install Chrome Frame if you do not already have it installed)
 
-We'll be regularly updating the game in the coming weeks so give us your feedback. We'll also be releasing further blog entries detailing how we built the game. In the meantime, if you're interested in making your own HTML5 games with PlayCanvas, why not [join the beta](https://playcanvas.com/join-us/)?
+We'll be regularly updating the game in the coming weeks so give us your feedback. We'll also be releasing further blog entries detailing how we built the game. In the meantime, if you're interested in making your own HTML5 games with PlayCanvas, why not [join the beta](https://playcanvas.com/)?
