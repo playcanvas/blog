@@ -1,35 +1,35 @@
 {
   "name": "@playcanvas/blog",
   "version": "1.0.0",
+  "author": "PlayCanvas <support@playcanvas.com>",
+  "homepage": "https://blog.playcanvas.com/",
   "description": "The PlayCanvas blog site",
-  "main": "index.js",
-  "scripts": {
-    "build": "bundle exec jekyll build",
-    "prettier": "prettier --write _posts",
-    "test": "npm run build && npm run test:links",
-    "test:links": "linkinator . --server-root _site --recurse --skip \"facebook.com\" --skip \"twitter.com\" --verbosity error"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/playcanvas/blog.git"
-  },
   "keywords": [
     "playcanvas",
     "blog",
     "jekyll",
     "markdown"
   ],
-  "author": "PlayCanvas <support@playcanvas.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/playcanvas/blog/issues"
   },
-  "homepage": "https://github.com/playcanvas/blog#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playcanvas/blog.git"
+  },
   "prettier": {
     "embeddedLanguageFormatting": "off"
   },
   "devDependencies": {
     "linkinator": "^4.1.2",
     "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll",
+    "develop": "bundle exec jekyll serve",
+    "prettier": "prettier --write _posts",
+    "test": "npm run build && npm run test:links",
+    "test:links": "linkinator . --server-root _site --recurse --skip \"facebook.com\" --skip \"twitter.com\" --verbosity error"
   }
 }
