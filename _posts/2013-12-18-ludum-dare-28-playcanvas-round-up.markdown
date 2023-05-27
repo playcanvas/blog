@@ -20,7 +20,7 @@ This is a point and click adventure. You only get one (game) hour to get all the
 
 [![goingaround.jpg](http://www.html5gamedevs.com/uploads/monthly_12_2013/post-199-0-69200400-1387297953.jpg)](http://apps.playcanvas.com/dave/goingaround/latest)
 
-###  [ACCELERally](http://apps.playcanvas.com/will/acceleronly/accelerally), by [@willeastcott](https://twitter.com/willeastcott) ([Project link](https://playcanvas.com/will/acceleronly))
+###  [ACCELERally](http://apps.playcanvas.com/will/acceleronly/accelerally), by [@willeastcott](https://twitter.com/willeastcott) ([Project link](https://playcanvas.com/user/will/acceleronly))
 
 A 'one button control' game where you drive a truck along a randomly generated track. You can only control the car by accelerating (using LMB, space bar or screen touch). You only get one minute to drive as far as you can!
 
