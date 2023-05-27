@@ -19,7 +19,7 @@ To wow the crowds at GDC 2015, ARM called on PlayCanvas to show the world what W
 
 [![seemore](https://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)
 
-Also at GDC, Mozilla and PlayCanvas jointly announced [TANX](http://tanx.playcanvas.com/), our multiplayer, online tank battle game (with over 2,000,000 plays to date).
+Also at GDC, Mozilla and PlayCanvas jointly announced [TANX](https://tanx.io/), our multiplayer, online tank battle game (with over 2,000,000 plays to date).
 
 [![tanx](https://blog.playcanvas.com/wp-content/uploads/2016/01/tanx.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/tanx.jpg)
 

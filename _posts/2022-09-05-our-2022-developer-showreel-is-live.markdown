@@ -32,7 +32,7 @@ We would like to thank our users that have allowed us to show their awesome cont
 - [Zombie Teenz Evolution](https://www.toggo.de/marke/toggo-toys/spiel/zombie-teenz) by Le Scorpion Masqué, Redox Interactive
 - [Storage Space 13 (VR)](https://github.com/sorskoot/js13kgames_2021) by Timmy Kokke
 - [Sidekicks](https://www.mojiworks.com/) by Mojiworks
-- [Mini Royale Nations](https://gm.miniroyale.io/) by Faraway Games
+- [Mini Royale Nations](https://miniroyale.io/) by Faraway Games
 - [Party Space](https://www.party.space/)
 - [How Not to Suck at Money](https://hntsam.com/) by Invesco QQQ, Preloaded
 

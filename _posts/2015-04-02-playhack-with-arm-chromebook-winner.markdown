@@ -32,7 +32,7 @@ See it in action:
 
 Massive congratulations to rzinurov, your Chromebook will be winging it's way over to you shortly.
 
-We want to make a couple of **special mentions** to [alphacodemonkey](https://playcanvas.com/alphacodemonkey) for his addictive high-score chaser [Boarddrive](https://playcanv.as/p/xx4btYi9) and [lizzip](https://playcanvas.com/lizzip) for dinosaur escape game [Desperately Fleeing Susan](https://playcanv.as/p/Qx3Kepfq)
+We want to make a couple of **special mentions** to [alphacodemonkey](https://playcanvas.com/user/alphacodemonkey) for his addictive high-score chaser [Boarddrive](https://playcanv.as/p/xx4btYi9) and [lizzip](https://playcanvas.com/user/lizzip) for dinosaur escape game [Desperately Fleeing Susan](https://playcanv.as/p/Qx3Kepfq)
 
 ## Optimized for ARM Mali
 

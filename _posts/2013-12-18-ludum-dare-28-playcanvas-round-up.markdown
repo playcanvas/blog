@@ -32,7 +32,7 @@ You only get one... body! And since you are a HUNGRY self-eating centipede, your
 
 [![centipede.jpg](http://www.html5gamedevs.com/uploads/monthly_12_2013/post-199-0-06409700-1387297953.jpg)](http://apps.playcanvas.com/vaios/ld48/centipede)
 
-### [Charitable Donation](http://apps.playcanvas.com/lizzip/ld28/charitabledonation), by [@LizzipFish](https://twitter.com/LizzipFish) ([Project link](https://playcanvas.com/lizzip/ld28))
+### [Charitable Donation](http://apps.playcanvas.com/lizzip/ld28/charitabledonation), by [@LizzipFish](https://twitter.com/LizzipFish) ([Project link](https://playcanvas.com/user/lizzip/ld28))
 
 In this game you only have one coin/ball, you must use it to save as many people as possible. The game is based on a charity coin cascade, but it seems to be magical (or broken). Depending on where the coin lands, you might save people, or get more coins. Keep going until you run out of coins and save as many people as possible. In game, choose one of the top four slots to drop the ball through, then click 'DROP THE BALL!' to drop it.
 

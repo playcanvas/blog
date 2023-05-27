@@ -19,7 +19,7 @@ Actually, we fly out a week early to tour PlayCanvas users on the West Coast. Bu
 
 - _Monday 14th - Tuesday 15th_: Available for meetings to discuss all things WebGL - [get in touch](https://twitter.com/playcanvas) if you want to talk. We'd love to meet you!
 - _Wednesday 16th - Friday 18th_: PlayCanvas will be demoing our latest and greatest tools, demos and games on the **ARM** booth (#1624) in the Moscone Center's South Hall.
-- _Wednesday 16th - Friday 18th_: **Mozilla** will be showcasing our phenomenally popular game [TANX](http://tanx.playcanvas.com/) on booth #936. Think you've seen TANX before and know the story? Think again! Head to Mozilla's booth for some surprises!
+- _Wednesday 16th - Friday 18th_: **Mozilla** will be showcasing our phenomenally popular game [TANX](https://tanx.io/) on booth #936. Think you've seen TANX before and know the story? Think again! Head to Mozilla's booth for some surprises!
 - _Wednesday 16th_: PlayCanvas will be announcing an amazing new feature in the PlayCanvas Editor at the **Khronos** [WebGL session](https://www.eventbrite.ca/e/webgl-gltf-session-tickets-21382183687) at midday at SF Green Space. We won't ruin the surprise but wow, you need to attend this and check out what we've built. It'll light up your life! (There's a hint right there) :D
 - _Thursday 17th_: PlayCanvas will be presenting on **Facebook**'s booth (#1416) at 2PM in the Moscone Center's South Hall: "Building WebGL Games That Work".
 
