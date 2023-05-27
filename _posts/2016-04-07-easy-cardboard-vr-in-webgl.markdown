@@ -11,7 +11,7 @@ categories:
   - Features
 ---
 
-Today we've launched a new [library](https://github.com/playcanvas/webvr) and [developer tutorial](https://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) and [sample project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) showing you how to implement your own Cardboard VR web applications using PlayCanvas.
+Today we've launched a new [library](https://github.com/playcanvas/webvr) and [developer tutorial](https://developer.playcanvas.com/en/tutorials/cardboard-vr/) and [sample project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) showing you how to implement your own Cardboard VR web applications using PlayCanvas.
 
 ![cardboard-vr](https://blog.playcanvas.com/wp-content/uploads/2016/04/cardboard-vr.jpg)
 
@@ -25,6 +25,6 @@ Our [demonstration project](https://playcanvas.com/project/389453/overview/tutor
   <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/ktssxBWc/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
 </div>
 
-On a mobile device just tap the view above to enable the Cardboard VR mode. Our [tutorial](https://developer.playcanvas.com/en/tutorials/beginner/cardboard-vr/) will walk you through how to add VR to your projects.
+On a mobile device just tap the view above to enable the Cardboard VR mode. Our [tutorial](https://developer.playcanvas.com/en/tutorials/cardboard-vr/) will walk you through how to add VR to your projects.
 
 This is the start of VR support in PlayCanvas and we'll be working to integrate Cardboard VR and WebVR closer into the editor as they get more popular.

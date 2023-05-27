@@ -124,4 +124,4 @@ That should be it! Test your code (REMEMBER Entity Menu->Refresh Script Attribut
 
 One last thing - we've left the sack floating in the middle of the screen, and we don't really want the first present to start in the middle of the screen either. To fix this, simply select the gift/sack, and uncheck the Enabled attribute. That's it! The initial sack and gift will no longer show up in the editor or when you test the game.
 
-Next time, we'll be looking at [Trigger Volumes](https://developer.playcanvas.com/tutorials/intermediate/collision-and-triggers/), which will allow us to have Santa actually collect the presents when he touches them.
+Next time, we'll be looking at [Trigger Volumes](https://developer.playcanvas.com/tutorials/collision-and-triggers/), which will allow us to have Santa actually collect the presents when he touches them.
