@@ -21,6 +21,6 @@ tags:
 
 ### [Top 10 HTML5 games of 2012](http://www.netmagazine.com/features/top-10-html5-games-2012)
 
-We're very proud to be up there with some great titles, such as the beautiful [BananaBread](https://developer.mozilla.org/en-US/demos/detail/bananabread) demo and the super-fun [BrowserQuest](http://browserquest.mozilla.org/) game from our friends at Mozilla
+We're very proud to be up there with some great titles, such as the beautiful [BananaBread](https://kripken.github.io/misc-js-benchmarks/banana/index.html) demo and the super-fun [BrowserQuest](https://browserquest.io/) game from our friends at Mozilla
 
-[caption id="attachment_622" align="aligncenter" width="307"]![BrowserQuest HTML5 game by Mozilla](https://playcanvas.com/wp-content/uploads/2012/12/BrowserQuest.jpg)](http://browserquest.mozilla.org/) BrowserQuest HTML5 game by Mozilla[/caption]
+[caption id="attachment_622" align="aligncenter" width="307"]![BrowserQuest HTML5 game by Mozilla](https://playcanvas.com/wp-content/uploads/2012/12/BrowserQuest.jpg)](https://browserquest.io/) BrowserQuest HTML5 game by Mozilla[/caption]
