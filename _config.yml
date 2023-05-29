@@ -52,3 +52,8 @@ permalink: /:title/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
