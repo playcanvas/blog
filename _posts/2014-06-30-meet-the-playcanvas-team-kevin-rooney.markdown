@@ -61,4 +61,4 @@ Oooooo tricky. I have lots of those. At the moment it's [Battlefield 4](https://
 
 **Greatest Gaming Achievement?**
 
-Being part of the team that made [Swooop](http://swooop.playcanvas.com/)!!
+Being part of the team that made [SWOOOP](http://swooop.playcanvas.com/)!!

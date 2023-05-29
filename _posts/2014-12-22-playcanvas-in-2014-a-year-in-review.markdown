@@ -22,7 +22,7 @@ In 2014 our community has grown from roughly 2,000 to over 20,000 users and ther
 
 **Open-source**
 
-The entire runtime engine is available right now on [github](https://github.com/playcanvas/engine) under the lovely [MIT license](https://blog.playcanvas.com/playcanvas-goes-open-source/opensource.org/licenses/MIT). Which means you can download it, fork it, and generally use it for anything you like.
+The entire runtime engine is available right now on [GitHub](https://github.com/playcanvas/engine) under the lovely [MIT license](https://opensource.org/license/mit/). Which means you can download it, fork it, and generally use it for anything you like.
 
 **Asset Store**
 
@@ -60,13 +60,13 @@ It’s just one click to get a XCode project which is easy to build into a iPhon
 
 Hard to remember a time before we had Material Editing. This year we deploy the Material Editing feature in the PlayCanvas Designer. This lets you customize the look of your models. And recently it's getting more and more advanced in particular with our new Physical Material type.
 
-**Swooop**
+**SWOOOP**
 
-Way back in March we unveiled Swooop, an endless flying game created by 2 team members in 4 weeks. This is our flagship game showing the capabilities of WebGL, but following our new PBR feature the sky really is the limit with PlayCanvas.
+Way back in March we unveiled SWOOOP, an endless flying game created by 2 team members in 4 weeks. This is our flagship game showing the capabilities of WebGL, but following our new PBR feature the sky really is the limit with PlayCanvas.
 
 [caption id="attachment_1140" align="aligncenter" width="746"]![SWOOOP in Designer](/assets/media/designer_blog.png)](/assets/media/designer_blog.png) The SWOOOP project is open to everyone[/caption]
 
-**Tanx**
+**TANX**
 
 In July, a PlayCanvas user walked away a prize winner in a game jam with his game ColorTanks. In around 8 hours the developer had created an incredibly addictive multi player game, that has been played by over 12,000 gamers.
 
