@@ -57,65 +57,69 @@ Now we've created the new script and attached it to Santa, let's edit it and mak
 
 You'll be greeted by a new script that should look like this:
 
-    pc.script.create('Santa_Controller', function (context) {
-        // Creates a new Santa_Controller instance
-        var Santa_Controller = function (entity) {
-            this.entity = entity;
-        };
+```javascript
+pc.script.create('Santa_Controller', function (context) {
+    // Creates a new Santa_Controller instance
+    var Santa_Controller = function (entity) {
+        this.entity = entity;
+    };
 
-        Santa_Controller.prototype = {
-            // Called once after all resources are loaded
-            initialize: function () {
-            },
+    Santa_Controller.prototype = {
+        // Called once after all resources are loaded
+        initialize: function () {
+        },
 
-            // Called every frame, dt is time in seconds since last update
-            update: function (dt) {
-            }
-        };
+        // Called every frame, dt is time in seconds since last update
+        update: function (dt) {
+        }
+    };
 
-        return Santa_Controller;
-    });
+    return Santa_Controller;
+});
+```
 
 Let’s think about what we need to do to make Santa move up and down. Well, we’ll need the speed we want him to move – so let’s put that as an attribute so we can change it easily.
 
-    ...
-    pc.script.attribute("speed", "number", 10);
-    pc.script.create('Santa_Controller', function (context) {
-    ...
+```javascript
+pc.script.attribute("speed", "number", 10);
+pc.script.create('Santa_Controller', function (context) {
+```
 
 Now, let’s make 2 functions – one that moves Santa up, and one that moves Santa down.
 
-    ...
-            // Called every frame, dt is time in seconds since last update
-            update: function (dt) {
-            },
+```javascript
+    // Called every frame, dt is time in seconds since last update
+    update: function (dt) {
+    },
 
-            moveUp: function(dt) {
-                this.entity.translate(0, this.speed * dt, 0);
-            },
+    moveUp: function(dt) {
+        this.entity.translate(0, this.speed * dt, 0);
+    },
 
-            moveDown: function(dt) {
-                this.entity.translate(0, -this.speed * dt, 0);
-            }
-    };
-    ...
+    moveDown: function(dt) {
+        this.entity.translate(0, -this.speed * dt, 0);
+    }
+};
+```
 
-The translate function is one that all entities have, and simply moves the entity by a specified amount. In this case, we want Santa to move up or down by the speed, multiplied by the amount of time passed in the current frame. We do this so that Santa will move the same speed however fast our game is running!
+The `translate` function is one that all entities have, and simply moves the entity by a specified amount. In this case, we want Santa to move up or down by the speed, multiplied by the amount of time passed in the current frame. We do this so that Santa will move the same speed however fast our game is running!
 
 ## Keyboard Controls
 
-Now, let’s look at keyboard controls. To do anything with the keyboard in PlayCanvas, we need to use context.keyboard. context is available in all scripts, and allows us access to all the data our game has to offer – in this case, we need the keyboard, which deals with keyboard input.
+Now, let’s look at keyboard controls. To do anything with the keyboard in PlayCanvas, we need to use `context.keyboard`. `context` is available in all scripts, and allows us access to all the data our game has to offer – in this case, we need the keyboard, which deals with keyboard input.
 
-We can use context.keyboard.isPressed to check if specific keys are pressed – if W or S are pressed, we’ll move Santa up or down accordingly. We’ll need to check every frame, so put the following code in the update function:
+We can use `context.keyboard.isPressed` to check if specific keys are pressed – if W or S are pressed, we’ll move Santa up or down accordingly. We’ll need to check every frame, so put the following code in the update function:
 
-    if(context.keyboard.isPressed(pc.input.KEY_W)) {
-        this.moveUp(dt);
-    }
-    if(context.keyboard.isPressed(pc.input.KEY_S)) {
-        this.moveDown(dt);
-    }
+```javascript
+if (context.keyboard.isPressed(pc.input.KEY_W)) {
+    this.moveUp(dt);
+}
+if (context.keyboard.isPressed(pc.input.KEY_S)) {
+    this.moveDown(dt);
+}
+```
 
-Before we test the game, however, there’s something we need to do. The editor needs to be told when we add an attribute to a script, so back in the editor, and go Entity>Refresh Script Attributes. A box should come up underneath our Santa_Controller.js script allowing us to change the speed of Santa.
+Before we test the game, however, there’s something we need to do. The editor needs to be told when we add an attribute to a script, so back in the editor, and go _Entity > Refresh Script Attributes_. A box should come up underneath our Santa_Controller.js script allowing us to change the speed of Santa.
 
 Now test the game – we should be able to move Santa up and down now using the W and S keys! Change the speed in the editor until you find something that feels fun.
 
@@ -123,11 +127,13 @@ Now test the game – we should be able to move Santa up and down now using the 
 
 That’s all good, however, we want the option of using the mouse or the keyboard! Let’s add another attribute in our script that will allow us to change between mouse and keyboard when testing:
 
-    pc.script.attribute("keyboard", "boolean", true);
+```javascript
+pc.script.attribute("keyboard", "boolean", true);
+```
 
-If you do Entity>Refresh Script Attributes again, you’ll see another attribute that we can change, and this time it’s a check box. That’s all a Boolean is – a true or a false value. Either off or on. If keyboard is ticked we’ll use the keyboard input, and if it’s not we’ll use the mouse.
+If you do _Entity > Refresh Script Attributes_ again, you’ll see another attribute that we can change, and this time it’s a check box. That’s all a Boolean is – a true or a false value. Either off or on. If keyboard is ticked we’ll use the keyboard input, and if it’s not we’ll use the mouse.
 
-To do things with the mouse in PlayCanvas, we have to use – you guessed it – context.mouse! Mouse input is going to be slightly more work than keyboard, but we’ll be okay. We need to get the position of the mouse on screen, compare it to Santa’s position, and move Santa towards the mouse.
+To do things with the mouse in PlayCanvas, we have to use – you guessed it – `context.mouse`! Mouse input is going to be slightly more work than keyboard, but we’ll be okay. We need to get the position of the mouse on screen, compare it to Santa’s position, and move Santa towards the mouse.
 
 So, we’ll need a variable to store the mouse position, and we’ll also need some way of getting the mouse position. For that, we’ll need a listener.
 
@@ -135,58 +141,61 @@ A listener is simply a function that we define, that gets called by a specific e
 
 So, let’s set this up:
 
-    ...
-        // Called once after all resources are loaded
-        initialize: function () {
-            //Used to store the mouse position
-            this.pos = new pc.Vec3();
-            context.mouse.on(pc.input.EVENT_MOUSEMOVE, this.onMouseMove, this);
-        },
-    ...
+```javascript
+// Called once after all resources are loaded
+initialize: function () {
+    //Used to store the mouse position
+    this.pos = new pc.Vec3();
+    context.mouse.on(pc.input.EVENT_MOUSEMOVE, this.onMouseMove, this);
+},
+```
 
-We’ve got a variable called pos that we’ll store the current mouse position in. The next line is what creates our listener. We’re saying when there’s a mouse move event, we want a function called onMouseMove to execute. Let’s write that function now:
+We’ve got a variable called `pos` that we’ll store the current mouse position in. The next line is what creates our listener. We’re saying when there’s a mouse move event, we want a function called `onMouseMove` to execute. Let’s write that function now:
 
-    ...
-        moveDown: function(dt) {
-            this.entity.translate(0, -this.speed * dt, 0);
-        },
+```javascript
+moveDown: function(dt) {
+    this.entity.translate(0, -this.speed * dt, 0);
+},
 
-        onMouseMove: function () {
-            // Use the camera component's screenToWorld function to convert the
-            // position of the mouse into a position in 3D space
-            var depth = 10;
-            var cameraEntity = context.root.findByName('Camera');
-            cameraEntity.camera.screenToWorld(event.x, event.y, depth, this.pos);
-        }
-    ...
+onMouseMove: function () {
+    // Use the camera component's screenToWorld function to convert the
+    // position of the mouse into a position in 3D space
+    var depth = 10;
+    var cameraEntity = context.root.findByName('Camera');
+    cameraEntity.camera.screenToWorld(event.x, event.y, depth, this.pos);
+}
+```
 
-In the onMouseMove function, which gets called every time the mouse moves, we have to do some work to get the position we need. Because the mouse is only on a 2D screen, we have to look at use the camera’s screenToWorld function to get the position we want.
+In the `onMouseMove` function, which gets called every time the mouse moves, we have to do some work to get the position we need. Because the mouse is only on a 2D screen, we have to look at use the camera’s `screenToWorld` function to get the position we want.
 
 Have a look at this [mouse tutorial](https://developer.playcanvas.com/tutorials/mouse-input/) if you want to know more about how this works!
 
-Now we’ve got the position of the mouse in this.pos – we can use that to move Santa! Let’s update our update function:
+Now we’ve got the position of the mouse in `this.pos` – we can use that to move Santa! Let’s update our `update` function:
 
-            update: function (dt) {
-                if(this.keyboard) {
-                    if(context.keyboard.isPressed(pc.input.KEY_W)) {
-                        this.moveUp(dt);
-                    }
-                    if(context.keyboard.isPressed(pc.input.KEY_S)) {
-                        this.moveDown(dt);
-                    }
-                } else {
-                    if(this.pos.y > this.entity.getPosition().y) {
-                        this.moveUp(dt);
-                    }
-                    if(this.pos.y < this.entity.getPosition().y) {
-                        this.moveDown(dt);
-                    }
-                }
-            },
+```javascript
+update: function (dt) {
+    if(this.keyboard) {
+        if(context.keyboard.isPressed(pc.input.KEY_W)) {
+            this.moveUp(dt);
+        }
+        if(context.keyboard.isPressed(pc.input.KEY_S)) {
+            this.moveDown(dt);
+        }
+    } else {
+        if(this.pos.y > this.entity.getPosition().y) {
+            this.moveUp(dt);
+        }
+        if(this.pos.y < this.entity.getPosition().y) {
+            this.moveDown(dt);
+        }
+    }
+},
+```
 
 First things first - we now check to see if we’re using keyboard or mouse. If we’re using the keyboard, we do exactly what we did before – otherwise, we can use the mouse for input.
 
-We have the mouse’s position stored in this.pos – now all we have to do is compare it to Santa’s position. If the mouse is above Santa, we move him up, and if it’s below, we move him down.
+We have the mouse’s position stored in `this.pos` – now all we have to do is compare it to Santa’s position. If the mouse is above Santa, we move him up, and if it’s below, we move him down.
+
 Test the game and we should be able to use either the keyboard or the mouse to move Santa, depending on whether or not you’ve ticked the keyboard box!
 
 That’s all for this time – next time we’ll look at adding presents for Santa to collect!
