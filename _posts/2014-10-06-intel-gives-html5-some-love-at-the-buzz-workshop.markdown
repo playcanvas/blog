@@ -23,7 +23,7 @@ Perhaps the most amazing thing about the XDK is the shear number of platforms it
 
 Each of these builds can be generated at the touch of a button. Your HTML5 app is uploaded and crunched into a native app in the cloud, which can then be downloaded back to your host filesystem. Amazing!
 
-If that wasn't impressive enough, they run [Crosswalk](https://crosswalk-project.org/), an open source project that uses a custom build of the Chromium project to build a native wrapper for HTML5 apps that can target Android and Tizen. The XDK actually uses Crosswalk internally, but you can use it independently if you wish. For example, you might want to run your own build process for your HTML5 games, in which case, integrating Crosswalk is...well, a walk in the park.
+If that wasn't impressive enough, they run [Crosswalk](https://en.wikipedia.org/wiki/Crosswalk_Project), an open source project that uses a custom build of the Chromium project to build a native wrapper for HTML5 apps that can target Android and Tizen. The XDK actually uses Crosswalk internally, but you can use it independently if you wish. For example, you might want to run your own build process for your HTML5 games, in which case, integrating Crosswalk is...well, a walk in the park.
 
 These technologies are sufficiently awe-inspiring that I wanted to talk about them at the conference. Intel kindly invited us along and I gave a talk called 'Friction Free Gaming'.
 
