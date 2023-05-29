@@ -24,15 +24,15 @@ As usual, the theme was announced in the early hours of Saturday morning: 'Benea
 
 After about 30 minutes, I had the basic physics of a twin propeller sub implemented (arrow keys to control):
 
-[http://apps.playcanvas.com/will/beneaththesurface/v1](http://apps.playcanvas.com/will/beneaththesurface/v1)
+[https://playcanv.as/b/iwysiIRg](https://playcanv.as/b/iwysiIRg)
 
 I was off to a flying start! But making video games is art. It's practically a spectator sport and I was determined to give the internet full access to my creative process. And this is what makes PlayCanvas so cool. I could simply invite the internet into my project:
 
 [![Screen Shot 2014-05-06 at 00.25.19](/assets/media/Screen-Shot-2014-05-06-at-00.25.19.png)](/assets/media/Screen-Shot-2014-05-06-at-00.25.19.png)
 
-And indeed, I had a steady flow of curious spectators dropping in and out of [my project](https://playcanvas.com/user/will/beneaththesurface) as it slowly took shape. If nothing else, it kept me super-motivated.
+And indeed, I had a steady flow of curious spectators dropping in and out of [my project](https://playcanvas.com/project/5993/overview/pipe-wars) as it slowly took shape. If nothing else, it kept me super-motivated.
 
-The Twitter comms continued throughout the weekend. In all, I published 10 interim builds of the game plus the final 'gold' release at submission time. You can find them all on the ['Published Apps' page](https://playcanvas.com/user/will/beneaththesurface/apps) on the project's dashboard. So it's great to show the world your game rising from its foundations, but are there any other benefits to this 'bare all' strategy? Why yes! You get feedback on your game design, you graphical design, your audio, everything! Your Twitter followers are your QA team. Use them!
+The Twitter comms continued throughout the weekend. In all, I published 10 interim builds of the game plus the final 'gold' release at submission time. You can find them all in the Publishing Dialog in the Editor. So it's great to show the world your game rising from its foundations, but are there any other benefits to this 'bare all' strategy? Why yes! You get feedback on your game design, you graphical design, your audio, everything! Your Twitter followers are your QA team. Use them!
 
 So I was absolutely nailing the comms side of things. But there was the little matter of actually making the game. I had my simple prototype and now I had to build it out. I slowly developed the concept where the player has to explore an undersea environment to locate and salvage 10 pipes and return them to a 'drop off' point. I also added the necessity to keep the sub topped up with fuel by visiting refuelling points. There were a number of challenges that I had to solve. I'll go through the main ones now:
 
@@ -62,7 +62,7 @@ HUDs can be a nightmare to build and build fast. Luckily, there's a handy PlayCa
 
 I've already mentioned that I can't model for toffee. My composing skills are even worse. So what's a Ludum Darer to do? I googled: 'Ludum Dare procedural music'. Top link:
 
-[http://www.ludumdare.com/compo/2013/02/19/procedural-music-generator/](http://www.ludumdare.com/compo/2013/02/19/procedural-music-generator/)
+[https://pernyblom.github.io/abundant-music/index.html](https://pernyblom.github.io/abundant-music/index.html)
 
 The Abundant Music procedural music generator is great:
 
@@ -72,7 +72,7 @@ Check it out for yourself!
 
 Hopefully, that gives you a good idea of how I spent a lot of my time while developing the game. Do check out the project for yourselves to learn more and, hey, if you want to see the finished game:
 
-[**PLAY NOW!!**](http://apps.playcanvas.com/will/beneaththesurface/pipewars)
+[**PLAY NOW!!**](https://playcanv.as/p/7wWIHILP/)
 
 So I guess the moral of the story here is that you don't need to be a Leonardo de Vinci to make artwork or Mozart to make game audio. There are tools out there that can do 90% of the heavy lifting. You just need to know which buttons to press. Doing your research in advance of a game jam will help you. And the more jams you do, the more tricks you will have up your sleeve.
 
