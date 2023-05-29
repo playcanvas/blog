@@ -13,34 +13,34 @@ categories:
 
 This week, we've improved your Dashboard, Projects and Profile pages and now have a full introductory video series to make PlayCanvas more accessible than ever.
 
-## Video Series: Introduction to PlayCanvas
+### Video Series: Introduction to PlayCanvas
 
 [![Robot Dancing](/assets/media/Robot-Dance.jpg)](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927)
 
 We've created a new series of videos that run through a complete introduction to PlayCanvas. For new users, or for people who just want a refresher course on things they have missed this is essential viewing. See it on our [Youtube channel](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927).
 
-## Features and Fixes:
+### Features and Fixes:
 
 - New tutorials abound, including an [Introduction to Materials](https://developer.playcanvas.com/tutorials/basic-materials/) in PlayCanvas - if you haven't seen them yet, just go to your projects page and click the 'Start Learning' link to... umm, start learning! The video tutorials are all on [our YouTube page](https://www.youtube.com/user/playcanvas).
 - The projects and profile pages have been revamped.
 - The site is now also compatible with more mobile devices (updates to cater for more mobile resolutions).
 
-## Other News:
+### Other News:
 
-### SIGGRAPH
+#### SIGGRAPH
 
 Next week PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/), represented by our esteemed CTO Dave Evans. He'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](https://blog.playcanvas.com/contact/) if you'd like to set up a meeting.
 
-### GAMESCOM
+#### GAMESCOM
 
 Will, our CEO, will be attending this year's [GAMESCOM ](https://www.gamescom.global/)showing for mobile and HTML5 games. [Get in touch](https://blog.playcanvas.com/contact) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
 
 **Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks**
 
-Stay In The Loop
+### Stay In The Loop
 
-Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
+* Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+* Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
+* Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).

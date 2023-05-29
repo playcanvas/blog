@@ -32,4 +32,4 @@ You can now get the best of both worlds by releasing your games on the web and o
 
 ### Give it a try
 
-If you're a Pro account holder, you'll see the iOS download right now in your exports tab. Get yourself a copy of the XCode 6 GM from the Apple Developer site and try it out. If you're not a Pro account holder, what are you waiting for? Get yourself [upgraded](https://playcanvas.com/account) right now! ;-)
+If you're a Pro account holder, you'll see the iOS download right now in your exports tab. Get yourself a copy of the XCode 6 GM from the Apple Developer site and try it out. If you're not a Pro account holder, what are you waiting for? Get yourself [upgraded](https://playcanvas.com/upgrade) right now! 😉
