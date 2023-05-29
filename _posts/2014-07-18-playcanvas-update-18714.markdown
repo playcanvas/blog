@@ -13,13 +13,13 @@ categories:
 
 **Welcome PlayCanvas fans, tea and coffee spillages have menaced the office this week, but still we carry on, here are the updates for this week:**
 
-## Features and Fixes
+### Features and Fixes
 
 - **New Gizmos** for you to play with. We've enhanced the Designer gizmo controls. See the screenshots and descriptions below.
 - Fixed a small error when adding a script to a folder.
 - Exporting your Packs has received a performance boost - it's now even quicker to show the world the results of your hard work.
 
-## Updated Gizmos
+### Updated Gizmos
 
 [![Blog_gizmo1](/assets/media/Blog_gizmo12.png)](/assets/media/Blog_gizmo12.png)
 
@@ -29,18 +29,18 @@ _Translation Gizmo: now you can move any selected in 2 dimensions at the same ti
 
 _Scaling Gizmo: a new uniform scale control has been added - access by clicking the new white block and drag the mouse to scale in all directions._
 
-## UKIE Games Expo 
+### UKIE Games Expo 
 
 Earlier this week, our esteemed CEO Will Eastcott felt like showing some people the future of web-based gaming and so headed off to the **Liverpool International Festival for Business** and [their games development showcase](https://www.events.ukti.gov.uk/creative-business-breakfast-and-uk-games-industry-showcase--ifb) to demonstrate the PlayCanvas platform.
 
-## SWOOOP
+### SWOOOP
 
-[Philippa Moore](http://philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals will be demoing SWOOOP at the [LadyCade](https://ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while were on the subject, now might be a good time to try and beat your high score, [play it here](http://swooop.playcanvas.com/).
+[Philippa Moore](http://www.philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals will be demoing SWOOOP at the [LadyCade](https://ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while were on the subject, now might be a good time to try and beat your high score, [play it here](http://swooop.playcanvas.com/).
 
-Stay In The Loop
+### Stay In The Loop
 
-Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
+* Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+* Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
+* Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).

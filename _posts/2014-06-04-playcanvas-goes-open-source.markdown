@@ -53,7 +53,7 @@ We had a couple of goals in mind when we originally designed the engine.
 
 As a developer, you want well documented and well architected APIs. But you also want to be able to understand what’s going on under the hood and to debug when things go wrong. For this, there’s no substitute for a carefully hand-crafted, unminified, open source codebase.
 
-Additionally, you need great graphics, physics and audio engines. But the PlayCanvas Engine takes things a step further. It exposes a game framework that implements an **entity-component** **system**, allowing you to build the objects in your games as if they were made of Lego-like blocks of functionality. So what does this look like? Let’s check out a simple example on CodePen
+Additionally, you need great graphics, physics and audio engines. But the PlayCanvas Engine takes things a step further. It exposes a game framework that implements an **entity-component system**, allowing you to build the objects in your games as if they were made of Lego-like blocks of functionality. So what does this look like? Let’s check out a simple example on CodePen
 
 [![playcanvas_codepen](/assets/media/playcanvas_codepen.jpg)](http://codepen.io/playcanvas/pen/ctxoD)
 
@@ -73,9 +73,9 @@ The PlayCanvas Engine is already powering some great projects. By far and away, 
 
 For years, we’ve been frustrated with the limitations of current generation game engines. So shortly after starting work on the PlayCanvas Engine, we began designing a new breed of game development environment that would be:
 
-- **Accessible - **Using any device with a web browser, plug in a URL and instantly access simple, intuitive yet powerful tools.
-- **Collaborative - **See what you teammates are working on in real-time or just sit back and watch a game as it’s built live before your eyes.
-- **Social - **Making games is easier with the help of others. Be part of an online community of developers like you.
+- **Accessible** - Using any device with a web browser, plug in a URL and instantly access simple, intuitive yet powerful tools.
+- **Collaborative** - See what you teammates are working on in real-time or just sit back and watch a game as it’s built live before your eyes.
+- **Social** - Making games is easier with the help of others. Be part of an online community of developers like you.
 
 PlayCanvas ticks all of these boxes beautifully. But don’t take our word for it – [try it for yourself](https://playcanvas.com) and discover a better way to make games.
 
@@ -95,11 +95,11 @@ So you want to help us make the best damn 3D engine on the web? Great! Head ove
 
 Lastly, stay in touch, we're a friendly bunch.
 
-Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for largely technical updates on PlayCanvas.
+* Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+* Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com).
+* Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
 We’re super excited to see what the open source community will do with the PlayCanvas Engine. Get creative and be sure to let us know about your projects.
 

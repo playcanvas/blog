@@ -13,7 +13,7 @@ categories:
 
 **Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers!** What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know... anyway, the updates for this week:
 
-## **Bug fixes and new features:**
+### New Features and Bug fixes
 
 Our Engineering team have been busy:
 
@@ -29,20 +29,20 @@ Some engine fixes too:
 - Script attributes of type 'vector' are now be correctly converted to `pc.Vec3` at runtime
 - Light and camera representations are no longer be shown in the Designer for disabled lights and cameras
 
-## **Develop conference**
+### Develop conference
 
 [caption id="attachment_1519" align="aligncenter" width="600"]![Looks fancy doesn’t it?  You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.](/assets/media/Develop-Conference.jpg)](/assets/media/Develop-Conference.jpg) Looks fancy doesn’t it? You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.[/caption]
 
 We were incredibly pleased to be nominated for the **Technical Innovation Award** at the prestigious [Develop Awards](https://www.developawards.com/) last week. David Evans, CTO and co-founder of PlayCanvas put in an appearance, but sadly, we lost out to Oculus and their Rift. Next year, however, the story will be very different.
 
-## **Develop Magazine**
+### Develop Magazine
 
 We have been featured in a double-page spread in the venerable Develop Magazine. In the [July 2014 issue](http://www.develop-online.net/magazine/digital-edition) (issue number 151), our CEO Will Eastcott is interviewed about the unique features of PlayCanvas, our drive to simplify collaboration between game developers and why PlayCanvas went open-source. Check it out!
 
-**Stay In The Loop**
+### Stay In The Loop
 
-Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
+* Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+* Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
+* Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
