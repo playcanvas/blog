@@ -21,15 +21,15 @@ Today we've [launched new plans](https://playcanvas.com/plans) which extend ou
 
 ### What's changed?
 
-We've split our plan structure into two. **Pro **plans are for personal users and indie studios who want to work in private with increased storage. **Org **plans are for organizations and companies\* who want a little bit extra. All our **Org **plans come with our **Bronze Support **plan so you have access our development team when you need help.
+We've split our plan structure into two. **Pro** plans are for personal users and indie studios who want to work in private with increased storage. **Org** plans are for organizations and companies who want a little bit extra. All our **Org** plans come with our **Bronze Support** plan so you have access our development team when you need help.
 
-Our original plans (pro and business) have simply been renamed to **Pro 5** and **Pro 10 **and of course the **Free plan **stays free.
+Our original plans (Pro and Business) have simply been renamed to **Pro 5** and **Pro 10** and of course the **Free** plan stays free.
 
 See the new plans below and take a look our [pricing page](https://playcanvas.com/plans).
 
-[caption id="attachment_1638" align="aligncenter" width="600"]![Pro Plans](/assets/media/Cursor_and_Pricing___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](/assets/media/Cursor_and_Pricing___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg) Pro Plans[/caption]
+[![Pro Plans](/assets/media/plans-pro.jpg)](/assets/media/plans-pro.jpg)
 
-[caption id="attachment_1646" align="aligncenter" width="600"]![Org Plans](/assets/media/Org.jpg)](/assets/media/Org.jpg) Org Plans[/caption]
+[![Org Plans](/assets/media/plans-org.jpg)](/assets/media/plans-org.jpg)
 
 ### Support
 
@@ -38,5 +38,3 @@ We're also introducing our Support plans for companies that want an extra level 
 ### Questions
 
 If you have any questions about our new pricing. Please [email us](mailto://support@playcanvas.com) and ask.
-
-**UPDATE: **The Org 5 plan had the incorrect storage value. It has been corrected.
