@@ -63,4 +63,4 @@ Let us know what you think in the [forums](https://forum.playcanvas.com/t/engine
 
 ### Attributions
 
-"[Oldsmobile Cutlass Supreme Sedan '71](https://sketchfab.com/3d-models/oldsmobile-cutlass-supreme-sedan-71-78f76d386a4341b0b71745bdc50fd5ab) by Barbo is licensed under [Creative Commons ](https://creativecommons.org/licenses/by/4.0/)[Attribution](https://creativecommons.org/licenses/by/4.0/)
+[Oldsmobile Cutlass Supreme Sedan '71](https://sketchfab.com/3d-models/oldsmobile-cutlass-supreme-sedan-71-78f76d386a4341b0b71745bdc50fd5ab) by Barbo is licensed under [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/)
