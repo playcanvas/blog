@@ -23,7 +23,7 @@ PLAYHACK starts today! We'll provide you with a 3D model and your mission is to 
 
 It works like this:
 
-1. **Fork [this month's project](https://playcanvas.com/user/playcanvas/gamejam-nov-14) into your account**
+1. **Fork [this month's project](https://playcanvas.com/project/331485/overview/playhack-nov-14) into your account**
 
 2. **Use the project and it's contents to build a new game.**
 
@@ -51,7 +51,7 @@ We will be holding things down here at HQ during the month long jam by sharing s
 
 On the **1st December** we will judge your projects and our favorite will be **featured** on the **PlayCanvas front page**!
 
-[![button](/assets/media/button-1.png)](https://playcanvas.com/user/playcanvas/gamejam-nov-14)
+[![button](/assets/media/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
 
 ### Stay In The Loop
 
