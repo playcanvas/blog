@@ -16,8 +16,6 @@ tags:
 
 [caption id="attachment_416" align="alignnone" width="575"]![D.E.M.O. screenshot](https://playcanvas.com/wp-content/uploads/2012/08/demo_game.jpg) D.E.M.O. Multiplayer 3rd-person shooter running in the browser[/caption]
 
-This page is also available in [Spanish](http://www.webhostinghub.com/support/es/misc/hacer-un-shooter-multijugador-en-3-persona-en-html5), translated by Maria Ramos  from [webhostinghub.com](http://www.webhostinghub.com/support/edu).
-
 PlayCanvas were lucky enough to show a demo of our collaborative HTML5 game development toolset at Google I/O a few months back. We had a few existing demos of simple games that we had made in order to test the platform.
 
 However, we really wanted to show something a little more high-end, to showcase the possibilities that HTML5 offers for next-generation browser games. With a little under two weeks to go we started work on the demo we'd feature on the show floor. A networked multiplayer 3rd-person shooter we descriptively called 'scifi'. We’ve since renamed it to the slightly less descriptive D.E.M.O.
@@ -38,7 +36,7 @@ The game and the PlayCanvas Engine are written entirely in JavaScript. It’s pu
 - PointerLock API to hide the mouse cursor;
 - Fullscreen API to give you an immersive experience;
 
-D.E.M.O. was built on top of the [PlayCanvas Engine](/technology), which provides graphics, audio, input handling, etc. The game itself is a few thousand lines of javascript, the [source code](http://bitbucket.org/playcanvas/scifi) is available if you want to take a closer look. We also wrote a simple server which runs a WebSocket server powered by [NodeJS](https://nodejs.org/) to set up games and redirect messages to connected clients. The [source code](http://bitbucket.org/playcanvas/scifi-server) for this is available too.
+D.E.M.O. was built on top of the [PlayCanvas Engine](https://github.com/playcanvas/engine), which provides graphics, audio, input handling, etc. The game itself is a few thousand lines of JavaScript, the [source code](http://bitbucket.org/playcanvas/scifi) is available if you want to take a closer look. We also wrote a simple server which runs a WebSocket server powered by [NodeJS](https://nodejs.org/) to set up games and redirect messages to connected clients. The [source code](http://bitbucket.org/playcanvas/scifi-server) for this is available too.
 
 ## How was it built?
 

@@ -11,7 +11,7 @@ categories:
   - News
 tags:
   - html5
-  - javascript
+  - JavaScript
 ---
 
 Oops, we've been so busy that we forgot to mention [this article](https://www.gamedeveloper.com/business/will-html5-change-the-way-games-are-made-) that Will wrote for Game Developer. It was well received though not without a little controversy - turns out there are still a fair few Flash lovers out there, and a lot of people still aren't seeing the joy of JavaScript. 🙈

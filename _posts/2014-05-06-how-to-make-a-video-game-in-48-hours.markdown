@@ -12,7 +12,7 @@ categories:
   - News
 ---
 
-Making a video game in 48 hours is tough. In fact, it's one of the most gruelling mental challenges you can face. But every 4 months, thousands of die hard game developers enter [Ludum Dare](http://www.ludumdare.com/compo/), a game jam of epic proportions. And they're not doing it for the prizes (there aren't any) or even the glory. They're doing it to give the gift of a game. And when it's a game you have created yourself, it's a very personal and powerful gift.
+Making a video game in 48 hours is tough. In fact, it's one of the most gruelling mental challenges you can face. But every 4 months, thousands of die hard game developers enter [Ludum Dare](https://ludumdare.com/), a game jam of epic proportions. And they're not doing it for the prizes (there aren't any) or even the glory. They're doing it to give the gift of a game. And when it's a game you have created yourself, it's a very personal and powerful gift.
 
 So I took part in Ludum Dare once more on the 26th-27th of April. Before I even knew the theme, I developed a number of aims:
 
@@ -38,7 +38,7 @@ So I was absolutely nailing the comms side of things. But there was the little m
 
 ### Terrain
 
-I needed a dramatic undersea landscape. Unfortunately, my modelling skills suck so I resorted to a sneaky procedural solution. Step 1: Generate a heightmap. Check out [this tutorial](http://www.jasonsturges.com/2012/12/creating-a-terrain-for-unity-3d-with-photoshop/) that shows you how to do that in Photoshop. Step 2: Create a 150x150 division plane in 3DS Max and apply a Displace modifier. Then set the heightmap as the source texture for the displacement:
+I needed a dramatic undersea landscape. Unfortunately, my modelling skills suck so I resorted to a sneaky procedural solution. Step 1: Generate a heightmap. Check out [this tutorial](https://jasonsturges.medium.com/creating-a-terrain-for-unity-3d-with-photoshop-237dd55bba88) that shows you how to do that in Photoshop. Step 2: Create a 150x150 division plane in 3DS Max and apply a Displace modifier. Then set the heightmap as the source texture for the displacement:
 
 [![terrain](/assets/media/terrain.png)](/assets/media/terrain.png)
 

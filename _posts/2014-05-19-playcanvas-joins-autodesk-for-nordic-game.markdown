@@ -12,7 +12,7 @@ categories:
   - News
 ---
 
-This week, thousands of indie developers are making their way to Malmö, Sweden for a very special conference. That's right folks - [Nordic Game](http://nordicgame.com/) is here again!
+This week, thousands of indie developers are making their way to Malmö, Sweden for a very special conference. That's right folks - [Nordic Game](https://nordicgame.com/) is here again!
 
 [![NG-Award-2014(1)](/assets/media/NG-Award-20141.png)](/assets/media/NG-Award-20141.png)
 
