@@ -108,7 +108,7 @@ Now we have a new gift in the game - however, it's at the same position as the f
         var newY = rand * maxY;
         newGift.setPosition(0, newY, this.offscreenZ);
 
-There's a few new things going on here! First, let's look at the randomness. Math.random() is a built in javascript function that returns a random number from 0 to 1. We, however, want a random number from maxY to negative maxY. To achieve this, we multiply our random number by 2 (giving us a number between 0 and 2), then take away 1 (between -1 and 1), then multiply it by maxY (between -maxY and maxY). Once we have the random newY position, we can set the position of the newGift.
+There's a few new things going on here! First, let's look at the randomness. Math.random() is a built in JavaScript function that returns a random number from 0 to 1. We, however, want a random number from maxY to negative maxY. To achieve this, we multiply our random number by 2 (giving us a number between 0 and 2), then take away 1 (between -1 and 1), then multiply it by maxY (between -maxY and maxY). Once we have the random newY position, we can set the position of the newGift.
 
 Now, we're very almost done. However, we've now added a present, so we need to reset presentTimer to 0, as it's been 0 seconds since we added a present! We also want to change presentTimeToGet, as we want to wait a slightly different length of time before adding another present.
 

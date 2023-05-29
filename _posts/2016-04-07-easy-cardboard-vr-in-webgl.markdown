@@ -17,7 +17,7 @@ Today we've launched a new [library](https://github.com/playcanvas/webvr) and [d
 
 Google's Cardboard VR is an excellent low cost device for experiencing virtual reality via your phone and a simple head mounted display. At PlayCanvas we immediately saw the benefit of using WebGL to display 3D VR experiences right in your browser. With WebGL VR you can distribute VR content quickly and easily to every user with a mobile web browser. With nothing to install there is no barrier to entry.
 
-The PlayCanvas WebVR plugin makes it simple to add support for VR to your application. Simply add a couple of javascript files to your PlayCanvas project and add the VR Camera script to your camera entity. That's all it takes to add VR support to your project
+The PlayCanvas WebVR plugin makes it simple to add support for VR to your application. Simply add a couple of JavaScript files to your PlayCanvas project and add the VR Camera script to your camera entity. That's all it takes to add VR support to your project
 
 Our [demonstration project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) shows you a example of a simple interactive VR scene that you can use to learn.
 

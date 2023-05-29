@@ -15,12 +15,16 @@ tags:
   - news
 ---
 
-[caption id="attachment_535" align="alignnone" width="575"]![D.E.M.O. screenshot](https://playcanvas.com/wp-content/uploads/2012/05/scifi.jpg)](http://apps.playcanvas.com/playcanvas/scifi/latest) Game: D.E.M.O. 3rd Person Shooter[/caption]
+[![D.E.M.O. screenshot](/assets/media/scifi-demo.jpg)](http://apps.playcanvas.com/playcanvas/scifi/latest)
 
-[D.E.M.O.](http://apps.playcanvas.com/playcanvas/scifi/latest) the 3rd-Person action shooter demo that we released back in August has just been features in .net magazine's:
+Game: D.E.M.O. 3rd Person Shooter
+
+[D.E.M.O.](http://apps.playcanvas.com/playcanvas/scifi/latest) the 3rd-Person action shooter demo that we released back in August has just been featured in .net magazine's:
 
 ### [Top 10 HTML5 games of 2012](http://www.netmagazine.com/features/top-10-html5-games-2012)
 
-We're very proud to be up there with some great titles, such as the beautiful [BananaBread](https://kripken.github.io/misc-js-benchmarks/banana/index.html) demo and the super-fun [BrowserQuest](https://browserquest.io/) game from our friends at Mozilla
+We're very proud to be up there with some great titles, such as the beautiful [BananaBread](https://kripken.github.io/misc-js-benchmarks/banana/index.html) demo and the super-fun [BrowserQuest](https://browserquest.io/) game from our friends at Mozilla.
 
-[caption id="attachment_622" align="aligncenter" width="307"]![BrowserQuest HTML5 game by Mozilla](https://playcanvas.com/wp-content/uploads/2012/12/BrowserQuest.jpg)](https://browserquest.io/) BrowserQuest HTML5 game by Mozilla[/caption]
+[![BrowserQuest HTML5 game by Mozilla](/assets/media/browserquest.jpeg)](https://browserquest.io/)
+
+BrowserQuest HTML5 game by Mozilla

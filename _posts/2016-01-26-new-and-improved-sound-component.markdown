@@ -36,7 +36,7 @@ And lets just list out all the cool new things:
 - Sound atlas support (play from any point to another point)
 - Start playing from any point in audio
 - Set current time, seek with in sound
-- Lovely new javascript API
+- Lovely new JavaScript API
 
 These features open up a whole bunch of doors with what you can do with audio in your games and applications. For example, overlapping sounds means you only need a single sound component to do rapid fire gun shots. Fire-and-forget sounds mean you can play and explosion sound and delete the entity without worrying about the sound stopping. Access the Web Audio nodes means you can add effects like reverb and more to your sound. Seeking within sounds makes music games possible. And in general your audio code will now be cleaner, simpler and shorter.
 

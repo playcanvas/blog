@@ -14,7 +14,7 @@ categories:
 
 The all new front-page shows an overview of all PlayCanvas activity.
 
-[caption align="aligncenter" width="500"]![Cloud Gate (The Bean)](http://farm1.staticflickr.com/1/414896_925f2c7a1c.jpg)](http://www.flickr.com/photos/josh/414896/)New shiny thing[/caption]
+[caption align="aligncenter" width="500"]![Cloud Gate (The Bean)](https://farm1.staticflickr.com/1/414896_925f2c7a1c.jpg)](https://www.flickr.com/photos/josh/414896/)New shiny thing[/caption]
 
 Today we're launching the new front-page for PlayCanvas users. When you log in and visit https://playcanvas.com/ you'll now get a nice overview of activity across the whole PlayCanvas community.
 

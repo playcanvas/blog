@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-Last Summer, PlayCanvas participated in the world's premier startup accelerator [TechStars](http://www.techstars.com/). Unlike most other accelerators, TechStars continues to host participating companies several months after the programme finishes. So when we left for our recent US tour, we also moved out of Warner Yard, TechStars' base of operations in London.
+Last Summer, PlayCanvas participated in the world's premier startup accelerator [TechStars](https://www.techstars.com/). Unlike most other accelerators, TechStars continues to host participating companies several months after the programme finishes. So when we left for our recent US tour, we also moved out of Warner Yard, TechStars' base of operations in London.
 
 And now that we're back from our travels, we've found a new home: IDEALondon. Check out our new digs:
 

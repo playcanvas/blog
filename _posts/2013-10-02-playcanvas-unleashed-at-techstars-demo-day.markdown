@@ -22,11 +22,11 @@ The feedback has been incredible! After the pitch, the PlayCanvas demo booth was
 
 We were also incredibly flattered by the reaction from the technology press. First up, we have TechCrunch:
 
-[TechStars London First Cohort: Our Three Favorite Startups From Demo Day](http://techcrunch.com/2013/09/27/techstars-london-top-pick/)
+[TechStars London First Cohort: Our Three Favorite Startups From Demo Day](https://techcrunch.com/2013/09/27/techstars-london-top-pick/)
 
 And there's more! The Next Web ranked PlayCanvas second out of the 10 companies that presented:
 
-[The 10 startups from Techstars’ first ever London Demo Day (and our 3 favorites)](http://thenextweb.com/insider/2013/09/27/the-10-techstars-demo-day-startups-and-our-3-favorites/?fromcat=all)
+[The 10 startups from Techstars’ first ever London Demo Day (and our 3 favorites)](https://thenextweb.com/news/the-10-techstars-demo-day-startups-and-our-3-favorites)
 
 No wonder we're all smiles!  :)
 

@@ -17,7 +17,7 @@ This last week was frenzy of activity from the PlayCanvas founders. Trekking all
 
 [caption id="attachment_993" align="aligncenter" width="600"]![Co-founder Dave running a workshop on HTML5 Game Development](/assets/media/photo-1.jpg)](/assets/media/photo-1.jpg) Co-founder Dave running a workshop on HTML5 Game Development[/caption]
 
-On Thursday I went up to the [Confetti Institute of Creative Technologies](http://confetti.uk.com) in Nottingham and gave a workshop to a room full of interested developers. We covered the basics of a 3D engine, some quick samples of how Graphics, Camera, Physics and Audio can be used, and the we ended the 3 hour session with a the entire group building a the [Luna Lander](https://www.youtube.com/watch?v=zQQCfd1xEKg) demo that we showed you a few weeks ago.
+On Thursday I went up to the [Confetti Institute of Creative Technologies](https://confetti.ac.uk/) in Nottingham and gave a workshop to a room full of interested developers. We covered the basics of a 3D engine, some quick samples of how Graphics, Camera, Physics and Audio can be used, and the we ended the 3 hour session with a the entire group building a the [Luna Lander](https://www.youtube.com/watch?v=zQQCfd1xEKg) demo that we showed you a few weeks ago.
 
 At the end of the session everyone had had a great time and had a playable game to show for it.
 
@@ -29,9 +29,9 @@ On Friday we were demoing at the Open Arcade in Nottingham town centre. The Open
 
 ### Sunday
 
-[![MozFest](http://farm8.staticflickr.com/7342/10513561445_076e91c2b9_z.jpg)](http://www.flickr.com/photos/mozillaeu/10513561445/)
+[![MozFest](https://farm8.staticflickr.com/7342/10513561445_076e91c2b9_z.jpg)](https://www.flickr.com/photos/mozillaeu/10513561445/)
 
-On Sunday, our other co-founder Will, held a short session at the [Mozilla Festival](http://mozillafestival.org/) in London.
+On Sunday, our other co-founder Will, held a short session at the [Mozilla Festival](https://www.mozillafestival.org/) in London.
 
 Again a room full of people got a quick introduction to HTML5 Game Engines and 3D game development. Then they dived in and this time built a working version of Pong, like in our other [tutorial video](https://www.youtube.com/watch?v=oeR-flW-ojw).
 
