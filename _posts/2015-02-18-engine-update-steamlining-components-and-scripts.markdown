@@ -3,9 +3,9 @@ author: dave
 comments: true
 date: 2015-02-18 14:52:16+00:00
 layout: post
-link: https://blog.playcanvas.com/engine-update-steamlining-components-and-scripts/
-slug: engine-update-steamlining-components-and-scripts
-title: "Engine Update: Steamlining Components and Scripts"
+link: https://blog.playcanvas.com/engine-update-streamlining-components-and-scripts/
+slug: engine-update-streamlining-components-and-scripts
+title: "Engine Update: Streamlining Components and Scripts"
 wordpress_id: 1997
 categories:
   - News
