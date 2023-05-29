@@ -35,7 +35,7 @@ The game even has a new URL. Play now at:
 
 #### [https://tanx.io](https://tanx.io)
 
-<blockquote>Public Service Announcement: TANX is highly addictive. Please take occasional breaks!</blockquote>
+> **Public Service Announcement:** TANX is highly addictive. Please take occasional breaks!
 
 Can you believe this game is playable after loading just 2.8MB of data? Massive fun delivered to your browser in seconds.
 
