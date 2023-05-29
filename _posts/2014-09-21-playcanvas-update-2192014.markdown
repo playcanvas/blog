@@ -29,29 +29,29 @@ We're adding additional plans to our pricing structure to better accommodate bi
 
 ### Improvements
 
-**Synchronous Components and Cloning
-**
+**Synchronous Components and Cloning**
 
 This has been on the horizon a little while. With this new update to the engine, adding components to an entity and cloning it into new entity are now synchronous. Making your code much simpler:
 
-    var e = this.entity.clone();
-    // e is ready to use
+```javascript
+  var e = this.entity.clone();
+  // e is ready to use
+```
 
 Previously in this code, the clone method took at least one frame to execute. This is a big improvement when you are creating Entities on the fly.
 
-**Publish over existing applications
-**
+**Publish over existing applications**
 
 Another little improvement that'll save you time. If you publish an application with the same name as an existing application you'll be prompted to overwrite the older app.
 
-**Application view counts**
+### Application view counts
 
 This is just the start of something big, but we now display how many people have viewed your published game on the application page. Just take a look at [Doom 3 Gangnam Style](http://apps.playcanvas.com/will/doom3/gangnamstyle)!
 
 ### Stay In The Loop
 
-Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
+* Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
 
-Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
+* Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
 
-Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
+* Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
