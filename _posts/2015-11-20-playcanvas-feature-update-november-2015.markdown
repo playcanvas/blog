@@ -15,25 +15,25 @@ It's Friday, which means feature update time. Here's a list of the latest featur
 
 ## **Asset Folders**
 
-[![assetfolders](https://blog.playcanvas.com/wp-content/uploads/2015/11/assetfolders.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/11/assetfolders.gif)
+[![assetfolders](/assets/media/assetfolders.gif)](/assets/media/assetfolders.gif)
 
 In case you missed it. We've made [huge improvements](https://blog.playcanvas.com/better-asset-management/) to asset management in the Editor. Folders and tags mean you can organize your assets nicely both in the editor and at runtime.
 
 ## **Performance Profiler**
 
-[![profiler](https://blog.playcanvas.com/wp-content/uploads/2015/11/profiler-1024x509.png)](https://blog.playcanvas.com/wp-content/uploads/2015/11/profiler.png)
+[![profiler](/assets/media/profiler-1024x509.png)](/assets/media/profiler.png)
 
 With mobile forming such a large part of the web these days, performance is more critical than ever before. That's why we've released an awesome [profiling tool](https://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/) to help quickly get to the bottom of performance problems and get your app running **fast.**
 
 ## **Model Asset Metadata**
 
-[![Model Metadata](https://blog.playcanvas.com/wp-content/uploads/2015/11/Editor.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/11/Editor.jpg)
+[![Model Metadata](/assets/media/Editor.jpg)](/assets/media/Editor.jpg)
 
 More information is available about your model data in the Editor including number of vertices, triangles and more.
 
 ## **Curve Editor Improvements**
 
-[![curve-zooom](https://blog.playcanvas.com/wp-content/uploads/2015/11/curve-zooom.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/11/curve-zooom.gif)
+[![curve-zooom](/assets/media/curve-zooom.gif)](/assets/media/curve-zooom.gif)
 
 The Curve Editor now has zoom (use the mouse wheel), scroll (use the right mouse button) and copy and paste to help you create awesome particle effects. Did you know you can also use the curve editor in your script attributes? Well, now you do.
 

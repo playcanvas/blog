@@ -16,10 +16,10 @@ Have you noticed that everybody seems to go on vacation in August? Not PlayCanva
 #### Editor Improvements
 
 - User cameras are now back and improved with interpolation for smoother animation. You can also hover on the semi-transparent rectangle of the camera to see a username tooltip to find out who's keeping you company.
-  [![usercamera](https://blog.playcanvas.com/wp-content/uploads/2015/08/usercamera.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/usercamera.gif)
+  [![usercamera](/assets/media/usercamera.gif)](/assets/media/usercamera.gif)
 - Most assets are now triggering previews when dragged: drag a material to a material asset slot without dropping it and it will swap temporarily in the 3D view for preview. This applies to: textures, materials and cubemaps.
 - Materials are now draggable into the 3D view. Just drag them right onto the model.
-  [![switchmaterial](https://blog.playcanvas.com/wp-content/uploads/2015/08/switchmaterial.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/switchmaterial.gif)
+  [![switchmaterial](/assets/media/switchmaterial.gif)](/assets/media/switchmaterial.gif)
 - Cubemaps are now draggable into the 3D view. Drag onto materials to apply as an environment map, or onto the background in the 3D view to apply as a scene skybox.
 - Tooltips are now shown when hovering on entities in the 3D view (after a short delay).
 - Read-only collaborators are now able to click on the "View" button of code-based assets to open a read-only view of the script in the Script Editor.

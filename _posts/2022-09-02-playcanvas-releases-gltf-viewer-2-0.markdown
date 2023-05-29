@@ -55,23 +55,23 @@ Let’s take a look at three of them.
 
 The volume, transmission and ior glTF extensions can simulate how light is refracted through transparent materials. This leverages PlayCanvas’ grab pass functionality to ‘grab’ and sample the back-buffer.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.22.35.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.22.35.gif)
+[![](/assets/media/Kapture-2022-09-02-at-10.22.35.gif)](/assets/media/Kapture-2022-09-02-at-10.22.35.gif)
 
 ## Realistic Rendering of Fabrics
 
 glTF’s sheen extension enables developers to faithfully reproduce materials with the appearance of certain fabrics. This is incredibly important for production visualization (home furnishings, apparel, vehicle interiors and so on).
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/cushion.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/cushion.jpg)
+[![](/assets/media/cushion.jpg)](/assets/media/cushion.jpg)
 
 ## Material Variants
 
 Most product configurators allow the user to modify the appearance of a product. For example, a specific style of chair might be upholstered in various fabrics in various colors. Or a pair of shoes might be available in a number of different designs/patterns/colors.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/sneakers-1024x423.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/sneakers.jpg)
+[![](/assets/media/sneakers-1024x423.jpg)](/assets/media/sneakers.jpg)
 
 The PlayCanvas viewer now detects any material variants in the loaded scene and permits their selection in the interface.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.36.54.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.36.54.gif)
+[![](/assets/media/Kapture-2022-09-02-at-10.36.54.gif)](/assets/media/Kapture-2022-09-02-at-10.36.54.gif)
 
 ## Rendering Enhancements
 
@@ -83,31 +83,31 @@ Enabling this feature activates supersampling which is a type of antialiasing th
 
 You can see both in action below, deliberately reduced in resolution to show the effect:
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.31.58.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.31.58.gif)
+[![](/assets/media/Kapture-2022-09-02-at-10.31.58.gif)](/assets/media/Kapture-2022-09-02-at-10.31.58.gif)
 
 Also new is sharper reflections for smooth reflective surfaces. The viewer will now use the full resolution skybox cubemap in the engine’s image-based lighting pipeline which looks crisp and far more realistic.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/FZZp8qwWAAAQqyR-1024x608.jpeg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/FZZp8qwWAAAQqyR.jpeg)
+[![](/assets/media/FZZp8qwWAAAQqyR-1024x608.jpeg)](/assets/media/FZZp8qwWAAAQqyR.jpeg)
 
 ## Interface Redesign
 
 Initially, all information and controls for the viewer appeared in the leftmost panel. Viewer 2.0 has been completely redesigned to more intelligently group specific areas of functionality. The leftmost panel remains but now just shows scene info and a tree view showing the loaded scene hierarchy.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Screenshot-2022-09-02-at-10.51.14.png)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Screenshot-2022-09-02-at-10.51.14.png)
+[![](/assets/media/Screenshot-2022-09-02-at-10.51.14.png)](/assets/media/Screenshot-2022-09-02-at-10.51.14.png)
 
 Buttons to control viewer settings can now be found at the bottom of the 3D view. These buttons open options for camera, lighting and debug rendering (plus a fullscreen toggle).
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.53.54.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Kapture-2022-09-02-at-10.53.54.gif)
+[![](/assets/media/Kapture-2022-09-02-at-10.53.54.gif)](/assets/media/Kapture-2022-09-02-at-10.53.54.gif)
 
 If you load a scene that contains animation, animation controls will automatically appear:
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/animation-toolbar-1024x281.png)](https://blog.playcanvas.com/wp-content/uploads/2022/09/animation-toolbar.png)
+[![](/assets/media/animation-toolbar-1024x281.png)](/assets/media/animation-toolbar.png)
 
 The controls allow you to scrub through an animation, select playback speed and even choose which animation clip to play should the file contain more than one.
 
 Lastly, there is also now a button bottom right to download a rendered PNG of the 3D view.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/Screenshot-2022-09-02-at-10.56.01-1.png)](https://blog.playcanvas.com/wp-content/uploads/2022/09/Screenshot-2022-09-02-at-10.56.01-1.png)
+[![](/assets/media/Screenshot-2022-09-02-at-10.56.01-1.png)](/assets/media/Screenshot-2022-09-02-at-10.56.01-1.png)
 
 ## Open Source
 

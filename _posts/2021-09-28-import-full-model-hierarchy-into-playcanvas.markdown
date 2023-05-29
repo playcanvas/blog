@@ -15,7 +15,7 @@ categories:
 
 The PlayCanvas team are very excited to fully release the [Import Hierarchy pipeline feature](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/) in the PlayCanvas Editor!
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/09/edit-hierarchy.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/09/edit-hierarchy.gif)
+[![](/assets/media/edit-hierarchy.gif)](/assets/media/edit-hierarchy.gif)
 
 With this feature enabled, any imported FBX will create a Template asset which contains the full node hierarchy as entities representing sub-models of the model. This gives users greater flexibility in manipulating mesh instances in the model directly in the Editor.
 
@@ -30,9 +30,9 @@ With the model hierarchy being editable in the Editor, this opens a number of us
 - Use the Render assets elsewhere in the scene for decoration or customization.
 - Add components and/or scripts to individual nodes such as attaching particle effects to animated parts.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/09/Kapture-2021-09-27-at-17.28.54-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/09/Kapture-2021-09-27-at-17.28.54-1.gif)
+[![](/assets/media/Kapture-2021-09-27-at-17.28.54-1.gif)](/assets/media/Kapture-2021-09-27-at-17.28.54-1.gif)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/09/Kapture-2021-09-27-at-17.35.38-2.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/09/Kapture-2021-09-27-at-17.35.38-2.gif)
+[![](/assets/media/Kapture-2021-09-27-at-17.35.38-2.gif)](/assets/media/Kapture-2021-09-27-at-17.35.38-2.gif)
 
 However, please note that while the Model Component is compatible with both the Animation and Anim (State Graph) Component, the Render Component/Import Hierarchy feature is only compatible with the Anim (State Graph) Component.
 

@@ -13,7 +13,7 @@ categories:
 
 There has been plenty going on at HQ since our last update and it is all making game development on our engine that little bit easier. Here’s a run down of engine optimizations, new features and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.
 
-[caption id="attachment_1496" align="aligncenter" width="800"]![Team Hex Penguin's game Spacetifacts won at the Malmo Game Jam](https://blog.playcanvas.com/wp-content/uploads/2014/07/Spacetifacts.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/07/Spacetifacts.jpg) Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam[/caption]
+[caption id="attachment_1496" align="aligncenter" width="800"]![Team Hex Penguin's game Spacetifacts won at the Malmo Game Jam](/assets/media/Spacetifacts.jpg)](/assets/media/Spacetifacts.jpg) Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam[/caption]
 
 **Asset Lists**
 
@@ -27,7 +27,7 @@ We have been paid some incredible compliments in the last week or so. In particu
 
 On Tuesday we hosted  the [London HTML5 Game Development Meet Up](http://www.meetup.com/London-HTML5-Game-Developers/events/188693262/) at the London HQ of Mozilla. There were some great talks from Jesse Freeman (on HTML5 vs Unity), Karl Bunyan (who spoke on wrapping games with his app PhoneGap) and our very own Senior Engineer Maks (who spoke about creating colorTanks in a game jam). At one point during his talk Maks edited his game [colorTanks](http://tanks.moka.co/) in the PlayCanvas editor live and had most of the attendees playing the game at the same time. Can't wait for the next meet up!
 
-[![MaksTalk-001](https://blog.playcanvas.com/wp-content/uploads/2014/07/MaksTalk-001.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/07/MaksTalk-001.jpg)
+[![MaksTalk-001](/assets/media/MaksTalk-001.jpg)](/assets/media/MaksTalk-001.jpg)
 
 **LizziP and her team slam the MalmoJammo **
 

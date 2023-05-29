@@ -35,7 +35,7 @@ Using the right-tool for the job is the best way to go. Utilizing WebGL for the
 
 ### Built in hours not weeks
 
-![Editor](https://blog.playcanvas.com/wp-content/uploads/2015/10/Editor-small.png)
+![Editor](/assets/media/Editor-small.png)
 
 PlayCanvas' tool-set is built for real-time collaboration and lets your designers and artists work without writing code. Let your coders build incredible experiences without worrying about device compatibility or hardcore maths. And share work with clients with the click of a button.
 

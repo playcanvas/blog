@@ -14,7 +14,7 @@ categories:
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._
 
-![PLAYHACK_clearxmas](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)
+![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)
 
 We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/natpat/playhack_december).
 
@@ -28,13 +28,13 @@ In this tutorial, we're going to do two things - delete the presents as they go 
 
 At the moment, when presents go offscreen, they just keep going on and on forever and ever. We don't need the presents anymore after they've gone offscreen, so it doesn't hurt (and may even help) us if we delete them. So, we need a way to test when a present has left the screen. We can do that with a Trigger Volume placed just offscreen.
 
-[![DEC-PLAYHACK-TUT3-2](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-2.png)](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-2.png)
+[![DEC-PLAYHACK-TUT3-2](/assets/media/DEC-PLAYHACK-TUT3-2.png)](/assets/media/DEC-PLAYHACK-TUT3-2.png)
 
 You may be thinking - what is a trigger volume?! A trigger volume is simply an **entity with a collision component** added to it (but without a rigidbody - we'll get to that later). They allow us to test when rigidbodies enter and leave them - which is perfect for testing when a present goes off-screen.
 
 So, to add the off-screen trigger volume, simply right click on "Santa" in the Pack Explorer and add a new Entity. I called mine "offscreen". Then, add a collision component to your new offscreen entity - a small blue cube should appear in the editor. Now, all we need to do is move it off-screen, and resize it so it catches all the presents. You can move it with the translate tool, and to make it big enough, you can edit the "half-extents" of the collision component until it covers the whole of the edge of the camera.
 
-[![DEC-PLAYHACK-TUT3-3](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-3.png)](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-3.png)
+[![DEC-PLAYHACK-TUT3-3](/assets/media/DEC-PLAYHACK-TUT3-3.png)](/assets/media/DEC-PLAYHACK-TUT3-3.png)
 
 Now, let's write some code to delete the presents that come off-screen. Add a script component to the offscreen entity, and add a new script - I called the script "offscreen.js" (creative name, I know).
 
@@ -52,7 +52,7 @@ Pretty simple huh? The onTriggerEnter function gets called with one argument, wh
 
 ## Setting up the present
 
-[![DEC-PLAYHACK-TUT3-1](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-1.png)](https://blog.playcanvas.com/wp-content/uploads/2014/12/DEC-PLAYHACK-TUT3-1.png)
+[![DEC-PLAYHACK-TUT3-1](/assets/media/DEC-PLAYHACK-TUT3-1.png)](/assets/media/DEC-PLAYHACK-TUT3-1.png)
 
 If we run the game now though, the presents still won't get deleted even if they go off-screen! That's because trigger volumes only check for collisions with rigidbodies, so we'll need to add some more components to the present. We need to add a **collision** component and a **kinematic rigidbody** component. Together, these will allow us to check when the present passes through our trigger volumes.
 

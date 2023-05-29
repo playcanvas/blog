@@ -21,7 +21,7 @@ The PlayCanvas WebGL game engine integrates with [ammo.js](https://github.com/kr
 
 Here is an example of a character with and without soft body cloth simulation running in PlayCanvas:
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2020/05/clothblog4.gif)](https://playcanv.as/p/WpURkO1l/)
+[![](/assets/media/clothblog4.gif)](https://playcanv.as/p/WpURkO1l/)
 
 ## **[CLICK TO PLAY DEMO](https://playcanv.as/p/WpURkO1l/)**
 
@@ -61,15 +61,15 @@ Want to try soft body dynamics on your own character? Here's how:
 
 This is done by painting colors into the character mesh vertices - the example character was downloaded from [Mixamo](https://www.mixamo.com/), and imported into [Blender](https://www.blender.org/):
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-painted-vertices-1-1024x913.jpg)](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-painted-vertices-1.jpg)
+[![](/assets/media/cloth-simulation-painted-vertices-1-1024x913.jpg)](/assets/media/cloth-simulation-painted-vertices-1.jpg)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-painted-vertices-2-996x1024.jpg)](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-painted-vertices-2.jpg)Black = fully simulated, White = not simulated
+[![](/assets/media/cloth-simulation-painted-vertices-2-996x1024.jpg)](/assets/media/cloth-simulation-painted-vertices-2.jpg)Black = fully simulated, White = not simulated
 
 **_Step 3: Import the character into the PlayCanvas editor and set up collision:_**
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-collision-1-1014x1024.jpg)](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-collision-1.jpg)
+[![](/assets/media/cloth-simulation-collision-1-1014x1024.jpg)](/assets/media/cloth-simulation-collision-1.jpg)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-collision-2.jpg)](https://blog.playcanvas.com/wp-content/uploads/2023/01/cloth-simulation-collision-2.jpg)On this character, only colliders for the legs and body are needed.
+[![](/assets/media/cloth-simulation-collision-2.jpg)](/assets/media/cloth-simulation-collision-2.jpg)On this character, only colliders for the legs and body are needed.
 
 #### **What's Next**
 

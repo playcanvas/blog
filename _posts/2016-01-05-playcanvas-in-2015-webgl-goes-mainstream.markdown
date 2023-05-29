@@ -17,38 +17,38 @@ Let's cast our minds back and recall some of the key highlights.
 
 To wow the crowds at GDC 2015, ARM called on PlayCanvas to show the world what WebGL can really do. We built [Seemore](http://seemore.playcanvas.com/).
 
-[![seemore](https://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/04/seemore.jpg)
+[![seemore](/assets/media/seemore.jpg)](/assets/media/seemore.jpg)
 
 Also at GDC, Mozilla and PlayCanvas jointly announced [TANX](https://tanx.io/), our multiplayer, online tank battle game (with over 2,000,000 plays to date).
 
-[![tanx](https://blog.playcanvas.com/wp-content/uploads/2016/01/tanx.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/tanx.jpg)
+[![tanx](/assets/media/tanx.jpg)](/assets/media/tanx.jpg)
 
 One of the most memorable WebGL apps of 2015 was the [BMW i8 Configurator](http://car.playcanvas.com/). It even won [The FWA Site of the Day](http://www.thefwa.com/site/next-generation-car-configurator) and ruled on high at Hacker News!
 
-[![bmw](https://blog.playcanvas.com/wp-content/uploads/2016/01/bmw.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/bmw.jpg)
+[![bmw](/assets/media/bmw.jpg)](/assets/media/bmw.jpg)
 
 2015 was the year WebGL developers cried out for tools that actually work. In response, we launched our new Editor! A realtime-collaborative development environment that's only 650KB? You bet!
 
-[![editort800](https://blog.playcanvas.com/wp-content/uploads/2016/01/editort800.png)](https://blog.playcanvas.com/wp-content/uploads/2016/01/editort800.png)
+[![editort800](/assets/media/editort800.png)](/assets/media/editort800.png)
 
 PlayCanvas' open source PBR renderer hit its first birthday with support for HDR cubemaps, box-projected cubemaps and much more. Find out more on [GitHub](https://github.com/playcanvas/engine).
 
-[![orangeroom](https://blog.playcanvas.com/wp-content/uploads/2016/01/orangeroom.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/orangeroom.jpg)
+[![orangeroom](/assets/media/orangeroom.jpg)](/assets/media/orangeroom.jpg)
 
 Some eye-popping content was released by our fantastic clients and partners. In August, Hutch Games released the world's first [3D WebGL playable ads](http://mmx.playcanvas.com/?truck=tripleh).
 
-[![mmxwwe](https://blog.playcanvas.com/wp-content/uploads/2016/01/mmxwwe.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/mmxwwe.jpg)
+[![mmxwwe](/assets/media/mmxwwe.jpg)](/assets/media/mmxwwe.jpg)
 
 PlayCanvas became the leading tech provider for Digital Out of Home. DOOH.com brought the [world's largest game of Space Invaders](https://vimeo.com/136313614) to the Cannes Lions Festival.
 
-[![doohinvaders](https://blog.playcanvas.com/wp-content/uploads/2015/06/doohinvaders.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/06/doohinvaders.jpg)
+[![doohinvaders](/assets/media/doohinvaders.jpg)](/assets/media/doohinvaders.jpg)
 
 Cheil, Samsung's Marketing arm, used PlayCanvas to launch their Rugby World Cup game on the giant Samsung screen in Piccadilly Circus.
 
-[![Cheil Rugby](https://blog.playcanvas.com/wp-content/uploads/2016/01/Cheil_Banner.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/Cheil_Banner.jpg)
+[![Cheil Rugby](/assets/media/Cheil_Banner.jpg)](/assets/media/Cheil_Banner.jpg)
 
 Hot on the heels of that, Cheil launched their Christmas campaign for the Samsung Galaxy S6 on the very same screen.
 
-[![Cheil Christmas](https://blog.playcanvas.com/wp-content/uploads/2016/01/DSC_0094-small.jpg)](https://blog.playcanvas.com/wp-content/uploads/2016/01/DSC_0094-small.jpg)
+[![Cheil Christmas](/assets/media/DSC_0094-small.jpg)](/assets/media/DSC_0094-small.jpg)
 
 And this is just the stuff we can talk about! You wouldn't believe some of the projects that are in development as I type! But hey, you'll get to find out all about them in 2016. Hold onto your hats, true believers. It's going to be an amazing year. :D

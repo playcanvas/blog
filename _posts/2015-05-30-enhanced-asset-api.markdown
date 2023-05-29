@@ -53,7 +53,7 @@ On to the changes:
 
 ### Asset Preloading
 
-[![preload](https://blog.playcanvas.com/wp-content/uploads/2015/05/preload.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/05/preload.jpg)
+[![preload](/assets/media/preload.jpg)](/assets/media/preload.jpg)
 
 The first new feature is **asset preload**. Previously we would load any assets that were referenced by your scene. We changed this behavior so that now assets have a specific **preload** property which you can enable or disable. Any asset marked as preload, _and we default this to true for new assets_, will be loaded during the loading screen stage and will be ready to use when your application starts. Any that are not marked as preload, will remain on the server, ready to be loaded when you need them.
 
@@ -67,7 +67,7 @@ When you publish an app or choose to download an export of your app, we now in
 
 Script loading has had an overhaul, we now load scripts in parallel with other assets so load times should be reduced. We have also changed which scripts are loaded. Previously, we'd only load scripts which are referenced in scenes. **We now load all scripts in your repository.** Because of this we've introduced a way to set the order in which your scripts are loaded.
 
-[![script-priority](https://blog.playcanvas.com/wp-content/uploads/2015/05/script-priority.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/05/script-priority.jpg)
+[![script-priority](/assets/media/script-priority.jpg)](/assets/media/script-priority.jpg)
 
 Found in the menu, you can use the script loading priority dialog to choose scripts you wish to load first.
 

@@ -14,7 +14,7 @@ tags:
   - playable ad
 ---
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/FB-GIF3-10-2021_11-27-57-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/FB-GIF3-10-2021_11-27-57-1.gif)
+[![](/assets/media/FB-GIF3-10-2021_11-27-57-1.gif)](/assets/media/FB-GIF3-10-2021_11-27-57-1.gif)
 
 PlayCanvas are very excited to announce official support for Facebook Playable Ads! 🚀
 
@@ -29,11 +29,11 @@ Playable ads are small, interactive previews of a game or app that give a taste 
 - Increase return on ad spend
 - Reduce cost per install
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/image.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/image.gif)
+[![](/assets/media/image.gif)](/assets/media/image.gif)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/image-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/image-1.gif)
+[![](/assets/media/image-1.gif)](/assets/media/image-1.gif)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/image-2.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/image-2.gif)
+[![](/assets/media/image-2.gif)](/assets/media/image-2.gif)
 
 Combine that with the [fully featured PlayCanvas game engine](https://playcanvas.com/features) which includes:
 
@@ -44,9 +44,9 @@ Combine that with the [fully featured PlayCanvas game engine](https://playcanvas
 
 And you have a very powerful combination to create fantastic and engaging experiences to reach your audience.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/Kapture-2021-03-08-at-18.33.18-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/Kapture-2021-03-08-at-18.33.18-1.gif)
+[![](/assets/media/Kapture-2021-03-08-at-18.33.18-1.gif)](/assets/media/Kapture-2021-03-08-at-18.33.18-1.gif)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/Kapture-2021-03-10-at-11.38.54-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/Kapture-2021-03-10-at-11.38.54-1.gif)
+[![](/assets/media/Kapture-2021-03-10-at-11.38.54-1.gif)](/assets/media/Kapture-2021-03-10-at-11.38.54-1.gif)
 
 ### Sounds great! How do I get started?
 
@@ -54,11 +54,11 @@ We’ve published the [official exporter tool on GitHub](https://github.com/play
 
 Once configured, creating the file(s) for upload to Facebook is **just a single command**, shown in real time below.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/playable-ad-workflow.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/03/playable-ad-workflow.gif)
+[![](/assets/media/playable-ad-workflow.gif)](/assets/media/playable-ad-workflow.gif)
 
 That is how quick and easy it is! 💪 And it supports both the single 2MB HTML and 5MB zip bundle formats used by Facebook. 🙌
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/03/Screenshot-2021-03-08-at-16.25.13-1-1024x670.png)](https://blog.playcanvas.com/wp-content/uploads/2021/03/Screenshot-2021-03-08-at-16.25.13-1.png)
+[![](/assets/media/Screenshot-2021-03-08-at-16.25.13-1-1024x670.png)](/assets/media/Screenshot-2021-03-08-at-16.25.13-1.png)
 
 If you’re new to PlayCanvas, why not [sign up today for free](https://playcanvas.com/). We can’t wait to see what you make! Let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
 

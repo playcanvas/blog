@@ -15,7 +15,7 @@ tags:
   - WebXR
 ---
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/1.jpg)
+[![](/assets/media/1.jpg)](/assets/media/1.jpg)
 
 Welcome to the second installment of Developer Spotlight! A series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
@@ -43,7 +43,7 @@ We were looking around, trying to find what is the best platform to develop WebG
 
 So far we've been really happy with all the engine capabilities, the loading, how lightweight it is, et cetera. For us, it's the best platform for developing web experiences.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/2-1024x566.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/2.jpg)
+[![](/assets/media/2-1024x566.jpg)](/assets/media/2.jpg)
 
 ### **Awesome! So, were there any initial challenges that you guys faced? How did you guys end up overcoming them?**
 
@@ -53,7 +53,7 @@ That was our struggle at the beginning - to try and find the right balance of op
 
 Right now, with our current approach and the tools in our pipeline, we’re quite happy. And it's also why we work with Cartier and are now doing all these products on their websites.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/3-1024x566.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/3.jpg)
+[![](/assets/media/3-1024x566.jpg)](/assets/media/3.jpg)
 
 ### **That's very interesting. Visionaries777 has worked on several Web AR experiences. Can you tell me how important you think Web AR is today?**
 
@@ -65,7 +65,7 @@ But at the end of the day, for marketing initiatives, no one wants to install an
 
 These sorts of experiences were fine 10 years ago on an iPhone, but now people have moved on, and have different mindsets - things should be accessible through a web browser directly, not through an app. If it's inside an app, it has to be inside Snapchat, inside Instagram, or inside an app that has more to it than just one AR experience.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/4.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/4.jpg)
+[![](/assets/media/4.jpg)](/assets/media/4.jpg)
 
 ### **Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences?**
 
