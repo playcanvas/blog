@@ -34,6 +34,6 @@ We now offer two paid plans and the biggest change you'll see is that they bo
 
 The **Free** plan is great for getting started, learning about PlayCanvas or making your first few applications. With a free plan you can make an unlimited number of public projects and there are no limits on how many other users you can add to your public projects.
 
-If it's just you but you want to work with private projects, the **Personal **plan is ideal**.** This plan is great for individual developers or for small teams. It is just $15 per user/month, you can make unlimited private projects and you get 1 GB storage for your assets. The Personal plan is also required if you want to download the HTML of your project and host it on your own server.
+If it's just you but you want to work with private projects, the **Personal** plan is ideal. This plan is great for individual developers or for small teams. It is just $15 per user/month, you can make unlimited private projects and you get 1 GB storage for your assets. The Personal plan is also required if you want to download the HTML of your project and host it on your own server.
 
 If you're using PlayCanvas for your business, the **Organization** plan is for you. With this plan you can manage your team members, remove the PlayCanvas loading screen and more features like offline archiving for your projects. The Organization plan costs $50 per user/month and you get 10 GB storage for your assets.
