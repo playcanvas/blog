@@ -16,7 +16,7 @@ So Ludum Dare 28 came and went last weekend and the theme was 'You Only Get One'
 
 ### [Going Around](http://apps.playcanvas.com/dave/goingaround/latest) by [@daredevildave](https://twitter.com/daredevildave) ([Project link](https://playcanvas.com/dave/goingaround))
 
-This is a point and click adventure. You only get one (game) hour to get all the things Ann needs to leave the house. It's based on video game radio show [One Life Left](http://onelifeleft.com/).
+This is a point and click adventure. You only get one (game) hour to get all the things Ann needs to leave the house. It's based on video game radio show [One Life Left](https://onelifeleft.com/).
 
 [![goingaround.jpg](http://www.html5gamedevs.com/uploads/monthly_12_2013/post-199-0-69200400-1387297953.jpg)](http://apps.playcanvas.com/dave/goingaround/latest)
 

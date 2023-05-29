@@ -35,7 +35,7 @@ Earlier this week, our esteemed CEO Will Eastcott felt like showing some people 
 
 ## SWOOOP
 
-[Philippa Moore](http://philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals will be demoing SWOOOP at the [LadyCade](http://www.ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while were on the subject, now might be a good time to try and beat your high score, [play it here](http://apps.playcanvas.com/playcanvas/swooop/swooop).
+[Philippa Moore](http://philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals will be demoing SWOOOP at the [LadyCade](https://ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while were on the subject, now might be a good time to try and beat your high score, [play it here](http://swooop.playcanvas.com/).
 
 Stay In The Loop
 

@@ -21,7 +21,7 @@ We now include Assets lists for each Pack when running your game, allowing you t
 
 **Ranks and Nominations**
 
-We have been paid some incredible compliments in the last week or so. In particular Develop Magazine ranked us as the top WebGL game engine in their [Develop 100](http://content.yudu.com/A2xcc7/Dev100TechList2014/resources/index.htm?referrerUrl=) gaming tech list. We have also been nominated for a [Technical Innovation award](http://www.develop-online.net/news/develop-awards-2014-the-finalists-revealed/0192226) by Develop Magazine as they placed in the same category as products like the Oculus Rift Development Kit 2. Although these accolades from Develop have left us feeling particularly grateful, it is great that the game development industry in general is recognizing our recent efforts.
+We have been paid some incredible compliments in the last week or so. In particular Develop Magazine ranked us as the top WebGL game engine in their [Develop 100](http://content.yudu.com/A2xcc7/Dev100TechList2014/resources/index.htm?referrerUrl=) gaming tech list. We have also been nominated for a [Technical Innovation award](https://mcvuk.com/business-news/publishing/develop-awards-2014-the-finalists-revealed/) by Develop Magazine as they placed in the same category as products like the Oculus Rift Development Kit 2. Although these accolades from Develop have left us feeling particularly grateful, it is great that the game development industry in general is recognizing our recent efforts.
 
 **Events**
 
