@@ -35,7 +35,7 @@ He will show us how Solar Games ported a metaverse experience from Unreal to Pla
 
 https://youtu.be/u_8-rzGkDjA
 
-[Presentation Slides](https://blog.playcanvas.com/wp-content/uploads/2022/11/Porting-Unreal-to-the-Browser-with-PlayCanvas-Developer-Spotlight-with-Leonidas-Maliokas-Slides.pdf)
+[Presentation Slides](/assets/media/Porting-Unreal-to-the-Browser-with-PlayCanvas-Developer-Spotlight-with-Leonidas-Maliokas-Slides.pdf)
 
 ### Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio!
 
@@ -47,9 +47,9 @@ We offer Uranus Tools for PlayCanvas, a collection of plug and play scripts to s
 
 We are also working on [Aritelia](https://aritelia.io), a procedurally generated open world social MMO in PlayCanvas. This is still in development but you can already give it a try with the pre-alpha tech demonstration that was released last year.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-5.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-5.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-5.jpg)](/assets/media/Leonidas-Developer-Spotlight-5.jpg)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-1.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-1.jpg)](/assets/media/Leonidas-Developer-Spotlight-1.jpg)
 
 ### Why did you choose PlayCanvas?
 
@@ -67,7 +67,7 @@ The good news was that even before the PlayCanvas Editor API was officially rele
 
 Other developers and companies became interested in our extensions and we started offering them in our company’s asset store.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-2-1024x576.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-2.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-2-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-2.jpg)
 
 ### How is building an HTML5 game/experience different from a native game/experience?
 
@@ -107,9 +107,9 @@ There are so many opportunities around HTML5 and I see a very positive future fo
 
 Thank you for this opportunity to showcase our work!
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-3-1024x576.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-3.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-3-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-3.jpg)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-6-1024x576.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-6.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-6-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-6.jpg)
 
 Useful links:
 

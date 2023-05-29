@@ -15,7 +15,7 @@ categories:
 
 Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device into one of our USB ports and fired up PlayCanvas.
 
-[![leap-motion](https://blog.playcanvas.com/wp-content/uploads/2013/10/leap-motion1.png)](https://blog.playcanvas.com/wp-content/uploads/2013/10/leap-motion1.png)
+[![leap-motion](/assets/media/leap-motion1.png)](/assets/media/leap-motion1.png)
 
 30 minutes and 20 lines of code later, we had a fun little demo app that shows the power of the device.
 

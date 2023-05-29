@@ -13,7 +13,7 @@ categories:
 
 **We haven't been keeping up our weekly update as much as we really should and for that we are eternally sorry. However, from a new particle system beta to the even newer watching and starring functions this week is no disappointment. Lets go!**
 
-[![PLAYHACK_boxes](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_boxes.jpg)
+[![PLAYHACK_boxes](/assets/media/PLAYHACK_boxes.jpg)](/assets/media/PLAYHACK_boxes.jpg)
 
 ## **Features**
 
@@ -33,7 +33,7 @@ Our new** Particle System** is only in beta form but already we're seeing great 
 
 **Starring** a project just tells us that you think it’s cool. You won’t receive any more information about it, but you can rest safe in the knowledge that you’ve given the project’s owner a little boost to their day.
 
-[![Project Stars](https://blog.playcanvas.com/wp-content/uploads/2014/11/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
+[![Project Stars](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
 
 ## Graphics
 

@@ -15,7 +15,7 @@ categories:
 
 ## PlayCanvas Store
 
-[![PlayCanvas_Store](https://blog.playcanvas.com/wp-content/uploads/2014/12/PlayCanvas_Store.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/PlayCanvas_Store.jpg)
+[![PlayCanvas_Store](/assets/media/PlayCanvas_Store.jpg)](/assets/media/PlayCanvas_Store.jpg)
 
 Today we** launched** the **Beta version of the PlayCanvas Store!** While the current version only has around 40 3D models in total, as the PlayCanvas Store grows we should hope to see thousands of** game ready assets** become available to our community. **Try the beta for free at [https://store.playcanvas.com/](https://store.playcanvas.com/).**
 
@@ -50,7 +50,7 @@ Our particle system beta is moving forwards. We're getting close to releasing th
 
 ### PLAYHACK December
 
-[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
+[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
 
 We are 4 days in to our 2nd game jam and this month you talented developers have a pretty appropriate model to play with. We've given you Santa and one of his 'normal nosed' reindeer to keep you company this December. **Find out everything you need to know [here](https://blog.playcanvas.com/playhack-december-jolly-santa/)**.
 

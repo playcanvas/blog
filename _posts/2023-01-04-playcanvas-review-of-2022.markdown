@@ -45,13 +45,13 @@ In these [Developer Spotlights](https://blog.playcanvas.com/category/developer-s
 
 These interviews provide valuable insights and inspiration for other PlayCanvas users and anyone interested in WebGL-based content creation.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-4-1-1024x576.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/11/Leonidas-Developer-Spotlight-4-1.jpg)[Leonidas' Open Worlds and Metaverses](https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/)
+[![](/assets/media/Leonidas-Developer-Spotlight-4-1-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-4-1.jpg)[Leonidas' Open Worlds and Metaverses](https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/FUQKIyNXEAI5aec-1-1024x535.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/FUQKIyNXEAI5aec-1.jpg)[Animech's Product Configurators](https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/)
+[![](/assets/media/FUQKIyNXEAI5aec-1-1024x535.jpg)](/assets/media/FUQKIyNXEAI5aec-1.jpg)[Animech's Product Configurators](https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/10/1.jpg)[Visionaries777 Vehicle Showcases in WebAR](https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/)
+[![](/assets/media/1.jpg)](/assets/media/1.jpg)[Visionaries777 Vehicle Showcases in WebAR](https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/banner-1024x536.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/banner.jpg)[Christina's Unity Ports](https://blog.playcanvas.com/porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora/)
+[![](/assets/media/banner-1024x536.jpg)](/assets/media/banner.jpg)[Christina's Unity Ports](https://blog.playcanvas.com/porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora/)
 
 ## Graphics Engine Enhancements
 
@@ -59,19 +59,19 @@ This year, we've been laser-focused on adding [WebGPU support](https://github.co
 
 With Google Chrome set to enable WebGPU by default in 2023, we're excited to be at the forefront of the future of interactive 3D content on the web, and we can't wait to see what WebGPU will allow developers to create.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/webgpu-grabpass.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/01/webgpu-grabpass.gif)WebGPU Grabpass
+[![](/assets/media/webgpu-grabpass.gif)](/assets/media/webgpu-grabpass.gif)WebGPU Grabpass
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/webgpu-clustered-lighting.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/01/webgpu-clustered-lighting.gif)WebGPU Clustered Lighting
+[![](/assets/media/webgpu-clustered-lighting.gif)](/assets/media/webgpu-clustered-lighting.gif)WebGPU Clustered Lighting
 
 In addition to WebGPU support, we've also added support for all ratified glTF 2.0 extensions to the PlayCanvas engine, complete with Editor support for iridescence and dynamic refraction. These features allow developers to create even more realistic and visually stunning 3D content.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/glTF-2.0-materials-1024x576.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
+[![](/assets/media/glTF-2.0-materials-1024x576.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
 
 But we didn't stop there! We also released Editor support for Clustered Lighting and Area Lights, which allow developers to easily incorporate hundreds of dynamic lights into their projects. And as it turns out, our users have already been using these new features to add extra flair and fidelity to their projects.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/space-rocks-clustered-lighting.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/01/space-rocks-clustered-lighting.gif)Space Rocks
+[![](/assets/media/space-rocks-clustered-lighting.gif)](/assets/media/space-rocks-clustered-lighting.gif)Space Rocks
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/05/Kapture-2022-05-24-at-12.09.11.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/05/Kapture-2022-05-24-at-12.09.11.gif)Leonidas' Pool
+[![](/assets/media/Kapture-2022-05-24-at-12.09.11.gif)](/assets/media/Kapture-2022-05-24-at-12.09.11.gif)Leonidas' Pool
 
 ## glTF Viewer 2.0 with AR support
 
@@ -79,13 +79,13 @@ But we didn't stop there! We also released Editor support for Clustered Lighting
 
 The most notable new feature is AR support with WebXR (Android) and USDZ export (iOS). This allows users to view glTF models in AR directly from the browser.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/ezgif.com-gif-maker.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/10/ezgif.com-gif-maker.gif)
+[![](/assets/media/ezgif.com-gif-maker.gif)](/assets/media/ezgif.com-gif-maker.gif)
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/10/ezgif.com-gif-maker-5.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/10/ezgif.com-gif-maker-5.gif)
+[![](/assets/media/ezgif.com-gif-maker-5.gif)](/assets/media/ezgif.com-gif-maker-5.gif)
 
 We've also made the UI more streamlined and mobile-friendly, grouping related functionality together for easier use. Rendering has been improved with the 'High Quality Rendering' option, which enables supersampling to smooth out jagged edges along polygons and high resolution reflections for more realistic rendering.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/PlayCanvas-glTF-Model-Viewer-1024x574.jpg)](https://blog.playcanvas.com/wp-content/uploads/2023/01/PlayCanvas-glTF-Model-Viewer.jpg)
+[![](/assets/media/PlayCanvas-glTF-Model-Viewer-1024x574.jpg)](/assets/media/PlayCanvas-glTF-Model-Viewer.jpg)
 
 ## Tools Updates
 
@@ -109,11 +109,11 @@ These include:
 
 [The project dashboard has gotten a huge refresh](https://github.com/playcanvas/editor/releases/tag/v1.21.82) and can be accessed in-Editor. It includes searching and sorting of the project list as well as being able to manage teams and settings without leaving the Editor!
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/New-Editor-Dashboard-1024x523.png)](https://blog.playcanvas.com/wp-content/uploads/2023/01/New-Editor-Dashboard.png)
+[![](/assets/media/New-Editor-Dashboard-1024x523.png)](/assets/media/New-Editor-Dashboard.png)
 
 [Version Control also got some major features this year](https://github.com/playcanvas/editor/releases/tag/v1.21.30), including the addition of the Item History and Graph View, which make it easier to track changes to your projects. And looking ahead to this year, we're planning to make some of our REST API public, so developers can automate flows for CI and tools.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/01/Version-Control-Item-History-3.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/01/Version-Control-Item-History-3.gif)
+[![](/assets/media/Version-Control-Item-History-3.gif)](/assets/media/Version-Control-Item-History-3.gif)
 
 ## Thank You
 

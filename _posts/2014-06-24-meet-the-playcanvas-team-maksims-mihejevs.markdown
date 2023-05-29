@@ -17,7 +17,7 @@ tags:
   - webgl
 ---
 
-[![maks](https://blog.playcanvas.com/wp-content/uploads/2014/06/maks.png)](https://blog.playcanvas.com/wp-content/uploads/2014/06/maks.png)
+[![maks](/assets/media/maks.png)](/assets/media/maks.png)
 
 Today we are talking to the Russian (from Latvia) Senior Engineer at [PlayCanvas](https://playcanvas.com) Maks!
 

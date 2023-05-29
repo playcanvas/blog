@@ -13,7 +13,7 @@ categories:
 
 Today we've added a new feature to help us bring the best projects and games from PlayCanvas to the fore.
 
-[![Project Stars](https://blog.playcanvas.com/wp-content/uploads/2014/11/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
+[![Project Stars](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
 
 If you visit a project home page. You'll see two new buttons
 

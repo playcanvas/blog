@@ -13,7 +13,7 @@ categories:
 
 **Ludum Dare 31 has come and gone, but many great projects featured PlayCanvas over the course of the weekend. Here's your round up for our involvement in one of the most popular Game Jams in the world.**
 
-![VAIOSGAME](https://blog.playcanvas.com/wp-content/uploads/2014/12/VAIOSGAME.png)
+![VAIOSGAME](/assets/media/VAIOSGAME.png)
 
 ### **What is the Ludum Dare?**
 
@@ -27,7 +27,7 @@ Over the past weekend there was some great developing happening with PlayCanvas 
 
 PlayCanvas user [FELLADRIN](https://playcanvas.com/user/felladrin) made a colorful and thoroughly addictive balloon grabbing game called [Ora Bolas!](https://playcanv.as/p/tfHfJdt7/) (seen below).
 
-[![Screen Shot 2014-12-08 at 15.41.29](https://blog.playcanvas.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-08-at-15.41.29.png)](https://playcanv.as/p/tfHfJdt7/)
+[![Screen Shot 2014-12-08 at 15.41.29](/assets/media/Screen-Shot-2014-12-08-at-15.41.29.png)](https://playcanv.as/p/tfHfJdt7/)
 
 [CREFOSSUS](https://playcanvas.com/user/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](https://playcanv.as/p/p5kAudr6/).
 
@@ -41,7 +41,7 @@ If you have enjoyed playing any of these games, **log in on the [Ludum Dare](htt
 
 ### PLAYHACK December
 
-[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
+[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
 
 If you feel that a weekend is too much of a rush to take part in a game jam then we have a great alternative for you. **Last week we started our second PLAYHACK**, after some great entries in our first PLAYHACK.
 

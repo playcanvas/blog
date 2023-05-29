@@ -15,7 +15,7 @@ In July 2011, Apple released Safari 5.1 bringing WebGL to OS X users. WebGL advo
 
 But now, it seems things might be about to change due to some exciting developments. Apple has just published the session schedule for WWDC 2014. If you scan the session list, you will find this:
 
-[![session](https://blog.playcanvas.com/wp-content/uploads/2014/05/session.png)](https://blog.playcanvas.com/wp-content/uploads/2014/05/session.png)
+[![session](/assets/media/session.png)](/assets/media/session.png)
 
 So what can we deduce from this (and do excuse the speculation):
 

@@ -15,7 +15,7 @@ It's finally over. The games were completed a few weeks ago and 6 judges have to
 
 Over the course of 6 weeks, over 150 teams forked our original project and worked their little gamedev butts off to finish the games in time. In the end we had over 30 playable entries - more than enough to keep our judges busy.
 
-![pj_main_horiz_onwhite](https://blog.playcanvas.com/wp-content/uploads/2016/01/pj_main_horiz_onwhite.png)
+![pj_main_horiz_onwhite](/assets/media/pj_main_horiz_onwhite.png)
 
 First, we want to send a big **Thank You** to [PlayJam](https://www.playjam.com/) our partner and sponsor for this PLAYHACK.
 
@@ -25,7 +25,7 @@ Now, lets get to the results!
 
 ## First Place - £2000
 
-[![orbital-survivors](https://blog.playcanvas.com/wp-content/uploads/2016/04/blog-image.jpg)](https://playcanv.as/p/3G3RnfUz)
+[![orbital-survivors](/assets/media/blog-image.jpg)](https://playcanv.as/p/3G3RnfUz)
 
 ### **[Orbital Survival](https://playcanv.as/p/3G3RnfUz)**
 
@@ -33,7 +33,7 @@ Congratulations to [el-pepi](https://playcanvas.com/user/el-pepi) who takes the
 
 ## Second Place - £1000
 
-[![blog-image](https://blog.playcanvas.com/wp-content/uploads/2016/04/blog-image-1.jpg)](https://playcanv.as/p/Ikq6Uk6A)
+[![blog-image](/assets/media/blog-image-1.jpg)](https://playcanv.as/p/Ikq6Uk6A)
 
 ### **[Galaxies: Combat](https://playcanv.as/p/Ikq6Uk6A)**
 
@@ -41,7 +41,7 @@ Congrats to [dstalk](https://playcanvas.com/user/dstalk) and [maungers](https:/
 
 ## Third Place - £500
 
-[![blog-image](https://blog.playcanvas.com/wp-content/uploads/2016/04/blog-image-2.jpg)](https://playcanv.as/p/VhZwmcKu)
+[![blog-image](/assets/media/blog-image-2.jpg)](https://playcanv.as/p/VhZwmcKu)
 
 ### **[Space Pirates](https://playcanv.as/p/VhZwmcKu)**
 

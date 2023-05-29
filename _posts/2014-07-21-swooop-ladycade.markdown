@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-![SWOOOP at LadyCADE](https://blog.playcanvas.com/wp-content/uploads/2014/07/ladycade1.jpg)
+![SWOOOP at LadyCADE](/assets/media/ladycade1.jpg)
 
 Last Friday night PlayCanvas resident artist [Philippa Moore](http://www.philippamoore.com/) took our game [SWOOOP](http://swooop.playcanvas.com/) up to Dalston to the [London Game Space](http://londongamespace.com/). The event?
 
@@ -23,6 +23,6 @@ We held a make-shift high score competition with post-it notes on the wall and b
 
 The final results are here:
 
-![SWOOOP Highscores](https://blog.playcanvas.com/wp-content/uploads/2014/07/swooop_hiscores.jpeg)
+![SWOOOP Highscores](/assets/media/swooop_hiscores.jpeg)
 
 Thanks to Gemma, Holly and others who helped to organize this great event.

@@ -25,7 +25,7 @@ The semantic versioning site says:
 
 The PlayCanvas API is now very stable, mature and battle-hardened. Backwards compatibility is something we take very seriously indeed. And today, PlayCanvas is used in production by thousands of developers.
 
-[caption id="attachment_2544" align="aligncenter" width="640"]![](https://blog.playcanvas.com/wp-content/uploads/2018/04/indian_motorcycles-1024x618.png)](https://www.indianmotorcycle.com/en-us/chieftain-elite-black-hills-silver/build/) Indian Motorcycle's PlayCanvas-powered configurator[/caption]
+[caption id="attachment_2544" align="aligncenter" width="640"]![](/assets/media/indian_motorcycles-1024x618.png)](https://www.indianmotorcycle.com/en-us/chieftain-elite-black-hills-silver/build/) Indian Motorcycle's PlayCanvas-powered configurator[/caption]
 
 And so, it gives me great pleasure to announce [PlayCanvas Engine v1.0.0](https://github.com/playcanvas/engine/releases/tag/v1.0.0). I want to give my sincere thanks to all of the truly exceptional, hugely talented [contributors](https://github.com/playcanvas/engine/graphs/contributors) who helped make this possible.
 

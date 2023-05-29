@@ -13,7 +13,7 @@ categories:
 
 _After two successful entries into the PLAYHACK game jam, we thought it was time to share some insights from one of our star community members: Rustam Zinurov._
 
-![rzinurov](https://blog.playcanvas.com/wp-content/uploads/2015/04/rzinurov.jpg)
+![rzinurov](/assets/media/rzinurov.jpg)
 
 > I liked the idea that I didn't need to install anything - all I needed was a browser
 
@@ -29,7 +29,7 @@ Since January, 2015
 **What led you to start using PlayCanvas?**
 I watched all [your videos](http://youtube.com/user/playcanvas/) and checked most of [tutorials](https://developer.playcanvas.com/en/tutorials/). The feeling was that I can start doing something and getting the results with this platform very fast and it was true. I liked the idea that I didn't need to install anything - all I needed was a browser, so I decided to give it a chance.
 
-[![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)
+[![space_buggy_start](/assets/media/space_buggy_start.png)](/assets/media/space_buggy_start.png)
 
 > Try to start with some simple tasks. I've seen a lot of guys who were trying to implement a very difficult game as a first project here. If you do that you will definitely fail.
 
