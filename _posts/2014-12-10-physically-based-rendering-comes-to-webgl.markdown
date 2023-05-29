@@ -23,7 +23,7 @@ Up until now PBR has only been available in the domain of AAA console and PC gam
 
 ![shadingComparison2](/assets/media/shadingComparison2.jpg)
 
-Over the past 3 years since PlayCanvas started, we've seen WebGL adoption skyrocket. It's now supported in every major browser, both on mobile and the desktop. Current [statistics](http://webglstats.com/) show that 82.7% of web users have the ability to run WebGL content, and this number continues to rise. The PlayCanvas 'Star-Lord Demo' shows that WebGL is perfectly capable of implementing PBR and other high-end graphical features.
+Over the past 3 years since PlayCanvas started, we've seen WebGL adoption skyrocket. It's now supported in every major browser, both on mobile and the desktop. Current [statistics](https://caniuse.com/webgl) show that 82.7% of web users have the ability to run WebGL content, and this number continues to rise. The PlayCanvas 'Star-Lord Demo' shows that WebGL is perfectly capable of implementing PBR and other high-end graphical features.
 
 ### Coming Soon
 
