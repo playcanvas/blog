@@ -333,7 +333,7 @@ BulletTimeEffect.prototype.update = function (dt) {
 };
 ```
 
-As for making the screen shake, its a bit more complex (Though certainly not magic!). The underlying logic is to simply move the camera randomly. To do so, we can use a script that tracks the camera's original position, and translates it randomly. We reset to the original position at the beginning of each new frame, and repeat.
+As for making the screen shake, it's a bit more complex (though certainly not magic!). The underlying logic is to simply move the camera randomly. To do so, we can use a script that tracks the camera's original position, and translates it randomly. We reset to the original position at the beginning of each new frame, and repeat.
 
 ```javascript
 this.entity.setPosition(originalPosition);

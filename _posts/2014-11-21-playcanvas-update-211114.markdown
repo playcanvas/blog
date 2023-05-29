@@ -58,7 +58,7 @@ We [announced](https://blog.playcanvas.com/3d-asset-store-propsplanet-upgrades-f
 
 ### **PlayHack**
 
-There is little **over a week to go till the first PlayHack Game Jam closes**, but its never too late to enter! Find out everything you need to know [**here**](https://blog.playcanvas.com/category/playhack/).
+There is little **over a week to go till the first PlayHack Game Jam closes**, but it's never too late to enter! Find out everything you need to know [**here**](https://blog.playcanvas.com/category/playhack/).
 
 ### **Stay In The Loop**
 
