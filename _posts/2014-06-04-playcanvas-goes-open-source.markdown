@@ -20,7 +20,7 @@ Today, we have some more great news for WebGL fans, game developers and web deve
 
 **PlayCanvas Engine is now open source.**
 
-The entire runtime engine is available right now on [github](https://github.com/playcanvas/engine) under the lovely [MIT license](opensource.org/licenses/MIT). Which means you can download it, fork it, and generally use it for anything you like.
+The entire runtime engine is available right now on [github](https://github.com/playcanvas/engine) under the lovely [MIT license](https://opensource.org/license/mit/). Which means you can download it, fork it, and generally use it for anything you like.
 
 ### Why open source, why now?
 
