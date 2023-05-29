@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-![api](https://blog.playcanvas.com/wp-content/uploads/2016/09/api.png)
+![api](/assets/media/api.png)
 
 Today we're launching the first version of the PlayCanvas REST API.
 

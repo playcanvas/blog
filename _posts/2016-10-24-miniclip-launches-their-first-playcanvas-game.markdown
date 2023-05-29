@@ -13,7 +13,7 @@ categories:
 
 PlayCanvas is proud to announce that browser-gaming giant Miniclip has published their first PlayCanvas-powered game: Virtual Voodoo.
 
-[video width="1280" height="720" mp4="https://blog.playcanvas.com/wp-content/uploads/2016/10/virtualvoodoo.mp4"][/video]
+[video width="1280" height="720" mp4="/assets/media/virtualvoodoo.mp4"][/video]
 
 Virtual Voodoo is designed to get you in the mood for a spooky Halloween. Make the poor Voodoo doll's life a misery with a dastardly selection of spells, curses and implements of pain! You can even customize the doll with different clothing and accessories.
 

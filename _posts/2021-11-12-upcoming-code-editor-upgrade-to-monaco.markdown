@@ -13,7 +13,7 @@ categories:
 
 We have almost completed work on moving the Code Editor from Code Mirror to [Monaco](https://github.com/Microsoft/monaco-editor), the same editor that powers the ever popular, Visual Studio Code.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/11/image-1024x391.png)](https://blog.playcanvas.com/wp-content/uploads/2021/11/image.png)_Look familiar? 👀_
+[![](/assets/media/image-1024x391.png)](/assets/media/image-1.png)_Look familiar? 👀_
 
 With this upgrade, it will give developers:
 
@@ -21,7 +21,7 @@ With this upgrade, it will give developers:
 - More editing functionality through the command palette
 - Mouse driven features such as Cmd/Ctrl + Click to jump to definition, hover for documentation and a context menu!
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/11/playcanvas-monaco-code-editor-1.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/11/playcanvas-monaco-code-editor-1.gif)
+[![](/assets/media/playcanvas-monaco-code-editor-1.gif)](/assets/media/playcanvas-monaco-code-editor-1.gif)
 
 There will be some small differences which will include:
 

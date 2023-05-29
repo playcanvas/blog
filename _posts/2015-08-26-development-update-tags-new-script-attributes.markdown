@@ -19,7 +19,7 @@ Hi everyone! It's time for another Development Update. So without further ado...
 
 The feedback we've been getting is that your projects are continuing to grow. More assets, more entities, more complexity. It makes it hard to find and organize things, right? To help you out, we've introduced Tags to the Editor interface. We're starting out with Assets. Check out how you tag your assets:
 
-[![tags](https://blog.playcanvas.com/wp-content/uploads/2015/08/tags.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/tags.gif)
+[![tags](/assets/media/tags.gif)](/assets/media/tags.gif)
 
 To search for Assets, we have introduced a new [pc.Tags API](https://developer.playcanvas.com/en/api/pc.Tags.html). Let's quickly look at some examples:
 
@@ -66,13 +66,13 @@ pc.script.attribute('rgbaCurve', 'colorcurve', null, {
 
 Check out the colorcurve control's functionality below:
 
-[![colorcurve](https://blog.playcanvas.com/wp-content/uploads/2015/08/colorcurve.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/colorcurve.gif)
+[![colorcurve](/assets/media/colorcurve.gif)](/assets/media/colorcurve.gif)
 
 To define an entity script attribute, use the following notation:
 
     pc.script.attribute('target', 'entity');
 
 This exposes an entity picker to your script UI. Even cooler is that you can drag entities from the Hierarchy panel directly onto the picker, as shown below:
-[![entitydrag](https://blog.playcanvas.com/wp-content/uploads/2015/08/entitydrag.gif)](https://blog.playcanvas.com/wp-content/uploads/2015/08/entitydrag.gif)
+[![entitydrag](/assets/media/entitydrag.gif)](/assets/media/entitydrag.gif)
 
 That's it for this update, friends. Now get back to making cool stuff! :D

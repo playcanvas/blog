@@ -17,7 +17,7 @@ We're excited to announce the launch of Master Archer, our new Instant Game for 
 
 Only a week on from release and Master Archer has already cracked 1,000,000 players!
 
-![instant-game-chart](https://blog.playcanvas.com/wp-content/uploads/2017/01/instant-game-chart.png)
+![instant-game-chart](/assets/media/instant-game-chart.png)
 
 This shows the incredible viral power of Facebook's new gaming platform.
 
@@ -25,12 +25,12 @@ Many developers make 3D apps with PlayCanvas, but as you can see, PlayCanvas can
 
 To play, open Facebook Messenger, select a friend and hit the joypad icon:
 
-![play-archer](https://blog.playcanvas.com/wp-content/uploads/2017/01/play-archer.png)
+![play-archer](/assets/media/play-archer.png)
 
 And select Master Archer from the game list!
 
 Or you can play on [facebook.com](https://www.facebook.com/Master-Archer-370044956688583/) if you are using a desktop browser.
 
-[![What's your high score?](https://blog.playcanvas.com/wp-content/uploads/2017/01/hi-score-2-1024x548.jpg)](https://www.facebook.com/Master-Archer-370044956688583/)
+[![What's your high score?](/assets/media/hi-score-2-1024x548.jpg)](https://www.facebook.com/Master-Archer-370044956688583/)
 
 Let us know your high score in the comments!

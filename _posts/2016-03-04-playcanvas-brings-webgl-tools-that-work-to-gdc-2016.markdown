@@ -13,7 +13,7 @@ categories:
 
 We're heading to San Francisco for GDC 2016!
 
-[![gdc16_logo-color](https://blog.playcanvas.com/wp-content/uploads/2016/03/gdc16_logo-color.png)](https://blog.playcanvas.com/wp-content/uploads/2016/03/gdc16_logo-color.png)
+[![gdc16_logo-color](/assets/media/gdc16_logo-color.png)](/assets/media/gdc16_logo-color.png)
 
 Actually, we fly out a week early to tour PlayCanvas users on the West Coast. But we're really excited about attending the conference because we have a lot of coolness in store. Here's a quick run-down of what we'll be up to:
 

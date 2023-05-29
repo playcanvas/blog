@@ -15,7 +15,7 @@ This month we have an extra special PLAYHACK, our monthly game jam, to announce.
 
 ## PRIZE
 
-[![chromebook](https://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/02/chromebook1.jpg)
+[![chromebook](/assets/media/chromebook1.jpg)](/assets/media/chromebook1.jpg)
 
 This month the author of our favorite PLAYHACK game will walk away with a **Chromebook 2**, the ARM powered laptop that's perfect for game development with PlayCanvas!
 
@@ -30,7 +30,7 @@ Here are the specs:
 
 To win this lovely bit of kit we want you to build a game, and to help you build that game ARM has supplied us with this beautiful Buggy Model.
 
-![buggy](https://blog.playcanvas.com/wp-content/uploads/2015/02/buggy.jpg)
+![buggy](/assets/media/buggy.jpg)
 
 We've set up the vehicle physics for you (but feel free to re-write that if you like). All you need to do is come up with an interesting idea for a game (Racing, Stunt driving, Buggy Football!) and code it up. You don't even need to make the buggy the center of attention, as long as it's in your scene you're good.
 
@@ -46,7 +46,7 @@ What are you waiting for?
 
 ## [START PLAYHACKING!](https://playcanvas.com/project/338302/overview/playhack-mar-15)
 
-![ARM-PC](https://blog.playcanvas.com/wp-content/uploads/2015/02/ARM-PC.png)
+![ARM-PC](/assets/media/ARM-PC.png)
 
 ---
 

@@ -22,7 +22,7 @@ Simply **share your [unique Referral link](https://playcanvas.com/account)** whe
 
 The 5% you are entitled to is also based on the new users subscription fee.
 
-[![Screen Shot 2014-11-04 at 16.08.55](https://blog.playcanvas.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-04-at-16.08.55.png)](https://blog.playcanvas.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-04-at-16.08.55.png)
+[![Screen Shot 2014-11-04 at 16.08.55](/assets/media/Screen-Shot-2014-11-04-at-16.08.55.png)](/assets/media/Screen-Shot-2014-11-04-at-16.08.55.png)
 
 ### **Finding Your Referral Link**
 
@@ -38,4 +38,4 @@ The 5% you are entitled to is also based on the new users subscription fee.
 
 1. **Click this giant button!**
 
-[![Screen Shot 2014-11-04 at 17.07.59](https://blog.playcanvas.com/wp-content/uploads/2014/11/Screen-Shot-2014-11-04-at-17.07.59.png)](https://playcanvas.com/account)
+[![Screen Shot 2014-11-04 at 17.07.59](/assets/media/Screen-Shot-2014-11-04-at-17.07.59.png)](https://playcanvas.com/account)

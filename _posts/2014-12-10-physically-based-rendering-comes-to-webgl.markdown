@@ -21,7 +21,7 @@ If you're working with real-time 3D, chances are that you want your scenes to lo
 
 Up until now PBR has only been available in the domain of AAA console and PC gaming. Games like Watch Dogs, Assassin's Creed: Unity and Call of Duty: Advanced Warfare all feature PBR engines. **Today, we're excited to announce that PBR is coming to PlayCanvas.** Both web developers and game creators can now look forward to a high-level online toolset to build stunningly beautiful 3D scenes using WebGL.
 
-![shadingComparison2](https://blog.playcanvas.com/wp-content/uploads/2014/12/shadingComparison2.jpg)
+![shadingComparison2](/assets/media/shadingComparison2.jpg)
 
 Over the past 3 years since PlayCanvas started, we've seen WebGL adoption skyrocket. It's now supported in every major browser, both on mobile and the desktop. Current [statistics](http://webglstats.com/) show that 82.7% of web users have the ability to run WebGL content, and this number continues to rise. The PlayCanvas 'Star-Lord Demo' shows that WebGL is perfectly capable of implementing PBR and other high-end graphical features.
 
@@ -33,4 +33,4 @@ The open source PlayCanvas engine has taken a quantum leap forwards and we could
 
 We'd like to give a special shout-out to [Joachim Coppens](http://joachimcoppens.com/) who built the Star-Lord helmet fan art, and let us use it for this demo.
 
-[![button](https://blog.playcanvas.com/wp-content/uploads/2014/12/button.png)](https://login.playcanvas.com/signup)
+[![button](/assets/media/button.png)](https://login.playcanvas.com/signup)

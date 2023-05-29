@@ -17,7 +17,7 @@ Today, we're excited to announce our next major release for the library: PCUI 1.
 
 #### TreeView - Tree Control
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/12/treeview-1.gif)
+![](/assets/media/treeview-1.gif)
 
 Many web tools display data in a hierarchical or tree-based representation. But building a tree control in HTML and CSS can be tricky. PCUI 1.1.0 introduces a very easy to use tree control. And it incorporates some useful features such as:
 
@@ -26,13 +26,13 @@ Many web tools display data in a hierarchical or tree-based representation. But 
 
 #### ArrayInput - Array Control
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/12/arrayinput.gif)
+![](/assets/media/arrayinput.gif)
 
 Also arriving in PCUI is ArrayInput. It allows you to create input controls for arrays of numbers, strings, booleans or vectors.
 
 #### Resizable TextAreaInput Control
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/12/texareainput.gif)
+![](/assets/media/texareainput.gif)
 
 The TextAreaInput control has been augmented with a new resizable property that can be set to 'none', 'horizontal', 'vertical' or 'both'.
 

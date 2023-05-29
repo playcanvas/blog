@@ -13,7 +13,7 @@ categories:
 
 Another exciting day at PlayCanvas Towers! PlayCanvas and Tizen have formerly announced a partnership, with PlayCanvas joining the Tizen Association Partner Program. So what does all this mean? Let's start with a little bit about Tizen.
 
-[![Tizen-Logo-01-578-80](https://blog.playcanvas.com/wp-content/uploads/2014/05/Tizen-Logo-01-578-80.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/05/Tizen-Logo-01-578-80.jpg)
+[![Tizen-Logo-01-578-80](/assets/media/Tizen-Logo-01-578-80.jpg)](/assets/media/Tizen-Logo-01-578-80.jpg)
 
 [Tizen](www.tizen.org) is an open source project managed by the Linux Foundation. The goal of the project is to build and support a cross-architecture, open source software platform that spans multiple device segments, including smartphone, tablet, Smart TV, appliances, netbook and in-vehicle infotainment systems. The [Tizen Association](www.tizenassociation.org) is an industry consortium of operators, device manufacturers and their suppliers, independent software developers and mobile application developers.
 

@@ -18,7 +18,7 @@ Last month we worked with ARM to launch our first **Prize PLAYHACK**. They pro
 
 ## Space Buggy
 
-[![space_buggy_start](https://blog.playcanvas.com/wp-content/uploads/2015/04/space_buggy_start.png)](https://playcanv.as/p/3RerJIcy)
+[![space_buggy_start](/assets/media/space_buggy_start.png)](https://playcanv.as/p/3RerJIcy)
 
 This month's **PLAYHACK winner** is **Space Buggy** a compulsive driving game. Which features tracks generated from stock charts. The aim is to safely reach the end of the track without over-turning or running out of fuel.
 
@@ -38,6 +38,6 @@ We want to make a couple of **special mentions** to [alphacodemonkey](https://pl
 
 We've been working hard with ARM to make sure that PlayCanvas runs really well on their Mali mobile GPUs. You'll see this in the Seemore demo we developed in association with ARM.
 
-[![Screen Shot 2015-04-02 at 15.49.43](https://blog.playcanvas.com/wp-content/uploads/2015/04/Screen-Shot-2015-04-02-at-15.49.43.png)](http://seemore.playcanvas.com/)
+[![Screen Shot 2015-04-02 at 15.49.43](/assets/media/Screen-Shot-2015-04-02-at-15.49.43.png)](http://seemore.playcanvas.com/)
 
 Find out more at [http://malideveloper.arm.com](http://malideveloper.arm.com/)

@@ -17,11 +17,11 @@ tags:
 
 We’re excited to be able to release a new system for creating fantastic and high fidelity animations in PlayCanvas!
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/05/animation-and-graph.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/05/animation-and-graph.gif)
+[![](/assets/media/animation-and-graph-2.gif)](/assets/media/animation-and-graph-2.gif)
 
 Animation systems receive a set of inputs (button presses, current player speed, health, etc) and output a models animation pose for the current frame. How an animation system goes from a particular set of inputs to the desired animation pose can become quite complicated, especially when writing this in code.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/04/image-1024x289.png)](https://blog.playcanvas.com/wp-content/uploads/2021/04/image.png)
+[![](/assets/media/image-1024x289.png)](/assets/media/image-3.png)
 
 With the release of the Anim component, Anim State Graph assets and Anim State Graph Editor, you will be able to design and develop intricate animation behavior for your game objects right in the PlayCanvas editor.
 

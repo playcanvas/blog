@@ -12,7 +12,7 @@ categories:
   - Tutorial
 ---
 
-[![PLAYHACK_clear](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/PLAYHACK_clear.png)
+[![PLAYHACK_clear](/assets/media/PLAYHACK_clear.png)](/assets/media/PLAYHACK_clear.png)
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We'll follow up with more of these throughout the week. Don't forget, these are just examples. You can make **any** game you like.
 
@@ -20,7 +20,7 @@ As this is our first PLAYHACK we thought it would be sensible to start with a fe
 
 Our first snippet of code is going to get you controlling your tank. This will give you an little introduction into the PlayCanvas physics system as well as reading keyboard input.
 
-[![tank](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/10/tank.jpg)
+[![tank](/assets/media/tank.jpg)](/assets/media/tank.jpg)
 
 ### Setting up the Physics
 
@@ -28,11 +28,11 @@ The pack you started with has a tank entity set up. To add physics we need to ad
 
 Here is one way to set up the hierarchy:
 
-[![PLAYHACK_hierarchy](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_hierarchy.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_hierarchy.jpg)
+[![PLAYHACK_hierarchy](/assets/media/PLAYHACK_hierarchy.jpg)](/assets/media/PLAYHACK_hierarchy.jpg)
 
 The **Tank** entity is setup with rigidbody and collision components. The **Geometry **entity is a container for the models and the light. We can position the **Geometry **entity so that it lines up in the center of our collision.
 
-[![PLAYHACK_attributes](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_attributes.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/11/PLAYHACK_attributes.jpg)
+[![PLAYHACK_attributes](/assets/media/PLAYHACK_attributes.jpg)](/assets/media/PLAYHACK_attributes.jpg)
 
 Here is the attribute panel for the **Tank **entity. You  can see we've set the collision shape to be a sphere, the rigidbody is dynamic and we've set angular factor to [0,1,0] which means the sphere can only rotate around the y-axis.
 
@@ -85,4 +85,4 @@ PLAYHACK is our monthly game jam. We'll give you a starting point and you have a
 
 Not started work on your PLAYHACK game yet? What are you waiting for go fork this project!
 
-[![button](https://blog.playcanvas.com/wp-content/uploads/2014/10/button.png)](https://playcanvas.com/user/playcanvas/gamejam-nov-14)
+[![button](/assets/media/button-1.png)](https://playcanvas.com/user/playcanvas/gamejam-nov-14)

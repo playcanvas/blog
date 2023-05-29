@@ -25,7 +25,7 @@ The Code Editor also received a major upgrade this year when [we switched from C
 
 Animation tooling also received a huge boost in 2021 with the introduction of the [Anim State Graph Editor](https://blog.playcanvas.com/introducing-the-anim-state-graph/).
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2021/12/animation-and-graph.gif)](https://blog.playcanvas.com/wp-content/uploads/2021/12/animation-and-graph.gif)AnimStateGraph Editor
+[![](/assets/media/animation-and-graph.gif)](/assets/media/animation-and-graph.gif)AnimStateGraph Editor
 
 You now have the ability to author anything from simple animation cycles to advanced locomotion systems. Check out how indie developer Cem Demir is using the new animation system in his forthcoming multiplayer survival game:
 
@@ -57,7 +57,7 @@ You can expect clustered lighting to fully replace the existing lighting system 
 
 PlayCanvas' run-time lightmapper received a major upgrade this year. Previously, it was only able to bake direct light to lightmaps and while this could speed up scene load and render times, direct lighting alone struggles to deliver high quality visuals. Now, it can generate soft shadows and bake ambient occlusion. Check out the[ new engine example](https://playcanvas.github.io/#/graphics/lights-baked-ao) that shows off these amazing new capabilities:
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/01/soft-shadows.gif)](https://blog.playcanvas.com/wp-content/uploads/2022/01/soft-shadows.gif)
+[![](/assets/media/soft-shadows.gif)](/assets/media/soft-shadows.gif)
 
 Lastly, we implemented cascaded shadows maps that dramatically boosts shadow quality for large-scale environments. It didn't take long for the community to start showcasing the benefits:
 

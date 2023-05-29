@@ -89,7 +89,7 @@ Now that we have merged the ES6 Module port, where do we go from here?
 
 First up, Rollup is kindly informing us that circular dependencies exist in the PlayCanvas codebase.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/06/circular-1024x214.png)
+![](/assets/media/circular-1024x214.png)
 
 We want to clean things up and eliminate them. What's the motivation for that? It makes it easier for the bundler to employ tree-shaking to remove unreferenced code from the engine. At the moment, the engine's `Application` class imports pretty much everything. And many classes import the `Application`. This makes it hard to build a version of the library which doesn't include the particle engine, say. Or maybe the physics engine.
 
