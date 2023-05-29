@@ -24,7 +24,7 @@ This is a point and click adventure. You only get one (game) hour to get all the
 
 A 'one button control' game where you drive a truck along a randomly generated track. You can only control the car by accelerating (using LMB, space bar or screen touch). You only get one minute to drive as far as you can!
 
-[![Accelerally](/assets/media/ld28-going-accelerally.jpg)](https://playcanv.as/p/dq0cXdTJ/)
+[![Accelerally](/assets/media/ld28-accelerally.jpg)](https://playcanv.as/p/dq0cXdTJ/)
 
 ### [Hungry Centipede](https://playcanv.as/p/LWXp9L6L/), by [@vkalpias](https://twitter.com/vkalpias) ([Project link](https://playcanvas.com/project/3487/overview/hungry-centipede))
 
