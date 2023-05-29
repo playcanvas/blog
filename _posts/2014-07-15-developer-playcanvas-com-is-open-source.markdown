@@ -12,7 +12,7 @@ categories:
   - News
 ---
 
-[![os-all-the-things](https://blog.playcanvas.com/wp-content/uploads/2014/07/os-all-the-things.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/07/os-all-the-things.jpg)
+[![os-all-the-things](/assets/media/os-all-the-things.jpg)](/assets/media/os-all-the-things.jpg)
 
 As part of our continuing drive to make PlayCanvas more open and a better service we've moved the source to our developer resources site: [developer.playcanvas.com](https://developer.playcanvas.com) onto [github](https://github.com/playcanvas/developer.playcanvas.com).
 

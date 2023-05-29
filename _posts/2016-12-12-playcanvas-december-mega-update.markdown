@@ -17,13 +17,13 @@ Time for another dev update, WebGL lovers! We've deployed a ton of new features,
 
 A Camera Preview is now shown in the top left corner of Viewport when an entity with a camera component is selected.
 
-[![camerapreview](https://blog.playcanvas.com/wp-content/uploads/2016/12/camerapreview.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/12/camerapreview.gif)
+[![camerapreview](/assets/media/camerapreview.gif)](/assets/media/camerapreview.gif)
 
 ### Interactive Asset Previews
 
 New Material, Model and Cubemap Previews are now available in the Inspector. They are interactive and clickable.
 
-[![material-preview](https://blog.playcanvas.com/wp-content/uploads/2016/12/material-preview.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/12/material-preview.gif)
+[![material-preview](/assets/media/material-preview.gif)](/assets/media/material-preview.gif)
 
 ###
 
@@ -31,7 +31,7 @@ New Material, Model and Cubemap Previews are now available in the Inspector. The
 
 It is now possible to control antialiasing in Scene Settings.
 
-[![antialias](https://blog.playcanvas.com/wp-content/uploads/2016/12/antialias.png)](https://blog.playcanvas.com/wp-content/uploads/2016/12/antialias.png)
+[![antialias](/assets/media/antialias.png)](/assets/media/antialias.png)
 
 ### Model Placement
 
@@ -41,15 +41,15 @@ When dragging a model to the Viewport from the Assets panel, if CTRL is held (CM
 
 Added toggle button to Assets panel to switch between small and large thumbnails.
 
-[![thumbnail-size](https://blog.playcanvas.com/wp-content/uploads/2016/12/thumbnail-size.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/12/thumbnail-size.gif)
+[![thumbnail-size](/assets/media/thumbnail-size.gif)](/assets/media/thumbnail-size.gif)
 
 Added Folder Up button to navigate to parent folder.
 
-[![folder-up](https://blog.playcanvas.com/wp-content/uploads/2016/12/folder-up.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/12/folder-up.gif)
+[![folder-up](/assets/media/folder-up.gif)](/assets/media/folder-up.gif)
 
 Hovering on asset in Assets panel will show a tooltip with the full asset name.
 
-[![asset-tooltips](https://blog.playcanvas.com/wp-content/uploads/2016/12/asset-tooltips.gif)](https://blog.playcanvas.com/wp-content/uploads/2016/12/asset-tooltips.gif)
+[![asset-tooltips](/assets/media/asset-tooltips.gif)](/assets/media/asset-tooltips.gif)
 
 Asset Replace feature is available under the context menu of an asset. It activates the asset picker so the developer can choose another asset of the same type. It will replace references with new asset in Entities and Assets.
 

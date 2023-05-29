@@ -19,19 +19,19 @@ One of our most requested features has always been for more advanced version con
 
 Checkpoints take a snapshot of your project at a moment in time. This lets you restore previous versions or just see a timeline of what changes are being made by each member of your team.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2019/01/vc-panel-1024x654.jpg)
+![](/assets/media/vc-panel-1024x654.jpg)
 
 ### Branches
 
 Like other version control systems with PlayCanvas you can create independent lines of development by creating branches. Branches let you or your team work on changes and features that don't affect your main product development.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2019/01/merging-checkpoints-3-1024x366.png)
+![](/assets/media/merging-checkpoints-3-1024x366.png)
 
 ### Merging
 
 Once you've finished work in your branch, you'll want to merge you branch back into your production development. We've got a sophisticated merging interface that let's you merge your code, scenes and assets and resolve any conflicting changes in your scenes and code.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2019/01/conflicts-resolved-1024x609.jpg)
+![](/assets/media/conflicts-resolved-1024x609.jpg)
 
 We've been testing the version control features over the last few months and we know you're going to love them. Read more about how you can use branches in your project in our [developer docs.](https://developer.playcanvas.com/user-manual/version-control/)
 

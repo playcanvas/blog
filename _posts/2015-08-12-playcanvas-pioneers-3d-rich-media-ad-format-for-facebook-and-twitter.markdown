@@ -15,7 +15,7 @@ PlayCanvas, the leading tool for creating interactive 3D content for the web, to
 
 PlayCanvas and Hutch Games have collaborated to create a set of 3D interactive experiences for monster truck and wrestling fans on Twitter and Facebook. Players get a taste of the latest MMX Racing update right in their feed before going on to install the game.
 
-[caption id="attachment_2223" align="aligncenter" width="599"]![tripleh interactive ad](https://blog.playcanvas.com/wp-content/uploads/2015/08/tripleh.jpg)](http://mmx.playcanvas.com/?truck=tripleh&ref=blog) Try the Triple H rich media ad[/caption]
+[caption id="attachment_2223" align="aligncenter" width="599"]![tripleh interactive ad](/assets/media/tripleh.jpg)](http://mmx.playcanvas.com/?truck=tripleh&ref=blog) Try the Triple H rich media ad[/caption]
 
 Currently interactive 3D content, including games, has always been locked up inside app stores and browser plugins. This means that on mobile devices, users have to suffer through the download and install process just to experience a bit of fun. PlayCanvas is the only engine technology that can bring these experiences to life on the web or in social networking apps.
 

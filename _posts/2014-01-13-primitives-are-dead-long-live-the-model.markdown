@@ -36,7 +36,7 @@ He's a quick 4 step guide to create a primitive and applying a material.
 
 **4.** Click Create Material, then open up the diffuse and normal panels in the Material Editor and drag the assets from the Asset Explorer into the material slots.
 
-[![Primitive Materials](https://blog.playcanvas.com/wp-content/uploads/2014/01/primitive_materials.png)](https://blog.playcanvas.com/wp-content/uploads/2014/01/primitive_materials.png)
+[![Primitive Materials](/assets/media/primitive_materials.png)](/assets/media/primitive_materials.png)
 
 We hope you enjoy the new power we've given you today. Just enjoy it responsibly. ;-)
 

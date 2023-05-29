@@ -37,11 +37,11 @@ Those are some pretty **_significant wins_**! So what are the differences betwee
 
 In October 2020, [PlayCanvas officially switched](https://blog.playcanvas.com/faster-load-times-with-gltfs-glb-format/) from JSON to glTF 2.0 (GLB) for storing all model and animation data. While gzipped GLB is reasonably similar in size to gzipped JSON, it is up to an order of magnitude faster to parse a GLB file once it has been downloaded. Plus, a GLB file occupies less system memory than the equivalent JSON file. Converting all of the assets from JSON to GLB is a simple process. First, flip the project setting 'Convert to GLB' in the 'Asset Tasks' group to true:
 
-![](https://blog.playcanvas.com/wp-content/uploads/2021/02/converttoglb.png)
+![](/assets/media/converttoglb.png)
 
 Now, simply reupload all FBX files and a .glb asset will be generated rather than a .json asset. The last step is to use the Replace command in the right-click context menu to replace the .json asset with the .glb asset (plus any materials as well).
 
-![](https://blog.playcanvas.com/wp-content/uploads/2021/02/jsontoglb.gif)
+![](/assets/media/jsontoglb.gif)
 
 You can then delete the old JSON asset (plus any unreferenced related materials).
 
@@ -60,19 +60,19 @@ This explains much of the download savings in the updated version.
 
 Fortunately, applying Basis compression to the app's textures is literally a two-click operation:
 
-![](https://blog.playcanvas.com/wp-content/uploads/2021/02/compress.gif)
+![](/assets/media/compress.gif)
 
 ### Prefilter Cubemaps in the Editor
 
 When PBR first arrived in PlayCanvas, the Editor could not prefilter cubemaps. This conversion had to be performed externally with RGBM format cubemap faces being added to the Editor:
 
-![](https://blog.playcanvas.com/wp-content/uploads/2021/02/oldcube-1024x537.png)
+![](/assets/media/oldcube-1024x537.png)
 
 Each cubemap had 6 mip levels with 6 faces for each level. And with 5 different cubemaps, that meant 180 of the demo's 220 HTTP requests were for these PNGs!
 
 These days, the Editor makes is super easy to import 6 HDR cubemap faces, build a cubemap and then prefilter it.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2021/02/prefilter.gif)
+![](/assets/media/prefilter.gif)
 
 So instead of loading 180 PNGs, the demo now loads just 5 DDS files. Much faster. 🚀
 

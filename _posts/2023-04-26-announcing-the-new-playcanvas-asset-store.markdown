@@ -27,7 +27,7 @@ Now, let's examine some of the key highlights that make the new Asset Store so s
 
 It should be possible to grab assets quickly, right from within the Editor itself. Why should you have to open a new tab and go hunting around the web? So to keep things as convenient as possible, the ASSET STORE button (in the Editor's Assets Panel) now opens a nicely designed, responsive Asset Store panel.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-open.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-open.gif)
+[![](/assets/media/asset-store-open.gif)](/assets/media/asset-store-open.gif)
 
 One really cool benefit of selecting assets from within the Editor is that the currently selected Asset folder is known. This means you have compete control over where your imported assets will be saved.
 
@@ -35,7 +35,7 @@ One really cool benefit of selecting assets from within the Editor is that the c
 
 Sometimes, an asset thumbnail just isn't sufficient to tell if a particular asset is what you want.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-viewer.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-viewer.gif)
+[![](/assets/media/asset-store-viewer.gif)](/assets/media/asset-store-viewer.gif)
 
 Our new Store allows you to select a Store Item and preview it in an appropriate viewer (glTF Viewer for 3D models, Texture Viewer for textures and cubemaps).
 
@@ -43,7 +43,7 @@ Our new Store allows you to select a Store Item and preview it in an appropriate
 
 As the number of store items continues to grow, it's going to be incredibly important for you to be able to narrow down your assets searches. As a result, the new Store comes with powerful searching, sorting and filtering capabilities.
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-search.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-search.gif)
+[![](/assets/media/asset-store-search.gif)](/assets/media/asset-store-search.gif)
 
 You can filter by asset type, search asset names and descriptions and then order search results on a host of criteria.
 
@@ -51,7 +51,7 @@ You can filter by asset type, search asset names and descriptions and then order
 
 Recently, the Asset Store content was, let's just say, beginning to show its age. We are now in a world of HDR skyboxes, PBR materials and high polygon meshes. So it made sense to erase old store items and refresh the Store with better, more modern content. We have selected a broad variety of Creative Commons assets from fantastic content sources such as [kenney.nl](https://kenney.nl/), [HDRi Haven](https://hdri-haven.com/), [Sketchfab](https://sketchfab.com/) and Khronos' [glTF Sample Models](https://github.com/KhronosGroup/glTF-Sample-Models).
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-content.gif)](https://blog.playcanvas.com/wp-content/uploads/2023/04/asset-store-content.gif)
+[![](/assets/media/asset-store-content.gif)](/assets/media/asset-store-content.gif)
 
 If you would have any suggestions for content you would like to be added to the Store, please do let us know!
 

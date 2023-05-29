@@ -17,7 +17,7 @@ It's been another busy week for the PlayCanvas team. Here's a quick run down of 
 
 We've taken lighting to a whole new level of realism in PlayCanvas. The Editor now supports the import of HDR images to build HDR cubemaps.
 
-[![hdr](https://blog.playcanvas.com/wp-content/uploads/2015/05/hdr.jpg)](https://blog.playcanvas.com/wp-content/uploads/2015/05/hdr.jpg)
+[![hdr](/assets/media/hdr.jpg)](/assets/media/hdr.jpg)
 
 [CLICK HERE TO RUN DEMO](https://playcanv.as/p/3zUijwTX)
 
@@ -51,12 +51,12 @@ Stay tuned for multi-selection support for other asset types and entities too!
 
 If you right click a material asset, you can now duplicate it via the context menu:
 
-[![duplicate](https://blog.playcanvas.com/wp-content/uploads/2015/05/duplicate.png)](https://blog.playcanvas.com/wp-content/uploads/2015/05/duplicate.png)
+[![duplicate](/assets/media/duplicate.png)](/assets/media/duplicate.png)
 
 ## Audio Preview
 
 Now you can play back your audio assets directly from the Editor. Select the audio asset in the Assets panel and the Inspector now shows a play button:
 
-[![audio](https://blog.playcanvas.com/wp-content/uploads/2015/05/audio.png)](https://blog.playcanvas.com/wp-content/uploads/2015/05/audio.png)
+[![audio](/assets/media/audio.png)](/assets/media/audio.png)
 
 That's all for this week, folks. Now get back to making great games!

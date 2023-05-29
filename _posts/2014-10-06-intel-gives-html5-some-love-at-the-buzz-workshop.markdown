@@ -15,11 +15,11 @@ Last Thursday, Intel staged one heck of an awesome event in London: 'The Buzz Wo
 
 If you follow Intel closely, you'll know they are serious about HTML5. Very serious. That's why they have a [developer portal](https://software.intel.com/en-us/html5/home) dedicated to HTML5 technologies.  One of these technologies is the XDK, a client-side application that generates multi-platform native builds of HTML5 apps and games in the cloud:
 
-[![xdk](https://blog.playcanvas.com/wp-content/uploads/2014/10/xdk.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/xdk.png)
+[![xdk](/assets/media/xdk.png)](/assets/media/xdk.png)
 
 Perhaps the most amazing thing about the XDK is the shear number of platforms it can output builds for. Check out the interface showing all the options:
 
-[![builds](https://blog.playcanvas.com/wp-content/uploads/2014/10/builds.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/builds.png)
+[![builds](/assets/media/builds.png)](/assets/media/builds.png)
 
 Each of these builds can be generated at the touch of a button. Your HTML5 app is uploaded and crunched into a native app in the cloud, which can then be downloaded back to your host filesystem. Amazing!
 
@@ -27,13 +27,13 @@ If that wasn't impressive enough, they run [Crosswalk](https://crosswalk-project
 
 These technologies are sufficiently awe-inspiring that I wanted to talk about them at the conference. Intel kindly invited us along and I gave a talk called 'Friction Free Gaming'.
 
-[![native](https://blog.playcanvas.com/wp-content/uploads/2014/10/native.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/native.png)
+[![native](/assets/media/native.png)](/assets/media/native.png)
 
 The main theme was that HTML5 and WebGL are enabling us to reach an audience in a new and better way. With the click of a link on social media, end users can now access engaging, high quality interactive 3D experiences. They no longer have to visit an app store for these types of applications. And we, as app/game developers, need to be thinking about how we can best exploit these technologies. So I showed lots of examples of applications covering games, e-commerce, guerrilla marketing, and so on. Hopefully, I convinced a few people in the audience to dive in and discover the power and versatility of HTML5 and WebGL!
 
 After the talk, I took part in a panel, with a remit to consider the future of video game development.
 
-[![panel](https://blog.playcanvas.com/wp-content/uploads/2014/10/panel.png)](https://blog.playcanvas.com/wp-content/uploads/2014/10/panel.png)
+[![panel](/assets/media/panel.png)](/assets/media/panel.png)
 
 As you can imagine, this was my specialist subject and it was good to chat with some great co-panelists about where things are heading. As I see it, it's all about community, collaboration and accessibility - and PlayCanvas nails all of those, and then some.
 

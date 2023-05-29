@@ -17,7 +17,7 @@ tags:
   - webgl
 ---
 
-[![](https://blog.playcanvas.com/wp-content/uploads/2022/09/banner-1024x536.jpg)](https://blog.playcanvas.com/wp-content/uploads/2022/09/banner.jpg)
+[![](/assets/media/banner-1024x536.jpg)](/assets/media/banner.jpg)
 
 Welcome to Developer Spotlight! A new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
@@ -32,7 +32,7 @@ She will showing us the how she recently ported the [John Lemon's Haunted Jaunt]
 
 https://youtu.be/uyxh4bdqK38
 
-[Presentation Slides](https://blog.playcanvas.com/wp-content/uploads/2022/09/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
+[Presentation Slides](/assets/media/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
 
 ### Hi Christina, welcome to Developer Spotlight! Tell us about yourself and your studio!
 

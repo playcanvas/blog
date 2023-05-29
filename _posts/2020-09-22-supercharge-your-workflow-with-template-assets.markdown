@@ -15,7 +15,7 @@ tags:
   - workflow
 ---
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/09/Templates-static-image.jpg)
+![](/assets/media/Templates-static-image.jpg)
 
 It’s finally here! The PlayCanvas team is very excited to announce the public release of our new Templates feature! 🎉
 
@@ -27,7 +27,7 @@ This is a huge workflow boost as managing and changing objects in a scene is now
 
 Now we are able to change and update many scene entities via a **single** asset which is a welcome change from the tedious manual updating of multiple entities across multiple scenes.
 
-![](https://blog.playcanvas.com/wp-content/uploads/2020/09/Kapture-2020-09-16-at-18.32.13.gif)Change all instances of Templates in one click! 🚀
+![](/assets/media/Kapture-2020-09-16-at-18.32.13.gif)Change all instances of Templates in one click! 🚀
 
 Other features of the Template system also include:
 

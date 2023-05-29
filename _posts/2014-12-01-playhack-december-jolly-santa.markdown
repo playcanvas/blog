@@ -12,7 +12,7 @@ categories:
   - PLAYHACK
 ---
 
-[![PLAYHACK_clearxmas](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/PLAYHACK_clearxmas.jpg)
+[![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)](/assets/media/PLAYHACK_clearxmas.jpg)
 
 **If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.**
 
@@ -32,7 +32,7 @@ It works like this:
 
 ## **The Model**
 
-[![assets_white](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/assets_white1.jpg)
+[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
 
 We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the** Jolly Santa model** (complete with sleigh and Rudolph).
 
@@ -50,7 +50,7 @@ We will be holding things down here at HQ during the month long jam by **sharing
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
-[caption id="attachment_1809" align="aligncenter" width="1280" class=" "]![Last month's winning game from LizziP and Alex](https://blog.playcanvas.com/wp-content/uploads/2014/12/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL) SRL by lizzip and auroraimortalis[/caption]
+[caption id="attachment_1809" align="aligncenter" width="1280" class=" "]![Last month's winning game from LizziP and Alex](/assets/media/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL) SRL by lizzip and auroraimortalis[/caption]
 
 ## **Last Month**
 
@@ -60,8 +60,8 @@ Our favorite entry is [SRL](http://apps.playcanvas.com/lizzip/gamehack/SRL) by P
 
 Honorable mentions go to PlayCanvas users [**Crefossus**](http://apps.playcanvas.com/crefossus/pewpew/alpha002) and [**Daniel Petterson**](http://apps.playcanvas.com/danielpettersson/hack/tank) for their games, but thank you to everyone who took part. We can't wait to see what you can come up with this month!
 
-[![FotorCreated5](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)](https://blog.playcanvas.com/wp-content/uploads/2014/12/FotorCreated5.jpg)
+[![FotorCreated5](/assets/media/FotorCreated5.jpg)](/assets/media/FotorCreated5.jpg)
 
 **Click the giant button below to begin your project**!
 
-[![button](https://blog.playcanvas.com/wp-content/uploads/2014/10/button.png)](https://playcanvas.com/project/333365/overview/playhack-dec-14)
+[![button](/assets/media/button-1.png)](https://playcanvas.com/project/333365/overview/playhack-dec-14)
