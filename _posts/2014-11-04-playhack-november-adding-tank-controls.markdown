@@ -85,4 +85,4 @@ PLAYHACK is our monthly game jam. We'll give you a starting point and you have a
 
 Not started work on your PLAYHACK game yet? What are you waiting for go fork this project!
 
-[![button](/assets/media/button-1.png)](https://playcanvas.com/user/playcanvas/gamejam-nov-14)
+[![button](/assets/media/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
