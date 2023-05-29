@@ -22,7 +22,7 @@ This month our favorite PLAYHACK game is [Yet Another Gems](https://playcanv.as/
 
 [![finalists](/assets/media/finalists.jpg)](/assets/media/finalists.jpg)
 
-Here's a selection of some of the games made this month. Special mention to [runninglvlan](https://playcanvas.com/runninglvlan) who only started making his game [Gem Labyrinth](https://playcanv.as/p/snqvkNes) 12 days ago, but already has an addictive maze running game (my record is 130 points in 47 seconds)
+Here's a selection of some of the games made this month. Special mention to [runninglvlan](https://playcanvas.com/user/runninglvlan) who only started making his game [Gem Labyrinth](https://playcanv.as/p/snqvkNes) 12 days ago, but already has an addictive maze running game (my record is 130 points in 47 seconds)
 
 Go watch and star the game projects for [Gem Labyrinth](https://playcanvas.com/project/336187/overview/gemlabyrinth) and [Yet Another Gems](https://playcanvas.com/project/335386/overview/yet-another-gems).
 
@@ -46,7 +46,7 @@ Valentine's Day is only 2 weeks away, so don't wait around. If you miss the 14th
 
 4. At the end of the month we'll look at all the forks
 
-5. We’ll pick our favorite and feature it on the [explore page](https://playcanvas.com.play)
+5. We’ll pick our favorite and feature it on the [explore page](https://playcanvas.com/explore/featured)
 
 As there are so many models this month, feel free to pick and choose a few that you need.
 
