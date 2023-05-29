@@ -84,7 +84,7 @@ To summarize:
 
 To be fair, Epic say the following in their documentation:
 
-<blockquote>The HTML5 pipeline is currently experimental. Some projects may not run properly when built for the HTML5 platform. Expect some rough edges.</blockquote>
+> The HTML5 pipeline is currently experimental. Some projects may not run properly when built for the HTML5 platform. Expect some rough edges.
 
 But we clearly see here that Unreal suffers similar problems to Unity's WebGL exporter. Export sizes are huge, load times are long and runtime performance is poor when compared to a 'WebGL-first' engine like PlayCanvas.
 

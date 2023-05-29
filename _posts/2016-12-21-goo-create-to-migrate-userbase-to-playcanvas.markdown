@@ -32,8 +32,8 @@ PlayCanvas' graphics engine can achieve improved visuals over Goo Create thanks 
 **Realtime App Profiler**
 PlayCanvas makes it easy to tune your app to achieve incredible performance even on low end mobile. Simply launch your app from the Editor with the Profiler enabled to quickly diagnose and fix performance issues.
 
-**Vibrant Community
-**PlayCanvas has a highly active community, interacting through the bustling forum and the project dev log system and global activity feed.
+**Vibrant Community**
+PlayCanvas has a highly active community, interacting through the bustling forum and the project dev log system and global activity feed.
 
 **REST API**
 We provide a REST API to enable you to automate common tasks such as app downloading and project archiving.

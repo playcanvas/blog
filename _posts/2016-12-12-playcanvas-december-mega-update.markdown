@@ -25,8 +25,6 @@ New Material, Model and Cubemap Previews are now available in the Inspector. The
 
 [![material-preview](/assets/media/material-preview.gif)](/assets/media/material-preview.gif)
 
-###
-
 ### Antialiasing Control
 
 It is now possible to control antialiasing in Scene Settings.

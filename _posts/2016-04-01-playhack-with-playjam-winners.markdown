@@ -49,7 +49,11 @@ An impressive amount of work in 6 weeks by [whydoidoit](https://playcanvas.com/
 
 ## Special Mentions
 
-A few special mentions to games that caught the judges attention but didn't quite make the top three. **[Imperial's Secret Plan](https://playcanv.as/p/05CFsgXG)** is a survival horror game. Our judges said: _"Very nice idea - a superbly atmospheric puzzle adventure game.". _**[Into Deep Space](https://playcanv.as/p/YopjEuFZ)** is gravity slingshot game. Our judges said: _"Beautiful graphics, flawed by some technical shortcomings". _**[Robo Racer](https://playcanv.as/p/XtUBSVpS)** is a classic racing game. Our judges said: _"Good solid entry"._
+A few special mentions to games that caught the judges attention but didn't quite make the top three.
+
+1. **[Imperial's Secret Plan](https://playcanv.as/p/05CFsgXG)** is a survival horror game. Our judges said: _"Very nice idea - a superbly atmospheric puzzle adventure game."_.
+2. **[Into Deep Space](https://playcanv.as/p/YopjEuFZ)** is gravity slingshot game. Our judges said: _"Beautiful graphics, flawed by some technical shortcomings."_.
+3. **[Robo Racer](https://playcanv.as/p/XtUBSVpS)** is a classic racing game. Our judges said: _"Good solid entry."_.
 
 ## Play All Entries
 
