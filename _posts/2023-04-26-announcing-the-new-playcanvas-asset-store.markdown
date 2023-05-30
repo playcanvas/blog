@@ -27,7 +27,7 @@ Now, let's examine some of the key highlights that make the new Asset Store so s
 
 It should be possible to grab assets quickly, right from within the Editor itself. Why should you have to open a new tab and go hunting around the web? So to keep things as convenient as possible, the ASSET STORE button (in the Editor's Assets Panel) now opens a nicely designed, responsive Asset Store panel.
 
-[![](/assets/media/asset-store-open.gif)](/assets/media/asset-store-open.gif)
+[![](assets/media/asset-store-open.gif)](assets/media/asset-store-open.gif)
 
 One really cool benefit of selecting assets from within the Editor is that the currently selected Asset folder is known. This means you have compete control over where your imported assets will be saved.
 
