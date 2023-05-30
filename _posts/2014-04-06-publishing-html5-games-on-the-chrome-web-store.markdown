@@ -69,37 +69,47 @@ Generating a packaged app from a PlayCanvas game takes a little more effort than
 - In the index.html, there are two externally referenced resources: the PlayCanvas engine (playcanvas-0.144.3.min.js and PLAY_FLAT_ORANGE3.png). Download these resources and change the paths so they are relative to the index.html file.
 - Create a manifest.json file . For SWOOOP, it looks like this:
 
-  {
+```json
+{
   "name": "SWOOOP",
   "description": "Loop and swoop your bi-plane around the magical island. What's your highscore?",
   "version": "1.0",
   "app": {
-  "background": {
-  "scripts": ["background.js"]
-  }
+    "background": {
+      "scripts": ["background.js"]
+    }
   },
-  "icons": { "16": "swooop16.png", "48": "swooop48.png", "128": "swooop128.png" }
+  "icons": {
+    "16": "swooop16.png",
+    "48": "swooop48.png",
+    "128": "swooop128.png"
   }
+}
+```
 
 - Create background.js that contains the following to configure how the game is launched:
 
+```javascript
   chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('index.html', {
-  'bounds': {
-  'width': 1280,
-  'height': 720
-  }
+    chrome.app.window.create('index.html', {
+      'bounds': {
+        'width': 1280,
+        'height': 720
+      }
+    });
   });
-  });
+```
 
 - Create the icons referenced from the manifest and place them in the same folder as the index.html.
 - Transfer any script tag blocks of JavaScript in index.html into externally referenced JS files (there are two). This is because Chrome treats this as a security threat.
 - Remove the following statement (which causes another security error in Chrome) from playcanvas-0.144.3.min.js (search for 'unload'):
 
+```javascript
   window.addEventListener("unload", function() {
-  o.disconnect();
-  o = null
+    o.disconnect();
+    o = null
   });
+```
 
 - Check to see if your game uses the LocalStorage HTML5 API. Packaged apps can't use this API, although they can use a [Chrome specific alternative](https://developer.chrome.com/apps/storage).
 - We're done! Zip up the game's files again and upload to your new item in the CWS Developer Dashboard. Fill out the rest of the form as you would for a hosted app (although you now don't need to show ownership for a hosted app URL since there isn't one any more).
