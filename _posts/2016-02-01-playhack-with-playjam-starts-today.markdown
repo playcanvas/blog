@@ -21,9 +21,7 @@ We've teamed up with PlayJam and our 6 week game jam starts today. Check out the
 
 We’ve got three great assets for your game. Use one, two or all three in your game.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/MFTyHFU4/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html id="MFTyHFU4" %}
 
 ## Theme
 
