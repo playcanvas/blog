@@ -11,9 +11,7 @@ categories:
   - News
 ---
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/SA7hVBLt/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html id="SA7hVBLt" %}
 
 If you're working with real-time 3D, chances are that you want your scenes to look physically accurate. For many years, graphics engines have relied on a non-physical approximations without respect to energy conservation and had problems with properly decoupling lighting from the actual material properties. In recent times, huge advances have been made to formulate more accurate shading approaches as well as provide sensible material inputs, which could approximate many types of surfaces without using hacks and tweaks for each scene and lighting conditions. This is a collection of techniques and art-producing approaches often referred to as Physically Based Rendering, or PBR.
 

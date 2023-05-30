@@ -54,8 +54,6 @@ PlayCanvas' approach ensures that the most optimal texture format is selected fo
 
 PlayCanvas Texture Compression is available from today for Organization and Personal account holders ([see the manual](https://developer.playcanvas.com/en/user-manual/assets/textures/#texture-compression) for more info). It will be rolled out to all users following a short beta period. So go forth, compress your textures and take your WebGL apps to a whole new level. And if you're new to PlayCanvas, why not [sign up today](https://playcanvas.com/). We can't wait to see what you make!
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/p/yipplmVO/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html id="yipplmVO" %}
 
 [DIRECT LINK TO RUN FULLSCREEN](https://playcanv.as/p/yipplmVO/)

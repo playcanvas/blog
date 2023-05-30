@@ -15,9 +15,8 @@ Today we're excited to launch the [WebVR Lab](http://webvr.playcanvas.com), a li
 
 Try the lab right now:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/sAsiDvtC/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html id="sAsiDvtC" %}
+
 _[Try it in fullscreen](https://playcanv.as/p/sAsiDvtC/)_
 
 WebVR is a new standard that makes VR experiences accessible to the billions of web browser users and enables developers to reach a user on any type of VR headset. Using the web to deliver VR makes sharing experiences as easy as clicking a link, with no downloads required.
