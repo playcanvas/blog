@@ -21,7 +21,7 @@ tags:
 
 **Cambridge/Santa Monica, August 1 2019 -** Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimized way, as well as using it to incorporate some of its performant features and components into their own projects.
 
-![](https://lh5.googleusercontent.com/Dlt7lMuKZ9SJ3uszf62h1H0SjWSTMnlrU796xEtuvfWUlRQ7mqCs4AjfJSss7S4Ap555XvPQYzmIX5iLagjJJFx_GoRjjp37BWQsLJfFJmnlL2J-VRn_fYqn7Hwu_MjeZA1R5GVs)
+![Seemore Demo](/assets/media/seemore-greenhouse.png)
 
 [**PLAY NOW**](https://playcanv.as/p/MflWvdTW/)
 
@@ -42,4 +42,4 @@ The Seemore demo was originally created as a graphical showcase for the mobile b
 - Asynchronous streaming of assets to ensure the demo loads in mere seconds (approximately 5x faster than the original version).
 - Fully GPU-driven mesh animation.
 
-![](https://lh6.googleusercontent.com/2FR-XGYTKZwP77phlpQ6DlNfaM5NSW4Mjo1Y3LOfQ_k1CaRWzT9iIWf-i2h2PpuF1PeKdNoys3yYotu4wkHsX9AAS1G0AbayKoOrl6z6dLeBHiZnwX1Bo0uvLerI_0SJVeQ9f6aS)
+![Seemore Demo](/assets/media/seemore-games-room.png)
