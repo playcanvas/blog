@@ -30,6 +30,8 @@ The library can be easily added to any PlayCanvas project and used to create fan
 
 ### About Microsoft Mixed Reality Capture Studios
 
+{% include youtube.html id="sWvn_FHynoc" %}
+
 MRCS records holographic video - dynamic holograms of people and performances. Your audiences can interact with your holograms in augmented reality, virtual reality and on 2D screens.
 
 They are experts at capturing holographic video, advancing capture technology and have been pioneering its applications since 2010.
@@ -124,9 +126,10 @@ The skybox was obtained from [Poly Haven](https://polyhaven.com/a/orlando_stadiu
 
 It's a nice and easy effect that can be applied in similar scenes without having to build a model or geometry. See the scene without the effect applied (left) and with it (right):
 
-![](/assets/media/normal-skybox.gif)Normal Skybox
-
-![](/assets/media/projected-skybox.gif)Projected Skybox
+<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
+    <img src="/assets/media/normal-skybox.gif" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
+    <img src="/assets/media/projected-skybox.gif" style="width: 48%;" alt="Description of image 2" />
+</div>
 
 The shader code is applied by overriding the global engine chunk in [projected-skybox-patch.js](https://playcanvas.com/editor/code/988340?tabs=104640973) on application startup.
 
@@ -156,9 +159,10 @@ As the 'floor' is just a projected skybox, a solution was needed to render the s
 
 To make this a bit easier to see, I've shown where the plane would be positioned below. Anywhere where it's white on the floor plane would be fully transparent as there is no shadow being cast there.
 
-![](/assets/media/shadow-catcher-1-1024x588.jpg)
-
-![](/assets/media/shadow-catcher-2-1024x588.jpg)
+<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
+    <img src="/assets/media/shadow-catcher-1-1024x588.jpg" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
+    <img src="/assets/media/shadow-catcher-2-1024x588.jpg" style="width: 48%;" alt="Description of image 2" />
+</div>
 
 ### Other tutorials used
 
