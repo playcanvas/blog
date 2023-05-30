@@ -45,15 +45,15 @@ I wanted to work at Marvel Comics when I was 18. I used to take my portfolio alo
 
 **The Quick-fire Round (this is where things get a little interesting)**
 
-**_Zelda or Final fantasy?_**
+**Zelda or Final fantasy?**
 
 Zelda
 
-**_COD or Battlefield?_**
+**COD or Battlefield?**
 
 COD
 
-**_Mario or Sonic?_**
+**Mario or Sonic?**
 
 Mario
 

@@ -15,7 +15,7 @@ categories:
 
 PlayCanvas is a toolset for creating the next-generation of browser games. It's a professional 3D game engine, a toolset that takes real-time collaboration seriously and a publishing system for getting your game out to the world.
 
-You can see more details about exactly what we're offering in the [Technology Overview](/technology) and the [FAQ](/faq).
+You can see more details about exactly what we're offering on our [Technology Overview](https://playcanvas.com/features) page.
 
 ## Why are you making PlayCanvas?
 

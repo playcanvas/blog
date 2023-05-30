@@ -19,11 +19,11 @@ We hope you understand and this downtime doesn't inconvenience you too much. We'
 
 If you need something to do while PlayCanvas is down you could watch the tutorials on our YouTube Channel
 
-[![playcanvas_-_YouTube](/assets/media/playcanvas_-_YouTube.jpg)](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927)
+[![PlayCanvas YouTube](/assets/media/playcanvas-youtube.jpg)](https://www.youtube.com/watch?v=3l5uV2RjFXo&list=PL0KdXFF26E4Bpjx5R3B8LH6blmU-h3JLV)
 
 Or take a read of the user manual on our developer site.
 
-[![PlayCanvas_Developer_Resources___PlayCanvas_Developers](/assets/media/PlayCanvas_Developer_Resources___PlayCanvas_Developers.jpg)](https://developer.playcanvas.com)
+[![Developer Resources](/assets/media/developer-resources.jpg)](https://developer.playcanvas.com)
 
 Thanks,
 

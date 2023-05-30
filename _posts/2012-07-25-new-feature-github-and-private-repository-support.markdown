@@ -17,7 +17,7 @@ Google I/O certainly kept us busy last month, but we've still found the time to 
 
 This weeks big ticket item is integration with Github and support for private repositories on both Bitbucket and Github.
 
-### Don't reinvent sliced bread.
+### Don't reinvent sliced bread
 
 When we started developing PlayCanvas, we knew that we wanted to change the way games are made, but we didn't want to reinvent everything. Programmers have been honing the software development craft for decades and we don't want to mess with that, which is why we knew integration with source control systems would be essential.
 
