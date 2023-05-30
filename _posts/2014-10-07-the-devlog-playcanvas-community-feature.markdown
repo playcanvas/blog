@@ -15,7 +15,7 @@ We've just rolled out the Developer Log or DevLog. The first of several communit
 
 ## Keeping people informed
 
-[![SWOOOP DevLog](/assets/media/swooop-devlog.jpg)](/assets/media/DevLog___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
+![SWOOOP DevLog](/assets/media/swooop-devlog.jpg)
 
 To create a game you have to complete thousands of little tasks over the course of development. Each day you tick off a few items in your todo list, squash a few bugs or updated a few models. When you are using source control with each change you commit to your code you include a commit message. This tells the rest of your team what's changed and gives you a good reference point to look back on what state the code was in.
 
@@ -35,11 +35,11 @@ Primary, the DevLog is a place for you to write about your game. But you're a c
 
 ### Markdown
 
-Markdown is a simple way to let you add styles, links, images to your text. The [markdown syntax](http://daringfireball.net/projects/markdown/syntax) is easy to learn and remember. We don't host images (yet) so you'll have to make do with images that are already on the web somewhere else (for the moment).
+Markdown is a simple way to let you add styles, links, images to your text. The [markdown syntax](https://daringfireball.net/projects/markdown/syntax) is easy to learn and remember. We don't host images (yet) so you'll have to make do with images that are already on the web somewhere else (for the moment).
 
 ### Emoji
 
-Emoji is like smileys++. Use the [emoji cheat sheet](www.emoji-cheat-sheet.com) and enter your emoji by including a keyword between to colons. Like :smile:
+Emoji is like smileys++. Use the [emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) and enter your emoji by including a keyword between to colons. Like :smile:
 
 ### Preview
 
