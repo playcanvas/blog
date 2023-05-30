@@ -31,7 +31,7 @@ From games and interactive experiences to architectural visualizations and simul
 
 To celebrate this work, we've created a showcase video with the standout projects and work from 2022.
 
-https://www.youtube.com/watch?v=46f73gp1_TU&feature=emb_logo
+{% include youtube.html id="46f73gp1_TU" %}
 
 [PlayCanvas Showcase 2022](https://blog.playcanvas.com/our-2022-developer-showreel-is-live/)
 

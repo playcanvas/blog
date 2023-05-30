@@ -15,7 +15,7 @@ Today is a huge milestone for real-time graphics on the web. Mozilla has launche
 
 To mark the launch of WebGL 2, Mozilla and PlayCanvas have teamed up to build 'After the Flood'.
 
-https://www.youtube.com/watch?v=paCu1qEK-RI
+{% include youtube.html id="paCu1qEK-RI" %}
 
 [EXPERIENCE 'AFTER THE FLOOD' NOW](http://aftertheflood.playcanvas.com)
 

@@ -13,7 +13,7 @@ categories:
   - News
 ---
 
-https://www.youtube.com/watch?v=rj1CyM_ob3E
+{% include youtube.html id="rj1CyM_ob3E" %}
 
 Today, we are excited to announce the 2.0 release of our glTF viewer.
 

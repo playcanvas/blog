@@ -55,7 +55,7 @@ On the 1st of February we will judge your projects and our favorite will be feat
 
 ### **Last Month**
 
-With Side Scrolling Santa's, Youtube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favorite PLAYHACK so far.
+With Side Scrolling Santa's, YouTube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favorite PLAYHACK so far.
 
 [![santa_winner](/assets/media/santa_winner.jpg)](/assets/media/santa_winner.jpg)
 

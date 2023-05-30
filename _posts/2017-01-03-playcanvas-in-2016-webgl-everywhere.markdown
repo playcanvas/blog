@@ -44,11 +44,11 @@ Here are our top 5 picks for PlayCanvas tech improvements during 2016:
 
 [**Scripts 2.0**](https://blog.playcanvas.com/playcanvas-scripts-2-0/) with hot reloading, collaborative coding and parallel on-device testing:
 
-https://www.youtube.com/watch?v=PS4oMLPyYfI
+{% include youtube.html id="PS4oMLPyYfI" %}
 
 [**Integrated WebVR support**](https://blog.playcanvas.com/webvr-support-in-playcanvas/) with optimized stereo rendering:
 
-https://www.youtube.com/watch?v=B9QAptFocQQ
+{% include youtube.html id="B9QAptFocQQ" %}
 
 [**Runtime generated lightmaps**](https://blog.playcanvas.com/runtime-lightmap-generation-for-webgl/) to bake lighting on app startup for fast rendering.
 

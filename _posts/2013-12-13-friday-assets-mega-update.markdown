@@ -38,7 +38,7 @@ We've started working on thumbnails for all Assets, but as a quick starter, text
 
 ## Asset Library
 
-https://www.youtube.com/watch?v=O7U9IY_nCLM
+{% include youtube.html id="O7U9IY_nCLM" %}
 
 Have we saved the best feature until last? Maybe. Certainly the Asset Library is going to make it much easier for our new users to get something looking pretty. We've teamed up with lovely folks at [https://3dmodels-textures.com/](https://3dmodels-textures.com/) and [http://www.propsplanet.com/](http://www.propsplanet.com/) to give you a selection of 3D models which you can use to get started. Click the big red Asset Library button to open up a list of models and one-click to add them to your Project.
 
