@@ -14,11 +14,12 @@ categories:
 PlayCanvas is passionate about education and many universities throughout the world are already using PlayCanvas to teach videogame development skills. One such school is ENTI, which is attached to the University of Barcelona in Catalonia, Spain.
 
 [![videogameday](/assets/media/videogameday.png)](/assets/media/videogameday.png)
+
 On 21st March, ENTI is holding VideoGame Day in Manacor on the beautiful Balearic island of Mallorca. It is their first workshop on videogame design and programming, where they are going to teach how to make robot dance using PlayCanvas! The workshop starts at 10AM and last for 4 hours.
 
 The address:
 
-Espai Na Camel•la, Manacor – Carrer d’en Tià de Sa Real s/n (see [here](http://espainacamella.com/contacte/) for a map).
+Espai Na Camel•la, Manacor – Carrer d’en Tià de Sa Real s/n (see [here](https://goo.gl/maps/qGfvSnoBEysxqwEc9) for a map).
 
 VideoGame Day is brought to you by two videogame experts. First, we have Josep Francesc Cortés Fullana from Manacor, who has been working in the field of video games for Kerad Games in Barcelona for many years. And there is Jordi Targa, the professor of the Upper Grade Educational Cycle in 3D, Games and Interactive Environments at ENTI, offering to the participants a course of programming and design of video games based on PlayCanvas!
 

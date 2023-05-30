@@ -25,7 +25,7 @@ Depending on whether your scripts are served from PlayCanvas or locally, select 
 
 There is also a **hot-key** to toggle the Profiler: CTRL (CMD) + ALT + T.
 
-##### Profiler Overview
+### Profiler Overview
 
 [![profiler_stats](/assets/media/profiler_stats.png)](/assets/media/profiler_stats.png)
 
@@ -41,7 +41,7 @@ The right-hand panel is the Profiler Timeline. It displays a number of key event
 
 Green bars represent individual asynchronous asset loads. Orange bars are blocking shader compilations.
 
-##### The Future's Bright
+### The Future's Bright
 
 So we hope you enjoy using the new Profiler. But remember, true believers, more goodness is yet to come. This is our initial beta version but we have plenty of improvements coming down the pipe.
 
