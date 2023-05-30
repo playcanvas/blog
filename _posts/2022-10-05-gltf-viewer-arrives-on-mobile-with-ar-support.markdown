@@ -16,7 +16,7 @@ tags:
   - viewer
 ---
 
-https://www.youtube.com/watch?v=WkEOfcdmEbc
+{% include youtube.html id="WkEOfcdmEbc" %}
 
 Today we’re excited to announce the next major release of our glTF viewer. This version makes the viewer an ideal tool for reviewing how glTF models render on mobile as well as in augmented reality!
 

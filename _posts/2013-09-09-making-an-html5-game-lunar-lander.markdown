@@ -16,6 +16,6 @@ A video tutorial recreating arcade classic, Lunar Lander in 3D.
 
 This is our second video tutorial. It's a bit longer (around 45mins) but it covers a lot of stuff. Uploading 3D models, physics coding, collision events, input controllers, playing audio and publishing games to the web. It's a great introduction to lots of major features of PlayCanvas.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zQQCfd1xEKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="zQQCfd1xEKg" %}
 
 Enjoy and don't forget to leave us feedback on the [forums](https://forum.playcanvas.com/).

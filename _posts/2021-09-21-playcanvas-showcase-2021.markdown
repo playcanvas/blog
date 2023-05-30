@@ -18,7 +18,7 @@ tags:
 
 We are very excited to release our very first showcase reel, showing some of the very best WebGL browser games and experiences made with PlayCanvas to date!
 
-https://www.youtube.com/watch?v=FrUUrVRpbzg
+{% include youtube.html id="FrUUrVRpbzg" %}
 
 Many thanks for to all our partners and users that allowed us to show their awesome content in the video:
 

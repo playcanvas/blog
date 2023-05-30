@@ -33,7 +33,7 @@ Afterwards, we left Lego and started our own company. Lego hired us as consultan
 
 Nowadays, the things we work on are more industrial-focused; automotive or luxury. AR is now a properly matured product, with WebGL, Web AR experiences, VR and so on.
 
-https://www.youtube.com/watch?v=NnoiJA7UCiY
+{% include youtube.html id="NnoiJA7UCiY" %}
 
 ### **Thank you! I'm curious, why did Visionaries777 choose PlayCanvas?**
 
@@ -79,7 +79,7 @@ Brands are definitely interested in WebAR for these reasons, so AR will keep gro
 
 eCommerce in a more immersive way is really the next generation for eCommerce experiences.
 
-https://www.youtube.com/watch?v=eGx9gFHWu_4
+{% include youtube.html id="eGx9gFHWu_4" %}
 
 ### **When you're building your Web AR experiences, what features does PlayCanvas provide that you think were most helpful?**
 

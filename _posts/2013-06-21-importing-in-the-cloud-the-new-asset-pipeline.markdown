@@ -20,4 +20,4 @@ You will no longer have to download and install command line tools to convert yo
 
 Will has put together this 5 minute video which shows you how quickly you can get a model and animation from a site like [Mixamo](https://www.mixamo.com/) into your PlayCanvas game.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qy_fRcV-3wk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="qy_fRcV-3wk" %}

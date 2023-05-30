@@ -13,7 +13,7 @@ categories:
 
 Welcome to our 2022 showcase, showing some of the very best WebGL browser games and experiences made with PlayCanvas!
 
-https://www.youtube.com/embed/46f73gp1_TU
+{% include youtube.html id="46f73gp1_TU" %}
 
 We would like to thank our users that have allowed us to show their awesome content in this showcase:
 

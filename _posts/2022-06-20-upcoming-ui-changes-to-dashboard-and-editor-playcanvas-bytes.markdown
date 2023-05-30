@@ -21,7 +21,7 @@ PlayCanvas Bytes is where we talk about upcoming work with PlayCanvas and relate
 
 We are trialing a new format to better communicate some of the work that is going on with the PlayCanvas team.
 
-https://www.youtube.com/watch?v=FR8Jrbb5Jb4
+{% include youtube.html id="FR8Jrbb5Jb4" %}
 
 Today we have our UX designer, Jasper who will take us through some exciting plans to the new project dashboard and Editor View!
 
