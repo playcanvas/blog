@@ -21,7 +21,7 @@ We've teamed up with PlayJam and our 6 week game jam starts today. Check out the
 
 We’ve got three great assets for your game. Use one, two or all three in your game.
 
-{% include playcanvas.html id="MFTyHFU4" %}
+{% include playcanvas.html type="p" id="MFTyHFU4" %}
 
 ## Theme
 

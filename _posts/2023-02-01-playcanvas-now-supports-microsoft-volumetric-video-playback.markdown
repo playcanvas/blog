@@ -18,7 +18,7 @@ tags:
   - WebXR
 ---
 
-{% include playcanvas.html id="d3xb8X2Q" %}
+{% include playcanvas.html type="p" id="d3xb8X2Q" %}
 
 [Open in new tab](https://playcanv.as/p/d3xb8X2Q/)
 

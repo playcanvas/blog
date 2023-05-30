@@ -15,7 +15,7 @@ Today we're excited to launch the [WebVR Lab](http://webvr.playcanvas.com), a li
 
 Try the lab right now:
 
-{% include playcanvas.html id="sAsiDvtC" %}
+{% include playcanvas.html type="p" id="sAsiDvtC" %}
 
 _[Try it in fullscreen](https://playcanv.as/p/sAsiDvtC/)_
 
