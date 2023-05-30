@@ -12,7 +12,7 @@ categories:
   - Features
 ---
 
-https://www.youtube.com/watch?v=PS4oMLPyYfI&feature;=youtu.be
+{% include youtube.html id="PS4oMLPyYfI" %}
 
 We've just launched "Scripts 2.0", a complete re-design and re-implementation of the scripting system for PlayCanvas applications. Our goals were to fix an array of small irritations that had built up over using the PlayCanvas scripting for the last few years and take the opportunity to clean up the interface and simplify the creation and usage of scripts.
 

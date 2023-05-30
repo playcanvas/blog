@@ -19,7 +19,7 @@ tags:
 
 It’s finally here! The PlayCanvas team is very excited to announce the public release of our new Templates feature! 🎉
 
-https://www.youtube.com/embed/2HV8Ib6wYRc
+{% include youtube.html id="2HV8Ib6wYRc" %}
 
 Templates allow you to create preconfigured entities with all the values and child hierarchy as an asset reference.
 

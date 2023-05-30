@@ -21,7 +21,7 @@ In light of the launch of iOS 8 and the new iPhones. We've launched a great new
 
 Take a look at how easy this is in the video we published this month.
 
-https://www.youtube.com/watch?v=TzHn60xlqCc
+{% include youtube.html id="TzHn60xlqCc" %}
 
 ### Pricing plans
 

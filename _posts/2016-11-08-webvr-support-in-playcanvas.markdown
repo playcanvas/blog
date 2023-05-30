@@ -13,7 +13,7 @@ categories:
 
 Today we're really excited to announce support for WebVR into the PlayCanvas Editor.
 
-[iframe width="560" height="315" src="https://www.youtube.com/embed/B9QAptFocQQ" frameborder="0" allowfullscreen]
+{% include youtube.html id="B9QAptFocQQ" %}
 
 This week Google [announced](https://www.roadtovr.com/google-launching-webvr-support-for-android-chrome-in-january-desktop-to-follow/) that WebVR 1.1 (the latest current version of the spec) should be released in Chrome for Android in January 2017. But for a feature as complex as virtual reality, browser support is only one piece of the puzzle. At PlayCanvas, we know how important great tools are to making high quality experiences so today we're launching our WebVR engine integration to make sure that you can create applications right now.
 
