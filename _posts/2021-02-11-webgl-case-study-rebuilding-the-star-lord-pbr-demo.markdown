@@ -13,9 +13,7 @@ categories:
 
 Way back in 2014, [PlayCanvas was the first WebGL Engine to integrate PBR](https://blog.playcanvas.com/physically-based-rendering-comes-to-webgl/) (Physically Based Rendering). To mark the event, we built the Star-Lord tech demo:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/p/SA7hVBLt/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html id="SA7hVBLt" %}
 
 In the intervening 6 or so years, PlayCanvas has moved on dramatically. So we decided to leverage all of the latest engine features and republish it.
 
