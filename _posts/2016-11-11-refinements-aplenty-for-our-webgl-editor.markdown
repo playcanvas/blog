@@ -25,7 +25,7 @@ We have updated PlayCanvas' build of Ammo.js to the very latest version. This up
 
 [video width="1280" height="720" mp4="/assets/media/ragdoll.mp4"][/video]
 
-What to check out the project above? It's [here](https://playcanvas.com/project/431888/overview/ragdoll).
+Want to check out the project above? It's [here](https://playcanvas.com/project/431888/overview/ragdoll).
 
 ### Miscellaneous Improvements
 
