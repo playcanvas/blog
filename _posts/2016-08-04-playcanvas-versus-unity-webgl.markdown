@@ -19,9 +19,7 @@ But first, let me quickly introduce Unity and PlayCanvas to the uninitiated. Uni
 
 For the purpose of this article, we're keeping things simple. We've created the 'Hello World' of apps in both Unity 5.3.2 and PlayCanvas: a spinning, textured cube:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://playcanv.as/e/b/5bLMNnvC/" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html type="b" id="5bLMNnvC" %}
 
 The application above is the PlayCanvas app. I'm not embedding the Unity app since it can crash the page (if you're feeling brave, click [here](http://unity-comparison.playcanvas.com/perf1e/unity/index.html) to run it in a new tab).
 

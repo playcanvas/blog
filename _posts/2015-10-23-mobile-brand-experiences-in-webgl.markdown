@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-{% include playcanvas.html id="RqJJ9oU9" %}
+{% include playcanvas.html type="p" id="RqJJ9oU9" %}
 
 _[Try it fullscreen](http://car.playcanvas.com/)_
 
