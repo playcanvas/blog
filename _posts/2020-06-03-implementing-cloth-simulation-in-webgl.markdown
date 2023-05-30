@@ -29,7 +29,7 @@ Want to know how it was done? Read on!
 
 **_Step 1: Create a soft body dynamics world_**
 
-By default, PlayCanvas' rigid body component system [creates an ammo.js dynamics world](https://github.com/playcanvas/engine/blob/master/src/framework/components/rigid-body/system.js#L185) that only supports generic rigid bodies. Cloth simulation requires a soft body dynamics world ([btSoftRigidDynamicsWorld](https://pybullet.org/Bullet/BulletFull/classbtSoftRigidDynamicsWorld.html)). Currently, there's no easy way to override this, so for the purpose of these experiments, a new, parallel soft body dynamics world is created and managed by the application itself. Eventually, we may make the type of the internal dynamics world selectable, or maybe even allow multiple worlds to be created, but for now, this is how the demo was structured.
+By default, PlayCanvas' rigid body component system [creates an ammo.js dynamics world](hhttps://github.com/playcanvas/engine/blob/cf28baf6f1ccd5568597946c62c1696a4ad9919e/src/framework/components/rigid-body/system.js#L348) that only supports generic rigid bodies. Cloth simulation requires a soft body dynamics world ([btSoftRigidDynamicsWorld](https://pybullet.org/Bullet/BulletFull/classbtSoftRigidDynamicsWorld.html)). Currently, there's no easy way to override this, so for the purpose of these experiments, a new, parallel soft body dynamics world is created and managed by the application itself. Eventually, we may make the type of the internal dynamics world selectable, or maybe even allow multiple worlds to be created, but for now, this is how the demo was structured.
 
 **_Step 2: Implement CPU skinning_**
 
