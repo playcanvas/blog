@@ -17,11 +17,11 @@ tags:
   - webgl
 ---
 
+{% include youtube.html id="LLuB-2OpcFo" %}
+
 Welcome to the third instalment of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
 Today we are excited to be joined by Staffan Hagberg, CMO of [Animech](https://animech.com/en/).
-
-[![](/assets/media/Animech-logo-1024x474.png)](/assets/media/Animech-logo.png)
 
 ### **Hi Staffan, welcome to Developer Spotlight! Tell us about yourself and Animech!**
 
@@ -41,7 +41,7 @@ After an extensive search for a WebGL-based engine, we evaluated a few and selec
 
 As for our artists’ perspective, they think it was (and still is) the most artist-friendly WebGL editor out there, with the added bonuses that it is open source, and supports many important features, such as PBR, tonemapping, render layers, etc.
 
-### **Did your team face any **initial challenges**? How did you overcome them?**
+### **Did your team face any initial challenges? How did you overcome them?**
 
 It's always challenging when customers have high quality _and_ performance expectations. Though, at the same time, that is what drives us. Being able to create stunning 3D experiences linked to real business value is a unique opportunity and challenge. Adding AR to that process helps you to stand out against competitors.
 
