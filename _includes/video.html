@@ -1,7 +1,12 @@
 <div class="embed-container">
-    <iframe width="640" height="390" 
-    src="https://playcanv.as/e/{{ include.type }}/{{ include.id }}" 
-    frameborder="0" allowfullscreen></iframe>
+  <video width="640" height="390" controls
+    {% if include.autoplay %}autoplay{% endif %}
+    {% if include.loop %}loop{% endif %}
+    {% if include.muted %}muted{% endif %}
+  >
+    <source src="{{ include.url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 <style>
 .embed-container {
@@ -12,6 +17,7 @@
   overflow: hidden;
   max-width: 100%;
 }
+.embed-container video,
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
