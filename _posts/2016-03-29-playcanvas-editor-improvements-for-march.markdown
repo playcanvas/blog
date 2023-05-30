@@ -21,15 +21,15 @@ Nestled at  the top of the hierarchy panel is the new 'Fuzzy Search' box. If yo
 
 We've had a few requests for SHIFT-select of entities and also multi-selection reparenting. So both of these are now possible! We're so good to you!
 
-### [![multiselectreparent](/assets/media/multiselectreparent.gif)](/assets/media/multiselectreparent.gif)
+[![multiselectreparent](/assets/media/multiselectreparent.gif)](/assets/media/multiselectreparent.gif)
 
-Orthographic Editor Cameras
+### Orthographic Editor Cameras
 
 More and more of you are making 2D games or games that are played out in a 2D arena. As a result, we've overhauled the Editor's orthographic cameras to be far more useable. Camera controls are more intuitive and the gizmos now work as expected.
 
-### [![ortho](/assets/media/ortho.gif)](/assets/media/ortho.gif)
+[![ortho](/assets/media/ortho.gif)](/assets/media/ortho.gif)
 
-Miscellaneous Improvements
+### Miscellaneous Improvements
 
 - The profiler has a host of new stats on display to help you tune the performance of your application.
 - 32 and 64 pixel resolutions have been added for shadowmaps.
