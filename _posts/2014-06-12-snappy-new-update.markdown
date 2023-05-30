@@ -22,6 +22,6 @@ However if the fate of your game rests on being between our increments, have no 
 
 [![snap_tool](/assets/media/snap_tool.png)](/assets/media/snap_tool.png)
 
-[https://developer.playcanvas.com/user-manual/designer/designer-settings/](https://developer.playcanvas.com/user-manual/designer/designer-settings/)
+[https://developer.playcanvas.com/en/user-manual/designer/settings/](https://developer.playcanvas.com/en/user-manual/designer/settings/)
 
 Happy Snapping!

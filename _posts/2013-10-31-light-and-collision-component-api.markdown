@@ -17,8 +17,10 @@ Today we deployed the second of two changes to our Component System designed to 
 
 Why make this breaking change, I hear you ask? These changes drastically simplify the API when you are coding. So now code like this:
 
-`    this.entity.light.enable = false;
-    this.entity.collision.on("collisionstart", this.onCollision);`
+```javascript
+this.entity.light.enable = false;
+this.entity.collision.on("collisionstart", this.onCollision);
+```
 
 Will work which every type of light or collision shape you are using.
 

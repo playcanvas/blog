@@ -43,11 +43,11 @@ When I was 17, I represented Ireland in Basketball for a number of years! _(Edit
 
 The Quick Fire round (this is where things get a little interesting)
 
-Zelda or Final fantasy?
+**Zelda or Final fantasy?**
 
 Zelda
 
-**COD or Battlefield? **
+**COD or Battlefield?**
 
 Battlefield
 
