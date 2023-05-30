@@ -96,7 +96,7 @@ It's getting better, but still not there. Let's think about more visual aspects 
 
 PlayCanvas has a nice feature that allows you to have tons of lights in your scene with very little performance impact! It's called ✨ Clustered Lighting ✨.
 
-https://twitter.com/valigurskym/status/1458769117914312707
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Clustered area lights are happening at <a href="https://twitter.com/playcanvas?ref_src=twsrc%5Etfw">@playcanvas</a> ! <a href="https://t.co/LTwlhbcg8y">pic.twitter.com/LTwlhbcg8y</a></p>&mdash; Martin Valigursky (@ValigurskyM) <a href="https://twitter.com/ValigurskyM/status/1458769117914312707?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 We can actually leverage this amazing tech to give every single one of our bullets a point light - this makes the scene considerably more dynamic as everything gets lit up when we fire!
 
