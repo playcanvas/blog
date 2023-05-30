@@ -33,7 +33,7 @@ He will show us how Solar Games ported a metaverse experience from Unreal to Pla
 - Ready Player Me avatar integration
 - Spatial-aware audio chat with [Agora](https://www.agora.io/en/)
 
-https://youtu.be/u_8-rzGkDjA
+{% include youtube.html id="u_8-rzGkDjA" %}
 
 [Presentation Slides](/assets/media/Porting-Unreal-to-the-Browser-with-PlayCanvas-Developer-Spotlight-with-Leonidas-Maliokas-Slides.pdf)
 

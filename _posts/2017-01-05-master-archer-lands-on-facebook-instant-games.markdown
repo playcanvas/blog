@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-https://youtu.be/uxFMr_XekPY
+{% include youtube.html id="uxFMr_XekPY" %}
 
 We're excited to announce the launch of Master Archer, our new Instant Game for Facebook Messenger. Shoot the fruit from Bob's head and challenge your friends with your high score!
 
