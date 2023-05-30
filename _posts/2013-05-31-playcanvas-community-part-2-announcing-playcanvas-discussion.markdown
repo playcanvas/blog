@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-In [Part 1](https://playcanvas.com/announcing-playcanvas-answers/) we introduced PlayCanvas Answers, our Q&A site for getting technical help from the PlayCanvas community.
+In [Part 1](https://blog.playcanvas.com/announcing-playcanvas-answers/) we introduced PlayCanvas Answers, our Q&A site for getting technical help from the PlayCanvas community.
 
 Now we expanding our community features into the world of forums and random internet chatter. Though with the cutting edge technical flair that you've come to expect from PlayCanvas.
 
