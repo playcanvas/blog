@@ -102,4 +102,5 @@ Even for the most basic of 3D apps, Unity struggles to achieve anything close to
 To learn how PlayCanvas built an engine so optimized for the browser, head over to [GitHub](https://github.com/playcanvas/engine) to explore the open sourced runtime. And if you want to start building with PlayCanvas today, sign up on [playcanvas.com](https://playcanvas.com).
 
 ### **Update**
+
 If you want to look at the original projects that built the two apps used in the article, [here](http://unity-comparison.playcanvas.com/perf1e/downloads/unity_webgl_perf_test.zip) is the Unity project, and [here](https://playcanvas.com/project/408739/overview/perf1) is the PlayCanvas project. After publishing this article, we noticed that the Unity project disables hardware anti-aliasing and uses bilinear filtering on the textures, whereas PlayCanvas enables AA and trilinear on the textures. So PlayCanvas is actually doing more work here.
