@@ -19,12 +19,14 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.previous.url %}
-    <a href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }}</a>
-  {% endif %}
+  <div style="display: flex; justify-content: space-between;">
+    {% if page.previous.url %}
+      <a class="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">Previous: {{ page.previous.title | truncate: 40, "..." }}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next-post" href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title | truncate: 40, "..." }}</a>
+    {% endif %}
+  </div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
