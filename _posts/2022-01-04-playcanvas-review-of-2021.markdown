@@ -29,7 +29,7 @@ Animation tooling also received a huge boost in 2021 with the introduction of th
 
 You now have the ability to author anything from simple animation cycles to advanced locomotion systems. Check out how indie developer Cem Demir is using the new animation system in his forthcoming multiplayer survival game:
 
-https://twitter.com/cemdemir/status/1469791447134220289
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">👀 !? <a href="https://t.co/QD2CDyAzhT">pic.twitter.com/QD2CDyAzhT</a></p>&mdash; Cem (@cemdemir) <a href="https://twitter.com/cemdemir/status/1469791447134220289?ref_src=twsrc%5Etfw">December 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 With all of the front-end updates to the Editor, don't think that we have neglected the back-end! Throughout 2021, we have been diligently rebuilding the platform's back-end to be more reliable, scalable and responsive. Users around the globe should now be experiencing Editor and Launch Page load times that are up to 50% faster. In addition, asset related jobs should now complete faster meaning you can focus on building with less time waiting.
 
@@ -61,7 +61,7 @@ PlayCanvas' run-time lightmapper received a major upgrade this year. Previously,
 
 Lastly, we implemented cascaded shadows maps that dramatically boosts shadow quality for large-scale environments. It didn't take long for the community to start showcasing the benefits:
 
-https://twitter.com/PlayingInCanvas/status/1396915456028647426?s=20
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Testing the dev branch that adds support for cascaded shadow mapping in the <a href="https://twitter.com/playcanvas?ref_src=twsrc%5Etfw">@playcanvas</a> engine, couldn&#39;t resist😇! Many thanks to <a href="https://twitter.com/ValigurskyM?ref_src=twsrc%5Etfw">@ValigurskyM</a> for this excellent PR.<a href="https://twitter.com/hashtag/webgl?src=hash&amp;ref_src=twsrc%5Etfw">#webgl</a> <a href="https://twitter.com/hashtag/shaders?src=hash&amp;ref_src=twsrc%5Etfw">#shaders</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://t.co/cczf16UzYt">pic.twitter.com/cczf16UzYt</a></p>&mdash; Leonidas (@PlayingInCanvas) <a href="https://twitter.com/PlayingInCanvas/status/1396915456028647426?ref_src=twsrc%5Etfw">May 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Open Source FTW!
 
