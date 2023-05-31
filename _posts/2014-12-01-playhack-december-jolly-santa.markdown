@@ -56,7 +56,7 @@ On the **1st of January** we will judge your projects and our favorite will be 
 
 With **ramps**, **barrels**, **hyper speed turrets** and **explosions**, last month's PlayHack was crazy (in the best way possible).
 
-Our favorite entry is [SRL](http://apps.playcanvas.com/lizzip/gamehack/SRL) by PlayCanvas users [lizzip](https://playcanvas.com/user/lizzip) and [auroraimortalis](https://playcanvas.com/auroraimortalis), whose sci-fi maze game really impressed us using security camera's, laser doors and the Hover Tank acting as the villain. Amazing!
+Our favorite entry is [SRL](http://apps.playcanvas.com/lizzip/gamehack/SRL) by PlayCanvas users [lizzip](https://playcanvas.com/user/lizzip) and [auroraimortalis](https://playcanvas.com/user/auroraimortalis), whose sci-fi maze game really impressed us using security camera's, laser doors and the Hover Tank acting as the villain. Amazing!
 
 Honorable mentions go to PlayCanvas users [**Crefossus**](http://apps.playcanvas.com/crefossus/pewpew/alpha002) and [**Daniel Petterson**](http://apps.playcanvas.com/danielpettersson/hack/tank) for their games, but thank you to everyone who took part. We can't wait to see what you can come up with this month!
 
