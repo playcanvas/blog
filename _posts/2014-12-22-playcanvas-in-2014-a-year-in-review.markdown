@@ -34,7 +34,8 @@ Up until now PBR has only been available in the domain of AAA console and PC gam
 
 Right now, it is possible for all PlayCanvas users to create this kind of content, but some of the steps need to performed in code. Our next goal is to integrate these steps directly into the toolset to allow you to build and iterate even faster.
 
-[caption id="attachment_1927" align="aligncenter" width="720"]![Star Lord Fan art using PBR in PlayCanvas](/assets/media/shadingComparison2.jpg)](/assets/media/shadingComparison2.jpg) Star Lord Fan art using PBR in PlayCanvas[/caption]
+[![Star Lord Fan art using PBR in PlayCanvas](/assets/media/shadingComparison2.jpg)](/assets/media/shadingComparison2.jpg)
+<br>_Star Lord Fan art using PBR in PlayCanvas_
 
 **Complete Website Redesign**
 
@@ -64,7 +65,8 @@ Hard to remember a time before we had Material Editing. This year we deploy the 
 
 Way back in March we unveiled SWOOOP, an endless flying game created by 2 team members in 4 weeks. This is our flagship game showing the capabilities of WebGL, but following our new PBR feature the sky really is the limit with PlayCanvas.
 
-[caption id="attachment_1140" align="aligncenter" width="746"]![SWOOOP in Designer](/assets/media/designer_blog.png)](/assets/media/designer_blog.png) The SWOOOP project is open to everyone[/caption]
+[![SWOOOP in Designer](/assets/media/designer_blog.png)](/assets/media/designer_blog.png)
+<br>_The SWOOOP project is open to everyone_
 
 **TANX**
 

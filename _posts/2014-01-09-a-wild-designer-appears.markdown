@@ -14,7 +14,8 @@ categories:
 
 To kick off 2014 with a bang, we're welcoming a brand new member to the PlayCanvas family.
 
-[caption id="attachment_1058" align="aligncenter" width="600"]![Roonio logo](/assets/media/roonio.png)](/assets/media/roonio.png) Kevin's image doesn't appear on film, so we've used this instead.[/caption]
+[![Roonio logo](/assets/media/roonio.png)](/assets/media/roonio.png)
+<br>_Kevin's image doesn't appear on film, so we've used this instead._
 
 Kevin Rooney joins us as Creative Director, check out his [amazing portfolio](https://roonio.com/). Kevin is an experienced designer who has sampled the start-up life before at [Memrise](http://memrise.com).
 

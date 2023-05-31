@@ -50,7 +50,8 @@ We will be holding things down here at HQ during the month long jam by **sharing
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
-[caption id="attachment_1809" align="aligncenter" width="1280" class=" "]![Last month's winning game from LizziP and Alex](/assets/media/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL) SRL by lizzip and auroraimortalis[/caption]
+[![Last month's winning game from LizziP and Alex](/assets/media/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL)
+<br>_SRL by lizzip and auroraimortalis_
 
 ## **Last Month**
 

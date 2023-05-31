@@ -16,10 +16,12 @@ Get hacking on a game instantly with our Platformer and FPS starter kits.
 
 Today we've launched a new feature to help get you up and running in PlayCanvas super-quick. Instead of starting with the dreaded blank project, now you can instantly get yourself a game to start hacking on.
 
-We've got two styles of game to start with. You can use a starter kit [right now](https://playcanvas.com/depot/create), or go to your profile, select **Create New Project** and select the Starter Kit from the top.
+We've got two styles of game to start with.
 
-[caption id="attachment_911" align="aligncenter" width="600"]![platform game starter kit](/assets/media/platformer_small.png)](/assets/media/platformer_small.png) The Platform Game Starter Kit[/caption]
+[![Platform Game Starter Kit](/assets/media/platformer_small.png)](/assets/media/platformer_small.png)
+<br>_The Platform Game Starter Kit_
 
-[caption id="attachment_910" align="aligncenter" width="600"]![FPS Game Starter kit](/assets/media/fps_small.png)](/assets/media/fps_small.png) The FPS Game Starter Kit[/caption]
+[![FPS Game Starter kit](/assets/media/fps_small.png)](/assets/media/fps_small.png)
+<br>_The FPS Game Starter Kit_
 
-This is just the first two we've got up and running, with more improvements to come. Head over to the [forum](https://forum.playcanvas.com) with suggestions for more starter kits.
+You can select a starter kit via the **New Project** dialog. This is just the first two we've got up and running, with more improvements to come. Head over to the [forum](https://forum.playcanvas.com) with suggestions for more starter kits.
