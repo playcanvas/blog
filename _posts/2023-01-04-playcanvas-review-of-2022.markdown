@@ -85,7 +85,7 @@ The most notable new feature is AR support with WebXR (Android) and USDZ export 
 
 We've also made the UI more streamlined and mobile-friendly, grouping related functionality together for easier use. Rendering has been improved with the 'High Quality Rendering' option, which enables supersampling to smooth out jagged edges along polygons and high resolution reflections for more realistic rendering.
 
-[![](/assets/media/PlayCanvas-glTF-Model-Viewer-1024x574.jpg)](/assets/media/PlayCanvas-glTF-Model-Viewer.jpg)
+[![](/assets/media/playcanvas-gltf-viewer.jpg)](/assets/media/playcanvas-gltf-viewer.jpg)
 
 ## Tools Updates
 
