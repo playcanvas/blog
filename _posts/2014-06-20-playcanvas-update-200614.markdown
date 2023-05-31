@@ -33,7 +33,7 @@ Whenever you try to launch a game from the Designer you will see errors in a new
 
 ### Shadow Distance
 
-We added Shadow Distance in the Scene Settings, a value that controls that maximum distance from the camera from which shadows coming from Directional Lights are visible. Just toggle your scene settings to adjust it. This makes shadows from Directional Lights visible in the Designer as they no longer rely on the frustum of the camera. Read about Shadow Distance [here](https://developer.playcanvas.com/user-manual/designer/scene-settings/).
+We added Shadow Distance in the Scene Settings, a value that controls that maximum distance from the camera from which shadows coming from Directional Lights are visible. Just toggle your scene settings to adjust it. This makes shadows from Directional Lights visible in the Designer as they no longer rely on the frustum of the camera.
 
 ### Events & Oculus Rift Support
 
