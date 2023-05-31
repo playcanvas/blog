@@ -72,9 +72,9 @@ Standard material shaders in PlayCanvas are assembled from multiple code 'chunks
 This feature was required in Seemore to achieve the following:
 
 - **Dual baked ambient occlusion.** The main plant uses 2 AO maps for open and closed mouth states which are interpolated dynamically.
-  [![AO](/assets/media/AO.jpg)](/assets/media/AO.jpg)
+  [![AO](/assets/media/seemore-ao.jpg)](/assets/media/seemore-ao.jpg)
 - **Fake foliage translucency.** This attenuates emission to make it appear as though light is scattered on the back-faces of leaves in a hemispherically lit room. The plant’s head uses a more complex version of the effect, calculating per-vertex procedural light occlusion.
-  [![fol](/assets/media/fol.jpg)](/assets/media/fol.jpg)
+  [![fol](/assets/media/seemore-foliage.jpg)](/assets/media/seemore-foliage.jpg)
 - **Plant/tentacle animation.** Procedural code that drives vertex positions/normals/tangents.
 
 **How did we do it?**

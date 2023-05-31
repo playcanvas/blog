@@ -29,7 +29,7 @@ Hosted apps are essentially vanilla websites with a little extra metadata. Why a
 
 So this sounds great. More people will be installing and playing your game. PlayCanvas has published a hosted app; a game called Dungeon Fury.
 
-[![dungeonfury_promo_920x680](/assets/media/dungeonfury_promo_920x680.png)](/assets/media/dungeonfury_promo_920x680.png)
+[![Dungeon Fury](/assets/media/dungeon-fury-promo.png)](/assets/media/dungeon-fury-promo.png)
 
 Check it out on the Chrome Web Store [here](https://chrome.google.com/webstore/detail/dungeon-fury/mnokkobfbdgpnlinolfpemmaloeljfle).
 
