@@ -15,7 +15,7 @@ categories:
 
 Did you see our teaser last week? PLAYHACK is back! Our game jam returns in partnership with game publisher PlayJam.
 
-[![pj_main_horiz_onwhite](/assets/media/pj_main_horiz_onwhite.png)](/assets/media/pj_main_horiz_onwhite.png)
+[![PlayJam Logo](/assets/media/playjam-logo.png)](/assets/media/playjam-logo.png)
 
 Thanks to PlayJam we've got some **great prizes** for the best entries.
 
