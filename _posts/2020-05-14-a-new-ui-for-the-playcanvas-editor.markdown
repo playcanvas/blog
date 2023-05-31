@@ -14,11 +14,11 @@ categories:
 
 The PlayCanvas Editor has been around since 2011. Way back then, it was called the PlayCanvas Designer. It was built on Sencha's ExtJS front end framework and looked like this:
 
-![](/assets/media/designer-extjs.png)
+[![](/assets/media/designer-extjs.png)](/assets/media/designer-extjs.png)
 
 As you can see, it sort of looks like a Windows XP application. If you think it looks retro now, it actually looked retro then! But you can more or less recognize it as PlayCanvas. The Pack Explorer is now the Hierarchy panel on the left. The Attribute Editor is now the Inspector. You can even see the 'Who's Online' bar to the bottom right, which is still around today. We decided quite quickly to drop the WinXP aesthetic by adopting a darker theme in September 2013:
 
-![](/assets/media/designer-extjs-dark-1024x756.png)
+[![](/assets/media/designer-extjs-dark.png)](/assets/media/designer-extjs-dark.png)
 
 This refresh was definitely an improvement and it was the start of the Designer finding a personality of its own. But after this, the team was struggling to iterate quickly. We took the very difficult decision to throw away the entire ExtJS-based Designer application and rewrite it from scratch using the incredible [Vanilla JS](http://vanilla-js.com/) framework. And thus, by early 2015, the PlayCanvas Editor was born:
 
