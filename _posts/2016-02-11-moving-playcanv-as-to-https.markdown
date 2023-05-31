@@ -12,7 +12,7 @@ categories:
   - Features
 ---
 
-[![tanx](/assets/media/tanx-1024x576.jpg)](https://playcanv.as/p/aP0oxhUr)
+[![tanx](/assets/media/tanx.jpg)](https://playcanv.as/p/aP0oxhUr)
 _TANX running on HTTPS_
 
 From today we now support HTTPS URLs on all published applications. So anytime you see a link to something on http://playcanv.as you can also use https://playcanv.as. After a short period of testing we'll be changing all default links to point to the HTTPS versions of the applications, though we will keep support for non-secure HTTP versions for the short term to ensure compatibility for applications that require a non-secure page.
