@@ -17,7 +17,7 @@ Today, the vast majority of WebGL developers load textures from JPG and PNG imag
 
 <!-- more -->
 
-[![earth-color4096](/assets/media/Earth-Color4096-1024x512-1.jpg)](/assets/media/Earth-Color4096.jpg)
+[![earth-color4096](/assets/media/Earth-Color4096.jpg)](/assets/media/Earth-Color4096.jpg)
 
 The image is 4096 by 2048 but compresses well to a 1.81MB JPG file. Under the hood, WebGL expands this image to uncompressed 24-bit RGB, using 33.6MB of VRAM! Now imagine a single material with diffuse, normal, metalness, gloss, emissive and opacity maps. 6 of these images will occupy over 200MB of VRAM. Now imagine having 10 or more unique materials in your app. Get ready for crashed browser tabs and unhappy end users!
 

@@ -67,9 +67,11 @@ This is done by painting colors into the character mesh vertices - the example c
 
 **_Step 3: Import the character into the PlayCanvas editor and set up collision:_**
 
-[![](/assets/media/cloth-simulation-collision-1-1014x1024.jpg)](/assets/media/cloth-simulation-collision-1.jpg)
+[![](/assets/media/cloth-simulation-collision-1.jpg)](/assets/media/cloth-simulation-collision-1.jpg)
 
-[![](/assets/media/cloth-simulation-collision-2.jpg)](/assets/media/cloth-simulation-collision-2.jpg)On this character, only colliders for the legs and body are needed.
+[![](/assets/media/cloth-simulation-collision-2.jpg)](/assets/media/cloth-simulation-collision-2.jpg)
+
+On this character, only colliders for the legs and body are needed.
 
 #### **What's Next**
 

@@ -21,7 +21,7 @@ JPGs and PNGs are great formats for transmission over a network because they ten
 
 This 4096 x 2048 Earth texture is a 1.81MB JPG but takes a huge **33.6MB of VRAM** when uncompressed!
 
-![](/assets/media/Earth-Color4096-1024x512.jpg)
+![](/assets/media/Earth-Color4096.jpg)
 
 With hardware supported texture formats, we can retain a similar file size while massively reducing the amount of VRAM as seen below.
 

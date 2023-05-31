@@ -47,7 +47,7 @@ These interviews provide valuable insights and inspiration for other PlayCanvas 
 
 [![](/assets/media/Leonidas-Developer-Spotlight-4-1-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-4-1.jpg)[Leonidas' Open Worlds and Metaverses](https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/)
 
-[![](/assets/media/FUQKIyNXEAI5aec-1-1024x535.jpg)](/assets/media/FUQKIyNXEAI5aec-1.jpg)[Animech's Product Configurators](https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/)
+[![](/assets/media/FUQKIyNXEAI5aec-1.jpg)](/assets/media/FUQKIyNXEAI5aec-1.jpg)[Animech's Product Configurators](https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/)
 
 [![](/assets/media/1.jpg)](/assets/media/1.jpg)[Visionaries777 Vehicle Showcases in WebAR](https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/)
 
@@ -109,7 +109,7 @@ These include:
 
 [The project dashboard has gotten a huge refresh](https://github.com/playcanvas/editor/releases/tag/v1.21.82) and can be accessed in-Editor. It includes searching and sorting of the project list as well as being able to manage teams and settings without leaving the Editor!
 
-[![](/assets/media/New-Editor-Dashboard-1024x523.png)](/assets/media/New-Editor-Dashboard.png)
+[![](/assets/media/New-Editor-Dashboard.png)](/assets/media/New-Editor-Dashboard.png)
 
 [Version Control also got some major features this year](https://github.com/playcanvas/editor/releases/tag/v1.21.30), including the addition of the Item History and Graph View, which make it easier to track changes to your projects. And looking ahead to this year, we're planning to make some of our REST API public, so developers can automate flows for CI and tools.
 
