@@ -13,9 +13,8 @@ categories:
 
 GDC is here again. What better time to announce our newest demo, built to show the awesome power of the [ARM Mali family of GPUs](<https://en.wikipedia.org/wiki/Mali_(processor)>). It's called Seemore, and it showcases the next evolutionary step in PlayCanvas' Physically Based Rendering (PBR) technology.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe frameborder="0" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="http://seemore.playcanvas.com" webkitallowfullscreen='true' mozallowfullscreen='true' allowfullscreen='true'></iframe>
-</div>
+{% include playcanvas.html type="p" id="MflWvdTW" %}
+
 _Click the fullscreen button top right for the best experience._
 
 Great care has been taken to optimize the demo, especially Mali-powered mobile devices. We have done this by adding support for ETC1 texture compression and by tuning our shaders to execute as fast as possible on ARM-based hardware.
