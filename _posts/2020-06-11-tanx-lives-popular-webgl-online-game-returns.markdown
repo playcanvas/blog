@@ -25,7 +25,7 @@ To us, it was the perfect illustration of why the web makes such a great platfor
 
 So we decided to keep developing the game. The first iteration above just had primitive tanks driving around an empty environment. v2.0 brought upgraded tank models, a new UI and a proper level:
 
-![](/assets/media/tanx-1024x576-1.jpg)
+![](/assets/media/tanx.jpg)
 
 And the game's popularity continued to grow. It even hit #1 on Hacker News one lazy Friday afternoon!
 
