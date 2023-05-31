@@ -13,7 +13,7 @@ categories:
 
 PLAYHACK April ended last week and we've spent the weekend rolling balls and dodging platforms.
 
-Many strong entries this month, but we chose our winner based on how they delivered the complete package. **Over 32 levels designed,** audio, user interface, a tutorial. And it becomes the second PLAYHACK game to make it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/marbleous/jbcgphppffkahpoiobhfdjfpbapbjblh/related) .
+Many strong entries this month, but we chose our winner based on how they delivered the complete package. **Over 32 levels designed**, audio, user interface, a tutorial. And it becomes the second PLAYHACK game to make it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/marbleous/jbcgphppffkahpoiobhfdjfpbapbjblh).
 
 [![marbleous](/assets/media/marbleous.png)](https://playcanv.as/p/jDnjRca6)
 
