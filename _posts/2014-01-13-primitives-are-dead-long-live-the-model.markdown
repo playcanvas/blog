@@ -40,4 +40,4 @@ He's a quick 4 step guide to create a primitive and applying a material.
 
 We hope you enjoy the new power we've given you today. Just enjoy it responsibly. 😉
 
-For more information on materials see the page in our [documentation](https://developer.playcanvas.com/content_creation/materials.html)
+For more information on materials see the page in our [documentation](https://developer.playcanvas.com/en/user-manual/assets/materials/).
