@@ -40,4 +40,4 @@ We've been working hard with ARM to make sure that PlayCanvas runs really well 
 
 [![Screen Shot 2015-04-02 at 15.49.43](/assets/media/Screen-Shot-2015-04-02-at-15.49.43.png)](http://seemore.playcanvas.com/)
 
-Find out more at [http://malideveloper.arm.com](http://malideveloper.arm.com/)
+Find out more about [Arm Mali GPUs](https://developer.arm.com/ip-products/graphics-and-multimedia/mali-gpus.).
