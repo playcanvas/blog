@@ -27,7 +27,8 @@ Several of the 10-or-so teams used PlayCanvas to create their game but it was Te
 
 Made up of a group of seasoned game jam veterans, Team Godlike were nothing if not ambitious. Their game Sunshi\*e was a Katamari Damacy inspired design, which saw the player evolve from tiny bee, to majestic swift (sadly they didn't get as far as the concorde they had in their initial plans), as your perspective grows the British Isles are revealed. All to an "English Country Garden" soundtrack.
 
-[caption id="attachment_1510" align="aligncenter" width="256"]![Sunshine](/assets/media/sunshine.png)](http://apps.playcanvas.com/robinb/GBSummerJam/sunshine) Play Sunshi\*e[/caption]
+[![Sunshine](/assets/media/sunshine.png)](http://apps.playcanvas.com/robinb/GBSummerJam/sunshine)
+<br>_Play Sunshi\*e_
 
 [soundcloud url="https://api.soundcloud.com/tracks/157539540" params="auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true" width="100%" height="450" iframe="true" /]
 

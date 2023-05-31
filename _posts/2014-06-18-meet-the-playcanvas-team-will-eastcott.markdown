@@ -15,7 +15,9 @@ tags:
 
 **Our recent commitment to open sourcing is not the only thing we at PlayCanvas are open about. To help get in touch with our community, we are starting a series of posts about the people behind PlayCanvas. From the informative down to the outright silly, step deeper into our world.**
 
-[caption id="attachment_1367" align="alignnone" width="640"]!['I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'](/assets/media/will_s.jpg)](/assets/media/will_s.jpg) 'I wanted to work at Marvel Comics when I was 18, my coding skills won out which is probably for the best!'[/caption]
+[![Will](/assets/media/will_s.jpg)](/assets/media/will_s.jpg)
+
+> "I wanted to work at Marvel Comics when I was 18 but my coding skills won out which is probably for the best!"
 
 First up is Will, our CEO and co-founder, from everyone's favorite sleepy little town Bedford, England!
 

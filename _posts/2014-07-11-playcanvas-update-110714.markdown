@@ -31,7 +31,8 @@ Some engine fixes too:
 
 ### Develop conference
 
-[caption id="attachment_1519" align="aligncenter" width="600"]![Looks fancy doesn’t it?  You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.](/assets/media/Develop-Conference.jpg)](/assets/media/Develop-Conference.jpg) Looks fancy doesn’t it? You’d think developers were paid as much as footballers…Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end.[/caption]
+[![Develop Conference](/assets/media/Develop-Conference.jpg)](/assets/media/Develop-Conference.jpg)
+<br>_Looks fancy doesn’t it? You’d think developers were paid as much as footballers... Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end._
 
 We were incredibly pleased to be nominated for the **Technical Innovation Award** at the prestigious [Develop Awards](https://www.developawards.com/) last week. David Evans, CTO and co-founder of PlayCanvas put in an appearance, but sadly, we lost out to Oculus and their Rift. Next year, however, the story will be very different.
 

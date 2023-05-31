@@ -17,7 +17,8 @@ Now we expanding our community features into the world of forums and random inte
 
 ## PlayCanvas Discussion
 
-[caption id="attachment_767" align="aligncenter" width="575"]![PlayCanvas Discussion forum](/assets/media/discussion.png)](/assets/media/discussion.png)) PlayCanvas Discussion[/caption]
+[![PlayCanvas Forum](/assets/media/discussion.png)](/assets/media/discussion.png)
+<br>_PlayCanvas Discussion_
 
 [PlayCanvas Discussion](https://forum.playcanvas.com) is our community forum. Unlike Answers which is focussed on getting you solutions to problems, Discussion is for long rambling trains of thought, showing off your work, arguing back and forth about how best to implement a performant [flocking algorithm](https://forum.playcanvas.com/t/not-a-game-not-for-the-fishing-jam/25) in JavaScript and general holding court about all things Game Dev, HTML5 and PlayCanvas related.
 
@@ -25,7 +26,8 @@ Now we expanding our community features into the world of forums and random inte
 
 #### A little note on Discourse
 
-[caption id="attachment_770" align="aligncenter" width="575"]![Discourse logo](/assets/media/discourse.png)](/assets/media/discourse.png) Civilized Discourse[/caption]
+[![Discourse logo](/assets/media/discourse.png)](/assets/media/discourse.png)
+<br>_Civilized Discourse_
 
 Forum software is perhaps one of the most neglected areas of web development, it never seemed to have it's web 2.0 moment like photo-sharing. Perhaps because all the hackers we're busy creating another [Project Management SAAS platform](https://en.wikipedia.org/wiki/Comparison_of_project_management_software). But now Jeff Atwood, of [Coding Horror](https://blog.codinghorror.com/) and [Stack Overflow](https://stackoverflow.com) fame, and his team have created [Discourse](https://discourse.org/). A fancy new forum, designed to be great for communities and civilized discourse. Perfect for what we want for our community.
 
