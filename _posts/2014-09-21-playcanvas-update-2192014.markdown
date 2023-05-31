@@ -46,7 +46,7 @@ Another little improvement that'll save you time. If you publish an applicatio
 
 ### Application view counts
 
-This is just the start of something big, but we now display how many people have viewed your published game on the application page. Just take a look at [Doom 3 Gangnam Style](http://apps.playcanvas.com/will/doom3/gangnamstyle)!
+This is just the start of something big, but we now display how many people have viewed your published game on the application page. Just take a look at [Doom 3 Gangnam Style](https://playcanv.as/p/iCL6sxgF/)!
 
 ### Stay In The Loop
 
