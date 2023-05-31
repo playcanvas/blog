@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-The PlayCanvas website and editor will be unavailable intermittently from 9am UTC tomorrow (Saturday 10th June) while we perform server maintenance. We will endeavor to keep downtime to a minimum but the period of downtime may be several hours. Stay informed with updates via this blog post and on our [Twitter Account](https://twitter.com/playcanvas)..
+The PlayCanvas website and editor will be unavailable intermittently from 9am UTC tomorrow (Saturday 10th June) while we perform server maintenance. We will endeavor to keep downtime to a minimum but the period of downtime may be several hours. Stay informed with updates via this blog post and on our [Twitter Account](https://twitter.com/playcanvas).
 
 We apologies for any inconvenience this may cause.
 
