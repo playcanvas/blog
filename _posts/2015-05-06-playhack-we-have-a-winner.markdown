@@ -21,9 +21,11 @@ Many strong entries this month, but we chose our winner based on how they delive
 
 We also wanted to do a big shout out to our runners up, [hoshi](https://playcanvas.com/user/hoshi) , [roonio](https://playcanvas.com/user/roonio) and [knownasilya](https://playcanvas.com/user/knownasilya) who all made awesome games as well. Try them out below.
 
-[![hOSHIs_Coins_-_PLAYCANVAS](/assets/media/hOSHIs_Coins_-_PLAYCANVAS.jpg)](https://playcanv.as/p/R2bo1sXW)
-[![zebawl](/assets/media/zebawl.png)](https://playcanv.as/p/g3YmCFUl)
-[![Tumble_-_PLAYCANVAS](/assets/media/Tumble_-_PLAYCANVAS.jpg)](https://playcanv.as/p/xGHx2DyX)
+[![Hoshi's Coins](/assets/media/playhack-hoshis-coins.jpg)](https://playcanv.as/p/R2bo1sXW)
+
+[![Zebawl](/assets/media/playhack-zebawl.png)](https://playcanv.as/p/g3YmCFUl)
+
+[![Tumble](/assets/media/playhack-tumble.jpg)](https://playcanv.as/p/xGHx2DyX)
 
 ## Inspired?
 
