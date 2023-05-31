@@ -25,7 +25,7 @@ Our new **Particle System** is only in beta form but already we're seeing great 
 
 **Project pages** are now a public overview of your project. You can use the devlog to talk to other PlayCanvas users about your game. Devlogs go into the public feed on the welcome page.
 
-#### Watching/ Starring
+#### Watching and Starring Projects
 
 **[You can now Watch or Star PlayCanvas projects!](https://blog.playcanvas.com/watching-and-starring/)**
 
@@ -33,7 +33,7 @@ Our new **Particle System** is only in beta form but already we're seeing great 
 
 **Starring** a project just tells us that you think it’s cool. You won’t receive any more information about it, but you can rest safe in the knowledge that you’ve given the project’s owner a little boost to their day.
 
-[![Project Stars](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)](/assets/media/Overview___Dashboard___swooop___PlayCanvas___3D_HTML5___WebGL_Game_Engine.jpg)
+[![Project Stars](/assets/media/swooop-dashboard.jpg)](/assets/media/swooop-dashboard.jpg)
 
 ### Graphics
 
