@@ -55,7 +55,7 @@ Before adding support for WebGPU, it's important to discuss the significant amou
 
 As an early pre-release of WebGPU, we have updated several engine examples to use it, which can be accessed on [https://playcanvas.github.io](https://playcanvas.github.io/). To use WebGPU, the Chrome Canary browser is required, with the 'chrome://flags/#enable-unsafe-webgpu' flag enabled.
 
-[![](/assets/media/playcanvas-examples-browser-webgpu-1024x555.jpg)](/assets/media/playcanvas-examples-browser-webgpu.jpg)
+[![](/assets/media/playcanvas-examples-browser-webgpu.jpg)](/assets/media/playcanvas-examples-browser-webgpu.jpg)
 
 [PlayCanvas Examples Browser](https://playcanvas.github.io/)
 
