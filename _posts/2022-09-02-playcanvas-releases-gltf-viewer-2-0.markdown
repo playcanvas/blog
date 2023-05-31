@@ -87,7 +87,7 @@ You can see both in action below, deliberately reduced in resolution to show the
 
 Also new is sharper reflections for smooth reflective surfaces. The viewer will now use the full resolution skybox cubemap in the engine’s image-based lighting pipeline which looks crisp and far more realistic.
 
-[![](/assets/media/FZZp8qwWAAAQqyR-1024x608.jpeg)](/assets/media/FZZp8qwWAAAQqyR.jpeg)
+[![](/assets/media/FZZp8qwWAAAQqyR.jpeg)](/assets/media/FZZp8qwWAAAQqyR.jpeg)
 
 ## Interface Redesign
 
@@ -101,7 +101,7 @@ Buttons to control viewer settings can now be found at the bottom of the 3D view
 
 If you load a scene that contains animation, animation controls will automatically appear:
 
-[![](/assets/media/animation-toolbar-1024x281.png)](/assets/media/animation-toolbar.png)
+[![](/assets/media/animation-toolbar.png)](/assets/media/animation-toolbar.png)
 
 The controls allow you to scrub through an animation, select playback speed and even choose which animation clip to play should the file contain more than one.
 

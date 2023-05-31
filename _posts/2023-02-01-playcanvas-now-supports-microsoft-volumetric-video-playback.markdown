@@ -176,7 +176,7 @@ These include:
 
 Although not PlayCanvas related, it is worth shouting out: the awesome QR code (that is displayed if the device is not XR compatible) is generated with [Amazing-QR](https://github.com/x-hw/amazing-qr). It's able to create colorful and animated QR codes that are more interesting and attractive than the typical black and white versions.
 
-[![](/assets/media/awesome-qr-code-1024x562.jpg)](/assets/media/awesome-qr-code.jpg)
+[![](/assets/media/awesome-qr-code.jpg)](/assets/media/awesome-qr-code.jpg)
 
 ### Issues found
 
