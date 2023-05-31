@@ -15,7 +15,7 @@ It's finally over. The games were completed a few weeks ago and 6 judges have to
 
 Over the course of 6 weeks, over 150 teams forked our original project and worked their little gamedev butts off to finish the games in time. In the end we had over 30 playable entries - more than enough to keep our judges busy.
 
-![pj_main_horiz_onwhite](/assets/media/pj_main_horiz_onwhite.png)
+![PlayJam Logo](/assets/media/playjam-logo.png)
 
 First, we want to send a big **Thank You** to [PlayJam](https://www.playjam.com/) our partner and sponsor for this PLAYHACK.
 
