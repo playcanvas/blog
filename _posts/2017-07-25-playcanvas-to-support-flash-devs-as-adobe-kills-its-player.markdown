@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-Today, Adobe [announced](https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html) that it is to kill Flash by 2020.
+Today, Adobe [announced](https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update) that it is to kill Flash by 2020.
 
 Back in early 2011, we foresaw this event and started work on PlayCanvas. We knew that Flash would still be around for some years, but we also knew that building any replacement for content creators would be a titanic task. Over six years later, PlayCanvas has established itself as the go-to toolset for building WebGL-content. The browser-based Editor application is lightweight yet exceptionally powerful. The apps produced are super-lightweight and perform great even on older mobile devices. And our 'modern' cloud-based approach enables developers to collaborate and iterate like never before.
 
