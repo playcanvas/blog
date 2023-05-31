@@ -16,9 +16,9 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month Iâ€
 
 ![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)
 
-We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/natpat/playhack_december).
+We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/project/333523/overview/playhack_december).
 
-[iframe src="http://apps.playcanvas.com/natpat/playhack_december/Tut%203%20-%20Collecting%20presents" width="100%" height="480" scrolling="no" class="iframe-class" frameborder="0"]
+{% include playcanvas.html type="b" id="MjlE6fOY" %}
 
 _Use W and S to move the sleigh._
 
