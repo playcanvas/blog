@@ -20,7 +20,7 @@ We'll be following on from [last time's tutorial](https://blog.playcanvas.com/pl
 
 <!-- more -->
 
-[iframe src="http://apps.playcanvas.com/natpat/playhack_december/Tut%202%20-%20Creating%20Presents" width="100%" height="480" scrolling="no" class="iframe-class" frameborder="0"]
+{% include playcanvas.html type="b" id="eyPboW2T" %}
 
 _Use W and S to move the sleigh._
 

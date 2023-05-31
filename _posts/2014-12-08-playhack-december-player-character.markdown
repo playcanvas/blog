@@ -18,7 +18,7 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month I'l
 
 <!-- more -->
 
-[iframe src="http://apps.playcanvas.com/natpat/playhack_tut1_embed/PLAYHACK_TUT1" width="100%" height="480"]
+{% include playcanvas.html type="b" id="WbIFTpdn" %}
 
 _Use W and S to move the sleigh. Press SPACE to switch to mouse control._
 
