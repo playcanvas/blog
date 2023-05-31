@@ -17,7 +17,7 @@ Many strong entries this month, but we chose our winner based on how they delive
 
 [![marbleous](/assets/media/marbleous.png)](https://playcanv.as/p/jDnjRca6)
 
-**Congratulations to [svensei_coder](https://playcanvas.com/user/svensei_coder) who made [Marbleous](https://playcanv.as/p/jDnjRca6) our favorite game this PLAYHACK.**
+**Congratulations to [axondesign](https://playcanvas.com/user/axondesign) who made [Marbleous](https://playcanv.as/p/jDnjRca6), our favorite game this PLAYHACK.**
 
 We also wanted to do a big shout out to our runners up, [hoshi](https://playcanvas.com/user/hoshi) , [roonio](https://playcanvas.com/user/roonio) and [knownasilya](https://playcanvas.com/user/knownasilya) who all made awesome games as well. Try them out below.
 
