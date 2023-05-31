@@ -30,7 +30,7 @@ Your mileage will vary depending on how many scripts your project has and what y
 Here are the launch times for a scene referencing 125 scripts on low-latency WiFi (150Mbps down with 7ms ping):
 
 - Concatenate off: 24 seconds
-- Concatenate on: **2 seconds **(!)
+- Concatenate on: **2 seconds**(!)
 
 ### Wait! Won't this Screw Up My Debugging?
 
