@@ -11,7 +11,8 @@ categories:
   - News
 ---
 
-[caption id="attachment_1099" align="aligncenter" width="575"]![CEO Will Eastcott at SXSW Accelerator](/assets/media/IMG_20140308_171838.jpg) CEO Will Eastcott at SXSW Accelerator[/caption]
+![Will at SXSW Accelerator](/assets/media/IMG_20140308_171838.jpg)
+<br>_CEO Will Eastcott at SXSW Accelerator_
 
 This past week the PlayCanvas founders have been deep in the heart of Texas at the celebrated mega-festival SXSW. We were chosen from over 500 companies to pitch to a enormous room full of business leads, journalists and tech enthusiasts. Will was on stage and we wowed them successfully enough to get through the final 3. Sadly another talented start-up crew beat us to the No. 1 slot, but a close 2nd is still pretty damn good.
 

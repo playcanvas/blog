@@ -13,7 +13,9 @@ tags:
   - MeetPlayCanvas
 ---
 
-[caption id="attachment_1385" align="aligncenter" width="640"]!['I used to play basketball. Before all this I considered doing it for a living.'](/assets/media/vaios_s.jpg.jpeg)](/assets/media/vaios_s.jpg.jpeg) 'I used to play basketball. Before all this I considered doing it for a living.'[/caption]
+[![Vaios](/assets/media/vaios_s.jpg.jpeg)](/assets/media/vaios_s.jpg.jpeg)
+
+> "I used to play basketball. Before all this, I considered doing it for a living."
 
 Vaios comes from Athens, Greece (if his name wasn't giving anything away) and he is a Senior Engineer here at PlayCanvas.
 

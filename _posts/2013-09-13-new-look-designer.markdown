@@ -14,7 +14,8 @@ categories:
 
 We've updated the Designer theme to give it an all-new Pro look.
 
-[caption id="attachment_938" align="aligncenter" width="600"]![The new Designer theme](/assets/media/theme.png)](/assets/media/theme.png) Black is the new Black[/caption]
+[![New Designer Theme](/assets/media/theme.png)](/assets/media/theme.png)
+<br>_Black is the new Black_
 
 Functionally it remains the same, but we'll be focussing on making a few of the controls more intuitive over the next few weeks.
 
