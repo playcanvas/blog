@@ -16,7 +16,7 @@ categories:
 
 In 2014 our community has grown from roughly 2,000 to over 20,000 users and there has been over 2,000,000 views of PlayCanvas projects. There really has never been a better time to join us! So without further ado, here’s a look back at PlayCanvas and the Games industry in 2014 and glance ahead into the new year.
 
-## **Features**
+## Features
 
 [![SWOOOP background](/assets/media/background-small.png)](/assets/media/background-small.png)
 
@@ -90,4 +90,4 @@ We have a lot planned with regards to the Editor, so stay tuned. If PlayCanvas w
 
 Though the current iteration of the PlayCanvas Store only has around 40 models, soon we’ll be giving all of our PlayCanvas users the chance to become vendors, opening up their assets to over 20,000 PlayCanvas game developers. In time, the PlayCanvas Store will be a fully functioning marketplace for the PlayCanvas Community.
 
-## **What Do You Want To See?**
+## What Do You Want To See?
