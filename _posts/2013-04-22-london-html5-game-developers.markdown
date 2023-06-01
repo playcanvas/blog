@@ -21,13 +21,13 @@ This month we held or first **Presentation Night**. Mozilla kindly hosted us at 
 
 Here are a few pictures:
 
-[![Audience](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-19.24.16.jpg)](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-19.24.16.jpg)
+[![Audience](/assets/media/meetup-audience.jpg)
 <br>_Great turnout, practically a full house_
 
-[![Max and Maciej](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-19.18.01.jpg)](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-19.18.01.jpg)
+[![Max and Maciej](/assets/media/meetup-max-and-maciej.jpg)
 <br>_Max and Maciej showing off their game-hack games_
 
-[![Unreal 3 in the Browser](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-20.59.15.jpg)](https://playcanvas.com/wp-content/uploads/2013/04/2013-04-18-20.59.15.jpg)
+[![Unreal 3 in the Browser](/assets/media/meetup-unreal.jpg)
 <br>_Chris from Mozilla demoing Unreal 3 in the browser_
 
 Thanks to everyone who came along, in particular Chris from Mozilla who stayed late after work to host the event.
