@@ -61,9 +61,9 @@ Want to try soft body dynamics on your own character? Here's how:
 
 This is done by painting colors into the character mesh vertices - the example character was downloaded from [Mixamo](https://www.mixamo.com/), and imported into [Blender](https://www.blender.org/):
 
-[![](/assets/media/cloth-simulation-painted-vertices-1-1024x913.jpg)](/assets/media/cloth-simulation-painted-vertices-1.jpg)
+[![](/assets/media/cloth-simulation-painted-vertices-1.jpg)](/assets/media/cloth-simulation-painted-vertices-1.jpg)
 
-[![](/assets/media/cloth-simulation-painted-vertices-2-996x1024.jpg)](/assets/media/cloth-simulation-painted-vertices-2.jpg)Black = fully simulated, White = not simulated
+[![](/assets/media/cloth-simulation-painted-vertices-2.jpg)](/assets/media/cloth-simulation-painted-vertices-2.jpg)Black = fully simulated, White = not simulated
 
 **_Step 3: Import the character into the PlayCanvas editor and set up collision:_**
 
@@ -73,7 +73,7 @@ This is done by painting colors into the character mesh vertices - the example c
 
 On this character, only colliders for the legs and body are needed.
 
-#### **What's Next**
+### What's Next?
 
 We are really excited about developing this technology in the coming months. We will focus on these areas:
 

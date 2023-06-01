@@ -18,7 +18,7 @@ _Cannes Lions_ is the world's biggest annual awards show and festival for profes
 
 Dominating the sea-front is the Grand Cannes, a vast 18 meter wide LED screen that sits atop the Grand Hotel. [DOOH](http://dooh.com/), a world leader in Digital Out Of Home experiences, wanted to create a gaming experience people could play on that screen to wow the world of advertising.
 
-"At DOOH, we're constantly devising new and refreshing ways to engage consumers as they go about their lives." said Andrew Newman, CEO of DOOH. "Gaming has a key role in that. So at Cannes Lions, we're enabling passers by to play the world's largest game of Space Invaders. And since everybody has a smartphone, everybody can play. Just visit a web link to load up the DOOHpad, our virtual controller. To build DOOH Invaders, we needed a partner who understands the intersection of gaming and advertising. The natural choice was PlayCanvas and they've built something truly special."
+> "At DOOH, we're constantly devising new and refreshing ways to engage consumers as they go about their lives." said Andrew Newman, CEO of DOOH. "Gaming has a key role in that. So at Cannes Lions, we're enabling passers by to play the world's largest game of Space Invaders. And since everybody has a smartphone, everybody can play. Just visit a web link to load up the DOOHpad, our virtual controller. To build DOOH Invaders, we needed a partner who understands the intersection of gaming and advertising. The natural choice was PlayCanvas and they've built something truly special."
 
 [![DOOH Invaders](/assets/media/doohinv.gif)](/assets/media/doohinv.gif)
 <br>_DOOH Invaders: Running on the 20m wide Grand Cannes_

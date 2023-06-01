@@ -15,11 +15,11 @@ categories:
 
 ![VAIOSGAME](/assets/media/VAIOSGAME.png)
 
-### **What is the Ludum Dare?**
+### What is the Ludum Dare?
 
 Remaining active for over 12 years (making it one of the longest Game Jams in existence) to this day LUDUM DARE is an **event run by game developers for game developers**. During a Ludum Dare, 'developers from around the world spend a weekend creating games based on a theme suggested by the community' competing for a grand prize of nothing. Crazy we know, but this grand prize is for good reason. **Your prize is your product**.
 
-### **Ludum Dare 31 and PlayCanvas**
+### Ludum Dare 31 and PlayCanvas
 
 Over the past weekend there was some great developing happening with PlayCanvas in the Ludum Dare. You can find the projects on our explore page but these incredible developers endured espionage grade sleep deprivation and probably experienced the full spectrum of human emotion. So for their efforts, we'll happily give their creations some love.
 
