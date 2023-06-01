@@ -15,7 +15,8 @@ tags:
   - workflow
 ---
 
-![](https://lh4.googleusercontent.com/Eyb5GmRmkoY49YgJ1lfhpUIlrqjMp3su-QSxv9tZaVwodCd6MKjndEJa_LbtFT2YA4DK8hKtoaaFbQWVlTjgolXx5QkoiUU4ivK_BntvIU5tK24cBpFqtSSAwnMR9opXm0j34eRA)[https://playcanvas.github.io/#/animation/layer-masks](https://playcanvas.github.io/#/animation/layer-masks)
+![](/assets/media/anim-layer-blending.gif)
+<br>_[RUN DEMO](https://playcanvas.github.io/#/animation/layer-masks)_
 
 Today, we are releasing the latest anim component feature: the masking and blending of anim layers.
 
@@ -49,7 +50,8 @@ That meant that even if you were to add a shooting animation to the top half of 
 
 Now with anim layer blending, it is possible to smoothly blend subsequent layers in and out, changing the weight each layer contributes to the characters animation in real time.
 
-![](https://lh6.googleusercontent.com/NnFYuUrYrST9WJFLrNnMx38nOvXhYih3hZlizu6F0fl1fXMmKtJAdkllM36qV1IF3vC6ycVGm1kKnhNt1Eie76ldhCk1XkznKsIxyGl0KK2R9px4UFe_eFhbRmuV3y51OYD68Gry)Animation layer blending in the PlayCanvas examples browser
+![](/assets/media/anim-layer-blending2.gif)
+<br>_Animation layer blending in the PlayCanvas examples browser_
 
 When editing an AnimStateGraph asset, you’re now presented with two `Blend Type` options in each layer. The `Overwrite` option is set by default and works as before, each subsequent layer completely overwrites the animation values of previous layers.
 
