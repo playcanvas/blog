@@ -31,11 +31,11 @@ Having recently beta tested this feature with a number of developers, we’ve al
 
 A clip of an early build of this game can be seen below, showcasing the blending of multiple animation clips. When combined together in a state graph they create realistic and fluid movement for the main character.
 
-![](https://lh4.googleusercontent.com/FXdAKpaNz01gYxGDvxK24myBGywGV6s_9a--zFPCSMapHzI6GjL4lOEzH9vDGKr9kEjVMvJbvmd8WNrnf9ysuBL-dfNQcf01fj1qPLS-V9r9tJ74hifj8I8KXOrj1r4hBW6ZzPjE)
+![](/assets/media/cem-prototype.gif)
 
 This animation system was entirely developed in the PlayCanvas editor using the anim state graph user interface. The state graph for the main character can be seen below:
 
-![](https://lh4.googleusercontent.com/EVTXoBSgvtwfeuBaXcGoSL7C8IkaaJip1Ncal-Q2czrSiGazesRpEi31uiedSNSaB-Lv4R2YGl-qYFfkMutzjPzEWGLhtmBmid4-qcXprLpz8cUHqysTsAwHwwaHKQappEJ8SckD)
+![](/assets/media/anim-state-graph.png)
 
 We can’t wait to see what other developers can create with this system!
 
@@ -45,7 +45,8 @@ We can’t wait to see what other developers can create with this system!
 
 **Multiple characters** - Because anim state graphs are stored as assets, a single graph can be used to drive the animation of as many entities as you want by assigning your graph asset to multiple entity anim components.
 
-![](https://lh5.googleusercontent.com/YTBSDXAQybmQELV3f0kl1pEWOUK294lvgWeppWipsdenBmcsjrtuepgSnJY2Zq3YOH5cr290eUzQI0V4wEvPft-f-usXAZ41aNpxPv_uzU4zQ-HqPWFdnTgZvVRdPm4Pi4GxMMUd)Multiple characters utilizing the same anim state graph
+![](/assets/media/anim-state-graph-shared.gif)
+<br>_Multiple characters utilizing the same anim state graph_
 
 While these two characters use different animations for their various actions, they share the same behavior. With the anim state graph you can update this behavior in one place while still using it with as many characters as you like.
 
@@ -71,7 +72,8 @@ Layer Masking - You’ll be able mask your character animations on a particular 
 
 Blend Trees - Directly control the blend between multiple animations in real time.
 
-![](https://lh6.googleusercontent.com/-a5iUAthN-KjC-AjXow-Nd9XfnLw7CmxgDB6X1o0SpEgdcbFgXKGwE5eFL2zUL6WlZENfuXVMQDaolN7koF6TIuYR2BhAo5jHg4ylUlMzs_mCHY7Alrs90cNKwOJ8DLPlXunnDcT)Blending three animations using a 2D cartesian blend tree
+![](/assets/media/anim-blend-trees.gif)
+<br>_Blending three animations using a 2D cartesian blend tree_
 
 Animation Clips - Currently the anim state graph supports animation assets that have been imported into PlayCanvas. Clips will allow you to create extra animation assets within the PlayCanvas editor yourself! These will be great for quickly adding smaller animated flourishes to your game objects.
 

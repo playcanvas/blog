@@ -46,11 +46,11 @@ It’s now possible to verify the content and rendering of your assets no matter
 
 When loading PlayCanvas viewer v3.0 on desktop, you’ll be presented with the option to load a glTF model from a URL.
 
-![](https://lh4.googleusercontent.com/JuYnG7LM6j-737CYSPPP3loYZax1E1VwKHfbIJRczvDdWY-YmQr2M21otf3uj_0JFJP0RB16hNDFp9gf10fPgZ0232YOSzIwbBc-e314V6--BycgoxsY9a-zyysDNr5LaanC9MPLF8mGsjCTMJ072lz8Dtt4eOJMkbFc2ZuDdXzX0JGU9zxzN6atHw)
+![](/assets/media/gltf-viewer-start.png)
 
 When this is used, the application will generate a QR code you can scan to share the current viewer scene between your devices or others:
 
-![](https://lh4.googleusercontent.com/A7LYvjcQQgCGGf3Rt1Ua_Q8TmwkOmq6NS09C3YP5H4BNgs48s8jV34QWjUoRKFE6hTib9SADlq7PwVhKtAlzcopWRk-Jr2Bt34UMLL4y0Ys3RPOpAaLh_wwelkUxz1WiV54aMhIr4Wtz3hhTnQ4KPQ4Op8EjRm7bHP_KFGSYo1NmpBPAmxs0japFKw)
+![](/assets/media/gltf-viewer-share.png)
 
 ### New PlayCanvas theme
 
