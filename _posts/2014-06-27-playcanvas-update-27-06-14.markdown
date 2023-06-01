@@ -32,10 +32,12 @@ Now you can select [new modifications](https://developer.playcanvas.com/en/user-
 
 ### PlayCanvas Projects
 
-Some members of the PlayCanvas Community made real strides in their [projects](https://playcanvas.com/play) too. Check out [this](http://apps.playcanvas.com/rerofumi/tamaaanya/tamaaanya) great game by PlayCanvas user Rerofumi. Also PlayCanvas Senior Engineer [Maks](https://blog.playcanvas.com/meet-the-playcanvas-team-maksims-mihejevs/)' award winning colorTanks had a facelift too, give it a try [here](http://tanks.moka.co/).
+Some members of the PlayCanvas Community made real strides with their [projects](https://playcanvas.com/explore/active) too. Check out [this](https://playcanv.as/p/thL3phaK/) great game by PlayCanvas user [rerofumi](https://playcanvas.com/user/rerofumi).
 
 [![Tamaaanya](/assets/media/Tamaanya.jpg)](/assets/media/Tamaanya.jpg)
-<br>_One of your five a day: 'Tamaaanya' a cute carrot munching game made by PlayCanvas user Rerofumi_
+<br>_One of your five a day: 'Tamaaanya' a cute carrot munching game made by PlayCanvas user rerofumi_
+
+Also, PlayCanvas Senior Engineer [Max](https://blog.playcanvas.com/meet-the-playcanvas-team-maksims-mihejevs/) gave his award winning game colorTanks a facelift too. Give it a try [here](https://tanx.io/)!
 
 ### Stay In The Loop
 
