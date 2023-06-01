@@ -18,7 +18,7 @@ categories:
 
 Its December 2014 and before the year is out we have a festive game jam for you to test your skills in.
 
-## **How does it work?**
+## How does it work?
 
 PLAYHACK starts today! We'll provide you with a 3D model and your mission is to turn it into a game. The only rule: you must use the model somewhere in your game.
 
@@ -30,7 +30,7 @@ It works like this:
 4. **At the end of the month we'll look through all the projects that were forked from the original.**
 5. **We'll pick our favorite and feature it on the front page of PlayCanvas for everyone to see.**
 
-## **The Model**
+## The Model
 
 [![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
 
@@ -40,20 +40,20 @@ Whether it's an endless **side scroller** or an intense** racing game**, you can
 
 Look out for another series of tutorial blog posts coming soon to give you some ideas coming soon.
 
-## **Judging**
+## Judging
 
 The process of judging will be as broad as the rules. You won't be marked on the strength of code, graphics or theme, **the winning game will be the project that we enjoy the most**. Simple.
 
 We will be holding things down here at HQ during the month long jam by **sharing** some of the best **screen shots**, **DevLog entries** and **general updates** of your progress.
 
-## **Featured Winner**
+## Featured Winner
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
 [![Last month's winning game from LizziP and Alex](/assets/media/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL)
 <br>_SRL by lizzip and auroraimortalis_
 
-## **Last Month**
+## Last Month
 
 With **ramps**, **barrels**, **hyper speed turrets** and **explosions**, last month's PlayHack was crazy (in the best way possible).
 

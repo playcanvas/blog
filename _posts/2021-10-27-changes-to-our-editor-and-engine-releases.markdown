@@ -48,7 +48,7 @@ $ git remote set-head origin -a
 
 Alternatively, creating a fresh clone from GitHub will work as well.
 
-### **Separate Engine releases from the Editor**
+### Separate Engine releases from the Editor
 
 The Editor will no longer be affected by the latest release of the Engine on the [GitHub repo](https://github.com/playcanvas/engine). The Engine version used in the Editor will only be updated via an Editor release.
 
