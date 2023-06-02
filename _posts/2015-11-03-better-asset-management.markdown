@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![Screen Shot 2015-11-03 at 17.45.06](/assets/media/Screen-Shot-2015-11-03-at-17.45.06.png)](/assets/media/Screen-Shot-2015-11-03-at-17.45.06.png)
+![PlayCanvas Editor](/assets/media/editor-bmw.png)
 
 Forget about Twitter changing stars to hearts. PlayCanvas introduces **Asset Folders**!
 

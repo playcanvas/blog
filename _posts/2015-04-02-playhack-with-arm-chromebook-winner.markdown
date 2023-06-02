@@ -38,6 +38,6 @@ We want to make a couple of **special mentions** to [alphacodemonkey](https://pl
 
 We've been working hard with ARM to make sure that PlayCanvas runs really well on their Mali mobile GPUs. You'll see this in the Seemore demo we developed in association with ARM.
 
-[![Screen Shot 2015-04-02 at 15.49.43](/assets/media/Screen-Shot-2015-04-02-at-15.49.43.png)](http://seemore.playcanvas.com/)
+[![Seemore Demo](/assets/media/seemore-greenhouse2.png)](https://playcanv.as/p/MflWvdTW/)
 
 Find out more about [Arm Mali GPUs](https://developer.arm.com/ip-products/graphics-and-multimedia/mali-gpus.).

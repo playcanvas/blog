@@ -12,7 +12,7 @@ categories:
   - PLAYHACK
 ---
 
-[![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)](/assets/media/PLAYHACK_clearxmas.jpg)
+![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
 
 **If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.**
 
@@ -32,7 +32,7 @@ It works like this:
 
 ## The Model
 
-[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
+![Santa](/assets/media/playhack-santa.jpg)
 
 We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the** Jolly Santa model** (complete with sleigh and Rudolph).
 
@@ -50,8 +50,8 @@ We will be holding things down here at HQ during the month long jam by **sharing
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
-[![Last month's winning game from LizziP and Alex](/assets/media/Screen-Shot-2014-12-01-at-11.54.03.png)](http://apps.playcanvas.com/lizzip/gamehack/SRL)
-<br>_SRL by lizzip and auroraimortalis_
+[![SRL](/assets/media/playhack-nov-14-srl.png)](https://playcanvas.com/project/331749/overview/gamehack)
+<br>_[Play SRL](https://playcanv.as/p/o5sSYIiR/) by lizzip and auroraimortalis_
 
 ## Last Month
 
