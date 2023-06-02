@@ -14,7 +14,7 @@ categories:
 
 **Game developers and the idea of perfection are never far apart and we are pleased to announce a new feature that allows you to be as precise as your project demands. If you were thinking what we were thinking then…SNAP!**
 
-**[![snap screenshot](/assets/media/snap-screenshot.jpg)](/assets/media/snap-screenshot.jpg)**
+[![snap screenshot](/assets/media/snap-screenshot.jpg)](/assets/media/snap-screenshot.jpg)
 
 Due to popular demand (coming in particular from PlayCanvas user Crefossus), Entities now move incrementally as default. This feature allows you to quickly measure and perfectly place where your Entities need to be, no need to rotate the camera to make sure your items are perfectly in line.
 
