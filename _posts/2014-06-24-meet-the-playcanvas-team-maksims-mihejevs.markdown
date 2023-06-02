@@ -17,9 +17,9 @@ tags:
   - webgl
 ---
 
-[![maks](/assets/media/maks.png)](/assets/media/maks.png)
+![Max](/assets/media/team-max-2014.png)
 
-Today we are talking to the Russian (from Latvia) Senior Engineer at [PlayCanvas](https://playcanvas.com) Maks!
+Today we are talking to the Russian (from Latvia) Senior Engineer at [PlayCanvas](https://playcanvas.com): Max!
 
 **How did you get into the video games industry?**
 
