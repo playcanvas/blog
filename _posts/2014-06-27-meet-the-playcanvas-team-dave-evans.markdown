@@ -13,7 +13,7 @@ tags:
   - MeetPlayCanvas
 ---
 
-[![dave_s.jpg](/assets/media/dave_s.jpg.jpeg)](/assets/media/dave_s.jpg.jpeg)
+![Dave](/assets/media/team-dave-2014.jpg)
 
 Next up is PlayCanvas' Chief Technical Officer who shares his name with beanie clad U2 Guitarist 'The Edge', [Dave Evans](https://twitter.com/daredevildave). Dave grew up just outside of Cambridge in Duxford where he says he was regularly dive-bombed by old planes from the nearby Imperial war Museum.
 
