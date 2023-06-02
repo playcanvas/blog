@@ -21,23 +21,23 @@ The event was designed to showcase websites that represent the best of the best
 - [Character Study for WebGL Games](http://www.visualiser.fr/Babylon/character/default.htm) - Rag doll physics
 - [Gravity](http://www.hellochar.com) - Trippy gravity playground
 - [A Particle Dream](http://www.iamnop.particles/) - Trippy particle playground
-- [Maratropa](http://maratropa.com/) - Twitter visualizer
+- [Maratropa](https://www.marpi.studio/exhibitions/maratropa) - Twitter visualizer
 - [MTV EMA 2012 Opener](http://labs.sehsucht.de/) - A Zoetrope, a fast-moving carousel which evokes the illusion of motion
-- [Seemore](http://seemore.playcanvas.com) - Enter PlayCanvas and ARM's sinister realm of a monstrous man-eating plant
+- [Seemore](https://playcanv.as/p/MflWvdTW/) - Enter PlayCanvas and ARM's sinister realm of a monstrous man-eating plant
 - [Mountains of Mouthness](http://www.mountainsofmouthness.com) - Mountains that read tweets aloud
-- [Rainbow Membrane](http://cabbi.bo/RainbowMembrane/) - A VR demo where you are inside a box you can pull and push, performed with an OculusVR and LeapMotion
+- [Rainbow Membrane](https://cabbi.bo/RainbowMembrane/) - A VR demo where you are inside a box you can pull and push, performed with an OculusVR and LeapMotion
 - [Arterys](https://arterys.com/) - Visualizations of CT data of arteries, including flow
-- [Just a Reflektor](http://www.justareflektor.com) - Control some effects in a music video using a webcam
-- [Lights](http://lights.helloenjoy.com/) - Music video flying over a procedural landscape
+- [Just a Reflektor](https://www.justareflektor.com/) - Control some effects in a music video using a webcam
+- [Lights](https://helloenjoy.com/lights) - Music video flying over a procedural landscape
 - [(out)Looking Glass](http://www.bendytoons.com/webgl/Outlooking.html) - A man contemplating himself in the mirror
 - [Nyumblies](http://axum.graphics/Nyumblies) - Hand-made organic shapes swimming around
-- [Skazka](http://studio.gootechnologies.com/skazka/) - Dream-like landscape with dancing silhouettes
-- [VR Data Landscape](http://www.kinetech.org/) - Fly through a landscape of abstract shapes, presented using a LeapMotion camera and a balance-board controller
+- [Skazka](https://thefwa.com/cases/skazka) - Dream-like landscape with dancing silhouettes
+- [VR Data Landscape](https://kinetecharts.org/) - Fly through a landscape of abstract shapes, presented using a LeapMotion camera and a balance-board controller
 
 Check out our Seemore demo up on the dual big screens:
 
 [![seemore](/assets/media/seemore-2.jpg)](/assets/media/seemore-2.jpg)
 
-The man behind the controls was Brad Grantham of ARM. He selected some superb music to accompany the visuals. Check 'Hush' out [here](http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400004). Kudos to Brad for doing an incredible job!
+The man behind the controls was Brad Grantham of ARM. He selected some superb music to accompany the visuals. Check 'Hush' out [here](https://incompetech.com/wordpress/2014/01/984/). Kudos to Brad for doing an incredible job!
 
 It's very exciting to see WebGL content being recognized as an artform and even more exciting to see PlayCanvas content representing the best of the web. We're looking forward to a follow up event at some point in the future!
