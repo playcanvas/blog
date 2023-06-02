@@ -58,7 +58,7 @@ Enter packaged apps! These are essentially apps that are fully installed to Chro
 
 PlayCanvas has also published an example of a packaged app in the Chrome Web Store. It's a game called SWOOOP:
 
-[![SWOOOPbann_440x280](/assets/media/SWOOOPbann_440x280.png)](/assets/media/SWOOOPbann_440x280.png)
+![SWOOOP](/assets/media/swooop-tile.png)
 
 Check it out for yourself [here](https://chrome.google.com/webstore/detail/swooop/jblimahfbhdcengjfbdpdngcfcghladf).
 
@@ -111,7 +111,7 @@ Generating a packaged app from a PlayCanvas game takes a little more effort than
   });
 ```
 
-- Check to see if your game uses the LocalStorage HTML5 API. Packaged apps can't use this API, although they can use a [Chrome specific alternative](https://developer.chrome.com/apps/storage).
+- Check to see if your game uses the LocalStorage HTML5 API. Packaged apps can't use this API, although they can use a [Chrome specific alternative](https://developer.chrome.com/docs/apps/manifest/storage/).
 - We're done! Zip up the game's files again and upload to your new item in the CWS Developer Dashboard. Fill out the rest of the form as you would for a hosted app (although you now don't need to show ownership for a hosted app URL since there isn't one any more).
 
 So hopefully this gives some insight into how simple it is to publish your game to the Chrome Web Store. Whether you choose to publish a hosted or packaged app is up to you and, as we've shown, both have their advantages and disadvantages. My recommendation to you is to experiment. It's an awesome publishing platform that anyone can start to use today, so try it out for yourself!
