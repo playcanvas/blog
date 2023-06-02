@@ -14,7 +14,7 @@ tags:
   - playable ad
 ---
 
-[![](/assets/media/FB-GIF3-10-2021_11-27-57-1.gif)](/assets/media/FB-GIF3-10-2021_11-27-57-1.gif)
+![Facebook Playable Ad](/assets/media/facebook-playable-ad.gif)
 
 PlayCanvas are very excited to announce official support for Facebook Playable Ads! 🚀
 

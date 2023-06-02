@@ -19,6 +19,6 @@ We've added two new tutorials to our developer site this week.
 
 **How to use the Facebook SDK in your WebGL application** - [READ MORE](https://developer.playcanvas.com/en/tutorials/facebook-api/)
 
-![Facebook_API](/assets/media/Facebook_API___Learn_PlayCanvas.jpg)
+![Facebook_API](/assets/media/facebook-api.jpg)
 
 You can find loads more tutorials on our [developer site](https://developer.playcanvas.com).

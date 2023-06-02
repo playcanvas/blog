@@ -13,7 +13,7 @@ categories:
 
 Today, PlayCanvas is launching [PCUI](https://github.com/playcanvas/pcui): a new, open source front-end framework for the web.
 
-![](/assets/media/PCUI-Github-Header-Fixed-1024x512.png)
+![](/assets/media/pcui-promo.png)
 
 PCUI is designed with tools developers in mind. It is particularly well suited to building viewer and editor applications, providing a rich set of beautiful and consistent controls. It already powers the [PlayCanvas Editor](https://playcanvas.com/) - the world's most powerful WebGL production tool.
 
