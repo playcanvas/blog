@@ -160,8 +160,8 @@ As the 'floor' is just a projected skybox, a solution was needed to render the s
 To make this a bit easier to see, I've shown where the plane would be positioned below. Anywhere where it's white on the floor plane would be fully transparent as there is no shadow being cast there.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/shadow-catcher-1-1024x588.jpg" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
-    <img src="/assets/media/shadow-catcher-2-1024x588.jpg" style="width: 48%;" alt="Description of image 2" />
+    <img src="/assets/media/shadow-catcher-1.jpg" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
+    <img src="/assets/media/shadow-catcher-2.jpg" style="width: 48%;" alt="Description of image 2" />
 </div>
 
 ### Other tutorials used
