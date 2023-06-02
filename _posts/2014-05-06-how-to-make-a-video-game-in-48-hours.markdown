@@ -28,7 +28,7 @@ After about 30 minutes, I had the basic physics of a twin propeller sub implemen
 
 I was off to a flying start! But making video games is art. It's practically a spectator sport and I was determined to give the internet full access to my creative process. And this is what makes PlayCanvas so cool. I could simply invite the internet into my project:
 
-[![Screen Shot 2014-05-06 at 00.25.19](/assets/media/Screen-Shot-2014-05-06-at-00.25.19.png)](/assets/media/Screen-Shot-2014-05-06-at-00.25.19.png)
+![Pipe Wars Tweet](/assets/media/pipe-wars-tweet.png)
 
 And indeed, I had a steady flow of curious spectators dropping in and out of [my project](https://playcanvas.com/project/5993/overview/pipe-wars) as it slowly took shape. If nothing else, it kept me super-motivated.
 
@@ -40,7 +40,7 @@ So I was absolutely nailing the comms side of things. But there was the little m
 
 I needed a dramatic undersea landscape. Unfortunately, my modelling skills suck so I resorted to a sneaky procedural solution. Step 1: Generate a heightmap. Check out [this tutorial](https://jasonsturges.medium.com/creating-a-terrain-for-unity-3d-with-photoshop-237dd55bba88) that shows you how to do that in Photoshop. Step 2: Create a 150x150 division plane in 3DS Max and apply a Displace modifier. Then set the heightmap as the source texture for the displacement:
 
-[![terrain](/assets/media/terrain.png)](/assets/media/terrain.png)
+![Pipe Wars Terrain](/assets/media/pipe-wars-terrain.png)
 
 I also exported a 75x75 division version which I would use for environment collision which would essentially be an optimization for the physics engine. It would have been nice if I had had time to texture map it. In Ludum Dare, you have to avoid getting caught up in the detail. Keep your eye on the goal and if you have time left at the end, come back and polish.
 
@@ -48,7 +48,7 @@ I also exported a 75x75 division version which I would use for environment colli
 
 As I mentioned, my modelling skills are pretty horrendous. Perhaps the hardest thing I had to build was the submarine (I also made a Flappy Bird-esque pipe, a refuelling station and a drop off point). So between 2AM and 5AM on Sunday morning, I built this in 3DS Max:
 
-[![submarine](/assets/media/submarine.png)](/assets/media/submarine.png)
+![Pipe Wars Submarine](/assets/media/pipe-wars-submarine.png)
 
 So it wasn't pro-level art production, but I was proud that I had improved my skills in this area. I built the propeller separately since they were controlled independently in PlayCanvas. Anyway, I had a lot of fun learning all about powerful 3DS Max features like boolean geometry (for combining meshes in different ways) and various modifiers for skewing and warping meshes.
 
@@ -56,7 +56,7 @@ So it wasn't pro-level art production, but I was proud that I had improved my sk
 
 HUDs can be a nightmare to build and build fast. Luckily, there's a handy PlayCanvas extension that renders bitmap fonts beautifully. It was developed originally for the game [SWOOOP](http://swooop.playcanvas.com/) and it worked so well, it was [open sourced on GitHub](https://github.com/playcanvas/fonts). I found an open source approximation of the Flappy Bird font and imported it into my project. Super easy and it looked great:
 
-[![pipewars_splash](/assets/media/pipewars_splash.jpg)](/assets/media/pipewars_splash.jpg)
+![Pipe Wars Intro](/assets/media/pipe-wars-intro.jpg)
 
 ### Audio
 
@@ -66,7 +66,7 @@ I've already mentioned that I can't model for toffee. My composing skills are ev
 
 The Abundant Music procedural music generator is great:
 
-[![am_screenshot_1](/assets/media/am_screenshot_1.png)](/assets/media/am_screenshot_1.png)
+[![Music Generator](/assets/media/abundant-music.png)](/assets/media/abundant-music.png)
 
 Check it out for yourself!
 
