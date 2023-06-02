@@ -14,7 +14,7 @@ categories:
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._
 
-![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)
+![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
 
 We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/project/333523/overview/playhack_december).
 
