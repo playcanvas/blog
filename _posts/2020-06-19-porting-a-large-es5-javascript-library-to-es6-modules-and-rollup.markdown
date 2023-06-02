@@ -42,7 +42,7 @@ var thing = new pc.SomeClass();
 To build the engine, we wrote a node.js script which would parse a list of dependencies (JavaScript filenames) and concatenate them. There were several problems:
 
 1. The pattern above is overly verbose making it harder to inspect the code.
-2. Object.assign needs to be called 250 times when the library is initially executed by the browser, once for each module. This increases app start-up times.
+2. `Object.assign` needs to be called 250 times when the library is initially executed by the browser, once for each module. This increases app start-up times.
 3. In internal engine code, all class names and constants need to be accessed via the `pc` namespace. This is because the internals of the pattern above cannot see the internals of other modules and vice versa. This bloats the engine code and slows things down.
 4. The dependencies file had to be carefully manually ordered to ensure things were declared in the right order.
 5. The build script itself was about 1000 lines of JavaScript which carried its own maintenance overhead.
@@ -61,7 +61,7 @@ Object.assign(SomeClass.prototype, {
     someFunction: function () {}
 });
 
-export { SomeClass };</code>
+export { SomeClass };
 ```
 
 Much better!
@@ -89,7 +89,7 @@ Now that we have merged the ES6 Module port, where do we go from here?
 
 First up, Rollup is kindly informing us that circular dependencies exist in the PlayCanvas codebase.
 
-![](/assets/media/circular-1024x214.png)
+![](/assets/media/engine-circular-dependencies.png)
 
 We want to clean things up and eliminate them. What's the motivation for that? It makes it easier for the bundler to employ tree-shaking to remove unreferenced code from the engine. At the moment, the engine's `Application` class imports pretty much everything. And many classes import the `Application`. This makes it hard to build a version of the library which doesn't include the particle engine, say. Or maybe the physics engine.
 
