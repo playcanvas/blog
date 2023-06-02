@@ -37,7 +37,7 @@ PlayCanvas on mobile is built upon bleeding edge technologies and as such, the g
 - BlackBerry 10 browser
 - Firefox OS
 
-  - If you don't have a test device, check out Mozilla's [Firefox OS Simulator](https://addons.mozilla.org/en-US/firefox/addon/firefox-os-simulator/) that is delivered as a Firefox add-on.
+  - If you don't have a test device, check out Mozilla's [Firefox OS Simulator](https://hacks.mozilla.org/2013/05/firefox-os-simulator-3-0-released/) that is delivered as a Firefox add-on.
 
 Supported desktop browsers are:
 

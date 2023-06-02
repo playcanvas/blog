@@ -16,7 +16,9 @@ tags:
   - Virtual Reality
 ---
 
-**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.** [![playcanvas oculus1](/assets/media/playcanvas-oculus1.jpg)](/assets/media/playcanvas-oculus1.jpg)
+**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.**
+
+[![playcanvas oculus1](/assets/media/playcanvas-oculus1.jpg)](/assets/media/playcanvas-oculus1.jpg)
 
 **What is the Oculus Rift?**
 
@@ -35,7 +37,7 @@ Usually leaving users craning necks and grabbing thin air in disbelief, the Ocul
 
 Imagine a future where you open your Internet browser, select a VR ready online game, enable your Oculus headset and transport yourself into the game immediately. Mind blowing? Potentially yes. This is why we here at PlayCanvas are committed to intertwining the paths of both WebGL and HTML5 technologies with the capabilities of the Oculus Rift. It's crazy to think that VR games could be played and developed by simply opening your favorite web browser.
 
-Firefox are already [thinking about VR on the web](https://air.mozilla.org/virtual-reality-the-future-of-the-web/), Chrome are too. Be sure that when VR support fully comes to the web, PlayCanvas will be ready to help you get there faster. Game Developer's have so many challenges to overcome while developing their game that adding VR (or Head-Mounted Display) support could become just another one of the features that you'd love to try but never quite have time to do. However, using PlayCanvas it's simple. Just drop the OculusCamera script onto your camera and we'll do all the magic to make your game render ready for the headset.
+Firefox are already thinking about VR on the web. Chrome are too. Be sure that when VR support fully comes to the web, PlayCanvas will be ready to help you get there faster. Game Developer's have so many challenges to overcome while developing their game that adding VR (or Head-Mounted Display) support could become just another one of the features that you'd love to try but never quite have time to do. However, using PlayCanvas it's simple. Just drop the OculusCamera script onto your camera and we'll do all the magic to make your game render ready for the headset.
 
 Hyper-realistic gaming experiences should not be limited to core gaming platforms. When web-based gaming can involve products like the Oculus we're opening up an whole new class of immersive gaming experiences. The best of the features of the web; low-friction, accessible and shareable; with the best features of the Oculus, immersive, high-end experiences. It's brave new world!
 
