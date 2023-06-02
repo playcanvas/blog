@@ -14,7 +14,7 @@ categories:
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I'll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month's PLAYHACK._
 
-![PLAYHACK_clearxmas](/assets/media/PLAYHACK_clearxmas.jpg)
+![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
 
 <!-- more -->
 
@@ -26,7 +26,7 @@ In the coming weeks, I'll be taking you through how to make a complete game in P
 
 We're going to be making a side-scrolling endless runner game, where Santa must pick up presents and avoid various things to deliver presents on time! However, the techniques we'll be using will be applicable to many kinds of games.
 
-[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
+![Santa](/assets/media/playhack-santa.jpg)
 
 To follow along with this tutorial, fork the [PLAYHACK December project](https://playcanvas.com/project/333365/overview/playhack-dec-14) to get started. To see what we’ll be making this time, [look here](https://playcanvas.com/natpat/playhack_tut1). Or just check out the embedded app above.
 

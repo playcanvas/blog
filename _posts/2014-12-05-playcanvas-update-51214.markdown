@@ -50,7 +50,7 @@ Our particle system beta is moving forwards. We're getting close to releasing th
 
 #### PLAYHACK December
 
-[![assets_white](/assets/media/assets_white1.jpg)](/assets/media/assets_white1.jpg)
+![Santa](/assets/media/playhack-santa.jpg)
 
 We are 4 days in to our 2nd game jam and this month you talented developers have a pretty appropriate model to play with. We've given you Santa and one of his 'normal nosed' reindeer to keep you company this December. **Find out everything you need to know [here](https://blog.playcanvas.com/playhack-december-jolly-santa/)**.
 
