@@ -55,23 +55,23 @@ Let’s take a look at three of them.
 
 The volume, transmission and ior glTF extensions can simulate how light is refracted through transparent materials. This leverages PlayCanvas’ grab pass functionality to ‘grab’ and sample the back-buffer.
 
-[![](/assets/media/Kapture-2022-09-02-at-10.22.35.gif)](/assets/media/Kapture-2022-09-02-at-10.22.35.gif)
+[![Dragon with IOR, Transmission and Volume](/assets/media/gltf-ior-transmission-volume.gif)](/assets/media/gltf-ior-transmission-volume.gif)
 
 ## Realistic Rendering of Fabrics
 
 glTF’s sheen extension enables developers to faithfully reproduce materials with the appearance of certain fabrics. This is incredibly important for production visualization (home furnishings, apparel, vehicle interiors and so on).
 
-[![](/assets/media/cushion.jpg)](/assets/media/cushion.jpg)
+[![Cushion with Sheen](/assets/media/gltf-sheen.jpg)](/assets/media/gltf-sheen.jpg)
 
 ## Material Variants
 
 Most product configurators allow the user to modify the appearance of a product. For example, a specific style of chair might be upholstered in various fabrics in various colors. Or a pair of shoes might be available in a number of different designs/patterns/colors.
 
-[![](/assets/media/sneakers-1024x423.jpg)](/assets/media/sneakers.jpg)
+[![Sneakers with Material Variants](/assets/media/gltf-material-variants.jpg)](/assets/media/gltf-material-variants.jpg)
 
 The PlayCanvas viewer now detects any material variants in the loaded scene and permits their selection in the interface.
 
-[![](/assets/media/Kapture-2022-09-02-at-10.36.54.gif)](/assets/media/Kapture-2022-09-02-at-10.36.54.gif)
+[![Material Variants in glTF Viewer](/assets/media/gltf-viewer-material-variants.gif)](/assets/media/gltf-viewer-material-variants.gif)
 
 ## Rendering Enhancements
 
@@ -83,31 +83,31 @@ Enabling this feature activates supersampling which is a type of antialiasing th
 
 You can see both in action below, deliberately reduced in resolution to show the effect:
 
-[![](/assets/media/Kapture-2022-09-02-at-10.31.58.gif)](/assets/media/Kapture-2022-09-02-at-10.31.58.gif)
+[![glTF Viewer High Quality Mode](/assets/media/gltf-viewer-high-quality-rendering.gif)](/assets/media/gltf-viewer-high-quality-rendering.gif)
 
 Also new is sharper reflections for smooth reflective surfaces. The viewer will now use the full resolution skybox cubemap in the engine’s image-based lighting pipeline which looks crisp and far more realistic.
 
-[![](/assets/media/FZZp8qwWAAAQqyR.jpeg)](/assets/media/FZZp8qwWAAAQqyR.jpeg)
+[![High Quality Reflections](/assets/media/engine-sharp-reflections.jpg)](/assets/media/engine-sharp-reflections.jpg)
 
 ## Interface Redesign
 
 Initially, all information and controls for the viewer appeared in the leftmost panel. Viewer 2.0 has been completely redesigned to more intelligently group specific areas of functionality. The leftmost panel remains but now just shows scene info and a tree view showing the loaded scene hierarchy.
 
-[![](/assets/media/Screenshot-2022-09-02-at-10.51.14.png)](/assets/media/Screenshot-2022-09-02-at-10.51.14.png)
+[![glTF Viewer Left Panel](/assets/media/gltf-viewer-hierarchy.png)](/assets/media/gltf-viewer-hierarchy.png)
 
 Buttons to control viewer settings can now be found at the bottom of the 3D view. These buttons open options for camera, lighting and debug rendering (plus a fullscreen toggle).
 
-[![](/assets/media/Kapture-2022-09-02-at-10.53.54.gif)](/assets/media/Kapture-2022-09-02-at-10.53.54.gif)
+[![glTF Viewer Buttons](/assets/media/gltf-viewer-buttons.gif)](/assets/media/gltf-viewer-buttons.gif)
 
 If you load a scene that contains animation, animation controls will automatically appear:
 
-[![](/assets/media/animation-toolbar.png)](/assets/media/animation-toolbar.png)
+[![glTF Viewer Animation Controls](/assets/media/gltf-viewer-animation-controls.png)](/assets/media/gltf-viewer-animation-controls.png)
 
 The controls allow you to scrub through an animation, select playback speed and even choose which animation clip to play should the file contain more than one.
 
 Lastly, there is also now a button bottom right to download a rendered PNG of the 3D view.
 
-[![](/assets/media/Screenshot-2022-09-02-at-10.56.01-1.png)](/assets/media/Screenshot-2022-09-02-at-10.56.01-1.png)
+[![glTF Viewer Download Screenshot](/assets/media/gltf-viewer-screenshot.png)](/assets/media/gltf-viewer-screenshot.png)
 
 ## Open Source
 
