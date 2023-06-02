@@ -20,7 +20,7 @@ The event was designed to showcase websites that represent the best of the best
 - [Tone Pong](http://yagizmungan.com/TonePong) - A audio rich Pong experience
 - [Character Study for WebGL Games](http://www.visualiser.fr/Babylon/character/default.htm) - Rag doll physics
 - [Gravity](http://www.hellochar.com) - Trippy gravity playground
-- [A Particle Dream](http://www.iamnop.particles/) - Trippy particle playground
+- [A Particle Dream](https://www.iamnop.com/particles/) - Trippy particle playground
 - [Maratropa](https://www.marpi.studio/exhibitions/maratropa) - Twitter visualizer
 - [MTV EMA 2012 Opener](http://labs.sehsucht.de/) - A Zoetrope, a fast-moving carousel which evokes the illusion of motion
 - [Seemore](https://playcanv.as/p/MflWvdTW/) - Enter PlayCanvas and ARM's sinister realm of a monstrous man-eating plant
