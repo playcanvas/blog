@@ -42,6 +42,6 @@ As you can see, PlayCanvas is all about squeezing the full potential from the br
 
 So what's next? First, we will refactor and merge our WebGL 2 work into PlayCanvas' mainline codebase. Then we will enable 'After the Flood' on mobile. And finally, we will make the demo project public so you can see exactly how we made it:
 
-![flood_editor](/assets/media/flood_editor-1024x810.png)
+![After the Flood](/assets/media/editor-after-the-flood.png)
 
 Want to get creative with WebGL yourself?  Why not [get started with PlayCanvas](https://playcanvas.com) today?

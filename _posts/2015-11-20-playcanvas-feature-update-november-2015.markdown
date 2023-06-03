@@ -27,7 +27,7 @@ With mobile forming such a large part of the web these days, performance is more
 
 ### Model Asset Metadata
 
-[![Model Metadata](/assets/media/Editor.jpg)](/assets/media/Editor.jpg)
+[![Model Metadata](/assets/media/editor-model-meta.jpg)](/assets/media/editor-model-meta.jpg)
 
 More information is available about your model data in the Editor including number of vertices, triangles and more.
 

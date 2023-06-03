@@ -86,7 +86,7 @@ With Google Chrome set to enable WebGPU by default in 2023, we're excited to be 
 
 In addition to WebGPU support, we've also added support for all ratified glTF 2.0 extensions to the PlayCanvas engine, complete with Editor support for iridescence and dynamic refraction. These features allow developers to create even more realistic and visually stunning 3D content.
 
-[![](/assets/media/glTF-2.0-materials-1024x576.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
+[![](/assets/media/gltf-materials.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
 
 But we didn't stop there! We also released Editor support for Clustered Lighting and Area Lights, which allow developers to easily incorporate hundreds of dynamic lights into their projects. And as it turns out, our users have already been using these new features to add extra flair and fidelity to their projects.
 

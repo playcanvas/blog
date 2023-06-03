@@ -41,7 +41,7 @@ If you test now by pressing the Launch button, you'll see that Santa is tiny in 
 
 ## Player
 
-[![Santa_Player](/assets/media/Designer_-_PlayCanvas-2.jpg)](/assets/media/Designer_-_PlayCanvas-2.jpg)
+[![Santa](/assets/media/editor-santa.jpg)](/assets/media/editor-santa.jpg)
 
 Now, we want Santa to start on the left of the screen, looking right. To make things easier for us, we'll align our camera along the Z-axis so that moving things around on screen becomes easier for us later.
 

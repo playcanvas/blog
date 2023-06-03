@@ -21,7 +21,7 @@ From today you'll find two new components available in the PlayCanvas Editor.
 
 The screen component is the container for your 2D objects. This component acts a parent to all the 2D elements you are adding and defines resolution and resize behavior.
 
-![](/assets/media/Master_Archer___Editor.jpg)
+![Master Archer Screen](/assets/media/editor-master-archer.jpg)
 
 ### Element Component
 

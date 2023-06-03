@@ -17,17 +17,17 @@ Time for an update from the PlayCanvas development team! Throughout March, you m
 
 Nestled at  the top of the hierarchy panel is the new 'Fuzzy Search' box. If you're creating ever bigger projects, it used to be hard to track down specific entities. But now, with the new search functionality, it's a breeze. Even if you mistype your search term, the Editor will return results which closely match it.
 
-[![fuzzysearch](/assets/media/fuzzysearch.gif)](/assets/media/fuzzysearch.gif)
+[![Hierarchy Fuzzy Search](/assets/media/editor-fuzzy-search.gif)](/assets/media/editor-fuzzy-search.gif)
 
 We've had a few requests for SHIFT-select of entities and also multi-selection reparenting. So both of these are now possible! We're so good to you!
 
-[![multiselectreparent](/assets/media/multiselectreparent.gif)](/assets/media/multiselectreparent.gif)
+[![Multiselect Reparent](/assets/media/editor-multiselect-reparent.gif)](/assets/media/editor-multiselect-reparent.gif)
 
 ### Orthographic Editor Cameras
 
 More and more of you are making 2D games or games that are played out in a 2D arena. As a result, we've overhauled the Editor's orthographic cameras to be far more useable. Camera controls are more intuitive and the gizmos now work as expected.
 
-[![ortho](/assets/media/ortho.gif)](/assets/media/ortho.gif)
+[![Orthographic Camera](/assets/media/editor-orthographic-camera.gif)](/assets/media/editor-orthographic-camera.gif)
 
 ### Miscellaneous Improvements
 
