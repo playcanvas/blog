@@ -28,7 +28,7 @@ In this tutorial, we're going to program the gifts that will come in from the r
 
 ### Moving the Presents
 
-[![Santa and the Present](/assets/media/Screen-Shot-2014-11-24-at-15.45.46.png)](/assets/media/Screen-Shot-2014-11-24-at-15.45.46.png)
+[![Santa and the Present](/assets/media/editor-santa-and-present.png)](/assets/media/editor-santa-and-present.png)
 
 To start with, we'll need to create a script that will make the presents move across the screen towards Santa. We're also going to make the presents rotate, just because it looks nice. To do that, we need to attach a new script to the Gift entity, just like we did last time with Santa. Call it something like 'gift_controller'.
 
