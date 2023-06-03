@@ -25,7 +25,7 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Bullet Bonanza](https://www.bulletbonanza.io/) by Kiloo
 - [Robostorm](https://robostorm.io/) by Arthur Rahteenko
 - [Golden Boot](https://www.facebook.com/instantgames/play/267920816949420/) by Nordeus
-- [Polaris RZR Configurator](https://rzr.polaris.com/en-us/) by Polaris
+- [RZR Configurator](https://rzr.polaris.com/en-us/) by Polaris
 - [Venge.io](https://venge.io/) by Cem Demir
 - [Bitmoji Party](https://www.youtube.com/watch?v=zlbRDJhUXwE) by Snap Games Studio
 - [Bitmoji Paint](https://newsroom.snap.com/en-GB/bitmoji-paint) by Snap Games Studio
