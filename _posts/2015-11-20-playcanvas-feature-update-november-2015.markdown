@@ -15,7 +15,7 @@ It's Friday, which means feature update time. Here's a list of the latest featur
 
 ### Asset Folders
 
-[![assetfolders](/assets/media/assetfolders.gif)](/assets/media/assetfolders.gif)
+[![assetfolders](/assets/media/editor-asset-folders.gif)](/assets/media/editor-asset-folders.gif)
 
 In case you missed it. We've made [huge improvements](https://blog.playcanvas.com/better-asset-management/) to asset management in the Editor. Folders and tags mean you can organize your assets nicely both in the editor and at runtime.
 
