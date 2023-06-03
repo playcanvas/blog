@@ -15,26 +15,26 @@ Back in October, [we launched PCUI](https://blog.playcanvas.com/introducing-pcui
 
 Today, we're excited to announce our next major release for the library: PCUI 1.1.0. Check out the [release notes](https://github.com/playcanvas/pcui/releases/tag/v1.1.0) for the details. But let's take a look at some of the highlights.
 
-#### TreeView - Tree Control
+### TreeView - Tree Control
 
-![](/assets/media/treeview-1.gif)
+![PCUI TreeView](/assets/media/pcui-treeview.gif)
 
 Many web tools display data in a hierarchical or tree-based representation. But building a tree control in HTML and CSS can be tricky. PCUI 1.1.0 introduces a very easy to use tree control. And it incorporates some useful features such as:
 
 - Drag and drop of tree view items
 - Built-in 'double-click to rename'
 
-#### ArrayInput - Array Control
+### ArrayInput - Array Control
 
-![](/assets/media/arrayinput.gif)
+![PCUI ArrayInput](/assets/media/pcui-arrayinput.gif)
 
-Also arriving in PCUI is ArrayInput. It allows you to create input controls for arrays of numbers, strings, booleans or vectors.
+Also arriving in PCUI is `ArrayInput`. It allows you to create input controls for arrays of numbers, strings, booleans or vectors.
 
-#### Resizable TextAreaInput Control
+### Resizable TextAreaInput Control
 
-![](/assets/media/texareainput.gif)
+![PCUI TextAreaInput](/assets/media/pcui-textareainput.gif)
 
-The TextAreaInput control has been augmented with a new resizable property that can be set to 'none', 'horizontal', 'vertical' or 'both'.
+The `TextAreaInput` control has been augmented with a new resizable property that can be set to `none`, `horizontal`, `vertical` or `both`.
 
 To get started making awesome web tools with PCUI, here are some useful links:
 
