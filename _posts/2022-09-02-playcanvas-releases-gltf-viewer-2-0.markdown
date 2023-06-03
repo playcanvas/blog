@@ -29,23 +29,23 @@ Let’s take a closer look at what’s new.
 
 The glTF format is managed by the Khronos Group and defines a base specification along with a variety of extensions. The first version of the viewer support 100% of the base spec plus the following extensions:
 
-- KHR_draco_mesh_compression
-- KHR_lights_punctual
-- KHR_materials_clearcoat
-- KHR_materials_unlit
-- KHR_mesh_quantization
-- KHR_texture_basisu
-- KHR_texture_transform
+- `KHR_draco_mesh_compression`
+- `KHR_lights_punctual`
+- `KHR_materials_clearcoat`
+- `KHR_materials_unlit`
+- `KHR_mesh_quantization`
+- `KHR_texture_basisu`
+- `KHR_texture_transform`
 
 The new and improved viewer released today adds support for:
 
-- KHR_materials_emissive_strength
-- KHR_materials_ior
-- KHR_materials_sheen
-- KHR_materials_specular
-- KHR_materials_transmission
-- KHR_materials_variants
-- KHR_materials_volume
+- `KHR_materials_emissive_strength`
+- `KHR_materials_ior`
+- `KHR_materials_sheen`
+- `KHR_materials_specular`
+- `KHR_materials_transmission`
+- `KHR_materials_variants`
+- `KHR_materials_volume`
 
 These extensions provide developers with the ability to achieve exciting new graphical effects.
 
