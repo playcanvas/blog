@@ -30,9 +30,11 @@ With the model hierarchy being editable in the Editor, this opens a number of us
 - Use the Render assets elsewhere in the scene for decoration or customization.
 - Add components and/or scripts to individual nodes such as attaching particle effects to animated parts.
 
-[![](/assets/media/Kapture-2021-09-27-at-17.28.54-1.gif)](/assets/media/Kapture-2021-09-27-at-17.28.54-1.gif)
+[![](/assets/media/editor-template-asset-gun-in-hand.gif)](/assets/media/editor-template-asset-gun-in-hand.gif)
+_Place an item in the hand of a character_
 
-[![](/assets/media/Kapture-2021-09-27-at-17.35.38-2.gif)](/assets/media/Kapture-2021-09-27-at-17.35.38-2.gif)
+[![](/assets/media/editor-template-asset-copy-mesh.gif)](/assets/media/editor-template-asset-copy-mesh.gif)
+_Copy a sub-part of a imported asset_
 
 However, please note that while the Model Component is compatible with both the Animation and Anim (State Graph) Component, the Render Component/Import Hierarchy feature is only compatible with the Anim (State Graph) Component.
 
