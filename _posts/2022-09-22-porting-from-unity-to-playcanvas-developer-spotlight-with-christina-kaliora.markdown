@@ -17,7 +17,7 @@ tags:
   - webgl
 ---
 
-[![](/assets/media/banner-1024x536.jpg)](/assets/media/banner.jpg)
+[![](/assets/media/developer-spotlight-christina-home.jpg)](/assets/media/developer-spotlight-christina-home.jpg)
 
 Welcome to Developer Spotlight! A new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
