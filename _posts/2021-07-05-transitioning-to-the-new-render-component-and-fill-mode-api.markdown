@@ -23,7 +23,7 @@ This is a different blog post to what we normally do but with some big changes c
 
 As part of the work to enable the [import of a model’s hierarchy into the scene](https://forum.playcanvas.com/t/importing-models-with-hierarchy-is-now-in-soft-launch/20304), we have introduced Render Asset and Render Component as new features of the Engine and Editor.
 
-![Import hierarchy preview ](https://forum-files-playcanvas-com.s3.dualstack.eu-west-1.amazonaws.com/original/2X/3/343eb03fa47ba753dedb5bd7cb78a58e9fd9a173.jpeg)
+![Import Hierarchy Preview](/assets/media/editor-import-hierarchy-preview.jpg)
 
 Going forward, this will be the default way to render imported models and gives developers greater flexibility in manipulating mesh instances in the model directly in the Editor. For example, with the new pipeline you can import a house FBX model and only use the door mesh instance in the scene instead of the whole model.
 
@@ -31,7 +31,7 @@ However, please note that while the Model Component is compatible with both the 
 
 (More details will be shared in an upcoming announcement, stay tuned for that!)
 
-For existing projects using the Model Component, please do not worry. **None of the existing functionality is being removed **and you will not be forced to update projects to the new pipeline for continued development. Although no new features will be added to the Model Component, the PlayCanvas team will continue to fix bugs with the existing pipeline.
+For existing projects using the Model Component, please do not worry. **None of the existing functionality is being removed** and you will not be forced to update projects to the new pipeline for continued development. Although no new features will be added to the Model Component, the PlayCanvas team will continue to fix bugs with the existing pipeline.
 
 You can even mix both pipelines in the same project if you wish to take advantage of the features in the new pipeline in an existing project. However, please bear in mind that this can add complexity to the project code.
 
@@ -47,11 +47,11 @@ The expected changes over the upcoming months are as follows:
 
 We want to make the PlayCanvas engine as flexible as it can be for the widest range of use cases for web developers. To do so, we occasionally have to break existing APIs that may have made sense when they were first introduced, but not today.
 
-One such API is the Fill Mode related functions on pc.Application:
+One such API is the Fill Mode related functions on `pc.Application`:
 
-- [application.resizeCanvas](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L1376)
-- [application.fillMode](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L676)
-- [application.setCanvasFillMode](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L1313)
+- [`application.resizeCanvas`](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L1376)
+- [`application.fillMode`](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L676)
+- [`application.setCanvasFillMode`](https://github.com/playcanvas/engine/blob/64668d98b6d8cd3ecba6ecae937f1ce50fed9707/src/framework/application.js#L1313)
 
 These functions affect the canvas element size in the DOM as it was long assumed that apps made with PlayCanvas are either be iframed or fullscreen/full document apps.
 

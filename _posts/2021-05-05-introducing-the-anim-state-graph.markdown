@@ -39,7 +39,7 @@ This animation system was entirely developed in the PlayCanvas editor using the 
 
 We can’t wait to see what other developers can create with this system!
 
-**Features**
+### Features
 
 **Graph Layers** - Split your animation behavior into separate layers. For instance: locomotion animations can be separated from facial expressions.
 
@@ -50,7 +50,7 @@ We can’t wait to see what other developers can create with this system!
 
 While these two characters use different animations for their various actions, they share the same behavior. With the anim state graph you can update this behavior in one place while still using it with as many characters as you like.
 
-**How does it all work?**
+### How does it all work?
 
 When opening an Anim State Graph asset you’ll be presented with a visual graph editor which allows you to define all of the different animation states your game object can be in. You can then connect these states using transitions.
 
@@ -62,7 +62,7 @@ Control anim state graph behavior in scripts using the anim component API
 
 Once you’ve created your Anim State Graph you can assign it to your entity using the Anim component. At this point you can attach your animation assets to each state which will play when transitioning to that state.
 
-**Looking ahead**
+### Looking Ahead
 
 Today only marks the initial release of our new animation system. We’ve got grand plans on how to push the system further. Here’s a few features we’ve got in the works:
 
