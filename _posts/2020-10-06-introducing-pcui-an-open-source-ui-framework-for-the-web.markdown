@@ -23,7 +23,7 @@ Here you can see tree controls, panels, buttons, checkboxes, toolbars, menus and
 
 Also built on PCUI is the [PlayCanvas glTF Viewer](https://playcanvas.com/viewer), a tool for inspecting glTF 2.0 scenes.
 
-![](/assets/media/viewer-flight-helmet-1024x659.png)
+![Flight Helmet in glTF Viewer](/assets/media/gltf-viewer-flight-helmet.png)
 
 Check out the viewer's [GitHub repo](https://github.com/playcanvas/playcanvas-viewer) to see how a TypeScript-based web application leverages PCUI.
 

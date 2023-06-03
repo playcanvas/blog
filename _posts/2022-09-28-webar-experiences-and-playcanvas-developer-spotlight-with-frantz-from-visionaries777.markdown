@@ -15,7 +15,7 @@ tags:
   - WebXR
 ---
 
-[![](/assets/media/1.jpg)](/assets/media/1.jpg)
+[![Nissan AR](/assets/media/v777-nissan-ar.jpg)](/assets/media/v777-nissan-ar.jpg)
 
 Welcome to the second installment of Developer Spotlight! A series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
