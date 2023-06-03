@@ -37,9 +37,9 @@ For all you magpies out there, forking our PLAYHACK project this month will give
 
 For instance, platform action series **Spyro** made great use of jewels in the late 90's and more recently **Bejeweled** pushed gems into a great flash puzzle format.
 
-[![spyro](/assets/media/spyro.jpg)](/assets/media/bejeweled.jpg)
+[![Spyro](/assets/media/spyro.jpg)](/assets/media/spyro.jpg)
 
-[![bejeweled](/assets/media/bejeweled.jpg)](/assets/media/bejeweled.jpg)
+[![Bejeweled](/assets/media/bejeweled.jpg)](/assets/media/bejeweled.jpg)
 
 Puzzle game, platform game, physics game? **Any game, any style, the choice is yours.**
 

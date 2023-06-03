@@ -21,7 +21,7 @@ Today, we're pleased to announce that we have deployed an update that introduces
 
 In the Launch button sub-menu, there is a new options called 'Concatenate Scripts'. Check this to enable the feature:
 
-![](/assets/media/concatenate.png)
+![Concatenate Scripts](/assets/media/editor-concatenate-scripts.png)
 
 ### What Difference Does it Make?
 
@@ -36,6 +36,6 @@ Here are the launch times for a scene referencing 125 scripts on low-latency WiF
 
 In a word: nope! We use source maps to refer back to your individual scripts. So you can find your scripts in the Sources tab and set breakpoints as usual instead of having to navigate the super-long concatenated script file.
 
-![](/assets/media/sources-1024x670.png)
+![Sources Tab](/assets/media/sources-tab.png)
 
 So we hope you like this latest improvement and that it makes your iteration time faster than ever. Enjoy!
