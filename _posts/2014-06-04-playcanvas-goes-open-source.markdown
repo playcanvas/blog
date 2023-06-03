@@ -67,7 +67,7 @@ But what about the non-asm.js parts of the codebase? Performance is clearly stil
 
 ### Powering Awesome Projects
 
-[![play-canvas-engine-500](/assets/media/play-canvas-engine-500.jpg)](/assets/media/play-canvas-engine-500.jpg)
+[![Editor](/assets/media/editor-swooop.jpg)](/assets/media/editor-swooop.jpg)
 
 The PlayCanvas Engine is already powering some great projects. By far and away, the biggest is the [PlayCanvas web site](https://playcanvas.com): the world’s first cloud-hosted game development platform.
 

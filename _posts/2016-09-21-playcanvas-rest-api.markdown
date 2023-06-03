@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-![api](/assets/media/api.png)
+![REST API](/assets/media/rest-api.png)
 
 Today we're launching the first version of the PlayCanvas REST API.
 

@@ -17,19 +17,19 @@ Time for another dev update, WebGL lovers! We've deployed a ton of new features,
 
 A Camera Preview is now shown in the top left corner of Viewport when an entity with a camera component is selected.
 
-[![camerapreview](/assets/media/editor-camera-preview.gif)](/assets/media/editor-camera-preview.gif)
+[![Camera Preview](/assets/media/editor-camera-preview.gif)](/assets/media/editor-camera-preview.gif)
 
 ### Interactive Asset Previews
 
 New Material, Model and Cubemap Previews are now available in the Inspector. They are interactive and clickable.
 
-[![material-preview](/assets/media/material-preview.gif)](/assets/media/material-preview.gif)
+[![Material Preview](/assets/media/editor-material-preview.gif)](/assets/media/editor-material-preview.gif)
 
 ### Antialiasing Control
 
 It is now possible to control antialiasing in Scene Settings.
 
-[![antialias](/assets/media/antialias.png)](/assets/media/antialias.png)
+[![Antialias](/assets/media/editor-settings-antialias.png)](/assets/media/editor-settings-antialias.png)
 
 ### Model Placement
 
