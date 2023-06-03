@@ -11,7 +11,7 @@ categories:
   - Features
 ---
 
-![Code Editor](/assets/media/WebVR_Lab___Code_Editor-2-1024x645.jpg)
+![New Code Editor](/assets/media/code-editor-new.jpg)
 
 Today we're excited to unveil the new code editor for all our PlayCanvas users. We've been taking your feedback since we [launched Scripts 2.0](https://blog.playcanvas.com/playcanvas-scripts-2-0/) last year and we've updated the code editor to make working on scripts in PlayCanvas much easier.
 
@@ -23,7 +23,7 @@ The most obvious difference is now we let you browse all your text files in the 
 
 ## Goto Anything
 
-![Editor Goto Anything](/assets/media/Editor-Goto-Anything.gif)
+![Editor Goto File](/assets/media/code-editor-goto-file.gif)
 
 Goto Anything (Ctrl/Cmd+P) is the power users dream option. Jump to any text file in your project with a few keystrokes.
 
@@ -33,8 +33,8 @@ We've had a complete overhaul of the keyboard shortcuts. All your standard tex
 
 ## Better find & replace
 
-![Editor Find](/assets/media/Editor-Find.gif)
+![Editor Find](/assets/media/code-editor-find.gif)
 
-We've beefed up the find and replace with a new interface and easy to use extras like case-senstive and regular expressions.
+We've beefed up the find and replace with a new interface and easy to use extras like case-sensitive and regular expressions.
 
 We hope you enjoy using the new code editor as much as we do!

@@ -17,7 +17,7 @@ Time for another dev update, WebGL lovers! We've deployed a ton of new features,
 
 A Camera Preview is now shown in the top left corner of Viewport when an entity with a camera component is selected.
 
-[![camerapreview](/assets/media/camerapreview.gif)](/assets/media/camerapreview.gif)
+[![camerapreview](/assets/media/editor-camera-preview.gif)](/assets/media/editor-camera-preview.gif)
 
 ### Interactive Asset Previews
 
