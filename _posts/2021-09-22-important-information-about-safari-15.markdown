@@ -25,4 +25,4 @@ Please republish the application so that it uses the latest engine release or up
 
 If you need to stay on particular version of the PlayCanvas engine, it is possible modify the engine or build a custom version and include the following [code change from this PR](https://github.com/playcanvas/engine/pull/3503).
 
-If you have any issues or questions, please [message us](https://forum.playcanvas.com/)[ ](https://forum.playcanvas.com/)[on the forum](https://forum.playcanvas.com/) where we will provide support.
+If you have any issues or questions, please [message us on the forum](https://forum.playcanvas.com/) where we will provide support.

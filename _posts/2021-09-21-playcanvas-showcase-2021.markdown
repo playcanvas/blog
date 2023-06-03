@@ -25,10 +25,10 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Bullet Bonanza](https://www.bulletbonanza.io/) by Kiloo
 - [Robostorm](https://robostorm.io/) by Arthur Rahteenko
 - [Golden Boot](https://www.facebook.com/instantgames/play/267920816949420/) by Nordeus
-- [Rzr Configurator](https://rzr.polaris.com/en-us/) by Polaris
+- [Polaris RZR Configurator](https://rzr.polaris.com/en-us/) by Polaris
 - [Venge.io](https://venge.io/) by Cem Demir
-- [Bitmoji Party](https://games.snap.com/) by Snap Games Studio
-- [Bitmoji Paint](https://games.snap.com/) by Snap Games Studio
+- [Bitmoji Party](https://www.youtube.com/watch?v=zlbRDJhUXwE) by Snap Games Studio
+- [Bitmoji Paint](https://newsroom.snap.com/en-GB/bitmoji-paint) by Snap Games Studio
 - [DAB Motors Configurator](https://dabmotors.com/configurator/) by Visionaries 777 for DAB Motors
 - [After the Flood](https://playcanvas.com/project/529572/overview/after-the-flood) by PlayCanvas
 - [Ready Chef Go](https://www.mojiworks.com/) by Mojiworks
@@ -37,7 +37,7 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Allyracer](https://www.allyracer.com/) by MKTG for Ally
 - [Aquapark](https://www.voodoo.io/) by Voodoo
 - [Color Together](https://fundayfactory.com/games/color-together/) by Funday Factory
-- [Seemore](https://playcanvas.com/project/612100/overview/seemore-2019) by PlayCanvas
+- [Seemore](https://playcanvas.com/project/612100/overview/seemore) by PlayCanvas
 - [Cyber City](https://vz777.com/cybercity/index.html) by Visionaries 777
 - [Sugar Slam](https://www.mightykingdom.com/) by Mighty Kingdom
 - [Super Snappy Bowling](https://www.nowwa.com/) by Nowwa
