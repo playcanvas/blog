@@ -15,7 +15,7 @@ categories:
 
 The PlayCanvas team are very excited to fully release the [Import Hierarchy pipeline feature](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/) in the PlayCanvas Editor!
 
-[![](/assets/media/edit-hierarchy.gif)](/assets/media/edit-hierarchy.gif)
+[![Edit Hierarchy](/assets/media/edit-hierarchy.gif)](/assets/media/edit-hierarchy.gif)
 
 With this feature enabled, any imported FBX will create a Template asset which contains the full node hierarchy as entities representing sub-models of the model. This gives users greater flexibility in manipulating mesh instances in the model directly in the Editor.
 
@@ -30,10 +30,10 @@ With the model hierarchy being editable in the Editor, this opens a number of us
 - Use the Render assets elsewhere in the scene for decoration or customization.
 - Add components and/or scripts to individual nodes such as attaching particle effects to animated parts.
 
-[![](/assets/media/editor-template-asset-gun-in-hand.gif)](/assets/media/editor-template-asset-gun-in-hand.gif)
+[![Place Item in Hand](/assets/media/editor-template-asset-item-in-hand.gif)](/assets/media/editor-template-asset-item-in-hand.gif)
 _Place an item in the hand of a character_
 
-[![](/assets/media/editor-template-asset-copy-mesh.gif)](/assets/media/editor-template-asset-copy-mesh.gif)
+[![Copy Parts of Hierarchy](/assets/media/editor-template-asset-copy-mesh.gif)](/assets/media/editor-template-asset-copy-mesh.gif)
 _Copy a sub-part of a imported asset_
 
 However, please note that while the Model Component is compatible with both the Animation and Anim (State Graph) Component, the Render Component/Import Hierarchy feature is only compatible with the Anim (State Graph) Component.
