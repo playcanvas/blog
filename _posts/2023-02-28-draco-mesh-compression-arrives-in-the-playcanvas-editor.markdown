@@ -19,7 +19,7 @@ The open source [PlayCanvas Engine](https://github.com/playcanvas/engine) has be
 
 {% include youtube.html id="dDLI0gyROmE" %}
 
-["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed under [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/).
+_["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed under [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/)._
 
 In the example above, a **49.9MB** GLB file is crunched down to only **3.67MB**. That's a **92.6% reduction is file size**! And for the majority of scenes, you should notice _no difference in terms of visual quality_. The only cost is decompression time when the compressed GLB is downloaded by an end user, but this should be significantly less than what is saved in terms of download time.
 

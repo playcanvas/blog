@@ -51,7 +51,7 @@ Our particular challenge was to dynamically create an AR model of a procedurally
 
 We have been early adopters of both AR and VR, both as standalone applications and on the web. We believe it's important to use AR not as a gimmick, but as an application that provides real value for the user. For example, looking at how that greenhouse would look in your actual backyard or similar. In that sense, Web AR will get more and more important, both as something that stands out but also as something that provides value for users.
 
-[![](/assets/media/FUQKIyNXEAI5aec-1.jpg)](/assets/media/FUQKIyNXEAI5aec-1.jpg)
+[![](/assets/media/developer-spotlight-animech-fjallraven.jpg)](/assets/media/developer-spotlight-animech-fjallraven.jpg)
 
 ### **Why do you think that your clients want Web AR in their experiences?**
 
