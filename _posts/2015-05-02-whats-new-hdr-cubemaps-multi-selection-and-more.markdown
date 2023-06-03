@@ -51,12 +51,12 @@ Stay tuned for multi-selection support for other asset types and entities too!
 
 If you right click a material asset, you can now duplicate it via the context menu:
 
-[![duplicate](/assets/media/duplicate.png)](/assets/media/duplicate.png)
+[![Duplicate Material](/assets/media/editor-material-duplicate.png)](/assets/media/editor-material-duplicate.png)
 
 ## Audio Preview
 
 Now you can play back your audio assets directly from the Editor. Select the audio asset in the Assets panel and the Inspector now shows a play button:
 
-[![audio](/assets/media/audio.png)](/assets/media/audio.png)
+[![Audio Asset](/assets/media/editor-audio-asset.png)](/assets/media/editor-audio-asset.png)
 
 That's all for this week, folks. Now get back to making great games!
