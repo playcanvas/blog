@@ -32,7 +32,7 @@ While SWOOOP runs great in browsers, both desktop and mobile, it's important tha
 
 **Open Project**
 
-[![SWOOOP in Designer](/assets/media/designer_blog.png)](/assets/media/designer_blog.png)
+[![SWOOOP in Designer](/assets/media/designer-swooop.png)](/assets/media/designer-swooop.png)
 <br>_The SWOOOP project is open to everyone_
 
 For PlayCanvas developers, there's even better news. The [SWOOOP project](https://playcanvas.com/user/playcanvas/swooop) is open for you to view and the code is available on [Bitbucket](http://bitbucket.com/playcanvas/swooop). Browse the pack and source code for yourselves and learn about how the PlayCanvas team make games using the engine.

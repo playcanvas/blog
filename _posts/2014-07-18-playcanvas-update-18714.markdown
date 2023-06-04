@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-**Welcome PlayCanvas fans, tea and coffee spillages have menaced the office this week, but still we carry on, here are the updates for this week:**
+**Welcome PlayCanvas fans! Tea and coffee spillages have menaced the office this week but still we carry on. Here are the updates for this week:**
 
 ### Features and Fixes
 
@@ -21,13 +21,13 @@ categories:
 
 ### Updated Gizmos
 
-[![Blog_gizmo1](/assets/media/Blog_gizmo12.png)](/assets/media/Blog_gizmo12.png)
+[![Translate Gizmo](/assets/media/designer-gizmo-translate.png)](/assets/media/designer-gizmo-translate.png)
 
-_Translation Gizmo: now you can move any selected in 2 dimensions at the same time by clicking on the planes in between the two axes you wish to translate the object over. Also the view of the planes react to your viewpoint - if you look at the model along the x axis you will only see the y-z plane._
+**Translation Gizmo:** you can now move any selected entity in 2 dimensions at the same time by clicking on the planes in between the two axes you wish to translate the object over. Also, the view of the planes react to your viewpoint. For example, if you look at the model along the x axis you will only see the y-z plane.
 
-[![Blog_gizmo3 scale](/assets/media/Blog_gizmo3-scale1.png)](/assets/media/Blog_gizmo3-scale1.png)
+[![Scale Gizmo](/assets/media/designer-gizmo-scale.png)](/assets/media/designer-gizmo-scale.png)
 
-_Scaling Gizmo: a new uniform scale control has been added - access by clicking the new white block and drag the mouse to scale in all directions._
+**Scaling Gizmo:** a new uniform scale control has been added. Access it by clicking the new white block and drag the mouse to scale in all directions.
 
 ### UKIE Games Expo
 
@@ -35,7 +35,7 @@ Earlier this week, our esteemed CEO Will Eastcott felt like showing some people 
 
 ### SWOOOP
 
-[Philippa Moore](http://www.philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals will be demoing SWOOOP at the [LadyCade](https://ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while were on the subject, now might be a good time to try and beat your high score, [play it here](http://swooop.playcanvas.com/).
+[Philippa Moore](http://www.philippamoore.com/), the artist responsible for SWOOOP's brilliant 3D visuals, will be demoing SWOOOP at the [LadyCade](https://ladycade.org/) tonight (Friday 18th) at the [London Game Space](http://londongamespace.org/). Actually, while we're on the subject, now might be a good time to try and beat your high score. [Play it here](http://swooop.playcanvas.com/).
 
 ### Stay In The Loop
 
