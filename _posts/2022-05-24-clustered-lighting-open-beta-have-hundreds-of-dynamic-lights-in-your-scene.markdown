@@ -13,7 +13,7 @@ categories:
 
 Our team has been working on a new lighting system for a little while now and it's reached the stage where we want to share it to the community!
 
-[![Clustered lighting demo from Solar Games](/assets/media/Kapture-2022-05-24-at-12.09.11.gif)](/assets/media/Kapture-2022-05-24-at-12.09.11.gif)
+[![Pirron Pool](/assets/media/pirron-pool.gif)](/assets/media/pirron-pool.gif)
 
 [Pool Demo](https://pirron.one/pool/) from Solar Games using Clustered Lighting
 
