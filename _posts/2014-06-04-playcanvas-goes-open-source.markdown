@@ -20,7 +20,7 @@ Today, we have some more great news for WebGL fans, game developers and web deve
 
 **PlayCanvas Engine is now open source.**
 
-The entire runtime engine is available right now on [github](https://github.com/playcanvas/engine) under the lovely [MIT license](https://opensource.org/license/mit/). Which means you can download it, fork it, and generally use it for anything you like.
+The entire runtime engine is available right now on [GitHub](https://github.com/playcanvas/engine) under the lovely [MIT license](https://opensource.org/license/mit/). Which means you can download it, fork it, and generally use it for anything you like.
 
 ### Why open source, why now?
 
@@ -49,7 +49,7 @@ We had a couple of goals in mind when we originally designed the engine.
 
 2. It had to be blazingly fast.
 
-**Simple Yet Powerful**
+#### Simple Yet Powerful
 
 As a developer, you want well documented and well architected APIs. But you also want to be able to understand what’s going on under the hood and to debug when things go wrong. For this, there’s no substitute for a carefully hand-crafted, unminified, open source codebase.
 
@@ -59,7 +59,7 @@ Additionally, you need great graphics, physics and audio engines. But the PlayCa
 
 As you can see from the Pen’s JS panel, in just over 100 lines of code, you can create, light, simulate and view interesting 3D scenes. Try forking the CodePen and change some values for yourself.
 
-**Need For Speed**
+#### Need For Speed
 
 To ensure we get great performance, we’ve built PlayCanvas as a hybrid of hand-written JavaScript and machine generated [asm.js](http://asmjs.org/). The most performance critical portion of the codebase is the physics engine. This is implemented as a thin, hand-written layer that wraps [Ammo.js](https://github.com/kripken/ammo.js/), the Emscripten-generated JavaScript port of the open source physics engine Bullet. If you haven’t heard of Bullet before, it powers amazing AAA games like Red Dead Redemption and GTAV. So all of this power is also exposed via the PlayCanvas engine. Ammo.js executes at approximately 1.5x native code speed in recent builds of Firefox so if you think that complex physics simulation is just not practical with JavaScript, think again.
 
@@ -88,9 +88,9 @@ It's all very well talking about engines and tools, but engines are only as good
 
 [SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://www.ludei.com/cocoonjs/) or the open source [Ejecta](https://impactjs.com/ejecta) project.
 
-### Want
+### Get Involved
 
-So you want to help us make the best damn 3D engine on the web? Great! Head over to our [github page](https://github.com/playcanvas/engine). Get cloning, starring and forking while it’s fresh!
+So you want to help us make the very best 3D engine on the web? Great! Head over to our [GitHub page](https://github.com/playcanvas/engine). Get cloning, starring and forking while it’s fresh!
 
 ### Stay in the Loop
 
