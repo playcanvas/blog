@@ -58,7 +58,7 @@ We are 4 days in to our 2nd game jam and this month you talented developers hav
 
 If a month seems like too long to make a game. **This weekend is Ludum Dare 31**, a 48 hour game making competition. It's a great way to get a feel for the full process of imagining, designing, building and then shipping a game.
 
-We're running a **special deal** this weekend. If you enter Ludum Dare and complete a game using PlayCanvas we'll give you a **FREE PRO 15** account for a full year. Can't say fairer than that! See the [Ludum Deals](https://ludumdare.com//2014/11/01/ludum-deals-for-ld31/) page for more details.
+We're running a **special deal** this weekend. If you enter Ludum Dare and complete a game using PlayCanvas we'll give you a **FREE PRO 15** account for a full year. Can't say fairer than that!
 
 ### Stay In The Loop
 

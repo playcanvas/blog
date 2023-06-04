@@ -26,13 +26,13 @@ We have been paid some incredible compliments in the last week or so. In particu
 
 ### Events
 
-On Tuesday we hosted  the [London HTML5 Game Development Meet Up](http://www.meetup.com/London-HTML5-Game-Developers/events/188693262/) at the London HQ of Mozilla. There were some great talks from Jesse Freeman (on HTML5 vs Unity), Karl Bunyan (who spoke on wrapping games with his app PhoneGap) and our very own Senior Engineer Max (who spoke about creating colorTanks in a game jam). At one point during his talk, Max edited his game [colorTanks](http://tanks.moka.co/) in the PlayCanvas Editor live and had most of the attendees playing the game at the same time. Can't wait for the next meet up!
+On Tuesday we hosted  the [London HTML5 Game Development Meet Up](http://www.meetup.com/London-HTML5-Game-Developers/events/188693262/) at the London HQ of Mozilla. There were some great talks from Jesse Freeman (on HTML5 vs Unity), Karl Bunyan (who spoke on wrapping games with his app PhoneGap) and our very own Senior Engineer Max (who spoke about creating colorTanks in a game jam). At one point during his talk, Max edited his game 'colorTanks' in the PlayCanvas Editor live and had most of the attendees playing the game at the same time. Can't wait for the next meet up!
 
 [![MaksTalk-001](/assets/media/MaksTalk-001.jpg)](/assets/media/MaksTalk-001.jpg)
 
 ### LizziP and her Team Slam the MalmoJammo
 
-Team [HexPenguin](https://twitter.com/HexPenguin) used PlayCanvas in the Malmo Gam Jam to create their winning game. We love seeing progress in our communities projects but to hear that PlayCanvas users are using the engine to win (in the intense conditions of a game jam) is incredible. Why not play team HexPenguins award winning game [here](http://apps.playcanvas.com/auroraimortalis/MALMOJAMMO/spacetifacts)?
+Team [HexPenguin](https://twitter.com/HexPenguin) used PlayCanvas in the Malmo Gam Jam to create their winning game. We love seeing progress in our communities projects but to hear that PlayCanvas users are using the engine to win (in the intense conditions of a game jam) is incredible. Why not play team HexPenguins award winning game [here](https://playcanvas.com/project/12400/overview/malmojammo)?
 
 ### Stay In The Loop
 

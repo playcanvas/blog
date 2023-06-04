@@ -86,7 +86,7 @@ It's all very well talking about engines and tools, but engines are only as good
 [![SWOOOP](/assets/media/swooop_blog.jpg)](http://swooop.playcanvas.com/)
 <br>_SWOOOP - mobile browser game built using the PlayCanvas Engine_
 
-[SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://www.ludei.com/cocoonjs/) or the open source [Ejecta](https://impactjs.com/ejecta) project.
+[SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://en.wikipedia.org/wiki/CocoonJS) or the open source [Ejecta](https://impactjs.com/ejecta) project.
 
 ### Get Involved
 
