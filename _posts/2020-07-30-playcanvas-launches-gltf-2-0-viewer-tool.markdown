@@ -36,8 +36,8 @@ The viewer allows you to drag-and-drop any glTF 2.0 file and inspect it in detai
 
 The release of the PlayCanvas Viewer coincides with the engine reaching **100% glTF 2.0 spec compliance**! PlayCanvas passes every single core test in [cx20's glTF Test suite](https://github.com/cx20/gltf-test#gltf-test). We are now turning our attention to supporting the full range of glTF 2.0 extensions. The engine already supports:
 
-- KHR_materials_pbrSpecularGlossiness
-- KHR_materials_unlit
+- `KHR_materials_pbrSpecularGlossiness`
+- `KHR_materials_unlit`
 
 The engine itself can parse and render glTF 2.0 files incredibly quickly. You can expect glTF parse time to be approximately one tenth of that loading the equivalent JSON model.
 

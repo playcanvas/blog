@@ -3,8 +3,8 @@ author: will
 comments: false
 date: 2012-02-12 21:33:11+00:00
 layout: post
-link: https://blog.playcanvas.com/hello-world-3/
-slug: hello-world-3
+link: https://blog.playcanvas.com/hello-world/
+slug: hello-world
 title: Hello World
 wordpress_id: 83
 categories:

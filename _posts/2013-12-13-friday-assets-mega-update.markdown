@@ -16,7 +16,8 @@ Drag and Drop, uploading and thumbnails, no longer a pain in the asset.
 
 This week has been the week of the Asset at PlayCanvas. We taken a long hard look at how we add and use Assets and we've buffed and polished the process, taking off the ragged edges so that your workflow is now super smooth. Plus our big new feature, the PlayCanvas Asset Library. Find out more below
 
-[![Use pre-made 3D models in your game](/assets/media/asset_library.jpg)](/assets/media/asset_library.jpg)Use pre-made 3D models in your game
+[![Use pre-made 3D models in your game](/assets/media/asset_library.jpg)](/assets/media/asset_library.jpg)
+<br>_Use pre-made 3D models in your game_
 
 ## Uploading to the Designer
 
@@ -32,7 +33,8 @@ You can now drag Assets from the Asset Explorer and drop them into many differen
 
 ## Texture Thumbnails
 
-[![Texture assets now have thumbnails](/assets/media/asset_explorer.jpg)](/assets/media/asset_explorer.jpg)Texture assets now have thumbnails
+[![Texture assets now have thumbnails](/assets/media/asset_explorer.jpg)](/assets/media/asset_explorer.jpg)
+<br>_Texture assets now have thumbnails_
 
 We've started working on thumbnails for all Assets, but as a quick starter, textures now display with the proper thumbnail. No more guessing which one is the normal map when you're setting up your materials. Thumbnails for more Asset will be done soon.
 
@@ -40,6 +42,6 @@ We've started working on thumbnails for all Assets, but as a quick starter, text
 
 {% include youtube.html id="O7U9IY_nCLM" %}
 
-Have we saved the best feature until last? Maybe. Certainly the Asset Library is going to make it much easier for our new users to get something looking pretty. We've teamed up with lovely folks at [https://3dmodels-textures.com/](https://3dmodels-textures.com/) and [http://www.propsplanet.com/](http://www.propsplanet.com/) to give you a selection of 3D models which you can use to get started. Click the big red Asset Library button to open up a list of models and one-click to add them to your Project.
+Have we saved the best feature until last? Maybe. Certainly the Asset Library is going to make it much easier for our new users to get something looking pretty. We've teamed up with lovely folks at <https://3dmodels-textures.com/> and <http://www.propsplanet.com/> to give you a selection of 3D models which you can use to get started. Click the big red Asset Library button to open up a list of models and one-click to add them to your Project.
 
 We encourage you to check the free assets from the kind folks and then head over to their websites and see all the other awesome stuff they have on offer.
