@@ -30,6 +30,8 @@ Particularly, we'll explore how game polish can be achieved through **game juice
 
 ## How it started
 
+![](/assets/media/MakeYourHTML5GamesAwesome-1.mp4)
+
 This was our starting point before we added game juice. While the game is fully functional and plays well, it lacks the visual and audio effects that would make it truly engaging. As a result, it feels a bit dull and uninteresting.
 
 However, with the right attention to detail and some careful implementation of game juice, we can transform this basic Asteroids game into something much more exciting and satisfying to play.
@@ -160,7 +162,7 @@ Let's implement these ideas!
 
 For the background asteroids, I simply reused our asteroid spawner class, but moved the spawn points a bit below.
 
-![](/assets/media/MakeYourHTML5GamesAwesome-6.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-4.png)
 
 To make it as non-impactful on performance as possible, I duplicated our template, renamed it to FakeAsteroid and removed all components, except the Mover and Rotator components.
 
@@ -285,7 +287,7 @@ We'll want to communicate it a bit better. Right now, all that happens is that t
 
 I downloaded the model for our spaceship, and made a top-down render of it in Blender. The result was a simple plain icon:
 
-![](/assets/media/MakeYourHTML5GamesAwesome-7.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-6.png)
 
 Plain, but enough to make a health counter with. Let's make it semi transparent and add it to the world. Our health counter will display from one to three of these icons to indicate how much life we've got left.
 
@@ -293,7 +295,7 @@ To give it some more juice, let's also make it ‘jump up’ when our health cha
 
 And, since using components makes it easy, let's do the same to our score counter:
 
-![](/assets/media/MakeYourHTML5GamesAwesome-8.mp4)
+![](/assets/media/MakeYourHTML5GamesAwesome-7.png)
 
 Much simpler, and much nicer!
 
@@ -351,6 +353,8 @@ Let's go with Perlin Noise for our game. You can see the implementation we went 
 Lastly, let's add a small shockwave whenever we get hit! Let's use a particle system for this - just like with the asteroid explosion and bullet hit effects. I grabbed a simple circular texture, coloured it red to indicate something negative, and added a script that spawns the effect whenever the player gets hit.
 
 The combined effects look like this:
+
+![](/assets/media/MakeYourHTML5GamesAwesome-8.mp4)
 
 You'll notice I've added screen shake to more than just the player getting hit! I'm a big fan of this effect, so I've added it to asteroid explosions and firing bullets as well!
 
