@@ -13,7 +13,7 @@ categories:
 
 **Ludum Dare 31 has come and gone, but many great projects featured PlayCanvas over the course of the weekend. Here's your round up for our involvement in one of the most popular Game Jams in the world.**
 
-![VAIOSGAME](/assets/media/VAIOSGAME.png)
+![Winter Blast](/assets/media/ld31-winter-blast.png)
 
 ### What is the Ludum Dare?
 
