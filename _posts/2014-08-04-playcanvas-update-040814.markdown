@@ -19,13 +19,13 @@ This week, we've improved your Dashboard, Projects and Profile pages and now hav
 
 We've created a new series of videos that run through a complete introduction to PlayCanvas. For new users, or for people who just want a refresher course on things they have missed this is essential viewing. See it on our [Youtube channel](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927).
 
-### Features and Fixes:
+### Features and Fixes
 
 - New tutorials abound, including an [Introduction to Materials](https://developer.playcanvas.com/tutorials/basic-materials/) in PlayCanvas - if you haven't seen them yet, just go to your projects page and click the 'Start Learning' link to... umm, start learning! The video tutorials are all on [our YouTube page](https://www.youtube.com/user/playcanvas).
 - The projects and profile pages have been revamped.
 - The site is now also compatible with more mobile devices (updates to cater for more mobile resolutions).
 
-### Other News:
+### Other News
 
 #### SIGGRAPH
 
@@ -33,7 +33,7 @@ Next week PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/), repres
 
 #### GAMESCOM
 
-Will, our CEO, will be attending this year's [GAMESCOM ](https://www.gamescom.global/)showing for mobile and HTML5 games. [Get in touch](https://blog.playcanvas.com/contact) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
+Will, our CEO, will be attending this year's [GAMESCOM](https://www.gamescom.global/) showing for mobile and HTML5 games. [Get in touch](https://blog.playcanvas.com/contact) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
 
 **Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks**
 

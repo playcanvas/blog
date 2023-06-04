@@ -18,7 +18,7 @@ Last month we introduced our **DevLog** to help strengthen the PlayCanvas Commun
 
 ### How Does It Work?
 
-Simply **share your [unique Referral link](https://playcanvas.com/account)** where and when you please and if a user signs up to **PlayCanvas **using your link, you are **entitled to 5% of everything that they buy and sell on PlayCanvas over the period of 1 year**. The more people that sign up with the link that you shared, the more benefits you will receive.
+Simply **share your [unique Referral link](https://playcanvas.com/account)** where and when you please and if a user signs up to **PlayCanvas** using your link, you are **entitled to 5% of everything that they buy and sell on PlayCanvas over the period of 1 year**. The more people that sign up with the link that you shared, the more benefits you will receive.
 
 The 5% you are entitled to is also based on the new users subscription fee.
 

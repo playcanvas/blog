@@ -61,7 +61,7 @@ We've updated existing assets to mark all existing target assets are preload. 
 
 ### Export and Publishing
 
-When you publish an app or choose to download an export of your app, we now include *all* assets in the package. As you can choose whether or not to preload assets, this means that you can select only a subset of your assets to be loaded before your application starts. Then you can load other assets at any other stage later on. This lets you use many more assets in your games and applications but not worry about start up time. Just stream your assets in later on.
+When you publish an app or choose to download an export of your app, we now include _all_ assets in the package. As you can choose whether or not to preload assets, this means that you can select only a subset of your assets to be loaded before your application starts. Then you can load other assets at any other stage later on. This lets you use many more assets in your games and applications but not worry about start up time. Just stream your assets in later on.
 
 ### Script Loading Order
 

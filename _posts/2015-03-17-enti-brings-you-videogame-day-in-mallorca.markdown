@@ -29,7 +29,7 @@ The second part is a practical course where the participants have an opportunit
 
 VideoGame Day is free of charge and welcomes everybody interested in videogame development.
 
-You can apply for participation sending an e-mail to: info@enti.cat or confirm it personally in Education Department or Manacor Council (c/Muntaner 12)
+You can apply for participation sending an e-mail to: <info@enti.cat> or confirm it personally in Education Department or Manacor Council (c/Muntaner 12)
 
 It is recommended that all attendees bring a notebook for the practical part of the workshop.
 

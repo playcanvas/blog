@@ -40,7 +40,7 @@ In this game you only have one coin/ball, you must use it to save as many people
 
 ### [The Bridge](https://playcanv.as/p/TZjbpJH0/), by [@yngar](https://twitter.com/yngar) ([Project link](https://playcanvas.com/project/3540/overview/ludumdare))
 
-You only get one enemy. These two rectangles hate each other. Knock the other off the bridge to win. **This game is 2 player only. **
+You only get one enemy. These two rectangles hate each other. Knock the other off the bridge to win. **This game is 2 player only.**
 Player 1 uses A and D to move left and right, W and S to spin, and G to jump.
 Player 2 uses the arrow keys to move and spin, and space to jump.
 

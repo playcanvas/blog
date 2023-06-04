@@ -88,7 +88,7 @@ It's all very well talking about engines and tools, but engines are only as good
 
 [SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://www.ludei.com/cocoonjs/) or the open source [Ejecta](https://impactjs.com/ejecta) project.
 
-### Want!
+### Want
 
 So you want to help us make the best damn 3D engine on the web? Great! Head over to our [github page](https://github.com/playcanvas/engine). Get cloning, starring and forking while it’s fresh!
 

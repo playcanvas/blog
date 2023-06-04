@@ -21,7 +21,7 @@ If you've just bought the bundle and you're looking for some help here's a few 
 
 Once you've signed up. Head over to your [account page](https://playcanvas.com/account), scroll down the Promotional Codes section, enter your code and Submit.
 
-This will give you 3 months with all the Pro features (like private projects and more storage). At the end of the 3 months, **don't worry you won't be charged, **your account will revert to a Free account. Hopefully, if you've enjoyed using PlayCanvas, you can upgrade your account back to Pro.
+This will give you 3 months with all the Pro features (like private projects and more storage). At the end of the 3 months, **don't worry you won't be charged**. Instead, your account will revert to a Free account. Hopefully, if you've enjoyed using PlayCanvas, you can upgrade your account back to Pro.
 
 ## Tutorials and Documentation
 

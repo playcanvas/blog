@@ -40,13 +40,17 @@ Now, let's write some code to delete the presents that come off-screen. Add a s
 
 Whenever a rigidbody enters the trigger volume, the collision component will fire an event that we can listen to. Or, in simple terms, we can tell the collision component to call a specific function any time it comes into contact with a rigidbody. Put the following code in the initialize function of your new script:
 
-        this.entity.collision.on('triggerenter', this.onTriggerEnter, this);
+```javascript
+this.entity.collision.on('triggerenter', this.onTriggerEnter, this);
+```
 
-This tells our collision component that when the "**triggerenter**" event happens (i.e. something enters the trigger volume), call the function "**onTriggerEnter**", in the scope of **this **(so we have access to all our variables and functions). Let's write that function now:
+This tells our collision component that when the "**triggerenter**" event happens (i.e. something enters the trigger volume), call the function "**onTriggerEnter**", in the scope of **this** (so we have access to all our variables and functions). Let's write that function now:
 
-        onTriggerEnter: function (other) {
-            other.destroy();
-        }
+```javascript
+onTriggerEnter: function (other) {
+    other.destroy();
+}
+```
 
 Pretty simple huh? The onTriggerEnter function gets called with one argument, which is the entity it collided with. We simply destroy that entity, and it's gone!
 
@@ -56,7 +60,7 @@ Pretty simple huh? The onTriggerEnter function gets called with one argument, wh
 
 If we run the game now though, the presents still won't get deleted even if they go off-screen! That's because trigger volumes only check for collisions with rigidbodies, so we'll need to add some more components to the present. We need to add a **collision** component and a **kinematic rigidbody** component. Together, these will allow us to check when the present passes through our trigger volumes.
 
-So, add those components to the Gift. Make sure you change the "type" attribute of the rigidbody component to **Kinematic** - we don't want it to be Static, because then we couldn't move the presents, and we don't need it to be **Dynamic **because then our present would get affected by gravity and physics and we don't need that. **Kinematic **allows us to move our present in code, but not have it affected by physics. You can fiddle around with the half extents of the collision box until it fits around the present too.
+So, add those components to the Gift. Make sure you change the "type" attribute of the rigidbody component to **Kinematic** - we don't want it to be Static, because then we couldn't move the presents, and we don't need it to be **Dynamic** because then our present would get affected by gravity and physics and we don't need that. **Kinematic** allows us to move our present in code, but not have it affected by physics. You can fiddle around with the half extents of the collision box until it fits around the present too.
 
 You'll also notice the collision box isn't centred on the present model. To fix this, you can removed the model component from Gift and add a model entity child instead, which you can then translate without affecting the position of the collision box.
 
@@ -74,16 +78,20 @@ _(Wondering why we can't use a Mesh for the collision component of Gift? Checki
 
 Now we just need to add a small amount of code to Santa so we know when presents collide with him.
 
-        this.entity.collision.on('triggerenter', this.onTriggerEnter, this);
+```javascript
+this.entity.collision.on('triggerenter', this.onTriggerEnter, this);
+```
 
 Put that line in the santa_controller.js script - it does exactly the same thing as before. We're going to write a simple onTriggerEnter function for now, and actually write the functionality we want next time.
 
-        onTriggerEnter:function(other) {
-            if(other.name == "Gift") {
-                other.destroy();
-                //we'll be adding score incrementation and other stuff here...
-            }
-        }
+```javascript
+onTriggerEnter:function(other) {
+    if (other.name === "Gift") {
+        other.destroy();
+        // we'll be adding score incrementing and other stuff here...
+    }
+}
+```
 
 All we're doing here at the moment is the same as the offscreen trigger volume - destroying the present when it comes into contact with Santa.
 

@@ -99,7 +99,7 @@ pc.script.attribute("rotationFactor", "number", 0.2);
 
 This code at the top of the camera script, tells the designer to expose four values `elevation`, `distance`, `positionFactor` and `rotationFactor` and show them as editable numbers in the Designer.
 
-Back in the Designer, we need to load the script attributes from the script using the _Entity -> Refresh Script Attributes_ menu item. Then we'll see this attribute block appear on the script component.
+Back in the Designer, we need to load the script attributes from the script using the *Entity -> Refresh Script Attributes* menu item. Then we'll see this attribute block appear on the script component.
 
 [![PLAYHACK_Camera](/assets/media/PLAYHACK_Camera.jpg)](/assets/media/PLAYHACK_Camera.jpg)
 
