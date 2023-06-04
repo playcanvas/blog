@@ -88,7 +88,7 @@ We have been blown away by the incredible content the community has created. Bro
 
 Our top picks for 2021 are:
 
-- [Snap Games](https://games.snap.com/) - Snapchat's HTML5 gaming platform featuring new arrivals such as Hole.io and Aquapark
+- [Snap Games](https://www.youtube.com/watch?v=zlbRDJhUXwE) - Snapchat's HTML5 gaming platform featuring new arrivals such as Hole.io and Aquapark
 - [Bullet Bonanza](https://www.bulletbonanza.io/) - Frenetic online multiplayer game made by Kiloo
 - [Fjällräven Kånken](https://www.fjallraven.com/uk/en-gb/bags-gear/kanken/kanken-bags/kanken-me) - Backpack configurator made by Animech
 - [The Crypt](https://www.crypt.art/) - NFT gallery made by Kuva

@@ -19,7 +19,7 @@ The event was designed to showcase websites that represent the best of the best
 
 - [Tone Pong](http://yagizmungan.com/TonePong) - A audio rich Pong experience
 - [Character Study for WebGL Games](http://www.visualiser.fr/Babylon/character/default.htm) - Rag doll physics
-- [Gravity](http://www.hellochar.com) - Trippy gravity playground
+- [Gravity](https://experiments.withgoogle.com/gravity-hellochar) - Trippy gravity playground
 - [A Particle Dream](https://www.iamnop.com/particles/) - Trippy particle playground
 - [Maratropa](https://www.marpi.studio/exhibitions/maratropa) - Twitter visualizer
 - [MTV EMA 2012 Opener](http://labs.sehsucht.de/) - A Zoetrope, a fast-moving carousel which evokes the illusion of motion
@@ -30,7 +30,7 @@ The event was designed to showcase websites that represent the best of the best
 - [Just a Reflektor](https://www.justareflektor.com/) - Control some effects in a music video using a webcam
 - [Lights](https://helloenjoy.com/lights) - Music video flying over a procedural landscape
 - [(out)Looking Glass](http://www.bendytoons.com/webgl/Outlooking.html) - A man contemplating himself in the mirror
-- [Nyumblies](http://axum.graphics/Nyumblies) - Hand-made organic shapes swimming around
+- [Nyumblies](https://www.micah-morgan.com/portfolio/nyumblies) - Hand-made organic shapes swimming around
 - [Skazka](https://thefwa.com/cases/skazka) - Dream-like landscape with dancing silhouettes
 - [VR Data Landscape](https://kinetecharts.org/) - Fly through a landscape of abstract shapes, presented using a LeapMotion camera and a balance-board controller
 

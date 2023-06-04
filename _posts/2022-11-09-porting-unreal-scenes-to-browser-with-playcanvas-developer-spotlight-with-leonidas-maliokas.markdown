@@ -22,7 +22,7 @@ tags:
 
 Welcome to Developer Spotlight, a new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.
 
-Today we are excited to be joined by [Leonidas Maliokas](https://www.linkedin.com/in/leonidas-maliokas-00635a183/), a freelance web and games developer for Solar Games.
+Today we are excited to be joined by [Leonidas Maliokas](https://www.linkedin.com/in/leonidas-maliokas/), a freelance web and games developer for Solar Games.
 
 He will show us how Solar Games ported a metaverse experience from Unreal to PlayCanvas in the video presentation below. Specific areas covered are:
 
