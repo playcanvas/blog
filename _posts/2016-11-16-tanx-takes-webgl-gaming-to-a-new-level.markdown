@@ -17,25 +17,25 @@ But as good as TANX is, we've been working hard on a major upgrade. And we're h
 
 We've added a brand new level. We've moved away from the 'TRON' style graphics and adopted a more realistic style. Beautiful, I hope you'll agree.
 
-[![tanx-new](/assets/media/tanx-new-1024x575.jpg)](/assets/media/tanx-new.jpg)
+[![TANX](/assets/media/tanx-new.jpg)](/assets/media/tanx-new.jpg)
 
 All power ups have been lovingly remodeled.
 
-![tanx-powerups](/assets/media/tanx-powerups.jpg)
+![TANX Powerups](/assets/media/tanx-powerups.jpg)
 
 We've added a very sexy shield effect. See it crackle with energy as it kicks in. All done in a special custom GLSL shader.
 
-![tanx-shield](/assets/media/tanx-shield.gif)
+![TANX Shield](/assets/media/tanx-shield.gif)
 
 To turn up the mayhem, we've added camera shake and punchy explosions, built with PlayCanvas' particle system component.
 
-![tanx-boom](/assets/media/tanx-boom.gif)
+![TANX Explosions](/assets/media/tanx-boom.gif)
 
 The game even has a new URL. Play now at:
 
 #### [https://tanx.io](https://tanx.io)
 
-> **Public Service Announcement:** TANX is highly addictive. Please take occasional breaks!
+> ⚠️ **Public Service Announcement:** TANX is highly addictive. Please take occasional breaks!
 
 Can you believe this game is playable after loading just 2.8MB of data? Massive fun delivered to your browser in seconds.
 
