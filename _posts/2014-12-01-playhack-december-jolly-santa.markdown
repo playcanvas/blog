@@ -34,9 +34,9 @@ It works like this:
 
 ![Santa](/assets/media/playhack-santa.jpg)
 
-We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the** Jolly Santa model** (complete with sleigh and Rudolph).
+We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the **Jolly Santa model** (complete with sleigh and Rudolph).
 
-Whether it's an endless **side scroller** or an intense** racing game**, you can use this month's model to create any game that you like.
+Whether it's an endless **side scroller** or an intense **racing game**, you can use this month's model to create any game that you like.
 
 Look out for another series of tutorial blog posts coming soon to give you some ideas coming soon.
 

@@ -190,7 +190,7 @@ Unfortunately, the screen-to-world projections are using the projection matrix d
 
 My workaround is to calculate the relevant camera values from the projection matrix on the first AR render frame and apply that back to the camera component. The code can be seen here in [xr-manager.js](https://playcanvas.com/editor/code/988340?tabs=103708151&line=169).
 
-### Wrapping up!
+### Wrapping up
 
 If you have reached here, thank you very much for reading and we hope you have found some useful takeaways that you can use in your own projects!
 

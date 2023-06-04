@@ -17,7 +17,7 @@ categories:
 
 Will (PlayCanvas CEO) headed off to [GDC Europe](http://www.gdceurope.com/) and [gamescom](https://www.gamescom.global/)this week while Dave (PlayCanvas CTO) traveled to Vancouver for SIGGRAPH. PlayCanvas made a real splash at both and in the next few days, we'll be writing a blog entry dedicated to each trip.
 
-### Features and Fixes:
+### Features and Fixes
 
 - We improved the rendering of the PlayCanvas website at mobile resolutions. Explore the site on your smartphone to see how great the site looks now.
 - Kevin, our Design Guru, has refreshed the design on various 'logged in' pages, making navigation clearer and simpler.

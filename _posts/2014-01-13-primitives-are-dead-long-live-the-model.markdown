@@ -20,7 +20,7 @@ When we created the primitive component, we had simplicity in mind. Create box, 
 
 To get us going this was great, but pretty soon you all started demanding more from the primitive. First it was a lack of a `setVisible()` method which existed on the model. Then you wanted to set a texture map, but in reality you wanted a full-on material.
 
-### Long live the Model Component!
+### Long live the Model Component
 
 Once we realized we were going to be recreating the primitive component with these new features, we gave it a bit of thought and came to the conclusion that the primitive is just a model component with a special built-in set of models, i.e.  box, sphere, capsule, etc. So, combining the two makes perfect sense. We give you the power and flexibility of the model component, but with the ease and speed of the primitive component.
 

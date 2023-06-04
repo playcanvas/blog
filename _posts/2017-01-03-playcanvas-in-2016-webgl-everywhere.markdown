@@ -35,7 +35,7 @@ The last twelve months have seen some incredible companies adopt PlayCanvas. Her
 
 **Universal** launched the movie Ride Along 2 with a PlayCanvas-powered Truck Tour:
 
-https://vimeo.com/152996271
+<https://vimeo.com/152996271>
 
 So what's attracting incredible companies like these to PlayCanvas? It's because they need WebGL tooling that works. [Other game engines have let them down](https://blog.playcanvas.com/playcanvas-versus-unity-webgl/) and PlayCanvas is delivering the technology they need.
 

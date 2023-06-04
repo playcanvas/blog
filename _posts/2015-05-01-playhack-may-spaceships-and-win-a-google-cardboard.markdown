@@ -29,7 +29,7 @@ This month's **PLAYHACK** is the perfect opportunity to learn about the particle
 
 #### Win a Google Cardboard
 
-We'll pick our favorite entry (make sure you have a published build for us to play) at the end of the month, and we'll send the winner a **[Google Cardboard](https://www.google.com/get/cardboard/) **which lets you browse VR scenes just using your phone. It's the future!
+We'll pick our favorite entry (make sure you have a published build for us to play) at the end of the month, and we'll send the winner a **[Google Cardboard](https://www.google.com/get/cardboard/)** which lets you browse VR scenes just using your phone. It's the future!
 
 ### **[START PLAYHACKING](https://playcanvas.com/project/344381/overview/playhack-may-15)**
 
@@ -74,10 +74,14 @@ _These Terms defined below apply to the PLAYHACK May Competition._
 17. _Each game can only be entered once._
 
 18. _In order to participate in the competition entries must:_
-    _ - Be created using the online PlayCanvas platform and game engine._
-    _ - Be a fork of the original PLAYHACK May project._
-    _ - Include and use the contents of the PLAYHACK May project._
-    _ - Have a published primary app._
+
+    - _Be created using the online PlayCanvas platform and game engine._
+
+    - _Be a fork of the original PLAYHACK March project._
+
+    - _Include and use the Buggy 3D Model in the game._
+
+    - _Have a published primary app._
 
 19. _Winners will be notified by PlayCanvas on or before Friday, June 5th, 2015._
 

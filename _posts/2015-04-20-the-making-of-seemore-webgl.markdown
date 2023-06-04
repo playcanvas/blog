@@ -40,7 +40,7 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 
 **Show me the code!**
 
-[ https://github.com/playcanvas/engine/pull/202](https://github.com/playcanvas/engine/pull/202)
+[https://github.com/playcanvas/engine/pull/202](https://github.com/playcanvas/engine/pull/202)
 
 **Further reading:**
 
