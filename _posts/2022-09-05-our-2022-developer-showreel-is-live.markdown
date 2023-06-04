@@ -25,7 +25,7 @@ We would like to thank our users that have allowed us to show their awesome cont
 - [Brass](http://gnlippert.com/) by George Lippert
 - [Sherpa World](https://sherpaworld.biz/) by Sherpa
 - [Fields of Fury](https://www.fieldsoffury.io/) by Kiloo
-- [Nissan](https://www3.nissan.co.jp/vehicles/new/ariya.html)[Ariya](https://www3.nissan.co.jp/vehicles/new/ariya.html) by Nissan NTT, NTTDATA, Visionaries 777
+- [Nissan Ariya](https://www3.nissan.co.jp/vehicles/new/ariya.html) by Nissan NTT, NTTDATA, Visionaries 777
 - [Marble Adventure](https://portfolio.redox-interactive.com/en/projects/continental-marble-adventure) by Continental, Redox Interactive
 - [Cube Surfer](https://www.voodoo.io/) by Voodoo, Nowwa
 - [Scribble Rider](https://www.voodoo.io/) by Voodoo, Nowwa
