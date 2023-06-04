@@ -22,7 +22,7 @@ Today, we are excited to announce a new open source library: [PCUI Graph](https:
 
 Last year, we [open sourced PCUI](https://blog.playcanvas.com/introducing-pcui-an-open-source-ui-framework-for-the-web/), a front-end framework for building web-based tools like the PlayCanvas Editor. This was subsequently used as the foundation for a new family of open source tools: the [glTF Viewer](https://playcanvas.com/viewer) and the [PlayCanvas Examples Browser](https://playcanvas.github.io/#/graphics/area-lights). However, some of our more recent tools projects have had requirements related to the creation and editing of node-based graphs. As a result, we set about developing a new plugin to PCUI called PCUI Graph. This plugin is already in use today since it powers both the PlayCanvas [Shader Editor](https://forum.playcanvas.com/t/rfc-shader-editor/20616) and [Animation State Graph Editor](https://blog.playcanvas.com/introducing-the-anim-state-graph/):
 
-[![Graph Editors](/assets/media/image-1024x343.png)](/assets/media/image-2.png)
+[![Graph Editors](/assets/media/pcui-graph-editors.png)](/assets/media/pcui-graph-editors.png)
 
 You can rapidly map out key parts of your project’s workflow using pcui-graph, as it supports both directed and visual programming graphs. Here are some of the key features that PCUI Graph provides:
 

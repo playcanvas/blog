@@ -13,7 +13,7 @@ categories:
 
 We have almost completed work on moving the Code Editor from Code Mirror to [Monaco](https://github.com/Microsoft/monaco-editor), the same editor that powers the ever popular, Visual Studio Code.
 
-[![](/assets/media/image-1024x391.png)](/assets/media/image-1.png)_Look familiar? 👀_
+[![](/assets/media/code-editor-monaco.png)](/assets/media/code-editor-monaco.png)_Look familiar? 👀_
 
 With this upgrade, it will give developers:
 

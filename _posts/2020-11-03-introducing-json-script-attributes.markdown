@@ -15,7 +15,7 @@ tags:
   - workflow
 ---
 
-![JSON Script Attributes Preview](/assets/media/json-thumbnail-no-arrow-1024x576.jpg)
+![JSON Script Attributes Preview](/assets/media/editor-json-attributes.jpg)
 
 We have levelled up the Script Attributes that makes it much easier to organize and group related attributes together.
 
