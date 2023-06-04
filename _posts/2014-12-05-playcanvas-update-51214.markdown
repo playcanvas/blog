@@ -54,7 +54,7 @@ Our particle system beta is moving forwards. We're getting close to releasing th
 
 We are 4 days in to our 2nd game jam and this month you talented developers have a pretty appropriate model to play with. We've given you Santa and one of his 'normal nosed' reindeer to keep you company this December. **Find out everything you need to know [here](https://blog.playcanvas.com/playhack-december-jolly-santa/)**.
 
-#### Ludum Dare 31 - DEAL!
+#### Ludum Dare 31 - DEAL
 
 If a month seems like too long to make a game. **This weekend is Ludum Dare 31**, a 48 hour game making competition. It's a great way to get a feel for the full process of imagining, designing, building and then shipping a game.
 

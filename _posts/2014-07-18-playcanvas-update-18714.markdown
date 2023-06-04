@@ -29,7 +29,7 @@ _Translation Gizmo: now you can move any selected in 2 dimensions at the same ti
 
 _Scaling Gizmo: a new uniform scale control has been added - access by clicking the new white block and drag the mouse to scale in all directions._
 
-### UKIE Games Expo 
+### UKIE Games Expo
 
 Earlier this week, our esteemed CEO Will Eastcott felt like showing some people the future of web-based gaming and so headed off to the **Liverpool International Festival for Business** and [their games development showcase](https://www.events.ukti.gov.uk/creative-business-breakfast-and-uk-games-industry-showcase--ifb) to demonstrate the PlayCanvas platform.
 

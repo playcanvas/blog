@@ -41,7 +41,7 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Cyber City](https://vz777.com/cybercity/index.html) by Visionaries 777
 - [Sugar Slam](https://www.mightykingdom.com/) by Mighty Kingdom
 - [Super Snappy Bowling](https://www.nowwa.com/) by Nowwa
-- [Pirron Island ](https://playcanv.as/p/NHA6X1lI/)by Pirron 1
+- [Pirron Island](https://playcanv.as/p/NHA6X1lI/) by Pirron 1
 - [Neon Bubblegum](https://www.rtz23.de/) by Karsten Weil
 
 See more games and experiences at [Awesome PlayCanvas](https://github.com/playcanvas/awesome-playcanvas)!

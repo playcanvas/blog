@@ -13,7 +13,7 @@ categories:
 
 [![develop 1001-003](/assets/media/develop-1001-003.jpg)](/assets/media/develop-1001-003.jpg)
 
-**Develop Magazine have voted PlayCanvas the leading WebGL Engine in their [Develop 100](http://content.yudu.com/A2xcc7/Dev100TechList2014/resources/index.htm?referrerUrl=) rank of top game development technology. Ranking 52nd out of 100 Development products and tools, our engine bested other great engines to top the WebGL podium. **
+**Develop Magazine have voted PlayCanvas the leading WebGL Engine in their [Develop 100](http://content.yudu.com/A2xcc7/Dev100TechList2014/resources/index.htm?referrerUrl=) rank of top game development technology. Ranking 52nd out of 100 Development products and tools, our engine bested other great engines to top the WebGL podium.**
 
 Noting in particular our real time cloud collaboration and features such as per pixel lighting, physics options and entity systems the kind folks at develop magazine gave us a great write up and it feels terrific to be recognized by them for our efforts. Develop magazine have also nominated us for an [Industry Excellence Award](http://www.develop-online.net/news/develop-awards-2014-the-finalists-revealed/0192226) in the Technical Innovation category. We will be attending the awards ceremony in Brighton this month and whether we leave the event with the award or not, we are thrilled to be recognized in the same category as products like the Oculus Rift Development Kit 2 and Sony's 'Project Morpheus'.
 
