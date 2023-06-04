@@ -21,7 +21,7 @@ In case you missed it. We've made [huge improvements](https://blog.playcanvas.c
 
 ### Performance Profiler
 
-[![profiler](/assets/media/profiler-1024x509.png)](/assets/media/profiler.png)
+[![Profiler](/assets/media/profiler.png)](/assets/media/profiler.png)
 
 With mobile forming such a large part of the web these days, performance is more critical than ever before. That's why we've released an awesome [profiling tool](https://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/) to help quickly get to the bottom of performance problems and get your app running **fast**.
 
