@@ -50,13 +50,13 @@ You can find the public project for the demo [here](https://playcanvas.com/proje
 
 In the folder 'holo video', you will find the scripts and assets needed for playing back volumetric video. You will need to add the devkit library file name 'holo-video-object-umd.js' that will be provided from MRCS to complete the integration and be able to playback video.
 
-[![](/assets/media/holo-video-folder-1024x330.png)](/assets/media/holo-video-folder.png)
+[![](/assets/media/holo-video-folder.png)](/assets/media/holo-video-folder.png)
 
 Due to the size and how the data files for the video need to be arranged, they have to be hosted on a separate web server (ideally behind a CDN service like [Microsoft Azure](https://azure.microsoft.com/en-gb/products/cdn/)).
 
 The 'holo-video-player.js' script can be added to any Entity and be given a URL to the .hcap file. At runtime, the script will create the necessary meshes, materials, etc to render and playback the volumetric video.
 
-[![](/assets/media/holo-video-player-script-inspector-1024x769.png)](/assets/media/holo-video-player-script-inspector.png)
+[![](/assets/media/holo-video-player-script-inspector.png)](/assets/media/holo-video-player-script-inspector.png)
 
 Expect full documentation to be released soon on our site!
 
@@ -66,7 +66,7 @@ As you see in the video, we've made the experience available to view in the stan
 
 This was done by combining several of our WebXR example projects and the scripts and assets can be found in the 'webxr' folder:
 
-[![](/assets/media/webxr-folder-1024x443.png)](/assets/media/webxr-folder.png)
+[![](/assets/media/webxr-folder.png)](/assets/media/webxr-folder.png)
 
 'xr-manger.js' is controls how the XR experience is managed and handled throughout the experience:
 
@@ -106,7 +106,7 @@ The goal was for the user to be able to move around holo video and also show the
 
 Our [Starter Kit: VR](https://playcanvas.com/project/435780/overview/starter-kit-vr) has the scripts and functionality to interact with objects, teleport and move around an environment. We can tag entities in the scene with 'pickable' for the VR object picker logic in object-picker.js to test against when the VR input device moves or the select button is pressed.
 
-[![](/assets/media/webxr-vr-starter-kit-editor-1024x460.jpg)](/assets/media/webxr-vr-starter-kit-editor.jpg)
+[![](/assets/media/webxr-vr-starter-kit-editor.jpg)](/assets/media/webxr-vr-starter-kit-editor.jpg)
 
 Whether it is an object that we can teleport to or interact with is dependent on the other tags on the Entity.
 
