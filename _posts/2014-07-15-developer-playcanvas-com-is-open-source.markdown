@@ -20,7 +20,7 @@ This means that the community can be more involved in building tutorials, maki
 
 ### How do I get involved?
 
-#### Fork it!
+#### Fork it
 
 First take a fork of our github project: [https://github.com/playcanvas/developer.playcanvas.com](https://github.com/playcanvas/developer.playcanvas.com)
 

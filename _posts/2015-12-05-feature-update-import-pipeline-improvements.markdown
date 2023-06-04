@@ -34,7 +34,7 @@ You can now disable the conversion of textures to the nearest power of two. If y
 
 When you start iterating on models you often want to upload a new FBX file, but only update some parts. For example, you will often have created your own materials and don't need to original materials from the FBX file. You can now choose which parts of a model file you wish to import, model, animations, materials or textures.
 
-## In other news:
+## In other news
 
 ### Project Settings
 

@@ -34,7 +34,7 @@ She will showing us the how she recently ported the [John Lemon's Haunted Jaunt]
 
 [Presentation Slides](/assets/media/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
 
-### Hi Christina, welcome to Developer Spotlight! Tell us about yourself and your studio!
+### Hi Christina, welcome to Developer Spotlight! Tell us about yourself and your studio.
 
 Hello! My name is Christina Kaliora and I’m a Games Programmer. I wrote my first line of code in September of 2016 inside PlayCanvas! I still remember that excitement when I saw my cube rotating! That’s when I said "This is what I wanna do!".
 
@@ -85,7 +85,7 @@ Imagine, being able to play your game both on any web browser, phone, tv without
 
 And now with all the Metaverse buzz I see that web based experiences are gaining more and more attention.
 
-### Thank you very much for your time and we look forward to your presentation!
+### Thank you very much for your time and we look forward to your presentation
 
 Thank you very much for inviting me!
 

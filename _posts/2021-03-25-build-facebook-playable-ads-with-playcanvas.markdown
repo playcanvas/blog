@@ -63,7 +63,7 @@ That is how quick and easy it is! 💪 And it supports both the single 2MB HTML 
 
 If you’re new to PlayCanvas, why not [sign up today for free](https://playcanvas.com/). We can’t wait to see what you make! Let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
 
-### Useful links:
+### Useful links
 
 - [User Manual documentation for creating a Facebook Playable Ad](https://developer.playcanvas.com/en/user-manual/publishing/playable-ads/fb-playable-ads/)
 - [GitHub repo for the publishing tool](https://github.com/playcanvas/playcanvas-rest-api-tools#converting-a-project-into-a-single-html-file)

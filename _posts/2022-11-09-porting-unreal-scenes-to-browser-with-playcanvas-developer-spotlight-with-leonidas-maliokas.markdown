@@ -37,7 +37,7 @@ He will show us how Solar Games ported a metaverse experience from Unreal to Pla
 
 [Presentation Slides](/assets/media/Porting-Unreal-to-the-Browser-with-PlayCanvas-Developer-Spotlight-with-Leonidas-Maliokas-Slides.pdf)
 
-### Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio!
+### Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio.
 
 Hey, I’m Leonidas from Solar Games (formerly known as Pirron 1)! I’ve been working with interactive 3D websites since 2012. I used to work as a civil engineer before turning my hobby and passion for gamedev into a full time job using PlayCanvas.
 
@@ -103,7 +103,7 @@ Pixel streaming is the only valid contender when it comes to what HTML5 can offe
 
 There are so many opportunities around HTML5 and I see a very positive future for everyone involved.
 
-### Thank you very much for your time and we look forward to your presentation!
+### Thank you very much for your time and we look forward to your presentation
 
 Thank you for this opportunity to showcase our work!
 
