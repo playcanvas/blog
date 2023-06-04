@@ -21,9 +21,8 @@ The PlayCanvas WebGL game engine integrates with [ammo.js](https://github.com/kr
 
 Here is an example of a character with and without soft body cloth simulation running in PlayCanvas:
 
-[![](/assets/media/clothblog4.gif)](https://playcanv.as/p/WpURkO1l/)
-
-## **[CLICK TO PLAY DEMO](https://playcanv.as/p/WpURkO1l/)**
+{% include playcanvas.html type="p" id="WpURkO1l" %}
+_**[RUN FULLSCREEN](https://playcanv.as/p/WpURkO1l/)**_
 
 Want to know how it was done? Read on!
 

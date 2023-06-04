@@ -17,7 +17,7 @@ Today, PlayCanvas is launching [PCUI](https://github.com/playcanvas/pcui): a new
 
 PCUI is designed with tools developers in mind. It is particularly well suited to building viewer and editor applications, providing a rich set of beautiful and consistent controls. It already powers the [PlayCanvas Editor](https://playcanvas.com/) - the world's most powerful WebGL production tool.
 
-![](/assets/media/editor-gi-demo-1024x659.png)
+![](/assets/media/editor-gi-demo.png)
 
 Here you can see tree controls, panels, buttons, checkboxes, toolbars, menus and more. The Editor also relies on PCUI's observer system, that makes it easy to synchronize the state of your application's UI with that of the underlying data. Plus, it has a built-in support for history to make implementing redo/undo a breeze.
 
