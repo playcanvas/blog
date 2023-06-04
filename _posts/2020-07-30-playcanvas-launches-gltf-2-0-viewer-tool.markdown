@@ -13,7 +13,7 @@ categories:
 
 Today, the PlayCanvas team is excited to announce the release of a brand new browser-based glTF viewer application.
 
-![](/assets/media/viewer3.gif)
+![glTF Viewer](/assets/media/gltf-viewer.gif)
 
 **Try it now:** [https://playcanvas.com/viewer](https://playcanvas.com/viewer)
 
