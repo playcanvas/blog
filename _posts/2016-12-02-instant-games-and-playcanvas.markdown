@@ -15,7 +15,7 @@ You may have seen the news about Facebook launching Instant Games in Messenger. 
 
 {% include youtube.html id="WKQYMCLitV0" %}
 
-Instant Games is a **totally new** mobile gaming platform and it's **entirely built on HTML5 games.** This is tremendous news for the PlayCanvas game development community.
+Instant Games is a **totally new** mobile gaming platform and it's **entirely built on HTML5 games**. This is tremendous news for the PlayCanvas game development community.
 
 Games that are built using PlayCanvas will work with no modification as an Instant Game. Those games are ready to be played in the Facebook News Feed and in Messenger.
 
@@ -25,9 +25,9 @@ Instant Games are [playable today](https://developers.facebook.com/blog/post/201
 
 ### PlayCanvas Instant Games
 
-![](/assets/media/all-no-swerve-1024x683.png)
+![Instant Games Using PlayCanvas](/assets/media/instant-games-using-playcanvas.png)
 
-PlayCanvas is already being used to build Instant Games. The launch title **[Shuffle Cats Mini](https://www.facebook.com/ShuffleCatsMini/?fref=ts)** by [King](https://king.com/) was built using PlayCanvas. Look out for more titles built using PlayCanvas in the future.
+PlayCanvas is already being used to build Instant Games. The launch title **[Shuffle Cats Mini](https://www.facebook.com/ShuffleCatsMini)** by [King](https://king.com/) was built using PlayCanvas. Look out for more titles built using PlayCanvas in the future.
 
 ### A New Gaming Platform
 
