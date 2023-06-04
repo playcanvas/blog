@@ -29,7 +29,7 @@ The JSON format took over 3 secs just to parse the data, a peak memory usage of 
 
 ![](/assets/media/Screenshot-2020-10-13-at-12.33.48-1024x166.png)JSON
 
-GLB speeds ahead taking only **0.193 secs which is 17x faster,** uses a peak of **~25.2 MB** of memory and a gzipped package size of **25.7MB** 🚀!
+GLB speeds ahead taking only **0.193 secs which is 17x faster,** uses a peak of **~25.2 MB** of memory and a gzipped package size of **25.7MB**! 🚀
 
 ![](/assets/media/Screenshot-2020-10-13-at-12.42.10-1024x166.png)GLB
 
@@ -37,7 +37,7 @@ That’s a huge saving in time and means applications will become snappier and m
 
 We will be deprecating the use of JSON and the default format that model and animations files. Newly created projects will default to converting to GLB and in existing projects, this can be enabled in the projects settings:
 
-![](/assets/media/image-21-1.png)
+![Convert to GLB](/assets/media/editor-convert-to-glb.png)
 
 If you would like to replace your current JSON assets with GLB, the [User Manual](https://developer.playcanvas.com/en/user-manual/assets/importing/) has more information about the process to migrate over.
 

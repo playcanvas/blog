@@ -67,7 +67,7 @@ The good news was that even before the PlayCanvas Editor API was officially rele
 
 Other developers and companies became interested in our extensions and we started offering them in our company’s asset store.
 
-[![](/assets/media/Leonidas-Developer-Spotlight-2-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-2.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-2.jpg)](/assets/media/Leonidas-Developer-Spotlight-2.jpg)
 
 ### How is building an HTML5 game/experience different from a native game/experience?
 
@@ -107,9 +107,9 @@ There are so many opportunities around HTML5 and I see a very positive future fo
 
 Thank you for this opportunity to showcase our work!
 
-[![](/assets/media/Leonidas-Developer-Spotlight-3-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-3.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-3.jpg)](/assets/media/Leonidas-Developer-Spotlight-3.jpg)
 
-[![](/assets/media/Leonidas-Developer-Spotlight-6-1024x576.jpg)](/assets/media/Leonidas-Developer-Spotlight-6.jpg)
+[![](/assets/media/Leonidas-Developer-Spotlight-6.jpg)](/assets/media/Leonidas-Developer-Spotlight-6.jpg)
 
 Useful links:
 

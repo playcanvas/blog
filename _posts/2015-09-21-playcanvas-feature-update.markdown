@@ -11,7 +11,7 @@ categories:
   - News
 ---
 
-[![Editor](/assets/media/Editor-1024x522.jpg)](/assets/media/Editor-2.jpg)
+[![PLAYHACK Cars](/assets/media/playhack-cars.jpg)](/assets/media/playhack-cars.jpg)
 
 ## Entity Materials
 
@@ -25,9 +25,10 @@ Simply drag a material onto your model to create new Entity material. Or manage 
 
 We now let you upload and create GLSL shader code as an asset in your project. Simply drop a **.glsl** file into the scene. Or create a new file from scratch in the asset panel.
 
-Also, if you're smart, you can use the **asset.on("change")** event to automatically update your materials when ever the shader changes.
+Also, if you're smart, you can use the `asset.on('change')` event to automatically update your materials when ever the shader changes.
 
 **Live editing of material shaders anyone?**
+
 These are just two of the new features we've added over the past few months. If you haven't visited PlayCanvas in a while. Now is the perfect time to get back to building.
 
 [TRY PLAYCANVAS NOW](https://playcanvas.com)

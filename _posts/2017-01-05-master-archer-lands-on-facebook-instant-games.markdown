@@ -31,6 +31,6 @@ And select Master Archer from the game list!
 
 Or you can play on [facebook.com](https://www.facebook.com/Master-Archer-370044956688583/) if you are using a desktop browser.
 
-[![What's your high score?](/assets/media/hi-score-2-1024x548.jpg)](https://www.facebook.com/Master-Archer-370044956688583/)
+[![What's your high score?](/assets/media/master-archer-score.jpg)](https://www.facebook.com/Master-Archer-370044956688583/)
 
 Let us know your high score in the comments!
