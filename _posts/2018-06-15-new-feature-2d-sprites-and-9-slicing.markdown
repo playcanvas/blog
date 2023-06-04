@@ -20,31 +20,31 @@ Today we're excited to launch the first part of our 2D graphics support. Great f
 
 There are 5 great new features which will help you build 2D games using PlayCanvas.
 
-**Texture Atlas Asset**
+### Texture Atlas Asset
 
 ![Texture Atlas](/assets/media/texture-atlas.jpg)
 
 The new Texture Atlas asset is an enhanced texture asset which includes additional frame data for splitting your texture into multiple Sprites.
 
-**Sprite Asset**
+### Sprite Asset
 
 ![Sprite](/assets/media/editor-sprite.jpg)
 
 The Sprite Asset is a set of frames from a texture atlas. This can be a single button or a complete flip-book style animation.
 
-**Sprite Component**
+### Sprite Component
 
 ![Run Animation](/assets/media/sprite-run.gif)
 
 The Sprite Component is a new Component that you can add to your Entities. The Sprite Component let's you play back sprite animation clips and build up your new 2D world.
 
-**Sprite Editor**
+### Sprite Editor
 
 ![Sprite Editor](/assets/media/sprite-editor.jpg)
 
 The Sprite Editor is a new tool inside the PlayCanvas Editor to create and edit Texture Atlases. The Sprite Editor lets you quickly define frame regions in your texture and it's also used to define the 9-slicing region.
 
-**9-Slicing**
+### 9-Slicing
 
 ![Resize Button](/assets/media/button-resize.gif)
 
