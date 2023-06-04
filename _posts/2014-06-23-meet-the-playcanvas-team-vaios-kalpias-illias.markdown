@@ -3,8 +3,8 @@ author: christy
 comments: true
 date: 2014-06-23 10:02:14+00:00
 layout: post
-link: https://blog.playcanvas.com/meet-the-playcanvas-team-vaios-kalpias-illias-2/
-slug: meet-the-playcanvas-team-vaios-kalpias-illias-2
+link: https://blog.playcanvas.com/meet-the-playcanvas-team-vaios-kalpias-illias/
+slug: meet-the-playcanvas-team-vaios-kalpias-illias
 title: "Meet the PlayCanvas team: Vaios Kalpias-Illias"
 wordpress_id: 1419
 categories:
