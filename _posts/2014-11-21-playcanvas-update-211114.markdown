@@ -19,7 +19,7 @@ categories:
 
 #### New Particle System
 
-Our new **Particle System** is only in beta form but already we're seeing great things created with it. You can join by sending an email to [info@playcanvas.com](mailto:info@playcanvas.com). We hope to release it to everyone in the next few weeks.
+Our new **Particle System** is only in beta form but already we're seeing great things created with it. You can join by sending an email to <info@playcanvas.com>. We hope to release it to everyone in the next few weeks.
 
 #### Project Pages
 
