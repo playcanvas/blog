@@ -48,7 +48,7 @@ With those three key pieces in mind, let's start thinking about how we can impro
 
 It's not very interesting right now:
 
-![](assets/media/MakeYourHTML5GamesAwesome-1.mp4)
+![](/assets/media/MakeYourHTML5GamesAwesome-1.mp4)
 
 If we want to change that, there's a few key things we can do. We can increase the fire rate through a script that allows us to easily control by decreasing the fire cooldown.
 
@@ -88,7 +88,7 @@ Gun.prototype.applySpreadOn = function (bullet) {
 
 A simple but impactful change! Here's how it looks with values I put in for some fun:
 
-![](assets/media/MakeYourHTML5GamesAwesome-2.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-2.png)
 
 I highly encourage you to play with these values to see what's fun for you!
 
@@ -102,7 +102,7 @@ We can actually leverage this amazing tech to give every single one of our bulle
 
 As another touch, let's add a few sparkles when our shots hit something! The extra visual effect will make a big difference instead of just letting our bullets disappear. Particle explosions are always awesome.
 
-![](assets/media/MakeYourHTML5GamesAwesome-3.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-3.png)
 
 Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull asteroids. Let's make a few changes.
 
@@ -110,13 +110,13 @@ Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull
 
 Firstly, we want our asteroids to stand out from our background. Let's change the background texture to something a bit brighter.
 
-![](assets/media/MakeYourHTML5GamesAwesome-4.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-4.png)
 
 Much better! But can we make the asteroids themselves prettier? They're currently mapped with a fairly low resolution texture. Moreover, there's no variety - all asteroids are the same, only rotated differently.
 
 Let's import a new mesh and texture for the asteroids.
 
-![](assets/media/MakeYourHTML5GamesAwesome-5.mp4)
+![](/assets/media/MakeYourHTML5GamesAwesome-5.mp4)
 
 Nice! Much more visible, and much more variety - I should note I went ahead and added a simple component that further randomizes the scale of the asteroids being spawned!
 
@@ -160,7 +160,7 @@ Let's implement these ideas!
 
 For the background asteroids, I simply reused our asteroid spawner class, but moved the spawn points a bit below.
 
-![](assets/media/MakeYourHTML5GamesAwesome-6.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-6.png)
 
 To make it as non-impactful on performance as possible, I duplicated our template, renamed it to FakeAsteroid and removed all components, except the Mover and Rotator components.
 
@@ -285,7 +285,7 @@ We'll want to communicate it a bit better. Right now, all that happens is that t
 
 I downloaded the model for our spaceship, and made a top-down render of it in Blender. The result was a simple plain icon:
 
-![](assets/media/MakeYourHTML5GamesAwesome-7.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-7.png)
 
 Plain, but enough to make a health counter with. Let's make it semi transparent and add it to the world. Our health counter will display from one to three of these icons to indicate how much life we've got left.
 
@@ -293,7 +293,7 @@ To give it some more juice, let's also make it ‘jump up’ when our health cha
 
 And, since using components makes it easy, let's do the same to our score counter:
 
-![](assets/media/MakeYourHTML5GamesAwesome-8.mp4)
+![](/assets/media/MakeYourHTML5GamesAwesome-8.mp4)
 
 Much simpler, and much nicer!
 
@@ -358,7 +358,7 @@ You'll notice I've added screen shake to more than just the player getting hit! 
 
 With the effects we added above, the game looks and plays entirely different. Destroying asteroids **feels** good, and everything else in the game is there to enhance that experience.
 
-![](assets/media/MakeYourHTML5GamesAwesome-9.png)
+![](/assets/media/MakeYourHTML5GamesAwesome-9.png)
 
 As a last finishing touch, I went ahead and added a few post-processing effects that PlayCanvas offers. Namely, Vignette, Bloom and Chromatic Aberration. I also added CRT Scanlines as an overlay for a retro effect.
 
