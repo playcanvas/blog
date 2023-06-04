@@ -40,7 +40,7 @@ Much better! As you can see, you can now chain math functions together to apply 
 
 So what if you've already written PlayCanvas script code against the old API? How do you upgrade it? Here's a brief guide.
 
-**Accessing Math Object Elements**
+### Accessing Math Object Elements
 
 The old way:
 
@@ -58,7 +58,7 @@ var y = vector.y;
 var z = vector.z;
 ```
 
-**Creating Math Objects**
+### Creating Math Objects
 
 The old way:
 
@@ -80,7 +80,7 @@ var m4 = new pc.Mat4();
 var q1 = new pc.Quat(0, 0, 0, 1);
 ```
 
-**Math Object Constants**
+### Math Object Constants
 
 The old way:
 
@@ -94,25 +94,26 @@ The new way:
 var zeroVec = pc.Vec3.ZERO;
 ```
 
-**API Reference Pages**
+### API Reference Pages
 
 We strongly urge you to check out the API reference pages for the new API. We've worked hard to ensure every function has been lovingly documented (including sample code). If you spot any mistakes, have feedback or need any help whatsoever, [do let us know](https://forum.playcanvas.com)!
 
 Reference pages can be found here:
 
-- [pc.Vec2](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A 2-dimensional vector
-- [pc.Vec3](https://developer.playcanvas.com/en/api/pc.Vec3.html) - A 3-dimensional vector
-- [pc.Vec4](https://developer.playcanvas.com/en/api/pc.Vec4.html) - A 4-dimensional vector
-- [pc.Mat4](https://developer.playcanvas.com/en/api/pc.Mat4.html) - A 4x4 matrix
-- [pc.Quat](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A quaternion
+- [`pc.Vec2`](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A 2-dimensional vector
+- [`pc.Vec3`](https://developer.playcanvas.com/en/api/pc.Vec3.html) - A 3-dimensional vector
+- [`pc.Vec4`](https://developer.playcanvas.com/en/api/pc.Vec4.html) - A 4-dimensional vector
+- [`pc.Mat4`](https://developer.playcanvas.com/en/api/pc.Mat4.html) - A 4x4 matrix
+- [`pc.Quat`](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A quaternion
 
-**Unrelated Changes**
+### Unrelated Changes
+
 Since we have made such sweeping API changes, we have also taken the opportunity to remove some deprecated functions. The following are no longer in the engine:
 
-- pc.fw.RigidBodyComponent#get/setLinearVelocity - use [linearVelocity](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearVelocity) property
-- pc.fw.RigidBodyComponent#get/setAngularVelocity - use [angularVelocity](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularVelocity) property
-- pc.fw.RigidBodyComponent#get/setLinearFactor - use [linearFactor](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearFactor) property
-- pc.fw.RigidBodyComponent#get/setAngularFactor - use [angularFactor](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularFactor) property
-- pc.scene.Scene#get/setGlobalAmbient - use [ambientLight](https://developer.playcanvas.com/en/api/pc.Scene.html#ambientLight) property
+- `pc.fw.RigidBodyComponent#get/setLinearVelocity` - use [`linearVelocity`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearVelocity) property
+- `pc.fw.RigidBodyComponent#get/setAngularVelocity` - use [`angularVelocity`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularVelocity) property
+- `pc.fw.RigidBodyComponent#get/setLinearFactor` - use [`linearFactor`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearFactor) property
+- `pc.fw.RigidBodyComponent#get/setAngularFactor` - use [`angularFactor`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularFactor) property
+- `pc.scene.Scene#get/setGlobalAmbient` - use [`ambientLight`](https://developer.playcanvas.com/en/api/pc.Scene.html#ambientLight) property
 
 We hope you like the new interface!
