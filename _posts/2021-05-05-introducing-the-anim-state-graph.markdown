@@ -54,11 +54,13 @@ While these two characters use different animations for their various actions, t
 
 When opening an Anim State Graph asset you’ll be presented with a visual graph editor which allows you to define all of the different animation states your game object can be in. You can then connect these states using transitions.
 
-Create anim state graphs using the editor ui
+{% include video.html src="/assets/media/anim-create-state-graph.mp4" %}
+_Create anim state graphs using the editor UI_
 
 Each transition blends between two animations over a specified amount of time. You can adjust and tweak transitions to your liking and see the results in real time in the PlayCanvas launch page. You can then assign parameter conditions to each transition to define the circumstances under which that transition can fire. These parameter values can be modified in your scripts to control the behavior of your animation system.
 
-Control anim state graph behavior in scripts using the anim component API
+{% include video.html src="/assets/media/anim-script-trigger.mp4" %}
+_Control anim state graph behavior in scripts using the anim component API_
 
 Once you’ve created your Anim State Graph you can assign it to your entity using the Anim component. At this point you can attach your animation assets to each state which will play when transitioning to that state.
 
