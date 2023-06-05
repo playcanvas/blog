@@ -17,31 +17,31 @@ Let's cast our minds back and recall some of the key highlights.
 
 To wow the crowds at GDC 2015, ARM called on PlayCanvas to show the world what WebGL can really do. We built [Seemore](http://seemore.playcanvas.com/).
 
-[![seemore](/assets/media/seemore.jpg)](/assets/media/seemore.jpg)
+[![Seemore](/assets/media/seemore.jpg)](/assets/media/seemore.jpg)
 
 Also at GDC, Mozilla and PlayCanvas jointly announced [TANX](https://tanx.io/), our multiplayer, online tank battle game (with over 2,000,000 plays to date).
 
-[![tanx](/assets/media/tanx.jpg)](/assets/media/tanx.jpg)
+[![TANX](/assets/media/tanx.jpg)](/assets/media/tanx.jpg)
 
 One of the most memorable WebGL apps of 2015 was the [BMW i8 Configurator](http://car.playcanvas.com/). It even won [The FWA Site of the Day](http://www.thefwa.com/site/next-generation-car-configurator) and ruled on high at Hacker News!
 
-[![bmw](/assets/media/bmw.jpg)](/assets/media/bmw.jpg)
+[![BMW](/assets/media/bmw.jpg)](/assets/media/bmw.jpg)
 
 2015 was the year WebGL developers cried out for tools that actually work. In response, we launched our new Editor! A realtime-collaborative development environment that's only 650KB? You bet!
 
-[![editort800](/assets/media/editort800.png)](/assets/media/editort800.png)
+[![T800](/assets/media/editor-t800.png)](/assets/media/editor-t800.png)
 
 PlayCanvas' open source PBR renderer hit its first birthday with support for HDR cubemaps, box-projected cubemaps and much more. Find out more on [GitHub](https://github.com/playcanvas/engine).
 
-[![orangeroom](/assets/media/orangeroom.jpg)](/assets/media/orangeroom.jpg)
+[![Orange Room](/assets/media/orangeroom.jpg)](/assets/media/orangeroom.jpg)
 
 Some eye-popping content was released by our fantastic clients and partners. In August, Hutch Games released the world's first [3D WebGL playable ads](http://mmx.playcanvas.com/?truck=tripleh).
 
-[![mmxwwe](/assets/media/mmxwwe.jpg)](/assets/media/mmxwwe.jpg)
+[![MMX WWE](/assets/media/mmxwwe.jpg)](/assets/media/mmxwwe.jpg)
 
 PlayCanvas became the leading tech provider for Digital Out of Home. DOOH.com brought the [world's largest game of Space Invaders](https://vimeo.com/136313614) to the Cannes Lions Festival.
 
-[![doohinvaders](/assets/media/doohinvaders.jpg)](/assets/media/doohinvaders.jpg)
+[![DOOH Invaders](/assets/media/doohinvaders.jpg)](/assets/media/doohinvaders.jpg)
 
 Cheil, Samsung's Marketing arm, used PlayCanvas to launch their Rugby World Cup game on the giant Samsung screen in Piccadilly Circus.
 

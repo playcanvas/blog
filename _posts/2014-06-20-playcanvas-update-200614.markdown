@@ -17,13 +17,13 @@ categories:
 
 You can now view your scene from any Entity that has a camera component in your scene. Either right-click in the 3D view and select the camera you want from there, or alternatively do it from this new combo box (below). You can also move the selected camera wherever you want using the normal camera controls in the Designer.
 
-[![Cam combo](/assets/media/Cam-combo.jpg)](/assets/media/Cam-combo.jpg)
+[![Camera Select](/assets/media/designer-camera-select.jpg)](/assets/media/designer-camera-select.jpg)
 
 ### Entity Context Menu
 
 We added a new Entity context menu that appears when you right-click on an Entity in the 3D view. From there you can see all the parent Entities of the selected Entity up to the root and you can select a parent Entity easily. You can also see more options for Entities like Delete, Add Component, etc.
 
-[![Entity context](/assets/media/Entity-context.jpg)](/assets/media/Entity-context.jpg)
+[![Entity context](/assets/media/designer-entity-context-menu.jpg)](/assets/media/designer-entity-context-menu.jpg)
 
 ### Error Console
 

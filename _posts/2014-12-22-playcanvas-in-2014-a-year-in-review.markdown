@@ -65,7 +65,7 @@ Hard to remember a time before we had Material Editing. This year we deploy the 
 
 Way back in March we unveiled SWOOOP, an endless flying game created by 2 team members in 4 weeks. This is our flagship game showing the capabilities of WebGL, but following our new PBR feature the sky really is the limit with PlayCanvas.
 
-[![SWOOOP in Designer](/assets/media/designer_blog.png)](/assets/media/designer_blog.png)
+[![SWOOOP in Designer](/assets/media/designer-swooop.png)](/assets/media/designer-swooop.png)
 <br>_The SWOOOP project is open to everyone_
 
 **TANX**
