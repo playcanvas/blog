@@ -33,7 +33,8 @@ We have also visualized experiences for hotel safes, medical instruments and lab
 
 [Our core business is real-time 3D](https://www.animech.com/en/articles/3d-rendering-in-realtime). We push the boundaries every day trying to invent new ways of using 3D, where our solution makes the difference.
 
-[Bathroom Planner](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/) for Iconic Nordic Rooms
+{% include video.html src="/assets/media/animech-bathroom.mp4" %}
+_[Bathroom Planner](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/) for Iconic Nordic Rooms_
 
 ### **Why did Animech choose PlayCanvas?**
 
@@ -104,6 +105,8 @@ Next phase would be to configure and change your 3D model directly in AR-mode wh
 As the graphics quality gets better and better online and the fashion industry keeps on digitizing their customer journey, AR will probably be the best and easiest way of trying on fashion products like bags, watches, jewelry and clothes. It will reduce faulty orders on a massive scale if you can do a virtual fitting before buying stuff online.
 
 Animech helps our customers to get what they want. Simply put: we empower people to make smart decisions through intelligent visualization.
+
+{% include video.html src="/assets/media/animech-cytiva.mp4" %}
 
 ### **Thank you, Staffan! Is there anything else you'd like to share?**
 
