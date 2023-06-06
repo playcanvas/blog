@@ -38,7 +38,7 @@ This was our starting point before we added game juice. While the game is fully 
 
 However, with the right attention to detail and some careful implementation of game juice, we can transform this basic Asteroids game into something much more exciting and satisfying to play.
 
-## **What can we improve?**
+## What can we improve?
 
 To think about what should have game juice, I always try to narrow down the most common interaction or core mechanic of the game. In our case, that would probably be:
 
@@ -48,7 +48,7 @@ To think about what should have game juice, I always try to narrow down the most
 
 With those three key pieces in mind, let's start thinking about how we can improve them.
 
-## **For shooting**
+## For shooting
 
 It's not very interesting right now:
 
@@ -110,7 +110,7 @@ As another touch, let's add a few sparkles when our shots hit something! The ext
 
 Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull asteroids. Let's make a few changes.
 
-## **Destroying Asteroids**
+## Destroying Asteroids
 
 Firstly, we want our asteroids to stand out from our background. Let's change the background texture to something a bit brighter.
 
@@ -283,7 +283,7 @@ Here's the end result with all of our asteroid changes:
 
 It looks amazingly better! Already a massive difference from our starting point.
 
-## **Colliding With Asteroids**
+## Colliding With Asteroids
 
 The last piece of the puzzle is when asteroids hit us! It needs to feel impactful! As if you were in a car, and the car just went over a bump.
 
@@ -362,7 +362,7 @@ The combined effects look like this:
 
 You'll notice I've added screen shake to more than just the player getting hit! I'm a big fan of this effect, so I've added it to asteroid explosions and firing bullets as well!
 
-## **And that about does it!**
+## And that about does it!
 
 With the effects we added above, the game looks and plays entirely different. Destroying asteroids **feels** good, and everything else in the game is there to enhance that experience.
 
@@ -374,7 +374,7 @@ I hope this guide has been useful to you! Take a look at the project, it is publ
 
 PlayCanvas is an excellent cloud-based game engine that allows you to build games for the browser. It has an amazing editor that allows you to use it as if it were Unity or Unreal - which most developers are accustomed to.
 
-## **Want to learn more?**
+## Want to learn more?
 
 Here's a few resources if you want to try and make something similar to juice up your game!
 

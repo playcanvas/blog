@@ -21,7 +21,7 @@ Welcome to the second installment of Developer Spotlight! A series of blog artic
 
 Today we are excited to be joined by Frantz Lasorne, co-founder of [Visionaries777](https://www.vz777.com/).
 
-### **Hi! Let's get started. Firstly, welcome to the developer spotlight! Frantz, if you could just tell me a little bit about yourself and your team and your studio.**
+**Hi! Let's get started. Firstly, welcome to the developer spotlight! Frantz, if you could just tell me a little bit about yourself and your team and your studio.**
 
 My name is Frantz and I'm the co-founder of Visionaries777. Actually, we [founders] are three. We started as two French guys. We studied together in France; Interaction Design, and then we created this company about 10 years ago in Hong Kong.
 
@@ -35,7 +35,7 @@ Nowadays, the things we work on are more industrial-focused; automotive or luxur
 
 {% include youtube.html id="NnoiJA7UCiY" %}
 
-### **Thank you! I'm curious, why did Visionaries777 choose PlayCanvas?**
+**Thank you! I'm curious, why did Visionaries777 choose PlayCanvas?**
 
 Before, we always used Unity 3D for any 3D real time project, because they have a huge compatibility of hardware platforms. It's quite nice. The only platform they are lacking is the web.
 
@@ -45,7 +45,7 @@ So far we've been really happy with all the engine capabilities, the loading, ho
 
 [![Husqvarna](/assets/media/v777-husqvarna.jpg)](/assets/media/v777-husqvarna.jpg)
 
-### **Awesome! So, were there any initial challenges that you guys faced? How did you guys end up overcoming them?**
+**Awesome! So, were there any initial challenges that you guys faced? How did you guys end up overcoming them?**
 
 In terms of challenges? I think mostly the model optimizations; how to get the WebGL experience as small as possible, but retaining maximum visual quality. Most of our clients are either automotive brands or luxury brands, so they are concerned about the product that you are looking at on the screen. It's pointless to show a product that you can see the rough edges of. They won't like it in the end.
 
@@ -55,7 +55,7 @@ Right now, with our current approach and the tools in our pipeline, we’re quit
 
 [![Watch](/assets/media/v777-watch.jpg)](/assets/media/v777-watch.jpg)
 
-### **That's very interesting. Visionaries777 has worked on several Web AR experiences. Can you tell me how important you think Web AR is today?**
+**That's very interesting. Visionaries777 has worked on several Web AR experiences. Can you tell me how important you think Web AR is today?**
 
 It's very important - but we are back to the same problem that we had in the early 2010s, when we relied on markers for tracking. Now with where we are in WebAR we are still very limited. You need something like an image marker, or a floor with a world target, but it's not as stable as if you use AR Kit or AR Core in a native Unity app.
 
@@ -67,7 +67,7 @@ These sorts of experiences were fine 10 years ago on an iPhone, but now people h
 
 [![BMW](/assets/media/v777-bmw.jpg)](/assets/media/v777-bmw.jpg)
 
-### **Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences?**
+**Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences?**
 
 Augmented reality has always been exciting for brands to show a product in 3D and also integrate it into [customers’] homes or their driveway. It’s quite appealing for a brand, marketing-wise. Then, for consumers, it's something new, it's fun. You get closer to the product.
 
@@ -81,7 +81,7 @@ eCommerce in a more immersive way is really the next generation for eCommerce ex
 
 {% include youtube.html id="eGx9gFHWu_4" %}
 
-### **When you're building your Web AR experiences, what features does PlayCanvas provide that you think were most helpful?**
+**When you're building your Web AR experiences, what features does PlayCanvas provide that you think were most helpful?**
 
 I think the true value of PlayCanvas is really how they are keeping up to date with all the WebGL standards, improving materials, improving compression, improving loading and so on. And their UI is very easy to use.
 
@@ -89,7 +89,7 @@ When you import your model, it gets converted to the GLB format. It makes it mor
 
 On the programming side, it's just JavaScript. You can do whatever you want. It doesn't have any preset for you aside from an orbit camera, but that's not really important. Anyone can build more.
 
-### **Cool! So, how would you say that building an HTML5 or a WebGL experience differs from developing a native experience or a native application?**
+**Cool! So, how would you say that building an HTML5 or a WebGL experience differs from developing a native experience or a native application?**
 
 You have to always concern yourself with the loading. In some cases, when you develop a web experience, you have to load something quickly for the user to play with right away. Then the model and the rest gets loaded progressively afterwards. Let's say you have a car and this car has variants with different wheels, roofs, and so on. All these elements need to be loaded, but you shouldn't load everything at once. Otherwise, the download would be huge.
 
@@ -97,17 +97,17 @@ I think that's one of the main differences compared to designing a native applic
 
 Those are questions that are quite different from a standalone application where you don't need to concern yourself about the surroundings of the app.
 
-### **So next up; we went a bit over this in one of the previous questions I asked. You explained how you guys use some of the features of the editor, but is there any feature PlayCanvas provides that is the team's favorite?**
+**So next up; we went a bit over this in one of the previous questions I asked. You explained how you guys use some of the features of the editor, but is there any feature PlayCanvas provides that is the team's favorite?**
 
 To me it's more that we can collaborate. The collaboration aspect of PlayCanvas is quite nice because you have one project and anyone can access it from their desktop machine on the web.
 
 And you can, as an artist, populate the scene with the assets. Then, the developer can work with it. In parallel. And you can have someone to check things, maybe not edit anything, but do quality control. The collaboration aspect is one of the best features I would say that makes [PlayCanvas] so nice to work with.
 
-### **As part of the interview, but also as a feedback exercise, what is a PlayCanvas feature that would be at the top of your wishlist?**
+**As part of the interview, but also as a feedback exercise, what is a PlayCanvas feature that would be at the top of your wishlist?**
 
 It would be great if the PlayCanvas editor had a feature to assign different texture resolutions for different platforms (mobile or desktop), similarly to how Unity does it for different devices. It would make it so much easier to manage rather than doing it with code and tagging etc.
 
-### **Thanks for sharing the feedback! Going back to another question, how do you see HTML5 and web experiences evolving over the next few years?**
+**Thanks for sharing the feedback! Going back to another question, how do you see HTML5 and web experiences evolving over the next few years?**
 
 I think it will grow. We see two things at the moment, WebGL experiences and cloud streaming, which is not HTML or WebGL at all. Some brands will choose either doing a WebGL configurator, or a cloud streaming configurator. Those are two different approaches. I have a tendency to prefer WebGL because you have a much more crisp image.
 
@@ -121,7 +121,7 @@ Either way, I believe that in the end, it's very important for brands to start d
 
 I think there's lots of opportunities, and as 5G expands, compression format algorithms get more efficient, things are going to be smaller and we'll be able to build richer experiences on the web. I think there's a long positive future, and cloud streaming is not necessarily going to replace it.
 
-### **Thank you! Those were all the questions I had. Thank you for your time, Frantz! Is there anything that you would like to promote, a website, a Twitter handle, or a job opening that you would like to share?**
+**Thank you! Those were all the questions I had. Thank you for your time, Frantz! Is there anything that you would like to promote, a website, a Twitter handle, or a job opening that you would like to share?**
 
 We have a website purely focused on product configurators, utilizing WebAR: [https://vzion.vz777.com/](https://urldefense.proofpoint.com/v2/url?u=https-3A__vzion.vz777.com_&d=DwMFaQ&c=ncDTmphkJTvjIDPh0hpF_4vCHvabgGkICC2epckfdiw&r=--LiNgtoHfPjPnEKFLeJr9qV3N1vxgN4hWV_E42dYVM&m=4HZIRF6gtBKtqaTzmjaHNw4pPJapodEg3V3LBHK9-GNaqmOuut91GXnHWxe2Fgtl&s=htV-gbUikESO1vAeS_POhpq9Oa1cn3ZvTVyvWl8IdJ8&e=)
 
