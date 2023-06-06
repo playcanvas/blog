@@ -52,7 +52,7 @@ With those three key pieces in mind, let's start thinking about how we can impro
 
 It's not very interesting right now:
 
-![](https://lh4.googleusercontent.com/bgEAG1VXuqynZ1Ue-7750Ql3-1_j2zPzmPP6CtaJyfTwTMa4EgLgzxYjnq3iOMcFpVr9ByyajcLJakKeFDsG_h4PTyQRCJpfhmQEsHTxyjJ3UIkDmG_guZMULKXRM17_mI1TtZ093y-537d-Rr8M6JFS3DEzGuJARmJDexQ4F9Hc4L7zbCgmcLnO_8vNrQ)
+![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.mp4)
 
 If we want to change that, there's a few key things we can do. We can increase the fire rate through a script that allows us to easily control by decreasing the fire cooldown.
 
@@ -92,7 +92,7 @@ Gun.prototype.applySpreadOn = function (bullet) {
 
 A simple but impactful change! Here's how it looks with values I put in for some fun:
 
-![](https://lh3.googleusercontent.com/Yq1F42cENdh5WVoGdQ_36N4g7C-tgMshUcWijuweKeT_h5TMg5u8GSoIBFDQSec6xnCXPXAbvpaCcoj9k0_rWS4fo96uO_2TGU87dJ1StNAvJR_-L2CcA0zQu_qUsjhTEwuxK9nHAyo4EjN1jH8cvw4ffEasaMwJXMC872k1bbru6Bpt3NI8laPlEVCSww)
+![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.png)
 
 I highly encourage you to play with these values to see what's fun for you!
 
@@ -106,7 +106,7 @@ We can actually leverage this amazing tech to give every single one of our bulle
 
 As another touch, let's add a few sparkles when our shots hit something! The extra visual effect will make a big difference instead of just letting our bullets disappear. Particle explosions are always awesome.
 
-![](https://lh3.googleusercontent.com/ErEjjjWZ814aSfN-_wZMjWwp-qos-gltoiJVoLFypAaj0A0K1eDHW9OEj-nDLNNtijcGRmhUZKUkvZY33O_HOV1g9rtwuaf0geL3FVcKCBS4jAf531xur2H1tDa45epXn9HKpivYdMBU6Z5F-QavpRmAOxqVHyXZRVAkAlXbRRZc4UNUUt_N4EC7uY58jA)
+![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.png)
 
 Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull asteroids. Let's make a few changes.
 
@@ -114,13 +114,13 @@ Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull
 
 Firstly, we want our asteroids to stand out from our background. Let's change the background texture to something a bit brighter.
 
-![](https://lh3.googleusercontent.com/tmUAG1Vf5Lc8kQ8LLqFCDfMAdg9WcrczQythslmUmw5i1nHxRmoAzgaJR6cR-VdjzRBoFIhKZrHzuSaZwQ5q82fYCoWzaudVMPtSoiRSVAHhAI5oDTfxEsV1Thydy3j_4er8y2rVj09z-pJLmicASMaTTiGMSWNvrwFDbNwLoEZMDB2gNHPPpgOKo0aSKA)
+![](/assets/media/MakeYourHTML5GamesAwesome-2.png)
 
 Much better! But can we make the asteroids themselves prettier? They're currently mapped with a fairly low resolution texture. Moreover, there's no variety - all asteroids are the same, only rotated differently.
 
 Let's import a new mesh and texture for the asteroids.
 
-![](https://lh4.googleusercontent.com/Q8vPl4E8sIW1Vnj91aqrq0yM0HJxZ76HeX_RW-a6dNhgwu3P57CLKiI9_Xl-rWj2HG4MZ7tHPAqQ9pFS1IDBAJiYlCIjoJnJBgf9ySMKZEsxT2scDKvdalN4earTCcemO1D3DfCnqVxPbJnHLsB0boBm9FXT1RDXYUcgQqEC-EPDst_X3JNxYRFi6sZjBA)
+![](/assets/media/MakeYourHTML5GamesAwesome-3.png)
 
 Nice! Much more visible, and much more variety - I should note I went ahead and added a simple component that further randomizes the scale of the asteroids being spawned!
 
@@ -164,7 +164,7 @@ Let's implement these ideas!
 
 For the background asteroids, I simply reused our asteroid spawner class, but moved the spawn points a bit below.
 
-![](https://lh5.googleusercontent.com/nSIDgrLiL-Pnw3b0QQNmCfDm0yFsSf9Thl1ADUiaptPLXCTh0NvUWKxRprTCGjmWB0kerXUs3QkVyWKyXeBovVexge88Ed6tdDtsnR7cmLynLOBzq0dfxH90i7yXfdnUvp3YKK-IR91_ZvM2rl9UxtCVB3F6KkGCiU4GXwVllakiFT7xCWMeF6eam4_4sA)
+![](/assets/media/MakeYourHTML5GamesAwesome-4.png)
 
 To make it as non-impactful on performance as possible, I duplicated our template, renamed it to FakeAsteroid and removed all components, except the Mover and Rotator components.
 
@@ -291,7 +291,7 @@ We'll want to communicate it a bit better. Right now, all that happens is that t
 
 I downloaded the model for our spaceship, and made a top-down render of it in Blender. The result was a simple plain icon:
 
-![](https://lh5.googleusercontent.com/PaTpxotjpjDVcgvz5NnYgDpsJIkHxKGOWqk-4wGVbH72wTRrQT7I5hN0qIdt7bdVJ-U_TiaU7hCXVSzqPEQOe5TDu7RMY01UvP0kDpplASOFymJVzszZ6xNfdvGjRWV0wrRs9LgYztx-XG0M3Rm4BqkO7qYdOicCXbwABbtNCZOc9YYFWhRuwXIugljGuw)
+![](/assets/media/MakeYourHTML5GamesAwesome-6.png)
 
 Plain, but enough to make a health counter with. Let's make it semi transparent and add it to the world. Our health counter will display from one to three of these icons to indicate how much life we've got left.
 
@@ -299,7 +299,7 @@ To give it some more juice, let's also make it ‘jump up’ when our health cha
 
 And, since using components makes it easy, let's do the same to our score counter:
 
-![](https://lh5.googleusercontent.com/FdDfBsPBtOeve0SK02zrmUMkL0YnZWWrkVYLxw09Mo32BdR1X2QklA_qA_4x7XQ49JmvGVS5XERIjzjZuelcuyGeE6aEf-oU9p5lqsLuRo_9nPbI5HvSp3YINRjrFnpW35x09tTFgxAul6ZEq_MQ19-S-lKozlCkD0ejqxyMQ1CMi5qFZmiHagLR7DPXFw)
+![](/assets/media/MakeYourHTML5GamesAwesome-7.png)
 
 Much simpler, and much nicer!
 
@@ -366,7 +366,7 @@ You'll notice I've added screen shake to more than just the player getting hit! 
 
 With the effects we added above, the game looks and plays entirely different. Destroying asteroids **feels** good, and everything else in the game is there to enhance that experience.
 
-![](https://lh3.googleusercontent.com/r65a_iGHN9qoFyU11Y2rEm4rSWi-4JgKeYiiwjJLMScwKQ3twmg23ruSLxzRG6nJejZ90MNbVsIdr3EiJpfH_CeJkXGQ8bEb20zgSthed7LyDa9nMyGCiCHZLflkrCVCdLyxBHnGG133YR0p1RjFMToceGXFxBNjRFJ0wFQROasiQ6wD-7gQ4EQYleDe9w)
+![](/assets/media/MakeYourHTML5GamesAwesome-9.png)
 
 As a last finishing touch, I went ahead and added a few post-processing effects that PlayCanvas offers. Namely, Vignette, Bloom and Chromatic Aberration. I also added CRT Scanlines as an overlay for a retro effect.
 
