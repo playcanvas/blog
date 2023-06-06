@@ -16,6 +16,8 @@ tags:
   - webgl
 ---
 
+![](/assets/media/Space-Rocks-thumbnail.jpeg)
+
 The quality of a video game is often determined by how polished it is. It's the attention to detail and the finishing touches that can make a good game great. In this article, we'll take a look at the importance of polish in game development and how it can significantly enhance the overall experience.
 
 We'll use [Space Rocks!](https://playcanvas.com/project/1029772/overview/space-rocks), a simple Asteroids game created with the PlayCanvas game engine to showcase how even the smallest details can make a big impact.
@@ -52,7 +54,7 @@ With those three key pieces in mind, let's start thinking about how we can impro
 
 It's not very interesting right now:
 
-![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.mp4)
+![](/assets/media/Space-Rocks-image9.gif)
 
 If we want to change that, there's a few key things we can do. We can increase the fire rate through a script that allows us to easily control by decreasing the fire cooldown.
 
@@ -92,7 +94,7 @@ Gun.prototype.applySpreadOn = function (bullet) {
 
 A simple but impactful change! Here's how it looks with values I put in for some fun:
 
-![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.png)
+![](/assets/media/Space-Rocks-image7.gif)
 
 I highly encourage you to play with these values to see what's fun for you!
 
@@ -106,7 +108,7 @@ We can actually leverage this amazing tech to give every single one of our bulle
 
 As another touch, let's add a few sparkles when our shots hit something! The extra visual effect will make a big difference instead of just letting our bullets disappear. Particle explosions are always awesome.
 
-![](/assets/media/MakeYourHTML5GamesAwesome-Not-Found.png)
+![](/assets/media/Space-Rocks-image3.gif)
 
 Awesome! Our bullets look pretty nice. But we’re still shooting at fairly dull asteroids. Let's make a few changes.
 
