@@ -33,7 +33,7 @@ Your feedback is what makes PlayCanvas great.
 Go check out users [roseninja](https://playcanvas.com/user/roseninja), [jellycakes](https://playcanvas.com/user/jellycakes), [wilbefast](https://playcanvas.com/user/wilbefast), [nebulousflynn](https://playcanvas.com/user/nebulousflynn) and [balkango](https://playcanvas.com/user/balkango) who were all building games yesterday. It's early days for [Flying robots of Death](https://playcanvas.com/project/1322/overview/test) and [Squeaky Wheel](https://playcanvas.com/project/1326/overview/blah), but terrific work for an afternoon of coding and modelling.
 
 [![Concentration](/assets/media/concentration.jpg)](/assets/media/concentration.jpg)
-<br>_wilbefast contentrating on make robots kill each other_
+<br>_wilbefast concentrating on make robots kill each other_
 
 We've got more Game Jams coming up. Will is at [onGameStart](http://ongamestart.com) in Poland next week.
 
