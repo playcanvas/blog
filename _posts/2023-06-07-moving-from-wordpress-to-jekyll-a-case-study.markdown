@@ -81,7 +81,7 @@ Every WordPress blog has a Media Library that contains all of the images and vid
 - **Step 1:** Install WordPress plugin [Media Cleaner](https://wordpress.org/plugins/media-cleaner/) and use it to delete unused media files.
 - **Step 2:** Install WordPress plugin [Export Media Library](https://wordpress.org/plugins/export-media-library/) to download all remaining media files in a ZIP.
 
-This process cut the Media Library from 1GB to about 550MB. I simply extracted the zip contents to `assets/media` (relative to the root folder of my Jekyll site) and then did a search and replace of all media embed links to use the new file location. Easy!
+This process cut the Media Library from 1GB to about 550MB. I simply extracted the ZIP contents to `assets/media` (relative to the root folder of my Jekyll site) and then did a search and replace of all media embed links to use the new file location. Easy!
 
 ### Hosting on GitHub Pages
 
