@@ -16,7 +16,7 @@ tags:
   - Virtual Reality
 ---
 
-**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](http://www.oculusvr.com/) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.**
+**On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](https://en.wikipedia.org/wiki/Reality_Labs) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.**
 
 [![playcanvas oculus1](/assets/media/playcanvas-oculus1.jpg)](/assets/media/playcanvas-oculus1.jpg)
 
