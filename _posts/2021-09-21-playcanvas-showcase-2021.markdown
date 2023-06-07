@@ -35,12 +35,12 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Ready Set Golf](https://pikpok.com/) by PikPok
 - [Tank Royale](https://tankroyale.io/) by DevMidgard
 - [Allyracer](https://www.allyracer.com/) by MKTG for Ally
-- [Aquapark](https://www.voodoo.io/) by Voodoo
+- Aquapark by [Voodoo](https://www.voodoo.io/)
 - [Color Together](https://fundayfactory.com/games/color-together/) by Funday Factory
 - [Seemore](https://playcanvas.com/project/612100/overview/seemore) by PlayCanvas
 - [Cyber City](https://vz777.com/cybercity/index.html) by Visionaries 777
 - [Sugar Slam](https://www.mightykingdom.com/) by Mighty Kingdom
-- [Super Snappy Bowling](https://www.nowwa.com/) by Nowwa
+- Super Snappy Bowling by [NOWWA](https://www.supersnappy.io/)
 - [Pirron Island](https://playcanv.as/p/NHA6X1lI/) by Pirron 1
 - [Neon Bubblegum](https://www.rtz23.de/) by Karsten Weil
 
