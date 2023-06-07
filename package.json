@@ -29,7 +29,8 @@
     "build": "bundle exec jekyll build",
     "develop": "bundle exec jekyll serve",
     "prettier": "prettier --write _posts",
-    "test": "npm run build && npm run test:links",
-    "test:links": "linkinator . --server-root _site --recurse --skip \"facebook.com\" --skip \"twitter.com\" --verbosity error"
+    "test": "npm run build && npm run links:local",
+    "links:prod": "linkinator https://blog.playcanvas.com/ --recurse --skip \"facebook.com\" --skip \"linkedin.com\" --skip \"twitter.com\" --verbosity error",
+    "links:local": "linkinator . --server-root _site --recurse --skip \"facebook.com\" --skip \"linkedin.com\" --skip \"twitter.com\" --verbosity error"
   }
 }
