@@ -39,7 +39,7 @@ Probably firing laser beams from its eyeballs at passing games consoles througho
 
 **Describe one interesting thing about yourself?**
 
-When I was 17, I represented Ireland in Basketball for a number of years! _(Editor note: Kevin and [Vaios](https://blog.playcanvas.com/meet-the-playcanvas-team-vaios-kalpias-illias-2/)’ ‘mano e mano’ Shoot-out is coming to a court near you)_
+When I was 17, I represented Ireland in Basketball for a number of years! _(Editor note: Kevin and [Vaios](https://blog.playcanvas.com/meet-the-playcanvas-team-vaios-kalpias-illias/)’ ‘mano e mano’ Shoot-out is coming to a court near you)_
 
 The Quick Fire round (this is where things get a little interesting)
 
