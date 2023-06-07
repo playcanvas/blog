@@ -17,7 +17,7 @@ tags:
 
 Welcome to the new PlayCanvas blog! 😎
 
-We have made to decision to move from WordPress to Jekyll and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons for why we did this and cover the process to make it happen.
+We have made the decision to move from WordPress to [Jekyll](https://jekyllrb.com/) and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons why we did this and cover the process to make it happen.
 
 ### Some History
 
@@ -44,13 +44,13 @@ First up, I should say that you should make use of ChatGPT when you attempt some
   - You can run your site locally to see how it looks by using the command `bundle exec jekyll serve`.
   - Then, open your browser to http://localhost:4000.
 
-Once I had our blog post content successfully exported to a basic Jekyll site, I checked everything into to a new [GitHub repository](https://github.com/playcanvas/blog). From this point, I wanted any changed I made to the content to be tracked via Git version control - I mean, why wouldn't you?
+Once I had our blog post content successfully exported to a basic Jekyll site, I checked everything in to a new [GitHub repository](https://github.com/playcanvas/blog). From this point, I wanted any change I made to the content to be tracked via Git version control - I mean, why wouldn't you?
 
-The initial migration to Markdown worked OK but it wasn't perfect. The was a lot of superfluous whitespace in the generated Markdown and syntax was broken in places. So I took the opportunity to do a wholesale spring clean of the Markdown content.
+The initial migration to Markdown worked OK but it wasn't perfect. There was a lot of superfluous whitespace in the generated Markdown and syntax was broken in places. So I took the opportunity to do a wholesale spring clean of the Markdown content.
 
 #### Prettier
 
-[Prettier](https://prettier.io/) is a great code formatter but you may not have known that it has built-in support for Markdown formatting too. I installed Prettier via NPM and ran it over all Markdown files:
+[Prettier](https://prettier.io/) is a great code formatter but you may not know that it also has built-in support for Markdown formatting. I installed Prettier via NPM and ran it over all Markdown files:
 
 ```shell
 prettier --write _posts
@@ -66,7 +66,7 @@ All formatting was now beautifully consistent.
 linkinator . --server-root _site --recurse --verbosity error
 ```
 
-I fixed well over 100 dead links. The older the post, the more dead links there tended to be (as you might expect). While I was always able to use Linkinator on the published Wordpress site, it was never convenient to skip from post to post and edit hyperlinks in the WordPress UI. So I never made the time for it. Now I was able to quickly search and replace links in Visual Studio Code and it was a breeze.
+I fixed well over 100 dead links. The older the post, the more dead links there tended to be (as you might expect). While I was always able to use Linkinator on the published Wordpress site, it was never convenient to skip from post to post and edit hyperlinks in the WordPress UI (we have over 220 posts). So I never made the time for it. Now I was able to quickly search and replace links in Visual Studio Code and it was a breeze.
 
 Aside from giving your readers a better experience, here's what ChatGPT has to say about dead links:
 
@@ -81,11 +81,11 @@ Every WordPress blog has a Media Library that contains all of the images and vid
 - **Step 1:** Install WordPress plugin [Media Cleaner](https://wordpress.org/plugins/media-cleaner/) and use it to delete unused media files.
 - **Step 2:** Install WordPress plugin [Export Media Library](https://wordpress.org/plugins/export-media-library/) to download all remaining media files in a ZIP.
 
-I simply extracted the zip contents to `assets/media` (relative to the root folder of my Jekyll site) and then did a search and replace of all media embed links to use the new file location. Easy!
+This process cut the Media Library from 1GB to about 550MB. I simply extracted the zip contents to `assets/media` (relative to the root folder of my Jekyll site) and then did a search and replace of all media embed links to use the new file location. Easy!
 
 ### Hosting on GitHub Pages
 
-I now had a fully exported and functional Jekyll blog. But where to host it. One option was to throw the static site onto a file server and put it behind a CDN. But wait, the file-set of the Jekyll blog now sits in GitHub, so why not use [GitHub Pages](https://pages.github.com/) to host the site? There are some great benefits:
+I now had a fully exported and functional Jekyll blog. But where to host it? One option was to throw the static site onto a file server and put it behind a CDN. But wait, the file-set of the Jekyll blog now sits in GitHub, so why not use [GitHub Pages](https://pages.github.com/) to host the site? There are some great benefits:
 
 - Deployment is a breeze to set up.
 - It's a managed platform so you just don't need to worry about maintenance and security as you would with your own infra.
@@ -97,13 +97,14 @@ So now that we're migrated over, let's quickly summarize the key benefits:
 
 - Costs for our blog are now a big, fat $0.
 - We have eliminated a potential security vulnerability associated with our public WordPress instance.
-- We can run automation tools over our Markdown to format it, correct spelling mistakes, fix links and so on.
+- We can run automation tools over our Markdown to format it, correct spelling mistakes, fix links, etc.
 - We can easily manipulate Markdown with a modern editing environment such as Visual Studio Code.
+- All content is now under version control providing revision history, diffing and so on.
 - We can take contributions to the blog via GitHub's pull request mechanism.
 - We have fine-grain control over the HTML and styling of posts using Jekyll themes.
 - Now that the posts are stored in generic Markdown, we can easily migrate to other blogging platforms in the future (should we wish to do so).
 
-OK, but what about the cons? I have to tell you - I genuinely can't think of any! Seriously, feel free to ping me on Twitter if you think I'm missing something here. But I wish we had taken this step years ago.
+OK, but what about the cons? 🤔 I have to tell you - I genuinely can't think of any! Seriously, feel free to ping me on [Twitter](https://twitter.com/willeastcott/) if you think I'm missing something here. But I wish we had taken this step years ago.
 
 ### Open Source and Open to Contributions
 
