@@ -1,9 +1,9 @@
 ---
 author: will
 comments: false
-date: 2023-06-07 15:27:00+00:00
+date: 2023-06-07 14:27:00+00:00
 layout: post
-link: https://blog.playcanvas.com/announcing-the-new-playcanvas-asset-store/
+link: https://blog.playcanvas.com/wordpress-to-jekyll-a-case-study/
 slug: wordpress-to-jekyll-a-case-study
 title: Moving from WordPress to Jekyll - A Case Study
 categories:
@@ -15,7 +15,9 @@ tags:
   - github
 ---
 
-Welcome to the new PlayCanvas blog! We have made to decision to move from WordPress to Jekyll and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons for why we did this and cover the process to make it happen.
+Welcome to the new PlayCanvas blog! 😎
+
+We have made to decision to move from WordPress to Jekyll and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons for why we did this and cover the process to make it happen.
 
 ### Some History
 
