@@ -17,7 +17,9 @@ tags:
 
 Welcome to the new PlayCanvas blog! 😎
 
-We have made the decision to move from WordPress to [Jekyll](https://jekyllrb.com/) and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons why we did this and cover the process to make it happen.
+![PlayCanvas To Jekyll](/assets/media/playcanvas-to-jekyll.png)
+
+We have made the decision to move from WordPress to [Jekyll](https://jekyllrb.com/) and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons why we did this and describe the process we followed.
 
 ### Some History
 
