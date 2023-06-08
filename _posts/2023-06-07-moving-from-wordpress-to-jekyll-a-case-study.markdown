@@ -97,14 +97,14 @@ I now had a fully exported and functional Jekyll blog. But where to host it? One
 
 So now that we're migrated over, let's quickly summarize the key benefits:
 
-- Costs for our blog are now a big, fat $0.
-- We have eliminated a potential security vulnerability associated with our public WordPress instance.
-- We can run automation tools over our Markdown to format it, correct spelling mistakes, fix links, etc.
-- We can easily manipulate Markdown with a modern editing environment such as Visual Studio Code.
-- All content is now under version control providing revision history, diffing and so on.
-- We can take contributions to the blog via GitHub's pull request mechanism.
-- We have fine-grain control over the HTML and styling of posts using Jekyll themes.
-- Now that the posts are stored in generic Markdown, we can easily migrate to other blogging platforms in the future (should we wish to do so).
+- **Free:** Costs for our blog are now a pleasing $0.
+- **Secure:** We have eliminated a potential attack vector. No more password reset confirmation emails!
+- **Powerful Tooling:** There's a vast array of free and open source tools to lint and format Markdown.
+- **Easy Editing:** Choose any editor you like such as the awesome Visual Studio Code.
+- **Versioned:** All content is now under version control providing revision history, diffing and so on.
+- **Collaborative:** We can take contributions to the blog via GitHub's pull request mechanism.
+- **Customizable:** We have fine-grain control over the HTML and styling of posts using Jekyll themes.
+- **Platform Agnostic:** Markdown makes it trivial to migrate to any other platform in the future.
 
 OK, but what about the cons? 🤔 I have to tell you - I genuinely can't think of any! Sure, we don't have comments enabled now but as I understand it, Disqus has a [Jekyll integration](https://help.disqus.com/en/articles/1935528-jekyll-installation-instructions) that we can turn on at some point. Seriously, feel free to ping me on [Twitter](https://twitter.com/willeastcott/) if you think I'm missing something here. But I wish we had taken this step years ago.
 
