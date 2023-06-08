@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/organizations-new-plans/
 slug: organizations-new-plans
 title: Organizations & new plans
-wordpress_id: 2384
 categories:
   - Announcement
   - Features

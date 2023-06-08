@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/import-full-model-hierarchy-into-playcanvas/
 slug: import-full-model-hierarchy-into-playcanvas
 title: Import full model hierarchy into PlayCanvas
-wordpress_id: 2737
 categories:
   - Announcement
   - Features

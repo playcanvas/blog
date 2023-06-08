@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-we-challenge-you-to-a-jewel/
 slug: playhack-we-challenge-you-to-a-jewel
 title: PLAYHACK - We challenge you to a jewel!
-wordpress_id: 1972
 categories:
   - PLAYHACK
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/mozilla-launches-webgl-2-with-playcanvas/
 slug: mozilla-launches-webgl-2-with-playcanvas
 title: Mozilla Launches WebGL 2 with PlayCanvas
-wordpress_id: 2514
 categories:
   - News
 ---

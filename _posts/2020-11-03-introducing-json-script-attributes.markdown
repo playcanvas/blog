@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introducing-json-script-attributes/
 slug: introducing-json-script-attributes
 title: Introducing JSON Script Attributes
-wordpress_id: 2654
 categories:
   - News
 tags:

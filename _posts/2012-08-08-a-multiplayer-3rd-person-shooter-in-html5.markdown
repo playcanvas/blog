@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/a-multiplayer-3rd-person-shooter-in-html5/
 slug: a-multiplayer-3rd-person-shooter-in-html5
 title: Making a multiplayer 3rd-person shooter in HTML5
-wordpress_id: 378
 categories:
   - News
 tags:

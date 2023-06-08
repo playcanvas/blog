@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/making-an-html5-game-lunar-lander/
 slug: making-an-html5-game-lunar-lander
 title: "Making an HTML5 game: Lunar Lander"
-wordpress_id: 919
 categories:
   - Announcement
   - Tutorial

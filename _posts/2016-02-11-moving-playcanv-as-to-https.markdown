@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/moving-playcanv-as-to-https/
 slug: moving-playcanv-as-to-https
 title: Moving playcanv.as to HTTPS
-wordpress_id: 2311
 categories:
   - Announcement
   - Features

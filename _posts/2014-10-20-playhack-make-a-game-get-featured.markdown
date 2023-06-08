@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-make-a-game-get-featured/
 slug: playhack-make-a-game-get-featured
 title: PLAYHACK - Make a game, get featured
-wordpress_id: 1702
 categories:
   - News
 ---

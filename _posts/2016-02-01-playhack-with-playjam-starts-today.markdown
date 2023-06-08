@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-with-playjam-starts-today/
 slug: playhack-with-playjam-starts-today
 title: PLAYHACK with PlayJam starts today
-wordpress_id: 2302
 categories:
   - News
 ---

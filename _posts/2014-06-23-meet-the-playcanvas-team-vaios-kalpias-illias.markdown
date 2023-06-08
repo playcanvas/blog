@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-vaios-kalpias-illias/
 slug: meet-the-playcanvas-team-vaios-kalpias-illias
 title: "Meet the PlayCanvas team: Vaios Kalpias-Illias"
-wordpress_id: 1419
 categories:
   - News
 tags:

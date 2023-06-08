@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/ios-8-launched-with-webgl/
 slug: ios-8-launched-with-webgl
 title: iOS 8 launched with WebGL
-wordpress_id: 1626
 categories:
   - Announcement
   - News

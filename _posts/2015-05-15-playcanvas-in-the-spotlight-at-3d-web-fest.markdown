@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-in-the-spotlight-at-3d-web-fest/
 slug: playcanvas-in-the-spotlight-at-3d-web-fest
 title: PlayCanvas in the Spotlight at 3D Web Fest
-wordpress_id: 2162
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-feature-update-november-2015/
 slug: playcanvas-feature-update-november-2015
 title: PlayCanvas Feature Update - November 2015
-wordpress_id: 2263
 categories:
   - News
 ---

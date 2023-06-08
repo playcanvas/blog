@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-december-creating-presents/
 slug: playhack-december-creating-presents
 title: PLAYHACK December - Creating Presents
-wordpress_id: 1877
 categories:
   - PLAYHACK
   - Tutorial

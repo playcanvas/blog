@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/moving-to-playcanvas-com/
 slug: moving-to-playcanvas-com
 title: Moving to playcanvas.com
-wordpress_id: 854
 categories:
   - Announcement
   - News

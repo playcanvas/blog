@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/humble-game-making-bundle/
 slug: humble-game-making-bundle
 title: Humble Game Making Bundle
-wordpress_id: 2214
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora/
 slug: porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora
 title: Porting from Unity to PlayCanvas - Developer Spotlight with Christina Kaliora
-wordpress_id: 2833
 categories:
   - Developer Spotlight
 tags:

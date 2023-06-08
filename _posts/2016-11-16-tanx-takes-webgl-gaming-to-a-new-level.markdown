@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/tanx-takes-webgl-gaming-to-a-new-level/
 slug: tanx-takes-webgl-gaming-to-a-new-level
 title: TANX Takes WebGL Gaming to a New Level
-wordpress_id: 2453
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-features-in-the-top-10-html5-games-of-2012/
 slug: playcanvas-features-in-the-top-10-html5-games-of-2012
 title: PlayCanvas features in 'The top 10 HTML5 games of 2012'
-wordpress_id: 613
 categories:
   - News
 tags:

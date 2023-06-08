@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/arm-and-playcanvas-open-source-seemore-webgl-demo%ef%bb%bf/
 slug: arm-and-playcanvas-open-source-seemore-webgl-demo%ef%bb%bf
 title: "Arm and PlayCanvas Open Source Seemore WebGL Demo\uFEFF"
-wordpress_id: 2571
 categories:
   - News
 tags:

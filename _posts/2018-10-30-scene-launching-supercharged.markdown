@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/scene-launching-supercharged/
 slug: scene-launching-supercharged
 title: Scene Launching Supercharged!
-wordpress_id: 2555
 categories:
   - News
 ---

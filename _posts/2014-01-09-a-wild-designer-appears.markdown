@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/a-wild-designer-appears/
 slug: a-wild-designer-appears
 title: A wild designer appears!
-wordpress_id: 1056
 categories:
   - Announcement
   - News

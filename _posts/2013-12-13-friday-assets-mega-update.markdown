@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/friday-assets-mega-update/
 slug: friday-assets-mega-update
 title: Friday Assets mega-update
-wordpress_id: 1030
 categories:
   - Announcement
   - Features

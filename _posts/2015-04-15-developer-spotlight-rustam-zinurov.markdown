@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/developer-spotlight-rustam-zinurov/
 slug: developer-spotlight-rustam-zinurov
 title: "Developer Spotlight: Rustam Zinurov"
-wordpress_id: 2076
 categories:
   - News
 ---

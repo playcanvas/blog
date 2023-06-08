@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/see-your-friends/
 slug: see-your-friends
 title: See Your Friends!
-wordpress_id: 940
 categories:
   - Announcement
   - Features

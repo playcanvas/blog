@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-maksims-mihejevs/
 slug: meet-the-playcanvas-team-maksims-mihejevs
 title: "Meet the PlayCanvas team: Maksims Mihejevs"
-wordpress_id: 1423
 categories:
   - News
 tags:

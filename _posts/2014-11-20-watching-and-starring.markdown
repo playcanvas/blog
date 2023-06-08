@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/watching-and-starring/
 slug: watching-and-starring
 title: Watching and Starring
-wordpress_id: 1791
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-in-2016-webgl-everywhere/
 slug: playcanvas-in-2016-webgl-everywhere
 title: PlayCanvas in 2016 - WebGL Everywhere
-wordpress_id: 2495
 categories:
   - News
 ---

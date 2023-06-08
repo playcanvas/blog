@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/ios-webgl-support/
 slug: ios-webgl-support
 title: iOS WebGL Support
-wordpress_id: 1267
 categories:
   - News
 ---

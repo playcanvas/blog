@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/tutorials-section-expanded/
 slug: tutorials-section-expanded
 title: Tutorials section expanded!
-wordpress_id: 2468
 categories:
   - News
   - Tutorial

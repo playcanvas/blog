@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-teams-with-tizen/
 slug: playcanvas-teams-with-tizen
 title: PlayCanvas Teams with Tizen
-wordpress_id: 1259
 categories:
   - News
 ---

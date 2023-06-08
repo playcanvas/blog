@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-custom-and-built-in-post-effects/
 slug: new-custom-and-built-in-post-effects
 title: New Custom and Built-in Post Effects
-wordpress_id: 1436
 categories:
   - News
 ---

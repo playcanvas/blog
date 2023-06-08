@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/engine-update-streamlining-components-and-scripts/
 slug: engine-update-streamlining-components-and-scripts
 title: "Engine Update: Streamlining Components and Scripts"
-wordpress_id: 1997
 categories:
   - News
 ---

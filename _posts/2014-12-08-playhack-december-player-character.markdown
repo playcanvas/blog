@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-december-player-character/
 slug: playhack-december-player-character
 title: PLAYHACK December - Player Character
-wordpress_id: 1855
 categories:
   - PLAYHACK
   - Tutorial

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-november-camera-types/
 slug: playhack-november-camera-types
 title: PLAYHACK November - Camera types
-wordpress_id: 1734
 categories:
   - PLAYHACK
   - Tutorial

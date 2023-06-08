@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/gltf-import-arrives-in-the-playcanvas-editor/
 slug: gltf-import-arrives-in-the-playcanvas-editor
 title: glTF 2.0 Import Arrives in the PlayCanvas Editor
-wordpress_id: 2981
 categories:
   - News
 ---

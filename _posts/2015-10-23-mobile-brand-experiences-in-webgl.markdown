@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/mobile-brand-experiences-in-webgl/
 slug: mobile-brand-experiences-in-webgl
 title: Mobile Brand Experiences in WebGL
-wordpress_id: 2245
 categories:
   - News
 ---

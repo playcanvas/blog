@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/copy-and-paste-assets-between-projects/
 slug: copy-and-paste-assets-between-projects
 title: Copy and Paste Assets between Projects
-wordpress_id: 2648
 categories:
   - News
 tags:

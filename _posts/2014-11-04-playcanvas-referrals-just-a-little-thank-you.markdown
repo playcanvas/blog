@@ -7,7 +7,6 @@ link: https://blog.playcanvas.com/playcanvas-referrals-just-a-little-thank-you/
 published: false
 slug: playcanvas-referrals-just-a-little-thank-you
 title: "PlayCanvas Referrals: Just a little Thank You"
-wordpress_id: 1748
 categories:
   - News
 ---

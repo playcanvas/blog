@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-in-2015-webgl-goes-mainstream/
 slug: playcanvas-in-2015-webgl-goes-mainstream
 title: PlayCanvas in 2015 - WebGL Goes Mainstream
-wordpress_id: 2275
 categories:
   - News
 ---

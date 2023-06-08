@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/welcome-ludum-darers/
 slug: welcome-ludum-darers
 title: Welcome Ludum Darers
-wordpress_id: 744
 categories:
   - News
 ---

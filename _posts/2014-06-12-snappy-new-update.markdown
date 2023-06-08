@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/snappy-new-update/
 slug: snappy-new-update
 title: Snappy New Update
-wordpress_id: 1307
 categories:
   - Announcement
   - Features

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/london-html5-game-developers/
 slug: london-html5-game-developers
 title: London HTML5 Game Developers
-wordpress_id: 729
 categories:
   - News
 ---

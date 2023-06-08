@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/will-html5-change-the-way-games-are-made/
 slug: will-html5-change-the-way-games-are-made
 title: Will HTML5 change the way games are made?
-wordpress_id: 517
 categories:
   - News
 tags:

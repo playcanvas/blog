@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/feature-update-real-time-asset-support/
 slug: feature-update-real-time-asset-support
 title: "Feature update: Real-time asset support"
-wordpress_id: 2199
 categories:
   - News
 ---

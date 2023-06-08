@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/tanx-lives-popular-webgl-online-game-returns/
 slug: tanx-lives-popular-webgl-online-game-returns
 title: TANX lives! Popular WebGL online game returns
-wordpress_id: 2585
 categories:
   - Announcement
   - News

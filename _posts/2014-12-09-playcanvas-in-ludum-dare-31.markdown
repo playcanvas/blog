@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-in-ludum-dare-31/
 slug: playcanvas-in-ludum-dare-31
 title: PLAYCANVAS in LUDUM DARE 31
-wordpress_id: 1842
 categories:
   - News
 ---

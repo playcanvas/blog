@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webxr-ar-made-easy-with-playcanvas/
 slug: webxr-ar-made-easy-with-playcanvas
 title: WebXR AR Made Easy with PlayCanvas
-wordpress_id: 3010
 categories:
   - News
 tags:

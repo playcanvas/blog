@@ -8,7 +8,6 @@ slug: porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-
 title:
   Porting Unreal Scenes to the Browser with PlayCanvas - Developer Spotlight
   with Leonidas Maliokas
-wordpress_id: 2899
 categories:
   - Developer Spotlight
   - Features

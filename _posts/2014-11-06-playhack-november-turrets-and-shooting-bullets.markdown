@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-november-turrets-and-shooting-bullets/
 slug: playhack-november-turrets-and-shooting-bullets
 title: PLAYHACK November - Turrets and shooting bullets
-wordpress_id: 1763
 categories:
   - PLAYHACK
   - Tutorial

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/hello-world/
 slug: hello-world
 title: Hello World
-wordpress_id: 83
 categories:
   - News
 ---

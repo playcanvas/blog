@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/development-update-major-improvements-ahoy/
 slug: development-update-major-improvements-ahoy
 title: "Development Update: Major Improvements Ahoy!"
-wordpress_id: 2225
 categories:
   - News
 ---
