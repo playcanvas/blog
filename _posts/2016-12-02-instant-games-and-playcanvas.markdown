@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/instant-games-and-playcanvas/
 slug: instant-games-and-playcanvas
 title: Instant Games and PlayCanvas
-wordpress_id: 2475
 categories:
   - News
 ---

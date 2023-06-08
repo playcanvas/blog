@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-scripts-2-0/
 slug: playcanvas-scripts-2-0
 title: PlayCanvas Scripts 2.0
-wordpress_id: 2378
 categories:
   - Announcement
   - Features

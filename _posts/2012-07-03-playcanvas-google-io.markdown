@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-google-io/
 slug: playcanvas-google-io
 title: PlayCanvas @ Google I/O
-wordpress_id: 341
 categories:
   - News
 ---

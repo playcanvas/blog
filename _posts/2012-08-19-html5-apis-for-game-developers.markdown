@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/html5-apis-for-game-developers/
 slug: html5-apis-for-game-developers
 title: HTML5 APIs for game developers
-wordpress_id: 449
 categories:
   - Technology
 tags:

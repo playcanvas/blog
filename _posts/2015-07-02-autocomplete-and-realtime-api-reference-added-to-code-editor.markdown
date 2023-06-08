@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/autocomplete-and-realtime-api-reference-added-to-code-editor/
 slug: autocomplete-and-realtime-api-reference-added-to-code-editor
 title: Autocomplete and Realtime API Reference added to Code Editor
-wordpress_id: 2209
 categories:
   - Announcement
   - News

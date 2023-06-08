@@ -7,7 +7,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-releases-gltf-viewer-2-0/
 slug: playcanvas-releases-gltf-viewer-2-0
 title: PlayCanvas Releases glTF Viewer 2.0
-wordpress_id: 2817
 categories:
   - Announcement
   - News

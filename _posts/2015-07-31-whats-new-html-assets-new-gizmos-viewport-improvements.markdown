@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/whats-new-html-assets-new-gizmos-viewport-improvements/
 slug: whats-new-html-assets-new-gizmos-viewport-improvements
 title: What's new? HTML Assets, New Gizmos, Viewport improvements
-wordpress_id: 2217
 categories:
   - News
 ---

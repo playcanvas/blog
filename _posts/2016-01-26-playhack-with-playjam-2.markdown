@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-with-playjam-2/
 slug: playhack-with-playjam-2
 title: PLAYHACK with PlayJam
-wordpress_id: 2293
 categories:
   - News
 ---

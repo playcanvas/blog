@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-december-jolly-santa/
 slug: playhack-december-jolly-santa
 title: "PLAYHACK December: Jolly Santa"
-wordpress_id: 1806
 categories:
   - News
   - PLAYHACK

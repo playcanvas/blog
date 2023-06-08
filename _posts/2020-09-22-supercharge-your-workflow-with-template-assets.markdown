@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/supercharge-your-workflow-with-template-assets/
 slug: supercharge-your-workflow-with-template-assets
 title: Supercharge your workflow with Template Assets!
-wordpress_id: 2619
 categories:
   - News
 tags:

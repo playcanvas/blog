@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/build-a-game-for-a-loved-one-this-month/
 slug: build-a-game-for-a-loved-one-this-month
 title: Build a game for a loved one this month.
-wordpress_id: 1985
 categories:
   - Announcement
   - PLAYHACK

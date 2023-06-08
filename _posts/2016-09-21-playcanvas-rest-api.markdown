@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-rest-api/
 slug: playcanvas-rest-api
 title: PlayCanvas REST API
-wordpress_id: 2409
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-review-of-2022/
 slug: playcanvas-review-of-2022
 title: PlayCanvas Review of 2022
-wordpress_id: 2949
 categories:
   - News
 tags:

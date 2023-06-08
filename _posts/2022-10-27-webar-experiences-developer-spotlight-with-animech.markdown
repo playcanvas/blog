@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/
 slug: webar-experiences-developer-spotlight-with-animech
 title: Web AR Experiences - Developer Spotlight with Animech
-wordpress_id: 2878
 categories:
   - Developer Spotlight
 tags:

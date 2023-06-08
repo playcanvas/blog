@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/a-wild-programmer-appears/
 slug: a-wild-programmer-appears
 title: A wild programmer appears!
-wordpress_id: 856
 categories:
   - News
 ---

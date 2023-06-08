@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/game-development-trends-talk/
 slug: game-development-trends-talk
 title: Game Development Trends Talk
-wordpress_id: 1196
 categories:
   - Announcement
   - News

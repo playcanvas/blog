@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/enti-brings-you-videogame-day-in-mallorca/
 slug: enti-brings-you-videogame-day-in-mallorca
 title: ENTI Brings you VideoGame Day in Mallorca
-wordpress_id: 2038
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-game-jam/
 slug: playcanvas-game-jam
 title: PlayCanvas Game Jam
-wordpress_id: 922
 categories:
   - News
 ---

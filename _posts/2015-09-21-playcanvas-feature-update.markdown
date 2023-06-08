@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-feature-update/
 slug: playcanvas-feature-update
 title: PlayCanvas Feature Update
-wordpress_id: 2238
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-versus-unity-webgl/
 slug: playcanvas-versus-unity-webgl
 title: PlayCanvas versus Unity WebGL
-wordpress_id: 2393
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/disney-selects-playcanvas-for-hour-of-code/
 slug: disney-selects-playcanvas-for-hour-of-code
 title: Disney Selects PlayCanvas for Hour of Code
-wordpress_id: 2489
 categories:
   - News
 ---

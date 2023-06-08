@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-we-have-a-winner/
 slug: playhack-we-have-a-winner
 title: "PLAYHACK: We have a winner!"
-wordpress_id: 2150
 categories:
   - News
 ---

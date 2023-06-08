@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/announcing-the-new-playcanvas-asset-store/
 slug: announcing-the-new-playcanvas-asset-store
 title: Announcing the New PlayCanvas Asset Store
-wordpress_id: 3028
 categories:
   - Announcement
   - Features

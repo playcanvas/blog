@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/basis-texture-compression-arrives-in-playcanvas/
 slug: basis-texture-compression-arrives-in-playcanvas
 title: Basis Texture Compression arrives in PlayCanvas
-wordpress_id: 2660
 categories:
   - News
 tags:

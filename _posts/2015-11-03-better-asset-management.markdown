@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/better-asset-management/
 slug: better-asset-management
 title: Better Asset Management
-wordpress_id: 2249
 categories:
   - News
 ---

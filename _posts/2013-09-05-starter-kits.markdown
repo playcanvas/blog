@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/starter-kits/
 slug: starter-kits
 title: Starter Kits
-wordpress_id: 908
 categories:
   - Announcement
   - Features

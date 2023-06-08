@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/ongamestart-game-jam/
 slug: ongamestart-game-jam
 title: onGameStart Game Jam
-wordpress_id: 946
 categories:
   - Announcement
   - News

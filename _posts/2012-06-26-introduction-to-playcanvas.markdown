@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introduction-to-playcanvas/
 slug: introduction-to-playcanvas
 title: Introduction to PlayCanvas
-wordpress_id: 267
 categories:
   - News
 ---

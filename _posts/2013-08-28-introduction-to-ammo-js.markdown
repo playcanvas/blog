@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introduction-to-ammo-js/
 slug: introduction-to-ammo-js
 title: Introduction to ammo.js
-wordpress_id: 900
 categories:
   - Announcement
   - News

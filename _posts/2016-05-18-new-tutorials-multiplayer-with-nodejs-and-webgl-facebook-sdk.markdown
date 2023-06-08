@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-tutorials-multiplayer-with-nodejs-and-webgl-facebook-sdk/
 slug: new-tutorials-multiplayer-with-nodejs-and-webgl-facebook-sdk
 title: "New Tutorials: Multiplayer with Node.js and WebGL & Facebook SDK"
-wordpress_id: 2344
 categories:
   - Tutorial
 ---

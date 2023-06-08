@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/changes-for-25th-november/
 slug: changes-for-25th-november
 title: Changes for 25th November
-wordpress_id: 1020
 categories:
   - Announcement
   - News

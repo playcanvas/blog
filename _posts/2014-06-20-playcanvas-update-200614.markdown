@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-update-200614/
 slug: playcanvas-update-200614
 title: PlayCanvas Update 20/06/14
-wordpress_id: 1395
 categories:
   - Features
 ---

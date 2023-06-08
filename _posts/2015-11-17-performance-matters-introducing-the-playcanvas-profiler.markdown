@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/
 slug: performance-matters-introducing-the-playcanvas-profiler
 title: "Performance Matters: Introducing the PlayCanvas Profiler"
-wordpress_id: 2256
 categories:
   - News
 ---

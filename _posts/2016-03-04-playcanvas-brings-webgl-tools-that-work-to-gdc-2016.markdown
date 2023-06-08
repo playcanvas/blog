@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-brings-webgl-tools-that-work-to-gdc-2016/
 slug: playcanvas-brings-webgl-tools-that-work-to-gdc-2016
 title: PlayCanvas brings WebGL Tools that Work to GDC 2016
-wordpress_id: 2314
 categories:
   - News
 ---

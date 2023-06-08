@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/the-making-of-seemore-webgl/
 slug: the-making-of-seemore-webgl
 title: The Making of Seemore WebGL
-wordpress_id: 2094
 categories:
   - News
 ---

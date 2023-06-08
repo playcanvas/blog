@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/plan-updates-more-storage-more-features-same-price/
 slug: plan-updates-more-storage-more-features-same-price
 title: "Plan Updates: More Storage, More Features, Same Price"
-wordpress_id: 2605
 categories:
   - Announcement
   - News

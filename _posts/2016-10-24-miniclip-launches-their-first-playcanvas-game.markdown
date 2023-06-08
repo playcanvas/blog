@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/miniclip-launches-their-first-playcanvas-game/
 slug: miniclip-launches-their-first-playcanvas-game
 title: Miniclip Launches Their First PlayCanvas Game
-wordpress_id: 2422
 categories:
   - News
 ---

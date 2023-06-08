@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-kevin-rooney/
 slug: meet-the-playcanvas-team-kevin-rooney
 title: "Meet the PlayCanvas team: Kevin Rooney"
-wordpress_id: 1466
 categories:
   - News
 tags:

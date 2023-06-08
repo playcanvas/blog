@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/development-update-tags-new-script-attributes/
 slug: development-update-tags-new-script-attributes
 title: "Development Update: Tags, New Script Attributes"
-wordpress_id: 2230
 categories:
   - Announcement
   - News

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/
 slug: the-devlog-playcanvas-community-feature
 title: The DevLog - PlayCanvas Community Feature
-wordpress_id: 1686
 categories:
   - Features
 ---

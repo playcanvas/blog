@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-look-designer/
 slug: new-look-designer
 title: New Look Designer
-wordpress_id: 937
 categories:
   - Announcement
   - News

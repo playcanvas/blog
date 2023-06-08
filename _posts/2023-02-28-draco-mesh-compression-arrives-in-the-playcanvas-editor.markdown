@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/draco-mesh-compression-arrives-in-the-playcanvas-editor/
 slug: draco-mesh-compression-arrives-in-the-playcanvas-editor
 title: Draco Mesh Compression Arrives in the PlayCanvas Editor
-wordpress_id: 3004
 categories:
   - News
 ---

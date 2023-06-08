@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/making-an-html5-game-pong/
 slug: making-an-html5-game-pong
 title: "Making an HTML5 game : Pong"
-wordpress_id: 887
 categories:
   - Announcement
   - Tutorial

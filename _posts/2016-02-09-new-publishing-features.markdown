@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-publishing-features/
 slug: new-publishing-features
 title: New Publishing Features
-wordpress_id: 2307
 categories:
   - News
 ---

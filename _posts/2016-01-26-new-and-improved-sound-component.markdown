@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-and-improved-sound-component/
 slug: new-and-improved-sound-component
 title: New and Improved Sound Component
-wordpress_id: 2288
 categories:
   - News
 ---

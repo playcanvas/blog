@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webgl-texture-compression-made-easy/
 slug: webgl-texture-compression-made-easy
 title: WebGL Texture Compression Made Easy
-wordpress_id: 2426
 categories:
   - News
 ---

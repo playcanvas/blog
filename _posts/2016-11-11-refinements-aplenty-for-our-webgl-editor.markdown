@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/refinements-aplenty-for-our-webgl-editor/
 slug: refinements-aplenty-for-our-webgl-editor
 title: Refinements aplenty for our WebGL Editor
-wordpress_id: 2449
 categories:
   - News
 ---

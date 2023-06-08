@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/runtime-lightmap-generation-for-webgl/
 slug: runtime-lightmap-generation-for-webgl
 title: Runtime Lightmap Generation for WebGL
-wordpress_id: 2337
 categories:
   - Features
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/intel-gives-html5-some-love-at-the-buzz-workshop/
 slug: intel-gives-html5-some-love-at-the-buzz-workshop
 title: Intel gives HTML5 some love at the Buzz Workshop
-wordpress_id: 1673
 categories:
   - News
 ---

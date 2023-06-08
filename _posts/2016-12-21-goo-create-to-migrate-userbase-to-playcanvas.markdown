@@ -7,7 +7,6 @@ link: https://blog.playcanvas.com/goo-create-to-migrate-userbase-to-playcanvas/
 published: false
 slug: goo-create-to-migrate-userbase-to-playcanvas
 title: Goo Create to Migrate Userbase to PlayCanvas
-wordpress_id: 2492
 categories:
   - News
 ---

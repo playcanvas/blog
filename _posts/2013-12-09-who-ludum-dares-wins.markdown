@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/who-ludum-dares-wins/
 slug: who-ludum-dares-wins
 title: Who Ludum Dares Wins!
-wordpress_id: 1026
 categories:
   - Announcement
   - News

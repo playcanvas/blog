@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webgl-on-iphone-in-less-than-a-minute/
 slug: webgl-on-iphone-in-less-than-a-minute
 title: WebGL on iPhone in less than a minute
-wordpress_id: 1619
 categories:
   - Announcement
   - Features

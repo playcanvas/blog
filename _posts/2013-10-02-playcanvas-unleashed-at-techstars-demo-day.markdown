@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-unleashed-at-techstars-demo-day/
 slug: playcanvas-unleashed-at-techstars-demo-day
 title: PlayCanvas Unleashed at Techstars Demo Day
-wordpress_id: 965
 categories:
   - Announcement
   - News

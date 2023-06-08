@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/great-british-summer-game-jam/
 slug: great-british-summer-game-jam
 title: Great British Summer Game Jam
-wordpress_id: 1502
 categories:
   - News
 ---

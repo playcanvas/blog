@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-will-eastcott/
 slug: meet-the-playcanvas-team-will-eastcott
 title: "Meet the PlayCanvas team: Will Eastcott"
-wordpress_id: 1365
 categories:
   - News
 tags:

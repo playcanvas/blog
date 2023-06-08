@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/how-to-make-your-html5-games-awesome/
 slug: how-to-make-your-html5-games-awesome
 title: How to make your HTML5 Games Awesome!
-wordpress_id: 2964
 categories:
   - Features
   - Tutorial

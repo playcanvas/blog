@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-versus-unreal-webgl/
 slug: playcanvas-versus-unreal-webgl
 title: PlayCanvas versus Unreal WebGL
-wordpress_id: 2399
 categories:
   - News
 ---

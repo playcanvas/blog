@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-editor-improvements-for-march/
 slug: playcanvas-editor-improvements-for-march
 title: PlayCanvas Editor Improvements for March
-wordpress_id: 2320
 categories:
   - News
 ---

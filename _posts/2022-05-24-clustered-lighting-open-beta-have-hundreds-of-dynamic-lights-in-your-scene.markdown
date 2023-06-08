@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/clustered-lighting-open-beta-have-hundreds-of-dynamic-lights-in-your-scene/
 slug: clustered-lighting-open-beta-have-hundreds-of-dynamic-lights-in-your-scene
 title: Clustered Lighting Open Beta - Have hundreds of dynamic lights in your scene!
-wordpress_id: 2801
 categories:
   - News
 ---

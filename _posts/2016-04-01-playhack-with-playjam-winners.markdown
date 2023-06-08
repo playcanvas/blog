@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-with-playjam-winners/
 slug: playhack-with-playjam-winners
 title: "PLAYHACK with PlayJam: Winners"
-wordpress_id: 2325
 categories:
   - PLAYHACK
 ---

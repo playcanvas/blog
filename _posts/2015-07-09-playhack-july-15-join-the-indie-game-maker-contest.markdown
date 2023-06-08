@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-july-15-join-the-indie-game-maker-contest/
 slug: playhack-july-15-join-the-indie-game-maker-contest
 title: "PLAYHACK: July '15 - Join the Indie Game Maker Contest"
-wordpress_id: 2212
 categories:
   - News
 ---

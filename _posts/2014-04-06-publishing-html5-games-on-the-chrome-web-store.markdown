@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/publishing-html5-games-on-the-chrome-web-store/
 slug: publishing-html5-games-on-the-chrome-web-store
 title: Publishing HTML5 Games on the Chrome Web Store
-wordpress_id: 1152
 categories:
   - Announcement
   - News

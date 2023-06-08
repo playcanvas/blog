@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/swooop-ladycade/
 slug: swooop-ladycade
 title: SWOOOP @ LadyCADE
-wordpress_id: 1559
 categories:
   - News
 ---

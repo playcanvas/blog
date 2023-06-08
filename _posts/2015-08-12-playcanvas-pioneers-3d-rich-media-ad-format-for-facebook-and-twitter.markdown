@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-pioneers-3d-rich-media-ad-format-for-facebook-and-twitter/
 slug: playcanvas-pioneers-3d-rich-media-ad-format-for-facebook-and-twitter
 title: PlayCanvas pioneers 3D rich media ad format for Facebook and Twitter
-wordpress_id: 2222
 categories:
   - Announcement
 ---

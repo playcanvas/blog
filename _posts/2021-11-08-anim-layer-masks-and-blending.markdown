@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/anim-layer-masks-and-blending/
 slug: anim-layer-masks-and-blending
 title: Anim Layer Masks and Blending
-wordpress_id: 2768
 categories:
   - News
 tags:

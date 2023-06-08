@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-dave-evans/
 slug: meet-the-playcanvas-team-dave-evans
 title: "Meet the PlayCanvas team: Dave Evans"
-wordpress_id: 1435
 categories:
   - News
 tags:

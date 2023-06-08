@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/idealondon-welcomes-playcanvas/
 slug: idealondon-welcomes-playcanvas
 title: IDEALondon Welcomes PlayCanvas
-wordpress_id: 1185
 categories:
   - News
 ---

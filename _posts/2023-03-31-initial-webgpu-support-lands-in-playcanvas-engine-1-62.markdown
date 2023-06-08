@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62/
 slug: initial-webgpu-support-lands-in-playcanvas-engine-1-62
 title: Initial WebGPU support lands in PlayCanvas Engine 1.62!
-wordpress_id: 3023
 categories:
   - News
 tags:

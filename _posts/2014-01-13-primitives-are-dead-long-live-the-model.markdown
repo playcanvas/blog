@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/primitives-are-dead-long-live-the-model/
 slug: primitives-are-dead-long-live-the-model
 title: Primitives are dead! Long live the Model!
-wordpress_id: 1080
 categories:
   - Announcement
   - Features

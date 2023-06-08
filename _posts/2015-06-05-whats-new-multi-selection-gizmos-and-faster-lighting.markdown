@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/whats-new-multi-selection-gizmos-and-faster-lighting/
 slug: whats-new-multi-selection-gizmos-and-faster-lighting
 title: "What's New: Multi-selection, Gizmos and Faster Lighting"
-wordpress_id: 2193
 categories:
   - News
 ---

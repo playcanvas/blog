@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/nottingham-gamecity-and-mozfest/
 slug: nottingham-gamecity-and-mozfest
 title: Nottingham GameCity and MozFest
-wordpress_id: 992
 categories:
   - News
 ---

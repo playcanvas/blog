@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/virtual-reality-and-the-future-of-web-based-gaming/
 slug: virtual-reality-and-the-future-of-web-based-gaming
 title: Virtual Reality and the future of Web Based Gaming
-wordpress_id: 1353
 categories:
   - News
   - Technology

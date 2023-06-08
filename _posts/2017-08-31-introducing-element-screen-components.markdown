@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introducing-element-screen-components/
 slug: introducing-element-screen-components
 title: Introducing Element & Screen Components
-wordpress_id: 2537
 categories:
   - Features
 ---

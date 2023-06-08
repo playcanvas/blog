@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-math-api-a-transition-guide/
 slug: new-math-api-a-transition-guide
 title: "New Math API: A Transition Guide"
-wordpress_id: 1089
 categories:
   - Announcement
   - News

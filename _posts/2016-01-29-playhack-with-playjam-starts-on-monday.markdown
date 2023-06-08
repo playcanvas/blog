@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-with-playjam-starts-on-monday/
 slug: playhack-with-playjam-starts-on-monday
 title: PLAYHACK with PlayJam starts on Monday
-wordpress_id: 2296
 categories:
   - News
 ---

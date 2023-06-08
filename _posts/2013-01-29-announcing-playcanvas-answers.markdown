@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/announcing-playcanvas-answers/
 slug: announcing-playcanvas-answers
 title: PlayCanvas Community Part 1 - Announcing PlayCanvas Answers
-wordpress_id: 656
 categories:
   - News
 ---

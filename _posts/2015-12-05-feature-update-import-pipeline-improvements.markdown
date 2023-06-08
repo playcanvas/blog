@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/feature-update-import-pipeline-improvements/
 slug: feature-update-import-pipeline-improvements
 title: "Feature Update: Import Pipeline Improvements"
-wordpress_id: 2268
 categories:
   - Features
   - News

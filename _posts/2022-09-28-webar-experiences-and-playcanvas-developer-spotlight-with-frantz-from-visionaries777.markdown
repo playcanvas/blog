@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/
 slug: webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777
 title: Building WebAR Experiences - Developer Spotlight with Visionaries777
-wordpress_id: 2839
 categories:
   - Developer Spotlight
 tags:

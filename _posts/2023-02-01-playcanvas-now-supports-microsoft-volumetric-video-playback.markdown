@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-now-supports-microsoft-volumetric-video-playback/
 slug: playcanvas-now-supports-microsoft-volumetric-video-playback
 title: PlayCanvas now supports Microsoft volumetric video playback
-wordpress_id: 2913
 categories:
   - News
 tags:
