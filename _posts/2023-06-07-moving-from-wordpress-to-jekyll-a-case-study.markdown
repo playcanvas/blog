@@ -68,7 +68,7 @@ All formatting was now beautifully consistent.
 linkinator . --server-root _site --recurse --verbosity error
 ```
 
-I fixed well over 100 dead links. The older the post, the more dead links there tended to be (as you might expect). While I was always able to use Linkinator on the published Wordpress site, it was never convenient to skip from post to post and edit hyperlinks in the WordPress UI (we have over 220 posts). So I never made the time for it. Now I was able to quickly search and replace links in Visual Studio Code and it was a breeze.
+I fixed well over 100 dead links. The older the post, the more dead links there tended to be (as you might expect). While I was always able to use Linkinator on the published WordPress site, it was never convenient to skip from post to post and edit hyperlinks in the WordPress UI (we have over 220 posts). So I never made the time for it. Now I was able to quickly search and replace links in Visual Studio Code and it was a breeze.
 
 Aside from giving your readers a better experience, here's what ChatGPT has to say about dead links:
 
@@ -78,7 +78,7 @@ So this step was definitely worth doing!
 
 #### Media Library
 
-Every WordPress blog has a Media Library that contains all of the images and videos referenced by your posts. The PlayCanvas Media Library had over 1GB of content. However, I noticed that a large amount of content was not actually referenced by any post. I wanted to ensure that I exported on the _used_ media (since I didn't want to bloat the GitHub repository).
+Every WordPress blog has a Media Library that contains all of the images and videos referenced by your posts. The PlayCanvas Media Library had over 1GB of content. However, I noticed that a large amount of content was not actually referenced by any post. I wanted to ensure that I exported only the _used_ media (since I didn't want to bloat the GitHub repository).
 
 - **Step 1:** Install WordPress plugin [Media Cleaner](https://wordpress.org/plugins/media-cleaner/) and use it to delete unused media files.
 - **Step 2:** Install WordPress plugin [Export Media Library](https://wordpress.org/plugins/export-media-library/) to download all remaining media files in a ZIP.
@@ -106,7 +106,7 @@ So now that we're migrated over, let's quickly summarize the key benefits:
 - We have fine-grain control over the HTML and styling of posts using Jekyll themes.
 - Now that the posts are stored in generic Markdown, we can easily migrate to other blogging platforms in the future (should we wish to do so).
 
-OK, but what about the cons? 🤔 I have to tell you - I genuinely can't think of any! Seriously, feel free to ping me on [Twitter](https://twitter.com/willeastcott/) if you think I'm missing something here. But I wish we had taken this step years ago.
+OK, but what about the cons? 🤔 I have to tell you - I genuinely can't think of any! Sure, we don't have comments enabled now but as I understand it, Disqus has a [Jekyll integration](https://help.disqus.com/en/articles/1935528-jekyll-installation-instructions) that we can turn on at some point. Seriously, feel free to ping me on [Twitter](https://twitter.com/willeastcott/) if you think I'm missing something here. But I wish we had taken this step years ago.
 
 ### Open Source and Open to Contributions
 
