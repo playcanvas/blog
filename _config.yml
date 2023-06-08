@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.playcanvas.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: playcanvas
 github_username:  playcanvas
+google_analytics: G-NDG04ENSGD
 
 # Build settings
 theme: minima
