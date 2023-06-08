@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/improvements-and-changes-to-shader-chunks-playcanvas-bytes/
 slug: improvements-and-changes-to-shader-chunks-playcanvas-bytes
 title: Improvements and changes to Shader Chunks - PlayCanvas Bytes
-wordpress_id: 2810
 categories:
   - Features
   - News

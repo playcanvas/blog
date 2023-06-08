@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/changes-for-18th-november/
 slug: changes-for-18th-november
 title: Changes for 18th November
-wordpress_id: 1014
 categories:
   - Announcement
   - News

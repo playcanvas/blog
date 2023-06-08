@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/easy-cardboard-vr-in-webgl/
 slug: easy-cardboard-vr-in-webgl
 title: Easy Cardboard VR in WebGL
-wordpress_id: 2334
 categories:
   - Features
 ---

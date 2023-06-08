@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/maintenance-saturday-june-10-9am-utc/
 slug: maintenance-saturday-june-10-9am-utc
 title: Maintenance Saturday June 10, 9am UTC
-wordpress_id: 2529
 categories:
   - News
 ---

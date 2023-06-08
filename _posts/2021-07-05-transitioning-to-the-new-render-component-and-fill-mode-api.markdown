@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/transitioning-to-the-new-render-component-and-fill-mode-api/
 slug: transitioning-to-the-new-render-component-and-fill-mode-api
 title: Transitioning to the New Render Component and Fill Mode API
-wordpress_id: 2721
 categories:
   - News
 tags:

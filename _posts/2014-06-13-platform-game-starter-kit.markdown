@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/platform-game-starter-kit/
 slug: platform-game-starter-kit
 title: Platform Game Starter Kit
-wordpress_id: 1322
 categories:
   - Announcement
   - Tutorial

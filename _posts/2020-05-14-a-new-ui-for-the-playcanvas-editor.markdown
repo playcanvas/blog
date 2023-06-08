@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/a-new-ui-for-the-playcanvas-editor/
 slug: a-new-ui-for-the-playcanvas-editor
 title: A New UI for the PlayCanvas Editor
-wordpress_id: 2578
 categories:
   - Announcement
   - News

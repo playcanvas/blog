@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/important-information-about-safari-15/
 slug: important-information-about-safari-15
 title: Important Information about macOS Safari 15
-wordpress_id: 2736
 categories:
   - Announcement
 ---

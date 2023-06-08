@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/upcoming-ui-changes-to-dashboard-and-editor-playcanvas-bytes/
 slug: upcoming-ui-changes-to-dashboard-and-editor-playcanvas-bytes
 title: Upcoming UI changes to Dashboard and Editor - PlayCanvas Bytes
-wordpress_id: 2806
 categories:
   - Features
   - News

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introducing-the-new-code-editor/
 slug: introducing-the-new-code-editor
 title: Introducing the new Code Editor
-wordpress_id: 2521
 categories:
   - Features
 ---

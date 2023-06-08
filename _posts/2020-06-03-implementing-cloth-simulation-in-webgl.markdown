@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/implementing-cloth-simulation-in-webgl/
 slug: implementing-cloth-simulation-in-webgl
 title: Implementing Cloth Simulation in WebGL
-wordpress_id: 2591
 categories:
   - News
 tags:

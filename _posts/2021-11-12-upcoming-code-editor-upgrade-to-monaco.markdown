@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/upcoming-code-editor-upgrade-to-monaco/
 slug: upcoming-code-editor-upgrade-to-monaco
 title: Upcoming Code Editor upgrade to Monaco!
-wordpress_id: 2782
 categories:
   - News
 ---

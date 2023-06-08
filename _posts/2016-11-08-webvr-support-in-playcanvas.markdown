@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/webvr-support-in-playcanvas/
 slug: webvr-support-in-playcanvas
 title: WebVR support in PlayCanvas
-wordpress_id: 2437
 categories:
   - Features
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-community-part-2-announcing-playcanvas-discussion/
 slug: playcanvas-community-part-2-announcing-playcanvas-discussion
 title: PlayCanvas Community Part 2 - Announcing PlayCanvas Discussion
-wordpress_id: 765
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/getting-started-with-webvr/
 slug: getting-started-with-webvr
 title: Getting started with WebVR
-wordpress_id: 2355
 categories:
   - News
 ---

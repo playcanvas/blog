@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/pcui-framework-migrated-to-typescript/
 slug: pcui-framework-migrated-to-typescript
 title: PCUI Framework Migrated to TypeScript
-wordpress_id: 2944
 categories:
   - News
 tags:

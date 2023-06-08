@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/build-facebook-playable-ads-with-playcanvas/
 slug: build-facebook-playable-ads-with-playcanvas
 title: Build Facebook Playable Ads with PlayCanvas!
-wordpress_id: 2691
 categories:
   - News
 tags:

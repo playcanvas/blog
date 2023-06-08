@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-goes-open-source/
 slug: playcanvas-goes-open-source
 title: PlayCanvas goes open source
-wordpress_id: 1271
 categories:
   - Announcement
   - News

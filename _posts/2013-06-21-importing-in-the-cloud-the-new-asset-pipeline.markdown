@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/importing-in-the-cloud-the-new-asset-pipeline/
 slug: importing-in-the-cloud-the-new-asset-pipeline
 title: Importing in the cloud, the new asset pipeline
-wordpress_id: 774
 categories:
   - Announcement
   - Features

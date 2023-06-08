@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-sxsw/
 slug: playcanvas-sxsw
 title: PlayCanvas @ SXSW
-wordpress_id: 1098
 categories:
   - News
 ---

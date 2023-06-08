@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/editor-api-beta-release/
 slug: editor-api-beta-release
 title: Editor API beta release
-wordpress_id: 2777
 categories:
   - News
 ---

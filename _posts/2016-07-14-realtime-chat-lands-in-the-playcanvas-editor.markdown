@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/realtime-chat-lands-in-the-playcanvas-editor/
 slug: realtime-chat-lands-in-the-playcanvas-editor
 title: Realtime Chat Lands in the PlayCanvas Editor
-wordpress_id: 2381
 categories:
   - News
 ---

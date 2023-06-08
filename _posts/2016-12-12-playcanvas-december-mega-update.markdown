@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-december-mega-update/
 slug: playcanvas-december-mega-update
 title: PlayCanvas December Mega Update
-wordpress_id: 2481
 categories:
   - News
 ---

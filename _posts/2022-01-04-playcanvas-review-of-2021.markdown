@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-review-of-2021/
 slug: playcanvas-review-of-2021
 title: PlayCanvas Review of 2021
-wordpress_id: 2788
 categories:
   - News
 ---

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/featured-games-featured-projects-and-activity-stream/
 slug: featured-games-featured-projects-and-activity-stream
 title: Featured games, featured projects and activity stream
-wordpress_id: 893
 categories:
   - Announcement
   - Features

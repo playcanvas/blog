@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/new-maths-api/
 slug: new-maths-api
 title: Incoming Breaking Changes - New Maths API
-wordpress_id: 1054
 categories:
   - Announcement
   - Features

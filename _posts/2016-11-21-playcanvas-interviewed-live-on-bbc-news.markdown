@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-interviewed-live-on-bbc-news/
 slug: playcanvas-interviewed-live-on-bbc-news
 title: PlayCanvas Interviewed Live on BBC News
-wordpress_id: 2465
 categories:
   - News
 ---

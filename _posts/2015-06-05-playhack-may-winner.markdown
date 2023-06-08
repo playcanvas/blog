@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-may-winner/
 slug: playhack-may-winner
 title: PLAYHACK May Winner
-wordpress_id: 2190
 categories:
   - News
 ---

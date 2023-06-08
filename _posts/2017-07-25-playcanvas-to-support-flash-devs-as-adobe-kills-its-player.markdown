@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-to-support-flash-devs-as-adobe-kills-its-player/
 slug: playcanvas-to-support-flash-devs-as-adobe-kills-its-player
 title: PlayCanvas to Support Flash Devs as Adobe Kills its Player
-wordpress_id: 2532
 categories:
   - News
 ---

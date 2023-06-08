@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/enhanced-asset-api/
 slug: enhanced-asset-api
 title: Enhanced Asset API
-wordpress_id: 2171
 categories:
   - Announcement
   - Features

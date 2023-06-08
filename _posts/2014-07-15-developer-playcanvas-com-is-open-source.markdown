@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/developer-playcanvas-com-is-open-source/
 slug: developer-playcanvas-com-is-open-source
 title: developer.playcanvas.com is open source
-wordpress_id: 1526
 categories:
   - Announcement
   - News

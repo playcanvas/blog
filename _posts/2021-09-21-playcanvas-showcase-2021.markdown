@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-showcase-2021/
 slug: playcanvas-showcase-2021
 title: PlayCanvas Showcase 2021
-wordpress_id: 2734
 categories:
   - Announcement
 tags:

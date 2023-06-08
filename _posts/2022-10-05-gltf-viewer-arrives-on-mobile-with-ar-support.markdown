@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/gltf-viewer-arrives-on-mobile-with-ar-support/
 slug: gltf-viewer-arrives-on-mobile-with-ar-support
 title: glTF Viewer Arrives on Mobile with AR Support
-wordpress_id: 2850
 categories:
   - News
 tags:

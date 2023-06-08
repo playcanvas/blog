@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introducing-the-anim-state-graph/
 slug: introducing-the-anim-state-graph
 title: Introducing the Anim State Graph
-wordpress_id: 2709
 categories:
   - News
 tags:

@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/apple-embraces-webgl/
 slug: apple-embraces-webgl
 title: Apple Embraces WebGL
-wordpress_id: 1250
 categories:
   - News
 ---

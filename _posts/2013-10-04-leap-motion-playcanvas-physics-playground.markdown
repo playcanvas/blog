@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/leap-motion-playcanvas-physics-playground/
 slug: leap-motion-playcanvas-physics-playground
 title: Leap Motion + PlayCanvas = Physics Playground
-wordpress_id: 971
 categories:
   - Announcement
   - News

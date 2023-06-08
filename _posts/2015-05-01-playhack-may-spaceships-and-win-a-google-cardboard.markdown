@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playhack-may-spaceships-and-win-a-google-cardboard/
 slug: playhack-may-spaceships-and-win-a-google-cardboard
 title: "PLAYHACK May: Spaceships and win a Google Cardboard"
-wordpress_id: 2122
 categories:
   - News
 ---

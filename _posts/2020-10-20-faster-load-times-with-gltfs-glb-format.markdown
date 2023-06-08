@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/faster-load-times-with-gltfs-glb-format/
 slug: faster-load-times-with-gltfs-glb-format
 title: Faster Load Times with glTF's GLB Format!
-wordpress_id: 2638
 categories:
   - News
 tags:

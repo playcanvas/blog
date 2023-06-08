@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/tutorial-series-a-complete-playcanvas-game/
 slug: tutorial-series-a-complete-playcanvas-game
 title: "Tutorial Series: A complete PlayCanvas game"
-wordpress_id: 2299
 categories:
   - News
 ---

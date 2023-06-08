@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-update-110714/
 slug: playcanvas-update-110714
 title: PlayCanvas Update 11/07/14
-wordpress_id: 1517
 categories:
   - News
 ---

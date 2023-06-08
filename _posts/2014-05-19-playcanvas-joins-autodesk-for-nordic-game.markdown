@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-joins-autodesk-for-nordic-game/
 slug: playcanvas-joins-autodesk-for-nordic-game
 title: PlayCanvas joins Autodesk for Nordic Game
-wordpress_id: 1243
 categories:
   - Announcement
   - News

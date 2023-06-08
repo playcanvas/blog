@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/physically-based-rendering-comes-to-webgl/
 slug: physically-based-rendering-comes-to-webgl
 title: Physically Based Rendering comes to WebGL
-wordpress_id: 1900
 categories:
   - News
 ---

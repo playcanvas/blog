@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/light-and-collision-component-api/
 slug: light-and-collision-component-api
 title: Light and Collision Component API
-wordpress_id: 1005
 categories:
   - Announcement
 ---

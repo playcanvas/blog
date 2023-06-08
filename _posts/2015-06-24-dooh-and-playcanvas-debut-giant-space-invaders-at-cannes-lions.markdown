@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/dooh-and-playcanvas-debut-giant-space-invaders-at-cannes-lions/
 slug: dooh-and-playcanvas-debut-giant-space-invaders-at-cannes-lions
 title: DOOH and PlayCanvas debut Giant Space Invaders at Cannes Lions
-wordpress_id: 2196
 categories:
   - News
 ---

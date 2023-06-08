@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/introducing-the-playcanvas-localization-system/
 slug: introducing-the-playcanvas-localization-system
 title: Introducing the PlayCanvas Localization System
-wordpress_id: 2573
 categories:
   - Announcement
   - News

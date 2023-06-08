@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/porting-a-large-es5-javascript-library-to-es6-modules-and-rollup/
 slug: porting-a-large-es5-javascript-library-to-es6-modules-and-rollup
 title: Porting a Large ES5 JavaScript Library to ES6 Modules and Rollup
-wordpress_id: 2601
 categories:
   - News
 ---

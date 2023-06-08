@@ -6,7 +6,6 @@ layout: post
 link: https://blog.playcanvas.com/playcanvas-engine-reaches-1-0-0/
 slug: playcanvas-engine-reaches-1-0-0
 title: PlayCanvas Engine reaches 1.0.0!
-wordpress_id: 2543
 categories:
   - News
 ---
