@@ -25,8 +25,8 @@ Goo Create is a single user development environment. PlayCanvas lets you seamles
 **Physical Rendering**
 PlayCanvas' graphics engine can achieve improved visuals over Goo Create thanks to built-in support for Physically Based Rendering (or PBR).
 
-**On-Device Development
-**Mobile is important! So you want to be able to develop and test on mobile easily. PlayCanvas lets you launch onto one or more mobile devices and develop using a live link to the Editor.
+**On-Device Development**
+Mobile is important! So you want to be able to develop and test on mobile easily. PlayCanvas lets you launch onto one or more mobile devices and develop using a live link to the Editor.
 
 **Realtime App Profiler**
 PlayCanvas makes it easy to tune your app to achieve incredible performance even on low end mobile. Simply launch your app from the Editor with the Profiler enabled to quickly diagnose and fix performance issues.

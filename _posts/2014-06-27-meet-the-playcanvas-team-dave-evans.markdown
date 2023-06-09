@@ -38,7 +38,7 @@ Online communities are massive accelerators where people can learn new skills an
 
 Web-based gaming is the future! If there is one thing you can be certain of, it's that every device released in the future, from phone, to TV, to something we haven't thought of yet, will have have a web browser. And we're right on the brink, as with PlayCanvas and WebGL you can now create great looking games to play on any of these machines.
 
-**The Quick Fire round (this is where things get a little interesting)**
+#### The Quick Fire round (this is where things get a little interesting)
 
 **Zelda or Final fantasy?**
 

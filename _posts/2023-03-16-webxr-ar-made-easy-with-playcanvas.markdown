@@ -18,7 +18,7 @@ tags:
 
 We are excited to announce the launch of our WebXR AR Starter Kit, available in the New Project dialog today!
 
-[![](/assets/media/webar-xr-starterkit-project-dialog.jpg)](/assets/media/webar-xr-starterkit-project-dialog.jpg)
+[![New Project WebXR](/assets/media/webar-xr-starterkit-project-dialog.jpg)](/assets/media/webar-xr-starterkit-project-dialog.jpg)
 
 [WebXR](https://immersiveweb.dev/) is a technology that powers immersive and interactive AR and VR experiences to be accessed through supported web browsers. This allows us to build memorable, engaging content and share them with just a URL. No installs needed!
 
