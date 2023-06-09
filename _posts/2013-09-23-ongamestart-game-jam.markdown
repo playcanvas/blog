@@ -23,10 +23,10 @@ Seriously, if you've never been, you're missing out. It's fun fun fun! The works
 
 There were 22 participants, so I was kept very busy answering questions and helping the teams make progress. Considering almost everybody was new to PlayCanvas, the results were fantastic! Here are a couple of highlights. First up, we have a great use of physics in this local multiplayer football game by Krzysztof Wieczorek (plus friend). Controls are WASD for player 1 and arrow keys for player 2.
 
-[![onGameStart Game Jam Football](/assets/media/ongamestart-football.png)](http://apps.playcanvas.com/wieczorekkrzysiek/ongamestart/football)
+![onGameStart Game Jam Football](/assets/media/ongamestart-football.png)
 
 Next up, we have procedurally generated plants written by [Ivan Popelyshev](https://twitter.com/ivanpopelyshev) and Wesa Aapro. Simply press space a few times and see how your garden grows!
 
-[![onGameStart Game Jam Trees](/assets/media/ongamestart-trees.png)](http://apps.playcanvas.com/kaveri2/ongamestart_workshop/recursive_trees)
+[![onGameStart Game Jam Trees](/assets/media/ongamestart-trees.png)](https://playcanvas.com/project/1441/overview/ongamestart_workshop)
 
 Congratulations to everybody who took part on the day. So much creativity for only a 3-hour jam!! We can't wait for the next one.
