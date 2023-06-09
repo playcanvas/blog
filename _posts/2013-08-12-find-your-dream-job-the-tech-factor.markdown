@@ -18,6 +18,4 @@ PlayCanvas is one of 11 companies shaking up the London startup scene. Our goal 
 
 On Saturday, 17th August 2013, Techstars is holding a very special recruitment event at the headquarters of PlayFair Capital in London's Clerkenwell district. So if you're looking for a new challenge or just want to find out about life on the startup scene, come and meet us in person.  During the event, we will be taking the opportunity to demo the latest and greatest build of PlayCanvas. We think you'll be impressed!
 
-For more details about what we're looking for, check out the [jobs page](https://blog.playcanvas.com/jobs/).
-
 For details of the event, see [here](http://techfactor.splashthat.com/).
