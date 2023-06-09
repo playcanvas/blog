@@ -35,7 +35,7 @@ Many thanks for to all our partners and users that allowed us to show their awes
 - [Tank Royale](https://tankroyale.io/) by [DevMidgard](https://twitter.com/devMidgard)
 - [Allyracer](https://www.allyracer.com/) by MKTG for Ally
 - Aquapark by [Voodoo](https://www.voodoo.io/)
-- [Color Together](https://fundayfactory.com/games/color-together/) by [Funday Factory](https://fundayfactory.com/)
+- Color Together by [Funday Games](https://www.fundaygames.dk/)
 - [Seemore](https://playcanvas.com/project/612100/overview/seemore) by PlayCanvas
 - [Cyber City](https://vz777.com/cybercity/index.html) by [Visionaries 777](https://www.vz777.com/)
 - Sugar Slam by [Mighty Kingdom](https://www.mightykingdom.com/)
