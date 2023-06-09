@@ -26,7 +26,7 @@ The games industry has traditionally been a secretive place where performance tr
 
 We've seen [Stack Overflow](https://stackoverflow.com) become the goto\* site for asking questions about programming, and if you've used it (we have, a lot) then you'll see why. It is very well designed for asking a question, and getting an answer. It deemphasizes the chatter of a traditional web forum, and concentrates on getting being a location for canonical answers about your problems.
 
-Which is exactly why we've launched [PlayCanvas Answers](http://answers.playcanvas.com), a question and answer site for the PlayCanvas developer community. Where we can help you make great games. And when we say _"we"_, we mean _"we, the PlayCanvas Community"_ not the staff in our office.
+Which is exactly why we've launched PlayCanvas Answers, a question and answer site for the PlayCanvas developer community. Where we can help you make great games. And when we say _"we"_, we mean _"we, the PlayCanvas Community"_ not the staff in our office.
 
 ### What is PlayCanvas Answers?
 
@@ -34,12 +34,12 @@ PlayCanvas Answers is where you can go to get support from both the staff and th
 
 Some good PlayCanvas Answers questions:
 
-- [How do I include an external JavaScript library in my game?](http://answers.playcanvas.com/questions/17/how-do-i-include-an-external-javascript-library-in-my-game)
-- [How can I add a HUD to my game?](http://answers.playcanvas.com/questions/15/how-can-i-add-a-hud-to-my-playcanvas-game)
+- How do I include an external JavaScript library in my game?
+- How can I add a HUD to my game?
 
 ### What isn't PlayCanvas Answers?
 
-Just like Stack Overflow, PlayCanvas Answers serves a specific need. It is the place you go when you want to find the answer to a question about PlayCanvas. It is not a place to hold a long open-ended discussion. For more information about how to get the best out of the site, check out the [FAQ](http://answers.playcanvas.com/faq/).
+Just like Stack Overflow, PlayCanvas Answers serves a specific need. It is the place you go when you want to find the answer to a question about PlayCanvas. It is not a place to hold a long open-ended discussion.
 
 Types of questions to avoid:
 
