@@ -12,7 +12,7 @@ categories:
 
 Building user interfaces in graphical applications provides a unique challenge. Today we're pleased to launch two new components to help you build user interfaces inside your WebGL application.
 
-![UI demo](/assets/media/Aug-31-2017-14-18-22.gif)
+![Sample Game UI](/assets/media/sample-game-ui.gif)
 
 From today you'll find two new components available in the PlayCanvas Editor.
 
@@ -30,7 +30,7 @@ The element component also features useful layout features like anchoring and pi
 
 Supporting text in PlayCanvas is trivial now. Simply drag and drop a TTF font file from your computer into the asset panel and we'll convert it into our special *multi-channel signed distance field* font asset which means that text can be scaled and render an almost any size and remain crisp and readable.
 
-![Text Elements](/assets/media/debugscripts___Editor.jpg)
+![Text Elements](/assets/media/editor-text-elements.jpg)
 
 ### Learning more
 
