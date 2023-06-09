@@ -25,11 +25,11 @@ Development of SWOOOP made heavy use of the real-time collaboration and cloud-ho
 
 Try SWOOOP for yourselves at [http://swooop.playcanvas.com/](http://swooop.playcanvas.com/) it runs great in all modern browsers. For an even cooler experience try it in Chrome or Firefox for Android. SWOOOP is the world's best looking game, available to play in mobile browsers.
 
-**Mobile App Stores**
+### Mobile App Stores
 
 While SWOOOP runs great in browsers, both desktop and mobile, it's important that we allow game creators the widest possible distribution. Which is why we've partnered with Ludei. Using their [CocoonJS](https://en.wikipedia.org/wiki/CocoonJS) technology we're able to compile SWOOOP to a native application that can run on both Android and iOS devices. Look out for SWOOOP in mobile app stores really soon.
 
-**Open Project**
+### Open Project
 
 [![SWOOOP in Designer](/assets/media/designer-swooop.png)](/assets/media/designer-swooop.png)
 <br>_The SWOOOP project is open to everyone_
