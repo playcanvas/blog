@@ -44,7 +44,7 @@ Collaboration and the fact you can make games straight away and test them out in
 
 I do care about things going on around and will always get obsessed by things I work on, I want to get as much as possible from my efforts.
 
-**The Quick Fire round (this is where things get a little interesting)**
+#### The Quick Fire round (this is where things get a little interesting)
 
 **Zelda or Final fantasy?**
 

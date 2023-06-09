@@ -44,7 +44,7 @@ I see it becoming the pinnacle in convenience. Ultimate accessibility. Completel
 
 I wanted to work at Marvel Comics when I was 18. I used to take my portfolio along to the London Comic Art Convention looking for a job. In the end, my coding skills won out which is probably for the best!
 
-**The Quick-fire Round (this is where things get a little interesting)**
+#### The Quick-fire Round (this is where things get a little interesting)
 
 **Zelda or Final fantasy?**
 

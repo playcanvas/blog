@@ -21,9 +21,7 @@ Now we expanding our community features into the world of forums and random inte
 
 [PlayCanvas Discussion](https://forum.playcanvas.com) is our community forum. Unlike Answers which is focussed on getting you solutions to problems, Discussion is for long rambling trains of thought, showing off your work, arguing back and forth about how best to implement a performant [flocking algorithm](https://forum.playcanvas.com/t/not-a-game-not-for-the-fishing-jam/25) in JavaScript and general holding court about all things Game Dev, HTML5 and PlayCanvas related.
 
----
-
-#### A little note on Discourse
+### A little note on Discourse
 
 [![Discourse logo](/assets/media/discourse.png)](/assets/media/discourse.png)
 <br>_Civilized Discourse_

@@ -24,7 +24,7 @@ Checkpoints take a snapshot of your project at a moment in time. This lets you r
 
 Like other version control systems with PlayCanvas you can create independent lines of development by creating branches. Branches let you or your team work on changes and features that don't affect your main product development.
 
-![](/assets/media/merging-checkpoints-3-1024x366.png)
+![Branch and Merge](/assets/media/merging-checkpoints-3-1024x366.png)
 
 ### Merging
 

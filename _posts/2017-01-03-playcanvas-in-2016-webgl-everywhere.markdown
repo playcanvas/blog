@@ -28,7 +28,7 @@ The last twelve months have seen some incredible companies adopt PlayCanvas. Her
 
 **Leapfrog** launched the [Leapfrog Academy](https://store.leapfrog.com/en-gb/academy/landing) subscription service
 
-![](/assets/media/leapfrog-academy.jpeg)
+![Leapfrog Academy](/assets/media/leapfrog-academy.jpeg)
 
 **Nickelodeon** published the TMNT game Turflytle
 

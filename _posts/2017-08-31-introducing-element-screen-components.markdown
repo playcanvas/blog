@@ -30,7 +30,7 @@ The element component also features useful layout features like anchoring and pi
 
 Supporting text in PlayCanvas is trivial now. Simply drag and drop a TTF font file from your computer into the asset panel and we'll convert it into our special *multi-channel signed distance field* font asset which means that text can be scaled and render an almost any size and remain crisp and readable.
 
-![](/assets/media/debugscripts___Editor.jpg)
+![Text Elements](/assets/media/debugscripts___Editor.jpg)
 
 ### Learning more
 
