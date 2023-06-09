@@ -14,11 +14,11 @@ tags:
   - news
 ---
 
-[![D.E.M.O. screenshot](/assets/media/scifi-demo.jpg)](http://apps.playcanvas.com/playcanvas/scifi/latest)
+[![D.E.M.O. screenshot](/assets/media/scifi-demo.jpg)](https://playcanv.as/p/UAR6UQNM/)
 
 Game: D.E.M.O. 3rd Person Shooter
 
-[D.E.M.O.](http://apps.playcanvas.com/playcanvas/scifi/latest) the 3rd-Person action shooter demo that we released back in August has just been featured in .net magazine's:
+[D.E.M.O.](https://playcanv.as/p/UAR6UQNM/) the 3rd-Person action shooter demo that we released back in August has just been featured in .net magazine's:
 
 ### [Top 10 HTML5 games of 2012](http://www.netmagazine.com/features/top-10-html5-games-2012)
 

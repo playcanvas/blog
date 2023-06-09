@@ -20,7 +20,7 @@ PlayCanvas were lucky enough to show a demo of our collaborative HTML5 game deve
 
 However, we really wanted to show something a little more high-end, to showcase the possibilities that HTML5 offers for next-generation browser games. With a little under two weeks to go we started work on the demo we'd feature on the show floor. A networked multiplayer 3rd-person shooter we descriptively called 'scifi'. We’ve since renamed it to the slightly less descriptive D.E.M.O.
 
-[Try playing D.E.M.O. now](http://apps.playcanvas.com/playcanvas/scifi/latest).
+[Try playing D.E.M.O. now](https://playcanv.as/p/UAR6UQNM/).
 _**Firefox:** Hiding the mouse cursor only works in Fullscreen mode, press SPACE to toggle fullscreen._
 
 We think the result is something is pretty special so we’re sharing it with you today. We think you’ll agree that it heralds the beginning of a new generation of HTML5 games.
@@ -74,6 +74,6 @@ The service we’re building at PlayCanvas is designed to make creating games fa
 
 If you are interested in trying out PlayCanvas to build your games, get in touch, email us at <info@playcanvas.com> to join the Beta trial.
 
-### [Play the game](http://apps.playcanvas.com/playcanvas/scifi/latest)
+### [Play the game](https://playcanv.as/p/UAR6UQNM/)
 
 Try out D.E.M.O for yourselves. We’ve divided it into multiple 3-player games, you will join the first free game. It should run in any browser that supports WebGL.
