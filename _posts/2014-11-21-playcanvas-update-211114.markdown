@@ -47,10 +47,6 @@ Our new **Particle System** is only in beta form but already we're seeing great 
 
 ### Other News
 
-#### Referrals
-
-Our new [**Referrals Program**](https://blog.playcanvas.com/playcanvas-referrals-program/) is our way of saying thank you for sharing the PlayCanvas Engine. Simply share your [unique referral link](https://playcanvas.com/referrals) where and when you please and if a user signs up to PlayCanvas using your link, you get **5% of anything they spend** on PlayCanvas for their first year.
-
 #### Propsplanet
 
 We [announced](https://blog.playcanvas.com/3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas/) that PlayCanvas is now powering 3D Asset Store [Propsplanet](http://www.propsplanet.com). Propsplanet is a great place to pick up beautiful game ready assets. Using their 3D preview you'll see exactly what the asset looks like in your game before you buy.
