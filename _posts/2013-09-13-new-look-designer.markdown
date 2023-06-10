@@ -9,6 +9,8 @@ title: New Look Designer
 categories:
   - Announcement
   - News
+tags:
+  - editor
 ---
 
 We've updated the Designer theme to give it an all-new Pro look.

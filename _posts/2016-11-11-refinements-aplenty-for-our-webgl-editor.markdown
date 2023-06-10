@@ -8,6 +8,8 @@ slug: refinements-aplenty-for-our-webgl-editor
 title: Refinements aplenty for our WebGL Editor
 categories:
   - News
+tags:
+  - editor
 ---
 
 You probably saw this week's [big announcement about our seamless integration with WebVR](https://blog.playcanvas.com/webvr-support-in-playcanvas/). But while WebVR is getting a lot of attention, we still care about the small details that can make you even more productive. We've spent the week adding some simple yet useful tweaks to the Editor.

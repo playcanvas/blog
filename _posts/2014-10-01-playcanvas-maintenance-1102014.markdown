@@ -9,6 +9,8 @@ slug: playcanvas-maintenance-1102014
 title: PlayCanvas Maintenance 1/10/2014
 categories:
   - Announcement
+tags:
+  - maintenance
 ---
 
 We're going to be performing server maintenance over the next 48 hours to prepare for the next stages of our growth.

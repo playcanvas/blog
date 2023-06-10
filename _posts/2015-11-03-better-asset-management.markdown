@@ -8,6 +8,8 @@ slug: better-asset-management
 title: Better Asset Management
 categories:
   - News
+tags:
+  - editor
 ---
 
 ![PlayCanvas Editor](/assets/media/editor-bmw.png)

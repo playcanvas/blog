@@ -8,6 +8,9 @@ slug: swooop
 title: SWOOOP
 categories:
   - Announcement
+tags:
+  - game
+  - swooop
 ---
 
 [![SWOOOP title](/assets/media/swooop_blog.jpg)](/assets/media/swooop_blog.jpg)

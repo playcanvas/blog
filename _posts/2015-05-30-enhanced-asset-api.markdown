@@ -9,6 +9,8 @@ title: Enhanced Asset API
 categories:
   - Announcement
   - Features
+tags:
+  - engine
 ---
 
 Today we're pleased to update the engine and tools with a new Asset API. We've finessed the API to make it more intuitive and also added some extra features to make it easier for you to preload or stream in assets at any stage of your application.

@@ -8,6 +8,10 @@ slug: master-archer-lands-on-facebook-instant-games
 title: Master Archer lands on Facebook Instant Games
 categories:
   - News
+tags:
+  - facebook
+  - game
+  - instant-games
 ---
 
 {% include youtube.html id="uxFMr_XekPY" %}

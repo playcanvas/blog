@@ -9,6 +9,8 @@ title: "Making an HTML5 game : Pong"
 categories:
   - Announcement
   - Tutorial
+tags:
+  - tutorial
 ---
 
 A video tutorial on how to make a Pong clone using PlayCanvas.

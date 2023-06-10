@@ -9,8 +9,6 @@ title: HTML5 APIs for game developers
 categories:
   - Technology
 tags:
-  - browsers
-  - coding
   - html5
 ---
 

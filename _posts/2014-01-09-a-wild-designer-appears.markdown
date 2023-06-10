@@ -9,6 +9,8 @@ title: A wild designer appears!
 categories:
   - Announcement
   - News
+tags:
+  - team
 ---
 
 To kick off 2014 with a bang, we're welcoming a brand new member to the PlayCanvas family.

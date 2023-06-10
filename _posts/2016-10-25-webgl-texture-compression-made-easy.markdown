@@ -8,6 +8,9 @@ slug: webgl-texture-compression-made-easy
 title: WebGL Texture Compression Made Easy
 categories:
   - News
+tags:
+  - compression
+  - performance
 ---
 
 Big news! PlayCanvas is excited to introduce **easy texture compression**, enabling you to build bigger and better WebGL apps.

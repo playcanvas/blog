@@ -9,11 +9,9 @@ title: Web AR Experiences - Developer Spotlight with Animech
 categories:
   - Developer Spotlight
 tags:
-  - AR
-  - html5
-  - PlayCanvas
-  - WebAR
-  - webgl
+  - ar
+  - webxr
+  - spotlight
 ---
 
 {% include youtube.html id="LLuB-2OpcFo" %}

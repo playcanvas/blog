@@ -9,6 +9,8 @@ title: Who Ludum Dares Wins!
 categories:
   - Announcement
   - News
+tags:
+  - ludum-dare
 ---
 
 Submit a game to Ludum Dare and get a 1 year pro account for **free**!

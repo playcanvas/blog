@@ -9,6 +9,9 @@ title: iOS 8 launched with WebGL
 categories:
   - Announcement
   - News
+tags:
+  - apple
+  - webgl
 ---
 
 Amazing news for PlayCanvas Users, iOS 8 is out.

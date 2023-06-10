@@ -9,6 +9,8 @@ title: "Feature Update: Import Pipeline Improvements"
 categories:
   - Features
   - News
+tags:
+  - editor
 ---
 
 Today's new features are part of our on-going process of making your PlayCanvas experience easier and easier. And despite the title, we've released some awesome changes today.

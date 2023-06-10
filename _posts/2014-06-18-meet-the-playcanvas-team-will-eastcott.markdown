@@ -9,7 +9,7 @@ title: "Meet the PlayCanvas team: Will Eastcott"
 categories:
   - News
 tags:
-  - MeetPlayCanvas
+  - team
 ---
 
 **Our recent commitment to open sourcing is not the only thing we at PlayCanvas are open about. To help get in touch with our community, we are starting a series of posts about the people behind PlayCanvas. From the informative down to the outright silly, step deeper into our world.**

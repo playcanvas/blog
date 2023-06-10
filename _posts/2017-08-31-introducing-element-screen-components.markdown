@@ -8,6 +8,9 @@ slug: introducing-element-screen-components
 title: Introducing Element & Screen Components
 categories:
   - Features
+tags:
+  - editor
+  - ui
 ---
 
 Building user interfaces in graphical applications provides a unique challenge. Today we're pleased to launch two new components to help you build user interfaces inside your WebGL application.

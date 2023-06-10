@@ -8,6 +8,9 @@ slug: runtime-lightmap-generation-for-webgl
 title: Runtime Lightmap Generation for WebGL
 categories:
   - Features
+tags:
+  - editor
+  - graphics
 ---
 
 For many years, lightmapping has been the mainstay of achieving low cost yet realistic lighting. However, it's rarely seen in WebGL applications because generating lightmaps requires third-party modelling applications with complex workflows in order to bake out textures.

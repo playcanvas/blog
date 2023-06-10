@@ -8,6 +8,8 @@ slug: seemore-physically-based-rendering-in-webgl
 title: "Seemore: Physically Based Rendering in WebGL"
 categories:
   - News
+tags:
+  - seemore
 ---
 
 GDC is here again. What better time to announce our newest demo, built to show the awesome power of the [ARM Mali family of GPUs](<https://en.wikipedia.org/wiki/Mali_(processor)>). It's called Seemore, and it showcases the next evolutionary step in PlayCanvas' Physically Based Rendering (PBR) technology.

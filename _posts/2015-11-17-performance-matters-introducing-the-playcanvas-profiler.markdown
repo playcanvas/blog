@@ -8,6 +8,9 @@ slug: performance-matters-introducing-the-playcanvas-profiler
 title: "Performance Matters: Introducing the PlayCanvas Profiler"
 categories:
   - News
+tags:
+  - editor
+  - performance
 ---
 
 Time to take the wraps off the latest awesome feature in PlayCanvas. We're super-excited to unveil the PlayCanvas Profiler.

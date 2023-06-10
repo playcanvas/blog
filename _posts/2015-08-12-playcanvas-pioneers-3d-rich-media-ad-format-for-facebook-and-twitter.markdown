@@ -8,6 +8,8 @@ slug: playcanvas-pioneers-3d-rich-media-ad-format-for-facebook-and-twitter
 title: PlayCanvas pioneers 3D rich media ad format for Facebook and Twitter
 categories:
   - Announcement
+tags:
+  - ads
 ---
 
 PlayCanvas, the leading tool for creating interactive 3D content for the web, today announced that it is powering the launch of the first interactive 3D social media campaign for Hutch Games’s smash hit mobile game MMX Racing featuring WWE.

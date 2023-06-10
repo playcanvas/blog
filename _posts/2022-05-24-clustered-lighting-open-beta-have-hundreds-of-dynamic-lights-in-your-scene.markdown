@@ -8,6 +8,8 @@ slug: clustered-lighting-open-beta-have-hundreds-of-dynamic-lights-in-your-scene
 title: Clustered Lighting Open Beta - Have hundreds of dynamic lights in your scene!
 categories:
   - News
+tags:
+  - graphics
 ---
 
 Our team has been working on a new lighting system for a little while now and it's reached the stage where we want to share it to the community!

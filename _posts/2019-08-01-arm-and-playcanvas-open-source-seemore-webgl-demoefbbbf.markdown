@@ -9,10 +9,7 @@ title: "Arm and PlayCanvas Open Source Seemore WebGL Demo\uFEFF"
 categories:
   - News
 tags:
-  - 3d
   - arm
-  - mali
-  - PlayCanvas
   - seemore
   - webgl
   - webgl2

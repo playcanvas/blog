@@ -8,6 +8,9 @@ slug: playcanvas-launches-gltf-2-0-viewer-tool
 title: PlayCanvas launches glTF 2.0 Viewer Tool
 categories:
   - News
+tags:
+  - gltf
+  - viewer
 ---
 
 Today, the PlayCanvas team is excited to announce the release of a brand new browser-based glTF viewer application.

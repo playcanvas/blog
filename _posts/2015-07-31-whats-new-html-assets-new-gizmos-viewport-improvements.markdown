@@ -8,6 +8,8 @@ slug: whats-new-html-assets-new-gizmos-viewport-improvements
 title: What's new? HTML Assets, New Gizmos, Viewport improvements
 categories:
   - News
+tags:
+  - editor
 ---
 
 It's been a busy few weeks at PlayCanvas towers. We've launched a bunch of new features today and over the last few weeks. So here's a quick summary:

@@ -8,6 +8,8 @@ slug: playcanvas-game-jam
 title: PlayCanvas Game Jam
 categories:
   - News
+tags:
+  - event
 ---
 
 Yesterday, at PlayCanvas we hosted our first physical Game Jam. By physical, I mean we had all the developers in the same location, not that we made them run around and do push-ups!

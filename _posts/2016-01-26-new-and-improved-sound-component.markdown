@@ -8,6 +8,9 @@ slug: new-and-improved-sound-component
 title: New and Improved Sound Component
 categories:
   - News
+tags:
+  - editor
+  - sound
 ---
 
 It's been a long running issue that our Audio Source component wasn't quite feature-complete enough to do some of the more advanced features of an audio heavy game or interactive experience. Today, we're blowing those issues out of the water with a sonic boom!

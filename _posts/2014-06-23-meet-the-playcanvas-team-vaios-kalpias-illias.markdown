@@ -9,7 +9,7 @@ title: "Meet the PlayCanvas team: Vaios Kalpias-Illias"
 categories:
   - News
 tags:
-  - MeetPlayCanvas
+  - team
 ---
 
 ![Vaios](/assets/media/team-vaios-2014.jpg)

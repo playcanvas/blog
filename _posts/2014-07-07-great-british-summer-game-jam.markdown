@@ -8,6 +8,8 @@ slug: great-british-summer-game-jam
 title: Great British Summer Game Jam
 categories:
   - News
+tags:
+  - event
 ---
 
 PlayCanvas was proud to be one of the partners for this weekend's Great British Summer Game Jam. An event put together by Autodesk and Mind Candy where a group of extremely talented game developers got together over a weekend, teamed up and built a game in just 20 hours!

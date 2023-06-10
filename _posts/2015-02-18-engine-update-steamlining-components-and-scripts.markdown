@@ -8,6 +8,8 @@ slug: engine-update-streamlining-components-and-scripts
 title: "Engine Update: Streamlining Components and Scripts"
 categories:
   - News
+tags:
+  - engine
 ---
 
 With the latest [engine changes](https://github.com/playcanvas/engine/commit/f3c165d2abcf3b58dca1535884115d9e9c20dcc6) released today (v0.164.0), we're streamlining our API to make it quicker and easier for you to get started with PlayCanvas. Less API to remember, more time coding your game.

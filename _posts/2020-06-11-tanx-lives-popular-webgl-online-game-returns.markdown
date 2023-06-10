@@ -9,6 +9,8 @@ title: TANX lives! Popular WebGL online game returns
 categories:
   - Announcement
   - News
+tags:
+  - tanx
 ---
 
 In the early days of PlayCanvas, we published a game called TANX, an online multiplayer tank battle game.

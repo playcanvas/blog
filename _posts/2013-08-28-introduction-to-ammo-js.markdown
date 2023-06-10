@@ -9,6 +9,9 @@ title: Introduction to ammo.js
 categories:
   - Announcement
   - News
+tags:
+  - event
+  - physics
 ---
 
 Last night I presented at the [London HTML5 Game Dev meetup](http://www.meetup.com/London-HTML5-Game-Developers/). As usual we had an awesome time and if you're based in or around London then you should definitely try and get along to the next one.

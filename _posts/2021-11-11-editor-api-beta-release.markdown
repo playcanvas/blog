@@ -8,6 +8,8 @@ slug: editor-api-beta-release
 title: Editor API beta release
 categories:
   - News
+tags:
+  - editor
 ---
 
 Over the last few months, we have been working on an [Editor API](https://developer.playcanvas.com/en/user-manual/designer/editor-api/) that allows users to automate tedious tasks and extend the base functionality.

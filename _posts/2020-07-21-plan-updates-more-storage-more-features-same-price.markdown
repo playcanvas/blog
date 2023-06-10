@@ -10,9 +10,7 @@ categories:
   - Announcement
   - News
 tags:
-  - edit
   - plans
-  - users
 ---
 
 Creativity makes our world a better place. PlayCanvas unlocks creativity through collaborative, frictionless tools that enable everybody to build, share and play together.

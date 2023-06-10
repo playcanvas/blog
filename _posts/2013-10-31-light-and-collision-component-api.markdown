@@ -8,6 +8,8 @@ slug: light-and-collision-component-api
 title: Light and Collision Component API
 categories:
   - Announcement
+tags:
+  - editor
 ---
 
 Light and Collision components have been consolidated from 7 components to 2!

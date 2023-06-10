@@ -8,6 +8,9 @@ slug: instant-games-and-playcanvas
 title: Instant Games and PlayCanvas
 categories:
   - News
+tags:
+  - facebook
+  - instant-games
 ---
 
 You may have seen the news about Facebook launching Instant Games in Messenger. If not here's the launch video

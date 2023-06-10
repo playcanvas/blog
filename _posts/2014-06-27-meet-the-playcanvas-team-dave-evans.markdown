@@ -9,7 +9,7 @@ title: "Meet the PlayCanvas team: Dave Evans"
 categories:
   - News
 tags:
-  - MeetPlayCanvas
+  - team
 ---
 
 ![Dave](/assets/media/team-dave-2014.jpg)
