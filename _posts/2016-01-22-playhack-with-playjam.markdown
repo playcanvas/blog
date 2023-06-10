@@ -8,6 +8,8 @@ slug: playhack-with-playjam
 title: PLAYHACK with Playjam
 categories:
   - News
+tags:
+  - partnership
 ---
 
 [![PLAYHACK_clear](/assets/media/PLAYHACK_clear.png)](/assets/media/PLAYHACK_clear.png)

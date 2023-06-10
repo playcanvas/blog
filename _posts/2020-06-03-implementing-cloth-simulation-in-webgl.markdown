@@ -9,7 +9,7 @@ title: Implementing Cloth Simulation in WebGL
 categories:
   - News
 tags:
-  - cloth
+  - demo
   - physics
 ---
 

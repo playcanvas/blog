@@ -10,6 +10,7 @@ categories:
   - News
 tags:
   - demo
+  - partnership
   - webgl
 ---
 
