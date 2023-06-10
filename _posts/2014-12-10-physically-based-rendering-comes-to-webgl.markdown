@@ -8,6 +8,8 @@ slug: physically-based-rendering-comes-to-webgl
 title: Physically Based Rendering comes to WebGL
 categories:
   - News
+tags:
+  - engine
 ---
 
 {% include playcanvas.html type="p" id="SA7hVBLt" %}

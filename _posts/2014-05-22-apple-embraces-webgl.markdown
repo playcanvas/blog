@@ -8,6 +8,9 @@ slug: apple-embraces-webgl
 title: Apple Embraces WebGL
 categories:
   - News
+tags:
+  - apple
+  - webgl
 ---
 
 In July 2011, Apple released Safari 5.1 bringing WebGL to OS X users. WebGL advocates the world over rejoiced - except there was a catch. WebGL was disabled by default, hidden behind a flag buried deep within Safari's preferences panel. The general expectation was that a switch to 'on by default' could not be far behind. Almost 3 years on, it seems this view was seriously misjudged.

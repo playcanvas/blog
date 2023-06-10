@@ -9,7 +9,7 @@ title: glTF Viewer Arrives on Mobile with AR Support
 categories:
   - News
 tags:
-  - AR
+  - ar
   - gltf
   - mobile
   - viewer

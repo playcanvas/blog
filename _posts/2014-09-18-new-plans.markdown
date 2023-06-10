@@ -8,6 +8,8 @@ slug: new-plans
 title: New Plans
 categories:
   - News
+tags:
+  - plans
 ---
 
 We're introducing new plans for PlayCanvas users.

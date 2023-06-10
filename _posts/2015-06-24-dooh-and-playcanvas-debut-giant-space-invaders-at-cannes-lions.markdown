@@ -8,6 +8,8 @@ slug: dooh-and-playcanvas-debut-giant-space-invaders-at-cannes-lions
 title: DOOH and PlayCanvas debut Giant Space Invaders at Cannes Lions
 categories:
   - News
+tags:
+  - ads
 ---
 
 _Cannes Lions_ is the world's biggest annual awards show and festival for professionals in the creative communications industry.

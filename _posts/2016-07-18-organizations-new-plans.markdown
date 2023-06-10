@@ -9,6 +9,8 @@ title: Organizations & new plans
 categories:
   - Announcement
   - Features
+tags:
+  - plans
 ---
 
 Today we're pleased to launch **Organizations** for PlayCanvas users along with an updated and simplified set of plans including unlimited projects and more storage.

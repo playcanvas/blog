@@ -8,6 +8,8 @@ slug: playcanvas-google-io
 title: PlayCanvas @ Google I/O
 categories:
   - News
+tags:
+  - event
 ---
 
 A massive thank you to everybody who took the time to swing by our stand at Google I/O last week. We had an amazing time and hope you did too. If you weren't at the conference, here's our space in the Developer Sandbox:

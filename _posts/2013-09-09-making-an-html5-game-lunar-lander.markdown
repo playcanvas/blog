@@ -9,6 +9,8 @@ title: "Making an HTML5 game: Lunar Lander"
 categories:
   - Announcement
   - Tutorial
+tags:
+  - tutorial
 ---
 
 A video tutorial recreating arcade classic, Lunar Lander in 3D.

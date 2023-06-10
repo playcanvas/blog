@@ -8,6 +8,9 @@ slug: playcanvas-versus-unity-webgl
 title: PlayCanvas versus Unity WebGL
 categories:
   - News
+tags:
+  - unity
+  - performance
 ---
 
 A question we get asked a lot is "How does PlayCanvas compare to Unity's WebGL export?". So let's examine this in a blog post.

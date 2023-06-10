@@ -8,6 +8,9 @@ slug: webvr-support-in-playcanvas
 title: WebVR support in PlayCanvas
 categories:
   - Features
+tags:
+  - webvr
+  - vr
 ---
 
 Today we're really excited to announce support for WebVR into the PlayCanvas Editor.

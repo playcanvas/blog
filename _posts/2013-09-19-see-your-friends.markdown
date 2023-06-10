@@ -9,6 +9,8 @@ title: See Your Friends!
 categories:
   - Announcement
   - Features
+tags:
+  - editor
 ---
 
 See what all your friends are looking at, as remote user cameras show up in the Designer.

@@ -8,6 +8,8 @@ slug: the-making-of-seemore-webgl
 title: The Making of Seemore WebGL
 categories:
   - News
+tags:
+  - seemore
 ---
 
 At GDC 2015, ARM and PlayCanvas unveiled the Seemore WebGL demo. If you haven’t seen it yet, it takes WebGL graphics to a whole new level.

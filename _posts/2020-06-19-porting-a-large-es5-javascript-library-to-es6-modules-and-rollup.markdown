@@ -8,6 +8,9 @@ slug: porting-a-large-es5-javascript-library-to-es6-modules-and-rollup
 title: Porting a Large ES5 JavaScript Library to ES6 Modules and Rollup
 categories:
   - News
+tags:
+  - engine
+  - javascript
 ---
 
 Since 2011, the [PlayCanvas engine sourcebase](https://github.com/playcanvas/engine) has adhered strictly to the ES5 JavaScript specification. Since then, the JavaScript language and the surrounding tools ecosystem has moved on considerably. But PlayCanvas has steadfastly stuck to ES5. Why? Internet Explorer 11.

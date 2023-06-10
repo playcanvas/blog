@@ -9,6 +9,8 @@ title: "New Feature: 2D Sprites and 9-slicing"
 categories:
   - Features
   - News
+tags:
+  - sprites
 ---
 
 PlayCanvas is one of the most popular ways to build 3D interactive web content today. But before 3D graphics was a thing, there was 2D graphics!

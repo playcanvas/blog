@@ -11,6 +11,7 @@ categories:
   - Features
   - News
 tags:
+  - asset-store
   - editor
   - news
   - workflow

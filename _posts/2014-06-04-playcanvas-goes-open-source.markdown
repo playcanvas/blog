@@ -9,6 +9,9 @@ title: PlayCanvas goes open source
 categories:
   - Announcement
   - News
+tags:
+  - engine
+  - open-source
 ---
 
 When we first started PlayCanvas ([over 2,716 commits ago](https://github.com/playcanvas/engine)) WebGL was just beginning to make it's way from Chrome and Firefox Nightlies into stable releases. Fast-forward to 3 years and WebGL is everywhere, Firefox and Chrome have strong support both on desktop and on mobile. And just this week the final player Apple have joined us with [WebGL support](https://blog.playcanvas.com/ios-webgl-support/) for both Safari and iOS.

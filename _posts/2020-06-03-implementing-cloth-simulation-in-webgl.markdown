@@ -9,11 +9,8 @@ title: Implementing Cloth Simulation in WebGL
 categories:
   - News
 tags:
-  - ammojs
   - cloth
   - physics
-  - PlayCanvas
-  - webgl
 ---
 
 The PlayCanvas WebGL game engine integrates with [ammo.js](https://github.com/kripken/ammo.js) - a JavaScript/WebAssembly port of the powerful [Bullet](https://github.com/bulletphysics/bullet3) physics engine - to enable rigid body physics simulation. We have recently been working out how to extend PlayCanvas’ capabilities by using soft body simulation. The aim is to allow developers to easily set up characters to use soft body dynamics.

@@ -11,7 +11,8 @@ categories:
 tags:
   - basis
   - compression
-  - textures
+  - graphics
+  - performance
 ---
 
 PlayCanvas implemented the fantastic hardware texture compression [workflow in 2016](https://blog.playcanvas.com/webgl-texture-compression-made-easy/#more-2426) which allowed users to build bigger and better WebGL apps, even on low memory devices like mobile phones.

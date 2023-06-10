@@ -8,6 +8,8 @@ slug: playcanvas-in-the-spotlight-at-3d-web-fest
 title: PlayCanvas in the Spotlight at 3D Web Fest
 categories:
   - News
+tags:
+  - event
 ---
 
 On May 13th, San Francisco played host to 3D Web Fest.

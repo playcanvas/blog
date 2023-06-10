@@ -9,6 +9,9 @@ title: WebGL on iPhone in less than a minute
 categories:
   - Announcement
   - Features
+tags:
+  - apple
+  - webgl
 ---
 
 If you've been following the tech news over the last few months you'll have noticed that Apple is about to launch the latest version of their mobile operating system iOS 8. For us game developers this is awesome news because iOS 8 supports WebGL in mobile Safari (the [news we broke on this blog](https://blog.playcanvas.com/apple-embraces-webgl/) a few months ago).

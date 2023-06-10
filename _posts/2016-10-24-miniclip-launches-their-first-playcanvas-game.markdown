@@ -8,6 +8,8 @@ slug: miniclip-launches-their-first-playcanvas-game
 title: Miniclip Launches Their First PlayCanvas Game
 categories:
   - News
+tags:
+  - game
 ---
 
 PlayCanvas is proud to announce that browser-gaming giant Miniclip has published their first PlayCanvas-powered game: Virtual Voodoo.

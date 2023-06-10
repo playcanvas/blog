@@ -9,6 +9,8 @@ title: Incoming Breaking Changes - New Maths API
 categories:
   - Announcement
   - Features
+tags:
+  - engine
 ---
 
 Our new math API will make your life so much easier, but it will require updating your game.

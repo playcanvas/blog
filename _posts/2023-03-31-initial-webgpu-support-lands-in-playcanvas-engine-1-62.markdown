@@ -9,8 +9,6 @@ title: Initial WebGPU support lands in PlayCanvas Engine 1.62!
 categories:
   - News
 tags:
-  - html5
-  - webgl
   - webgpu
 ---
 

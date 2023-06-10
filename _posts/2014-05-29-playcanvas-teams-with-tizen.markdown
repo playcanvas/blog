@@ -8,6 +8,8 @@ slug: playcanvas-teams-with-tizen
 title: PlayCanvas Teams with Tizen
 categories:
   - News
+tags:
+  - tizen
 ---
 
 Another exciting day at PlayCanvas Towers! PlayCanvas and Tizen have formerly announced a partnership, with PlayCanvas joining the Tizen Association Partner Program. So what does all this mean? Let's start with a little bit about Tizen.

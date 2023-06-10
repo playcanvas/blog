@@ -10,6 +10,9 @@ title: PlayCanvas Releases glTF Viewer 2.0
 categories:
   - Announcement
   - News
+tags:
+  - gltf
+  - viewer
 ---
 
 {% include youtube.html id="rj1CyM_ob3E" %}

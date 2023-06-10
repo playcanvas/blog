@@ -9,6 +9,8 @@ title: How to Make a Video Game in 48 Hours
 categories:
   - Announcement
   - News
+tags:
+  - ludum-dare
 ---
 
 Making a video game in 48 hours is tough. In fact, it's one of the most gruelling mental challenges you can face. But every 4 months, thousands of die hard game developers enter [Ludum Dare](https://ludumdare.com/), a game jam of epic proportions. And they're not doing it for the prizes (there aren't any) or even the glory. They're doing it to give the gift of a game. And when it's a game you have created yourself, it's a very personal and powerful gift.

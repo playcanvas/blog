@@ -8,6 +8,8 @@ slug: whats-new-multi-selection-gizmos-and-faster-lighting
 title: "What's New: Multi-selection, Gizmos and Faster Lighting"
 categories:
   - News
+tags:
+  - editor
 ---
 
 Greetings, PlayCanvians! It's time to update you on all the cool things we've deployed recently. Let's get started!

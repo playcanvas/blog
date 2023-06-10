@@ -9,6 +9,8 @@ title: Game Development Trends Talk
 categories:
   - Announcement
   - News
+tags:
+  - event
 ---
 
 Last week, I did a talk at the [London Game Space](http://londongamespace.com) about game development trends and how it is influencing what we are doing at [PlayCanvas](https://playcanvas.com).

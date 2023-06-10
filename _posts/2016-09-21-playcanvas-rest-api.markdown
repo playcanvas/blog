@@ -8,6 +8,8 @@ slug: playcanvas-rest-api
 title: PlayCanvas REST API
 categories:
   - News
+tags:
+  - rest-api
 ---
 
 ![REST API](/assets/media/rest-api.png)

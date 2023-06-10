@@ -8,6 +8,8 @@ slug: playcanvas-engine-reaches-1-0-0
 title: PlayCanvas Engine reaches 1.0.0!
 categories:
   - News
+tags:
+  - engine
 ---
 
 PlayCanvas was born 7 years ago, way back on 9th May 2011. In the early days, we were essentially prototyping, seeing what this amazing new WebGL API could do. By October 2011, we set up a source code repository and [committed our first engine prototype](https://github.com/playcanvas/engine/commit/e5bf014e). Right at the beginning, we adopted [semantic versioning](https://semver.org/) for naming our releases. Our initial commit generated [engine v0.10.0](https://code.playcanvas.com/playcanvas-0.10.0.js). From that point onwards, we adopted a rapid release cadence, often publishing more than one release a week. The months and years passed, our team grew and feature after feature was integrated into the codebase. But through all that time, we never incremented the major version number. Why? Well, there were several reasons:

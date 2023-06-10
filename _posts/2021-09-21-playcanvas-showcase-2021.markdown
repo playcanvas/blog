@@ -9,9 +9,6 @@ title: PlayCanvas Showcase 2021
 categories:
   - Announcement
 tags:
-  - configurators
-  - experiences
-  - games
   - showcase
 ---
 

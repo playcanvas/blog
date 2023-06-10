@@ -9,6 +9,10 @@ title: PlayCanvas Scripts 2.0
 categories:
   - Announcement
   - Features
+tags:
+  - editor
+  - engine
+  - scripting
 ---
 
 {% include youtube.html id="PS4oMLPyYfI" %}
