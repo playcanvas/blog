@@ -5,7 +5,7 @@ date: 2021-11-11 13:28:54+00:00
 layout: post
 link: https://blog.playcanvas.com/editor-api-beta-release/
 slug: editor-api-beta-release
-title: Editor API beta release
+title: Editor API Beta Release
 categories:
   - News
 tags:
@@ -20,12 +20,12 @@ Creating and modifying Entities and Assets are all accessible via the API. Add/r
 
 Here's a great example where a context menu can be added to select Entity parents in the hierarchy to speed up scene editing:
 
-[![](/assets/media/select-hierarchy-parents.gif)](/assets/media/select-hierarchy-parents.gif)
+[![Select Entity Parents](/assets/media/select-hierarchy-parents.gif)](/assets/media/select-hierarchy-parents.gif)
 _From: [https://twitter.com/yaustar/status/1446504233537314816](https://twitter.com/yaustar/status/1446504233537314816)_
 
 Or add random Entities to the scene:
 
-[![](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)
+[![Generate Random Boxes](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)
 
 More examples and links to the documentation can be found in the [User Manual](https://developer.playcanvas.com/en/user-manual/designer/editor-api/).
 

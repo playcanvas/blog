@@ -10,6 +10,7 @@ categories:
   - News
 tags:
   - game
+  - partnership
 ---
 
 PlayCanvas is proud to announce that browser-gaming giant Miniclip has published their first PlayCanvas-powered game: Virtual Voodoo.
