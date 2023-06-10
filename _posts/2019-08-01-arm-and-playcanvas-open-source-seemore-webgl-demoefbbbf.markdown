@@ -9,10 +9,10 @@ title: "Arm and PlayCanvas Open Source Seemore WebGL Demo\uFEFF"
 categories:
   - News
 tags:
-  - arm
+  - demo
+  - open-source
   - seemore
   - webgl
-  - webgl2
 ---
 
 **Cambridge/Santa Monica, August 1 2019** - Arm and [PlayCanvas](https://playcanvas.com/) are announcing the open sourcing of the renowned Seemore WebGL demo. First published in 2016, the graphical technical demo has been completely rebuilt from the ground up to deliver even more incredible performance and visuals. With it, developers are empowered to build their projects in the most optimized way, as well as using it to incorporate some of its performant features and components into their own projects.

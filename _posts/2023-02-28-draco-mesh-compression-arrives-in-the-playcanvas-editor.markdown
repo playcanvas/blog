@@ -9,8 +9,10 @@ title: Draco Mesh Compression Arrives in the PlayCanvas Editor
 categories:
   - News
 tags:
-  - draco
+  - compression
+  - editor
   - gltf
+  - performance
 ---
 
 We are thrilled to announce the immediate availability of Draco Mesh Compression in the PlayCanvas Editor! Our latest feature allows developers to compress meshes using Google's Draco technology, reducing file sizes and enhancing the end-user experience.
