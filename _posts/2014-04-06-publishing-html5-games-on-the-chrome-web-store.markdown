@@ -11,6 +11,8 @@ categories:
   - News
   - Technology
   - Tutorial
+tags:
+  - publishing
 ---
 
 If you're building HTML5 games, chances are that you want as many people to play your game as possible and, in an ideal world, you'll make some money in the process. Monetization on the web is harder than it is on mobile app stores, where payment processing is standardized and credit card details are stored. But there are still a number of options. One great platform you should consider for your game is the [Chrome Web Store](https://chrome.google.com/webstore).

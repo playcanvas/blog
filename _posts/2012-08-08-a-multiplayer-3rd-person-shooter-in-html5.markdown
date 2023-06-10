@@ -9,8 +9,8 @@ title: Making a multiplayer 3rd-person shooter in HTML5
 categories:
   - News
 tags:
-  - demo
-  - news
+  - game
+  - networking
 ---
 
 ![D.E.M.O.](/assets/media/demo-game.jpg)

@@ -8,6 +8,8 @@ slug: dungeon-fury-3d-browser-gaming-arrives-on-mobile
 title: "Dungeon Fury: 3D Browser Gaming Arrives on Mobile"
 categories:
   - News
+tags:
+  - game
 ---
 
 [![Dungeon Fury](/assets/media/dungeon-fury.jpg)](http://dungeonfury.playcanvas.com/)

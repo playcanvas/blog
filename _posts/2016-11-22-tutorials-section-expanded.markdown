@@ -9,6 +9,8 @@ title: Tutorials section expanded!
 categories:
   - News
   - Tutorial
+tags:
+  - tutorial
 ---
 
 [We have just revamped the tutorials page](https://developer.playcanvas.com/en/tutorials/) to include many more code samples of functionality with PlayCanvas. These include common use cases such as creating an [Orbit Camera around an Object](https://playcanvas.com/project/438243/overview/orbit-camera), [Load Assets with a Progress Bar](https://playcanvas.com/project/436584/overview/load-assets-with-progress-bar) and more.

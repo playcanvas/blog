@@ -8,6 +8,8 @@ slug: html5-game-development-community-meet-up
 title: HTML5 Game Development Community Meet Up
 categories:
   - News
+tags:
+  - event
 ---
 
 ## Pizza, Beer and No Developer Tears

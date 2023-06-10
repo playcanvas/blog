@@ -9,6 +9,8 @@ title: 3D Asset Store Propsplanet upgrades from Unity to PlayCanvas
 categories:
   - Announcement
   - News
+tags:
+  - asset-store
 ---
 
 [![logos](/assets/media/logos.jpg)](/assets/media/logos.jpg)

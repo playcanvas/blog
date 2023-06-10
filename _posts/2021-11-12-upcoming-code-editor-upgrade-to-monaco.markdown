@@ -8,6 +8,8 @@ slug: upcoming-code-editor-upgrade-to-monaco
 title: Upcoming Code Editor upgrade to Monaco!
 categories:
   - News
+tags:
+  - scripting
 ---
 
 We have almost completed work on moving the Code Editor from Code Mirror to [Monaco](https://github.com/Microsoft/monaco-editor), the same editor that powers the ever popular, Visual Studio Code.

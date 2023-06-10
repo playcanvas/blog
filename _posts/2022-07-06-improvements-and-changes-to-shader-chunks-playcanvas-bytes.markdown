@@ -10,6 +10,8 @@ categories:
   - Features
   - News
   - PlayCanvas Bytes
+tags:
+  - graphics
 ---
 
 PlayCanvas Bytes is where we talk about upcoming work with PlayCanvas and related topics.

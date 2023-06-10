@@ -9,6 +9,8 @@ title: "New Math API: A Transition Guide"
 categories:
   - Announcement
   - News
+tags:
+  - engine
 ---
 
 Yesterday, we announced an imminent update to the PlayCanvas Math API. It's a rare event that we introduce breaking changes and we only do it because we're certain it's going to help you be much more productive. So what have we changed?

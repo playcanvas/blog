@@ -8,6 +8,8 @@ slug: feature-update-real-time-asset-support
 title: "Feature update: Real-time asset support"
 categories:
   - News
+tags:
+  - editor
 ---
 
 Big changes to some of the underlying architecture of PlayCanvas this week. The powerful features that let you edit your scenes collaboratively with other users where ever they are in the world now applies to all Asset data too.

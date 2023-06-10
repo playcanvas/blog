@@ -8,6 +8,8 @@ slug: playcanvas-to-support-flash-devs-as-adobe-kills-its-player
 title: PlayCanvas to Support Flash Devs as Adobe Kills its Player
 categories:
   - News
+tags:
+  - flash
 ---
 
 Today, Adobe [announced](https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update) that it is to kill Flash by 2020.

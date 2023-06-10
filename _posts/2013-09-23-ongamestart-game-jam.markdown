@@ -9,6 +9,8 @@ title: onGameStart Game Jam
 categories:
   - Announcement
   - News
+tags:
+  - event
 ---
 
 On Wednesday, 18th September, I flew out to Warsaw to run a workshop for onGameStart, the world's most awesome conference for HTML5 game developers.

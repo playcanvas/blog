@@ -8,6 +8,8 @@ slug: london-html5-game-developers
 title: London HTML5 Game Developers
 categories:
   - News
+tags:
+  - event
 ---
 
 In case you didn't know, PlayCanvas is based in London in the UK. There is a thriving game dev scene in London and the rest of the UK, but there was nothing specific to growing HTML5 game development scene. So we decided to help kickstart one.

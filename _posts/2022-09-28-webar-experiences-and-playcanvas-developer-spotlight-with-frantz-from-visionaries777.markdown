@@ -9,9 +9,9 @@ title: Building WebAR Experiences - Developer Spotlight with Visionaries777
 categories:
   - Developer Spotlight
 tags:
-  - PlayCanvas
-  - WebAR
-  - WebXR
+  - ar
+  - webxr
+  - spotlight
 ---
 
 [![Nissan AR](/assets/media/v777-nissan-ar.jpg)](/assets/media/v777-nissan-ar.jpg)

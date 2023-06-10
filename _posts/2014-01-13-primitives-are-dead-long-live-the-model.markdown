@@ -9,6 +9,8 @@ title: Primitives are dead! Long live the Model!
 categories:
   - Announcement
   - Features
+tags:
+  - editor
 ---
 
 One of our most requested features has landed today, and with it, it brings new power (and no new responsibility). Our most requested feature? Applying textures and materials to primitive shapes in the Designer.

@@ -9,6 +9,8 @@ title: PlayCanvas joins Autodesk for Nordic Game
 categories:
   - Announcement
   - News
+tags:
+  - event
 ---
 
 This week, thousands of indie developers are making their way to Malmö, Sweden for a very special conference. That's right folks - [Nordic Game](https://nordicgame.com/) is here again!

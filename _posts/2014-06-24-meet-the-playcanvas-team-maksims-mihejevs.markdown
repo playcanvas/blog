@@ -9,11 +9,7 @@ title: "Meet the PlayCanvas team: Maksims Mihejevs"
 categories:
   - News
 tags:
-  - gamedev
-  - html5
-  - MeetPlayCanvas
-  - PlayCanvas
-  - webgl
+  - team
 ---
 
 ![Max](/assets/media/team-max-2014.png)

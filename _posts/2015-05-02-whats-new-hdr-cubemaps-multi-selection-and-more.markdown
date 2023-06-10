@@ -8,6 +8,8 @@ slug: whats-new-hdr-cubemaps-multi-selection-and-more
 title: "What's New: HDR Cubemaps, Multi-selection and more"
 categories:
   - News
+tags:
+  - editor
 ---
 
 It's been another busy week for the PlayCanvas team. Here's a quick run down of the coolness we've deployed for you:

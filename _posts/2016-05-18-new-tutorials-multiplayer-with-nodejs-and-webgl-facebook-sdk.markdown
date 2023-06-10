@@ -8,6 +8,10 @@ slug: new-tutorials-multiplayer-with-nodejs-and-webgl-facebook-sdk
 title: "New Tutorials: Multiplayer with Node.js and WebGL & Facebook SDK"
 categories:
   - Tutorial
+tags:
+  - facebook
+  - networking
+  - tutorial
 ---
 
 We've added two new tutorials to our developer site this week.

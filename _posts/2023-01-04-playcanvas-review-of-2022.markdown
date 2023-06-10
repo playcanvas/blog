@@ -9,11 +9,7 @@ title: PlayCanvas Review of 2022
 categories:
   - News
 tags:
-  - configurator
-  - gltf
-  - PlayCanvas
   - webgl
-  - webgpu
 ---
 
 Happy New Year to you all!

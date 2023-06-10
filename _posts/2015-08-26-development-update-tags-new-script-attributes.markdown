@@ -10,6 +10,8 @@ categories:
   - Announcement
   - News
   - Technology
+tags:
+  - editor
 ---
 
 Hi everyone! It's time for another Development Update. So without further ado...

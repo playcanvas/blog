@@ -8,6 +8,8 @@ slug: welcome-ludum-darers
 title: Welcome Ludum Darers
 categories:
   - News
+tags:
+  - ludum-dare
 ---
 
 ![Ludum Dare logo](/assets/media/ludum-dare-logo.svg)

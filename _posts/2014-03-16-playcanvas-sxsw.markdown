@@ -8,6 +8,8 @@ slug: playcanvas-sxsw
 title: PlayCanvas @ SXSW
 categories:
   - News
+tags:
+  - event
 ---
 
 ![Will at SXSW Accelerator](/assets/media/sxsw-accelerator.jpg)

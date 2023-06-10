@@ -9,11 +9,8 @@ title: WebXR AR Made Easy with PlayCanvas
 categories:
   - News
 tags:
-  - AR
-  - demo
-  - gltf
-  - html5
-  - webgl
+  - ar
+  - webxr
 ---
 
 We are excited to announce the launch of our WebXR AR Starter Kit, available in the New Project dialog today!

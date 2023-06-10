@@ -9,6 +9,8 @@ title: Moving playcanv.as to HTTPS
 categories:
   - Announcement
   - Features
+tags:
+  - publishing
 ---
 
 [![tanx](/assets/media/tanx.jpg)](https://playcanv.as/p/aP0oxhUr)

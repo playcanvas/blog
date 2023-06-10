@@ -8,6 +8,8 @@ slug: scene-launching-supercharged
 title: Scene Launching Supercharged!
 categories:
   - News
+tags:
+  - editor
 ---
 
 Iterating on your PlayCanvas game just got a whole lot faster!

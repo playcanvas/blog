@@ -9,6 +9,9 @@ title: Autocomplete and Realtime API Reference added to Code Editor
 categories:
   - Announcement
   - News
+tags:
+  - editor
+  - scripting
 ---
 
 PlayCanvas scripters rejoice! The Code Editor has just received a major upgrade. We have just deployed two new related features:

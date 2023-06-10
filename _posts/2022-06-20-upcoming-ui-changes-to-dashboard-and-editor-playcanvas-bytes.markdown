@@ -12,8 +12,6 @@ categories:
   - PlayCanvas Bytes
 tags:
   - editor
-  - news
-  - webgl
 ---
 
 PlayCanvas Bytes is where we talk about upcoming work with PlayCanvas and related topics.

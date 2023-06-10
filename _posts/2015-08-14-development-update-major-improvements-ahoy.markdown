@@ -8,6 +8,8 @@ slug: development-update-major-improvements-ahoy
 title: "Development Update: Major Improvements Ahoy!"
 categories:
   - News
+tags:
+  - editor
 ---
 
 Have you noticed that everybody seems to go on vacation in August? Not PlayCanvas! We've been burning the midnight oil to bring you a raft of new features and improvements to your favorite browser-based 3D engine. Want the deets? Read on!

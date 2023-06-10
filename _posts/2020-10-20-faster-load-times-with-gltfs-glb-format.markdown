@@ -13,7 +13,6 @@ tags:
   - gltf
   - graphics
   - performance
-  - webgl
 ---
 
 The PlayCanvas team is super excited to announce the Editor support of glTF GLB conversion with model and animation imports.

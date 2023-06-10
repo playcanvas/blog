@@ -10,9 +10,8 @@ categories:
   - Announcement
   - News
 tags:
+  - editor
   - localization
-  - PlayCanvas
-  - webgl
 ---
 
 Are you shipping your PlayCanvas app or game in just one language? You may be preventing international users from enjoying it! Today, we are happy to announce the arrival of a localization system built right into the PlayCanvas Editor!

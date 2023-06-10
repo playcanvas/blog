@@ -8,6 +8,10 @@ slug: swooop-ladycade
 title: SWOOOP @ LadyCADE
 categories:
   - News
+tags:
+  - event
+  - swooop
+  - game
 ---
 
 ![SWOOOP at LadyCADE](/assets/media/ladycade1.jpg)

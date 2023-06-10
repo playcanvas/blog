@@ -8,6 +8,9 @@ slug: introducing-the-new-code-editor
 title: Introducing the new Code Editor
 categories:
   - Features
+tags:
+  - editor
+  - scripting
 ---
 
 ![New Code Editor](/assets/media/code-editor-new.jpg)

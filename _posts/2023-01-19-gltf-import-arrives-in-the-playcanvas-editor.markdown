@@ -8,6 +8,9 @@ slug: gltf-import-arrives-in-the-playcanvas-editor
 title: glTF 2.0 Import Arrives in the PlayCanvas Editor
 categories:
   - News
+tags:
+  - editor
+  - gltf
 ---
 
 We are excited to announce a major update for the PlayCanvas Editor: **glTF 2.0 import**. This new feature allows users to easily import and use 3D models created in other applications such as Blender and SketchUp, as well as from digital asset stores like Sketchfab, directly into the PlayCanvas Editor.

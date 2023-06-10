@@ -9,6 +9,8 @@ title: Importing in the cloud, the new asset pipeline
 categories:
   - Announcement
   - Features
+tags:
+  - editor
 ---
 
 Taking the pain away from converting and uploading assets.

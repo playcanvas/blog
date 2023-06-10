@@ -8,6 +8,8 @@ slug: changes-to-our-editor-and-engine-releases
 title: Changes to our Editor and Engine releases
 categories:
   - News
+tags:
+  - editor
 ---
 
 Up to now, our process for releasing new features and fixes to the PlayCanvas Engine and Editor has been rather simple.
