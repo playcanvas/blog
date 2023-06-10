@@ -9,9 +9,8 @@ title: Basis Texture Compression arrives in PlayCanvas
 categories:
   - News
 tags:
-  - basis
   - compression
-  - graphics
+  - editor
   - performance
 ---
 

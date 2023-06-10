@@ -9,7 +9,6 @@ title: Transitioning to the New Render Component and Fill Mode API
 categories:
   - News
 tags:
-  - api
   - editor
   - engine
 ---

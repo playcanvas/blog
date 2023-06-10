@@ -9,8 +9,8 @@ title: Mozilla Launches WebGL 2 with PlayCanvas
 categories:
   - News
 tags:
-  - webgl2
   - demo
+  - webgl
 ---
 
 Today is a huge milestone for real-time graphics on the web. Mozilla has launched Firefox 51, the first browser to bring WebGL 2 to the masses. WebGL has been around since 2011, the year when PlayCanvas was founded. 6 years on, the open standard for web graphics has taken a huge leap forwards, exposing far more GPU capabilities to developers, making for ever richer, more beautiful experiences.
