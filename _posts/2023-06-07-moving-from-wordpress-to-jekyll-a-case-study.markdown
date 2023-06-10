@@ -40,7 +40,7 @@ First up, I should say that you should make use of ChatGPT when you attempt some
   - Run `exitwp` (requires Python and some libraries, see the repo's `README` for details).
   - This will generate a `_posts` directory containing all your blog posts converted into markdown format that Jekyll understands.
 3. **Setting Up Jekyll.**
-  - Install Ruby and Jekyll. For installation guide refer to Jekyll's official site (https://jekyllrb.com/docs/installation/).
+  - Install Ruby and Jekyll. For installation guide refer to [Jekyll's official site](https://jekyllrb.com/docs/installation/).
   - Create a new Jekyll site by typing `jekyll new my-awesome-site` in the command line.
   - Replace the `_posts` directory in your new Jekyll site with the `_posts` directory that `exitwp` generated.
   - You can run your site locally to see how it looks by using the command `bundle exec jekyll serve`.
@@ -121,5 +121,3 @@ Ultimately, we want **you** to get involved and help us make the blog better and
 It's your blog! 😊
 
 That's all from me. Looking forward to many-a-future blogs posts on this new platform. 👋
-
-
