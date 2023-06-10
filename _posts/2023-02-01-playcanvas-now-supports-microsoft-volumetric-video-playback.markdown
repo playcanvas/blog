@@ -47,13 +47,13 @@ You can find the public project for the demo [here](https://playcanvas.com/proje
 
 In the folder 'holo video', you will find the scripts and assets needed for playing back volumetric video. You will need to add the devkit library file name 'holo-video-object-umd.js' that will be provided from MRCS to complete the integration and be able to playback video.
 
-[![](/assets/media/holo-video-folder.png)](/assets/media/holo-video-folder.png)
+[![Holo Video In Assets Panel](/assets/media/holo-video-folder.png)](/assets/media/holo-video-folder.png)
 
 Due to the size and how the data files for the video need to be arranged, they have to be hosted on a separate web server (ideally behind a CDN service like [Microsoft Azure](https://azure.microsoft.com/en-gb/products/cdn/)).
 
 The 'holo-video-player.js' script can be added to any Entity and be given a URL to the .hcap file. At runtime, the script will create the necessary meshes, materials, etc to render and playback the volumetric video.
 
-[![](/assets/media/holo-video-player-script-inspector.png)](/assets/media/holo-video-player-script-inspector.png)
+[![Holo Video Script UI](/assets/media/holo-video-player-script-inspector.png)](/assets/media/holo-video-player-script-inspector.png)
 
 Expect full documentation to be released soon on our site!
 
@@ -63,7 +63,7 @@ As you see in the video, we've made the experience available to view in the stan
 
 This was done by combining several of our WebXR example projects and the scripts and assets can be found in the 'webxr' folder:
 
-[![](/assets/media/webxr-folder.png)](/assets/media/webxr-folder.png)
+[![WebXR Folder In Assets Panel](/assets/media/webxr-folder.png)](/assets/media/webxr-folder.png)
 
 'xr-manger.js' is controls how the XR experience is managed and handled throughout the experience:
 
@@ -89,7 +89,7 @@ This was handled by adding tags to those Entities that the manager finds and dis
 
 For example, I only want the AR playback controls entity to be available in AR so the tag 'ar' was added to it.
 
-[![](/assets/media/entity-ar-tag.png)](/assets/media/entity-ar-tag.png)
+[![Entity Tagged With AR](/assets/media/entity-ar-tag.png)](/assets/media/entity-ar-tag.png)
 
 There is also an additional tag 'ar-relative' that is used for entities that need to [move in front of the user](https://playcanvas.com/editor/code/988340?tabs=103708151&line=161) when the floor is found in AR. It provides a much better experience for the user as they don't have to move or look around to find the content.
 
@@ -103,7 +103,7 @@ The goal was for the user to be able to move around holo video and also show the
 
 Our [Starter Kit: VR](https://playcanvas.com/project/435780/overview/starter-kit-vr) has the scripts and functionality to interact with objects, teleport and move around an environment. We can tag entities in the scene with 'pickable' for the VR object picker logic in object-picker.js to test against when the VR input device moves or the select button is pressed.
 
-[![](/assets/media/webxr-vr-starter-kit-editor.jpg)](/assets/media/webxr-vr-starter-kit-editor.jpg)
+[![Pickable And Teleportable Tags](/assets/media/webxr-vr-starter-kit-editor.jpg)](/assets/media/webxr-vr-starter-kit-editor.jpg)
 
 Whether it is an object that we can teleport to or interact with is dependent on the other tags on the Entity.
 
@@ -111,11 +111,11 @@ In this case, the aim was to be able to teleport around the video so an Entity w
 
 Next up was handling how the controllers should look in VR. The starter kit uses cubes to represent the controllers as they are meant to be replaced with something else by the developer.
 
-[![](/assets/media/webxr-vr-starter-kit-controllers.gif)](/assets/media/webxr-vr-starter-kit-controllers.gif)
+[![VR Controllers](/assets/media/webxr-vr-starter-kit-controllers.gif)](/assets/media/webxr-vr-starter-kit-controllers.gif)
 
 In my case, I wanted to use skinned hands or the representations of the VR controllers instead. [Max](https://twitter.com/mrmaxm?lang=en) (who built the PlayCanvas WebXR integration) created a project that does just that: [WebXR Controller/Hand Models](https://developer.playcanvas.com/en/tutorials/webxr-controllerhand-models/). And it was just a matter of merging the code and assets together.
 
-[![](/assets/media/vr-controllers-switch.gif)](/assets/media/vr-controllers-switch.gif)
+[![WebXR Hand Tracking](/assets/media/vr-controllers-switch.gif)](/assets/media/vr-controllers-switch.gif)
 
 #### Projected skybox
 
@@ -124,8 +124,8 @@ The skybox was obtained from [Poly Haven](https://polyhaven.com/a/orlando_stadiu
 It's a nice and easy effect that can be applied in similar scenes without having to build a model or geometry. See the scene without the effect applied (left) and with it (right):
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/normal-skybox.gif" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
-    <img src="/assets/media/projected-skybox.gif" style="width: 48%;" alt="Description of image 2" />
+    <img src="/assets/media/normal-skybox.gif" style="width: 48%; margin-right: 2%;" alt="Infinite Skybox" />
+    <img src="/assets/media/projected-skybox.gif" style="width: 48%;" alt="Ground Projected Skybox" />
 </div>
 
 The shader code is applied by overriding the global engine chunk in [projected-skybox-patch.js](https://playcanvas.com/editor/code/988340?tabs=104640973) on application startup.
@@ -136,13 +136,13 @@ In VR, there's no concept of 'screen space' for user interfaces so the playback/
 
 It was decided the controls should be placed near the holo-video and would always face the user as, generally, that is where their focus would be.
 
-[![](/assets/media/vr-player-controls-2.gif)](/assets/media/vr-player-controls-2.gif)
+[![VR UI](/assets/media/vr-player-controls-2.gif)](/assets/media/vr-player-controls-2.gif)
 
 This was done by simply having UI buttons in world space as offset child Entities of a 'pivot' Entity. The pivot Entity is positioned at the feet of the holo-video and can be rotated to face the VR camera.
 
 This was done by simply having UI buttons in world space as offset child Entities of a 'pivot' Entity. The pivot Entity is positioned at the feet of the holo-video and can be rotated to face the VR camera.
 
-[![](/assets/media/vr-playback-controls.gif)](/assets/media/vr-playback-controls.gif)
+[![Setting Up UI In Editor](/assets/media/vr-playback-controls.gif)](/assets/media/vr-playback-controls.gif)
 
 There's a [script](https://playcanvas.com/editor/code/988340?tabs=104640973) on the pivot Entity that gets a copy of the VR camera position and sets the Y value to be the same as the pivot Entity's. It then uses that position to look at so that the UI controls always stay parallel to the floor.
 
@@ -157,8 +157,8 @@ As the 'floor' is just a projected skybox, a solution was needed to render the s
 To make this a bit easier to see, I've shown where the plane would be positioned below. Anywhere where it's white on the floor plane would be fully transparent as there is no shadow being cast there.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/shadow-catcher-1.jpg" style="width: 48%; margin-right: 2%;" alt="Description of image 1" />
-    <img src="/assets/media/shadow-catcher-2.jpg" style="width: 48%;" alt="Description of image 2" />
+    <img src="/assets/media/shadow-catcher-1.jpg" style="width: 48%; margin-right: 2%;" alt="Shadow Receiver Quad" />
+    <img src="/assets/media/shadow-catcher-2.jpg" style="width: 48%;" alt="Final Shadow Effect" />
 </div>
 
 ### Other tutorials used
@@ -173,7 +173,7 @@ These include:
 
 Although not PlayCanvas related, it is worth shouting out: the awesome QR code (that is displayed if the device is not XR compatible) is generated with [Amazing-QR](https://github.com/x-hw/amazing-qr). It's able to create colorful and animated QR codes that are more interesting and attractive than the typical black and white versions.
 
-[![](/assets/media/awesome-qr-code.jpg)](/assets/media/awesome-qr-code.jpg)
+[![QR Code](/assets/media/awesome-qr-code.jpg)](/assets/media/awesome-qr-code.jpg)
 
 ### Issues found
 
