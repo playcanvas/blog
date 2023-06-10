@@ -8,6 +8,8 @@ slug: developer-spotlight-rustam-zinurov
 title: "Developer Spotlight: Rustam Zinurov"
 categories:
   - News
+tags:
+  - spotlight
 ---
 
 _After two successful entries into the PLAYHACK game jam, we thought it was time to share some insights from one of our star community members: Rustam Zinurov._

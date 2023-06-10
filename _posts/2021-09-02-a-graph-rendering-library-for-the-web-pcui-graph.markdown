@@ -9,8 +9,6 @@ title: "A Graph Rendering Library for the Web: PCUI Graph"
 categories:
   - News
 tags:
-  - graph
-  - library
   - pcui
 ---
 

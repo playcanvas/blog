@@ -8,6 +8,9 @@ slug: webgl-case-study-rebuilding-the-star-lord-pbr-demo
 title: "WebGL Case Study: Rebuilding the Star-Lord PBR Demo"
 categories:
   - News
+tags:
+  - graphics
+  - performance
 ---
 
 Way back in 2014, [PlayCanvas was the first WebGL Engine to integrate PBR](https://blog.playcanvas.com/physically-based-rendering-comes-to-webgl/) (Physically Based Rendering). To mark the event, we built the Star-Lord tech demo:

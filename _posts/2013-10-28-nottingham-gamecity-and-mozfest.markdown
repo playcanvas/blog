@@ -8,6 +8,8 @@ slug: nottingham-gamecity-and-mozfest
 title: Nottingham GameCity and MozFest
 categories:
   - News
+tags:
+  - event
 ---
 
 This last week was a frenzy of activity from the PlayCanvas founders. We trekked all over the UK to teach new people about PlayCanvas with demos and workshops.

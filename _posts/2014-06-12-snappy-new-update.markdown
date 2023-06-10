@@ -9,6 +9,8 @@ title: Snappy New Update
 categories:
   - Announcement
   - Features
+tags:
+  - editor
 ---
 
 **Game developers and the idea of perfection are never far apart and we are pleased to announce a new feature that allows you to be as precise as your project demands. If you were thinking what we were thinking then...SNAP!**

@@ -10,6 +10,8 @@ categories:
   - Announcement
   - News
   - Technology
+tags:
+  - physics
 ---
 
 Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device into one of our USB ports and fired up PlayCanvas.

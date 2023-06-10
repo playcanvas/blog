@@ -8,6 +8,8 @@ slug: playcanvas-editor-improvements-for-march
 title: PlayCanvas Editor Improvements for March
 categories:
   - News
+tags:
+  - editor
 ---
 
 Time for an update from the PlayCanvas development team! Throughout March, you may have noticed some updates to the PlayCanvas Editor. In case, you've missed any of them, here's a run down of what's new:

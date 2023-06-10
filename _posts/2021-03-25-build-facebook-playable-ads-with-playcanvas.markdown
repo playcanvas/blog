@@ -10,7 +10,7 @@ categories:
   - News
 tags:
   - facebook
-  - playable ad
+  - ads
 ---
 
 ![Facebook Playable Ad](/assets/media/facebook-playable-ad.gif)

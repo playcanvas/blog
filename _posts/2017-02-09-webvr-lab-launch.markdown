@@ -8,6 +8,8 @@ slug: webvr-lab-launch
 title: WebVR Lab launches with Chrome 56 for Daydream
 categories:
   - News
+tags:
+  - vr
 ---
 
 Today we're excited to launch the [WebVR Lab](http://webvr.playcanvas.com), a living project built by the PlayCanvas team to help developers learn about creating scalable and responsive WebVR applications for all devices.

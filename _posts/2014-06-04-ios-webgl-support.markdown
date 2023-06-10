@@ -8,6 +8,9 @@ slug: ios-webgl-support
 title: iOS WebGL Support
 categories:
   - News
+tags:
+  - apple
+  - webgl
 ---
 
 [![PlayCanvas on iPhone](/assets/media/playcanvas-ios.png)](/assets/media/playcanvas-ios.png)

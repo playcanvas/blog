@@ -8,6 +8,8 @@ slug: tutorial-series-a-complete-playcanvas-game
 title: "Tutorial Series: A complete PlayCanvas game"
 categories:
   - News
+tags:
+  - tutorial
 ---
 
 [![Keepy Up](/assets/media/keepy-up.jpg)](https://developer.playcanvas.com/en/tutorials/keepyup-part-one/)

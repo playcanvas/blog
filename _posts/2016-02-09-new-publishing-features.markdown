@@ -8,6 +8,8 @@ slug: new-publishing-features
 title: New Publishing Features
 categories:
   - News
+tags:
+  - publishing
 ---
 
 Today we've launched an update to streamline the way you publish your applications and to give your collaborators more information about what is changing.

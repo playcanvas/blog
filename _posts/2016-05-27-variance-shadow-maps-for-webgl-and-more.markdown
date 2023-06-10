@@ -8,6 +8,10 @@ slug: variance-shadow-maps-for-webgl-and-more
 title: Variance Shadow Maps for WebGL and More!
 categories:
   - News
+tags:
+  - editor
+  - engine
+  - graphics
 ---
 
 May is drawing to a close and it's starting to feel like summer here in London. Let's celebrate with a PlayCanvas Dev Update! We've been busy bees, so here's a rundown of the main changes.

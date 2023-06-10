@@ -9,6 +9,8 @@ title: PlayCanvas Unleashed at Techstars Demo Day
 categories:
   - Announcement
   - News
+tags:
+  - event
 ---
 
 PlayCanvas has now completed the 3 month long Techstars accelerator and to mark the occasion, a glitzy Demo Day was held at an exclusive theatre in London's Victoria.

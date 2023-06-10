@@ -8,6 +8,9 @@ slug: playcanvas-versus-unreal-webgl
 title: PlayCanvas versus Unreal WebGL
 categories:
   - News
+tags:
+  - unreal
+  - performance
 ---
 
 Our [previous article](https://blog.playcanvas.com/playcanvas-versus-unity-webgl/) comparing PlayCanvas with Unity's WebGL exporter certainly got folks talking. One of the questions that came up in the aftermath was "OK, but what about Unreal's WebGL exporter?". Unreal, like Unity, relies on Emscripten to port the native codebase to JavaScript. So it would be reasonable to expect Unreal to suffer from the same issues as Unity: large download sizes, long load times and poor runtime performance.

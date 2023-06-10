@@ -8,6 +8,9 @@ slug: introducing-pcui-an-open-source-ui-framework-for-the-web
 title: "Introducing PCUI - An Open Source UI Framework for the Web"
 categories:
   - News
+tags:
+  - open-source
+  - pcui
 ---
 
 Today, PlayCanvas is launching [PCUI](https://github.com/playcanvas/pcui): a new, open source front-end framework for the web.

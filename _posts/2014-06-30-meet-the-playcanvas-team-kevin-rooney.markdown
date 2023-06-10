@@ -9,7 +9,7 @@ title: "Meet the PlayCanvas team: Kevin Rooney"
 categories:
   - News
 tags:
-  - MeetPlayCanvas
+  - team
 ---
 
 ![Kevin](/assets/media/team-kevin-2014.jpg)

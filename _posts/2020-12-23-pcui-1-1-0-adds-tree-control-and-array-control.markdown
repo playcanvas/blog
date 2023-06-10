@@ -8,6 +8,8 @@ slug: pcui-1-1-0-adds-tree-control-and-array-control
 title: PCUI 1.1.0 Adds Tree Control and Array Control
 categories:
   - News
+tags:
+  - pcui
 ---
 
 Back in October, [we launched PCUI](https://blog.playcanvas.com/introducing-pcui-an-open-source-ui-framework-for-the-web/), an easy to use framework for building web-based tools. It already powers the PlayCanvas Editor and [glTF Viewer](https://playcanvas.com/viewer) applications.

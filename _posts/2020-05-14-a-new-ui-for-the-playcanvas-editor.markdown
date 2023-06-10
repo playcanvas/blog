@@ -9,6 +9,8 @@ title: A New UI for the PlayCanvas Editor
 categories:
   - Announcement
   - News
+tags:
+  - editor
 ---
 
 The PlayCanvas Editor has been around since 2011. Way back then, it was called the PlayCanvas Designer. It was built on Sencha's ExtJS front end framework and looked like this:

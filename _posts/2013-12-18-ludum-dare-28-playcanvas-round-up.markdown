@@ -9,6 +9,8 @@ title: "Ludum Dare 28: PlayCanvas Round-Up"
 categories:
   - Announcement
   - News
+tags:
+  - ludum-dare
 ---
 
 So Ludum Dare 28 came and went last weekend and the theme was 'You Only Get One'. Here's a quick round up of the superb PlayCanvas games that were submitted this time around:

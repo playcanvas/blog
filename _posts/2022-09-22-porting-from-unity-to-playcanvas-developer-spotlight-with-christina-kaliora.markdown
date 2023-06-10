@@ -9,11 +9,8 @@ title: Porting from Unity to PlayCanvas - Developer Spotlight with Christina Kal
 categories:
   - Developer Spotlight
 tags:
-  - demo
-  - html5
-  - PlayCanvas
   - unity
-  - webgl
+  - spotlight
 ---
 
 [![](/assets/media/developer-spotlight-christina-home.jpg)](/assets/media/developer-spotlight-christina-home.jpg)

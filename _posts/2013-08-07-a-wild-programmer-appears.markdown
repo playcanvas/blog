@@ -8,6 +8,8 @@ slug: a-wild-programmer-appears
 title: A wild programmer appears!
 categories:
   - News
+tags:
+  - team
 ---
 
 It's a big day over at PlayCanvas towers. We have a new programmer. In fact, our first full-time staffer after the founding team.

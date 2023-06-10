@@ -8,6 +8,9 @@ slug: getting-started-with-webvr
 title: Getting started with WebVR
 categories:
   - News
+tags:
+  - webvr
+  - vr
 ---
 
 ![helper](/assets/media/helper.png)

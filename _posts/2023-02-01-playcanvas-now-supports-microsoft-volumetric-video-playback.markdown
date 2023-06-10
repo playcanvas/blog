@@ -9,12 +9,10 @@ title: PlayCanvas now supports Microsoft volumetric video playback
 categories:
   - News
 tags:
-  - AR
-  - html5
-  - PlayCanvas
-  - VR
+  - ar
+  - vr
   - webgl
-  - WebXR
+  - webxr
 ---
 
 {% include playcanvas.html type="p" id="d3xb8X2Q" %}

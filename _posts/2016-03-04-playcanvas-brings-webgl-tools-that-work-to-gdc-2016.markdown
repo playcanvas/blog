@@ -8,6 +8,9 @@ slug: playcanvas-brings-webgl-tools-that-work-to-gdc-2016
 title: PlayCanvas brings WebGL Tools that Work to GDC 2016
 categories:
   - News
+tags:
+  - event
+  - gdc
 ---
 
 We're heading to San Francisco for GDC 2016!

@@ -9,6 +9,8 @@ title: Friday Assets mega-update
 categories:
   - Announcement
   - Features
+tags:
+  - editor
 ---
 
 Drag and Drop, uploading and thumbnails, no longer a pain in the asset.

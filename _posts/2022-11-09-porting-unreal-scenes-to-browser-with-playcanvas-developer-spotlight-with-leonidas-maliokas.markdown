@@ -12,11 +12,8 @@ categories:
   - Developer Spotlight
   - Features
 tags:
-  - demo
-  - html5
-  - PlayCanvas
   - unreal
-  - webgl
+  - spotlight
 ---
 
 Welcome to Developer Spotlight, a new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.

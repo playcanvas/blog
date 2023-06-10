@@ -10,6 +10,8 @@ categories:
   - Announcement
   - Features
   - News
+tags:
+  - editor
 ---
 
 The PlayCanvas team are very excited to fully release the [Import Hierarchy pipeline feature](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/) in the PlayCanvas Editor!

@@ -18,8 +18,6 @@ It's certainly no surprise to learn that mobile phones account for over 40% of 
 
 With this in mind, the team at PlayCanvas set about creating a brand experience that could demonstrate what is possible in a mobile experience today. Using cutting edge visuals more at home in a AAA console game than in a mobile web-browser, we've created an interactive experience that any brand would be proud of.
 
-<!-- more -->
-
 ## BMW i8 Configurator
 
 ### Mobile first
