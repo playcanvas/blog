@@ -23,7 +23,7 @@ this.entity.light.enable = false;
 this.entity.collision.on("collisionstart", this.onCollision);
 ```
 
-Will work which every type of light or collision shape you are using.
+It will work with every type of light or collision shape you are using.
 
 We've automatically migrated all Packs in your Projects to the new Components, so in most cases you won't even notice the difference.
 
