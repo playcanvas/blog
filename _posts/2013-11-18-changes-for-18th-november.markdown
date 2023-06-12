@@ -26,6 +26,7 @@ It's always hard to make sure that we communicate enough about the changes we're
 - Added context.touch if the browser has touch controls enabled
 - [FIX] Setting linear and angular velocity values on a kinematic rigidbody works properly
 - [FIX] Moving a trigger (collision component) works
-- [FIX] Touch co-ordinates now match MouseEvent co-ordinates. i.e. top-left to bottom-right and match the CSS size of the element[FIX] Issues with collision mesh scaling
+- [FIX] Touch co-ordinates now match MouseEvent co-ordinates. i.e. top-left to bottom-right and match the CSS size of the element
+- [FIX] Issues with collision mesh scaling
 
 As you can see a round of improvements and bug fixes this last couple of weeks. Of particular note: Touch support in the Designer so you can tweak things on the go from your tablet or phone. Plus some important fixes, trigger volumes can now be moved and they position updates correctly plus a niggling problem we've been having with the scale property not working in the Designer is now fixed.

@@ -35,7 +35,7 @@ We're also supplying all the code for the game:
 - Enemy Punch - a simple enemy AI which can shoot at you
 - Mover - a moving platform
 - Goal - the target for the level
-- Damagable - add health and damage to an Entity
+- Damageable - add health and damage to an Entity
 
 We'll be writing more about the Platform Game Starter Kit in the next week to give you tips and challenges so that you can make the best use out of it. But before they arrive, create a new project using the kit, try it out and dig into the code to see how it was made.
 
