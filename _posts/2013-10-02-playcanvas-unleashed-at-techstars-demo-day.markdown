@@ -17,7 +17,7 @@ PlayCanvas has now completed the 3 month long Techstars accelerator and to mark 
 
 Will took to the stage (to the sound of Gangnam Style!) to present the technology to a 350 strong audience of angel investors, venture capitalists and the press.
 
-[![Techstar Demo Day](/assets/media/techstars-demo-day.jpg)](/assets/media/techstars-demo-day.jpg)
+[![Techstars Demo Day](/assets/media/techstars-demo-day.jpg)](/assets/media/techstars-demo-day.jpg)
 
 The feedback has been incredible! After the pitch, the PlayCanvas demo booth was bustling with people hungry to know more about our plans to shake up the games industry.
 
