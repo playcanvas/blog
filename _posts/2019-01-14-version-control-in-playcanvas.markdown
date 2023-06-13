@@ -39,4 +39,4 @@ We've been testing the version control features over the last few months and we 
 
 ## What's next?
 
-We know that our users have specific needs and want to customize their workflows. With branches now available to isolate development, we've unlocked a host of new opportunities that you can try via our API. For starters it's now possible to synchronize your script assets from your PlayCanvas branch into an external source control system like Github. Try this yourself via our [Asset REST API](https://developer.playcanvas.com/en/user-manual/api/asset-file/), but we'll be building on these features in the future.
+We know that our users have specific needs and want to customize their workflows. With branches now available to isolate development, we've unlocked a host of new opportunities that you can try via our API. For starters it's now possible to synchronize your script assets from your PlayCanvas branch into an external source control system like GitHub. Try this yourself via our [Asset REST API](https://developer.playcanvas.com/en/user-manual/api/asset-file/), but we'll be building on these features in the future.
