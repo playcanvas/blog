@@ -31,7 +31,7 @@ To mark the launch of WebGL 2, Mozilla and PlayCanvas have teamed up to build 
 - **Alpha to coverage:** to render antialiased foliage.
 - ...and much more.
 
-So how was all of this done? As you know, PlayCanvas is an open source game engine. All of the work to integrate WebGL 2 into the engine [can be found on Github](https://github.com/playcanvas/engine/pull/784).
+So how was all of this done? As you know, PlayCanvas is an open source game engine. All of the work to integrate WebGL 2 into the engine [can be found on GitHub](https://github.com/playcanvas/engine/pull/784).
 
 Other key demo features are:
 
