@@ -30,9 +30,9 @@ Users can upload their 3D models to Sketchfab and embed them in other websites m
 
 ### Accessing Sketchfab from the Asset Store
 
-Earlier this month, we [announced](https://blog.playcanvas.com/announcing-the-new-playcanvas-asset-store/) the brand new PlayCanvas Asset Store. The Asset Store is an in-Editor panel of useful assets that you can use in your projects. With a few clicks, you can browser, discover and import various types of content. So it the obvious place to incorporate the vast Sketchfab content library.
+Earlier this month, we [announced](https://blog.playcanvas.com/announcing-the-new-playcanvas-asset-store/) the brand new PlayCanvas Asset Store. The Asset Store is an in-Editor panel of useful assets that you can use in your projects. With a few clicks, you can browse, discover and import various types of content. So it is the obvious place to incorporate the vast Sketchfab content library.
 
-So to access the Sketchfab library, simply hit the Asset Store button on the Asset Panel header and select the SKETCHFAB filter on the left.
+To access the Sketchfab library, simply hit the Asset Store button on the Asset Panel header and select the SKETCHFAB filter on the left.
 
 [![Open Sketchfab](/assets/media/asset-store-sketchfab-open.gif)](/assets/media/asset-store-sketchfab-open.gif)
 
@@ -42,7 +42,7 @@ If you want to import models from Sketchfab into PlayCanvas, you first need to c
 
 [![Authorize Sketchfab](/assets/media/asset-store-sketchfab-authorize.gif)](/assets/media/asset-store-sketchfab-authorize.gif)
 
-It's quick and easy and once authorized, you'll stay connected for 30 days.
+It's so quick and easy!
 
 ### New License and Author Info for Assets
 
