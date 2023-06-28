@@ -20,7 +20,7 @@ Today, we're excited to announce the integration of Sketchfab into the PlayCanva
 
 {% include youtube.html id="A0WOrjrFPXM" %}
 
-_["Spartan Armou"](https://skfb.ly/6QVvM) by McCarthy3D is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
+_["Spartan Armour"](https://skfb.ly/6QVvM) by McCarthy3D is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
 With today's launch you'll have instant access to Sketchfab's enormous library of high quality 3D content right inside the Editor.
 
