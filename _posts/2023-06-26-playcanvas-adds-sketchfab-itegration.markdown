@@ -16,7 +16,7 @@ tags:
   - workflow
 ---
 
-Today, we're excited to announce the integration of Sketchfab in the PlayCanvas Editor!
+Today, we're excited to announce the integration of Sketchfab into the PlayCanvas Editor!
 
 {% include youtube.html id="A0WOrjrFPXM" %}
 
