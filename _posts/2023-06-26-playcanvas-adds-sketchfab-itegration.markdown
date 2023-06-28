@@ -56,4 +56,4 @@ This ensures that the author's licensing wishes are respected and that they reci
 
 ### Go Forth and Create!
 
-With today's release, it's never been easier to create interactive 3D experiences for the web. We hope you love the new Sketchfab integration. But, as always, we *love* to hear your opinions so head over to the [forum](https://forum.playcanvas.com/) and join the conversation. Happy creating! 🚧👷
+With today's release, it's never been easier to create interactive 3D experiences for the web. We hope you love the new Sketchfab integration. But, as always, we *love* to hear your opinions so head over to the [forum](https://forum.playcanvas.com/t/playcanvas-integrates-sketchfab/31885) and join the conversation. Happy creating! 🚧👷
