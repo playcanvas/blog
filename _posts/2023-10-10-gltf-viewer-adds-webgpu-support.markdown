@@ -55,7 +55,7 @@ Navigating large scenes can be a pain - Viewer 4.0 addresses this by allowing yo
 
 _["130"](https://skfb.ly/6R9Ow) by mononofu is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
-Experience realistic photographic skies with our new projective sky dome! While previous versions allowed the selection and display of a skybox with an infinite projection, 4.0 introduces a dome-shaped skybox projection that incorporates a flat ground plane. This warps the skybox texture to have a more believable appearance, delivering a more authentic and immersive perspective, melding your 3D models with strikingly realistic backdrops.
+Experience realistic photographic skies with our new projective sky dome! While previous versions allowed for skyboxex with an infinite projection, 4.0 introduces a dome-shaped skybox projection that incorporates a flat ground plane. This warps the skybox texture to have a more believable appearance, delivering a more authentic and immersive perspective, melding your 3D models with strikingly realistic backdrops.
 
 #### Debug and Inspect with Render Mode
 
