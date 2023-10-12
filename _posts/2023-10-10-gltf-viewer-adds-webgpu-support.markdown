@@ -1,7 +1,7 @@
 ---
 author: will
 comments: false
-date: 2023-06-26 12:00:00+00:00
+date: 2023-10-12 12:00:00+00:00
 layout: post
 link: https://blog.playcanvas.com/gltf-viewer-adds-webgpu-support/
 slug: gltf-viewer-adds-webgpu-support
