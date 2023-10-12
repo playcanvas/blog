@@ -65,7 +65,9 @@ Ensuring that developers can seamlessly troubleshoot and inspect glTF files, the
 
 #### Enhanced Realism with VSM Shadows
 
-The addition of Variance Shadow Mapping (VSM) casts your 3D scenes in a new light, literally! Shadows aren't merely aesthetic; they provide context and depth, especially in AR mode, assisting to ground your object naturally within its real-world environment. Explore scenes with a newfound depth and realism that draws viewers into the experience, both in standard and AR viewing modes.
+The addition of Variance Shadow Mapping (VSM) casts your 3D scenes in a new light, literally! Shadows aren't merely aesthetic; they provide context and depth, especially in AR mode, assisting to ground your object naturally within its real-world environment. Explore scenes with a newfound depth and realism that draws viewers into the experience, both in standard and AR viewing modes. Find the new shadow controls in the Light Settings panel:
+
+[![glTF Viewer Light Settings](/assets/media/gltf-viewer-light-settings.png)](/assets/media/gltf-viewer-light-settings.png)
 
 ### Join Our Open Source Community
 
