@@ -45,7 +45,7 @@ Take your 3D models into the real world with our revamped WebXR Augmented Realit
 
 {% include youtube.html id="lCzTRlO2lmo" %}
 
-Navigating large scenes can be a pain - Viewer 4.0 addresses this by allowing you to select a node in the scene either via the hierarchy panel on the left or by clicking on a mesh in the 3D view. You can then press 'F' on the keyboard to frame that node and recenter the orbit camera on that node's position.
+Navigating large scenes can be a pain - Viewer 4.0 addresses this by allowing you to select a node in the scene via the hierarchy panel on the left. You can then press 'F' on the keyboard to frame that node and recenter the orbit camera on that node's position.
 
 #### Better Immersion with Projective Sky Dome
 
