@@ -31,15 +31,17 @@ This new release is chock-full with enhancements aimed at providing more realist
 
 ![WebGPU Logo](/assets/media/webgpu-logo.svg)
 
-Topping the list of today's updates is support for WebGPU! WebGPU heralds a new era in graphics and compute capabilities, offering enhanced performance and efficiency. Users can now select WebGPU as their default renderer, and don't worry if your platform doesn't support it yet - the viewer gracefully falls back to WebGL 2, and subsequently WebGL 1, depending on API availability, ensuring a smooth, uncompromised viewing experience for all users. Note that WebGPU support is considered beta for the moment and you'll need to proactively enable it and refresh the viewer to check it out:
+Topping the list of today's updates is support for WebGPU! WebGPU heralds a new era in graphics and compute capabilities, offering enhanced performance and efficiency. Users can now select WebGPU as their default renderer, and don't worry if your platform doesn't support it yet - the viewer gracefully falls back to WebGL 2, and subsequently WebGL 1, depending on API availability. Note that WebGPU support is considered beta for the moment and you'll need to proactively enable it and refresh the viewer to check it out:
 
 [![Enable WebGPU for glTF Viewer](/assets/media/gltf-viewer-webgpu-toggle.gif)](/assets/media/gltf-viewer-webgpu-toggle.gif)
+
+Also make sure you're running the viewer in a browser that supports WebGPU. At time of writing, this means Google Chrome!
 
 #### Enhanced WebXR AR Mode
 
 {% include youtube.html id="7tV15e4ovzc" %}
 
-Take your 3D models into the real world with our revamped WebXR Augmented Reality (AR) mode! Available currently on Android devices, this enhanced AR mode lets you view any model in your actual environment, complete with intuitive new controls that allow you to accurately position and rotate objects in the real world. Engage with your 3D models like never before, observing them from every conceivable angle, in every possible setting. Let's hope Apple decides to roll out WebXR support on iOS soon! 🙏
+Take your 3D models into the real world with our revamped WebXR Augmented Reality (AR) mode! Available currently on Android devices, this enhanced AR mode lets you view any model in your actual environment, complete with intuitive new controls that allow you to accurately position and rotate objects in the real world. Let's hope Apple decides to roll out WebXR support on iOS soon! 🙏
 
 #### Frame Selected Node
 
