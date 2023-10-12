@@ -61,7 +61,7 @@ Experience realistic photographic skies with our new projective sky dome! While 
 
 [![glTF Viewer Render Mode](/assets/media/gltf-viewer-render-mode.gif)](/assets/media/gltf-viewer-render-mode.gif)
 
-Ensuring that developers can seamlessly troubleshoot and inspect glTF files, the new render mode allows you to select and display individual inputs/outputs of the render pipelines, including albedo, emissive, normals, gloss, AO, and more. This new level of insight is invaluable for debugging, making even easier to work with your glTF data.
+Ensuring that developers can seamlessly troubleshoot and inspect glTF files, the new render mode allows you to select and display individual inputs/outputs of the render pipeline, including albedo, emissive, normals, gloss, AO, and more. This new level of insight is invaluable for debugging, making it even easier to work with your glTF data.
 
 #### Enhanced Realism with VSM Shadows
 
