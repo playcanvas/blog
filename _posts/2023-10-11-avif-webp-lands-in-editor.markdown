@@ -35,7 +35,7 @@ _Take a look at the following images_
 <br/>
 They look strikingly similar, but the file size tells a different story. The AVIF image on the left has a file size of just 276Kb, almost half the size of its JPG counterpart at 508Kb! This level of compression is not just impressive on its own. When you're working on a project with multiple textures, switching to AVIF and WebP formats could considerably reduce your overall load time.
 
-What does this mean for you? Well, that's simple: It's all about efficiency and speed without sacrificing quality. Textures are one of the biggest assets in a 3D project and AVIF and WebP significantly reduce image sizes compared to traditional JPEGs and PNGs and that means faster load times and happier users. 🙌
+What does this mean for you? Well, that's simple: it's all about efficiency and speed without sacrificing quality. Textures are one of the biggest assets in a 3D project and AVIF and WebP significantly reduce image sizes compared to traditional JPEGs and PNGs and that means faster load times and happier users. 🙌
 
 #### AVIF all the things?
 
