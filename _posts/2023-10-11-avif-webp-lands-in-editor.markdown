@@ -1,7 +1,7 @@
 ---
 author: mark
 comments: false
-date: 2023-10-11 12:00:00+00:00
+date: 2023-10-24 12:00:00+00:00
 layout: post
 link: https://blog.playcanvas.com/avif-webp-land-in-editor/
 slug: avif-webp-land-in-editor
