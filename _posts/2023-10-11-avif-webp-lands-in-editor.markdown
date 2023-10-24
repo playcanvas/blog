@@ -43,7 +43,7 @@ Ok so browser support for AVIF is good, but not great according to [caniuse](htt
 
 #### Getting started?
 
-Easy, just start uploading your AVIF and WEBP files into your asset registry, and for those of you wanting to convert your existing assets, you can now right-click on your asset in the registry and quickly convert your asset into a png, jpg, webp or an avif.
+Easy! Just start uploading your AVIF and WebP files into the Asset Panel, and for those of you wanting to convert your existing assets, you can now right-click on your asset in the Asset Panel and quickly convert your asset into a PNG, JPG, WebP or an AVIF.
 
 ![Quick Convert](/assets/media/convert-animation.gif)
 <br/>
