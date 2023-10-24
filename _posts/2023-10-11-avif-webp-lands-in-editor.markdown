@@ -37,7 +37,7 @@ They look strikingly similar, but the file size tells a different story. The AVI
 
 What does this mean for you? Well, that's simple: It's all about efficiency and speed without sacrificing quality. Textures are one of the biggest assets in a 3D project and AVIF and WebP significantly reduce image sizes compared to traditional JPEGs and PNGs and that means faster load times and happier users. 🙌
 
-#### Avif all the things?
+#### AVIF all the things?
 
 Ok so browser support for AVIF is good, but not great according to [caniuse](https://caniuse.com/?search=avif), so always [check support](https://dev.to/nucliweb/detect-avif-image-support-to-use-in-your-css-4pen) and use the right format for your users. Different formats are better suited for different content, it's not a one-size-fits-all solution, so we encourage you to explore various options and choose the one best for you.
 
