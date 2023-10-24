@@ -16,7 +16,7 @@ tags:
   - compression
 ---
 
-![AVIF + WEBP Support](/assets/media/avif-webp-icons.png)
+![AVIF + WebP Support](/assets/media/avif-webp-icons.png)
 
 #### Today we're excited to announce that PlayCanvas now supports WebP and AVIF images natively in the editor. Two new, efficient image formats built for the web.
 
