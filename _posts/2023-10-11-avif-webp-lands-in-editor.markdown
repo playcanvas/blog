@@ -4,7 +4,7 @@ comments: false
 date: 2023-10-11 12:00:00+00:00
 layout: post
 link: https://blog.playcanvas.com/avif-webp-land-in-editor/
-slug: avif-webp-lands-in-editor
+slug: avif-webp-land-in-editor
 title: "Boost Your Efficiency: AVIF and WEBP Now Supported in the Playcanvas Editor"
 categories:
   - Announcement
