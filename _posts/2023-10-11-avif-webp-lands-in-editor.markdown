@@ -22,7 +22,7 @@ tags:
 
 This is not just an exciting update for us but a game-changer for anyone looking to optimize their projects for faster load times and better quality.
 
-JPGs and PNGs have served us well, they're reliable and you can use them everywhere. AVIF and WEBP are the new kids on the block, they offer better compression with a wider range of features like alpha channels, HDR and wide color gamut. But how do these formats work in practice and are they really that good? Let's dive in.
+JPGs and PNGs have served us well. They're reliable and you can use them everywhere. AVIF and WebP are the new kids on the block. They offer better compression with a wider range of features like alpha channels, HDR and wide color gamut. But how do these formats work in practice and are they really that good? Let's dive in.
 
 _Take a look at the following images_
 <br/>
