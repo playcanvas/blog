@@ -10,10 +10,9 @@ categories:
   - Announcement
   - News
 tags:
-  - gaussian
-  - splats
+  - gaussian-splats
   - compression
-  - super-splat
+  - supersplat
 ---
 
 ### Introduction
