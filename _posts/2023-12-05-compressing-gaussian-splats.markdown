@@ -1,11 +1,11 @@
 ---
 author: donovan
 comments: false
-date: 2023-12-05 12:00:00+00:00
+date: 2023-12-06 12:00:00+00:00
 layout: post
-link: https://blog.playcanvas.com/compressed-gaussian-splat-data/
-slug: compressed-gaussian-splat-data
-title: "Compressed Gaussian Splats"
+link: https://blog.playcanvas.com/compressing-gaussian-splats/
+slug: compressing-gaussian-splats
+title: "Compressing Gaussian Splats"
 categories:
   - Announcement
   - News
