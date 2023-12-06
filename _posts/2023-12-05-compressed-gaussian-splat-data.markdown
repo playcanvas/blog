@@ -18,7 +18,22 @@ tags:
 
 ### Introduction
 
-[**Gaussian Splatting**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) is a new method for digitizing and rendering real world objects. With gaussian splatting you can digitize a scene from a few photos using services like [Luma Labs](https://lumalabs.ai/) and [Polycam](https://poly.cam/).
+[**Gaussian Splatting**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) is a new method for digitizing and rendering real world objects. With gaussian splatting, you can digitize a scene from a few photos using services like [Luma Labs](https://lumalabs.ai/) or [Polycam](https://poly.cam/). These services take the set of photos and generate a 3d Gaussian Splat scene in [PLY format](https://en.wikipedia.org/wiki/PLY_(file_format)).
+
+For example, here is a Gaussian Splat scene rendered in PlayCanvas.
+{% include playcanvas.html type="p" id="69cnpevQ" %}
+
+### So what even is a splat?
+
+Gaussian Splat Scenes are made not made up of polygons and textures. Instead, they are made up of many (up to millions) of individual, unconnected blobs called _splats_. A splat is just a particle in space with size, orientation, color and opacity.
+
+Below you can see a single brown splat selected. The splat bounding box shows its orientation and size:
+
+![Splat Example](/assets/media/splat-example.png)
+
+The gaussian part of the name comes from the shape of splat itself: the splat opacity has a gaussian falloff from its center to its edge.
+
+### Engine support
 
 The PlayCanvas team has been adding support to the engine for loading and rendering Gaussian Splat PLY files:
 
@@ -74,7 +89,7 @@ And the following data _per splat_:
 
 As a result, the compressed version of `guitar.ply` takes only **8.7 MB**.
 
-### DIY
+### Do It Yourself
 
 The easiest way to generate a compressed PLY file yourself is using the [SuperSplat tool](https://playcanvas.com/super-splat). Load the PLY file into SuperSplat and export it again using the 'Compressed Ply File' option:
 
@@ -98,13 +113,3 @@ In future we hope to investigate:
 ### References
 
 The compressed format is largely based on the fine work of Aras Pranckevičius and his [blog posts](https://aras-p.info/).
-
-### So what even is a splat?
-
-Gaussian Splat Scenes are made up of many (up to millions) of individual (unconnected) blobs called _splats_. A splat is just a particle in space with size, orientation, color and opacity.
-
-Below you can see a single brown splat selected. The splat bounding box shows its orientation and size:
-
-![Splat Example](/assets/media/splat-example.png)
-
-The gaussian part of the name comes from the shape of splat itself: the splat opacity has a gaussian falloff from its center to its edge.
