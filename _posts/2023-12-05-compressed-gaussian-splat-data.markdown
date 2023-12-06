@@ -22,7 +22,7 @@ tags:
 For example, here is a Gaussian Splat scene rendered in PlayCanvas.
 {% include playcanvas.html type="p" id="69cnpevQ" %}
 
-### So what even is a splat?
+### What is a Splat?
 
 Gaussian Splat Scenes are made not made up of polygons and textures. Instead, they are made up of many (up to millions) of individual, unconnected blobs called _splats_. A splat is just a particle in space with size, orientation, color and opacity.
 
@@ -32,7 +32,7 @@ Below you can see a single brown splat selected. The splat bounding box shows it
 
 The gaussian part of the name comes from the shape of splat itself: the splat opacity has a gaussian falloff from its center to its edge.
 
-### Engine support
+### Engine Support
 
 The PlayCanvas team has been adding support to the engine for loading and rendering Gaussian Splat PLY files:
 
@@ -98,7 +98,7 @@ If you are interested in the file format specifics, see [this code](https://gith
 
 See [this editor project](https://playcanvas.com/project/1165904/overview/gaussiansplatdemo) for an example of loading and rendering a compressed gaussian splat PLY file. Or you can [run it here](https://playcanv.as/p/69cnpevQ/).
 
-### Summary and future
+### Summary and Future
 
 We have introduced a new compressed PLY format for gaussian splatting which is roughly 4x smaller than uncompressed data and can be used in realtime applications.
 
