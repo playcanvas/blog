@@ -102,12 +102,13 @@ See [this editor project](https://playcanvas.com/project/1165904/overview/gaussi
 
 We have introduced a new compressed PLY format for gaussian splatting which is roughly 4x smaller than uncompressed data and can be used in realtime applications.
 
-In future we hope to investigate:
+In future we hope to:
+
 - store splats hierarchically for optimized rendering and culling
 - implement realtime splat LOD
 - test skinning and animation of gaussian splats
-- further compression of gaussian splat data
-- optimized WebGPU rendering
+- further compress gaussian splat data
+- optimize WebGPU rendering
 
 ### References
 
