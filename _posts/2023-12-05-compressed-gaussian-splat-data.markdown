@@ -94,7 +94,7 @@ The easiest way to generate a compressed PLY file yourself is using the [SuperSp
 
 [![SuperSplat Export](/assets/media/super-splat-export.png)](https://playcanvas.com/super-splat)
 
-If you are interested in the file format specifics, see [this code](https://github.com/playcanvas/engine/blob/main/extras/splat/splat-data.js#L257) which demonstrates how to decompress the file data.
+If you are interested in the file format specifics, see [this code](https://github.com/playcanvas/engine/blob/a86bd8be0cfd4e39e9ba5e5466acb6875ab9906e/extras/splat/splat-data.js#L257) which demonstrates how to decompress the file data.
 
 See [this editor project](https://playcanvas.com/project/1165904/overview/gaussiansplatdemo) for an example of loading and rendering a compressed gaussian splat PLY file. Or you can [run it here](https://playcanv.as/p/69cnpevQ/).
 
