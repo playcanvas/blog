@@ -22,8 +22,8 @@
     "embeddedLanguageFormatting": "off"
   },
   "devDependencies": {
-    "linkinator": "^4.1.2",
-    "prettier": "^2.8.8"
+    "linkinator": "^6.0.3",
+    "prettier": "^3.1.1"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
