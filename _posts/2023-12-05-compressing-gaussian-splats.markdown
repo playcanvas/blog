@@ -17,7 +17,7 @@ tags:
 
 ### Introduction
 
-[**3D Gaussian Splatting**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) is a new method for digitizing and rendering real world objects. With gaussian splatting, you can digitize a scene from a few photos using services like [Luma Labs](https://lumalabs.ai/) or [Polycam](https://poly.cam/). These services take the set of photos and generate a 3d Gaussian Splat scene in [PLY format](https://en.wikipedia.org/wiki/PLY_(file_format)).
+[**3D Gaussian Splatting**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) is a new method for digitizing and rendering real world objects. With gaussian splatting, you can digitize a scene from a few photos using services like [Luma Labs](https://lumalabs.ai/) or [Polycam](https://poly.cam/). These services take the set of photos and generate a 3d Gaussian Splat scene in [PLY format](<https://en.wikipedia.org/wiki/PLY_(file_format)>).
 
 For example, this is a Gaussian Splat scene rendered in PlayCanvas.
 {% include playcanvas.html type="p" id="69cnpevQ" %}
@@ -48,13 +48,13 @@ However, the default gaussian splat PLY format as exported by training tools is 
 
 This is because the uncompressed format stores a large amount of data _per splat_:
 
-| Name | Data Format | Bytes |
-| --- | --- | --- |
-| Position | 3 x float | 12 |
-| Orientation | 4 x float | 16 |
-| Scale | 3 x float | 12 |
-| Spherical harmonics / color | 48 x float | 192 |
-| Total | | 232 |
+| Name                        | Data Format | Bytes |
+| --------------------------- | ----------- | ----- |
+| Position                    | 3 x float   | 12    |
+| Orientation                 | 4 x float   | 16    |
+| Scale                       | 3 x float   | 12    |
+| Spherical harmonics / color | 48 x float  | 192   |
+| Total                       |             | 232   |
 
 For example, the original `guitar.ply` scene file takes **132.8 MB** (**32 MB** excluding spherical harmonic data).
 
@@ -63,28 +63,28 @@ For example, the original `guitar.ply` scene file takes **132.8 MB** (**32 MB** 
 So we introduced a _compressed PLY_ format for use in runtime applications. The compressed PLY file format ignores the unused spherical harmonic data and stores the rest of the elements in quantized integers.
 
 The format can be summarized as follows:
+
 - Split the scene into chunks of 256 splats
 - For each chunk, store the min and max (x, y, z) for position and scale in floating point
 - For each splat in the chunk, store a normalized and quantized value for position and scale (relative to chunk extents) and orientation and color
 
 This data layout results in the following data _per chunk_:
 
-| Name | Data Format | Bytes |
-| --- | --- | --- |
-| Position bound | 6 x float | 24 |
-| Scale bound | 6 x float | 24 | 
-| Total | | 48 |
-
+| Name           | Data Format | Bytes |
+| -------------- | ----------- | ----- |
+| Position bound | 6 x float   | 24    |
+| Scale bound    | 6 x float   | 24    |
+| Total          |             | 48    |
 
 And the following data _per splat_:
 
-| Name | Data Format | Bytes |
-| --- | --- | --- |
-| Position | uint32 (11, 10, 11) | 4 |
-| Orientation | uint32 (2, 10, 10, 10) | 4 |
-| Scale | uint32 (11, 10, 11) | 4 |
-| Color | uint32 (8, 8, 8, 8) | 4 |
-| Total | | 16 |
+| Name        | Data Format            | Bytes |
+| ----------- | ---------------------- | ----- |
+| Position    | uint32 (11, 10, 11)    | 4     |
+| Orientation | uint32 (2, 10, 10, 10) | 4     |
+| Scale       | uint32 (11, 10, 11)    | 4     |
+| Color       | uint32 (8, 8, 8, 8)    | 4     |
+| Total       |                        | 16    |
 
 As a result, the compressed version of `guitar.ply` takes only **8.7 MB**.
 
