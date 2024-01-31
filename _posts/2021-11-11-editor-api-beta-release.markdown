@@ -12,7 +12,7 @@ tags:
   - editor
 ---
 
-Over the last few months, we have been working on an [Editor API](https://developer.playcanvas.com/en/user-manual/designer/editor-api/) that allows users to automate tedious tasks and extend the base functionality.
+Over the last few months, we have been working on an [Editor API](https://developer.playcanvas.com/user-manual/designer/editor-api/) that allows users to automate tedious tasks and extend the base functionality.
 
 We are excited to announce the beta release of the API today and would love to see how the PlayCanvas community will use it to power up their workflows!
 
@@ -27,7 +27,7 @@ Or add random Entities to the scene:
 
 [![Generate Random Boxes](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)
 
-More examples and links to the documentation can be found in the [User Manual](https://developer.playcanvas.com/en/user-manual/designer/editor-api/).
+More examples and links to the documentation can be found in the [User Manual](https://developer.playcanvas.com/user-manual/designer/editor-api/).
 
 ## Join our Open Source Effort
 

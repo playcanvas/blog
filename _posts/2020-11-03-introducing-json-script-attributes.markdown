@@ -77,4 +77,4 @@ Becomes the following in the inspector which is so much cleaner!
 
 ![Arrays of JSON objects](/assets/media/image-22.png)
 
-Read more in the [documentation](https://developer.playcanvas.com/en/user-manual/scripting/script-attributes/) and let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
+Read more in the [documentation](https://developer.playcanvas.com/user-manual/scripting/script-attributes/) and let us hear your feedback in the [forums](https://forum.playcanvas.com/)!

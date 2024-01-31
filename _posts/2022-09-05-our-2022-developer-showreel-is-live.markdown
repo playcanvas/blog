@@ -35,4 +35,4 @@ We would like to thank our users that have allowed us to show their awesome cont
 - [Party Space](https://www.party.space/)
 - [How Not to Suck at Money](https://hntsam.com/) by Invesco QQQ, Preloaded
 
-See more games and experiences on [Made with PlayCanvas](https://developer.playcanvas.com/en/user-manual/made-with-playcanvas/)!
+See more games and experiences on [Made with PlayCanvas](https://developer.playcanvas.com/user-manual/made-with-playcanvas/)!

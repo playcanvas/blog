@@ -80,11 +80,11 @@ So instead of loading 180 PNGs, the demo now loads just 5 DDS files. Much faster
 
 To achieve an optimal load time, it is important to only load what is required to make your app functional. It is arguable that music is not strictly a necessary precondition for your app to start. Therefore, the demo now asynchronously loads the mp3 asset that contains the music track and auto-plays it as soon as it is downloaded. It is 3.9MB which accounts for nearly 40% of the app's payload! So be sure to carefully audit your app for assets that can be streamed instead of preloaded.
 
-Read more about preloading and streaming of assets in the [User Manual](https://developer.playcanvas.com/en/user-manual/assets/preloading-and-streaming/).
+Read more about preloading and streaming of assets in the [User Manual](https://developer.playcanvas.com/user-manual/assets/preloading-and-streaming/).
 
 ### Useful Links
 
 - [Star-Lord Project](https://playcanvas.com/project/333626/overview/starlord)
 - [Star-Lord App](https://playcanv.as/p/SA7hVBLt/)
-- [User Manual: Optimizing Load Time](https://developer.playcanvas.com/en/user-manual/optimization/load-time/)
-- [User Manual: Physically Based Rendering](https://developer.playcanvas.com/en/user-manual/graphics/physical-rendering/)
+- [User Manual: Optimizing Load Time](https://developer.playcanvas.com/user-manual/optimization/load-time/)
+- [User Manual: Physically Based Rendering](https://developer.playcanvas.com/user-manual/graphics/physical-rendering/)

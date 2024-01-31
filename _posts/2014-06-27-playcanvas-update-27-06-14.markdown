@@ -17,7 +17,7 @@ No one ever called us inactive, we've had a busy week and we want to tell you a
 
 ### New Custom and Built-In Post Effects
 
-Now you can select [new modifications](https://developer.playcanvas.com/en/user-manual/graphics/posteffects/) for your entity or you can create your own. we even have a [step by step guide](https://developer.playcanvas.com/tutorials/custom-posteffect/) to help you write the custom script.
+Now you can select [new modifications](https://developer.playcanvas.com/user-manual/graphics/posteffects/) for your entity or you can create your own. we even have a [step by step guide](https://developer.playcanvas.com/tutorials/custom-posteffect/) to help you write the custom script.
 
 [![Post Effects](/assets/media/posteffects2.png)](/assets/media/posteffects2.png)
 <br>_Beautiful Post Effects on Playbot_

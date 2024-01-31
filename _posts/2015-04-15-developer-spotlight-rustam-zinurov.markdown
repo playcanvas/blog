@@ -28,7 +28,7 @@ I think I have been dreaming about game development since my school days if not 
 Since January, 2015
 
 **What led you to start using PlayCanvas?**
-I watched all [your videos](http://youtube.com/user/playcanvas/) and checked most of [tutorials](https://developer.playcanvas.com/en/tutorials/). The feeling was that I can start doing something and getting the results with this platform very fast and it was true. I liked the idea that I didn't need to install anything - all I needed was a browser, so I decided to give it a chance.
+I watched all [your videos](http://youtube.com/user/playcanvas/) and checked most of [tutorials](https://developer.playcanvas.com/tutorials/). The feeling was that I can start doing something and getting the results with this platform very fast and it was true. I liked the idea that I didn't need to install anything - all I needed was a browser, so I decided to give it a chance.
 
 [![space_buggy_start](/assets/media/space_buggy_start.png)](/assets/media/space_buggy_start.png)
 

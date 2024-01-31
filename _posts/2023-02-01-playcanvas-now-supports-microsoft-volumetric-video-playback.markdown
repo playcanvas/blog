@@ -77,13 +77,13 @@ This was done by combining several of our WebXR example projects and the scripts
 
 #### Adding AR
 
-AR mode was added first, taking the 'xr-manager.js' script as a base from [WebXR UI Interaction tutorial](https://developer.playcanvas.com/en/tutorials/webxr-ray-input/). Key changes that had to be made to the project were:
+AR mode was added first, taking the 'xr-manager.js' script as a base from [WebXR UI Interaction tutorial](https://developer.playcanvas.com/tutorials/webxr-ray-input/). Key changes that had to be made to the project were:
 
 - Ensuring ‘Transparent Canvas’ is enabled in the project rendering settings.
 
 - Creating a second camera specifically for AR which is set to render the layers that are needed for AR (i.e. not including the skybox layer) and having a transparent clear color for video passthrough).
 
-After [copying and pasting](https://developer.playcanvas.com/en/user-manual/designer/assets/#copy-and-paste-between-projects) 'the xr-manager.js' file from the tutorial project into the demo project, I hooked up the UI elements and buttons to enter AR and added extra functionality to disable and enable Entities for AR and non-AR experiences.
+After [copying and pasting](https://developer.playcanvas.com/user-manual/designer/assets/#copy-and-paste-between-projects) 'the xr-manager.js' file from the tutorial project into the demo project, I hooked up the UI elements and buttons to enter AR and added extra functionality to disable and enable Entities for AR and non-AR experiences.
 
 This was handled by adding tags to those Entities that the manager finds and disables/enables when the user starts and exits the XR experiences.
 
@@ -113,13 +113,13 @@ Next up was handling how the controllers should look in VR. The starter kit uses
 
 [![VR Controllers](/assets/media/webxr-vr-starter-kit-controllers.gif)](/assets/media/webxr-vr-starter-kit-controllers.gif)
 
-In my case, I wanted to use skinned hands or the representations of the VR controllers instead. [Max](https://twitter.com/mrmaxm?lang=en) (who built the PlayCanvas WebXR integration) created a project that does just that: [WebXR Controller/Hand Models](https://developer.playcanvas.com/en/tutorials/webxr-controllerhand-models/). And it was just a matter of merging the code and assets together.
+In my case, I wanted to use skinned hands or the representations of the VR controllers instead. [Max](https://twitter.com/mrmaxm?lang=en) (who built the PlayCanvas WebXR integration) created a project that does just that: [WebXR Controller/Hand Models](https://developer.playcanvas.com/tutorials/webxr-controllerhand-models/). And it was just a matter of merging the code and assets together.
 
 [![WebXR Hand Tracking](/assets/media/vr-controllers-switch.gif)](/assets/media/vr-controllers-switch.gif)
 
 #### Projected skybox
 
-The skybox was obtained from [Poly Haven](https://polyhaven.com/a/orlando_stadium) and converted to a cube map with our [texture tool](https://developer.playcanvas.com/en/user-manual/assets/cubemaps/#converting-equirectangular-or-octahedral-hdris-to-cubemaps). [Donovan](https://twitter.com/slimbuck7) wrote a shader that projected the cubemap so there was a flat floor that the user could move around in.
+The skybox was obtained from [Poly Haven](https://polyhaven.com/a/orlando_stadium) and converted to a cube map with our [texture tool](https://developer.playcanvas.com/user-manual/assets/cubemaps/#converting-equirectangular-or-octahedral-hdris-to-cubemaps). [Donovan](https://twitter.com/slimbuck7) wrote a shader that projected the cubemap so there was a flat floor that the user could move around in.
 
 It's a nice and easy effect that can be applied in similar scenes without having to build a model or geometry. See the scene without the effect applied (left) and with it (right):
 
@@ -163,13 +163,13 @@ To make this a bit easier to see, I've shown where the plane would be positioned
 
 ### Other tutorials used
 
-There is other functionality in the experience that has been taken from our [tutorial/demo project section](https://developer.playcanvas.com/en/tutorials/) that have been slightly modified for this project.
+There is other functionality in the experience that has been taken from our [tutorial/demo project section](https://developer.playcanvas.com/tutorials/) that have been slightly modified for this project.
 
 These include:
 
-- [Orbit Camera](https://developer.playcanvas.com/en/tutorials/orbit-camera/) for the non XR camera controls. The orbit camera controls are disabled when the camera entity is disabled so that the camera wouldn't move while in a XR session.
+- [Orbit Camera](https://developer.playcanvas.com/tutorials/orbit-camera/) for the non XR camera controls. The orbit camera controls are disabled when the camera entity is disabled so that the camera wouldn't move while in a XR session.
 
-- [Video Textures](https://developer.playcanvas.com/en/tutorials/video-textures/) for the Microsoft video on the information dialog. [It was modified](https://playcanvas.com/editor/code/988340?tabs=104167290) so that it would apply the video texture directly to the Element on the Entity it was attached to.
+- [Video Textures](https://developer.playcanvas.com/tutorials/video-textures/) for the Microsoft video on the information dialog. [It was modified](https://playcanvas.com/editor/code/988340?tabs=104167290) so that it would apply the video texture directly to the Element on the Entity it was attached to.
 
 Although not PlayCanvas related, it is worth shouting out: the awesome QR code (that is displayed if the device is not XR compatible) is generated with [Amazing-QR](https://github.com/x-hw/amazing-qr). It's able to create colorful and animated QR codes that are more interesting and attractive than the typical black and white versions.
 

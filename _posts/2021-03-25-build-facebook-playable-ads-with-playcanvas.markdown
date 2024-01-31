@@ -50,7 +50,7 @@ And you have a very powerful combination to create fantastic and engaging experi
 
 ### Sounds great! How do I get started?
 
-We’ve published the [official exporter tool on GitHub](https://github.com/playcanvas/playcanvas-rest-api-tools#converting-a-project-into-a-single-html-file) with instructions in our [User Manual Documentation](https://developer.playcanvas.com/en/user-manual/publishing/playable-ads/fb-playable-ads/). It’s very simple to set up!
+We’ve published the [official exporter tool on GitHub](https://github.com/playcanvas/playcanvas-rest-api-tools#converting-a-project-into-a-single-html-file) with instructions in our [User Manual Documentation](https://developer.playcanvas.com/user-manual/publishing/playable-ads/fb-playable-ads/). It’s very simple to set up!
 
 Once configured, creating the file(s) for upload to Facebook is **just a single command**, shown in real time below.
 
@@ -64,7 +64,7 @@ If you’re new to PlayCanvas, why not [sign up today for free](https://playcanv
 
 ### Useful links
 
-- [User Manual documentation for creating a Facebook Playable Ad](https://developer.playcanvas.com/en/user-manual/publishing/playable-ads/fb-playable-ads/)
+- [User Manual documentation for creating a Facebook Playable Ad](https://developer.playcanvas.com/user-manual/publishing/playable-ads/fb-playable-ads/)
 - [GitHub repo for the publishing tool](https://github.com/playcanvas/playcanvas-rest-api-tools#converting-a-project-into-a-single-html-file)
 
 P.S. We are considering doing a follow up technical post on how the tool works under the hood. Let us know on the [forum](https://forum.playcanvas.com/) if that is something you would be interested in.
