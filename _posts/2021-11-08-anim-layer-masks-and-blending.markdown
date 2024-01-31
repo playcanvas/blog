@@ -62,6 +62,6 @@ However, now, if you select the ‘Additive’ option, the anim system will take
 
 We’re really keen to see what you can create in PlayCanvas using this feature, so be sure to check out the links below so you can begin working with layer masks and blending.
 
-- [Anim Layer Masks User Manual](https://developer.playcanvas.com/en/user-manual/animation/anim-layer-masking/)
-- [Anim Layer Blending User Manual](https://developer.playcanvas.com/en/user-manual/animation/anim-state-graph-assets/#layer-blending)
+- [Anim Layer Masks User Manual](https://developer.playcanvas.com/user-manual/animation/anim-layer-masking/)
+- [Anim Layer Blending User Manual](https://developer.playcanvas.com/user-manual/animation/anim-state-graph-assets/#layer-blending)
 - [Layer Masks Engine Example](https://playcanvas.github.io/#/animation/layer-masks)

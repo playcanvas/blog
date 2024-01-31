@@ -30,9 +30,9 @@ We are now giving everyone:
   - Free: 200MB → 1GB
   - Personal: 1GB → 10GB
   - Organization: 10GB → 50GB
-- [Customize the loading screen](https://developer.playcanvas.com/en/user-manual/designer/loading-screen/) - remove PlayCanvas branding
-- [Download your apps](https://developer.playcanvas.com/en/user-manual/publishing/web/self-hosting/) - to host your game/app to your own server
-- [Export and import project archives](https://developer.playcanvas.com/en/user-manual/profile/projects/#export-project-archive) - for making offline backups of your projects
+- [Customize the loading screen](https://developer.playcanvas.com/user-manual/designer/loading-screen/) - remove PlayCanvas branding
+- [Download your apps](https://developer.playcanvas.com/user-manual/publishing/web/self-hosting/) - to host your game/app to your own server
+- [Export and import project archives](https://developer.playcanvas.com/user-manual/profile/projects/#export-project-archive) - for making offline backups of your projects
 
 Best of all, this comes at **no extra cost**! 🎉🎉🎉
 

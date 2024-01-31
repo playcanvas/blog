@@ -51,6 +51,6 @@ The Sprite Editor is a new tool inside the PlayCanvas Editor to create and edit 
 
 9-Slicing is a very useful technique for creating scalable user interface elements from 2D textures. Using the Sprite Editor to define a border on an image, you can now use Sprites in your Element components to build your UIs. Watch this space for more User Interface features coming soon.
 
-All these features are available today inside the PlayCanvas Editor. Take a look at the [documentation](https://developer.playcanvas.com/en/user-manual/2D/) and let us know what you think on the [forum.](https://forum.playcanvas.com)
+All these features are available today inside the PlayCanvas Editor. Take a look at the [documentation](https://developer.playcanvas.com/user-manual/2D/) and let us know what you think on the [forum.](https://forum.playcanvas.com)
 
 Prehistoric graphics by [Pixel-boy](https://twitter.com/2pblog1)

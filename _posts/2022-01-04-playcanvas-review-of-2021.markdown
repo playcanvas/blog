@@ -18,7 +18,7 @@ In 2021, we marked the 10th anniversary of PlayCanvas. In that time, we have see
 
 ## Tools Updates
 
-As you might expect, the vast majority of PlayCanvas users build their applications in the Editor. Perhaps the biggest Editor-related story this year was the release of our new [Editor API](https://developer.playcanvas.com/en/user-manual/designer/editor-api/) that allows you to automate certain operations in the Editor front-end. And this is just the first step. We will be fleshing out the Editor API further in 2022 with the goal of building a fully fledged plugin system. Stay tuned for updates on that.
+As you might expect, the vast majority of PlayCanvas users build their applications in the Editor. Perhaps the biggest Editor-related story this year was the release of our new [Editor API](https://developer.playcanvas.com/user-manual/designer/editor-api/) that allows you to automate certain operations in the Editor front-end. And this is just the first step. We will be fleshing out the Editor API further in 2022 with the goal of building a fully fledged plugin system. Stay tuned for updates on that.
 
 The Code Editor also received a major upgrade this year when [we switched from CodeMirror to Monaco](https://blog.playcanvas.com/upcoming-code-editor-upgrade-to-monaco/), the text editor that powers Visual Studio Code. So if you were already a VS Code user, you should feel right at home in the new Code Editor. It brings better performance for handling large text files, better code completion, a powerful command palette and even theme selection.
 

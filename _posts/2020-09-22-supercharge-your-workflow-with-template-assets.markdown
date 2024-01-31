@@ -43,4 +43,4 @@ In terms of how they can be used, we have been beta-testing the feature since ea
 
 As you can see, Templates give you a wide range of flexibility of workflow options to manage and modify content in your projects.
 
-Find out more about [Templates in the User Manual](https://developer.playcanvas.com/en/user-manual/templates/) and give them a try yourself!
+Find out more about [Templates in the User Manual](https://developer.playcanvas.com/user-manual/templates/) and give them a try yourself!

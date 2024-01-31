@@ -80,5 +80,5 @@ Animation Clips - Currently the anim state graph supports animation assets that 
 
 If you’re interested in using anim state graphs in your PlayCanvas projects, here’s some useful links:
 
-- [User Manual](https://developer.playcanvas.com/en/user-manual/animation/)
-- [Animation Blending Tutorial](https://developer.playcanvas.com/en/tutorials/anim-blending/)
+- [User Manual](https://developer.playcanvas.com/user-manual/animation/)
+- [Animation Blending Tutorial](https://developer.playcanvas.com/tutorials/anim-blending/)

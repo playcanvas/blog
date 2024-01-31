@@ -39,7 +39,7 @@ With this new feature, we're enabling WebGL developers to create beautifully lit
 
 **Ease-of-use**
 
-The lightmapping tools are built directly into the Editor. To get started, you just need to flick a couple of check boxes on your light and model components and hit the Bake button. Find out more by reading the new [documentation](https://developer.playcanvas.com/en/user-manual/graphics/lighting/runtime-lightmaps/).
+The lightmapping tools are built directly into the Editor. To get started, you just need to flick a couple of check boxes on your light and model components and hit the Bake button. Find out more by reading the new [documentation](https://developer.playcanvas.com/user-manual/graphics/lighting/runtime-lightmaps/).
 
 **Features, Features, Features**
 

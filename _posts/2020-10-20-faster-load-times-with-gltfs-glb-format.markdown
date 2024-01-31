@@ -37,7 +37,7 @@ We will be deprecating the use of JSON and the default format that model and ani
 
 ![Convert to GLB](/assets/media/editor-convert-to-glb.png)
 
-If you would like to replace your current JSON assets with GLB, the [User Manual](https://developer.playcanvas.com/en/user-manual/assets/importing/) has more information about the process to migrate over.
+If you would like to replace your current JSON assets with GLB, the [User Manual](https://developer.playcanvas.com/user-manual/assets/importing/) has more information about the process to migrate over.
 
 The conversion to GLB supports the importing of multiple animations in a single FBX which will help improve content workflows.
 
@@ -47,7 +47,7 @@ Remember our [awesome glTF 2.0 Viewer](https://blog.playcanvas.com/playcanvas-la
 
 ![Open In Viewer](/assets/media/editor-open-in-viewer.gif)
 
-Also, we have exposed [Animation Import Settings under Asset Tasks](https://developer.playcanvas.com/en/user-manual/assets/animation/) in project settings. These will allow developers to adjust a balance between animation quality and fidelity against file size.
+Also, we have exposed [Animation Import Settings under Asset Tasks](https://developer.playcanvas.com/user-manual/assets/animation/) in project settings. These will allow developers to adjust a balance between animation quality and fidelity against file size.
 
 ![Animation Import Settings](https://developer.playcanvas.com/images/user-manual/assets/animation/animation-import-settings.png)
 

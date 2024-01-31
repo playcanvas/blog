@@ -369,7 +369,7 @@ With the effects we added above, the game looks and plays entirely different. De
 
 As a last finishing touch, I went ahead and added a few post-processing effects that PlayCanvas offers. Namely, Vignette, Bloom and Chromatic Aberration. I also added CRT Scanlines as an overlay for a retro effect.
 
-I hope this guide has been useful to you! Take a look at the project, it is public and is accessible as a [Game Demo in our documentation](https://developer.playcanvas.com/en/tutorials/space-rocks/).
+I hope this guide has been useful to you! Take a look at the project, it is public and is accessible as a [Game Demo in our documentation](https://developer.playcanvas.com/tutorials/space-rocks/).
 
 PlayCanvas is an excellent cloud-based game engine that allows you to build games for the browser. It has an amazing editor that allows you to use it as if it were Unity or Unreal - which most developers are accustomed to.
 
