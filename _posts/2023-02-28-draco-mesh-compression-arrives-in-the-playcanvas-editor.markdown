@@ -27,7 +27,7 @@ _["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed unde
 
 In the example above, a **49.9MB** GLB file is crunched down to only **3.67MB**. That's a **92.6% reduction is file size**! And for the majority of scenes, you should notice _no difference in terms of visual quality_. The only cost is decompression time when the compressed GLB is downloaded by an end user, but this should be significantly less than what is saved in terms of download time.
 
-To enable the feature, open your Project Settings in the Inspector, expand the Asset Tasks panel and edit the Mesh Compression setting. Then, simply Re-Import any existing FBX or GLB and compression will be applied. Any FBX or GLB subsequently imported will also respect your mesh compression setting. Read more on the [Developer Site](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/#mesh-compression).
+To enable the feature, open your Project Settings in the Inspector, expand the Asset Tasks panel and edit the Mesh Compression setting. Then, simply Re-Import any existing FBX or GLB and compression will be applied. Any FBX or GLB subsequently imported will also respect your mesh compression setting. Read more on the [Developer Site](https://developer.playcanvas.com/user-manual/assets/import-pipeline/#mesh-compression).
 
 We believe that mesh compression is going to take many types of applications to the next level, particularly e-commerce applications like product configurators, which need to load detailed meshes as fast as possible.
 

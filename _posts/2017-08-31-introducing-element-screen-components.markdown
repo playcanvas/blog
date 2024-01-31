@@ -37,4 +37,4 @@ Supporting text in PlayCanvas is trivial now. Simply drag and drop a TTF font fi
 
 ### Learning more
 
-Of course, we have [documentation](https://developer.playcanvas.com/en/user-manual/user-interface/) and [tutorials](https://developer.playcanvas.com/en/tutorials/?tags=ui) to help you get started. Feel free to let us know what you think on the forum.
+Of course, we have [documentation](https://developer.playcanvas.com/user-manual/user-interface/) and [tutorials](https://developer.playcanvas.com/tutorials/?tags=ui) to help you get started. Feel free to let us know what you think on the forum.

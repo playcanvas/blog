@@ -55,7 +55,7 @@ The Editor will no longer be affected by the latest release of the Engine on the
 
 While it means that Editor users will have to wait a little longer to get the latest features, it allows extra time for users to test their projects against the upcoming Engine release and report any issues.
 
-However, users will still be able test early against the latest Engine releases using the [`use_local_engine` param on the Launch Tab](https://developer.playcanvas.com/en/user-manual/scripting/custom_engine/). We will also be looking at making this process easier to do via the Editor, such as an option in the Launch Tab settings.
+However, users will still be able test early against the latest Engine releases using the [`use_local_engine` param on the Launch Tab](https://developer.playcanvas.com/user-manual/scripting/custom_engine/). We will also be looking at making this process easier to do via the Editor, such as an option in the Launch Tab settings.
 
 Once this has been tested against the Editor and any reported issues are fixed, the Editor will be released with this version of the Engine.
 

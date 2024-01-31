@@ -16,11 +16,11 @@ tags:
 
 We've added two new tutorials to our developer site this week.
 
-**How to create a real time multiplayer game with Node.js and PlayCanvas** - [READ MORE](https://developer.playcanvas.com/en/tutorials/real-time-multiplayer/)
+**How to create a real time multiplayer game with Node.js and PlayCanvas** - [READ MORE](https://developer.playcanvas.com/tutorials/real-time-multiplayer/)
 
 ![Real ti](/assets/media/multiplayer.gif)
 
-**How to use the Facebook SDK in your WebGL application** - [READ MORE](https://developer.playcanvas.com/en/tutorials/facebook-api/)
+**How to use the Facebook SDK in your WebGL application** - [READ MORE](https://developer.playcanvas.com/tutorials/facebook-api/)
 
 ![Facebook_API](/assets/media/facebook-api.jpg)
 

@@ -28,7 +28,7 @@ Some of our early adaptors have already started using it to do things such as ad
 
 We've now reached the milestone where the feature is stable and invite you all to give it a try! We can't wait to see how you will use it within your games and applications.
 
-[Full documentation is available](https://developer.playcanvas.com/en/user-manual/graphics/lighting/clustered-lighting/) with all the features and explanation of the options. As the Editor integration is still being developed, we have created an example project which is linked in the documentation.
+[Full documentation is available](https://developer.playcanvas.com/user-manual/graphics/lighting/clustered-lighting/) with all the features and explanation of the options. As the Editor integration is still being developed, we have created an example project which is linked in the documentation.
 
 Within that project, is a script that makes it super simple to enable clustered lighting that can be copied and pasted to your own projects.
 
@@ -40,5 +40,5 @@ As always, we value your feedback and want to hear your thoughts with using the 
 
 Useful links
 
-- [Clustered lighting documentation with example project](https://developer.playcanvas.com/en/user-manual/graphics/lighting/clustered-lighting/)
+- [Clustered lighting documentation with example project](https://developer.playcanvas.com/user-manual/graphics/lighting/clustered-lighting/)
 - [Feedback forum thread](https://forum.playcanvas.com/t/clustered-lighting-open-beta-have-hundreds-of-dynamic-lights-in-your-scene/25530)

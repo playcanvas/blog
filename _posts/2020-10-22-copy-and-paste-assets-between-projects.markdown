@@ -25,4 +25,4 @@ This makes it super easy to share reusable code and assets with your team and th
 
 Use the context menu or the Ctrl/Cmd + C and Ctrl/Cmd + V hotkeys to copy assets across to your projects. 💪
 
-Check out the [documentation](https://developer.playcanvas.com/en/user-manual/designer/assets/) for more details.
+Check out the [documentation](https://developer.playcanvas.com/user-manual/designer/assets/) for more details.

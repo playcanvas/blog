@@ -14,7 +14,7 @@ tags:
   - editor
 ---
 
-The PlayCanvas team are very excited to fully release the [Import Hierarchy pipeline feature](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/) in the PlayCanvas Editor!
+The PlayCanvas team are very excited to fully release the [Import Hierarchy pipeline feature](https://developer.playcanvas.com/user-manual/assets/import-pipeline/import-hierarchy/) in the PlayCanvas Editor!
 
 [![Edit Hierarchy](/assets/media/edit-hierarchy.gif)](/assets/media/edit-hierarchy.gif)
 
@@ -43,9 +43,9 @@ Going forward, we will be marking the Model and Animation Components as 'legacy'
 
 You can even mix both pipelines in the same project if you wish to take advantage of the features in the new pipeline in an existing project. However, please bear in mind that this can add complexity to the project code.
 
-The Import Hierarchy asset task will be enabled by default for newly created projects. If you would like to use this feature in your existing project, please consult [User Manual](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/) for details.
+The Import Hierarchy asset task will be enabled by default for newly created projects. If you would like to use this feature in your existing project, please consult [User Manual](https://developer.playcanvas.com/user-manual/assets/import-pipeline/import-hierarchy/) for details.
 
 ### Useful Links
 
-- [User Manual: Import Hierarchy](https://developer.playcanvas.com/en/user-manual/assets/import-pipeline/import-hierarchy/)
-- [Tutorial: Anim State Graph Blending](https://developer.playcanvas.com/en/tutorials/anim-blending/)
+- [User Manual: Import Hierarchy](https://developer.playcanvas.com/user-manual/assets/import-pipeline/import-hierarchy/)
+- [Tutorial: Anim State Graph Blending](https://developer.playcanvas.com/tutorials/anim-blending/)
