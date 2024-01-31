@@ -101,20 +101,20 @@ We strongly urge you to check out the API reference pages for the new API. We've
 
 Reference pages can be found here:
 
-- [`pc.Vec2`](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A 2-dimensional vector
-- [`pc.Vec3`](https://developer.playcanvas.com/en/api/pc.Vec3.html) - A 3-dimensional vector
-- [`pc.Vec4`](https://developer.playcanvas.com/en/api/pc.Vec4.html) - A 4-dimensional vector
-- [`pc.Mat4`](https://developer.playcanvas.com/en/api/pc.Mat4.html) - A 4x4 matrix
-- [`pc.Quat`](https://developer.playcanvas.com/en/api/pc.Vec2.html) - A quaternion
+- [`pc.Vec2`](https://api.playcanvas.com/classes/Engine.Vec2.html) - A 2-dimensional vector
+- [`pc.Vec3`](https://api.playcanvas.com/classes/Engine.Vec3.html) - A 3-dimensional vector
+- [`pc.Vec4`](https://api.playcanvas.com/classes/Engine.Vec4.html) - A 4-dimensional vector
+- [`pc.Mat4`](https://api.playcanvas.com/classes/Engine.Mat4.html) - A 4x4 matrix
+- [`pc.Quat`](https://api.playcanvas.com/classes/Engine.Quat.html) - A quaternion
 
 ### Unrelated Changes
 
 Since we have made such sweeping API changes, we have also taken the opportunity to remove some deprecated functions. The following are no longer in the engine:
 
-- `pc.fw.RigidBodyComponent#get/setLinearVelocity` - use [`linearVelocity`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearVelocity) property
-- `pc.fw.RigidBodyComponent#get/setAngularVelocity` - use [`angularVelocity`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularVelocity) property
-- `pc.fw.RigidBodyComponent#get/setLinearFactor` - use [`linearFactor`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#linearFactor) property
-- `pc.fw.RigidBodyComponent#get/setAngularFactor` - use [`angularFactor`](https://developer.playcanvas.com/en/api/pc.RigidBodyComponent.html#angularFactor) property
-- `pc.scene.Scene#get/setGlobalAmbient` - use [`ambientLight`](https://developer.playcanvas.com/en/api/pc.Scene.html#ambientLight) property
+- `pc.fw.RigidBodyComponent#get/setLinearVelocity` - use [`linearVelocity`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#linearVelocity) property
+- `pc.fw.RigidBodyComponent#get/setAngularVelocity` - use [`angularVelocity`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#angularVelocity) property
+- `pc.fw.RigidBodyComponent#get/setLinearFactor` - use [`linearFactor`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#linearFactor) property
+- `pc.fw.RigidBodyComponent#get/setAngularFactor` - use [`angularFactor`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#angularFactor) property
+- `pc.scene.Scene#get/setGlobalAmbient` - use [`ambientLight`](https://api.playcanvas.com/classes/Engine.Scene.html#ambientLight) property
 
 We hope you like the new interface!
