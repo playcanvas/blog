@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "linkinator": "^6.0.4",
-    "prettier": "^3.2.4"
+    "prettier": "^3.2.5"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
