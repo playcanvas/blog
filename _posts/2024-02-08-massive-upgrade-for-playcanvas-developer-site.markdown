@@ -73,7 +73,7 @@ And at the bottom of each page, you'll find 'Previous' and 'Next' links that all
 
 ## API Reference
 
-We are not just launching a new Developer Site today. We are also launching our branch new, upgraded [API Reference Manual](https://api.playcanvas.com/)!
+We are not just launching a new Developer Site today. We are also launching our brand new, upgraded [API Reference Manual](https://api.playcanvas.com/)!
 
 ![API Reference Site](/assets/media/api-reference-site.png)
 
