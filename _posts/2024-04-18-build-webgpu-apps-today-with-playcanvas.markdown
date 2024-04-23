@@ -31,7 +31,7 @@ Another key feature unique to WebGPU is support for Compute Shaders which allow 
 
 {% include youtube.html id="FRRFcEiWYEY" %}
 
-[Click here](https://playcanvas.github.io/#/compute/particles) to run it for yourself.
+[Click here](https://playcanvas.github.io/#/compute/particles) to run it for yourself in a WebGPU-enabled browser (i.e. Chrome or Edge).
 
 In short, WebGPU represents the future for PlayCanvas and you can expect some incredible advances in performance and functionality over the coming months.
 
