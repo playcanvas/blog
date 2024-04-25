@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-10-13 12:00:50+00:00
-link: https://blog.playcanvas.com/html5-game-development-community-meet-up/
 slug: html5-game-development-community-meet-up
 title: HTML5 Game Development Community Meet Up
 categories:

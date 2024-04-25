@@ -1,8 +1,6 @@
 ---
 authors: steven
-comments: true
 date: 2020-11-03 13:37:59+00:00
-link: https://blog.playcanvas.com/introducing-json-script-attributes/
 slug: introducing-json-script-attributes
 title: Introducing JSON Script Attributes
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2016-04-01 09:33:08+00:00
-link: https://blog.playcanvas.com/playhack-with-playjam-winners/
 slug: playhack-with-playjam-winners
 title: "PLAYHACK with PlayJam: Winners"
 categories:

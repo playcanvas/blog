@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-06-12 15:38:44+00:00
-link: https://blog.playcanvas.com/snappy-new-update/
 slug: snappy-new-update
 title: Snappy New Update
 categories:

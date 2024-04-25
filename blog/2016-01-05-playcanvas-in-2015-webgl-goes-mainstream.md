@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-01-05 11:42:31+00:00
-link: https://blog.playcanvas.com/playcanvas-in-2015-webgl-goes-mainstream/
 slug: playcanvas-in-2015-webgl-goes-mainstream
 title: PlayCanvas in 2015 - WebGL Goes Mainstream
 categories:

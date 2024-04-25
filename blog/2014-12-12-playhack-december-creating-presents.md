@@ -1,8 +1,6 @@
 ---
 authors: nathan
-comments: true
 date: 2014-12-12 16:58:34+00:00
-link: https://blog.playcanvas.com/playhack-december-creating-presents/
 slug: playhack-december-creating-presents
 title: PLAYHACK December - Creating Presents
 categories:

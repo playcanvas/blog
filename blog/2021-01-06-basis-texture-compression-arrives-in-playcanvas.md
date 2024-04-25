@@ -1,8 +1,6 @@
 ---
 authors: steven
-comments: true
 date: 2021-01-06 13:59:25+00:00
-link: https://blog.playcanvas.com/basis-texture-compression-arrives-in-playcanvas/
 slug: basis-texture-compression-arrives-in-playcanvas
 title: Basis Texture Compression arrives in PlayCanvas
 categories:

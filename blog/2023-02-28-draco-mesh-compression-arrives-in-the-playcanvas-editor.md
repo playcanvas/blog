@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2023-02-28 16:02:25+00:00
-link: https://blog.playcanvas.com/draco-mesh-compression-arrives-in-the-playcanvas-editor/
 slug: draco-mesh-compression-arrives-in-the-playcanvas-editor
 title: Draco Mesh Compression Arrives in the PlayCanvas Editor
 categories:

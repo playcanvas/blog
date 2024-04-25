@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2014-04-06 11:29:25+00:00
-link: https://blog.playcanvas.com/publishing-html5-games-on-the-chrome-web-store/
 slug: publishing-html5-games-on-the-chrome-web-store
 title: Publishing HTML5 Games on the Chrome Web Store
 categories:

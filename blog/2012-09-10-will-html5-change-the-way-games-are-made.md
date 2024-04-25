@@ -1,7 +1,6 @@
 ---
 authors: dave
 date: 2012-09-10 10:34:07+00:00
-link: https://blog.playcanvas.com/will-html5-change-the-way-games-are-made/
 slug: will-html5-change-the-way-games-are-made
 title: Will HTML5 change the way games are made?
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-07-21 12:07:55+00:00
-link: https://blog.playcanvas.com/swooop-ladycade/
 slug: swooop-ladycade
 title: SWOOOP @ LadyCADE
 categories:

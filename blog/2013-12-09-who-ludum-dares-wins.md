@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2013-12-09 13:33:48+00:00
-link: https://blog.playcanvas.com/who-ludum-dares-wins/
 slug: who-ludum-dares-wins
 title: Who Ludum Dares Wins!
 categories:

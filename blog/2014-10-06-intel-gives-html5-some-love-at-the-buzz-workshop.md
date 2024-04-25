@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2014-10-06 16:11:39+00:00
-link: https://blog.playcanvas.com/intel-gives-html5-some-love-at-the-buzz-workshop/
 slug: intel-gives-html5-some-love-at-the-buzz-workshop
 title: Intel gives HTML5 some love at the Buzz Workshop
 categories:

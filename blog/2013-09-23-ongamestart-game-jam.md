@@ -1,7 +1,6 @@
 ---
 authors: will
 date: 2013-09-23 13:59:57+00:00
-link: https://blog.playcanvas.com/ongamestart-game-jam/
 slug: ongamestart-game-jam
 title: onGameStart Game Jam
 categories:

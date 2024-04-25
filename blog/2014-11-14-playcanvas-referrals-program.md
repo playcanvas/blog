@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-11-14 16:36:52+00:00
-link: https://blog.playcanvas.com/playcanvas-referrals-program/
 published: false
 slug: playcanvas-referrals-program
 title: PlayCanvas Referrals Program

@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-09-21 14:21:18+00:00
-link: https://blog.playcanvas.com/playcanvas-update-2192014/
 slug: playcanvas-update-2192014
 title: PlayCanvas Update 21/9/2014
 categories:

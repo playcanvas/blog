@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2016-02-11 14:43:09+00:00
-link: https://blog.playcanvas.com/moving-playcanv-as-to-https/
 slug: moving-playcanv-as-to-https
 title: Moving playcanv.as to HTTPS
 categories:

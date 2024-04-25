@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-04-02 14:55:47+00:00
-link: https://blog.playcanvas.com/playhack-with-arm-chromebook-winner/
 slug: playhack-with-arm-chromebook-winner
 title: "PLAYHACK with ARM: Chromebook Winner"
 categories:

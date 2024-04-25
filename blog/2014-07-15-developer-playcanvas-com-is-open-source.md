@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-07-15 11:14:30+00:00
-link: https://blog.playcanvas.com/developer-playcanvas-com-is-open-source/
 slug: developer-playcanvas-com-is-open-source
 title: developer.playcanvas.com is open source
 categories:

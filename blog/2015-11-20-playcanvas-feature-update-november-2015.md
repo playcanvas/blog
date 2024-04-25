@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-11-20 17:43:23+00:00
-link: https://blog.playcanvas.com/playcanvas-feature-update-november-2015/
 slug: playcanvas-feature-update-november-2015
 title: PlayCanvas Feature Update - November 2015
 categories:

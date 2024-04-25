@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-07-07 06:48:25+00:00
-link: https://blog.playcanvas.com/great-british-summer-game-jam/
 slug: great-british-summer-game-jam
 title: Great British Summer Game Jam
 categories:

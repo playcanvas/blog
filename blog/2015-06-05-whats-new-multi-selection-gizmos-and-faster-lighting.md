@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2015-06-05 19:19:30+00:00
-link: https://blog.playcanvas.com/whats-new-multi-selection-gizmos-and-faster-lighting/
 slug: whats-new-multi-selection-gizmos-and-faster-lighting
 title: "What's New: Multi-selection, Gizmos and Faster Lighting"
 categories:

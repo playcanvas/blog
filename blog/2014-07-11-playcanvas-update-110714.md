@@ -1,8 +1,6 @@
 ---
 authors: adam
-comments: true
 date: 2014-07-11 17:43:02+00:00
-link: https://blog.playcanvas.com/playcanvas-update-110714/
 slug: playcanvas-update-110714
 title: PlayCanvas Update 11/07/14
 categories:

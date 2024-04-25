@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-06-24 13:03:00+00:00
-link: https://blog.playcanvas.com/feature-update-real-time-asset-support/
 slug: feature-update-real-time-asset-support
 title: "Feature update: Real-time asset support"
 categories:

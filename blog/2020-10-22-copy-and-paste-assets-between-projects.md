@@ -1,8 +1,6 @@
 ---
 authors: steven
-comments: true
 date: 2020-10-22 14:57:38+00:00
-link: https://blog.playcanvas.com/copy-and-paste-assets-between-projects/
 slug: copy-and-paste-assets-between-projects
 title: Copy and Paste Assets between Projects
 categories:

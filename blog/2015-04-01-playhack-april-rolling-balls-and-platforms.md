@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-04-01 11:43:56+00:00
-link: https://blog.playcanvas.com/playhack-april-rolling-balls-and-platforms/
 slug: playhack-april-rolling-balls-and-platforms
 title: "PLAYHACK April: Rolling balls and platforms"
 categories:

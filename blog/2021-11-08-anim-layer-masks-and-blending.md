@@ -1,8 +1,6 @@
 ---
 authors: elliott
-comments: true
 date: 2021-11-08 15:46:17+00:00
-link: https://blog.playcanvas.com/anim-layer-masks-and-blending/
 slug: anim-layer-masks-and-blending
 title: Anim Layer Masks and Blending
 categories:

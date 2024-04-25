@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2021-07-16 11:12:16+00:00
-link: https://blog.playcanvas.com/learn-the-playcanvas-api-with-the-engine-examples-browser/
 slug: learn-the-playcanvas-api-with-the-engine-examples-browser
 title: Learn the PlayCanvas API with the Engine Examples Browser
 categories:

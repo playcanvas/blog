@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2023-04-26 11:12:12+00:00
-link: https://blog.playcanvas.com/announcing-the-new-playcanvas-asset-store/
 slug: announcing-the-new-playcanvas-asset-store
 title: Announcing the New PlayCanvas Asset Store
 categories:

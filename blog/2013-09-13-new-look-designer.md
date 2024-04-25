@@ -1,7 +1,6 @@
 ---
 authors: dave
 date: 2013-09-13 15:08:21+00:00
-link: https://blog.playcanvas.com/new-look-designer/
 slug: new-look-designer
 title: New Look Designer
 categories:

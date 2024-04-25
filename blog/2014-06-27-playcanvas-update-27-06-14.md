@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-06-27 15:48:09+00:00
-link: https://blog.playcanvas.com/playcanvas-update-27-06-14/
 slug: playcanvas-update-27-06-14
 title: PlayCanvas Update 27/06/14
 categories:

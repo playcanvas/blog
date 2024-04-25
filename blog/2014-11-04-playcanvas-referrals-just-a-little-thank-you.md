@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-11-04 16:11:18+00:00
-link: https://blog.playcanvas.com/playcanvas-referrals-just-a-little-thank-you/
 published: false
 slug: playcanvas-referrals-just-a-little-thank-you
 title: "PlayCanvas Referrals: Just a little Thank You"

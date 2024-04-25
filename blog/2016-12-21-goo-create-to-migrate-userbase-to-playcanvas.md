@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-12-21 12:52:38+00:00
-link: https://blog.playcanvas.com/goo-create-to-migrate-userbase-to-playcanvas/
 published: false
 slug: goo-create-to-migrate-userbase-to-playcanvas
 title: Goo Create to Migrate Userbase to PlayCanvas

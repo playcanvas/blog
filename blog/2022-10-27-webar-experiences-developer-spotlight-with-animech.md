@@ -1,8 +1,6 @@
 ---
 authors: paulo
-comments: true
 date: 2022-10-27 13:56:25+00:00
-link: https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/
 slug: webar-experiences-developer-spotlight-with-animech
 title: Web AR Experiences - Developer Spotlight with Animech
 categories:

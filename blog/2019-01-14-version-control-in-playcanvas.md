@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2019-01-14 22:55:41+00:00
-link: https://blog.playcanvas.com/version-control-in-playcanvas/
 slug: version-control-in-playcanvas
 title: Version Control in PlayCanvas
 categories:

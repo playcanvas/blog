@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2022-01-04 17:56:15+00:00
-link: https://blog.playcanvas.com/playcanvas-review-of-2021/
 slug: playcanvas-review-of-2021
 title: PlayCanvas Review of 2021
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-11-21 12:09:02+00:00
-link: https://blog.playcanvas.com/playcanvas-interviewed-live-on-bbc-news/
 slug: playcanvas-interviewed-live-on-bbc-news
 title: PlayCanvas Interviewed Live on BBC News
 categories:

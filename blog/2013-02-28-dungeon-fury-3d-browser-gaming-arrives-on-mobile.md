@@ -1,7 +1,6 @@
 ---
 authors: will
 date: 2013-02-28 16:21:07+00:00
-link: https://blog.playcanvas.com/dungeon-fury-3d-browser-gaming-arrives-on-mobile/
 slug: dungeon-fury-3d-browser-gaming-arrives-on-mobile
 title: "Dungeon Fury: 3D Browser Gaming Arrives on Mobile"
 categories:

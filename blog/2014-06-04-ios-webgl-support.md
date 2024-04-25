@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2014-06-04 10:34:54+00:00
-link: https://blog.playcanvas.com/ios-webgl-support/
 slug: ios-webgl-support
 title: iOS WebGL Support
 categories:

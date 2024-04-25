@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2016-02-01 14:15:43+00:00
-link: https://blog.playcanvas.com/playhack-with-playjam-starts-today/
 slug: playhack-with-playjam-starts-today
 title: PLAYHACK with PlayJam starts today
 categories:

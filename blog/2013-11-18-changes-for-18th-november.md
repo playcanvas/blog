@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2013-11-18 23:38:29+00:00
-link: https://blog.playcanvas.com/changes-for-18th-november/
 slug: changes-for-18th-november
 title: Changes for 18th November
 categories:

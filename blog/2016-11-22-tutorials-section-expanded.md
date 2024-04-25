@@ -1,8 +1,6 @@
 ---
 authors: steven
-comments: true
 date: 2016-11-22 12:04:49+00:00
-link: https://blog.playcanvas.com/tutorials-section-expanded/
 slug: tutorials-section-expanded
 title: Tutorials section expanded!
 categories:

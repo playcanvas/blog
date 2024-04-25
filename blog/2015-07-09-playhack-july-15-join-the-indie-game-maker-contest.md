@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-07-09 15:57:05+00:00
-link: https://blog.playcanvas.com/playhack-july-15-join-the-indie-game-maker-contest/
 slug: playhack-july-15-join-the-indie-game-maker-contest
 title: "PLAYHACK: July '15 - Join the Indie Game Maker Contest"
 categories:

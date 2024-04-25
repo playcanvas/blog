@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2015-03-17 14:43:08+00:00
-link: https://blog.playcanvas.com/enti-brings-you-videogame-day-in-mallorca/
 slug: enti-brings-you-videogame-day-in-mallorca
 title: ENTI Brings you VideoGame Day in Mallorca
 categories:

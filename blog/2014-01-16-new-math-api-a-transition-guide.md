@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2014-01-16 00:53:57+00:00
-link: https://blog.playcanvas.com/new-math-api-a-transition-guide/
 slug: new-math-api-a-transition-guide
 title: "New Math API: A Transition Guide"
 categories:

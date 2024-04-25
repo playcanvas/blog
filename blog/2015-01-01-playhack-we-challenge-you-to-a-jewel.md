@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-01-01 17:04:56+00:00
-link: https://blog.playcanvas.com/playhack-we-challenge-you-to-a-jewel/
 slug: playhack-we-challenge-you-to-a-jewel
 title: PLAYHACK - We challenge you to a jewel!
 categories:

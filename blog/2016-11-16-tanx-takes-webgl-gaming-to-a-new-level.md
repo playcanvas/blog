@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-11-16 12:47:39+00:00
-link: https://blog.playcanvas.com/tanx-takes-webgl-gaming-to-a-new-level/
 slug: tanx-takes-webgl-gaming-to-a-new-level
 title: TANX Takes WebGL Gaming to a New Level
 categories:

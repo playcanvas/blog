@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2016-01-22 17:24:36+00:00
-link: https://blog.playcanvas.com/playhack-with-playjam/
 slug: playhack-with-playjam
 title: PLAYHACK with Playjam
 categories:

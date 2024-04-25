@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-05-06 13:01:38+00:00
-link: https://blog.playcanvas.com/playhack-we-have-a-winner/
 slug: playhack-we-have-a-winner
 title: "PLAYHACK: We have a winner!"
 categories:

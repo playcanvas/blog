@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2020-05-14 18:28:46+00:00
-link: https://blog.playcanvas.com/a-new-ui-for-the-playcanvas-editor/
 slug: a-new-ui-for-the-playcanvas-editor
 title: A New UI for the PlayCanvas Editor
 categories:

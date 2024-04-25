@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-06-26 16:37:47+00:00
-link: https://blog.playcanvas.com/new-custom-and-built-in-post-effects/
 slug: new-custom-and-built-in-post-effects
 title: New Custom and Built-in Post Effects
 categories:

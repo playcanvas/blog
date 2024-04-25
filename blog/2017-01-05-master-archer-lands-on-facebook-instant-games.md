@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2017-01-05 16:58:46+00:00
-link: https://blog.playcanvas.com/master-archer-lands-on-facebook-instant-games/
 slug: master-archer-lands-on-facebook-instant-games
 title: Master Archer lands on Facebook Instant Games
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-05-30 15:27:56+00:00
-link: https://blog.playcanvas.com/enhanced-asset-api/
 slug: enhanced-asset-api
 title: Enhanced Asset API
 categories:

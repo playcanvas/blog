@@ -1,7 +1,6 @@
 ---
 authors: will
 date: 2024-04-23 11:00:00+00:00
-link: https://blog.playcanvas.com/build-webgpu-apps-today-with-playcanvas/
 slug: build-webgpu-apps-today-with-playcanvas
 title: "Build WebGPU Apps Today with PlayCanvas"
 categories:

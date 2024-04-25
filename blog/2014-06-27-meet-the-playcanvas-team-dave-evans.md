@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-06-27 10:03:10+00:00
-link: https://blog.playcanvas.com/meet-the-playcanvas-team-dave-evans/
 slug: meet-the-playcanvas-team-dave-evans
 title: "Meet the PlayCanvas team: Dave Evans"
 categories:

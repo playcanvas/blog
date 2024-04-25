@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-10-24 13:53:00+00:00
-link: https://blog.playcanvas.com/miniclip-launches-their-first-playcanvas-game/
 slug: miniclip-launches-their-first-playcanvas-game
 title: Miniclip Launches Their First PlayCanvas Game
 categories:

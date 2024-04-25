@@ -1,7 +1,6 @@
 ---
 authors: dave
 date: 2013-01-29 10:39:42+00:00
-link: https://blog.playcanvas.com/announcing-playcanvas-answers/
 slug: announcing-playcanvas-answers
 title: PlayCanvas Community Part 1 - Announcing PlayCanvas Answers
 categories:

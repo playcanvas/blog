@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-10-23 09:57:41+00:00
-link: https://blog.playcanvas.com/mobile-brand-experiences-in-webgl/
 slug: mobile-brand-experiences-in-webgl
 title: Mobile Brand Experiences in WebGL
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2015-08-12 09:57:33+00:00
-link: https://blog.playcanvas.com/playcanvas-pioneers-3d-rich-media-ad-format-for-facebook-and-twitter/
 slug: playcanvas-pioneers-3d-rich-media-ad-format-for-facebook-and-twitter
 title: PlayCanvas pioneers 3D rich media ad format for Facebook and Twitter
 categories:

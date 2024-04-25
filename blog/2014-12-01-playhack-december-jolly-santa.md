@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-12-01 13:17:30+00:00
-link: https://blog.playcanvas.com/playhack-december-jolly-santa/
 slug: playhack-december-jolly-santa
 title: "PLAYHACK December: Jolly Santa"
 categories:

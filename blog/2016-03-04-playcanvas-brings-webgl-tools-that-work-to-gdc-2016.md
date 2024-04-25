@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2016-03-04 20:36:06+00:00
-link: https://blog.playcanvas.com/playcanvas-brings-webgl-tools-that-work-to-gdc-2016/
 slug: playcanvas-brings-webgl-tools-that-work-to-gdc-2016
 title: PlayCanvas brings WebGL Tools that Work to GDC 2016
 categories:

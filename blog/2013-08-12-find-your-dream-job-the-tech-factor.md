@@ -1,7 +1,6 @@
 ---
 authors: will
 date: 2013-08-12 13:49:24+00:00
-link: https://blog.playcanvas.com/find-your-dream-job-the-tech-factor/
 slug: find-your-dream-job-the-tech-factor
 title: Find Your Dream Job @ The Tech Factor
 categories:

@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2015-05-15 13:43:16+00:00
-link: https://blog.playcanvas.com/playcanvas-in-the-spotlight-at-3d-web-fest/
 slug: playcanvas-in-the-spotlight-at-3d-web-fest
 title: PlayCanvas in the Spotlight at 3D Web Fest
 categories:

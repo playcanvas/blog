@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2014-05-22 09:47:04+00:00
-link: https://blog.playcanvas.com/apple-embraces-webgl/
 slug: apple-embraces-webgl
 title: Apple Embraces WebGL
 categories:

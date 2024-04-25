@@ -1,8 +1,6 @@
 ---
 authors: christy
-comments: true
 date: 2014-12-22 17:33:39+00:00
-link: https://blog.playcanvas.com/playcanvas-in-2014-a-year-in-review/
 slug: playcanvas-in-2014-a-year-in-review
 title: "PlayCanvas in 2014: A Year In Review"
 categories:

@@ -1,7 +1,6 @@
 ---
 authors: steven
 date: 2021-07-05 09:19:56+00:00
-link: https://blog.playcanvas.com/transitioning-to-the-new-render-component-and-fill-mode-api/
 slug: transitioning-to-the-new-render-component-and-fill-mode-api
 title: Transitioning to the New Render Component and Fill Mode API
 categories:

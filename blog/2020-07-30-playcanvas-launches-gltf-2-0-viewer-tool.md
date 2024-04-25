@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2020-07-30 15:53:19+00:00
-link: https://blog.playcanvas.com/playcanvas-launches-gltf-2-0-viewer-tool/
 slug: playcanvas-launches-gltf-2-0-viewer-tool
 title: PlayCanvas launches glTF 2.0 Viewer Tool
 categories:

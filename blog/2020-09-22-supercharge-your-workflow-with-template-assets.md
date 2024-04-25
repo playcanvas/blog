@@ -1,8 +1,6 @@
 ---
 authors: steven
-comments: true
 date: 2020-09-22 11:58:06+00:00
-link: https://blog.playcanvas.com/supercharge-your-workflow-with-template-assets/
 slug: supercharge-your-workflow-with-template-assets
 title: Supercharge your workflow with Template Assets!
 categories:

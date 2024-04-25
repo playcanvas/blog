@@ -1,8 +1,6 @@
 ---
 authors: will
-comments: true
 date: 2015-04-20 15:27:02+00:00
-link: https://blog.playcanvas.com/the-making-of-seemore-webgl/
 slug: the-making-of-seemore-webgl
 title: The Making of Seemore WebGL
 categories:

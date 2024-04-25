@@ -1,8 +1,6 @@
 ---
 authors: dave
-comments: true
 date: 2017-08-31 13:52:01+00:00
-link: https://blog.playcanvas.com/introducing-element-screen-components/
 slug: introducing-element-screen-components
 title: Introducing Element & Screen Components
 categories:
