@@ -34,6 +34,8 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
       'classic',
@@ -49,7 +51,7 @@ const config = {
             'https://github.com/playcanvas/blog/tree/main/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       }),
     ],
@@ -61,17 +63,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Blog',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'PlayCanvas Logo',
+          src: 'img/playcanvas.png',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/playcanvas/blog/',
-            label: 'GitHub',
-            position: 'right',
+            'aria-label': 'Discord Invite',
+            'className': 'navbar--discord-link',
+            'href': 'https://discord.gg/RSaMRzg',
+            'position': 'right',
+          },
+          {
+            'aria-label': 'GitHub',
+            'className': 'navbar--github-link',
+            'href': 'https://github.com/playcanvas',
+            'position': 'right',
           },
         ],
       },
@@ -83,11 +91,11 @@ const config = {
             items: [
               {
                 label: 'User Manual',
-                to: '/user-manual/',
+                href: 'https://blog.playcanvas.com/user-manual/',
               },
               {
                 label: 'Tutorials',
-                to: '/tutorials/',
+                href: 'https://blog.playcanvas.com/tutorials/',
               },
               {
                 label: 'API Reference',
