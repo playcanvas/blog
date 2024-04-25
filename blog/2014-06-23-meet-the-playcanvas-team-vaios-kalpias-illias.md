@@ -1,5 +1,5 @@
 ---
-author: christy
+authors: christy
 comments: true
 date: 2014-06-23 10:02:14+00:00
 layout: post

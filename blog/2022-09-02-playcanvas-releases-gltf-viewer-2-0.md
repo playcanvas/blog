@@ -1,5 +1,5 @@
 ---
-author: steven
+authors: steven
 comments: true
 date: 2022-09-02 14:35:01+00:00
 excerpt: Today, we are excited to announce the 2.0 release of our glTF model viewer.

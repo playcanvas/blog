@@ -3,3 +3,22 @@ will:
   title: CEO
   url: https://github.com/willeastcott
   image_url: https://avatars.githubusercontent.com/u/697563?v=4
+
+dave:
+  name: Dave Evans
+  title: CTO
+  url: https://github.com/daredevildave
+
+christy:
+  name: Christy O'Connor
+  title: Community Manager
+  url: https://www.linkedin.com/in/christy-o-connor-76aa2239/
+
+adam:
+  name: Adam Razzak
+  title: Intern
+  url: https://www.linkedin.com/in/adam-razzak/
+
+nathan:
+  name: Nathan
+

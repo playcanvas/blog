@@ -1,5 +1,5 @@
 ---
-author: will
+authors: will
 comments: true
 date: 2015-07-02 16:39:34+00:00
 layout: post

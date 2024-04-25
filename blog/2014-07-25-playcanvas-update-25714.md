@@ -1,5 +1,5 @@
 ---
-author: adam
+authors: adam
 comments: true
 date: 2014-07-25 17:37:19+00:00
 layout: post

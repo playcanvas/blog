@@ -1,5 +1,5 @@
 ---
-author: nathan
+authors: nathan
 comments: true
 date: 2014-12-12 16:58:34+00:00
 layout: post

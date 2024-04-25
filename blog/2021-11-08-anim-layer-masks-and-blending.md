@@ -1,5 +1,5 @@
 ---
-author: elliott
+authors: elliott
 comments: true
 date: 2021-11-08 15:46:17+00:00
 layout: post

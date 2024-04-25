@@ -1,5 +1,5 @@
 ---
-author: dave
+authors: dave
 comments: false
 date: 2012-06-26 20:24:46+00:00
 layout: post
