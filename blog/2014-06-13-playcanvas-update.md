@@ -11,7 +11,7 @@ categories:
   - Features
 ---
 
-[![construction_kit-001](/assets/media/construction_kit-001.jpg)](/assets/media/construction_kit-001.jpg)
+[![construction_kit-001](/img/construction_kit-001.jpg)](/img/construction_kit-001.jpg)
 
 **After a busy week here in the PlayCanvas office, we thought what better way to champion our efforts than to give you a taste of whats happened at HQ. We plan to start a series of weekly updates so you know what is keeping [PlayCanvas](https://playcanvas.com/) at its best. This week:**
 

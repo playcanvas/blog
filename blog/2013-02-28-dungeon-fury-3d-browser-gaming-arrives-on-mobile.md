@@ -12,7 +12,7 @@ tags:
   - game
 ---
 
-[![Dungeon Fury](/assets/media/dungeon-fury.jpg)](http://dungeonfury.playcanvas.com/)
+[![Dungeon Fury](/img/dungeon-fury.jpg)](http://dungeonfury.playcanvas.com/)
 <br>_Play Dungeon Fury in mobile and desktop browsers now_
 
 Something incredibly exciting is happening in the mobile browser space right now. WebGL is rapidly being integrated into browsers and all of a sudden, game developers have the technologies they need to deliver high quality 3D video games without having to deploy a native app. To show what is possible today, PlayCanvas has developed the game 'Dungeon Fury', a light-hearted fantasy game that pushes your reflexes to the limit. Dungeon Fury represents the world's first 3D HTML5 browser game that is built specifically for mobile (although it works great in desktop browsers too!). And if all this wasn't cool enough, the whole game was written using only a web browser, made possible with the PlayCanvas game engine!

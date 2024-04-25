@@ -13,7 +13,7 @@ tags:
   - asset-store
 ---
 
-[![logos](/assets/media/logos.jpg)](/assets/media/logos.jpg)
+[![logos](/img/logos.jpg)](/img/logos.jpg)
 
 Propsplanet is an online digital marketplace which sells 3D models to independent game developers. Previously powered by the Unity Web Player browser plugin, Propsplanet has this week relaunched using the PlayCanvas engine.
 

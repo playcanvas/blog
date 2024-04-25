@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-[![ships_small](/assets/media/ships_small.jpg)](/assets/media/ships_small.jpg)
+[![ships_small](/img/ships_small.jpg)](/img/ships_small.jpg)
 
 **PLAYHACK May** is upon us. (Which means the PLAYHACK April winner will be announced soon)
 
@@ -24,7 +24,7 @@ How does it work:
 
 This month's **PLAYHACK** is the perfect opportunity to learn about the particle system component. We've added one for you, but why not create so other effects for your game. Smoke or worm-holes, for example.
 
-[![ship_small](/assets/media/ship_small.png)](/assets/media/ship_small.png)
+[![ship_small](/img/ship_small.png)](/img/ship_small.png)
 
 #### Win a Google Cardboard
 

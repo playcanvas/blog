@@ -15,7 +15,7 @@ tags:
 
 It's been a long running issue that our Audio Source component wasn't quite feature-complete enough to do some of the more advanced features of an audio heavy game or interactive experience. Today, we're blowing those issues out of the water with a sonic boom!
 
-### [![sound-tutorial](/assets/media/sound-tutorial.png)](/assets/media/sound-tutorial.png)
+### [![sound-tutorial](/img/sound-tutorial.png)](/img/sound-tutorial.png)
 
 ## Sound Component
 
@@ -44,7 +44,7 @@ These features open up a whole bunch of doors with what you can do with audio in
 
 ## Documentation & Tutorials
 
-[![analyzer-thin](/assets/media/analyser-thin1.jpg)](/assets/media/analyser-thin1.jpg)
+[![analyzer-thin](/img/analyser-thin1.jpg)](/img/analyser-thin1.jpg)
 
 To help you get up to speed with all the new features, we've update the [documentation](https://developer.playcanvas.com/user-manual/packs/components/sound/) and the [reference api](https://api.playcanvas.com/classes/Engine.SoundComponent.html).
 

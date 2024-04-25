@@ -13,7 +13,7 @@ categories:
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I'll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month's PLAYHACK._
 
-![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
+![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
 <!-- more -->
 
@@ -25,7 +25,7 @@ In the coming weeks, I'll be taking you through how to make a complete game in P
 
 We're going to be making a side-scrolling endless runner game, where Santa must pick up presents and avoid various things to deliver presents on time! However, the techniques we'll be using will be applicable to many kinds of games.
 
-![Santa](/assets/media/playhack-santa.jpg)
+![Santa](/img/playhack-santa.jpg)
 
 To follow along with this tutorial, fork the [PLAYHACK December project](https://playcanvas.com/project/333365/overview/playhack-dec-14) to get started. To see what we’ll be making this time, [look here](https://playcanvas.com/project/333872/overview/playhack_tut1). Or just check out the embedded app above.
 
@@ -40,7 +40,7 @@ If you test now by pressing the Launch button, you'll see that Santa is tiny in 
 
 ## Player
 
-[![Santa](/assets/media/editor-santa.jpg)](/assets/media/editor-santa.jpg)
+[![Santa](/img/editor-santa.jpg)](/img/editor-santa.jpg)
 
 Now, we want Santa to start on the left of the screen, looking right. To make things easier for us, we'll align our camera along the Z-axis so that moving things around on screen becomes easier for us later.
 

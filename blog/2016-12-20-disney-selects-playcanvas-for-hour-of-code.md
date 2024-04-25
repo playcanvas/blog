@@ -20,7 +20,7 @@ In the tutorial, kids are tasked with using code to navigate Moana and Maui, two
 
 PlayCanvas enabled Disney to bring the beautiful visuals of Moana to the browser via WebGL-based, realtime 3D graphics.
 
-{% include video.html src="/assets/media/moana-hour-of-code.mp4" %}
+{% include video.html src="/img/moana-hour-of-code.mp4" %}
 
 PlayCanvas' web-first approach makes it incredibly easy to incorporate other web technologies such as Google's Blockly and more besides. But it also gives great performance, particularly on mobile. And the tiny footprint of the 160KB engine makes for lightning fast download times and rock-solid stability all the way down to iPhone 4S.
 

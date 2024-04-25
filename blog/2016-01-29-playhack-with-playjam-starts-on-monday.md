@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-![PLAYHACK_clear](/assets/media/PLAYHACK_clear.png)
+![PLAYHACK_clear](/img/PLAYHACK_clear.png)
 
 On Monday 1st of February we commence our biggest PLAYHACK yet. PLAYHACK with PlayJam is a 6 week game jam with thousands of pounds up for grabs for the best game developed using the theme and 3D assets that we provide.
 
@@ -32,7 +32,7 @@ On Monday 1st of February we commence our biggest PLAYHACK yet. PLAYHACK with Pl
 
 ### Clue
 
-![teaser-1](/assets/media/teaser-1.jpg)
+![teaser-1](/img/teaser-1.jpg)
 
 Here's a little teaser... think you can guess?
 

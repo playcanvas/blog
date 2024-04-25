@@ -12,7 +12,7 @@ categories:
 
 **Ludum Dare 31 has come and gone, but many great projects featured PlayCanvas over the course of the weekend. Here's your round up for our involvement in one of the most popular Game Jams in the world.**
 
-![Winter Blast](/assets/media/ld31-winter-blast.png)
+![Winter Blast](/img/ld31-winter-blast.png)
 
 ### What is the Ludum Dare?
 
@@ -26,7 +26,7 @@ Over the past weekend there was some great developing happening with PlayCanvas 
 
 PlayCanvas user [FELLADRIN](https://playcanvas.com/user/felladrin) made a colorful and thoroughly addictive balloon grabbing game called [Ora Bolas!](https://playcanv.as/p/tfHfJdt7/) (seen below).
 
-[![Ora Bolas](/assets/media/ld31-ora-bolas.png)](https://playcanv.as/p/tfHfJdt7/)
+[![Ora Bolas](/img/ld31-ora-bolas.png)](https://playcanv.as/p/tfHfJdt7/)
 
 [CREFOSSUS](https://playcanvas.com/user/crefossus) incorporated sky high teddy bears and computer brain interfaces in his **3D conceptual game**. You can dig into the crazy story behind his project by clicking [here](https://playcanv.as/p/p5kAudr6/).
 
@@ -40,7 +40,7 @@ If you have enjoyed playing any of these games, **log in on the [Ludum Dare](htt
 
 ### PLAYHACK December
 
-![Santa](/assets/media/playhack-santa.jpg)
+![Santa](/img/playhack-santa.jpg)
 
 If you feel that a weekend is too much of a rush to take part in a game jam then we have a great alternative for you. **Last week we started our second PLAYHACK**, after some great entries in our first PLAYHACK.
 

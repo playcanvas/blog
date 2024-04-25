@@ -21,7 +21,7 @@ PlayCanvas scripters rejoice! The Code Editor has just received a major upgrade.
 
 So what does this look like? An animated GIF is worth 1000 words, so behold:
 
-[![autocomplete](/assets/media/code-editor-autocomplete.gif)](/assets/media/code-editor-autocomplete.gif)
+[![autocomplete](/img/code-editor-autocomplete.gif)](/img/code-editor-autocomplete.gif)
 
 As you can see, the Code Editor now displays the properties of a variable and can list them in a popup for quick selection. But even cooler is that the API reference description for the selected property is shown to the right of this. So what does this all mean? Fewer visits to the full API Reference Manual on the developer site, that's what? So nice.
 

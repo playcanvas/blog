@@ -13,7 +13,7 @@ categories:
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._
 
-![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
+![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
 We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-player-character/) this time, so make sure you've followed that one before attempting this!
 
@@ -27,7 +27,7 @@ In this tutorial, we're going to program the gifts that will come in from the r
 
 ### Moving the Presents
 
-[![Santa and the Present](/assets/media/editor-santa-and-present.png)](/assets/media/editor-santa-and-present.png)
+[![Santa and the Present](/img/editor-santa-and-present.png)](/img/editor-santa-and-present.png)
 
 To start with, we'll need to create a script that will make the presents move across the screen towards Santa. We're also going to make the presents rotate, just because it looks nice. To do that, we need to attach a new script to the Gift entity, just like we did last time with Santa. Call it something like 'gift_controller'.
 
@@ -56,7 +56,7 @@ If you launch the game (remembering to do _Entity > Refresh Script Attributes_!)
 
 ### Creating Many Presents
 
-[![Many Presents](/assets/media/Screen-Shot-2014-11-24-at-15.58.42.png)](/assets/media/Screen-Shot-2014-11-24-at-15.58.42.png)
+[![Many Presents](/img/Screen-Shot-2014-11-24-at-15.58.42.png)](/img/Screen-Shot-2014-11-24-at-15.58.42.png)
 
 Now, we'll need to create a script that will create presents every so often off the right hand edge of the screen. This might seem odd - up until now we've only created scripts that do things to entities already on screen. To do this, we're going to attach a script to the root entity of the game - which is the entity called "Santa" in the pack explorer. Add a script to the root entity called 'gift_creator'.
 

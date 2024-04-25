@@ -13,7 +13,7 @@ tags:
   - networking
 ---
 
-![D.E.M.O.](/assets/media/demo-game.jpg)
+![D.E.M.O.](/img/demo-game.jpg)
 <br>_D.E.M.O. Multiplayer 3rd-person shooter running in the browser_
 
 PlayCanvas were lucky enough to show a demo of our collaborative HTML5 game development toolset at Google I/O a few months back. We had a few existing demos of simple games that we had made in order to test the platform.
@@ -44,7 +44,7 @@ Two weeks is very short time to build an app like D.E.M.O. and along with lots o
 
 ### Asset wrangling
 
-![SWAT Model](/assets/media/swat_in_tools.jpg)
+![SWAT Model](/img/swat_in_tools.jpg)
 <br>_Side-by-side rendering in 3DS Max and PlayCanvas Engine_
 
 We’ve made a beautiful looking game in 3D in next to no time. We could do this because the PlayCanvas asset tools are built to ingest a wide range of model formats and set up to ensure that default materials from popular 3D packages appear identical in engine as they do for the artist.
@@ -53,7 +53,7 @@ The sci-fi levels and the SWAT character and animations were all created using 3
 
 ### Building the level
 
-![D.E.M.O.](/assets/media/demo-designer.jpg)
+![D.E.M.O.](/img/demo-designer.jpg)
 <br>_Building the D.E.M.O. in PlayCanvas Designer_
 
 Traditionally, this would consist of building out the level in low detail (often called grey-boxing) and running about it in to get feel for the how the game plays, where the choke points are and how the spawn points should be placed. Unfortunately, we didn’t have the art resources to design the level in this way but we did have a set of 5 or 6 components which fitted together like jigsaw pieces.

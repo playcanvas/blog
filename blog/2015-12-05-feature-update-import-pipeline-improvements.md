@@ -17,7 +17,7 @@ Today's new features are part of our on-going process of making your PlayCanvas 
 
 ## Asset Import Pipeline
 
-[![Asset Tasks](/assets/media/editor-asset-tasks.jpg)](/assets/media/editor-asset-tasks.jpg)
+[![Asset Tasks](/img/editor-asset-tasks.jpg)](/img/editor-asset-tasks.jpg)
 
 We've introduced a lot more control over the way that assets are imported into PlayCanvas. You will discover these options in the Asset Tasks panel and the Asset Task Settings.
 
@@ -47,13 +47,13 @@ You can now upload scripts from your computer into the asset panel.
 
 ### Model meta data
 
-[![Model Meta](/assets/media/model-meta.jpg)](/assets/media/model-meta.jpg)
+[![Model Meta](/img/model-meta.jpg)](/img/model-meta.jpg)
 
 When you upload a model, we now show you properties like the number of vertices and mesh instances in the asset properties.
 
 ### Asset References
 
-[![Asset References](/assets/media/editor-asset-references.png)](/assets/media/editor-asset-references.png)
+[![Asset References](/img/editor-asset-references.png)](/img/editor-asset-references.png)
 
 If you right-click an asset in the asset panel. There is references option which will tell you everywhere in the scene where that asset is currently used.
 

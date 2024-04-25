@@ -16,7 +16,7 @@ tags:
 
 When we first started PlayCanvas ([over 2,716 commits ago](https://github.com/playcanvas/engine)) WebGL was just beginning to make it's way from Chrome and Firefox Nightlies into stable releases. Fast-forward to 3 years and WebGL is everywhere, Firefox and Chrome have strong support both on desktop and on mobile. And just this week the final player Apple have joined us with [WebGL support](https://blog.playcanvas.com/ios-webgl-support/) for both Safari and iOS.
 
-[![SWOOOP background](/assets/media/background-small.png)](/assets/media/background-small.png)
+[![SWOOOP background](/img/background-small.png)](/img/background-small.png)
 
 Today, we have some more great news for WebGL fans, game developers and web developers alike.
 
@@ -57,7 +57,7 @@ As a developer, you want well documented and well architected APIs. But you also
 
 Additionally, you need great graphics, physics and audio engines. But the PlayCanvas Engine takes things a step further. It exposes a game framework that implements an **entity-component system**, allowing you to build the objects in your games as if they were made of Lego-like blocks of functionality. So what does this look like? Let’s check out a simple example on CodePen
 
-[![playcanvas_codepen](/assets/media/playcanvas_codepen.jpg)](http://codepen.io/playcanvas/pen/ctxoD)
+[![playcanvas_codepen](/img/playcanvas_codepen.jpg)](http://codepen.io/playcanvas/pen/ctxoD)
 
 As you can see from the Pen’s JS panel, in just over 100 lines of code, you can create, light, simulate and view interesting 3D scenes. Try forking the CodePen and change some values for yourself.
 
@@ -69,7 +69,7 @@ But what about the non-asm.js parts of the codebase? Performance is clearly stil
 
 ### Powering Awesome Projects
 
-[![Editor](/assets/media/editor-swooop.jpg)](/assets/media/editor-swooop.jpg)
+[![Editor](/img/editor-swooop.jpg)](/img/editor-swooop.jpg)
 
 The PlayCanvas Engine is already powering some great projects. By far and away, the biggest is the [PlayCanvas web site](https://playcanvas.com): the world’s first cloud-hosted game development platform.
 
@@ -85,7 +85,7 @@ PlayCanvas ticks all of these boxes beautifully. But don’t take our word for i
 
 It's all very well talking about engines and tools, but engines are only as good as the games they let you make. Fortunately we've got a doozy for you.
 
-[![SWOOOP](/assets/media/swooop_blog.jpg)](http://swooop.playcanvas.com/)
+[![SWOOOP](/img/swooop_blog.jpg)](http://swooop.playcanvas.com/)
 <br>_SWOOOP - mobile browser game built using the PlayCanvas Engine_
 
 [SWOOOP](http://swooop.playcanvas.com) is a great demonstration of what you can achieve with HTML5 and WebGL today. The game runs great in both mobile and desktop browsers and PlayCanvas also supports publishing to App Stores through third-party tools like [Ludei's CocoonJS](https://en.wikipedia.org/wiki/CocoonJS) or the open source [Ejecta](https://impactjs.com/ejecta) project.

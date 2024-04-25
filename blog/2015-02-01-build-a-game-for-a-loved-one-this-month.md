@@ -15,11 +15,11 @@ Our most popular PLAYHACK ever finishes today. Last month's gem challenge sparke
 
 ## Featured Winner
 
-[![yet another gem](/assets/media/yet-another-gem.jpg)](/assets/media/yet-another-gem.jpg)
+[![yet another gem](/img/yet-another-gem.jpg)](/img/yet-another-gem.jpg)
 
 This month our favorite PLAYHACK game is [Yet Another Gems](https://playcanv.as/p/p87UuuNV) by [rzinurov](https://playcanvas.com/user/rzinurov). A great 3D twist on a classic format. We were most impressed by the polish of the game. From the full menu and UI, to the the inclusion of online leaderboards using [Google Play Services](https://developers.google.com/games/services/web/gettingstarted), this is a complete game. An impressive achievement for only one month's development.
 
-[![finalists](/assets/media/finalists.jpg)](/assets/media/finalists.jpg)
+[![finalists](/img/finalists.jpg)](/img/finalists.jpg)
 
 Here's a selection of some of the games made this month. Special mention to [runninglvlan](https://playcanvas.com/user/runninglvlan) who only started making his game [Gem Labyrinth](https://playcanv.as/p/snqvkNes) 12 days ago, but already has an addictive maze running game (my record is 130 points in 47 seconds)
 
@@ -27,7 +27,7 @@ Go watch and star the game projects for [Gem Labyrinth](https://playcanvas.com/p
 
 ## Make your loved one a game
 
-[![PlayCanvas](/assets/media/PlayCanvas.jpg)](/assets/media/PlayCanvas.jpg)
+[![PlayCanvas](/img/PlayCanvas.jpg)](/img/PlayCanvas.jpg)
 
 With the end of one PLAYHACK must come the start of a new one. February 14th is St Valentine's Day, so this month's theme is to give you the chance to create the ultimate Valentine's Day gift. Make your loved one their own special game.
 
@@ -63,6 +63,6 @@ Enough from us though.
 
 ## [START YOUR PLAYHACK](https://playcanvas.com/project/336903/overview/playhack-feb-15)
 
-[![bear_small](/assets/media/bear_small.jpeg)](/assets/media/bear_small.jpeg)
+[![bear_small](/img/bear_small.jpeg)](/img/bear_small.jpeg)
 
 **We love you!**

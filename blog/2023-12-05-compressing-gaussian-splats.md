@@ -28,7 +28,7 @@ Gaussian Splat Scenes are not made up of polygons and textures. Instead, they ar
 
 Below you can see a single brown splat selected. The splat bounding box shows its orientation and size:
 
-![Splat Example](/assets/media/splat-example.gif)
+![Splat Example](/img/splat-example.gif)
 
 The gaussian part of the name comes from the shape of splat itself: the splat opacity has a gaussian falloff from its center to its edge.
 
@@ -36,11 +36,11 @@ The gaussian part of the name comes from the shape of splat itself: the splat op
 
 The PlayCanvas team has been adding support to the engine for loading and rendering Gaussian Splat PLY files:
 
-[![Engine Example](/assets/media/gaussian-splat-example.gif)](https://playcanvas.github.io/#/loaders/splat-many)
+[![Engine Example](/img/gaussian-splat-example.gif)](https://playcanvas.github.io/#/loaders/splat-many)
 
 Since the resulting files are often messy and require cleaning, we released [SuperSplat](https://playcanvas.com/super-splat), a tool for cleaning and processing gaussian splat PLY files:
 
-[![SuperSplat Example](/assets/media/super-splat-example.gif)](https://playcanvas.com/super-splat?load=https://code.playcanvas.com/viewer/guitar-cleaned.ply)
+[![SuperSplat Example](/img/super-splat-example.gif)](https://playcanvas.com/super-splat?load=https://code.playcanvas.com/viewer/guitar-cleaned.ply)
 
 ### PLY Format
 
@@ -92,7 +92,7 @@ As a result, the compressed version of `guitar.ply` takes only **8.7 MB**.
 
 The easiest way to generate a compressed PLY file yourself is using the [SuperSplat tool](https://playcanvas.com/super-splat). Load the PLY file into SuperSplat and export it again using the 'Compressed Ply File' option:
 
-[![SuperSplat Export](/assets/media/super-splat-export.png)](https://playcanvas.com/super-splat)
+[![SuperSplat Export](/img/super-splat-export.png)](https://playcanvas.com/super-splat)
 
 If you are interested in the file format specifics, see [this code](https://github.com/playcanvas/engine/blob/a86bd8be0cfd4e39e9ba5e5466acb6875ab9906e/extras/splat/splat-data.js#L257) which demonstrates how to decompress the file data.
 

@@ -21,7 +21,7 @@ This is a different blog post to what we normally do but with some big changes c
 
 As part of the work to enable the [import of a model’s hierarchy into the scene](https://forum.playcanvas.com/t/importing-models-with-hierarchy-is-now-in-soft-launch/20304), we have introduced Render Asset and Render Component as new features of the Engine and Editor.
 
-![Import Hierarchy Preview](/assets/media/editor-import-hierarchy-preview.jpg)
+![Import Hierarchy Preview](/img/editor-import-hierarchy-preview.jpg)
 
 Going forward, this will be the default way to render imported models and gives developers greater flexibility in manipulating mesh instances in the model directly in the Editor. For example, with the new pipeline you can import a house FBX model and only use the door mesh instance in the scene instead of the whole model.
 

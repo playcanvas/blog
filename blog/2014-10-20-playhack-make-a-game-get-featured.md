@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-[![PLAYHACK](/assets/media/PLAYHACK_clear.png)](/assets/media/PLAYHACK_clear.png)
+[![PLAYHACK](/img/PLAYHACK_clear.png)](/img/PLAYHACK_clear.png)
 
 Calling all Game Developers!
 
@@ -36,7 +36,7 @@ It works like this:
 
 This month you get to build your game around this uber-cool, **sci-fi hover tank!**
 
-[![Tank](/assets/media/tank.jpg)](/assets/media/tank.jpg)
+[![Tank](/img/tank.jpg)](/img/tank.jpg)
 
 Other than incorporating the model your game can be made and presented in any way that you like, whether it be **overhead** or **side-scrolling**, **shooter** or **adventure**.
 
@@ -50,7 +50,7 @@ We will be holding things down here at HQ during the month long jam by sharing s
 
 On the **1st December** we will judge your projects and our favorite will be **featured** on the **PlayCanvas front page**!
 
-[![Button](/assets/media/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
+[![Button](/img/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
 
 ### Stay In The Loop
 

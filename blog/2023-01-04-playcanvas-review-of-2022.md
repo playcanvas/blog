@@ -44,22 +44,22 @@ These interviews provide valuable insights and inspiration for other PlayCanvas 
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
     <div style="width: 49%;">
-        <img src="/assets/media/developer-spotlight-pirron-islands.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
+        <img src="/img/developer-spotlight-pirron-islands.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
         <div style="text-align: center;"><a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/">Pirron One: Leonidas</a></div>
     </div>
     <div style="width: 49%;">
-        <img src="/assets/media/developer-spotlight-animech-fjallraven.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
+        <img src="/img/developer-spotlight-animech-fjallraven.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
         <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Animech</a></div>
     </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
     <div style="width: 49%;">
-        <img src="/assets/media/v777-nissan-ar.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
+        <img src="/img/v777-nissan-ar.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
         <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/">Visionaries777</a></div>
     </div>
     <div style="width: 49%;">
-        <img src="/assets/media/developer-spotlight-christina-home.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
+        <img src="/img/developer-spotlight-christina-home.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
         <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Pirron One: Christina</a></div>
     </div>
 </div>
@@ -72,28 +72,28 @@ With Google Chrome set to enable WebGPU by default in 2023, we're excited to be 
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
     <div style="width: 49%;">
-        <img src="/assets/media/webgpu-grabpass.gif" alt="WebGPU Grabpass" />
+        <img src="/img/webgpu-grabpass.gif" alt="WebGPU Grabpass" />
         <div style="text-align: center;">WebGPU Grabpass</div>
     </div>
     <div style="width: 49%;">
-        <img src="/assets/media/webgpu-clustered-lighting.gif" alt="WebGPU Clustered Lighting" />
+        <img src="/img/webgpu-clustered-lighting.gif" alt="WebGPU Clustered Lighting" />
         <div style="text-align: center;">WebGPU Clustered Lighting</div>
     </div>
 </div>
 
 In addition to WebGPU support, we've also added support for all ratified glTF 2.0 extensions to the PlayCanvas engine, complete with Editor support for iridescence and dynamic refraction. These features allow developers to create even more realistic and visually stunning 3D content.
 
-[![glTF Asset Viewer](/assets/media/gltf-materials.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
+[![glTF Asset Viewer](/img/gltf-materials.jpg)](https://playcanvas.github.io/#/graphics/asset-viewer)
 
 But we didn't stop there! We also released Editor support for Clustered Lighting and Area Lights, which allow developers to easily incorporate hundreds of dynamic lights into their projects. And as it turns out, our users have already been using these new features to add extra flair and fidelity to their projects.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
     <div style="width: 49%;">
-        <img src="/assets/media/space-rocks-clustered-lighting.gif" alt="Space Rocks" />
+        <img src="/img/space-rocks-clustered-lighting.gif" alt="Space Rocks" />
         <div style="text-align: center;">Space Rocks</div>
     </div>
     <div style="width: 49%;">
-        <img src="/assets/media/pirron-pool.gif" alt="Pool Demo" />
+        <img src="/img/pirron-pool.gif" alt="Pool Demo" />
         <div style="text-align: center;">Pirron Pool</div>
     </div>
 </div>
@@ -105,13 +105,13 @@ But we didn't stop there! We also released Editor support for Clustered Lighting
 The most notable new feature is AR support with WebXR (Android) and USDZ export (iOS). This allows users to view glTF models in AR directly from the browser.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/gltf-viewer-mobile-ar-ios.gif" style="width: 49%;" alt="glTF Viewer AR on iOS" />
-    <img src="/assets/media/gltf-viewer-mobile-ar-android.gif" style="width: 49%;" alt="glTF Viewer AR on Android" />
+    <img src="/img/gltf-viewer-mobile-ar-ios.gif" style="width: 49%;" alt="glTF Viewer AR on iOS" />
+    <img src="/img/gltf-viewer-mobile-ar-android.gif" style="width: 49%;" alt="glTF Viewer AR on Android" />
 </div>
 
 We've also made the UI more streamlined and mobile-friendly, grouping related functionality together for easier use. Rendering has been improved with the 'High Quality Rendering' option, which enables supersampling to smooth out jagged edges along polygons and high resolution reflections for more realistic rendering.
 
-[![glTF Viwer Lamborghini Urus](/assets/media/gltf-viewer-lamborghini-urus.jpg)](/assets/media/gltf-viewer-lamborghini-urus.jpg)
+[![glTF Viwer Lamborghini Urus](/img/gltf-viewer-lamborghini-urus.jpg)](/img/gltf-viewer-lamborghini-urus.jpg)
 
 ### Tools Updates
 
@@ -135,11 +135,11 @@ These include:
 
 [The project dashboard has gotten a huge refresh](https://github.com/playcanvas/editor/releases/tag/v1.21.82) and can be accessed in-Editor. It includes searching and sorting of the project list as well as being able to manage teams and settings without leaving the Editor!
 
-[![Project Dashboard](/assets/media/editor-project-dashboard.png)](/assets/media/editor-project-dashboard.png)
+[![Project Dashboard](/img/editor-project-dashboard.png)](/img/editor-project-dashboard.png)
 
 [Version Control also got some major features this year](https://github.com/playcanvas/editor/releases/tag/v1.21.30), including the addition of the Item History and Graph View, which make it easier to track changes to your projects. And looking ahead to this year, we're planning to make some of our REST API public, so developers can automate flows for CI and tools.
 
-[![Version Control History](/assets/media/editor-version-control-history.gif)](/assets/media/editor-version-control-history.gif)
+[![Version Control History](/img/editor-version-control-history.gif)](/img/editor-version-control-history.gif)
 
 ### Thank You
 

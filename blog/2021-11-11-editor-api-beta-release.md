@@ -20,12 +20,12 @@ Creating and modifying Entities and Assets are all accessible via the API. Add/r
 
 Here's a great example where a context menu can be added to select Entity parents in the hierarchy to speed up scene editing:
 
-[![Select Entity Parents](/assets/media/select-hierarchy-parents.gif)](/assets/media/select-hierarchy-parents.gif)
+[![Select Entity Parents](/img/select-hierarchy-parents.gif)](/img/select-hierarchy-parents.gif)
 _From: [https://twitter.com/yaustar/status/1446504233537314816](https://twitter.com/yaustar/status/1446504233537314816)_
 
 Or add random Entities to the scene:
 
-[![Generate Random Boxes](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)](/assets/media/generate-boxes-playcanvas-editior-api-1.gif)
+[![Generate Random Boxes](/img/generate-boxes-playcanvas-editior-api-1.gif)](/img/generate-boxes-playcanvas-editior-api-1.gif)
 
 More examples and links to the documentation can be found in the [User Manual](https://developer.playcanvas.com/user-manual/designer/editor-api/).
 

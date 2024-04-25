@@ -14,7 +14,7 @@ tags:
 
 On May 13th, San Francisco played host to 3D Web Fest.
 
-[![folsom_st_foundry_panorama](/assets/media/folsom_st_foundry_panorama.jpg)](/assets/media/folsom_st_foundry_panorama.jpg)
+[![folsom_st_foundry_panorama](/img/folsom_st_foundry_panorama.jpg)](/img/folsom_st_foundry_panorama.jpg)
 
 The event was designed to showcase websites that represent the best of the best of the 3D Web. The content on show - presented as Live Performance Art – was amazing, delightful, surprising and at times disturbing. There were creations by artists and developers of all kinds showing off their best 3D web sites live with musical accompaniment. The running order was as follows:
 
@@ -37,7 +37,7 @@ The event was designed to showcase websites that represent the best of the best
 
 Check out our Seemore demo up on the dual big screens:
 
-[![seemore](/assets/media/seemore-2.jpg)](/assets/media/seemore-2.jpg)
+[![seemore](/img/seemore-2.jpg)](/img/seemore-2.jpg)
 
 The man behind the controls was Brad Grantham of ARM. He selected some superb music to accompany the visuals. Check 'Hush' out [here](https://incompetech.com/wordpress/2014/01/984/). Kudos to Brad for doing an incredible job!
 

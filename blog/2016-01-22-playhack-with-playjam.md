@@ -12,7 +12,7 @@ tags:
   - partnership
 ---
 
-[![PLAYHACK_clear](/assets/media/PLAYHACK_clear.png)](/assets/media/PLAYHACK_clear.png)
+[![PLAYHACK_clear](/img/PLAYHACK_clear.png)](/img/PLAYHACK_clear.png)
 
 Big news coming in February. Our monthly Game Jam PLAYHACK is back. This time we've partnered with games publisher Playjam to offer rewards for the best games you create.
 

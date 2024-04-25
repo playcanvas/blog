@@ -20,17 +20,17 @@ JPGs and PNGs are great formats for transmission over a network because they ten
 
 This 4096 x 2048 Earth texture is a 1.81MB JPG but takes a huge **33.6MB of VRAM** when uncompressed!
 
-![Earth Texture](/assets/media/texture-earth.jpg)
+![Earth Texture](/img/texture-earth.jpg)
 
 With hardware supported texture formats, we can retain a similar file size while massively reducing the amount of VRAM as seen below.
 
-![Legacy Texture Compression](/assets/media/editor-legacy-texture-compression.png)
+![Legacy Texture Compression](/img/editor-legacy-texture-compression.png)
 
 **Now, what if you reduce file sizes _as well as_ the VRAM usage?!**
 
 That is what Basis gives us and it is available right now to all PlayCanvas users! Compressing the same Earth texture above, produces a **521KB Basis Texture**.That’s a 68% saving over the smallest file size from the hardware supported formats 💪
 
-![Basis Texture Compression](/assets/media/editor-basis-texture-compression.png)
+![Basis Texture Compression](/img/editor-basis-texture-compression.png)
 
 [Basis is an open sourced, texture codec](https://github.com/BinomialLLC/basis_universal) that produces a highly compressed intermediate file format (.basis) that can be converted at runtime to a format that the hardware supports in GPU hardware. This means that there is only **a single (and often smaller) file** that is created to support a wide range of platforms.
 
@@ -38,19 +38,19 @@ As shown by the numbers above, Basis offers huge savings in download times for t
 
 Let’s check out a real world example. The _Space Base Texture Compression Demo_ from our previous blog article achieves the following VRAM usage and download sizes (gzipped) on desktop in Chrome:
 
-![Texture Compression Comparison](/assets/media/texture-compression-comparison.jpg)
+![Texture Compression Comparison](/img/texture-compression-comparison.jpg)
 
-![Texture VRAM Usage](/assets/media/texture-vram-usage.png)
+![Texture VRAM Usage](/img/texture-vram-usage.png)
 
 Note that VRAM usage for Basis would ordinarily be the same as with legacy compression. However, PlayCanvas compresses normal maps to YYYX format instead of XYZ for improved quality so utilization is marginally higher.
 
-![Texture Download Size](/assets/media/texture-download-size.png)
+![Texture Download Size](/img/texture-download-size.png)
 
 That’s a **big saving of 52% (19.5 MB)** in download size from updating the project to use Basis while using a similar amount of VRAM!
 
 And all it takes is a couple of clicks in the asset inspector to get started with Basis compression!
 
-![Enable Basis](/assets/media/editor-enable-basis.gif)
+![Enable Basis](/img/editor-enable-basis.gif)
 
 ### To Recap
 

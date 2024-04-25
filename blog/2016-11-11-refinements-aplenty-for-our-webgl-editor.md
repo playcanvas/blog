@@ -18,13 +18,13 @@ You probably saw this week's [big announcement about our seamless integration wi
 
 We've added a button to the top right of the Inspector panel that allows you to step back through the selection history. There's also a tooltip that shows clearly what the previous selection was. So if you've selected a model, then a material, and then a texture, you can now bubble back up to the model quickly and easily.
 
-[![selection-back](/assets/media/selection-back.gif)](/assets/media/selection-back.gif)
+[![selection-back](/img/selection-back.gif)](/img/selection-back.gif)
 
 ### Updated Physics Engine
 
 We have updated PlayCanvas' build of Ammo.js to the very latest version. This update benefits from 2 years of Emscripten improvements and exposes much more of the Bullet API. So if you are feeling adventurous, you can delve into the parts of Ammo that PlayCanvas does not expose and try some more advanced physics effects. For example, soft body physics. Or maybe utilize constraints for things like ragdolls, as shown below:
 
-{% include video.html src="/assets/media/ragdoll.mp4" %}
+{% include video.html src="/img/ragdoll.mp4" %}
 
 Want to check out the project above? It's [here](https://playcanvas.com/project/431888/overview/ragdoll).
 

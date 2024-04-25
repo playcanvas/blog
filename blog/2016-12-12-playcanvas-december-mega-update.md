@@ -16,19 +16,19 @@ Time for another dev update, WebGL lovers! We've deployed a ton of new features,
 
 A Camera Preview is now shown in the top left corner of Viewport when an entity with a camera component is selected.
 
-[![Camera Preview](/assets/media/editor-camera-preview.gif)](/assets/media/editor-camera-preview.gif)
+[![Camera Preview](/img/editor-camera-preview.gif)](/img/editor-camera-preview.gif)
 
 ### Interactive Asset Previews
 
 New Material, Model and Cubemap Previews are now available in the Inspector. They are interactive and clickable.
 
-[![Material Preview](/assets/media/editor-material-preview.gif)](/assets/media/editor-material-preview.gif)
+[![Material Preview](/img/editor-material-preview.gif)](/img/editor-material-preview.gif)
 
 ### Antialiasing Control
 
 It is now possible to control antialiasing in Scene Settings.
 
-[![Antialias](/assets/media/editor-settings-antialias.png)](/assets/media/editor-settings-antialias.png)
+[![Antialias](/img/editor-settings-antialias.png)](/img/editor-settings-antialias.png)
 
 ### Model Placement
 
@@ -38,15 +38,15 @@ When dragging a model to the Viewport from the Assets panel, if CTRL is held (CM
 
 Added toggle button to Assets panel to switch between small and large thumbnails.
 
-[![thumbnail-size](/assets/media/thumbnail-size.gif)](/assets/media/thumbnail-size.gif)
+[![thumbnail-size](/img/thumbnail-size.gif)](/img/thumbnail-size.gif)
 
 Added Folder Up button to navigate to parent folder.
 
-[![folder-up](/assets/media/folder-up.gif)](/assets/media/folder-up.gif)
+[![folder-up](/img/folder-up.gif)](/img/folder-up.gif)
 
 Hovering on asset in Assets panel will show a tooltip with the full asset name.
 
-[![asset-tooltips](/assets/media/asset-tooltips.gif)](/assets/media/asset-tooltips.gif)
+[![asset-tooltips](/img/asset-tooltips.gif)](/img/asset-tooltips.gif)
 
 Asset Replace feature is available under the context menu of an asset. It activates the asset picker so the developer can choose another asset of the same type. It will replace references with new asset in Entities and Assets.
 

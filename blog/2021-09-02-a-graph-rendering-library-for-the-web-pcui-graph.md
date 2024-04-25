@@ -14,12 +14,12 @@ tags:
 
 Today, we are excited to announce a new open source library: [PCUI Graph](https://github.com/playcanvas/pcui-graph). It’s a graph rendering framework for the browser which can be used to build and view various types of node-based graphs.
 
-[![A Simple Graph](/assets/media/simple-graph.gif)](/assets/media/simple-graph.gif)
+[![A Simple Graph](/img/simple-graph.gif)](/img/simple-graph.gif)
 <br>_PCUI Graph in action_
 
 Last year, we [open sourced PCUI](https://blog.playcanvas.com/introducing-pcui-an-open-source-ui-framework-for-the-web/), a front-end framework for building web-based tools like the PlayCanvas Editor. This was subsequently used as the foundation for a new family of open source tools: the [glTF Viewer](https://playcanvas.com/viewer) and the [PlayCanvas Examples Browser](https://playcanvas.github.io/#/graphics/area-lights). However, some of our more recent tools projects have had requirements related to the creation and editing of node-based graphs. As a result, we set about developing a new plugin to PCUI called PCUI Graph. This plugin is already in use today since it powers both the PlayCanvas [Shader Editor](https://forum.playcanvas.com/t/rfc-shader-editor/20616) and [Animation State Graph Editor](https://blog.playcanvas.com/introducing-the-anim-state-graph/):
 
-[![Graph Editors](/assets/media/pcui-graph-editors.png)](/assets/media/pcui-graph-editors.png)
+[![Graph Editors](/img/pcui-graph-editors.png)](/img/pcui-graph-editors.png)
 
 You can rapidly map out key parts of your project’s workflow using pcui-graph, as it supports both directed and visual programming graphs. Here are some of the key features that PCUI Graph provides:
 
@@ -28,12 +28,12 @@ You can rapidly map out key parts of your project’s workflow using pcui-graph,
 - **Graph state data** - Easily retrieve the current state of the graph in JSON data format at any time and this can be loaded back into the graph later.
 - **Context menus** - You can define context menus in a graph schema, supporting the creation and deletion of nodes / edges in the UI.
 
-![Add Transition](/assets/media/anim-state-graph-add-transition.png)
+![Add Transition](/img/anim-state-graph-add-transition.png)
 
 - **Simple API** - Any of the user interactions with the graph can also be made programmatically.
 - **Styling** - The graph can be configured to change the default styling of nodes / edges. These styles can also be overridden in the schema of each individual node / edge type.
 
-![PCUI Graph Styling](/assets/media/pcui-graph-styled.png)
+![PCUI Graph Styling](/img/pcui-graph-styled.png)
 
 ## Useful links
 

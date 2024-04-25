@@ -14,7 +14,7 @@ This week, we've improved your Dashboard, Projects and Profile pages and now hav
 
 ### Video Series: Introduction to PlayCanvas
 
-[![Robot Dancing](/assets/media/Robot-Dance.jpg)](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927)
+[![Robot Dancing](/img/Robot-Dance.jpg)](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927)
 
 We've created a new series of videos that run through a complete introduction to PlayCanvas. For new users, or for people who just want a refresher course on things they have missed this is essential viewing. See it on our [Youtube channel](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927).
 

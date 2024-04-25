@@ -14,7 +14,7 @@ tags:
   - workflow
 ---
 
-![JSON Script Attributes Preview](/assets/media/editor-json-attributes.jpg)
+![JSON Script Attributes Preview](/img/editor-json-attributes.jpg)
 
 We have levelled up the Script Attributes that makes it much easier to organize and group related attributes together.
 
@@ -43,7 +43,7 @@ GameManager.attributes.add('settings', {
 
 In the Inspector, the data object is shown as a collapsible section:
 
-![Collapsible script settings](/assets/media/Kapture-2020-10-21-at-12.27.36-1.gif)
+![Collapsible script settings](/img/Kapture-2020-10-21-at-12.27.36-1.gif)
 
 Even better, **these data objects can made into an array**! This is a huge improvement over having to organize multiple attribute arrays that was difficult to update and error prone to maintain.
 
@@ -75,6 +75,6 @@ GameManager.attributes.add('enemies', {
 
 Becomes the following in the inspector which is so much cleaner!
 
-![Arrays of JSON objects](/assets/media/image-22.png)
+![Arrays of JSON objects](/img/image-22.png)
 
 Read more in the [documentation](https://developer.playcanvas.com/user-manual/scripting/script-attributes/) and let us hear your feedback in the [forums](https://forum.playcanvas.com/)!

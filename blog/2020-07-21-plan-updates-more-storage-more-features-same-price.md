@@ -17,12 +17,12 @@ Creativity makes our world a better place. PlayCanvas unlocks creativity through
 
 With PlayCanvas, getting started with game development is as simple as clicking on a hyperlink. No installation, available wherever you have access to a browser and easily shareable for a real-time collaborative workspace.
 
-[![Super Snappy Bowling](/assets/media/editor-super-snappy-bowling.png)](/assets/media/editor-super-snappy-bowling.png)
+[![Super Snappy Bowling](/img/editor-super-snappy-bowling.png)](/img/editor-super-snappy-bowling.png)
 <br>_Super Snappy Bowling from NOWWA_
 
 Until today, some aspects of the platform have been limited or restricted. This just holds back the creativity of our community. So today, we have some incredibly exciting news. We have updated our [plans](https://playcanvas.com/plans) to make our tools even more accessible for everyone at all levels!
 
-[![New Plans](/assets/media/plans-2020.jpg)](/assets/media/plans-2020.jpg)
+[![New Plans](/img/plans-2020.jpg)](/img/plans-2020.jpg)
 
 We are now giving everyone:
 

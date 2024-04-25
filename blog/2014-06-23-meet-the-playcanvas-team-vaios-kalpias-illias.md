@@ -12,7 +12,7 @@ tags:
   - team
 ---
 
-![Vaios](/assets/media/team-vaios-2014.jpg)
+![Vaios](/img/team-vaios-2014.jpg)
 
 > "I used to play basketball. Before all this, I considered doing it for a living."
 

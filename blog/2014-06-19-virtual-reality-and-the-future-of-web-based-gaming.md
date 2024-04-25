@@ -16,7 +16,7 @@ tags:
 
 **On Thursday 19th of June we will be [showcasing](https://www.meetup.com/London-Indie-Game-Developers/events/185608412/) some of our recent work with the amazing and exciting Oculus Rift Development Kit. In the build up and anticipation to this event we hope to convey why Virtual Reality and revolutionary hardware from [Oculus VR](https://en.wikipedia.org/wiki/Reality_Labs) are set to be a part of our future at [PlayCanvas](https://playcanvas.com). Playing a game in VR is one thing. Making a game in VR...now that really is the future.**
 
-[![playcanvas oculus1](/assets/media/playcanvas-oculus1.jpg)](/assets/media/playcanvas-oculus1.jpg)
+[![playcanvas oculus1](/img/playcanvas-oculus1.jpg)](/img/playcanvas-oculus1.jpg)
 
 **What is the Oculus Rift?**
 
@@ -30,7 +30,7 @@ Usually leaving users craning necks and grabbing thin air in disbelief, the Ocul
 
 **The Oculus Rift and PlayCanvas**
 
-[![Dave in VR](/assets/media/dave-vr.jpg)](/assets/media/dave-vr.jpg)
+[![Dave in VR](/img/dave-vr.jpg)](/img/dave-vr.jpg)
 <br>_Oculus Rift support coming soon to PlayCanvas_
 
 Imagine a future where you open your Internet browser, select a VR ready online game, enable your Oculus headset and transport yourself into the game immediately. Mind blowing? Potentially yes. This is why we here at PlayCanvas are committed to intertwining the paths of both WebGL and HTML5 technologies with the capabilities of the Oculus Rift. It's crazy to think that VR games could be played and developed by simply opening your favorite web browser.

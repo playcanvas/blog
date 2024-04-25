@@ -30,7 +30,7 @@ Hosted apps are essentially vanilla websites with a little extra metadata. Why a
 
 So this sounds great. More people will be installing and playing your game. PlayCanvas has published a hosted app; a game called Dungeon Fury.
 
-[![Dungeon Fury](/assets/media/dungeon-fury-promo.png)](/assets/media/dungeon-fury-promo.png)
+[![Dungeon Fury](/img/dungeon-fury-promo.png)](/img/dungeon-fury-promo.png)
 
 Check it out on the Chrome Web Store [here](https://chrome.google.com/webstore/detail/dungeon-fury/mnokkobfbdgpnlinolfpemmaloeljfle).
 
@@ -59,7 +59,7 @@ Enter packaged apps! These are essentially apps that are fully installed to Chro
 
 PlayCanvas has also published an example of a packaged app in the Chrome Web Store. It's a game called SWOOOP:
 
-![SWOOOP](/assets/media/swooop-tile.png)
+![SWOOOP](/img/swooop-tile.png)
 
 Check it out for yourself [here](https://chrome.google.com/webstore/detail/swooop/jblimahfbhdcengjfbdpdngcfcghladf).
 

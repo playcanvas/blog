@@ -12,7 +12,7 @@ tags:
   - team
 ---
 
-![Kevin](/assets/media/team-kevin-2014.jpg)
+![Kevin](/img/team-kevin-2014.jpg)
 
 In our latest instalment of this series we chat to Kevin, [PlayCanvas](https://playcanvas.com)' Creative Director from Sligo, Ireland.
 

@@ -16,11 +16,11 @@ tags:
 
 We’re excited to be able to release a new system for creating fantastic and high fidelity animations in PlayCanvas!
 
-[![](/assets/media/animation-and-graph-2.gif)](/assets/media/animation-and-graph-2.gif)
+[![](/img/animation-and-graph-2.gif)](/img/animation-and-graph-2.gif)
 
 Animation systems receive a set of inputs (button presses, current player speed, health, etc) and output a model's animation pose for the current frame. How an animation system goes from a particular set of inputs to the desired animation pose can become quite complicated, especially when writing this in code.
 
-[![Animation Input and Outputs](/assets/media/anim-inputs-and-outputs.png)](/assets/media/anim-inputs-and-outputs.png)
+[![Animation Input and Outputs](/img/anim-inputs-and-outputs.png)](/img/anim-inputs-and-outputs.png)
 
 With the release of the Anim component, Anim State Graph assets and Anim State Graph Editor, you will be able to design and develop intricate animation behavior for your game objects right in the PlayCanvas editor.
 
@@ -30,11 +30,11 @@ Having recently beta tested this feature with a number of developers, we’ve al
 
 A clip of an early build of this game can be seen below, showcasing the blending of multiple animation clips. When combined together in a state graph they create realistic and fluid movement for the main character.
 
-![](/assets/media/cem-prototype.gif)
+![](/img/cem-prototype.gif)
 
 This animation system was entirely developed in the PlayCanvas editor using the anim state graph user interface. The state graph for the main character can be seen below:
 
-![](/assets/media/anim-state-graph.png)
+![](/img/anim-state-graph.png)
 
 We can’t wait to see what other developers can create with this system!
 
@@ -44,7 +44,7 @@ We can’t wait to see what other developers can create with this system!
 
 **Multiple characters** - Because anim state graphs are stored as assets, a single graph can be used to drive the animation of as many entities as you want by assigning your graph asset to multiple entity anim components.
 
-![](/assets/media/anim-state-graph-shared.gif)
+![](/img/anim-state-graph-shared.gif)
 <br>_Multiple characters utilizing the same anim state graph_
 
 While these two characters use different animations for their various actions, they share the same behavior. With the anim state graph you can update this behavior in one place while still using it with as many characters as you like.
@@ -53,12 +53,12 @@ While these two characters use different animations for their various actions, t
 
 When opening an Anim State Graph asset you’ll be presented with a visual graph editor which allows you to define all of the different animation states your game object can be in. You can then connect these states using transitions.
 
-{% include video.html src="/assets/media/anim-create-state-graph.mp4" %}
+{% include video.html src="/img/anim-create-state-graph.mp4" %}
 _Create anim state graphs using the editor UI_
 
 Each transition blends between two animations over a specified amount of time. You can adjust and tweak transitions to your liking and see the results in real time in the PlayCanvas launch page. You can then assign parameter conditions to each transition to define the circumstances under which that transition can fire. These parameter values can be modified in your scripts to control the behavior of your animation system.
 
-{% include video.html src="/assets/media/anim-script-trigger.mp4" %}
+{% include video.html src="/img/anim-script-trigger.mp4" %}
 _Control anim state graph behavior in scripts using the anim component API_
 
 Once you’ve created your Anim State Graph you can assign it to your entity using the Anim component. At this point you can attach your animation assets to each state which will play when transitioning to that state.
@@ -73,7 +73,7 @@ Layer Masking - You’ll be able mask your character animations on a particular 
 
 Blend Trees - Directly control the blend between multiple animations in real time.
 
-![](/assets/media/anim-blend-trees.gif)
+![](/img/anim-blend-trees.gif)
 <br>_Blending three animations using a 2D cartesian blend tree_
 
 Animation Clips - Currently the anim state graph supports animation assets that have been imported into PlayCanvas. Clips will allow you to create extra animation assets within the PlayCanvas editor yourself! These will be great for quickly adding smaller animated flourishes to your game objects.

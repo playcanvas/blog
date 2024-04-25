@@ -12,7 +12,7 @@ tags:
   - rest-api
 ---
 
-![REST API](/assets/media/rest-api.png)
+![REST API](/img/rest-api.png)
 
 Today we're launching the first version of the PlayCanvas REST API.
 

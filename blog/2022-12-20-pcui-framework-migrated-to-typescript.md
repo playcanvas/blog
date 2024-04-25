@@ -15,13 +15,13 @@ tags:
 
 [PCUI](https://github.com/playcanvas/pcui) is the open source, front-end framework for building amazing web-based tools like the PlayCanvas Editor, [glTF Viewer](https://playcanvas.com/viewer?load=https://s3.eu-west-1.amazonaws.com/static.playcanvas.com/models/IridescentDishWithOlives.glb), [Texture Tool](https://playcanvas.com/texture-tool) and more!
 
-[![glTF Viewer PCUI Interface](/assets/media/gltf-viewer-olives.png)](/assets/media/gltf-viewer-olives.png)
+[![glTF Viewer PCUI Interface](/img/gltf-viewer-olives.png)](/img/gltf-viewer-olives.png)
 
 Today, we are excited to announce the release of [PCUI version 2.10.0](https://github.com/playcanvas/pcui/releases/tag/v2.10.0)! This new release includes a number of significant updates and improvements that will make building web tools with PCUI even easier and more efficient.
 
 One of the biggest changes in this release is the migration of the entire source code from JavaScript to TypeScript. This will provide a number of benefits to developers, including improved type checking, better code completion and IntelliSense in IDEs, and easier maintenance and refactoring of code.
 
-[![PCUI API Reference](/assets/media/pcui-api-reference.png)](/assets/media/pcui-api-reference.png)
+[![PCUI API Reference](/img/pcui-api-reference.png)](/img/pcui-api-reference.png)
 
 In addition to the source code migration, we have also released a new [API reference manual](https://playcanvas.github.io/pcui/typedocs/) built with Typedoc. This will make it easier for developers to understand and use the various APIs and components available in PCUI.
 

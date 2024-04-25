@@ -12,7 +12,7 @@ categories:
 
 **PLAYHACK** is our monthly game jam. We give you the starter kit for a game. You take the basics and use your imagination and skill to build a new game. Our favorite game at the end of the month will be showcased to thousands of PlayCanvas users and featured on the site. The **only rules**, start from our project and have fun.
 
-![rollball-640](/assets/media/rollball-640.jpeg)
+![rollball-640](/img/rollball-640.jpeg)
 
 This month's **PLAYHACK** is a little different to previous ones.
 
@@ -30,7 +30,7 @@ First, we've built the basics of a simple rolling ball game. A full set of platf
 
 Second, you'll be using our the **brand new version** of the **PlayCanvas Editor**. This is an opportunity to put the new tools through their paces.
 
-[![models](/assets/media/models.jpg)](/assets/media/models.jpg)
+[![models](/img/models.jpg)](/img/models.jpg)
 
 **PLAYHACK** starts right now and runs until the end of April. On the 1st of May we'll go through all the projects forked from our starter project with a published game and pick our favorite.
 

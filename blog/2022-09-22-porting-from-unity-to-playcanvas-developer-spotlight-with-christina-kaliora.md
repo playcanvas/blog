@@ -13,7 +13,7 @@ tags:
   - spotlight
 ---
 
-[![](/assets/media/developer-spotlight-christina-home.jpg)](/assets/media/developer-spotlight-christina-home.jpg)
+[![](/img/developer-spotlight-christina-home.jpg)](/img/developer-spotlight-christina-home.jpg)
 
 Welcome to Developer Spotlight! A new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
@@ -30,7 +30,7 @@ She will showing us the how she recently ported the [John Lemon's Haunted Jaunt]
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/uyxh4bdqK38" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-[Presentation Slides](/assets/media/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
+[Presentation Slides](/img/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
 
 **Hi Christina, welcome to Developer Spotlight! Tell us about yourself and your studio.**
 

@@ -20,7 +20,7 @@ tags:
 
 Any PlayCanvas developer building directly on top of the Engine will very likely opt to use VS Code. But if you use the PlayCanvas Editor, you will normally rely on the built-in, browser-based Code Editor. Today, we're excited to give you another option by launching an open-source **Visual Studio Code Extension for PlayCanvas**.
 
-![VS Code Extension](/assets/media/vscode-extension.webp)
+![VS Code Extension](/img/vscode-extension.webp)
 
 ## Benefits
 

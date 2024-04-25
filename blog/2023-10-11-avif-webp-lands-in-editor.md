@@ -16,7 +16,7 @@ tags:
   - compression
 ---
 
-![AVIF + WebP Support](/assets/media/avif-webp-icons.png)
+![AVIF + WebP Support](/img/avif-webp-icons.png)
 
 #### Today we're excited to announce that PlayCanvas now supports WebP and AVIF images natively in the editor. Two new, efficient image formats built for the web.
 
@@ -45,7 +45,7 @@ Ok so browser support for AVIF is good, but not great according to [caniuse](htt
 
 Easy! Just start uploading your AVIF and WebP files into the Asset Panel, and for those of you wanting to convert your existing assets, you can now right-click on your asset in the Asset Panel and quickly convert your asset into a PNG, JPG, WebP or an AVIF.
 
-![Quick Convert](/assets/media/convert-animation.gif)
+![Quick Convert](/img/convert-animation.gif)
 <br/>
 
 So there you have it! This is not just a feature release; it's our way of saying we're listening and we care. We're excited to hear your thoughts on these new features. Give them a try and share your experiences with us.

@@ -18,7 +18,7 @@ Today, we're excited to announce our next major release for the library: PCUI 1.
 
 ### TreeView - Tree Control
 
-![PCUI TreeView](/assets/media/pcui-treeview.gif)
+![PCUI TreeView](/img/pcui-treeview.gif)
 
 Many web tools display data in a hierarchical or tree-based representation. But building a tree control in HTML and CSS can be tricky. PCUI 1.1.0 introduces a very easy to use tree control. And it incorporates some useful features such as:
 
@@ -27,13 +27,13 @@ Many web tools display data in a hierarchical or tree-based representation. But 
 
 ### ArrayInput - Array Control
 
-![PCUI ArrayInput](/assets/media/pcui-arrayinput.gif)
+![PCUI ArrayInput](/img/pcui-arrayinput.gif)
 
 Also arriving in PCUI is `ArrayInput`. It allows you to create input controls for arrays of numbers, strings, booleans or vectors.
 
 ### Resizable TextAreaInput Control
 
-![PCUI TextAreaInput](/assets/media/pcui-textareainput.gif)
+![PCUI TextAreaInput](/img/pcui-textareainput.gif)
 
 The `TextAreaInput` control has been augmented with a new resizable property that can be set to `none`, `horizontal`, `vertical` or `both`.
 

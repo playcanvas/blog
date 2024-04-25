@@ -32,7 +32,7 @@ We have also visualized experiences for hotel safes, medical instruments and lab
 
 [Our core business is real-time 3D](https://www.animech.com/en/articles/3d-rendering-in-realtime). We push the boundaries every day trying to invent new ways of using 3D, where our solution makes the difference.
 
-{% include video.html src="/assets/media/animech-bathroom.mp4" %}
+{% include video.html src="/img/animech-bathroom.mp4" %}
 _[Bathroom Planner](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/) for Iconic Nordic Rooms_
 
 **Why did Animech choose PlayCanvas?**
@@ -51,7 +51,7 @@ Our particular challenge was to dynamically create an AR model of a procedurally
 
 We have been early adopters of both AR and VR, both as standalone applications and on the web. We believe it's important to use AR not as a gimmick, but as an application that provides real value for the user. For example, looking at how that greenhouse would look in your actual backyard or similar. In that sense, Web AR will get more and more important, both as something that stands out but also as something that provides value for users.
 
-[![](/assets/media/developer-spotlight-animech-fjallraven.jpg)](/assets/media/developer-spotlight-animech-fjallraven.jpg)
+[![](/img/developer-spotlight-animech-fjallraven.jpg)](/img/developer-spotlight-animech-fjallraven.jpg)
 
 **Why do you think that your clients want Web AR in their experiences?**
 
@@ -105,7 +105,7 @@ As the graphics quality gets better and better online and the fashion industry k
 
 Animech helps our customers to get what they want. Simply put: we empower people to make smart decisions through intelligent visualization.
 
-{% include video.html src="/assets/media/animech-cytiva.mp4" %}
+{% include video.html src="/img/animech-cytiva.mp4" %}
 
 **Thank you, Staffan! Is there anything else you'd like to share?**
 

@@ -12,7 +12,7 @@ tags:
   - ludum-dare
 ---
 
-![Ludum Dare logo](/assets/media/ludum-dare-logo.svg)
+![Ludum Dare logo](/img/ludum-dare-logo.svg)
 
 [Ludum Dare 26](https://ludumdare.com/) is coming up this weekend. To celebrate we're giving anyone who wants to enter using PlayCanvas instant access to our closed Beta. To double celebrate if you submit a game using PlayCanvas we'll give you a full year's subscription to the Indie plan when we go public in a few weeks. That's over $150 worth of HTML5 game-dev goodness right there.
 

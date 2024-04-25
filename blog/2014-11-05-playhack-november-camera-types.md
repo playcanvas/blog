@@ -19,7 +19,7 @@ This blog post is going to cover a few different types of camera. We're also goi
 
 Try running the [Follow Camera Pack](https://playcanvas.com/editor/scene/343245) in this [Project](https://playcanvas.com/project/331849/overview/playhacknov) to see all this code in action. Use the arrow keys to move the tank and press the Spacebar to cycle between the different camera types.
 
-[![PlayCanvas](/assets/media/playhack-tank.jpg)](/assets/media/playhack-tank.jpg)
+[![PlayCanvas](/img/playhack-tank.jpg)](/img/playhack-tank.jpg)
 
 ### Fixed Follow Camera
 
@@ -100,7 +100,7 @@ This code at the top of the camera script, tells the designer to expose four val
 
 Back in the Designer, we need to load the script attributes from the script using the *Entity -> Refresh Script Attributes* menu item. Then we'll see this attribute block appear on the script component.
 
-[![PLAYHACK_Camera](/assets/media/PLAYHACK_Camera.jpg)](/assets/media/PLAYHACK_Camera.jpg)
+[![PLAYHACK_Camera](/img/PLAYHACK_Camera.jpg)](/img/PLAYHACK_Camera.jpg)
 
 Modifying these values will directly update the script live when it is running from the Designer. So you can tweak values with the live game running in a separate tab. This can really accelerate your development.
 
@@ -112,4 +112,4 @@ PLAYHACK is our monthly game jam. We’ll give you a starting point and you have
 
 Not started work on your PLAYHACK game yet? What are you waiting for go fork this project!
 
-[![button](/assets/media/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
+[![button](/img/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)

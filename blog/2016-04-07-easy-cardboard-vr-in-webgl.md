@@ -15,7 +15,7 @@ tags:
 
 Today we've launched a new [library](https://github.com/playcanvas/webvr) and [developer tutorial](https://developer.playcanvas.com/tutorials/cardboard-vr/) and [sample project](https://playcanvas.com/project/389453/overview/tutorial-cardboard-vr) showing you how to implement your own Cardboard VR web applications using PlayCanvas.
 
-![cardboard-vr](/assets/media/cardboard-vr.jpg)
+![cardboard-vr](/img/cardboard-vr.jpg)
 
 Google's Cardboard VR is an excellent low cost device for experiencing virtual reality via your phone and a simple head mounted display. At PlayCanvas we immediately saw the benefit of using WebGL to display 3D VR experiences right in your browser. With WebGL VR you can distribute VR content quickly and easily to every user with a mobile web browser. With nothing to install there is no barrier to entry.
 

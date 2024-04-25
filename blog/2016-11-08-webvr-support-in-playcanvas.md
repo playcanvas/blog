@@ -27,7 +27,7 @@ This week Google [announced](https://www.roadtovr.com/google-launching-webvr-sup
 
 The PlayCanvas graphics engine is an advanced WebGL graphics engine. We've worked hard to make sure our renderer is optimized specifically for stereo rendering. Unlike most engines we don't simply render the scene twice for each eye. Instead, our renderer knows that a lot of the main render loop is the same for each eye. So, for example, expensive operations like culling, sorting draw calls and setting uniforms and render states only have to be done once before we draw the scene for each eye. This can lead to a significant performance increase, particularly on mobile.
 
-![VR Performance Comparison](/assets/media/vr-comparison-1.jpg)
+![VR Performance Comparison](/img/vr-comparison-1.jpg)
 
 ### Polyfill for unsupported platforms
 

@@ -13,7 +13,7 @@ categories:
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We’ll follow up with more of these throughout the week. Don’t forget, these are just examples. You can make **any** game you like.
 
-### [![PLAYHACK_designer](/assets/media/PLAYHACK_designer.jpg)](/assets/media/PLAYHACK_designer.jpg)
+### [![PLAYHACK_designer](/img/PLAYHACK_designer.jpg)](/img/PLAYHACK_designer.jpg)
 
 ### Rotating Turret
 
@@ -73,7 +73,7 @@ To fire the bullet, we clone it, add it into the hierarchy and set it's position
 
 ### Target Practice
 
-[![PLAYHACK_boxes](/assets/media/PLAYHACK_boxes.jpg)](/assets/media/PLAYHACK_boxes.jpg)
+[![PLAYHACK_boxes](/img/PLAYHACK_boxes.jpg)](/img/PLAYHACK_boxes.jpg)
 
 Finally we've just added some boxes for target practice. The boxes are simply Entities with a dynamic rigidbody and a collision component. Don't forget you try [this project](https://playcanvas.com/project/331849/overview/playhacknov) for yourself by running [this pack](https://playcanvas.com/editor/scene/343656).
 
@@ -83,4 +83,4 @@ PLAYHACK is our monthly game jam. We’ll give you a starting point and you have
 
 Not started work on your PLAYHACK game yet? What are you waiting for go fork this project!
 
-[![button](/assets/media/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)
+[![button](/img/button-1.png)](https://playcanvas.com/project/331485/overview/playhack-nov-14)

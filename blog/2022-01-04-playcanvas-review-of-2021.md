@@ -24,7 +24,7 @@ The Code Editor also received a major upgrade this year when [we switched from C
 
 Animation tooling also received a huge boost in 2021 with the introduction of the [Anim State Graph Editor](https://blog.playcanvas.com/introducing-the-anim-state-graph/).
 
-[![](/assets/media/animation-and-graph.gif)](/assets/media/animation-and-graph.gif)AnimStateGraph Editor
+[![](/img/animation-and-graph.gif)](/img/animation-and-graph.gif)AnimStateGraph Editor
 
 You now have the ability to author anything from simple animation cycles to advanced locomotion systems. Check out how indie developer Cem Demir is using the new animation system in his forthcoming multiplayer survival game:
 
@@ -34,33 +34,33 @@ With all of the front-end updates to the Editor, don't think that we have neglec
 
 Aside from the Editor, one of the coolest new tools we released this year was the [Engine Examples Browser](https://playcanvas.github.io/). This is a coding playground for learning and experimenting with the PlayCanvas Engine API. And naturally, it's fully open sourced on [GitHub](https://github.com/playcanvas/engine/tree/dev/examples#readme).
 
-{% include video.html src="/assets/media/examples-browser.mp4" %}
+{% include video.html src="/img/examples-browser.mp4" %}
 _Engine Examples Browser_
 
 Back in the summer, we [announced](https://forum.playcanvas.com/t/rfc-shader-editor/20616) our new Node-based Shader Editor. This is a new and accessible way to build custom shaders for your PlayCanvas application.
 
-{% include video.html src="/assets/media/shader-editor.mp4" %}
+{% include video.html src="/img/shader-editor.mp4" %}
 _Node-based Shader Editor_
 
 We're nearing the end of the closed beta and in the coming months, we will kick off an open beta and fully open source the tool.
 
 The [PlayCanvas Viewer](https://playcanvas.com/viewer) is our open source 3D model viewer tool. In 2021, it received a number of important improvements. First up, as well as glTF files, the viewer can now also load VOX files (for voxel based scenes constructed in tools like MagicaVoxel). We also improved skeletal visualization as well as skybox handling. Check it out on [GitHub](https://github.com/playcanvas/playcanvas-viewer)!
 
-{% include video.html src="/assets/media/gltf-viewer-vox.mp4" %}
+{% include video.html src="/img/gltf-viewer-vox.mp4" %}
 _PlayCanvas glTF Viewer_
 
 ## Graphics Engine Enhancements
 
 Let's be honest - everybody loves beautifully rendered pixels. So let's examine how PlayCanvas' graphics engine has advanced this year. First up, we have area lights that allow lights to adopt a physical shape: rectangle, circle or sphere. Later in the year, we released a preview or our new clustered lighting pipeline, which essentially increases the number of dynamic lights you can place in your scenes. With both features combined, the engine can now process clustered area lights as our [new engine example](https://playcanvas.github.io/#/graphics/clustered-area-lights) demonstrates.
 
-{% include video.html src="/assets/media/engine-clustered-area-lights.mp4" %}
+{% include video.html src="/img/engine-clustered-area-lights.mp4" %}
 _Clustered Area Lights_
 
 You can expect clustered lighting to fully replace the existing lighting system in early 2022 once it has been thoroughly beta-tested.
 
 PlayCanvas' run-time lightmapper received a major upgrade this year. Previously, it was only able to bake direct light to lightmaps and while this could speed up scene load and render times, direct lighting alone struggles to deliver high quality visuals. Now, it can generate soft shadows and bake ambient occlusion. Check out the [new engine example](https://playcanvas.github.io/#/graphics/lights-baked-ao) that shows off these amazing new capabilities:
 
-[![](/assets/media/soft-shadows.gif)](/assets/media/soft-shadows.gif)
+[![](/img/soft-shadows.gif)](/img/soft-shadows.gif)
 
 Lastly, we implemented cascaded shadows maps that dramatically boosts shadow quality for large-scale environments. It didn't take long for the community to start showcasing the benefits:
 

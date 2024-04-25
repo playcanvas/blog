@@ -14,7 +14,7 @@ tags:
   - news
 ---
 
-[![D.E.M.O. screenshot](/assets/media/scifi-demo.jpg)](https://playcanv.as/p/UAR6UQNM/)
+[![D.E.M.O. screenshot](/img/scifi-demo.jpg)](https://playcanv.as/p/UAR6UQNM/)
 
 Game: D.E.M.O. 3rd Person Shooter
 
@@ -24,6 +24,6 @@ Game: D.E.M.O. 3rd Person Shooter
 
 We're very proud to be up there with some great titles, such as the beautiful [BananaBread](https://kripken.github.io/misc-js-benchmarks/banana/index.html) demo and the super-fun [BrowserQuest](https://browserquest.io/) game from our friends at Mozilla.
 
-[![BrowserQuest HTML5 game by Mozilla](/assets/media/browserquest.jpeg)](https://browserquest.io/)
+[![BrowserQuest HTML5 game by Mozilla](/img/browserquest.jpeg)](https://browserquest.io/)
 
 BrowserQuest HTML5 game by Mozilla

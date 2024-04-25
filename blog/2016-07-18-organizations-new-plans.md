@@ -21,7 +21,7 @@ Today we're pleased to launch **Organizations** for PlayCanvas users along with 
 
 An organization offers you a convenient way to manage users and projects for businesses or for larger projects. With an organization you can specify multiple administrators who can add and remove users with project based permissions. Additionally, organization plans come with a convenient single invoice for your business.
 
-![Organization Account Page](/assets/media/organization-account-page.jpg)
+![Organization Account Page](/img/organization-account-page.jpg)
 
 ## New Plans
 
@@ -29,7 +29,7 @@ Our new plans offer big bonuses over our previous plans including unlimited 
 
 Previously we offered 7 different plans with an array of options which has led to confusion in the past. Today, we're simplifying our plans down to just 3 and you'll be pleased to hear they include a big increase in the number of projects you can make and storage. Here's what the new plans look like:
 
-![New Plans](/assets/media/plans-1-1.png)
+![New Plans](/img/plans-1-1.png)
 
 We now offer two paid plans and the biggest change you'll see is that they both have **Unlimited Private Projects** and a big boost in storage space. The second change is that they both follow a simple per-seat model so you only pay for the number of people in your team.
 

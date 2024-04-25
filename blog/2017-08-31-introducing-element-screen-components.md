@@ -15,7 +15,7 @@ tags:
 
 Building user interfaces in graphical applications provides a unique challenge. Today we're pleased to launch two new components to help you build user interfaces inside your WebGL application.
 
-![Sample Game UI](/assets/media/sample-game-ui.gif)
+![Sample Game UI](/img/sample-game-ui.gif)
 
 From today you'll find two new components available in the PlayCanvas Editor.
 
@@ -23,7 +23,7 @@ From today you'll find two new components available in the PlayCanvas Editor.
 
 The screen component is the container for your 2D objects. This component acts a parent to all the 2D elements you are adding and defines resolution and resize behavior.
 
-![Master Archer Screen](/assets/media/editor-master-archer.jpg)
+![Master Archer Screen](/img/editor-master-archer.jpg)
 
 ### Element Component
 
@@ -33,7 +33,7 @@ The element component also features useful layout features like anchoring and pi
 
 Supporting text in PlayCanvas is trivial now. Simply drag and drop a TTF font file from your computer into the asset panel and we'll convert it into our special *multi-channel signed distance field* font asset which means that text can be scaled and render an almost any size and remain crisp and readable.
 
-![Text Elements](/assets/media/editor-text-elements.jpg)
+![Text Elements](/img/editor-text-elements.jpg)
 
 ### Learning more
 

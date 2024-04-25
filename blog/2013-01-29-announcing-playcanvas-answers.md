@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-[![PlayCanvas Answers logo](/assets/media/answers_logo.png)](/assets/media/answers_logo.png)
+[![PlayCanvas Answers logo](/img/answers_logo.png)](/img/answers_logo.png)
 
 One of our little mantras at PlayCanvas, is that _making games is too slow, too hard, and too expensive_, and we want to fix that. One way we're going about that is by making [great tools](https://playcanvas.com/features) which you can use to create games quickly, easily and cheaply.
 
@@ -22,7 +22,7 @@ The games industry has traditionally been a secretive place where performance tr
 
 ## Introducing PlayCanvas Answers
 
-[![PlayCanvas Answers screenshot](/assets/media/answers.png)](/assets/media/answers.png)
+[![PlayCanvas Answers screenshot](/img/answers.png)](/img/answers.png)
 
 We've seen [Stack Overflow](https://stackoverflow.com) become the goto\* site for asking questions about programming, and if you've used it (we have, a lot) then you'll see why. It is very well designed for asking a question, and getting an answer. It deemphasizes the chatter of a traditional web forum, and concentrates on getting being a location for canonical answers about your problems.
 

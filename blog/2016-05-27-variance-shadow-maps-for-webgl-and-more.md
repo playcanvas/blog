@@ -22,11 +22,11 @@ The light component now allows you to select a shadow type. In addition to the c
 
 Let's compare PCF with VSM. First, here's PCF:
 
-[![shadows-sm](/assets/media/shadows-sm.png)](/assets/media/shadows-sm.png)
+[![shadows-sm](/img/shadows-sm.png)](/img/shadows-sm.png)
 
 And here is VSM:
 
-[![shadows-vsm](/assets/media/shadows-vsm.png)](/assets/media/shadows-vsm.png)
+[![shadows-vsm](/img/shadows-vsm.png)](/img/shadows-vsm.png)
 
 The big advantage of VSM is the ability to apply large blur kernels, which would be prohibitively slow with PCF. As you can see, the results are most pleasing!
 
@@ -36,13 +36,13 @@ VSM is still work in progress so expect more updates to land in the engine in th
 
 We've completely rewritten the controls for the Editor camera in the 3D view. It should be far more intuitive now and also enable you to be more productive. For example, we have changed the behavior of dollying the camera to be based on what the mouse cursor is pointing at. This makes it feel much more similar to Google Maps:
 
-[![zoom](/assets/media/zoom.gif)](/assets/media/zoom.gif)
+[![zoom](/img/zoom.gif)](/img/zoom.gif)
 
 ### Easy Asset Inspection in Dev Tools
 
 We've made it so your assets are displayed in your browser's Dev Tools as they are in Editor's Asset Panel. This makes it much easier to locate, inspect and debug when running your game launched from the Editor.
 
-[![devtoolsassets](/assets/media/devtoolsassets-1.png)](/assets/media/devtoolsassets-1.png)
+[![devtoolsassets](/img/devtoolsassets-1.png)](/img/devtoolsassets-1.png)
 
 ### Engine Optimizations
 

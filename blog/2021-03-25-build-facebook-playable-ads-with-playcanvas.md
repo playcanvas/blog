@@ -13,7 +13,7 @@ tags:
   - ads
 ---
 
-![Facebook Playable Ad](/assets/media/facebook-playable-ad.gif)
+![Facebook Playable Ad](/img/facebook-playable-ad.gif)
 
 PlayCanvas are very excited to announce official support for Facebook Playable Ads! 🚀
 
@@ -29,9 +29,9 @@ Playable ads are small, interactive previews of a game or app that give a taste 
 - Reduce cost per install
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/playable-ad-bitmoji-creator.gif" style="width: 32%;" alt="Bitmoji Creator" />
-    <img src="/assets/media/playable-ad-cube-jump.gif" style="width: 32%;" alt="Cube Jump" />
-    <img src="/assets/media/playable-ad-flappy-bird.gif" style="width: 32%;" alt="Flappy Bird" />
+    <img src="/img/playable-ad-bitmoji-creator.gif" style="width: 32%;" alt="Bitmoji Creator" />
+    <img src="/img/playable-ad-cube-jump.gif" style="width: 32%;" alt="Cube Jump" />
+    <img src="/img/playable-ad-flappy-bird.gif" style="width: 32%;" alt="Flappy Bird" />
 </div>
 
 Combine that with the [fully featured PlayCanvas game engine](https://playcanvas.com/features) which includes:
@@ -44,8 +44,8 @@ Combine that with the [fully featured PlayCanvas game engine](https://playcanvas
 And you have a very powerful combination to create fantastic and engaging experiences to reach your audience.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/assets/media/editor-bmw.gif" style="width: 49%;" alt="BMW in Editor" />
-    <img src="/assets/media/editor-robostorm.gif" style="width: 49%;" alt="Robostorm in Editor" />
+    <img src="/img/editor-bmw.gif" style="width: 49%;" alt="BMW in Editor" />
+    <img src="/img/editor-robostorm.gif" style="width: 49%;" alt="Robostorm in Editor" />
 </div>
 
 ### Sounds great! How do I get started?
@@ -54,11 +54,11 @@ We’ve published the [official exporter tool on GitHub](https://github.com/play
 
 Once configured, creating the file(s) for upload to Facebook is **just a single command**, shown in real time below.
 
-[![Playable Ad Workflow](/assets/media/playable-ad-workflow.gif)](/assets/media/playable-ad-workflow.gif)
+[![Playable Ad Workflow](/img/playable-ad-workflow.gif)](/img/playable-ad-workflow.gif)
 
 That is how quick and easy it is! 💪 And it supports both the single 2MB HTML and 5MB zip bundle formats used by Facebook. 🙌
 
-[![Facebook Ad Formats](/assets/media/facebook-ad-formats.png)](/assets/media/facebook-ad-formats.png)
+[![Facebook Ad Formats](/img/facebook-ad-formats.png)](/img/facebook-ad-formats.png)
 
 If you’re new to PlayCanvas, why not [sign up today for free](https://playcanvas.com/). We can’t wait to see what you make! Let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
 

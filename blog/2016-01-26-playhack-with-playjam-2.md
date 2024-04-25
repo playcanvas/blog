@@ -10,11 +10,11 @@ categories:
   - News
 ---
 
-[![PLAYHACK_clear](/assets/media/PLAYHACK_clear.png)](/assets/media/PLAYHACK_clear.png)
+[![PLAYHACK_clear](/img/PLAYHACK_clear.png)](/img/PLAYHACK_clear.png)
 
 Did you see our teaser last week? PLAYHACK is back! Our game jam returns in partnership with game publisher PlayJam.
 
-[![PlayJam Logo](/assets/media/playjam-logo.png)](/assets/media/playjam-logo.png)
+[![PlayJam Logo](/img/playjam-logo.png)](/img/playjam-logo.png)
 
 Thanks to PlayJam we've got some **great prizes** for the best entries.
 

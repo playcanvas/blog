@@ -12,7 +12,7 @@ categories:
 
 Today we've added a new feature to help us bring the best projects and games from PlayCanvas to the fore.
 
-[![Project Stars](/assets/media/swooop-dashboard.jpg)](/assets/media/swooop-dashboard.jpg)
+[![Project Stars](/img/swooop-dashboard.jpg)](/img/swooop-dashboard.jpg)
 
 If you visit any project home page, you'll see two new buttons.
 

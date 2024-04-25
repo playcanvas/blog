@@ -11,7 +11,7 @@ categories:
   - Tutorial
 ---
 
-[![PlayBot](/assets/media/playbot.png)](/assets/media/playbot.png)
+[![PlayBot](/img/playbot.png)](/img/playbot.png)
 <br>_Our new hero_
 
 Today we're pleased to introduce the updated, all new and fancy Platform Game Starter Kit. We've worked hard with the [talented artist](http://www.philippamoore.com) from [SWOOOP](http://blog.playcanvas.com/swooop/) to provide a complete set of code and assets for you to build your own platform games.
@@ -41,5 +41,5 @@ We'll be writing more about the Platform Game Starter Kit in the next week to gi
 
 Have fun, and look out for Punch!
 
-[![Punch](/assets/media/PlayCanvas-2.jpg)](/assets/media/PlayCanvas-2.jpg)
+[![Punch](/img/PlayCanvas-2.jpg)](/img/PlayCanvas-2.jpg)
 <br>_Punch - the bad guy_

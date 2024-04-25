@@ -23,7 +23,7 @@ Simply share your [unique referral link](https://playcanvas.com/referrals) wher
 
 That's right! So if you refer a user who signs up to an Org 20 account, you'll get 5% of $400 (that's $20) every month for their first year.
 
-[![referrals](/assets/media/referrals.png)](/assets/media/referrals.png)
+[![referrals](/img/referrals.png)](/img/referrals.png)
 
 ### Finding Your Referral Link
 

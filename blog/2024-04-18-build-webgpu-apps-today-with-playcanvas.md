@@ -17,7 +17,7 @@ tags:
 
 It's here! 🥳 Today, we're excited to announce that WebGPU support has officially arrived in the PlayCanvas Editor.
 
-![Editor with WebGPU Scene](/assets/media/editor-webgpu.png)
+![Editor with WebGPU Scene](/img/editor-webgpu.png)
 
 ## WebGPU on the Rise
 
@@ -41,7 +41,7 @@ In short, WebGPU represents the future for PlayCanvas and you can expect some in
 
 WebGPU support in PlayCanvas is still considered 'Beta'. There are still some unimplemented features (for example, the run-time lightmapper is still not supported). Therefore, you have to currently 'opt in' to WebGPU support. To do this, open your Project's Settings in the Inspector and expand the `RENDERING` section. Then update `Graphics Devices` to include `WebGPU (beta)`.
 
-![Editor with WebGPU Scene](/assets/media/editor-settings-webgpu.png)
+![Editor with WebGPU Scene](/img/editor-settings-webgpu.png)
 
 Once we are satisfied WebGPU support has matured enough, it will become the default.
 

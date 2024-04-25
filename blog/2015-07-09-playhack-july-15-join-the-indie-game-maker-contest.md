@@ -12,7 +12,7 @@ categories:
 
 We've timed this month's PLAYHACK to coincide with the [Indie Game Maker Contest 2015](http://contest.gamedevfort.com/). There are great [cash prizes](http://contest.gamedevfort.com/page/prizes) to be won!
 
-[![banner-small](/assets/media/banner-small.jpg)](/assets/media/banner-small.jpg)
+[![banner-small](/img/banner-small.jpg)](/img/banner-small.jpg)
 
 This month's content is a **gorgeous little car** and a set of track pieces for you to design tracks with. Get coding to get your car driving. Add extras like obstacles, power-ups, and AI racers. **Build your own racing game!**
 
@@ -26,6 +26,6 @@ You've got until August 7th to enter the [Indie Game Maker Contest](http://conte
 
 ### **[GET PLAYHACKING](https://playcanvas.com/project/349291/overview/playhack-july-15)**
 
-[![PLAYHACK BANNER_1](/assets/media/PLAYHACK-BANNER_1.jpg)](/assets/media/PLAYHACK-BANNER_1.jpg)
+[![PLAYHACK BANNER_1](/img/PLAYHACK-BANNER_1.jpg)](/img/PLAYHACK-BANNER_1.jpg)
 
 P.S. Don't forget to check their [rules and conditions](http://contest.gamedevfort.com/page/guidelines).

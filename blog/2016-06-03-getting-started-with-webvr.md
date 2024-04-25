@@ -13,7 +13,7 @@ tags:
   - vr
 ---
 
-![helper](/assets/media/helper.png)
+![helper](/img/helper.png)
 
 Did you hear? VR is BIG! But what is bigger than VR? The web, that's what. What happens when you mix the web and VR?
 
@@ -27,7 +27,7 @@ The VR Starter Kit is available when you select New Project in your PlayCanvas d
 
 To get started, select the VR Starter Kit in the New Project dialog.
 
-![project-select](/assets/media/project-select-2.jpg)
+![project-select](/img/project-select-2.jpg)
 
 Once you've created your first scene take a look at our [WebVR Tutorial](https://developer.playcanvas.com/tutorials/cardboard-vr/) to see how you can include the camera code yourself and learn how we interact with the virtual world.
 

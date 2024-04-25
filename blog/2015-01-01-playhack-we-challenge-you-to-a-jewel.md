@@ -10,7 +10,7 @@ categories:
   - PLAYHACK
 ---
 
-[![PLAYHACK BANNER_1](/assets/media/PLAYHACK-BANNER_1.jpg)](/assets/media/PLAYHACK-BANNER_1.jpg)
+[![PLAYHACK BANNER_1](/img/PLAYHACK-BANNER_1.jpg)](/img/PLAYHACK-BANNER_1.jpg)
 
 We were lucky enough to see some amazing festive entries in PLAYHACK December, but January isn't really known for a lot. So we have put our brains together to give you some sparkly assets to play with.
 
@@ -28,7 +28,7 @@ It works like this:
 
 ### The Models
 
-[![white-row](/assets/media/white-row.jpg)](/assets/media/white-row.jpg)
+[![white-row](/img/white-row.jpg)](/img/white-row.jpg)
 
 **4 Shiny Gems.**
 
@@ -36,9 +36,9 @@ For all you magpies out there, forking our PLAYHACK project this month will give
 
 For instance, platform action series **Spyro** made great use of jewels in the late 90's and more recently **Bejeweled** pushed gems into a great flash puzzle format.
 
-[![Spyro](/assets/media/spyro.jpg)](/assets/media/spyro.jpg)
+[![Spyro](/img/spyro.jpg)](/img/spyro.jpg)
 
-[![Bejeweled](/assets/media/bejeweled.jpg)](/assets/media/bejeweled.jpg)
+[![Bejeweled](/img/bejeweled.jpg)](/img/bejeweled.jpg)
 
 Puzzle game, platform game, physics game? **Any game, any style, the choice is yours.**
 
@@ -56,7 +56,7 @@ On the 1st of February we will judge your projects and our favorite will be feat
 
 With Side Scrolling Santa's, YouTube leaks, Medieval houses and plenty of obstacles, last month's winter extraordinaire was arguably our favorite PLAYHACK so far.
 
-[![santa_winner](/assets/media/santa_winner.jpg)](/assets/media/santa_winner.jpg)
+[![santa_winner](/img/santa_winner.jpg)](/img/santa_winner.jpg)
 
 Our favorite entry is '[Five For Christmas](https://playcanv.as/p/dqK3gI4D/)' by [felladrin](https://playcanvas.com/user/felladrin).
 

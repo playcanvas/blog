@@ -12,7 +12,7 @@ tags:
   - team
 ---
 
-![Max](/assets/media/team-max-2014.png)
+![Max](/img/team-max-2014.png)
 
 Today we are talking to the Russian (from Latvia) Senior Engineer at [PlayCanvas](https://playcanvas.com): Max!
 

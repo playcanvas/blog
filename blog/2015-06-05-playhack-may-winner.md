@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-[![Desert Moon Defender](/assets/media/desert-defender-small.png)](https://playcanv.as/p/LxkNoQ1D)
+[![Desert Moon Defender](/img/desert-defender-small.png)](https://playcanv.as/p/LxkNoQ1D)
 
 A great month for PLAYHACK, leading to one of our most stylish games yet.
 

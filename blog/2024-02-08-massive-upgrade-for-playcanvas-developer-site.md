@@ -21,7 +21,7 @@ Today, we are excited to announce the brand new [PlayCanvas Developer Site](http
 
 Let's start by taking a look at the new Developer Site, home of the PlayCanvas User Manual and Tutorials.
 
-![Developer Site Landing Page](/assets/media/developer-site-landing-page.png)
+![Developer Site Landing Page](/img/developer-site-landing-page.png)
 
 ### Migrating from Metalsmith to Docusaurus
 
@@ -37,7 +37,7 @@ So what made Docusaurus so compelling? First up, the migration was going to be s
 
 The site now integrates [Algolia](https://www.algolia.com/) for advanced searching of the documentation.
 
-![Developer Site Search](/assets/media/developer-site-search.png)
+![Developer Site Search](/img/developer-site-search.png)
 
 This is a quantum leap over what came before. Try it (by pressing `CTRL + K`) - you'll be amazed. 🤯
 
@@ -45,13 +45,13 @@ This is a quantum leap over what came before. Try it (by pressing `CTRL + K`) - 
 
 Easily switch between light and dark themes (by clicking on the sun/moon icon top-right).
 
-![Developer Site Light and Dark Modes](/assets/media/developer-site-light-dark.png)
+![Developer Site Light and Dark Modes](/img/developer-site-light-dark.png)
 
 #### 🌏 Language Selection
 
 Switch language from the nav-bar. At the moment, we're shipping with Japanese translations.
 
-![Developer Site Localization](/assets/media/developer-site-localization.png)
+![Developer Site Localization](/img/developer-site-localization.png)
 
 #### 👩‍💻 Edit on GitHub
 
@@ -61,21 +61,21 @@ As you might expect, [the Developer Site is Open Source (MIT)](https://github.co
 
 At the top of each page, you'll find 'Sidebar Breadcrumbs' which allow you to click back up the page hierarchy.
 
-![Developer Site Breadcrumbs](/assets/media/developer-site-breadcrumbs.png)
+![Developer Site Breadcrumbs](/img/developer-site-breadcrumbs.png)
 
 To the right of each page, you'll find a table of contents which can be a big help, especially for long pages.
 
-![Developer Site Table of Contents](/assets/media/developer-site-toc.png)
+![Developer Site Table of Contents](/img/developer-site-toc.png)
 
 And at the bottom of each page, you'll find 'Previous' and 'Next' links that allow you to read through the User Manual sequentially.
 
-![Developer Site Previous and Next Links](/assets/media/developer-site-previous-next.png)
+![Developer Site Previous and Next Links](/img/developer-site-previous-next.png)
 
 ## API Reference
 
 We are not just launching a new Developer Site today. We are also launching our brand new, upgraded [API Reference Manual](https://api.playcanvas.com/)!
 
-![API Reference Site](/assets/media/api-reference-site.png)
+![API Reference Site](/img/api-reference-site.png)
 
 ### Migrating from JSDoc to TypeDoc
 
@@ -97,7 +97,7 @@ It's a great foundation for us to begin with and we can customize the default th
 
 Did you know that PlayCanvas develops frameworks and libraries other than the PlayCanvas Engine? There's [PCUI](https://github.com/playcanvas/pcui), a front-end framework for web-based tools. There's the [PlayCanvas Editor API](https://github.com/playcanvas/editor-api) for automating the interface. And more! The new API reference collects all of the PlayCanvas APIs into a single manual.
 
-![API Reference Site APIs](/assets/media/api-reference-site-apis.png)
+![API Reference Site APIs](/img/api-reference-site-apis.png)
 
 ## Open Source FTW
 

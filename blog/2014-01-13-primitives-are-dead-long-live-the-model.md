@@ -37,7 +37,7 @@ He's a quick 4 step guide to create a primitive and applying a material.
 
 **4.** Click Create Material, then open up the diffuse and normal panels in the Material Editor and drag the assets from the Asset Explorer into the material slots.
 
-[![Primitive Materials](/assets/media/primitive_materials.png)](/assets/media/primitive_materials.png)
+[![Primitive Materials](/img/primitive_materials.png)](/img/primitive_materials.png)
 
 We hope you enjoy the new power we've given you today. Just enjoy it responsibly. 😉
 

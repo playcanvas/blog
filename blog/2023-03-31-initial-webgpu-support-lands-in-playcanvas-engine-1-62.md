@@ -18,7 +18,7 @@ PlayCanvas has been at the forefront of this new technology and has been working
 
 With WebGPU, we can expect to see more immersive and interactive 3D experiences on the web in the future.
 
-[![WebGPU Area Lights](/assets/media/webgpu-area-lights-demo.jpg)](/assets/media/webgpu-area-lights-demo.jpg)
+[![WebGPU Area Lights](/img/webgpu-area-lights-demo.jpg)](/img/webgpu-area-lights-demo.jpg)
 <br>[_PlayCanvas WebGPU Clustered Area Lights Demo_](https://playcanvas.com/demos/arealights/)
 
 ## Refactoring of WebGL engine
@@ -51,7 +51,7 @@ Before adding support for WebGPU, it's important to discuss the significant amou
 
 As an early pre-release of WebGPU, we have updated several engine examples to use it, which can be accessed on [https://playcanvas.github.io](https://playcanvas.github.io/). To use WebGPU, the Chrome Canary browser is required, with the 'chrome://flags/#enable-unsafe-webgpu' flag enabled.
 
-[![Examples Browser WebGPU](/assets/media/playcanvas-examples-browser-webgpu.jpg)](/assets/media/playcanvas-examples-browser-webgpu.jpg)
+[![Examples Browser WebGPU](/img/playcanvas-examples-browser-webgpu.jpg)](/img/playcanvas-examples-browser-webgpu.jpg)
 
 [PlayCanvas Examples Browser](https://playcanvas.github.io/)
 

@@ -13,7 +13,7 @@ tags:
   - webgl
 ---
 
-[![PlayCanvas on iPhone](/assets/media/playcanvas-ios.png)](/assets/media/playcanvas-ios.png)
+[![PlayCanvas on iPhone](/img/playcanvas-ios.png)](/img/playcanvas-ios.png)
 
 Looks like [Will was right](https://blog.playcanvas.com/apple-embraces-webgl/) with his predictions for the Apple announcements at WWDC. Our friends at [Ludei](https://www.linkedin.com/company/ludei/about/) have confirmed that WebGL is supported on iOS devices.
 

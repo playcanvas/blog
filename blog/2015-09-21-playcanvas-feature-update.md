@@ -10,7 +10,7 @@ categories:
   - News
 ---
 
-[![PLAYHACK Cars](/assets/media/playhack-cars.jpg)](/assets/media/playhack-cars.jpg)
+[![PLAYHACK Cars](/img/playhack-cars.jpg)](/img/playhack-cars.jpg)
 
 ## Entity Materials
 
@@ -18,7 +18,7 @@ Have you ever been bothered by changes to your materials affecting all Entities 
 
 Simply drag a material onto your model to create new Entity material. Or manage it from the model component interface.
 
-## [![shader_update](/assets/media/shader_update.gif)](/assets/media/shader_update.gif)
+## [![shader_update](/img/shader_update.gif)](/img/shader_update.gif)
 
 ## Shader Assets
 

@@ -19,7 +19,7 @@ tags:
 
 We're thrilled to announce the launch of the [open source](https://github.com/playcanvas/model-viewer) **glTF Viewer 4.0**, an update that supercharges your 3D model viewing experience with powerful features and support for the latest web technologies!
 
-[![glTF Viewer 4.0](/assets/media/gltf-viewer-4.png)](/assets/media/gltf-viewer-4.png)
+[![glTF Viewer 4.0](/img/gltf-viewer-4.png)](/img/gltf-viewer-4.png)
 
 _["Cyber Samurai"](https://skfb.ly/ooZKG) by KhoaMinh is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
@@ -29,11 +29,11 @@ This new release is chock-full with enhancements aimed at providing more realist
 
 #### New WebGPU Renderer
 
-![WebGPU Logo](/assets/media/webgpu-logo.svg)
+![WebGPU Logo](/img/webgpu-logo.svg)
 
 Topping the list of today's updates is support for WebGPU! WebGPU heralds a new era in graphics and compute capabilities, offering enhanced performance and efficiency. Users can now select WebGPU as their default renderer, and don't worry if your platform doesn't support it yet - the viewer gracefully falls back to WebGL 2, and subsequently WebGL 1, depending on API availability. Note that WebGPU support is considered beta for the moment and you'll need to proactively enable it and refresh the viewer to check it out:
 
-[![Enable WebGPU for glTF Viewer](/assets/media/gltf-viewer-webgpu-toggle.gif)](/assets/media/gltf-viewer-webgpu-toggle.gif)
+[![Enable WebGPU for glTF Viewer](/img/gltf-viewer-webgpu-toggle.gif)](/img/gltf-viewer-webgpu-toggle.gif)
 
 Also make sure you're running the viewer in a browser that supports WebGPU. At time of writing, this means Google Chrome!
 
@@ -65,7 +65,7 @@ Experience realistic photographic skies with our new projective sky dome! While 
 
 #### Debug and Inspect with Render Mode
 
-[![glTF Viewer Render Mode](/assets/media/gltf-viewer-render-mode.gif)](/assets/media/gltf-viewer-render-mode.gif)
+[![glTF Viewer Render Mode](/img/gltf-viewer-render-mode.gif)](/img/gltf-viewer-render-mode.gif)
 
 Ensuring that developers can seamlessly troubleshoot and inspect glTF files, the new render mode allows you to select and display individual inputs/outputs of the render pipeline, including albedo, emissive, normals, gloss, AO, and more. This new level of insight is invaluable for debugging, making it even easier to work with your glTF data.
 
@@ -73,7 +73,7 @@ Ensuring that developers can seamlessly troubleshoot and inspect glTF files, the
 
 The addition of Variance Shadow Mapping (VSM) casts your 3D scenes in a new light, literally! Shadows aren't merely aesthetic; they provide context and depth, especially in AR mode, assisting to ground your object naturally within its real-world environment. Explore scenes with a newfound depth and realism that draws viewers into the experience, both in standard and AR viewing modes. Find the new shadow controls in the Light Settings panel:
 
-[![glTF Viewer Light Settings](/assets/media/gltf-viewer-light-settings.png)](/assets/media/gltf-viewer-light-settings.png)
+[![glTF Viewer Light Settings](/img/gltf-viewer-light-settings.png)](/img/gltf-viewer-light-settings.png)
 
 ### Join Our Open Source Community
 

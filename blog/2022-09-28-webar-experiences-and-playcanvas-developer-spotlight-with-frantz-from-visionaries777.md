@@ -14,7 +14,7 @@ tags:
   - spotlight
 ---
 
-[![Nissan AR](/assets/media/v777-nissan-ar.jpg)](/assets/media/v777-nissan-ar.jpg)
+[![Nissan AR](/img/v777-nissan-ar.jpg)](/img/v777-nissan-ar.jpg)
 
 Welcome to the second installment of Developer Spotlight! A series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 
@@ -44,7 +44,7 @@ We were looking around, trying to find what is the best platform to develop WebG
 
 So far we've been really happy with all the engine capabilities, the loading, how lightweight it is, et cetera. For us, it's the best platform for developing web experiences.
 
-[![Husqvarna](/assets/media/v777-husqvarna.jpg)](/assets/media/v777-husqvarna.jpg)
+[![Husqvarna](/img/v777-husqvarna.jpg)](/img/v777-husqvarna.jpg)
 
 **Awesome! So, were there any initial challenges that you guys faced? How did you guys end up overcoming them?**
 
@@ -54,7 +54,7 @@ That was our struggle at the beginning - to try and find the right balance of op
 
 Right now, with our current approach and the tools in our pipeline, we’re quite happy. And it's also why we work with Cartier and are now doing all these products on their websites.
 
-[![Watch](/assets/media/v777-watch.jpg)](/assets/media/v777-watch.jpg)
+[![Watch](/img/v777-watch.jpg)](/img/v777-watch.jpg)
 
 **That's very interesting. Visionaries777 has worked on several Web AR experiences. Can you tell me how important you think Web AR is today?**
 
@@ -66,7 +66,7 @@ But at the end of the day, for marketing initiatives, no one wants to install an
 
 These sorts of experiences were fine 10 years ago on an iPhone, but now people have moved on, and have different mindsets - things should be accessible through a web browser directly, not through an app. If it's inside an app, it has to be inside Snapchat, inside Instagram, or inside an app that has more to it than just one AR experience.
 
-[![BMW](/assets/media/v777-bmw.jpg)](/assets/media/v777-bmw.jpg)
+[![BMW](/img/v777-bmw.jpg)](/img/v777-bmw.jpg)
 
 **Extending a bit from that question, why do you think that the clients you work with want Web AR in their experiences?**
 

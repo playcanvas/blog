@@ -11,7 +11,7 @@ categories:
   - PLAYHACK
 ---
 
-![PLAYHACK Logo](/assets/media/playhack-logo-xmas.jpg)
+![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
 **If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.**
 
@@ -31,7 +31,7 @@ It works like this:
 
 ## The Model
 
-![Santa](/assets/media/playhack-santa.jpg)
+![Santa](/img/playhack-santa.jpg)
 
 We are giving **you the reins** (get it?), to take the game wherever you want. Well almost. Incorporating the sack and present is optional, but you must use the **Jolly Santa model** (complete with sleigh and Rudolph).
 
@@ -49,7 +49,7 @@ We will be holding things down here at HQ during the month long jam by **sharing
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
-[![SRL](/assets/media/playhack-nov-14-srl.png)](https://playcanvas.com/project/331749/overview/gamehack)
+[![SRL](/img/playhack-nov-14-srl.png)](https://playcanvas.com/project/331749/overview/gamehack)
 <br>_[Play SRL](https://playcanv.as/p/o5sSYIiR/) by lizzip and auroraimortalis_
 
 ## Last Month
@@ -60,8 +60,8 @@ Our favorite entry is [SRL](https://playcanv.as/p/o5sSYIiR/) by PlayCanvas users
 
 Honorable mentions go to PlayCanvas users [**crefossus**](https://playcanvas.com/user/crefossus) ([game](https://playcanv.as/p/bAARELwk/)) and [**danielpetterson**](https://playcanvas.com/user/danielpettersson) ([game](https://playcanv.as/p/KRE8VnRm/)), but thank you to everyone who took part. We can't wait to see what you can come up with this month!
 
-[![FotorCreated5](/assets/media/FotorCreated5.jpg)](/assets/media/FotorCreated5.jpg)
+[![FotorCreated5](/img/FotorCreated5.jpg)](/img/FotorCreated5.jpg)
 
 **Click the giant button below to begin your project**!
 
-[![button](/assets/media/button-1.png)](https://playcanvas.com/project/333365/overview/playhack-dec-14)
+[![button](/img/button-1.png)](https://playcanvas.com/project/333365/overview/playhack-dec-14)

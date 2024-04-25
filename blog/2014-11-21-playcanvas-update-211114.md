@@ -12,7 +12,7 @@ categories:
 
 **We haven't been keeping up our weekly update as much as we really should and for that we are eternally sorry. However, from a new particle system beta to the even newer watching and starring functions this week is no disappointment. Lets go!**
 
-[![PLAYHACK_boxes](/assets/media/PLAYHACK_boxes.jpg)](/assets/media/PLAYHACK_boxes.jpg)
+[![PLAYHACK_boxes](/img/PLAYHACK_boxes.jpg)](/img/PLAYHACK_boxes.jpg)
 
 ### Features
 
@@ -32,7 +32,7 @@ Our new **Particle System** is only in beta form but already we're seeing great 
 
 **Starring** a project just tells us that you think it’s cool. You won’t receive any more information about it, but you can rest safe in the knowledge that you’ve given the project’s owner a little boost to their day.
 
-[![Project Stars](/assets/media/swooop-dashboard.jpg)](/assets/media/swooop-dashboard.jpg)
+[![Project Stars](/img/swooop-dashboard.jpg)](/img/swooop-dashboard.jpg)
 
 ### Graphics
 

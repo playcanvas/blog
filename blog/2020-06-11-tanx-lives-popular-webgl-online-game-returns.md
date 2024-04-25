@@ -15,7 +15,7 @@ tags:
 
 In the early days of PlayCanvas, we published a game called TANX, an online multiplayer tank battle game.
 
-![TANX Prototype](/assets/media/tanx-prototype.jpg)
+![TANX Prototype](/img/tanx-prototype.jpg)
 
 To us, it was the perfect illustration of why the web makes such a great platform for gaming.
 
@@ -26,13 +26,13 @@ To us, it was the perfect illustration of why the web makes such a great platfor
 
 So we decided to keep developing the game. The first iteration above just had primitive tanks driving around an empty environment. v2.0 brought upgraded tank models, a new UI and a proper level:
 
-![TANX V2](/assets/media/tanx.jpg)
+![TANX V2](/img/tanx.jpg)
 
 And the game's popularity continued to grow. It even hit #1 on Hacker News one lazy Friday afternoon!
 
 By now, the PlayCanvas engine was rapidly evolving and had recently gained support for physically based rendering (PBR). We were desperate to upgrade the game to show off these new capabilities. So not long afterwards, we developed v3.0:
 
-![TANX V3](/assets/media/tanx-latest.png)
+![TANX V3](/img/tanx-latest.png)
 
 The game also leveraged PlayCanvas' run-time lightmapper to generate the level's shadows.
 

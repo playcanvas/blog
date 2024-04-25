@@ -14,7 +14,7 @@ tags:
 
 At GDC 2015, ARM and PlayCanvas unveiled the Seemore WebGL demo. If you haven’t seen it yet, it takes WebGL graphics to a whole new level.
 
-[![seemore](/assets/media/seemore.jpg)](/assets/media/seemore.jpg)
+[![seemore](/img/seemore.jpg)](/img/seemore.jpg)
 [**CLICK HERE**](http://seemore.playcanvas.com)
 TO LAUNCH SEEMORE
 
@@ -34,7 +34,7 @@ It's not practical to examine all of the engine updates we made to bring Seemore
 
 This is the generation and usage of prefiltered cubemaps. Each mipmap level stores environment reflection at different level of surface roughness - from mirror-like to diffuse.
 
-[![prefilter](/assets/media/prefilter.jpg)](/assets/media/prefilter.jpg)
+[![prefilter](/img/prefilter.jpg)](/img/prefilter.jpg)
 
 **How did we do it?**
 First, we added a cubemap filtering utility to the engine (GPU-based importance sampling). The next step was to expose this functionality in the PlayCanvas Editor. This technique uses Phong lobes of different sizes to pre-blur each mip level. Runtime shaders use either the EXT_shader_texture_lod extension (where supported) or reference mip levels stored as individual textures that are interpolated manually.
@@ -52,7 +52,7 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 
 This feature makes cubemaps work as if projected onto the insides of a box, instead of being infinitely far away (as with a regular skybox cubemap). This technique is widely used in games for interior reflection and refraction.
 
-[![bpcem34](/assets/media/bpcem34.jpg)](/assets/media/bpcem34.jpg)
+[![bpcem34](/img/bpcem34.jpg)](/img/bpcem34.jpg)
 
 **How did we do it?**
 
@@ -73,9 +73,9 @@ Standard material shaders in PlayCanvas are assembled from multiple code 'chunks
 This feature was required in Seemore to achieve the following:
 
 - **Dual baked ambient occlusion.** The main plant uses 2 AO maps for open and closed mouth states which are interpolated dynamically.
-  [![AO](/assets/media/seemore-ao.jpg)](/assets/media/seemore-ao.jpg)
+  [![AO](/img/seemore-ao.jpg)](/img/seemore-ao.jpg)
 - **Fake foliage translucency.** This attenuates emission to make it appear as though light is scattered on the back-faces of leaves in a hemispherically lit room. The plant’s head uses a more complex version of the effect, calculating per-vertex procedural light occlusion.
-  [![fol](/assets/media/seemore-foliage.jpg)](/assets/media/seemore-foliage.jpg)
+  [![fol](/img/seemore-foliage.jpg)](/img/seemore-foliage.jpg)
 - **Plant/tentacle animation.** Procedural code that drives vertex positions/normals/tangents.
 
 **How did we do it?**

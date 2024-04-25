@@ -14,7 +14,7 @@ tags:
 
 We have almost completed work on moving the Code Editor from Code Mirror to [Monaco](https://github.com/Microsoft/monaco-editor), the same editor that powers the ever popular, Visual Studio Code.
 
-[![](/assets/media/code-editor-monaco.png)](/assets/media/code-editor-monaco.png)
+[![](/img/code-editor-monaco.png)](/img/code-editor-monaco.png)
 _Look familiar? 👀_
 
 With this upgrade, it will give developers:
@@ -23,7 +23,7 @@ With this upgrade, it will give developers:
 - More editing functionality through the command palette
 - Mouse driven features such as Cmd/Ctrl + Click to jump to definition, hover for documentation and a context menu!
 
-[![](/assets/media/playcanvas-monaco-code-editor-1.gif)](/assets/media/playcanvas-monaco-code-editor-1.gif)
+[![](/img/playcanvas-monaco-code-editor-1.gif)](/img/playcanvas-monaco-code-editor-1.gif)
 
 There will be some small differences which will include:
 

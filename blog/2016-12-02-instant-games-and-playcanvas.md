@@ -29,7 +29,7 @@ Instant Games are [playable today](https://developers.facebook.com/blog/post/201
 
 ### PlayCanvas Instant Games
 
-![Instant Games Using PlayCanvas](/assets/media/instant-games-using-playcanvas.png)
+![Instant Games Using PlayCanvas](/img/instant-games-using-playcanvas.png)
 
 PlayCanvas is already being used to build Instant Games. The launch title **[Shuffle Cats Mini](https://www.facebook.com/ShuffleCatsMini)** by [King](https://king.com/) was built using PlayCanvas. Look out for more titles built using PlayCanvas in the future.
 
