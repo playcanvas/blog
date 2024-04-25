@@ -1,24 +1,63 @@
-will:
-  name: Will Eastcott
-  title: CEO
-  url: https://github.com/willeastcott
-  image_url: https://avatars.githubusercontent.com/u/697563?v=4
-
-dave:
-  name: Dave Evans
-  title: CTO
-  url: https://github.com/daredevildave
+adam:
+  name: Adam Razzak
+  title: Intern
+  url: https://www.linkedin.com/in/adam-razzak/
 
 christy:
   name: Christy O'Connor
   title: Community Manager
   url: https://www.linkedin.com/in/christy-o-connor-76aa2239/
 
-adam:
-  name: Adam Razzak
-  title: Intern
-  url: https://www.linkedin.com/in/adam-razzak/
+dave:
+  name: Dave Evans
+  title: CTO
+  url: https://twitter.com/daredevildave
+
+donovan:
+  name: Donovan Hutchence
+  title: Staff Software Engineer
+  url: https://twitter.com/slimbuck7
+
+elliott:
+  name: Elliott Thompson
+  title: Software Engineer
+  url: https://twitter.com/elliott_thomps
+
+mark:
+  name: Mark Lundin
+  title: Software Engineer
+  url: https://twitter.com/mark_lundin
+
+martin:
+  name: Martin Valigursky
+  title: Software Engineer
+  url: https://twitter.com/ValigurskyM
 
 nathan:
   name: Nathan
 
+paulo:
+  name: Paulo Oliveira
+  title: Associate Partner Support Engineer
+  url: https://www.linkedin.com/in/paulo-oliveira-ninitoph/
+
+ray:
+  name: Ray Tran
+  title: Software Engineer
+  url: https://twitter.com/RayT_uk
+
+steven:
+  name: Steven Yau
+  title: Partner Relations Manager
+  url: https://twitter.com/yaustar
+
+vaios:
+  name: Vaios Kalpias Ilias
+  title: Software Engineer
+  url: https://twitter.com/vkalpias
+
+will:
+  name: Will Eastcott
+  title: CEO
+  url: https://twitter.com/willeastcott
+  image_url: https://avatars.githubusercontent.com/u/697563?v=4
