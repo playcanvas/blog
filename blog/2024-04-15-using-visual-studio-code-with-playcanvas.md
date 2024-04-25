@@ -44,4 +44,4 @@ We want you to feel empowered to make these tools your own. Let's make them awes
 
 If this all sounds great to you, why not give it a try? Head over to the User Manual for instructions on how to get started:
 
-[READ THE DOCS](https://developer.playcanvas.com/user-manual/scripting/vscode-extension/){: .cta-button }
+[READ THE DOCS](https://developer.playcanvas.com/user-manual/scripting/vscode-extension/)
