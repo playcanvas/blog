@@ -18,13 +18,17 @@ The last twelve months have seen some incredible companies adopt PlayCanvas. Her
 
 **Disney** selected PlayCanvas for the [Moana-themed Hour of Code](http://partners.disney.com/hour-of-code)
 
-{% include video.html src="/img/moana-hour-of-code.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/moana-hour-of-code.mp4"></video>
+</div>
 
 **King** published [Shuffle Cats Mini](https://www.facebook.com/ShuffleCatsMini/) as a launch title for Facebook Instant Games
 
 **Miniclip** published the fiendish [Virtual Voodoo](http://www.miniclip.com/games/virtual-voodoo/en/) on their portal:
 
-{% include video.html src="/img/virtualvoodoo.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/virtualvoodoo.mp4"></video>
+</div>
 
 **Leapfrog** launched the [Leapfrog Academy](https://store.leapfrog.com/en-gb/academy/landing) subscription service
 
@@ -64,10 +68,14 @@ Here are our top 5 picks for PlayCanvas tech improvements during 2016:
 
 Plenty of PlayCanvas games have been released during 2016 but we have to give special mention to Midgard's [BlastArena](http://blastarena.io)! It pays homage to the classic Bomberman with frenetic, insanely fun online play.
 
-{% include video.html src="/img/blastarena.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/blastarena.mp4"></video>
+</div>
 
 And we have to give special mention to our own online multiplayer game [TANX](https://tanx.io)! 2016 saw the game receive a massive upgrade, with stunning new visuals and level design.
 
-{% include video.html src="/img/tanx.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/tanx.mp4"></video>
+</div>
 
 PlayCanvas continues to race ahead as the leading platform for building lightweight, mobile-friendly WebGL content. We've got lots of surprises in store for 2017 and we can't wait to share them with you. Happy New Year everyone!

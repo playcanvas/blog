@@ -25,13 +25,17 @@ We'll use [Space Rocks!](https://playcanvas.com/project/1029772/overview/space-r
 
 Particularly, we'll explore how game polish can be achieved through **game juice**.
 
-{% include video.html src="/img/Space-Rocks-before-and-after-v2-60fps.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/Space-Rocks-before-and-after-v2-60fps.mp4"></video>
+</div>
 
 [Play it here!](https://playcanvas.com/project/1014332/overview/space-rocks)
 
 ## How it started
 
-{% include video.html src="/img/Space-Rocks-How-it-started-1.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/Space-Rocks-How-it-started-1.mp4"></video>
+</div>
 
 This was our starting point before we added game juice. While the game is fully functional and plays well, it lacks the visual and audio effects that would make it truly engaging. As a result, it feels a bit dull and uninteresting.
 
@@ -278,7 +282,9 @@ AmbientManager.prototype.updateTransition = function (transitionProgress) {
 
 Here's the end result with all of our asteroid changes:
 
-{% include video.html src="/img/Space-Rocks-After.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/Space-Rocks-After.mp4"></video>
+</div>
 
 It looks amazingly better! Already a massive difference from our starting point.
 
@@ -357,7 +363,9 @@ Lastly, let's add a small shockwave whenever we get hit! Let's use a particle sy
 
 The combined effects look like this:
 
-{% include video.html src="/img/Space-Rocks-Preview.mp4" %}
+<div className="iframe-container">
+    <video controls src="/img/Space-Rocks-Preview.mp4"></video>
+</div>
 
 You'll notice I've added screen shake to more than just the player getting hit! I'm a big fan of this effect, so I've added it to asteroid explosions and firing bullets as well!
 
