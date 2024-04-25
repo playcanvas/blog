@@ -41,7 +41,7 @@ First, we added a cubemap filtering utility to the engine (GPU-based importance 
 
 **Show me the code!**
 
-<https://github.com/playcanvas/engine/pull/202>
+[https://github.com/playcanvas/engine/pull/202](https://github.com/playcanvas/engine/pull/202)
 
 **Further reading:**
 
@@ -60,11 +60,11 @@ This effect is implemented using a world-space AABB projection. Refraction uses 
 
 **Show me the code!**
 
-<https://github.com/playcanvas/engine/pull/183>
+[https://github.com/playcanvas/engine/pull/183](https://github.com/playcanvas/engine/pull/183)
 
 **Further reading:**
 
-- <https://www.gamedev.net/forums/topic/568829-box-projected-cubemap-environment-mapping/>
+- [https://www.gamedev.net/forums/topic/568829-box-projected-cubemap-environment-mapping/](https://www.gamedev.net/forums/topic/568829-box-projected-cubemap-environment-mapping/)
 
 #### Custom shader chunks
 
@@ -102,6 +102,6 @@ material.chunks.fogExp2PS = myCustomShaderString;
 
 **Show me the code!**
 
-<https://github.com/playcanvas/engine/pull/172>
+[https://github.com/playcanvas/engine/pull/172](https://github.com/playcanvas/engine/pull/172)
 
 So there you have it. A brief insight into some of the latest technology in the PlayCanvas Engine. Want to find out more? [Head over to GitHub](https://github.com/playcanvas/engine), watch, star and fork the codebase - get involved today!
