@@ -39,19 +39,25 @@ Also make sure you're running the viewer in a browser that supports WebGPU. At t
 
 #### Enhanced WebXR AR Mode
 
-{% include youtube.html id="7tV15e4ovzc" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/7tV15e4ovzc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Take your 3D models into the real world with our revamped WebXR Augmented Reality (AR) mode! Available currently on Android devices, this enhanced AR mode lets you view any model in your actual environment, complete with intuitive new controls that allow you to accurately position and rotate objects in the real world. Let's hope Apple decides to roll out WebXR support on iOS soon! 🙏
 
 #### Frame Selected Node
 
-{% include youtube.html id="lCzTRlO2lmo" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/lCzTRlO2lmo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Navigating large scenes can be a pain - Viewer 4.0 addresses this by allowing you to select a node in the scene via the hierarchy panel on the left. You can then press 'F' on the keyboard to frame that node and recenter the orbit camera on that node's position.
 
 #### Better Immersion with Projective Sky Dome
 
-{% include youtube.html id="Upbh-B080MU" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/Upbh-B080MU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 _["130"](https://skfb.ly/6R9Ow) by mononofu is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 

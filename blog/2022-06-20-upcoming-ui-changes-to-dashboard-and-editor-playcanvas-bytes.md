@@ -18,7 +18,9 @@ PlayCanvas Bytes is where we talk about upcoming work with PlayCanvas and relate
 
 We are trialing a new format to better communicate some of the work that is going on with the PlayCanvas team.
 
-{% include youtube.html id="FR8Jrbb5Jb4" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/FR8Jrbb5Jb4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Today we have our UX designer, Jasper who will take us through some exciting plans to the new project dashboard and Editor View!
 

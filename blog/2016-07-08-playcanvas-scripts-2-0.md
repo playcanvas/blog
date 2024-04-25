@@ -15,7 +15,9 @@ tags:
   - scripting
 ---
 
-{% include youtube.html id="PS4oMLPyYfI" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/PS4oMLPyYfI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 We've just launched "Scripts 2.0", a complete re-design and re-implementation of the scripting system for PlayCanvas applications. Our goals were to fix an array of small irritations that had built up over using the PlayCanvas scripting for the last few years and take the opportunity to clean up the interface and simplify the creation and usage of scripts.
 

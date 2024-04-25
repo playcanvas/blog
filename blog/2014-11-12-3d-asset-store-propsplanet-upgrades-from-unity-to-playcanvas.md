@@ -29,6 +29,8 @@ Propsplanet used our cloud-hosted tools platform to build the interactive 3D app
 
 You can see what an improvement we made to the Propsplanet user experience in this side-by-side comparison video
 
-{% include youtube.html id="oMBP5MK8xb4" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/oMBP5MK8xb4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 You can try the PlayCanvas-powered application on Propsplanet’s [store website](http://www.propsplanet.com) now.

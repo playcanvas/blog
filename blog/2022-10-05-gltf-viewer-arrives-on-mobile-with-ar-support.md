@@ -15,7 +15,9 @@ tags:
   - viewer
 ---
 
-{% include youtube.html id="WkEOfcdmEbc" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WkEOfcdmEbc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Today we’re excited to announce the next major release of our glTF viewer. This version makes the viewer an ideal tool for reviewing how glTF models render on mobile as well as in augmented reality!
 

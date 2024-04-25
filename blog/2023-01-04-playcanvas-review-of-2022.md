@@ -26,7 +26,9 @@ From games and interactive experiences to architectural visualizations and simul
 
 To celebrate this work, we've created a showcase video with the standout projects and work from 2022.
 
-{% include youtube.html id="46f73gp1_TU" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/46f73gp1_TU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [PlayCanvas Showcase 2022](https://blog.playcanvas.com/our-2022-developer-showreel-is-live/)
 

@@ -22,7 +22,9 @@ It's not just browser support for PlayCanvas games we're interested in though. 
 
 It's now dead simple to get your PlayCanvas game running as a native iOS application. Take a look at our little video introduction.
 
-{% include youtube.html id="TzHn60xlqCc" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TzHn60xlqCc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 It's just one click to get a XCode project which is easy to build into a iPhone application.
 

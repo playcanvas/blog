@@ -15,7 +15,9 @@ tags:
   - viewer
 ---
 
-{% include youtube.html id="rj1CyM_ob3E" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/rj1CyM_ob3E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Today, we are excited to announce the 2.0 release of our glTF viewer.
 

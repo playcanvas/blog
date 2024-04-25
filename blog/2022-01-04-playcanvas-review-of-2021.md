@@ -83,7 +83,9 @@ As mentioned above, the new Shader Editor will be joining this list in 2022. And
 
 We have been blown away by the incredible content the community has created. Browser and messenger games, 3D configurators, VR and AR apps, playable ads and more. We recently published an updated PlayCanvas Showcase video that highlights some of the best examples:
 
-{% include youtube.html id="FrUUrVRpbzg" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/FrUUrVRpbzg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Our top picks for 2021 are:
 

@@ -21,7 +21,9 @@ At its core, [Draco Mesh Compression](https://google.github.io/draco/) reduces t
 
 The open source [PlayCanvas Engine](https://github.com/playcanvas/engine) has been able to load Draco-compressed glTF 2.0 files for quite some time now. But now you can generate these Draco-compressed glTF files in the Editor at import time. Check out how easy it is to use:
 
-{% include youtube.html id="dDLI0gyROmE" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dDLI0gyROmE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 _["1972 Datsun 240k GT"](https://skfb.ly/6VtZu) by Karol Miklas is licensed under [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/)._
 

@@ -27,7 +27,9 @@ The library can be easily added to any PlayCanvas project and used to create fan
 
 ### About Microsoft Mixed Reality Capture Studios
 
-{% include youtube.html id="sWvn_FHynoc" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sWvn_FHynoc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 MRCS records holographic video - dynamic holograms of people and performances. Your audiences can interact with your holograms in augmented reality, virtual reality and on 2D screens.
 

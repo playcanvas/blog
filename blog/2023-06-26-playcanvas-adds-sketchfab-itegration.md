@@ -18,7 +18,9 @@ tags:
 
 Today, we're excited to announce the integration of Sketchfab into the PlayCanvas Editor!
 
-{% include youtube.html id="A0WOrjrFPXM" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/A0WOrjrFPXM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 _["Spartan Armour"](https://skfb.ly/6QVvM) by McCarthy3D is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 

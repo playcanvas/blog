@@ -19,4 +19,6 @@ Will has put together a short video showing how you can make a Pong game using P
 
 Check it out on [YouTube](https://www.youtube.com/watch?v=oeR-flW-ojw) or below:
 
-{% include youtube.html id="oeR-flW-ojw" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/oeR-flW-ojw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

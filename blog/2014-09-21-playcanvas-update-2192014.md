@@ -20,7 +20,9 @@ In light of the launch of iOS 8 and the new iPhones. We've launched a great new
 
 Take a look at how easy this is in the video we published this month.
 
-{% include youtube.html id="TzHn60xlqCc" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TzHn60xlqCc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Pricing plans
 

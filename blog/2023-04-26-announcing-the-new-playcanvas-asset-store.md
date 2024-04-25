@@ -21,7 +21,9 @@ The PlayCanvas Asset Store is the first place that users tend to go to find cont
 
 First up, check out a little example of building a city scene using content taken from the Asset Store. A skybox, a pack of 3D city block meshes and a camera control script are imported and the city is built via drag and drop. And _not one single line of code is needed_!
 
-{% include youtube.html id="RtIhB2Orqa4" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/RtIhB2Orqa4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Now, let's examine some of the key highlights that make the new Asset Store so special.
 

@@ -14,7 +14,9 @@ tags:
   - spotlight
 ---
 
-{% include youtube.html id="LLuB-2OpcFo" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/LLuB-2OpcFo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Welcome to the third instalment of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the Web.
 

@@ -20,7 +20,9 @@ Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device in
 
 30 minutes and 20 lines of code later, we had a fun little demo app that shows the power of the device.
 
-{% include youtube.html id="LoQyUDw8Ngg" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/LoQyUDw8Ngg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 If you are the proud owner of your own Leap Motion, you can run the demo by clicking [here](https://playcanv.as/p/HFJFJBDw/).
 

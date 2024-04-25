@@ -29,7 +29,9 @@ The starter kit comes with all you need to kickstart your AR experience for WebX
 
 Look how quickly you can create AR experiences below!
 
-{% include youtube.html id="kbymJ5ib1gQ" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/kbymJ5ib1gQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [Pacman Arcade + animation](https://sketchfab.com/3d-models/pacman-arcade-animation-0b43f85af5384ea4bac5d6e2d3cbd008) by Daniel Brück is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 

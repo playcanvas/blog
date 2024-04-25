@@ -26,7 +26,9 @@ She will showing us the how she recently ported the [John Lemon's Haunted Jaunt]
 - Use of shaders and effects
 - And more!
 
-{% include youtube.html id="uyxh4bdqK38" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/uyxh4bdqK38" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [Presentation Slides](/assets/media/Christina-Spotlight-Unity-John-Lemons-to-PlayCanvas-Presentation.pdf)
 

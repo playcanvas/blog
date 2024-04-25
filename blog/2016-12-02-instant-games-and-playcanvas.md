@@ -15,7 +15,9 @@ tags:
 
 You may have seen the news about Facebook launching Instant Games in Messenger. If not here's the launch video
 
-{% include youtube.html id="WKQYMCLitV0" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WKQYMCLitV0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Instant Games is a **totally new** mobile gaming platform and it's **entirely built on HTML5 games**. This is tremendous news for the PlayCanvas game development community.
 

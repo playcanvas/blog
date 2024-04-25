@@ -29,7 +29,9 @@ If you enable WebGPU for your PlayCanvas project, you may not notice much differ
 
 Another key feature unique to WebGPU is support for Compute Shaders which allow for general computation on the GPU. Support for Compute Shaders landed in [Engine v1.70.0](https://github.com/playcanvas/engine/releases/tag/v1.70.0). Here you can see Computer Shaders in action simulating 1 million particles on the GPU:
 
-{% include youtube.html id="FRRFcEiWYEY" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/FRRFcEiWYEY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 [Click here](https://playcanvas.github.io/#/compute/particles) to run it for yourself in a WebGPU-enabled browser (i.e. Chrome or Edge).
 

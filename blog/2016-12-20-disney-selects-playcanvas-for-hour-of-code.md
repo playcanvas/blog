@@ -12,7 +12,9 @@ categories:
 
 We're proud to announce that Disney has selected PlayCanvas to power their newly launched Hour of Code application. Entitled "Moana: Wayfinding with Code", it's a free online tutorial to teach kids the basics of computer science.
 
-{% include youtube.html id="AoMdehOFP5k" %}
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/AoMdehOFP5k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 In the tutorial, kids are tasked with using code to navigate Moana and Maui, two of the main characters, through the ocean. When they’re attacked, the students have to use their coding skills to dodge the pirates.
 
