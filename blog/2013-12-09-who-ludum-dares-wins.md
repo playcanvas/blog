@@ -21,6 +21,6 @@ At PlayCanvas we love to Jam. Specifically, we love to Game Jam. And of all the 
 
 To celebrate Ludum Dare #28 we've launched [a deal](http://www.ludumdare.com/compo/2013/12/08/ludum-deals-for-ld28/). If you submit a game to the Ludum Dare competition (Solo or Jam) using PlayCanvas this weekend you'll get a 1 year pro account **for free**. That's an amazing $180 of game development goodness for you right there.
 
-All you need to do to claim your prize is email <support@playcanvas.com> with your PlayCanvas username and a link to you game page on the Ludum Dare site.
+All you need to do to claim your prize is email [support@playcanvas.com](mailto:support@playcanvas.com) with your PlayCanvas username and a link to you game page on the Ludum Dare site.
 
 Happy Jamming

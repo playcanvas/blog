@@ -23,6 +23,6 @@ However if the fate of your game rests on being between our increments, have no 
 
 [![Snap Button on Toolbar](/img/editor-toolbar-snap.png)](/img/editor-toolbar-snap.png)
 
-<https://developer.playcanvas.com/user-manual/designer/settings/#snap>
+Read more in the [User Manual](https://developer.playcanvas.com/user-manual/editor/settings/).
 
 Happy Snapping!

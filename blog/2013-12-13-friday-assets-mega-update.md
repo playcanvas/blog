@@ -45,6 +45,6 @@ We've started working on thumbnails for all Assets, but as a quick starter, text
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/O7U9IY_nCLM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Have we saved the best feature until last? Maybe. Certainly the Asset Library is going to make it much easier for our new users to get something looking pretty. We've teamed up with lovely folks at <https://3dmodels-textures.com/> and <http://www.propsplanet.com/> to give you a selection of 3D models which you can use to get started. Click the big red Asset Library button to open up a list of models and one-click to add them to your Project.
+Have we saved the best feature until last? Maybe. Certainly the Asset Library is going to make it much easier for our new users to get something looking pretty. We've teamed up with lovely folks at [3dmodels-textures.com](https://3dmodels-textures.com) and [propsplanet.com](https://propsplanet.com) to give you a selection of 3D models which you can use to get started. Click the big red Asset Library button to open up a list of models and one-click to add them to your Project.
 
 We encourage you to check the free assets from the kind folks and then head over to their websites and see all the other awesome stuff they have on offer.

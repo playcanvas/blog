@@ -44,6 +44,6 @@ To help you migrate, we've added a [Goo Create Migration Guide](https://develope
 
 #### We Are Here to Support You
 
-You may well have further questions about this news. You can be assured that we are on hand to address your concerns. Either follow up below in the comments, post on the forum, or for more sensitive matters, reach out to us at <info@playcanvas.com>. We're here to help.
+You may well have further questions about this news. You can be assured that we are on hand to address your concerns. Either follow up below in the comments, post on the forum, or for more sensitive matters, reach out to us at [info@playcanvas.com](mailto:info@playcanvas.com). We're here to help.
 
 Team PlayCanvas

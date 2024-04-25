@@ -204,6 +204,6 @@ Cache entire applications locally for use when offline.
 
 [source](https://caniuse.com/offline-apps) \| [spec](https://www.w3.org/TR/2011/WD-html5-20110525/offline.html#offline)
 
-Do you have any other suggestions for APIs you'd like to see tracked here. Or other features that game developers want that are missing from HTML5 specs? Please email us at <support@playcanvas.com>.
+Do you have any other suggestions for APIs you'd like to see tracked here. Or other features that game developers want that are missing from HTML5 specs? Please email us at [support@playcanvas.com](mailto:support@playcanvas.com).
 
 Note: [caniuse.com](https://caniuse.com/) is great resource for checking which features are available in which browsers. It was used as a source for many of the tables above.

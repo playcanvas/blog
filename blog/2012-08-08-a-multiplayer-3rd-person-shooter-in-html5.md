@@ -72,7 +72,7 @@ Total set up time for installing tools and getting up and running on both machin
 
 The service we’re building at PlayCanvas is designed to make creating games faster and more accessible. We're building games ourselves in ways that we wouldn’t have thought possible a few years ago and we want you to do that too.
 
-If you are interested in trying out PlayCanvas to build your games, get in touch, email us at <info@playcanvas.com> to join the Beta trial.
+If you are interested in trying out PlayCanvas to build your games, get in touch, email us at [info@playcanvas.com](mailto:info@playcanvas.com) to join the Beta trial.
 
 ### [Play the game](https://playcanv.as/p/UAR6UQNM/)
 
