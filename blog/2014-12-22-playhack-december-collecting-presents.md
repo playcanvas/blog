@@ -17,7 +17,9 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month Iâ€
 
 We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-creating-presents/) this time, so make sure you've followed that one before attempting this! As always, you can check out all the up to date code [in this project](https://playcanvas.com/project/333523/overview/playhack_december).
 
-{% include playcanvas.html type="b" id="MjlE6fOY" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/b/MjlE6fOY/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _Use W and S to move the sleigh._
 

@@ -16,7 +16,9 @@ Today we're excited to launch the [WebVR Lab](http://webvr.playcanvas.com), a li
 
 Try the lab right now:
 
-{% include playcanvas.html type="p" id="sAsiDvtC" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/sAsiDvtC/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _[Try it in fullscreen](https://playcanv.as/p/sAsiDvtC/)_
 

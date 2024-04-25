@@ -20,7 +20,9 @@ tags:
 [**3D Gaussian Splatting**](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) is a new method for digitizing and rendering real world objects. With gaussian splatting, you can digitize a scene from a few photos using services like [Luma Labs](https://lumalabs.ai/) or [Polycam](https://poly.cam/). These services take the set of photos and generate a 3d Gaussian Splat scene in [PLY format](<https://en.wikipedia.org/wiki/PLY_(file_format)>).
 
 For example, this is a Gaussian Splat scene rendered in PlayCanvas.
-{% include playcanvas.html type="p" id="69cnpevQ" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/69cnpevQ/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 ### What is a Splat?
 

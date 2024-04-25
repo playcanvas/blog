@@ -17,7 +17,9 @@ The PlayCanvas WebGL game engine integrates with [ammo.js](https://github.com/kr
 
 Here is an example of a character with and without soft body cloth simulation running in PlayCanvas:
 
-{% include playcanvas.html type="p" id="WpURkO1l" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/WpURkO1l/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 _**[RUN FULLSCREEN](https://playcanv.as/p/WpURkO1l/)**_
 
 Want to know how it was done? Read on!

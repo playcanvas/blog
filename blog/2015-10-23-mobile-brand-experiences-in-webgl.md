@@ -10,7 +10,9 @@ categories:
   - News
 ---
 
-{% include playcanvas.html type="p" id="RqJJ9oU9" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/RqJJ9oU9/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _[Try it fullscreen](http://car.playcanvas.com/)_
 

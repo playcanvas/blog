@@ -19,7 +19,9 @@ We'll be following on from [last time's tutorial](https://blog.playcanvas.com/pl
 
 <!-- more -->
 
-{% include playcanvas.html type="b" id="eyPboW2T" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/b/eyPboW2T/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _Use W and S to move the sleigh._
 

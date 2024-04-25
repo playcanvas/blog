@@ -21,7 +21,9 @@ Did you hear? VR is BIG! But what is bigger than VR? The web, that's what. Wh
 
 That's why we've introduced the VR Starter Kit in PlayCanvas.
 
-{% include playcanvas.html type="p" id="9B6drGXk" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/9B6drGXk/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 The VR Starter Kit is available when you select New Project in your PlayCanvas dashboard. It sets you up straight away with a boilerplate scene containing a VR Camera (using our open source [WebVR plugin](https://github.com/playcanvas/webvr)). It works immediately with Google Cardboard-style VR headsets for mobile phones or with the special WebVR builds of Chrome or Firefox.
 

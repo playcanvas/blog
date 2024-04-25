@@ -20,7 +20,9 @@ We've teamed up with PlayJam and our 6 week game jam starts today. Check out the
 
 We’ve got three great assets for your game. Use one, two or all three in your game.
 
-{% include playcanvas.html type="p" id="MFTyHFU4" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/MFTyHFU4/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 ## Theme
 

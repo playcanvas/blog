@@ -17,7 +17,9 @@ For many years, lightmapping has been the mainstay of achieving low cost yet re
 
 All that changes today as we introduce **Runtime Lightmap Generation** into the PlayCanvas Engine.
 
-{% include playcanvas.html type="p" id="txPePQvy" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/txPePQvy/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _Here's a link to [full demo](https://playcanv.as/p/txPePQvy)._
 

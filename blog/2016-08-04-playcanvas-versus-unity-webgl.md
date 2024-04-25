@@ -21,7 +21,9 @@ But first, let me quickly introduce Unity and PlayCanvas to the uninitiated. Uni
 
 For the purpose of this article, we're keeping things simple. We've created the 'Hello World' of apps in both Unity 5.3.2 and PlayCanvas: a spinning, textured cube:
 
-{% include playcanvas.html type="b" id="5bLMNnvC" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/b/5bLMNnvC/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 The application above is the PlayCanvas app. I'm not embedding the Unity app since it can crash the page (if you're feeling brave, click [here](http://unity-comparison.playcanvas.com/perf1e/unity/index.html) to run it in a new tab).
 

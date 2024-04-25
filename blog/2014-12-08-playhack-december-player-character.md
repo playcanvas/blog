@@ -17,7 +17,9 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month I'l
 
 <!-- more -->
 
-{% include playcanvas.html type="b" id="WbIFTpdn" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/b/WbIFTpdn/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 _Use W and S to move the sleigh. Press SPACE to switch to mouse control._
 

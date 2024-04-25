@@ -15,7 +15,9 @@ tags:
   - webxr
 ---
 
-{% include playcanvas.html type="p" id="d3xb8X2Q" %}
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://playcanv.as/p/d3xb8X2Q/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
+</div>
 
 [Open in new tab](https://playcanv.as/p/d3xb8X2Q/)
 
