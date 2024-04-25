@@ -1,27 +1,41 @@
-<p align="center">
-    <img src="https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/platform/images/logo/playcanvas-logo-medium.png" width="100"/>
-</p>
-<p align="center">
-    <a href="https://github.com/playcanvas/blog/blob/main/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=Source&secondText=Licensed" /></a>
-    <br/>
-    <b>A blog about PlayCanvas, the platform for building interactive web content.</b>
-    <br/>
-</p>
+# Website
 
-## Features
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-* It's completely static (built with [Jekyll](https://jekyllrb.com/)).
-* It uses Jekyll's default [Minima theme](https://github.com/jekyll/minima).
-* Builds are completely automated with [GitHub Pages](https://pages.github.com/).
+### Installation
 
-## Development
+```
+$ yarn
+```
 
-To build the blog site locally, do the following:
+### Local Development
 
-**Install dependencies:**
+```
+$ yarn start
+```
 
-    bundle install
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-**Serve the static website:**
+### Build
 
-    bundle exec jekyll serve
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
