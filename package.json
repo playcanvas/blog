@@ -1,7 +1,26 @@
 {
-  "name": "blog-3",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@playcanvas/blog",
+  "author": "PlayCanvas <support@playcanvas.com>",
+  "homepage": "https://blog.playcanvas.com",
+  "description": "PlayCanvas blog",
+  "version": "1.0.0",
+  "keywords": [
+    "playcanvas",
+    "game engine",
+    "webgl",
+    "webgl2",
+    "3d",
+    "blog",
+    "docusaurus"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playcanvas/blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/playcanvas/blog.git"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
