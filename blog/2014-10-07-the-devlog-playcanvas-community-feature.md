@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-10-07 17:07:09+00:00
-layout: post
 link: https://blog.playcanvas.com/the-devlog-playcanvas-community-feature/
 slug: the-devlog-playcanvas-community-feature
 title: The DevLog - PlayCanvas Community Feature

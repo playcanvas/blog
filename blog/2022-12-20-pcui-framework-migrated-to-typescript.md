@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2022-12-20 11:49:57+00:00
-layout: post
 link: https://blog.playcanvas.com/pcui-framework-migrated-to-typescript/
 slug: pcui-framework-migrated-to-typescript
 title: PCUI Framework Migrated to TypeScript

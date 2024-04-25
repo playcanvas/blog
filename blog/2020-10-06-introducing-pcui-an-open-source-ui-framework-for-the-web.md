@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2020-10-06 11:41:15+00:00
-layout: post
 link: https://blog.playcanvas.com/introducing-pcui-an-open-source-ui-framework-for-the-web/
 slug: introducing-pcui-an-open-source-ui-framework-for-the-web
 title: "Introducing PCUI - An Open Source UI Framework for the Web"

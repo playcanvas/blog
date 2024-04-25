@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2021-03-25 14:55:01+00:00
-layout: post
 link: https://blog.playcanvas.com/build-facebook-playable-ads-with-playcanvas/
 slug: build-facebook-playable-ads-with-playcanvas
 title: Build Facebook Playable Ads with PlayCanvas!

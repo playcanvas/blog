@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-06-18 17:12:59+00:00
-layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-will-eastcott/
 slug: meet-the-playcanvas-team-will-eastcott
 title: "Meet the PlayCanvas team: Will Eastcott"

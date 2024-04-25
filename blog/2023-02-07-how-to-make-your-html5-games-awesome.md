@@ -2,7 +2,6 @@
 authors: paulo
 comments: false
 date: 2023-02-07 14:41:16+00:00
-layout: post
 link: https://blog.playcanvas.com/how-to-make-your-html5-games-awesome/
 slug: how-to-make-your-html5-games-awesome
 title: How to make your HTML5 Games Awesome!

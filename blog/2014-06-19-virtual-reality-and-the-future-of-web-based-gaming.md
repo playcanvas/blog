@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-06-19 10:40:55+00:00
-layout: post
 link: https://blog.playcanvas.com/virtual-reality-and-the-future-of-web-based-gaming/
 slug: virtual-reality-and-the-future-of-web-based-gaming
 title: Virtual Reality and the future of Web Based Gaming

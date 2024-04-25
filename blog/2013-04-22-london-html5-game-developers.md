@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-04-22 12:40:55+00:00
-layout: post
 link: https://blog.playcanvas.com/london-html5-game-developers/
 slug: london-html5-game-developers
 title: London HTML5 Game Developers

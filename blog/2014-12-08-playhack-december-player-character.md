@@ -2,7 +2,6 @@
 authors: nathan
 comments: true
 date: 2014-12-08 17:57:18+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-december-player-character/
 slug: playhack-december-player-character
 title: PLAYHACK December - Player Character

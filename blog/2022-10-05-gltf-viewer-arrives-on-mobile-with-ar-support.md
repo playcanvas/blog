@@ -2,7 +2,6 @@
 authors: elliott
 comments: true
 date: 2022-10-05 14:00:02+00:00
-layout: post
 link: https://blog.playcanvas.com/gltf-viewer-arrives-on-mobile-with-ar-support/
 slug: gltf-viewer-arrives-on-mobile-with-ar-support
 title: glTF Viewer Arrives on Mobile with AR Support

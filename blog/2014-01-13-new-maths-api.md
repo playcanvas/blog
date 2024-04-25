@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-01-13 11:22:12+00:00
-layout: post
 link: https://blog.playcanvas.com/new-maths-api/
 slug: new-maths-api
 title: Incoming Breaking Changes - New Maths API

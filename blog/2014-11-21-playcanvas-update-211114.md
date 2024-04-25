@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-11-21 18:27:25+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-update-211114/
 slug: playcanvas-update-211114
 title: PlayCanvas Update 21/11/14

@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2015-08-26 10:24:47+00:00
-layout: post
 link: https://blog.playcanvas.com/development-update-tags-new-script-attributes/
 slug: development-update-tags-new-script-attributes
 title: "Development Update: Tags, New Script Attributes"

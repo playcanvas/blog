@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2018-10-30 00:00:04+00:00
-layout: post
 link: https://blog.playcanvas.com/scene-launching-supercharged/
 slug: scene-launching-supercharged
 title: Scene Launching Supercharged!

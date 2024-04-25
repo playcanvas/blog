@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-01-13 19:23:52+00:00
-layout: post
 link: https://blog.playcanvas.com/primitives-are-dead-long-live-the-model/
 slug: primitives-are-dead-long-live-the-model
 title: Primitives are Dead! Long Live the Model!

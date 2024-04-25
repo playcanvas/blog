@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-02-26 17:50:39+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-march-win-a-chromebook-2/
 slug: playhack-march-win-a-chromebook-2
 title: PLAYHACK March - Win a Chromebook 2

@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-05-18 09:23:21+00:00
-layout: post
 link: https://blog.playcanvas.com/new-tutorials-multiplayer-with-nodejs-and-webgl-facebook-sdk/
 slug: new-tutorials-multiplayer-with-nodejs-and-webgl-facebook-sdk
 title: "New Tutorials: Multiplayer with Node.js and WebGL & Facebook SDK"

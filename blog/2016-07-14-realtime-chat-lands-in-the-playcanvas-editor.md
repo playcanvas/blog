@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-07-14 12:17:24+00:00
-layout: post
 link: https://blog.playcanvas.com/realtime-chat-lands-in-the-playcanvas-editor/
 slug: realtime-chat-lands-in-the-playcanvas-editor
 title: Realtime Chat Lands in the PlayCanvas Editor

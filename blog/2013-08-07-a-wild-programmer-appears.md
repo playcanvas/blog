@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-08-07 18:41:31+00:00
-layout: post
 link: https://blog.playcanvas.com/a-wild-programmer-appears/
 slug: a-wild-programmer-appears
 title: A wild programmer appears!

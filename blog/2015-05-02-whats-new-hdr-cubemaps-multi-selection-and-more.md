@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2015-05-02 11:40:14+00:00
-layout: post
 link: https://blog.playcanvas.com/whats-new-hdr-cubemaps-multi-selection-and-more/
 slug: whats-new-hdr-cubemaps-multi-selection-and-more
 title: "What's New: HDR Cubemaps, Multi-selection and more"

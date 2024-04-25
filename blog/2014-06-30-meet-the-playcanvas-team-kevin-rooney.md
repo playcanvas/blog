@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-06-30 14:21:25+00:00
-layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-kevin-rooney/
 slug: meet-the-playcanvas-team-kevin-rooney
 title: "Meet the PlayCanvas team: Kevin Rooney"

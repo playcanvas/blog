@@ -2,7 +2,6 @@
 authors: adam
 comments: true
 date: 2014-07-25 17:37:19+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-update-25714/
 slug: playcanvas-update-25714
 title: PlayCanvas Update 25/7/14

@@ -2,7 +2,6 @@
 authors: ray
 comments: true
 date: 2020-06-03 11:50:04+00:00
-layout: post
 link: https://blog.playcanvas.com/implementing-cloth-simulation-in-webgl/
 slug: implementing-cloth-simulation-in-webgl
 title: Implementing Cloth Simulation in WebGL

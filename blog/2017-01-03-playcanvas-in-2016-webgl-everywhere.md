@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2017-01-03 16:31:28+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-in-2016-webgl-everywhere/
 slug: playcanvas-in-2016-webgl-everywhere
 title: PlayCanvas in 2016 - WebGL Everywhere

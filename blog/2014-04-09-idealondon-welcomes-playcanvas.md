@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2014-04-09 13:29:50+00:00
-layout: post
 link: https://blog.playcanvas.com/idealondon-welcomes-playcanvas/
 slug: idealondon-welcomes-playcanvas
 title: IDEALondon Welcomes PlayCanvas

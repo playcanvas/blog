@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-08-28 10:33:22+00:00
-layout: post
 link: https://blog.playcanvas.com/introduction-to-ammo-js/
 slug: introduction-to-ammo-js
 title: Introduction to ammo.js

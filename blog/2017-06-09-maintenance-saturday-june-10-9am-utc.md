@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2017-06-09 17:00:46+00:00
-layout: post
 link: https://blog.playcanvas.com/maintenance-saturday-june-10-9am-utc/
 published: false
 slug: maintenance-saturday-june-10-9am-utc

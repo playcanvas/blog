@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-12-09 16:11:53+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-in-ludum-dare-31/
 slug: playcanvas-in-ludum-dare-31
 title: PLAYCANVAS in LUDUM DARE 31

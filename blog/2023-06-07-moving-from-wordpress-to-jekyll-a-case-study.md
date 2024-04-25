@@ -2,7 +2,6 @@
 authors: will
 comments: false
 date: 2023-06-07 14:27:00+00:00
-layout: post
 link: https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study/
 slug: moving-from-wordpress-to-jekyll-a-case-study
 title: Moving from WordPress to Jekyll - A Case Study

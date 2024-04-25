@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-07-08 17:33:33+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-scripts-2-0/
 slug: playcanvas-scripts-2-0
 title: PlayCanvas Scripts 2.0

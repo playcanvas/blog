@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-02-18 14:52:16+00:00
-layout: post
 link: https://blog.playcanvas.com/engine-update-streamlining-components-and-scripts/
 slug: engine-update-streamlining-components-and-scripts
 title: "Engine Update: Streamlining Components and Scripts"

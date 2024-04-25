@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2015-08-14 15:41:09+00:00
-layout: post
 link: https://blog.playcanvas.com/development-update-major-improvements-ahoy/
 slug: development-update-major-improvements-ahoy
 title: "Development Update: Major Improvements Ahoy!"

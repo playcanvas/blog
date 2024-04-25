@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-06-04 14:43:06+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-goes-open-source/
 slug: playcanvas-goes-open-source
 title: PlayCanvas goes open source

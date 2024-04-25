@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2021-09-21 13:45:12+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-showcase-2021/
 slug: playcanvas-showcase-2021
 title: PlayCanvas Showcase 2021

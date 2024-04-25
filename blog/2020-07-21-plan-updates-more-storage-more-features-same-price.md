@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2020-07-21 15:18:02+00:00
-layout: post
 link: https://blog.playcanvas.com/plan-updates-more-storage-more-features-same-price/
 slug: plan-updates-more-storage-more-features-same-price
 title: "Plan Updates: More Storage, More Features, Same Price"

@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2020-12-23 14:42:44+00:00
-layout: post
 link: https://blog.playcanvas.com/pcui-1-1-0-adds-tree-control-and-array-control/
 slug: pcui-1-1-0-adds-tree-control-and-array-control
 title: PCUI 1.1.0 Adds Tree Control and Array Control

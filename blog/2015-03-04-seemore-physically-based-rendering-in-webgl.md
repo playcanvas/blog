@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2015-03-04 07:06:06+00:00
-layout: post
 link: https://blog.playcanvas.com/seemore-physically-based-rendering-in-webgl/
 slug: seemore-physically-based-rendering-in-webgl
 title: "Seemore: Physically Based Rendering in WebGL"

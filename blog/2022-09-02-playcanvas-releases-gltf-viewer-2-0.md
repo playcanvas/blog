@@ -3,7 +3,6 @@ authors: steven
 comments: true
 date: 2022-09-02 14:35:01+00:00
 excerpt: Today, we are excited to announce the 2.0 release of our glTF model viewer.
-layout: post
 link: https://blog.playcanvas.com/playcanvas-releases-gltf-viewer-2-0/
 slug: playcanvas-releases-gltf-viewer-2-0
 title: PlayCanvas Releases glTF Viewer 2.0

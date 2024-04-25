@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-04-14 12:40:30+00:00
-layout: post
 link: https://blog.playcanvas.com/runtime-lightmap-generation-for-webgl/
 slug: runtime-lightmap-generation-for-webgl
 title: Runtime Lightmap Generation for WebGL

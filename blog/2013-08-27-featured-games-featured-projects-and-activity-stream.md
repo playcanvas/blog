@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-08-27 11:50:19+00:00
-layout: post
 link: https://blog.playcanvas.com/featured-games-featured-projects-and-activity-stream/
 slug: featured-games-featured-projects-and-activity-stream
 title: Featured games, featured projects and activity stream

@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-08-06 10:30:03+00:00
-layout: post
 link: https://blog.playcanvas.com/moving-to-playcanvas-com/
 slug: moving-to-playcanvas-com
 title: Moving to playcanvas.com

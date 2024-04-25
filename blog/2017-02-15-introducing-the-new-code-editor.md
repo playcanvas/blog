@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2017-02-15 14:38:21+00:00
-layout: post
 link: https://blog.playcanvas.com/introducing-the-new-code-editor/
 slug: introducing-the-new-code-editor
 title: Introducing the new Code Editor

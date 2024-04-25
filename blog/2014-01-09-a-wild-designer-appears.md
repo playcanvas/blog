@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-01-09 10:15:57+00:00
-layout: post
 link: https://blog.playcanvas.com/a-wild-designer-appears/
 slug: a-wild-designer-appears
 title: A wild designer appears!

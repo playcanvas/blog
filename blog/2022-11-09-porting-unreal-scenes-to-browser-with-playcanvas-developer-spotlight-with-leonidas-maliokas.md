@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2022-11-09 16:15:20+00:00
-layout: post
 link: https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/
 slug: porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas
 title:

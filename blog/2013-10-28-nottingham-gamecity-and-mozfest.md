@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-10-28 15:51:32+00:00
-layout: post
 link: https://blog.playcanvas.com/nottingham-gamecity-and-mozfest/
 slug: nottingham-gamecity-and-mozfest
 title: Nottingham GameCity and MozFest

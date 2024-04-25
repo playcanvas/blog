@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2013-12-18 01:10:47+00:00
-layout: post
 link: https://blog.playcanvas.com/ludum-dare-28-playcanvas-round-up/
 slug: ludum-dare-28-playcanvas-round-up
 title: "Ludum Dare 28: PlayCanvas Round-Up"

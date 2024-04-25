@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-08-04 10:57:24+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-versus-unity-webgl/
 slug: playcanvas-versus-unity-webgl
 title: PlayCanvas versus Unity WebGL

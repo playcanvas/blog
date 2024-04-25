@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2017-02-09 18:23:28+00:00
-layout: post
 link: https://blog.playcanvas.com/webvr-lab-launch/
 slug: webvr-lab-launch
 title: WebVR Lab launches with Chrome 56 for Daydream

@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2015-11-17 15:50:25+00:00
-layout: post
 link: https://blog.playcanvas.com/performance-matters-introducing-the-playcanvas-profiler/
 slug: performance-matters-introducing-the-playcanvas-profiler
 title: "Performance Matters: Introducing the PlayCanvas Profiler"

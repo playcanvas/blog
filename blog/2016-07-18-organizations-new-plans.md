@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-07-18 15:24:33+00:00
-layout: post
 link: https://blog.playcanvas.com/organizations-new-plans/
 slug: organizations-new-plans
 title: Organizations & new plans

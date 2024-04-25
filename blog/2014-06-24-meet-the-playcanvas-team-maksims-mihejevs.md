@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-06-24 10:11:46+00:00
-layout: post
 link: https://blog.playcanvas.com/meet-the-playcanvas-team-maksims-mihejevs/
 slug: meet-the-playcanvas-team-maksims-mihejevs
 title: "Meet the PlayCanvas team: Maksims Mihejevs"

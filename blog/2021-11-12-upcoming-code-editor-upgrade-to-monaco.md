@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2021-11-12 15:39:09+00:00
-layout: post
 link: https://blog.playcanvas.com/upcoming-code-editor-upgrade-to-monaco/
 slug: upcoming-code-editor-upgrade-to-monaco
 title: Upcoming Code Editor upgrade to Monaco!

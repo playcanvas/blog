@@ -12,26 +12,31 @@ dave:
   name: Dave Evans
   title: CTO
   url: https://twitter.com/daredevildave
+  image_url: https://pbs.twimg.com/profile_images/1271233580430053376/-OHHBJ2Z_400x400.jpg
 
 donovan:
   name: Donovan Hutchence
   title: Staff Software Engineer
   url: https://twitter.com/slimbuck7
+  image_url: https://pbs.twimg.com/profile_images/1727369755231727616/ukKVbC9b_400x400.png
 
 elliott:
   name: Elliott Thompson
   title: Software Engineer
   url: https://twitter.com/elliott_thomps
+  image_url: https://pbs.twimg.com/profile_images/1408030180497633290/42LxVCtq_400x400.jpg
 
 mark:
   name: Mark Lundin
   title: Software Engineer
   url: https://twitter.com/mark_lundin
+  image_url: https://pbs.twimg.com/profile_images/1281491980707598336/wW0BoD7T_400x400.jpg
 
 martin:
   name: Martin Valigursky
   title: Software Engineer
   url: https://twitter.com/ValigurskyM
+  image_url: https://pbs.twimg.com/profile_images/1262848991982690305/gUUoHdk1_400x400.jpg
 
 nathan:
   name: Nathan
@@ -45,19 +50,22 @@ ray:
   name: Ray Tran
   title: Software Engineer
   url: https://twitter.com/RayT_uk
+  image_url: https://pbs.twimg.com/profile_images/1421494702604525568/O9NWIXzz_400x400.jpg
 
 steven:
   name: Steven Yau
   title: Partner Relations Manager
   url: https://twitter.com/yaustar
+  image_url: https://pbs.twimg.com/profile_images/1675831859756908545/E60-0cNq_400x400.jpg
 
 vaios:
   name: Vaios Kalpias Ilias
   title: Software Engineer
   url: https://twitter.com/vkalpias
+  image_url: https://pbs.twimg.com/profile_images/1120940023774203904/My-VEG_D_400x400.jpg
 
 will:
   name: Will Eastcott
   title: CEO
   url: https://twitter.com/willeastcott
-  image_url: https://avatars.githubusercontent.com/u/697563?v=4
+  image_url: https://pbs.twimg.com/profile_images/2635146631/edcd8b6dc4a34625770095941519ca8a_400x400.png

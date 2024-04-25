@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2021-11-11 13:28:54+00:00
-layout: post
 link: https://blog.playcanvas.com/editor-api-beta-release/
 slug: editor-api-beta-release
 title: Editor API Beta Release

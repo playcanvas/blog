@@ -2,7 +2,6 @@
 authors: steven
 comments: false
 date: 2023-02-01 14:40:12+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-now-supports-microsoft-volumetric-video-playback/
 slug: playcanvas-now-supports-microsoft-volumetric-video-playback
 title: PlayCanvas now supports Microsoft volumetric video playback

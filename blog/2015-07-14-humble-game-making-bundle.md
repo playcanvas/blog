@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-07-14 19:58:44+00:00
-layout: post
 link: https://blog.playcanvas.com/humble-game-making-bundle/
 slug: humble-game-making-bundle
 title: Humble Game Making Bundle

@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-11-04 12:26:33+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-november-adding-tank-controls/
 slug: playhack-november-adding-tank-controls
 title: PLAYHACK November - Adding Tank Controls

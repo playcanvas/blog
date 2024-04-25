@@ -2,7 +2,6 @@
 authors: donovan
 comments: false
 date: 2023-12-05 12:00:00+00:00
-layout: post
 link: https://blog.playcanvas.com/compressing-gaussian-splats/
 slug: compressing-gaussian-splats
 title: "Compressing Gaussian Splats"

@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-04-15 11:28:06+00:00
-layout: post
 link: https://blog.playcanvas.com/game-development-trends-talk/
 slug: game-development-trends-talk
 title: Game Development Trends Talk

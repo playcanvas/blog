@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2014-05-06 00:22:40+00:00
-layout: post
 link: https://blog.playcanvas.com/how-to-make-a-video-game-in-48-hours/
 slug: how-to-make-a-video-game-in-48-hours
 title: How to Make a Video Game in 48 Hours

@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-11-06 17:34:35+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-november-turrets-and-shooting-bullets/
 slug: playhack-november-turrets-and-shooting-bullets
 title: PLAYHACK November - Turrets and shooting bullets

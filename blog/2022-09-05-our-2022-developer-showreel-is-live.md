@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2022-09-05 13:54:19+00:00
-layout: post
 link: https://blog.playcanvas.com/our-2022-developer-showreel-is-live/
 slug: our-2022-developer-showreel-is-live
 title: Our 2022 developer showreel is live!

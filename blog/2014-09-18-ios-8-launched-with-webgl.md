@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-09-18 11:07:37+00:00
-layout: post
 link: https://blog.playcanvas.com/ios-8-launched-with-webgl/
 slug: ios-8-launched-with-webgl
 title: iOS 8 launched with WebGL

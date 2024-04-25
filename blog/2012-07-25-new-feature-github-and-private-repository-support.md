@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2012-07-25 16:21:03+00:00
-layout: post
 link: https://blog.playcanvas.com/new-feature-github-and-private-repository-support/
 slug: new-feature-github-and-private-repository-support
 title: "New Feature: GitHub and private repository support"

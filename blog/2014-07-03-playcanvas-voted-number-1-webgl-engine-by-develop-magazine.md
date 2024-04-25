@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-07-03 16:01:22+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-voted-number-1-webgl-engine-by-develop-magazine/
 slug: playcanvas-voted-number-1-webgl-engine-by-develop-magazine
 title: PlayCanvas Voted the Leading WebGL Engine

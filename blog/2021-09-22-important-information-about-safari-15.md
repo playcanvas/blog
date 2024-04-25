@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2021-09-22 10:59:54+00:00
-layout: post
 link: https://blog.playcanvas.com/important-information-about-safari-15/
 slug: important-information-about-safari-15
 title: Important Information about macOS Safari 15

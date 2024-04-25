@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-09-10 21:20:17+00:00
-layout: post
 link: https://blog.playcanvas.com/webgl-on-iphone-in-less-than-a-minute/
 slug: webgl-on-iphone-in-less-than-a-minute
 title: WebGL on iPhone in less than a minute

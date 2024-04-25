@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-02-09 16:50:44+00:00
-layout: post
 link: https://blog.playcanvas.com/new-publishing-features/
 slug: new-publishing-features
 title: New Publishing Features

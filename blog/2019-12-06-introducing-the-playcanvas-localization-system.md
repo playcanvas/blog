@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2019-12-06 01:06:18+00:00
-layout: post
 link: https://blog.playcanvas.com/introducing-the-playcanvas-localization-system/
 slug: introducing-the-playcanvas-localization-system
 title: Introducing the PlayCanvas Localization System

@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2021-02-11 12:42:50+00:00
-layout: post
 link: https://blog.playcanvas.com/webgl-case-study-rebuilding-the-star-lord-pbr-demo/
 slug: webgl-case-study-rebuilding-the-star-lord-pbr-demo
 title: "WebGL Case Study: Rebuilding the Star-Lord PBR Demo"

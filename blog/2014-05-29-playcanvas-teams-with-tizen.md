@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2014-05-29 21:48:51+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-teams-with-tizen/
 slug: playcanvas-teams-with-tizen
 title: PlayCanvas Teams with Tizen

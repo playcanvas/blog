@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-05-01 11:43:27+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-may-spaceships-and-win-a-google-cardboard/
 slug: playhack-may-spaceships-and-win-a-google-cardboard
 title: "PLAYHACK May: Spaceships and win a Google Cardboard"

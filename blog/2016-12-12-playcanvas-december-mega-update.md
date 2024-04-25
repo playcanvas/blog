@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-12-12 15:20:39+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-december-mega-update/
 slug: playcanvas-december-mega-update
 title: PlayCanvas December Mega Update

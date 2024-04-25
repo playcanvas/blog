@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-09-21 14:31:12+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-feature-update/
 slug: playcanvas-feature-update
 title: PlayCanvas Feature Update

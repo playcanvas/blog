@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2022-09-22 11:29:53+00:00
-layout: post
 link: https://blog.playcanvas.com/porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora/
 slug: porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora
 title: Porting from Unity to PlayCanvas - Developer Spotlight with Christina Kaliora

@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-10-25 18:41:10+00:00
-layout: post
 link: https://blog.playcanvas.com/webgl-texture-compression-made-easy/
 slug: webgl-texture-compression-made-easy
 title: WebGL Texture Compression Made Easy

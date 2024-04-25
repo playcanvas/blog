@@ -2,7 +2,6 @@
 authors: elliott
 comments: true
 date: 2021-09-02 11:57:54+00:00
-layout: post
 link: https://blog.playcanvas.com/a-graph-rendering-library-for-the-web-pcui-graph/
 slug: a-graph-rendering-library-for-the-web-pcui-graph
 title: "A Graph Rendering Library for the Web: PCUI Graph"

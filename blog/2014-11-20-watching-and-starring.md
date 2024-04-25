@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-11-20 14:21:25+00:00
-layout: post
 link: https://blog.playcanvas.com/watching-and-starring/
 slug: watching-and-starring
 title: Watching and Starring

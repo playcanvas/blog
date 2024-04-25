@@ -2,7 +2,6 @@
 authors: dave
 comments: false
 date: 2013-06-21 07:05:38+00:00
-layout: post
 link: https://blog.playcanvas.com/importing-in-the-cloud-the-new-asset-pipeline/
 slug: importing-in-the-cloud-the-new-asset-pipeline
 title: "Importing in the Cloud: New Asset Pipeline"

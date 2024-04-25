@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-12-05 11:19:05+00:00
-layout: post
 link: https://blog.playcanvas.com/feature-update-import-pipeline-improvements/
 slug: feature-update-import-pipeline-improvements
 title: "Feature Update: Import Pipeline Improvements"

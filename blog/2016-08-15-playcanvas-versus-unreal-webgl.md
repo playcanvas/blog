@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-08-15 11:21:27+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-versus-unreal-webgl/
 slug: playcanvas-versus-unreal-webgl
 title: PlayCanvas versus Unreal WebGL

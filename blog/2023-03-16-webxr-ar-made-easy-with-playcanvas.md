@@ -2,7 +2,6 @@
 authors: steven
 comments: false
 date: 2023-03-16 15:01:44+00:00
-layout: post
 link: https://blog.playcanvas.com/webxr-ar-made-easy-with-playcanvas/
 slug: webxr-ar-made-easy-with-playcanvas
 title: WebXR AR Made Easy with PlayCanvas

@@ -2,7 +2,6 @@
 authors: nathan
 comments: true
 date: 2014-12-22 16:19:53+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-december-collecting-presents/
 slug: playhack-december-collecting-presents
 title: PLAYHACK December - Collecting Presents

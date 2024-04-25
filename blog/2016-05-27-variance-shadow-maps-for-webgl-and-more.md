@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-05-27 17:04:08+00:00
-layout: post
 link: https://blog.playcanvas.com/variance-shadow-maps-for-webgl-and-more/
 slug: variance-shadow-maps-for-webgl-and-more
 title: Variance Shadow Maps for WebGL and More!

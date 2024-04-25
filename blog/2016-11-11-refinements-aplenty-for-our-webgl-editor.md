@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-11-11 19:23:32+00:00
-layout: post
 link: https://blog.playcanvas.com/refinements-aplenty-for-our-webgl-editor/
 slug: refinements-aplenty-for-our-webgl-editor
 title: Refinements aplenty for our WebGL Editor

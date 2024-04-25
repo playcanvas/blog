@@ -2,7 +2,6 @@
 authors: will
 comments: true
 date: 2016-03-29 14:48:56+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-editor-improvements-for-march/
 slug: playcanvas-editor-improvements-for-march
 title: PlayCanvas Editor Improvements for March

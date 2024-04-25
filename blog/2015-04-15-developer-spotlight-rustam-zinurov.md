@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2015-04-15 14:48:46+00:00
-layout: post
 link: https://blog.playcanvas.com/developer-spotlight-rustam-zinurov/
 slug: developer-spotlight-rustam-zinurov
 title: "Developer Spotlight: Rustam Zinurov"

@@ -2,7 +2,6 @@
 authors: steven
 comments: true
 date: 2020-10-20 13:20:40+00:00
-layout: post
 link: https://blog.playcanvas.com/faster-load-times-with-gltfs-glb-format/
 slug: faster-load-times-with-gltfs-glb-format
 title: Faster Load Times with glTF's GLB Format!

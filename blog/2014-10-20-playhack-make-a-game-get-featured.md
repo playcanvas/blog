@@ -2,7 +2,6 @@
 authors: christy
 comments: true
 date: 2014-10-20 16:18:25+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-make-a-game-get-featured/
 slug: playhack-make-a-game-get-featured
 title: PLAYHACK - Make a game, get featured

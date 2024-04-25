@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-01-29 17:33:07+00:00
-layout: post
 link: https://blog.playcanvas.com/playhack-with-playjam-starts-on-monday/
 slug: playhack-with-playjam-starts-on-monday
 title: PLAYHACK with PlayJam starts on Monday

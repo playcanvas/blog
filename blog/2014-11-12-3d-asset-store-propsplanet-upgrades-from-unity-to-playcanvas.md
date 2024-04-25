@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2014-11-12 11:29:45+00:00
-layout: post
 link: https://blog.playcanvas.com/3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas/
 slug: 3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas
 title: 3D Asset Store Propsplanet upgrades from Unity to PlayCanvas

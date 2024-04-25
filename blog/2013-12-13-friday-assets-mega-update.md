@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2013-12-13 17:01:47+00:00
-layout: post
 link: https://blog.playcanvas.com/friday-assets-mega-update/
 slug: friday-assets-mega-update
 title: Friday Assets Mega-update

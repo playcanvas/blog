@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-12-02 14:35:21+00:00
-layout: post
 link: https://blog.playcanvas.com/instant-games-and-playcanvas/
 slug: instant-games-and-playcanvas
 title: Instant Games and PlayCanvas

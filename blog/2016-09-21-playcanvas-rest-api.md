@@ -2,7 +2,6 @@
 authors: dave
 comments: true
 date: 2016-09-21 09:55:24+00:00
-layout: post
 link: https://blog.playcanvas.com/playcanvas-rest-api/
 slug: playcanvas-rest-api
 title: PlayCanvas REST API
