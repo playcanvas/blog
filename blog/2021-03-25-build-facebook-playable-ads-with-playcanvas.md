@@ -28,10 +28,10 @@ Playable ads are small, interactive previews of a game or app that give a taste 
 - Increase return on ad spend
 - Reduce cost per install
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/img/playable-ad-bitmoji-creator.gif" style="width: 32%;" alt="Bitmoji Creator" />
-    <img src="/img/playable-ad-cube-jump.gif" style="width: 32%;" alt="Cube Jump" />
-    <img src="/img/playable-ad-flappy-bird.gif" style="width: 32%;" alt="Flappy Bird" />
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <img src="/img/playable-ad-bitmoji-creator.gif" style={{ width: '32%' }} alt="Bitmoji Creator" />
+    <img src="/img/playable-ad-cube-jump.gif" style={{ width: '32%' }} alt="Cube Jump" />
+    <img src="/img/playable-ad-flappy-bird.gif" style={{ width: '32%' }} alt="Flappy Bird" />
 </div>
 
 Combine that with the [fully featured PlayCanvas game engine](https://playcanvas.com/features) which includes:
@@ -43,9 +43,9 @@ Combine that with the [fully featured PlayCanvas game engine](https://playcanvas
 
 And you have a very powerful combination to create fantastic and engaging experiences to reach your audience.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/img/editor-bmw.gif" style="width: 49%;" alt="BMW in Editor" />
-    <img src="/img/editor-robostorm.gif" style="width: 49%;" alt="Robostorm in Editor" />
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <img src="/img/editor-bmw.gif" style={{ width: '49%' }} alt="BMW in Editor" />
+    <img src="/img/editor-robostorm.gif" style={{ width: '49%' }} alt="Robostorm in Editor" />
 </div>
 
 ### Sounds great! How do I get started?

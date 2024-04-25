@@ -42,25 +42,25 @@ In these [Developer Spotlights](https://blog.playcanvas.com/category/developer-s
 
 These interviews provide valuable insights and inspiration for other PlayCanvas users and anyone interested in WebGL-based content creation.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <div style="width: 49%;">
-        <img src="/img/developer-spotlight-pirron-islands.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
-        <div style="text-align: center;"><a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/">Pirron One: Leonidas</a></div>
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <div style={{ width: '49%' }}>
+        <img src="/img/developer-spotlight-pirron-islands.jpg" alt="Pirron One" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+        <div style={{ textAlign: 'center' }}><a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas/">Pirron One: Leonidas</a></div>
     </div>
-    <div style="width: 49%;">
-        <img src="/img/developer-spotlight-animech-fjallraven.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
-        <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Animech</a></div>
+    <div style={{ width: '49%' }}>
+        <img src="/img/developer-spotlight-animech-fjallraven.jpg" alt="Animech" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+        <div style={{ textAlign: 'center' }}><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Animech</a></div>
     </div>
 </div>
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <div style="width: 49%;">
-        <img src="/img/v777-nissan-ar.jpg" alt="Pirron One" style="width: 100%; height: 300px; object-fit: cover;" />
-        <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/">Visionaries777</a></div>
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <div style={{ width: '49%' }}>
+        <img src="/img/v777-nissan-ar.jpg" alt="Pirron One" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+        <div style={{ textAlign: 'center' }}><a href="https://blog.playcanvas.com/webar-experiences-and-playcanvas-developer-spotlight-with-frantz-from-visionaries777/">Visionaries777</a></div>
     </div>
-    <div style="width: 49%;">
-        <img src="/img/developer-spotlight-christina-home.jpg" alt="Animech" style="width: 100%; height: 300px; object-fit: cover;" />
-        <div style="text-align: center;"><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Pirron One: Christina</a></div>
+    <div style={{ width: '49%' }}>
+        <img src="/img/developer-spotlight-christina-home.jpg" alt="Animech" style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+        <div style={{ textAlign: 'center' }}><a href="https://blog.playcanvas.com/webar-experiences-developer-spotlight-with-animech/">Pirron One: Christina</a></div>
     </div>
 </div>
 
@@ -70,14 +70,14 @@ This year, we've been laser-focused on adding [WebGPU support](https://github.co
 
 With Google Chrome set to enable WebGPU by default in 2023, we're excited to be at the forefront of the future of interactive 3D content on the web, and we can't wait to see what WebGPU will allow developers to create.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <div style="width: 49%;">
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <div style={{ width: '49%' }}>
         <img src="/img/webgpu-grabpass.gif" alt="WebGPU Grabpass" />
-        <div style="text-align: center;">WebGPU Grabpass</div>
+        <div style={{ textAlign: 'center' }}>WebGPU Grabpass</div>
     </div>
-    <div style="width: 49%;">
+    <div style={{ width: '49%' }}>
         <img src="/img/webgpu-clustered-lighting.gif" alt="WebGPU Clustered Lighting" />
-        <div style="text-align: center;">WebGPU Clustered Lighting</div>
+        <div style={{ textAlign: 'center' }}>WebGPU Clustered Lighting</div>
     </div>
 </div>
 
@@ -87,14 +87,14 @@ In addition to WebGPU support, we've also added support for all ratified glTF 2.
 
 But we didn't stop there! We also released Editor support for Clustered Lighting and Area Lights, which allow developers to easily incorporate hundreds of dynamic lights into their projects. And as it turns out, our users have already been using these new features to add extra flair and fidelity to their projects.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <div style="width: 49%;">
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <div style={{ width: '49%' }}>
         <img src="/img/space-rocks-clustered-lighting.gif" alt="Space Rocks" />
-        <div style="text-align: center;">Space Rocks</div>
+        <div style={{ textAlign: 'center' }}>Space Rocks</div>
     </div>
-    <div style="width: 49%;">
+    <div style={{ width: '49%' }}>
         <img src="/img/pirron-pool.gif" alt="Pool Demo" />
-        <div style="text-align: center;">Pirron Pool</div>
+        <div style={{ textAlign: 'center' }}>Pirron Pool</div>
     </div>
 </div>
 
@@ -104,9 +104,9 @@ But we didn't stop there! We also released Editor support for Clustered Lighting
 
 The most notable new feature is AR support with WebXR (Android) and USDZ export (iOS). This allows users to view glTF models in AR directly from the browser.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/img/gltf-viewer-mobile-ar-ios.gif" style="width: 49%;" alt="glTF Viewer AR on iOS" />
-    <img src="/img/gltf-viewer-mobile-ar-android.gif" style="width: 49%;" alt="glTF Viewer AR on Android" />
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <img src="/img/gltf-viewer-mobile-ar-ios.gif" style={{ width: '49%' }} alt="glTF Viewer AR on iOS" />
+    <img src="/img/gltf-viewer-mobile-ar-android.gif" style={{ width: '49%' }} alt="glTF Viewer AR on Android" />
 </div>
 
 We've also made the UI more streamlined and mobile-friendly, grouping related functionality together for easier use. Rendering has been improved with the 'High Quality Rendering' option, which enables supersampling to smooth out jagged edges along polygons and high resolution reflections for more realistic rendering.

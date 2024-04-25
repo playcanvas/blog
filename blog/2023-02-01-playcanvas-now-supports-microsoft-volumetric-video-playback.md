@@ -127,9 +127,9 @@ The skybox was obtained from [Poly Haven](https://polyhaven.com/a/orlando_stadiu
 
 It's a nice and easy effect that can be applied in similar scenes without having to build a model or geometry. See the scene without the effect applied (left) and with it (right):
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/img/normal-skybox.gif" style="width: 48%; margin-right: 2%;" alt="Infinite Skybox" />
-    <img src="/img/projected-skybox.gif" style="width: 48%;" alt="Ground Projected Skybox" />
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <img src="/img/normal-skybox.gif" style={{ width: '48%', marginRight: '2%' }} alt="Infinite Skybox" />
+    <img src="/img/projected-skybox.gif" style={{ width: '48%' }} alt="Ground Projected Skybox" />
 </div>
 
 The shader code is applied by overriding the global engine chunk in [projected-skybox-patch.js](https://playcanvas.com/editor/code/988340?tabs=104640973) on application startup.
@@ -160,9 +160,9 @@ As the 'floor' is just a projected skybox, a solution was needed to render the s
 
 To make this a bit easier to see, I've shown where the plane would be positioned below. Anywhere where it's white on the floor plane would be fully transparent as there is no shadow being cast there.
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 15px">
-    <img src="/img/shadow-catcher-1.jpg" style="width: 48%; margin-right: 2%;" alt="Shadow Receiver Quad" />
-    <img src="/img/shadow-catcher-2.jpg" style="width: 48%;" alt="Final Shadow Effect" />
+<div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '15px' }}>
+    <img src="/img/shadow-catcher-1.jpg" style={{ width: '48%', marginRight: '2%' }} alt="Shadow Receiver Quad" />
+    <img src="/img/shadow-catcher-2.jpg" style={{ width: '48%' }} alt="Final Shadow Effect" />
 </div>
 
 ### Other tutorials used
