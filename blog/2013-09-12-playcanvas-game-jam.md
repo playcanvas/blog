@@ -1,6 +1,5 @@
 ---
 authors: dave
-comments: false
 date: 2013-09-12 13:53:16+00:00
 link: https://blog.playcanvas.com/playcanvas-game-jam/
 slug: playcanvas-game-jam

@@ -1,6 +1,5 @@
 ---
 authors: dave
-comments: false
 date: 2013-08-21 09:39:31+00:00
 link: https://blog.playcanvas.com/making-an-html5-game-pong/
 slug: making-an-html5-game-pong

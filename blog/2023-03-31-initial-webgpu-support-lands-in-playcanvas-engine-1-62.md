@@ -1,6 +1,5 @@
 ---
 authors: martin
-comments: false
 date: 2023-03-31 13:35:57+00:00
 link: https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62/
 slug: initial-webgpu-support-lands-in-playcanvas-engine-1-62

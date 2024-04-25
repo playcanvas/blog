@@ -1,6 +1,5 @@
 ---
 authors: steven
-comments: false
 date: 2022-07-06 11:17:18+00:00
 link: https://blog.playcanvas.com/improvements-and-changes-to-shader-chunks-playcanvas-bytes/
 slug: improvements-and-changes-to-shader-chunks-playcanvas-bytes

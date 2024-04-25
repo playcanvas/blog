@@ -1,6 +1,5 @@
 ---
 authors: will
-comments: false
 date: 2013-10-04 17:45:38+00:00
 link: https://blog.playcanvas.com/leap-motion-playcanvas-physics-playground/
 slug: leap-motion-playcanvas-physics-playground

@@ -1,6 +1,5 @@
 ---
 authors: will
-comments: false
 date: 2012-07-03 21:42:20+00:00
 link: https://blog.playcanvas.com/playcanvas-google-io/
 slug: playcanvas-google-io

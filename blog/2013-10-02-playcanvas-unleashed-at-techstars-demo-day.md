@@ -1,6 +1,5 @@
 ---
 authors: will
-comments: false
 date: 2013-10-02 10:15:23+00:00
 link: https://blog.playcanvas.com/playcanvas-unleashed-at-techstars-demo-day/
 slug: playcanvas-unleashed-at-techstars-demo-day

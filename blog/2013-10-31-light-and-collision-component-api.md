@@ -1,6 +1,5 @@
 ---
 authors: dave
-comments: false
 date: 2013-10-31 17:47:54+00:00
 link: https://blog.playcanvas.com/light-and-collision-component-api/
 slug: light-and-collision-component-api

@@ -1,6 +1,5 @@
 ---
 authors: will
-comments: false
 date: 2024-04-15 11:00:00+00:00
 link: https://blog.playcanvas.com/using-visual-studio-code-with-playcanvas/
 slug: using-visual-studio-code-with-playcanvas

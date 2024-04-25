@@ -1,6 +1,5 @@
 ---
 authors: dave
-comments: false
 date: 2012-12-21 18:40:14+00:00
 link: https://blog.playcanvas.com/playcanvas-features-in-the-top-10-html5-games-of-2012/
 slug: playcanvas-features-in-the-top-10-html5-games-of-2012

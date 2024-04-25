@@ -1,6 +1,5 @@
 ---
 authors: steven
-comments: false
 date: 2023-01-04 15:00:49+00:00
 link: https://blog.playcanvas.com/playcanvas-review-of-2022/
 slug: playcanvas-review-of-2022

@@ -1,6 +1,5 @@
 ---
 authors: dave
-comments: false
 date: 2013-09-05 17:22:28+00:00
 link: https://blog.playcanvas.com/starter-kits/
 slug: starter-kits

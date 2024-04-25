@@ -1,6 +1,5 @@
 ---
 authors: steven
-comments: false
 date: 2022-06-20 14:24:54+00:00
 link: https://blog.playcanvas.com/upcoming-ui-changes-to-dashboard-and-editor-playcanvas-bytes/
 slug: upcoming-ui-changes-to-dashboard-and-editor-playcanvas-bytes

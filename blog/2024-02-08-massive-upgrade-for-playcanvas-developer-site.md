@@ -1,6 +1,5 @@
 ---
 authors: will
-comments: false
 date: 2024-02-08 11:00:00+00:00
 link: https://blog.playcanvas.com/massive-upgrade-for-the-playcanvas-developer-site/
 slug: massive-upgrade-for-the-playcanvas-developer-site
