@@ -45,7 +45,7 @@ We can’t wait to see what other developers can create with this system!
 **Multiple characters** - Because anim state graphs are stored as assets, a single graph can be used to drive the animation of as many entities as you want by assigning your graph asset to multiple entity anim components.
 
 ![](/img/anim-state-graph-shared.gif)
-<br>_Multiple characters utilizing the same anim state graph_
+<br />_Multiple characters utilizing the same anim state graph_
 
 While these two characters use different animations for their various actions, they share the same behavior. With the anim state graph you can update this behavior in one place while still using it with as many characters as you like.
 
@@ -74,7 +74,7 @@ Layer Masking - You’ll be able mask your character animations on a particular 
 Blend Trees - Directly control the blend between multiple animations in real time.
 
 ![](/img/anim-blend-trees.gif)
-<br>_Blending three animations using a 2D cartesian blend tree_
+<br />_Blending three animations using a 2D cartesian blend tree_
 
 Animation Clips - Currently the anim state graph supports animation assets that have been imported into PlayCanvas. Clips will allow you to create extra animation assets within the PlayCanvas editor yourself! These will be great for quickly adding smaller animated flourishes to your game objects.
 

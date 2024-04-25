@@ -31,7 +31,7 @@ Usually leaving users craning necks and grabbing thin air in disbelief, the Ocul
 **The Oculus Rift and PlayCanvas**
 
 [![Dave in VR](/img/dave-vr.jpg)](/img/dave-vr.jpg)
-<br>_Oculus Rift support coming soon to PlayCanvas_
+<br />_Oculus Rift support coming soon to PlayCanvas_
 
 Imagine a future where you open your Internet browser, select a VR ready online game, enable your Oculus headset and transport yourself into the game immediately. Mind blowing? Potentially yes. This is why we here at PlayCanvas are committed to intertwining the paths of both WebGL and HTML5 technologies with the capabilities of the Oculus Rift. It's crazy to think that VR games could be played and developed by simply opening your favorite web browser.
 

@@ -13,7 +13,7 @@ categories:
 There has been plenty going on at HQ since our last update and it is all making game development on our engine that little bit easier. Here’s a run down of engine optimizations, new features and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.
 
 [![Spacetifacts](/img/Spacetifacts.jpg)](/img/Spacetifacts.jpg)
-<br>_Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam_
+<br />_Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam_
 
 ### Asset Lists
 

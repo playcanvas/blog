@@ -18,7 +18,7 @@ Drag and Drop, uploading and thumbnails, no longer a pain in the asset.
 This week has been the week of the Asset at PlayCanvas. We taken a long hard look at how we add and use Assets and we've buffed and polished the process, taking off the ragged edges so that your workflow is now super smooth. Plus our big new feature, the PlayCanvas Asset Library. Find out more below
 
 [![Use pre-made 3D models in your game](/img/asset_library.jpg)](/img/asset_library.jpg)
-<br>_Use pre-made 3D models in your game_
+<br />_Use pre-made 3D models in your game_
 
 ## Uploading to the Designer
 
@@ -35,7 +35,7 @@ You can now drag Assets from the Asset Explorer and drop them into many differen
 ## Texture Thumbnails
 
 [![Texture assets now have thumbnails](/img/asset_explorer.jpg)](/img/asset_explorer.jpg)
-<br>_Texture assets now have thumbnails_
+<br />_Texture assets now have thumbnails_
 
 We've started working on thumbnails for all Assets, but as a quick starter, textures now display with the proper thumbnail. No more guessing which one is the normal map when you're setting up your materials. Thumbnails for more Asset will be done soon.
 
