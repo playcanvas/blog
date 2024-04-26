@@ -27,7 +27,7 @@ Once a model has been loaded into the viewer on mobile, you’ll be given the op
 </div>
 _Quick Look mode on iOS (left) and WebXR mode on Android (right)_
 
-On iOS the model will be loaded with Apple’s AR Quick Look mode (above left), while on Android the model will be placed into your environment using WebXR (above right).
+On iOS, the model will be loaded with Apple’s AR Quick Look mode (above left), while on Android the model will be placed into your environment using WebXR (above right).
 
 ### Mobile-Optimized Design
 
@@ -37,9 +37,9 @@ On iOS the model will be loaded with Apple’s AR Quick Look mode (above left), 
     <img src="/img/gltf-viewer-mobile-hierarchy.png" style={{ width: '32%' }} alt="glTF Viewer Mobile Hierarchy" />
 </div>
 
-It’s now possible to verify the content and rendering of your assets no matter which device you’re working on. The viewer has been redesigned using mobile first principles, so you can explore glTF content just as well on mobile as you can on desktop. The UI scales up or down depending on the device screen size and takes an uncluttered approach to ensure you can focus on the glTF content itself even on very small screens.
+It’s now possible to verify the content and rendering of your assets no matter which device you’re working on. The viewer has been redesigned using mobile-first principles, so you can explore glTF content just as well on mobile as you can on desktop. The UI scales up or down depending on the device screen size and takes an uncluttered approach to ensure you can focus on the glTF content itself even on very small screens.
 
-### Quickly load models on mobile devices
+### Quickly Load Models on Mobile Devices
 
 When loading PlayCanvas viewer v3.0 on desktop, you’ll be presented with the option to load a glTF model from a URL.
 
@@ -49,7 +49,7 @@ When this is used, the application will generate a QR code you can scan to share
 
 ![Share with QR Code](/img/gltf-viewer-share.png)
 
-### New PlayCanvas theme
+### New PlayCanvas Theme
 
 The latest release of [PCUI (v2.7.0)](https://github.com/playcanvas/pcui/releases/tag/v2.7.0) enables the use of additional themes in applications built using it. This allowed us to apply a new color theme to the model-viewer:
 
