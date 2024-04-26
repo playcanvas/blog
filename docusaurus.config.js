@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Blog',
+        title: 'PlayCanvas Blog',
         logo: {
           alt: 'PlayCanvas Logo',
           src: 'img/playcanvas.png',
