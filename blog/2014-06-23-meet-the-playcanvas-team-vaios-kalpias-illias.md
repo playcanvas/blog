@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-23 10:02:14+00:00
 slug: meet-the-playcanvas-team-vaios-kalpias-illias
-title: "Meet the PlayCanvas team: Vaios Kalpias-Illias"
-categories:
-  - News
+title: 'Meet the PlayCanvas team: Vaios Kalpias-Illias'
 tags:
   - team
 ---

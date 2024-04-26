@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-12-22 17:33:39+00:00
 slug: playcanvas-in-2014-a-year-in-review
-title: "PlayCanvas in 2014: A Year In Review"
-categories:
-  - News
+title: 'PlayCanvas in 2014: A Year In Review'
 ---
 
 **In 2011, PlayCanvas started its journey as the world's first cloud-hosted game development platform, and over three years later we’re still giving you the next generation toolset to build, share and play video games.**

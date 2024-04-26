@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2023-01-04 15:00:49+00:00
 slug: playcanvas-review-of-2022
 title: PlayCanvas Review of 2022
-categories:
-  - News
 tags:
   - webgl
 ---

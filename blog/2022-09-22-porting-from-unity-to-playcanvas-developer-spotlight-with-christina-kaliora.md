@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2022-09-22 11:29:53+00:00
 slug: porting-from-unity-to-playcanvas-developer-spotlight-with-christina-kaliora
 title: Porting from Unity to PlayCanvas - Developer Spotlight with Christina Kaliora
-categories:
-  - Developer Spotlight
 tags:
   - unity
   - spotlight

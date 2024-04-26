@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2014-05-06 00:22:40+00:00
 slug: how-to-make-a-video-game-in-48-hours
 title: How to Make a Video Game in 48 Hours
-categories:
-  - Announcement
-  - News
 tags:
   - ludum-dare
 ---

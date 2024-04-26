@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2023-06-07 14:27:00+00:00
 slug: moving-from-wordpress-to-jekyll-a-case-study
 title: Moving from WordPress to Jekyll - A Case Study
-categories:
-  - Announcement
-  - News
 tags:
   - jekyll
   - wordpress

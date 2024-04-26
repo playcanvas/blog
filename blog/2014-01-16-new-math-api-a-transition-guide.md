@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2014-01-16 00:53:57+00:00
 slug: new-math-api-a-transition-guide
-title: "New Math API: A Transition Guide"
-categories:
-  - Announcement
-  - News
+title: 'New Math API: A Transition Guide'
 tags:
   - engine
 ---

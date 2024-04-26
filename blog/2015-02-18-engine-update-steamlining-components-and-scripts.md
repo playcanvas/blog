@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-02-18 14:52:16+00:00
 slug: engine-update-streamlining-components-and-scripts
-title: "Engine Update: Streamlining Components and Scripts"
-categories:
-  - News
+title: 'Engine Update: Streamlining Components and Scripts'
 tags:
   - engine
 ---

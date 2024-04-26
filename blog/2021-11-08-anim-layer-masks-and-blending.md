@@ -1,10 +1,7 @@
 ---
 authors: elliott
-date: 2021-11-08 15:46:17+00:00
 slug: anim-layer-masks-and-blending
 title: Anim Layer Masks and Blending
-categories:
-  - News
 tags:
   - animation
   - editor

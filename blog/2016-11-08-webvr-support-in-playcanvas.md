@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-11-08 17:20:56+00:00
 slug: webvr-support-in-playcanvas
 title: WebVR support in PlayCanvas
-categories:
-  - Features
 tags:
   - webvr
   - vr

@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-04-01 09:33:08+00:00
 slug: playhack-with-playjam-winners
-title: "PLAYHACK with PlayJam: Winners"
-categories:
-  - PLAYHACK
+title: 'PLAYHACK with PlayJam: Winners'
 ---
 
 It's finally over. The games were completed a few weeks ago and 6 judges have toiled over the games and struggled to grade and rate them. But we have a decision and boy it was close...

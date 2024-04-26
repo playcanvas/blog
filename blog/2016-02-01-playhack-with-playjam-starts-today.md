@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-02-01 14:15:43+00:00
 slug: playhack-with-playjam-starts-today
 title: PLAYHACK with PlayJam starts today
-categories:
-  - News
 ---
 
 **Rockets! Robots! UFOs!** PLAYHACK with PlayJam starts now.

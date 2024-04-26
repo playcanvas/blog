@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-07-14 12:17:24+00:00
 slug: realtime-chat-lands-in-the-playcanvas-editor
 title: Realtime Chat Lands in the PlayCanvas Editor
-categories:
-  - News
 tags:
   - editor
 ---

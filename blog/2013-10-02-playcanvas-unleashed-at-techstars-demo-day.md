@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2013-10-02 10:15:23+00:00
 slug: playcanvas-unleashed-at-techstars-demo-day
 title: PlayCanvas Unleashed at Techstars Demo Day
-categories:
-  - Announcement
-  - News
 tags:
   - event
 ---

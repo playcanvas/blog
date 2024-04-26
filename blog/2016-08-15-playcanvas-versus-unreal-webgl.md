@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-08-15 11:21:27+00:00
 slug: playcanvas-versus-unreal-webgl
 title: PlayCanvas versus Unreal WebGL
-categories:
-  - News
 tags:
   - unreal
   - performance

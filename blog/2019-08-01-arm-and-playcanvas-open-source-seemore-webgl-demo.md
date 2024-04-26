@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2019-08-01 13:41:30+00:00
 slug: arm-and-playcanvas-open-source-seemore-webgl-demo
-title: "Arm and PlayCanvas Open Source Seemore WebGL Demo"
-categories:
-  - News
+title: Arm and PlayCanvas Open Source Seemore WebGL Demo
 tags:
   - demo
   - open-source

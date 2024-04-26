@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2013-12-18 01:10:47+00:00
 slug: ludum-dare-28-playcanvas-round-up
-title: "Ludum Dare 28: PlayCanvas Round-Up"
-categories:
-  - Announcement
-  - News
+title: 'Ludum Dare 28: PlayCanvas Round-Up'
 tags:
   - ludum-dare
 ---

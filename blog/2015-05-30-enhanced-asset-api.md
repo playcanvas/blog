@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2015-05-30 15:27:56+00:00
 slug: enhanced-asset-api
 title: Enhanced Asset API
-categories:
-  - Announcement
-  - Features
 tags:
   - engine
 ---

@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-05-27 17:04:08+00:00
 slug: variance-shadow-maps-for-webgl-and-more
 title: Variance Shadow Maps for WebGL and More!
-categories:
-  - News
 tags:
   - editor
   - engine

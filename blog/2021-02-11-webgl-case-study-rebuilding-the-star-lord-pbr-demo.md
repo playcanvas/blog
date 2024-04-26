@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2021-02-11 12:42:50+00:00
 slug: webgl-case-study-rebuilding-the-star-lord-pbr-demo
-title: "WebGL Case Study: Rebuilding the Star-Lord PBR Demo"
-categories:
-  - News
+title: 'WebGL Case Study: Rebuilding the Star-Lord PBR Demo'
 tags:
   - graphics
   - performance

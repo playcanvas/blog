@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2013-10-31 17:47:54+00:00
 slug: light-and-collision-component-api
 title: Light and Collision Component API
-categories:
-  - Announcement
 tags:
   - editor
 ---

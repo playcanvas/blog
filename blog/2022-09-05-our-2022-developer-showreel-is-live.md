@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2022-09-05 13:54:19+00:00
 slug: our-2022-developer-showreel-is-live
 title: Our 2022 developer showreel is live!
-categories:
-  - News
 ---
 
 Welcome to our 2022 showcase, showing some of the very best WebGL browser games and experiences made with PlayCanvas!

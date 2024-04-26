@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-04-14 12:40:30+00:00
 slug: runtime-lightmap-generation-for-webgl
 title: Runtime Lightmap Generation for WebGL
-categories:
-  - Features
 tags:
   - editor
   - graphics

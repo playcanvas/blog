@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-01-05 11:42:31+00:00
 slug: playcanvas-in-2015-webgl-goes-mainstream
 title: PlayCanvas in 2015 - WebGL Goes Mainstream
-categories:
-  - News
 ---
 
 And so we bid a fond farewell to 2015, our biggest year yet! In just 12 short months, we've taken the engine to new technical heights, published some incredible PlayCanvas-powered apps and helped some big-name companies make the jump from Flash to HTML5 and WebGL.

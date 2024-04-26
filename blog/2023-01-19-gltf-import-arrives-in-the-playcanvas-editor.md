@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2023-01-19 16:26:37+00:00
 slug: gltf-import-arrives-in-the-playcanvas-editor
 title: glTF 2.0 Import Arrives in the PlayCanvas Editor
-categories:
-  - News
 tags:
   - editor
   - gltf

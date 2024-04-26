@@ -1,12 +1,7 @@
 ---
 authors: steven
-date: 2022-07-06 11:17:18+00:00
 slug: improvements-and-changes-to-shader-chunks-playcanvas-bytes
 title: Improvements and changes to Shader Chunks - PlayCanvas Bytes
-categories:
-  - Features
-  - News
-  - PlayCanvas Bytes
 tags:
   - graphics
 ---

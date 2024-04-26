@@ -1,10 +1,7 @@
 ---
 authors: adam
-date: 2014-08-08 16:51:15+00:00
 slug: playcanvas-update-080814
 title: PlayCanvas Update 08/08/14
-categories:
-  - News
 ---
 
 This week, we're preparing to attend gamescom, GDC Europe and SIGGRAPH. Here's a quick reminder:

@@ -1,11 +1,7 @@
 ---
 authors: steven
-date: 2020-07-21 15:18:02+00:00
 slug: plan-updates-more-storage-more-features-same-price
-title: "Plan Updates: More Storage, More Features, Same Price"
-categories:
-  - Announcement
-  - News
+title: 'Plan Updates: More Storage, More Features, Same Price'
 tags:
   - plans
 ---

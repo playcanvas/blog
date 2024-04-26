@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2024-04-15 11:00:00+00:00
 slug: using-visual-studio-code-with-playcanvas
-title: "Using Visual Studio Code with PlayCanvas"
-categories:
-  - Announcement
-  - News
+title: Using Visual Studio Code with PlayCanvas
 tags:
   - javascript
   - open-source

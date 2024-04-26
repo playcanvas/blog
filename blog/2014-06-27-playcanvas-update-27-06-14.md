@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-27 15:48:09+00:00
 slug: playcanvas-update-27-06-14
 title: PlayCanvas Update 27/06/14
-categories:
-  - News
 ---
 
 No one ever called us inactive, we've had a busy week and we want to tell you all about it. Here’s a run down on improvements to the engine and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.

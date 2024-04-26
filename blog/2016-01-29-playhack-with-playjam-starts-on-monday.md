@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-01-29 17:33:07+00:00
 slug: playhack-with-playjam-starts-on-monday
 title: PLAYHACK with PlayJam starts on Monday
-categories:
-  - News
 ---
 
 ![PLAYHACK_clear](/img/PLAYHACK_clear.png)

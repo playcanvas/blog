@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2021-03-25 14:55:01+00:00
 slug: build-facebook-playable-ads-with-playcanvas
 title: Build Facebook Playable Ads with PlayCanvas!
-categories:
-  - News
 tags:
   - facebook
   - ads

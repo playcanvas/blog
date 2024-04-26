@@ -1,10 +1,7 @@
 ---
 authors: adam
-date: 2014-08-04 15:50:49+00:00
 slug: playcanvas-update-040814
 title: PlayCanvas Update 04/08/14
-categories:
-  - News
 ---
 
 This week, we've improved your Dashboard, Projects and Profile pages and now have a full introductory video series to make PlayCanvas more accessible than ever.

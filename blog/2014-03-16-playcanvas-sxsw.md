@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-03-16 00:45:28+00:00
 slug: playcanvas-sxsw
 title: PlayCanvas @ SXSW
-categories:
-  - News
 tags:
   - event
 ---

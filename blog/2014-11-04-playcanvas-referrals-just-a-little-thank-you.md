@@ -1,11 +1,8 @@
 ---
 authors: christy
-date: 2014-11-04 16:11:18+00:00
 published: false
 slug: playcanvas-referrals-just-a-little-thank-you
-title: "PlayCanvas Referrals: Just a little Thank You"
-categories:
-  - News
+title: 'PlayCanvas Referrals: Just a little Thank You'
 ---
 
 The **PlayCanvas** **Community** is growing all the time and we know that some of that growth is down to your hard work in **promoting** the engine.

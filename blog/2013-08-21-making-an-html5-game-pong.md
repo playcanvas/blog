@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-08-21 09:39:31+00:00
 slug: making-an-html5-game-pong
-title: "Making an HTML5 Game: Pong"
-categories:
-  - Announcement
-  - Tutorial
+title: 'Making an HTML5 Game: Pong'
 tags:
   - tutorial
 ---

@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-04-07 10:44:02+00:00
 slug: easy-cardboard-vr-in-webgl
 title: Easy Cardboard VR in WebGL
-categories:
-  - Features
 tags:
   - webvr
   - vr

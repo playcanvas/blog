@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-02-26 17:50:39+00:00
 slug: playhack-march-win-a-chromebook-2
 title: PLAYHACK March - Win a Chromebook 2
-categories:
-  - PLAYHACK
 ---
 
 This month we have an extra special PLAYHACK, our monthly game jam, to announce. We've teamed up with **ARM**, to bring you both a excellent new 3D Model to start your game with, but also an excellent prize.

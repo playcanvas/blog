@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-12-09 13:33:48+00:00
 slug: who-ludum-dares-wins
 title: Who Ludum Dares Wins!
-categories:
-  - Announcement
-  - News
 tags:
   - ludum-dare
 ---

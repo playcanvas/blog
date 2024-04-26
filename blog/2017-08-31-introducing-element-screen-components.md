@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2017-08-31 13:52:01+00:00
 slug: introducing-element-screen-components
 title: Introducing Element & Screen Components
-categories:
-  - Features
 tags:
   - editor
   - ui

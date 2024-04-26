@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-06-24 13:03:00+00:00
 slug: feature-update-real-time-asset-support
-title: "Feature update: Real-time asset support"
-categories:
-  - News
+title: 'Feature update: Real-time asset support'
 tags:
   - editor
 ---

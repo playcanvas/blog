@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2014-10-06 16:11:39+00:00
 slug: intel-gives-html5-some-love-at-the-buzz-workshop
 title: Intel gives HTML5 some love at the Buzz Workshop
-categories:
-  - News
 ---
 
 Last Thursday, Intel staged one heck of an awesome event in London: 'The Buzz Workshop: Be Mobile'. It was essentially a mini-conference that consisted of talks given by industry experts, a panel and even an indie game pitch event.

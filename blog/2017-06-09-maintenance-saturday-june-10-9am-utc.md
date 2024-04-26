@@ -1,11 +1,8 @@
 ---
 authors: dave
-date: 2017-06-09 17:00:46+00:00
 published: false
 slug: maintenance-saturday-june-10-9am-utc
 title: Maintenance Saturday June 10, 9am UTC
-categories:
-  - News
 tags:
   - maintenance
 ---

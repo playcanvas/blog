@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-02-09 16:50:44+00:00
 slug: new-publishing-features
 title: New Publishing Features
-categories:
-  - News
 tags:
   - publishing
 ---

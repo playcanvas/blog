@@ -1,11 +1,7 @@
 ---
 authors: donovan
-date: 2023-12-05 12:00:00+00:00
 slug: compressing-gaussian-splats
-title: "Compressing Gaussian Splats"
-categories:
-  - Announcement
-  - News
+title: Compressing Gaussian Splats
 tags:
   - gaussian-splats
   - compression

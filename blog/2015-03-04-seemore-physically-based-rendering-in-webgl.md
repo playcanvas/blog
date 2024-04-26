@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-03-04 07:06:06+00:00
 slug: seemore-physically-based-rendering-in-webgl
-title: "Seemore: Physically Based Rendering in WebGL"
-categories:
-  - News
+title: 'Seemore: Physically Based Rendering in WebGL'
 tags:
   - seemore
 ---

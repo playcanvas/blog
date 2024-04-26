@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2016-02-11 14:43:09+00:00
 slug: moving-playcanv-as-to-https
 title: Moving playcanv.as to HTTPS
-categories:
-  - Announcement
-  - Features
 tags:
   - publishing
 ---

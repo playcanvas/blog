@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2013-01-29 10:39:42+00:00
 slug: announcing-playcanvas-answers
 title: PlayCanvas Community Part 1 - Announcing PlayCanvas Answers
-categories:
-  - News
 ---
 
 [![PlayCanvas Answers logo](/img/answers_logo.png)](/img/answers_logo.png)

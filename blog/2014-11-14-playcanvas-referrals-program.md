@@ -1,11 +1,8 @@
 ---
 authors: dave
-date: 2014-11-14 16:36:52+00:00
 published: false
 slug: playcanvas-referrals-program
 title: PlayCanvas Referrals Program
-categories:
-  - News
 ---
 
 The PlayCanvas Community is growing all the time and we know that some of that growth is down to your hard work in promoting the engine.

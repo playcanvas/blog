@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-11-17 15:50:25+00:00
 slug: performance-matters-introducing-the-playcanvas-profiler
-title: "Performance Matters: Introducing the PlayCanvas Profiler"
-categories:
-  - News
+title: 'Performance Matters: Introducing the PlayCanvas Profiler'
 tags:
   - editor
   - performance

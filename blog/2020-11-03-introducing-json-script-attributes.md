@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2020-11-03 13:37:59+00:00
 slug: introducing-json-script-attributes
 title: Introducing JSON Script Attributes
-categories:
-  - News
 tags:
   - editor
   - scripting

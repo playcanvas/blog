@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-04-20 15:27:02+00:00
 slug: the-making-of-seemore-webgl
 title: The Making of Seemore WebGL
-categories:
-  - News
 tags:
   - seemore
 ---

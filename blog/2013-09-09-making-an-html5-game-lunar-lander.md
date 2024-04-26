@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-09-09 18:27:44+00:00
 slug: making-an-html5-game-lunar-lander
-title: "Making an HTML5 Game: Lunar Lander"
-categories:
-  - Announcement
-  - Tutorial
+title: 'Making an HTML5 Game: Lunar Lander'
 tags:
   - tutorial
 ---

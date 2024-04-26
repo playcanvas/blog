@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2021-09-21 13:45:12+00:00
 slug: playcanvas-showcase-2021
 title: PlayCanvas Showcase 2021
-categories:
-  - Announcement
 tags:
   - showcase
 ---

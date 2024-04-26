@@ -1,10 +1,7 @@
 ---
 authors: adam
-date: 2014-07-11 17:43:02+00:00
 slug: playcanvas-update-110714
 title: PlayCanvas Update 11/07/14
-categories:
-  - News
 ---
 
 **Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers!** What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know... anyway, the updates for this week:

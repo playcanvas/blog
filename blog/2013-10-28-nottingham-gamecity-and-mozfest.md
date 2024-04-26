@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2013-10-28 15:51:32+00:00
 slug: nottingham-gamecity-and-mozfest
 title: Nottingham GameCity and MozFest
-categories:
-  - News
 tags:
   - event
 ---

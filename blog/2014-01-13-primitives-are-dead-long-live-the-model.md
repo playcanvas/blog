@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-01-13 19:23:52+00:00
 slug: primitives-are-dead-long-live-the-model
 title: Primitives are Dead! Long Live the Model!
-categories:
-  - Announcement
-  - Features
 tags:
   - editor
 ---

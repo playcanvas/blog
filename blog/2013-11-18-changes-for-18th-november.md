@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-11-18 23:38:29+00:00
 slug: changes-for-18th-november
 title: Changes for 18th November
-categories:
-  - Announcement
-  - News
 ---
 
 A summary of the last few weeks changes.

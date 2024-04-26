@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2020-09-22 11:58:06+00:00
 slug: supercharge-your-workflow-with-template-assets
 title: Supercharge your workflow with Template Assets!
-categories:
-  - News
 tags:
   - editor
   - templates

@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2017-02-09 18:23:28+00:00
 slug: webvr-lab-launch
 title: WebVR Lab launches with Chrome 56 for Daydream
-categories:
-  - News
 tags:
   - vr
 ---

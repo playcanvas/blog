@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-11-03 18:09:09+00:00
 slug: better-asset-management
 title: Better Asset Management
-categories:
-  - News
 tags:
   - editor
 ---

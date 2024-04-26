@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2017-02-15 14:38:21+00:00
 slug: introducing-the-new-code-editor
 title: Introducing the new Code Editor
-categories:
-  - Features
 tags:
   - editor
   - scripting

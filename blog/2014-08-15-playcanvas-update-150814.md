@@ -1,10 +1,7 @@
 ---
 authors: adam
-date: 2014-08-15 17:03:05+00:00
 slug: playcanvas-update-150814
 title: PlayCanvas Update 15/08/14
-categories:
-  - News
 ---
 
 **This week, PlayCanvas travelled far and wide to attend the world's biggest games and graphics conferences.**

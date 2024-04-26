@@ -1,12 +1,7 @@
 ---
 authors: will
-date: 2015-08-26 10:24:47+00:00
 slug: development-update-tags-new-script-attributes
-title: "Development Update: Tags, New Script Attributes"
-categories:
-  - Announcement
-  - News
-  - Technology
+title: 'Development Update: Tags, New Script Attributes'
 tags:
   - editor
 ---

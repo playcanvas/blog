@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-10-24 13:53:00+00:00
 slug: miniclip-launches-their-first-playcanvas-game
 title: Miniclip Launches Their First PlayCanvas Game
-categories:
-  - News
 tags:
   - game
   - partnership

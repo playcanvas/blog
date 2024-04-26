@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2017-01-03 16:31:28+00:00
 slug: playcanvas-in-2016-webgl-everywhere
 title: PlayCanvas in 2016 - WebGL Everywhere
-categories:
-  - News
 ---
 
 Farewell, 2016! It seems that WebGL was everywhere last year, spreading across every corner of the web. And this added up to PlayCanvas’ best year yet!

@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-08-06 10:30:03+00:00
 slug: moving-to-playcanvas-com
 title: Moving to playcanvas.com
-categories:
-  - Announcement
-  - News
 ---
 
 We've moved! Long live [playcanvas.com](https://playcanvas.com)!

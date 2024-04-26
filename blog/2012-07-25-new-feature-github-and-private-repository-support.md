@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2012-07-25 16:21:03+00:00
 slug: new-feature-github-and-private-repository-support
-title: "New Feature: GitHub and private repository support"
-categories:
-  - Features
+title: 'New Feature: GitHub and private repository support'
 ---
 
 ![GitHub Octocat](https://github.com/github/media/raw/master/octocats/octocat.png)

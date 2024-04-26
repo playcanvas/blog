@@ -1,11 +1,7 @@
 ---
 authors: mark
-date: 2023-10-24 12:00:00+00:00
 slug: avif-webp-land-in-editor
-title: "Boost Your Efficiency: Editor gets Support for AVIF and WebP"
-categories:
-  - Announcement
-  - News
+title: 'Boost Your Efficiency: Editor gets Support for AVIF and WebP'
 tags:
   - editor
   - textures

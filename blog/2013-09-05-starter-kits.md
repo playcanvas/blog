@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-09-05 17:22:28+00:00
 slug: starter-kits
 title: Starter Kits
-categories:
-  - Announcement
-  - Features
 ---
 
 Get hacking on a game instantly with our Platformer and FPS starter kits.

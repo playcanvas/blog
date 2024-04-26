@@ -1,12 +1,7 @@
 ---
 authors: steven
-date: 2022-06-20 14:24:54+00:00
 slug: upcoming-ui-changes-to-dashboard-and-editor-playcanvas-bytes
 title: Upcoming UI changes to Dashboard and Editor - PlayCanvas Bytes
-categories:
-  - Features
-  - News
-  - PlayCanvas Bytes
 tags:
   - editor
 ---

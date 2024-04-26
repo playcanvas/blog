@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-20 17:11:25+00:00
 slug: playcanvas-update-200614
 title: PlayCanvas Update 20/06/14
-categories:
-  - Features
 ---
 
 **Now it really has been a busy week for us and we have so much to tell you about. Here's a run down on improvements to the engine and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.**

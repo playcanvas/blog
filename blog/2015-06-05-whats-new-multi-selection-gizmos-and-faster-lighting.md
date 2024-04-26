@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-06-05 19:19:30+00:00
 slug: whats-new-multi-selection-gizmos-and-faster-lighting
-title: "What's New: Multi-selection, Gizmos and Faster Lighting"
-categories:
-  - News
+title: 'What''s New: Multi-selection, Gizmos and Faster Lighting'
 tags:
   - editor
 ---

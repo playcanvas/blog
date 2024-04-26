@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-06-05 09:38:52+00:00
 slug: playhack-may-winner
 title: PLAYHACK May Winner
-categories:
-  - News
 ---
 
 [![Desert Moon Defender](/img/desert-defender-small.png)](https://playcanv.as/p/LxkNoQ1D)

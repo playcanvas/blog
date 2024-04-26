@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2021-11-11 13:28:54+00:00
 slug: editor-api-beta-release
 title: Editor API Beta Release
-categories:
-  - News
 tags:
   - editor
 ---

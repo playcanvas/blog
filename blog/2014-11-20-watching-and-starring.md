@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-11-20 14:21:25+00:00
 slug: watching-and-starring
 title: Watching and Starring
-categories:
-  - News
 ---
 
 Today we've added a new feature to help us bring the best projects and games from PlayCanvas to the fore.

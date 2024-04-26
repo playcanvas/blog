@@ -1,12 +1,7 @@
 ---
 authors: steven
-date: 2021-09-28 11:47:45+00:00
 slug: import-full-model-hierarchy-into-playcanvas
 title: Import Full Model Hierarchy into PlayCanvas
-categories:
-  - Announcement
-  - Features
-  - News
 tags:
   - editor
 ---

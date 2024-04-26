@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2013-05-31 11:29:00+00:00
 slug: playcanvas-community-part-2-announcing-playcanvas-discussion
 title: PlayCanvas Community Part 2 - Announcing PlayCanvas Discussion
-categories:
-  - News
 ---
 
 In [Part 1](https://blog.playcanvas.com/announcing-playcanvas-answers/) we introduced PlayCanvas Answers, our Q&A site for getting technical help from the PlayCanvas community.

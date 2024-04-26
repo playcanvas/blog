@@ -1,10 +1,7 @@
 ---
 authors: paulo
-date: 2022-10-27 13:56:25+00:00
 slug: webar-experiences-developer-spotlight-with-animech
 title: Web AR Experiences - Developer Spotlight with Animech
-categories:
-  - Developer Spotlight
 tags:
   - ar
   - webxr

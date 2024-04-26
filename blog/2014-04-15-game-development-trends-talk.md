@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-04-15 11:28:06+00:00
 slug: game-development-trends-talk
 title: Game Development Trends Talk
-categories:
-  - Announcement
-  - News
 tags:
   - event
 ---

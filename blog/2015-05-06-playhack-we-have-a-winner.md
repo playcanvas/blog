@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-05-06 13:01:38+00:00
 slug: playhack-we-have-a-winner
-title: "PLAYHACK: We have a winner!"
-categories:
-  - News
+title: 'PLAYHACK: We have a winner!'
 ---
 
 PLAYHACK April ended last week and we've spent the weekend rolling balls and dodging platforms.

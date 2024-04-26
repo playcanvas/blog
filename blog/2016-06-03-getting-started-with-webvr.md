@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-06-03 13:46:21+00:00
 slug: getting-started-with-webvr
 title: Getting started with WebVR
-categories:
-  - News
 tags:
   - webvr
   - vr

@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-11-04 12:26:33+00:00
 slug: playhack-november-adding-tank-controls
 title: PLAYHACK November - Adding Tank Controls
-categories:
-  - PLAYHACK
-  - Tutorial
 ---
 
 [![PLAYHACK_clear](/img/PLAYHACK_clear.png)](/img/PLAYHACK_clear.png)

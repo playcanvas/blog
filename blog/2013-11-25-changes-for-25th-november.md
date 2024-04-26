@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-11-25 19:43:46+00:00
 slug: changes-for-25th-november
 title: Changes for 25th November
-categories:
-  - Announcement
-  - News
 ---
 
 This weeks important changes:

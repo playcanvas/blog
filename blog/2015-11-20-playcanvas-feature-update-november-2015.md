@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-11-20 17:43:23+00:00
 slug: playcanvas-feature-update-november-2015
 title: PlayCanvas Feature Update - November 2015
-categories:
-  - News
 ---
 
 It's Friday, which means feature update time. Here's a list of the latest features we've released for you.

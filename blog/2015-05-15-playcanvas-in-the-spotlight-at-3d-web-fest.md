@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-05-15 13:43:16+00:00
 slug: playcanvas-in-the-spotlight-at-3d-web-fest
 title: PlayCanvas in the Spotlight at 3D Web Fest
-categories:
-  - News
 tags:
   - event
 ---

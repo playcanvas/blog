@@ -1,10 +1,7 @@
 ---
 authors: elliott
-date: 2021-05-05 14:30:04+00:00
 slug: introducing-the-anim-state-graph
 title: Introducing the Anim State Graph
-categories:
-  - News
 tags:
   - animation
   - editor

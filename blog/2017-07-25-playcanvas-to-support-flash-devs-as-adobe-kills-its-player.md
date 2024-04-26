@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2017-07-25 18:37:41+00:00
 slug: playcanvas-to-support-flash-devs-as-adobe-kills-its-player
 title: PlayCanvas to Support Flash Devs as Adobe Kills its Player
-categories:
-  - News
 tags:
   - flash
 ---

@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-06-04 10:34:54+00:00
 slug: ios-webgl-support
 title: iOS WebGL Support
-categories:
-  - News
 tags:
   - apple
   - webgl

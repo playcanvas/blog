@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2012-08-08 11:40:31+00:00
 slug: a-multiplayer-3rd-person-shooter-in-html5
 title: Making a multiplayer 3rd-person shooter in HTML5
-categories:
-  - News
 tags:
   - game
   - networking

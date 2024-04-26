@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2024-02-08 11:00:00+00:00
 slug: massive-upgrade-for-the-playcanvas-developer-site
-title: "Massive Upgrade for the PlayCanvas Developer Site"
-categories:
-  - Announcement
-  - News
+title: Massive Upgrade for the PlayCanvas Developer Site
 tags:
   - documentation
   - tutorial

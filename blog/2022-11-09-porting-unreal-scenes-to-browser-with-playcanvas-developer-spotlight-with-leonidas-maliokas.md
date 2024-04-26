@@ -1,13 +1,10 @@
 ---
 authors: steven
-date: 2022-11-09 16:15:20+00:00
-slug: porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas
-title:
+slug: >-
+  porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas
+title: >-
   Porting Unreal Scenes to the Browser with PlayCanvas - Developer Spotlight
   with Leonidas Maliokas
-categories:
-  - Developer Spotlight
-  - Features
 tags:
   - unreal
   - spotlight

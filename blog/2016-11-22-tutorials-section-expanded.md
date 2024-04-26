@@ -1,11 +1,7 @@
 ---
 authors: steven
-date: 2016-11-22 12:04:49+00:00
 slug: tutorials-section-expanded
 title: Tutorials section expanded!
-categories:
-  - News
-  - Tutorial
 tags:
   - tutorial
 ---

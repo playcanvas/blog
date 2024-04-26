@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-07-21 12:07:55+00:00
 slug: swooop-ladycade
 title: SWOOOP @ LadyCADE
-categories:
-  - News
 tags:
   - event
   - swooop

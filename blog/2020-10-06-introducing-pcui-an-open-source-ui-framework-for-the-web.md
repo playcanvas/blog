@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2020-10-06 11:41:15+00:00
 slug: introducing-pcui-an-open-source-ui-framework-for-the-web
-title: "Introducing PCUI - An Open Source UI Framework for the Web"
-categories:
-  - News
+title: Introducing PCUI - An Open Source UI Framework for the Web
 tags:
   - open-source
   - pcui

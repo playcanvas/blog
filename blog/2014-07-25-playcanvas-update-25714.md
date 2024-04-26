@@ -1,10 +1,7 @@
 ---
 authors: adam
-date: 2014-07-25 17:37:19+00:00
 slug: playcanvas-update-25714
 title: PlayCanvas Update 25/7/14
-categories:
-  - News
 ---
 
 **Welcome back PlayCanvas fans,  we have a few new developments, so here are the updates for this week:**

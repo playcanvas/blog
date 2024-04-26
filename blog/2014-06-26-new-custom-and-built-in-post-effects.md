@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-26 16:37:47+00:00
 slug: new-custom-and-built-in-post-effects
 title: New Custom and Built-in Post Effects
-categories:
-  - News
 ---
 
 **We want your projects to look as good as you imagine them and today we are pleased to announce brand new tools to manipulate your entities. We have recently released a way for you to add Post Processing Effects to your applications and it has never been easier.**

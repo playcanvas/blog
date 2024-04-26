@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-04-15 14:48:46+00:00
 slug: developer-spotlight-rustam-zinurov
-title: "Developer Spotlight: Rustam Zinurov"
-categories:
-  - News
+title: 'Developer Spotlight: Rustam Zinurov'
 tags:
   - spotlight
 ---

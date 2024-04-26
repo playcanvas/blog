@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2020-10-20 13:20:40+00:00
 slug: faster-load-times-with-gltfs-glb-format
 title: Faster Load Times with glTF's GLB Format!
-categories:
-  - News
 tags:
   - editor
   - gltf

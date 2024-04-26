@@ -1,11 +1,7 @@
 ---
 authors: christy
-date: 2014-06-19 10:40:55+00:00
 slug: virtual-reality-and-the-future-of-web-based-gaming
 title: Virtual Reality and the future of Web Based Gaming
-categories:
-  - News
-  - Technology
 tags:
   - oculus
   - vr

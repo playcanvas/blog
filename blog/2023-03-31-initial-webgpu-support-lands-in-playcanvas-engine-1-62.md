@@ -1,10 +1,7 @@
 ---
 authors: martin
-date: 2023-03-31 13:35:57+00:00
 slug: initial-webgpu-support-lands-in-playcanvas-engine-1-62
 title: Initial WebGPU support lands in PlayCanvas Engine 1.62!
-categories:
-  - News
 tags:
   - webgpu
 ---

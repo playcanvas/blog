@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-10-25 18:41:10+00:00
 slug: webgl-texture-compression-made-easy
 title: WebGL Texture Compression Made Easy
-categories:
-  - News
 tags:
   - compression
   - editor

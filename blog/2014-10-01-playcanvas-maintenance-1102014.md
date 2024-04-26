@@ -1,11 +1,8 @@
 ---
 authors: dave
-date: 2014-10-01 13:05:46+00:00
 published: false
 slug: playcanvas-maintenance-1102014
 title: PlayCanvas Maintenance 1/10/2014
-categories:
-  - Announcement
 tags:
   - maintenance
 ---

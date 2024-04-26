@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-05-01 11:43:27+00:00
 slug: playhack-may-spaceships-and-win-a-google-cardboard
-title: "PLAYHACK May: Spaceships and win a Google Cardboard"
-categories:
-  - News
+title: 'PLAYHACK May: Spaceships and win a Google Cardboard'
 ---
 
 [![ships_small](/img/ships_small.jpg)](/img/ships_small.jpg)

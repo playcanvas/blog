@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-06-04 14:43:06+00:00
 slug: playcanvas-goes-open-source
 title: PlayCanvas goes open source
-categories:
-  - Announcement
-  - News
 tags:
   - engine
   - open-source

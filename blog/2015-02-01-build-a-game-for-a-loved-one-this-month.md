@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2015-02-01 03:14:45+00:00
 slug: build-a-game-for-a-loved-one-this-month
 title: Build a game for a loved one this month.
-categories:
-  - Announcement
-  - PLAYHACK
 ---
 
 Our most popular PLAYHACK ever finishes today. Last month's gem challenge sparked your creativity and led to over 30 forks of the project.

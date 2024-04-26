@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-08-14 15:41:09+00:00
 slug: development-update-major-improvements-ahoy
-title: "Development Update: Major Improvements Ahoy!"
-categories:
-  - News
+title: 'Development Update: Major Improvements Ahoy!'
 tags:
   - editor
 ---

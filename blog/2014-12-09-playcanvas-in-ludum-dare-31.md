@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-12-09 16:11:53+00:00
 slug: playcanvas-in-ludum-dare-31
 title: PLAYCANVAS in LUDUM DARE 31
-categories:
-  - News
 ---
 
 **Ludum Dare 31 has come and gone, but many great projects featured PlayCanvas over the course of the weekend. Here's your round up for our involvement in one of the most popular Game Jams in the world.**

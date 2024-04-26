@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2021-07-05 09:19:56+00:00
 slug: transitioning-to-the-new-render-component-and-fill-mode-api
 title: Transitioning to the New Render Component and Fill Mode API
-categories:
-  - News
 tags:
   - editor
   - engine

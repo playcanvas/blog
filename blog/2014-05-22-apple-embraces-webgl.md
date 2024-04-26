@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2014-05-22 09:47:04+00:00
 slug: apple-embraces-webgl
 title: Apple Embraces WebGL
-categories:
-  - News
 tags:
   - apple
   - webgl

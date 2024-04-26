@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-11-21 18:27:25+00:00
 slug: playcanvas-update-211114
 title: PlayCanvas Update 21/11/14
-categories:
-  - News
 ---
 
 **We haven't been keeping up our weekly update as much as we really should and for that we are eternally sorry. However, from a new particle system beta to the even newer watching and starring functions this week is no disappointment. Lets go!**

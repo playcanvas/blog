@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-10-23 09:57:41+00:00
 slug: mobile-brand-experiences-in-webgl
 title: Mobile Brand Experiences in WebGL
-categories:
-  - News
 ---
 
 <div className="iframe-container">

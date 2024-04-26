@@ -1,11 +1,7 @@
 ---
 authors: nathan
-date: 2014-12-12 16:58:34+00:00
 slug: playhack-december-creating-presents
 title: PLAYHACK December - Creating Presents
-categories:
-  - PLAYHACK
-  - Tutorial
 ---
 
 _**PLAYHACK** is our fun monthly game building session. Throughout the month I’ll be posting tips and tricks to help you get a game made by the end of the month. Don’t forget, these are just examples. You can make **any** game you like. [Read more](https://blog.playcanvas.com/playhack-december-jolly-santa/) about this month’s PLAYHACK._

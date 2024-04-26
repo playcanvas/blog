@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-11-06 17:34:35+00:00
 slug: playhack-november-turrets-and-shooting-bullets
 title: PLAYHACK November - Turrets and shooting bullets
-categories:
-  - PLAYHACK
-  - Tutorial
 ---
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We’ll follow up with more of these throughout the week. Don’t forget, these are just examples. You can make **any** game you like.

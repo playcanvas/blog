@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-06-21 07:05:38+00:00
 slug: importing-in-the-cloud-the-new-asset-pipeline
-title: "Importing in the Cloud: New Asset Pipeline"
-categories:
-  - Announcement
-  - Features
+title: 'Importing in the Cloud: New Asset Pipeline'
 tags:
   - editor
 ---

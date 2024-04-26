@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2022-05-24 14:02:42+00:00
 slug: clustered-lighting-open-beta-have-hundreds-of-dynamic-lights-in-your-scene
 title: Clustered Lighting Open Beta - Have hundreds of dynamic lights in your scene!
-categories:
-  - News
 tags:
   - graphics
 ---

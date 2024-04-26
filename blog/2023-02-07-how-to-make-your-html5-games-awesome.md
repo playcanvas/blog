@@ -1,11 +1,7 @@
 ---
 authors: paulo
-date: 2023-02-07 14:41:16+00:00
 slug: how-to-make-your-html5-games-awesome
 title: How to make your HTML5 Games Awesome!
-categories:
-  - Features
-  - Tutorial
 tags:
   - gamedev
   - html5

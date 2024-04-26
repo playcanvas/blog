@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-09-13 15:08:21+00:00
 slug: new-look-designer
 title: New Look Designer
-categories:
-  - Announcement
-  - News
 tags:
   - editor
 ---

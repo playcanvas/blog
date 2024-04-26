@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-18 17:12:59+00:00
 slug: meet-the-playcanvas-team-will-eastcott
-title: "Meet the PlayCanvas team: Will Eastcott"
-categories:
-  - News
+title: 'Meet the PlayCanvas team: Will Eastcott'
 tags:
   - team
 ---

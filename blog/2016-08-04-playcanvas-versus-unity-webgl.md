@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-08-04 10:57:24+00:00
 slug: playcanvas-versus-unity-webgl
 title: PlayCanvas versus Unity WebGL
-categories:
-  - News
 tags:
   - unity
   - performance

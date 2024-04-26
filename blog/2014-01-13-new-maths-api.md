@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-01-13 11:22:12+00:00
 slug: new-maths-api
 title: Incoming Breaking Changes - New Maths API
-categories:
-  - Announcement
-  - Features
 tags:
   - engine
 ---

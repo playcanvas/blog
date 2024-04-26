@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2024-04-23 11:00:00+00:00
 slug: build-webgpu-apps-today-with-playcanvas
-title: "Build WebGPU Apps Today with PlayCanvas"
-categories:
-  - Announcement
-  - News
+title: Build WebGPU Apps Today with PlayCanvas
 tags:
   - webgpu
   - graphics

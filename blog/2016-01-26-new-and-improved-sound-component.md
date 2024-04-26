@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-01-26 14:45:06+00:00
 slug: new-and-improved-sound-component
 title: New and Improved Sound Component
-categories:
-  - News
 tags:
   - editor
   - sound

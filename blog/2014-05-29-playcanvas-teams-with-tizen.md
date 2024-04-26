@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2014-05-29 21:48:51+00:00
 slug: playcanvas-teams-with-tizen
 title: PlayCanvas Teams with Tizen
-categories:
-  - News
 tags:
   - partnership
 ---

@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2012-07-03 21:42:20+00:00
 slug: playcanvas-google-io
 title: PlayCanvas @ Google I/O
-categories:
-  - News
 tags:
   - event
 ---

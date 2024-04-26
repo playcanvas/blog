@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-11-16 12:47:39+00:00
 slug: tanx-takes-webgl-gaming-to-a-new-level
 title: TANX Takes WebGL Gaming to a New Level
-categories:
-  - News
 tags:
   - game
   - tanx

@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-09-21 14:31:12+00:00
 slug: playcanvas-feature-update
 title: PlayCanvas Feature Update
-categories:
-  - News
 ---
 
 [![PLAYHACK Cars](/img/playhack-cars.jpg)](/img/playhack-cars.jpg)

@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2015-04-02 14:55:47+00:00
 slug: playhack-with-arm-chromebook-winner
-title: "PLAYHACK with ARM: Chromebook Winner"
-categories:
-  - Announcement
-  - PLAYHACK
+title: 'PLAYHACK with ARM: Chromebook Winner'
 ---
 
 Last month we worked with ARM to launch our first **Prize PLAYHACK**. They provided the great prize of a **Samsung Chromebook 2 13.3".**

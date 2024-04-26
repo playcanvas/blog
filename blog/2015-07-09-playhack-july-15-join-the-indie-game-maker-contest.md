@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-07-09 15:57:05+00:00
 slug: playhack-july-15-join-the-indie-game-maker-contest
-title: "PLAYHACK: July '15 - Join the Indie Game Maker Contest"
-categories:
-  - News
+title: 'PLAYHACK: July ''15 - Join the Indie Game Maker Contest'
 ---
 
 We've timed this month's PLAYHACK to coincide with the [Indie Game Maker Contest 2015](http://contest.gamedevfort.com/). There are great [cash prizes](http://contest.gamedevfort.com/page/prizes) to be won!

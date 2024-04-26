@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2012-08-19 12:40:08+00:00
 slug: html5-apis-for-game-developers
 title: HTML5 APIs for game developers
-categories:
-  - Technology
 tags:
   - html5
 ---

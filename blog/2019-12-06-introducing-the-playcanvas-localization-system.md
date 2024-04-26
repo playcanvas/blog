@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2019-12-06 01:06:18+00:00
 slug: introducing-the-playcanvas-localization-system
 title: Introducing the PlayCanvas Localization System
-categories:
-  - Announcement
-  - News
 tags:
   - editor
   - localization

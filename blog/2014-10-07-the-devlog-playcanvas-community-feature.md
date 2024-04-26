@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-10-07 17:07:09+00:00
 slug: the-devlog-playcanvas-community-feature
 title: The DevLog - PlayCanvas Community Feature
-categories:
-  - Features
 ---
 
 We've just rolled out the Developer Log or DevLog. The first of several community features coming soon into PlayCanvas.

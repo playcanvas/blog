@@ -1,11 +1,7 @@
 ---
 authors: christy
-date: 2014-06-12 15:38:44+00:00
 slug: snappy-new-update
 title: Snappy New Update
-categories:
-  - Announcement
-  - Features
 tags:
   - editor
 ---

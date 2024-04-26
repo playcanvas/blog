@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-01-01 17:04:56+00:00
 slug: playhack-we-challenge-you-to-a-jewel
 title: PLAYHACK - We challenge you to a jewel!
-categories:
-  - PLAYHACK
 ---
 
 [![PLAYHACK BANNER_1](/img/PLAYHACK-BANNER_1.jpg)](/img/PLAYHACK-BANNER_1.jpg)

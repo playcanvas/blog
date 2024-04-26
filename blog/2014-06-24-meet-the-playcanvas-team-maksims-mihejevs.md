@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-24 10:11:46+00:00
 slug: meet-the-playcanvas-team-maksims-mihejevs
-title: "Meet the PlayCanvas team: Maksims Mihejevs"
-categories:
-  - News
+title: 'Meet the PlayCanvas team: Maksims Mihejevs'
 tags:
   - team
 ---

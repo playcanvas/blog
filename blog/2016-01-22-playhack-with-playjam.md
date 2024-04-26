@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-01-22 17:24:36+00:00
 slug: playhack-with-playjam
 title: PLAYHACK with Playjam
-categories:
-  - News
 tags:
   - partnership
 ---

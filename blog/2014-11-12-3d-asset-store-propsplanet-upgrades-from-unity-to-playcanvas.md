@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-11-12 11:29:45+00:00
 slug: 3d-asset-store-propsplanet-upgrades-from-unity-to-playcanvas
 title: 3D Asset Store Propsplanet upgrades from Unity to PlayCanvas
-categories:
-  - Announcement
-  - News
 tags:
   - asset-store
 ---

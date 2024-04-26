@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-08-27 11:50:19+00:00
 slug: featured-games-featured-projects-and-activity-stream
 title: Featured games, featured projects and activity stream
-categories:
-  - Announcement
-  - Features
 ---
 
 The all new front-page shows an overview of all PlayCanvas activity.

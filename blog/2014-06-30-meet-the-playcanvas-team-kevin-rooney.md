@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-30 14:21:25+00:00
 slug: meet-the-playcanvas-team-kevin-rooney
-title: "Meet the PlayCanvas team: Kevin Rooney"
-categories:
-  - News
+title: 'Meet the PlayCanvas team: Kevin Rooney'
 tags:
   - team
 ---

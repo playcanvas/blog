@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-09-21 14:21:18+00:00
 slug: playcanvas-update-2192014
 title: PlayCanvas Update 21/9/2014
-categories:
-  - News
 ---
 
 **New news and old news: plans, iOS support, etc.**

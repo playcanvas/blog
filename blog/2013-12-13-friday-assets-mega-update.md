@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-12-13 17:01:47+00:00
 slug: friday-assets-mega-update
 title: Friday Assets Mega-update
-categories:
-  - Announcement
-  - Features
 tags:
   - editor
 ---

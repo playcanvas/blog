@@ -1,11 +1,7 @@
 ---
 authors: christy
-date: 2014-12-01 13:17:30+00:00
 slug: playhack-december-jolly-santa
-title: "PLAYHACK December: Jolly Santa"
-categories:
-  - News
-  - PLAYHACK
+title: 'PLAYHACK December: Jolly Santa'
 ---
 
 ![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)

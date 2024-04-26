@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-07-14 19:58:44+00:00
 slug: humble-game-making-bundle
 title: Humble Game Making Bundle
-categories:
-  - News
 ---
 
 PlayCanvas is delighted to be part of the [Humble Game Making Bundle](https://www.humblebundle.com/).

@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2020-06-11 15:33:01+00:00
 slug: tanx-lives-popular-webgl-online-game-returns
 title: TANX lives! Popular WebGL online game returns
-categories:
-  - Announcement
-  - News
 tags:
   - tanx
 ---

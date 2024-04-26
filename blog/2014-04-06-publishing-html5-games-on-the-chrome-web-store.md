@@ -1,13 +1,7 @@
 ---
 authors: will
-date: 2014-04-06 11:29:25+00:00
 slug: publishing-html5-games-on-the-chrome-web-store
 title: Publishing HTML5 Games on the Chrome Web Store
-categories:
-  - Announcement
-  - News
-  - Technology
-  - Tutorial
 tags:
   - publishing
 ---

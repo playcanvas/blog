@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2023-02-01 14:40:12+00:00
 slug: playcanvas-now-supports-microsoft-volumetric-video-playback
 title: PlayCanvas now supports Microsoft volumetric video playback
-categories:
-  - News
 tags:
   - ar
   - vr

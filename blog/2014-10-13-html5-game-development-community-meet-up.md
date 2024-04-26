@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-10-13 12:00:50+00:00
 slug: html5-game-development-community-meet-up
 title: HTML5 Game Development Community Meet Up
-categories:
-  - News
 tags:
   - event
 ---

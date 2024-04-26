@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-09-19 11:50:30+00:00
 slug: see-your-friends
 title: See Your Friends!
-categories:
-  - Announcement
-  - Features
 tags:
   - editor
 ---

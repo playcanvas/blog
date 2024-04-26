@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-06-13 14:16:19+00:00
 slug: platform-game-starter-kit
 title: Platform Game Starter Kit
-categories:
-  - Announcement
-  - Tutorial
 ---
 
 [![PlayBot](/img/playbot.png)](/img/playbot.png)

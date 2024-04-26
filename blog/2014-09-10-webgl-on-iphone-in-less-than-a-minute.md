@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-09-10 21:20:17+00:00
 slug: webgl-on-iphone-in-less-than-a-minute
 title: WebGL on iPhone in less than a minute
-categories:
-  - Announcement
-  - Features
 tags:
   - apple
   - webgl

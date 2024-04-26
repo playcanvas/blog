@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2018-06-15 22:08:19+00:00
 slug: new-feature-2d-sprites-and-9-slicing
-title: "New Feature: 2D Sprites and 9-slicing"
-categories:
-  - Features
-  - News
+title: 'New Feature: 2D Sprites and 9-slicing'
 tags:
   - editor
 ---

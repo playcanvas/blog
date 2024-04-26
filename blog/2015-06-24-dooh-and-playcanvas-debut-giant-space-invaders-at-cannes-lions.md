@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-06-24 13:24:01+00:00
 slug: dooh-and-playcanvas-debut-giant-space-invaders-at-cannes-lions
 title: DOOH and PlayCanvas debut Giant Space Invaders at Cannes Lions
-categories:
-  - News
 tags:
   - ads
 ---

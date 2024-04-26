@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2021-09-22 10:59:54+00:00
 slug: important-information-about-safari-15
 title: Important Information about macOS Safari 15
-categories:
-  - Announcement
 ---
 
 We have been made aware of a critical issue regarding WebGL content and the release of macOS Safari 15 earlier this week where previously published content could fail to load.

@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-11-11 19:23:32+00:00
 slug: refinements-aplenty-for-our-webgl-editor
 title: Refinements aplenty for our WebGL Editor
-categories:
-  - News
 tags:
   - editor
 ---

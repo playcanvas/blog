@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-07-15 11:14:30+00:00
 slug: developer-playcanvas-com-is-open-source
 title: developer.playcanvas.com is open source
-categories:
-  - Announcement
-  - News
 ---
 
 [![os-all-the-things](/img/os-all-the-things.jpg)](/img/os-all-the-things.jpg)

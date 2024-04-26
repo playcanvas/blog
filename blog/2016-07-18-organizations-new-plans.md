@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2016-07-18 15:24:33+00:00
 slug: organizations-new-plans
 title: Organizations & new plans
-categories:
-  - Announcement
-  - Features
 tags:
   - plans
 ---

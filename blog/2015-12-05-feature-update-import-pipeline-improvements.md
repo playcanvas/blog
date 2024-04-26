@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2015-12-05 11:19:05+00:00
 slug: feature-update-import-pipeline-improvements
-title: "Feature Update: Import Pipeline Improvements"
-categories:
-  - Features
-  - News
+title: 'Feature Update: Import Pipeline Improvements'
 tags:
   - editor
 ---

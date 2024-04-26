@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2015-07-02 16:39:34+00:00
 slug: autocomplete-and-realtime-api-reference-added-to-code-editor
 title: Autocomplete and Realtime API Reference added to Code Editor
-categories:
-  - Announcement
-  - News
 tags:
   - editor
   - scripting

@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2012-02-12 21:33:11+00:00
 slug: hello-world
 title: Hello World
-categories:
-  - News
 ---
 
 Welcome to the PlayCanvas blog (and the new look website!).

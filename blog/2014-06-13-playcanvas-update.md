@@ -1,11 +1,7 @@
 ---
 authors: christy
-date: 2014-06-13 10:18:58+00:00
 slug: playcanvas-update
 title: PlayCanvas Update 13/06/14
-categories:
-  - Announcement
-  - Features
 ---
 
 [![construction_kit-001](/img/construction_kit-001.jpg)](/img/construction_kit-001.jpg)

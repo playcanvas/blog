@@ -1,10 +1,7 @@
 ---
 authors: elliott
-date: 2021-09-02 11:57:54+00:00
 slug: a-graph-rendering-library-for-the-web-pcui-graph
-title: "A Graph Rendering Library for the Web: PCUI Graph"
-categories:
-  - News
+title: 'A Graph Rendering Library for the Web: PCUI Graph'
 tags:
   - pcui
 ---

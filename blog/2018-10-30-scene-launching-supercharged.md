@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2018-10-30 00:00:04+00:00
 slug: scene-launching-supercharged
 title: Scene Launching Supercharged!
-categories:
-  - News
 tags:
   - editor
 ---

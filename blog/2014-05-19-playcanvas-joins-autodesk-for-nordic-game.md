@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2014-05-19 22:11:21+00:00
 slug: playcanvas-joins-autodesk-for-nordic-game
 title: PlayCanvas Joins Autodesk for Nordic Game
-categories:
-  - Announcement
-  - News
 tags:
   - event
 ---

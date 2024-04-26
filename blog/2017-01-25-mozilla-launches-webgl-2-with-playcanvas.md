@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2017-01-25 13:25:13+00:00
 slug: mozilla-launches-webgl-2-with-playcanvas
 title: Mozilla Launches WebGL 2 with PlayCanvas
-categories:
-  - News
 tags:
   - demo
   - partnership

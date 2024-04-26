@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-06-27 10:03:10+00:00
 slug: meet-the-playcanvas-team-dave-evans
-title: "Meet the PlayCanvas team: Dave Evans"
-categories:
-  - News
+title: 'Meet the PlayCanvas team: Dave Evans'
 tags:
   - team
 ---

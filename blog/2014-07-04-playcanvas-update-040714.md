@@ -1,10 +1,7 @@
 ---
 authors: christy
-date: 2014-07-04 15:12:32+00:00
 slug: playcanvas-update-040714
 title: PlayCanvas Update 04/07/14
-categories:
-  - News
 ---
 
 There has been plenty going on at HQ since our last update and it is all making game development on our engine that little bit easier. Here’s a run down of engine optimizations, new features and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.

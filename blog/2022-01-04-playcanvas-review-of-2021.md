@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2022-01-04 17:56:15+00:00
 slug: playcanvas-review-of-2021
 title: PlayCanvas Review of 2021
-categories:
-  - News
 ---
 
 Happy New Year to you all!

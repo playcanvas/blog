@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2015-05-02 11:40:14+00:00
 slug: whats-new-hdr-cubemaps-multi-selection-and-more
-title: "What's New: HDR Cubemaps, Multi-selection and more"
-categories:
-  - News
+title: 'What''s New: HDR Cubemaps, Multi-selection and more'
 tags:
   - editor
 ---

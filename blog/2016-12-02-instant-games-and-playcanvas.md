@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2016-12-02 14:35:21+00:00
 slug: instant-games-and-playcanvas
 title: Instant Games and PlayCanvas
-categories:
-  - News
 tags:
   - facebook
   - instant-games

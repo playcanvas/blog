@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2014-11-05 13:00:42+00:00
 slug: playhack-november-camera-types
 title: PLAYHACK November - Camera types
-categories:
-  - PLAYHACK
-  - Tutorial
 ---
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We’ll follow up with more of these throughout the week. Don’t forget, these are just examples. You can make **any** game you like.

@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2016-12-12 15:20:39+00:00
 slug: playcanvas-december-mega-update
 title: PlayCanvas December Mega Update
-categories:
-  - News
 ---
 
 Time for another dev update, WebGL lovers! We've deployed a ton of new features, optimizations and fixes. Here's a run-down of what's new.

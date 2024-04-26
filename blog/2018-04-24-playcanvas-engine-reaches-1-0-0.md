@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2018-04-24 23:17:54+00:00
 slug: playcanvas-engine-reaches-1-0-0
 title: PlayCanvas Engine reaches 1.0.0!
-categories:
-  - News
 tags:
   - engine
 ---

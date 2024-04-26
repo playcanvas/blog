@@ -1,11 +1,7 @@
 ---
 authors: will
-date: 2023-10-12 12:00:00+00:00
 slug: gltf-viewer-adds-webgpu-support
 title: glTF Viewer 4.0 Adds WebGPU Support
-categories:
-  - Announcement
-  - News
 tags:
   - ar
   - gltf

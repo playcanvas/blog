@@ -1,11 +1,7 @@
 ---
 authors: dave
-date: 2013-08-28 10:33:22+00:00
 slug: introduction-to-ammo-js
 title: Introduction to ammo.js
-categories:
-  - Announcement
-  - News
 tags:
   - event
   - physics

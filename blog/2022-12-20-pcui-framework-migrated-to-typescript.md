@@ -1,10 +1,7 @@
 ---
 authors: will
-date: 2022-12-20 11:49:57+00:00
 slug: pcui-framework-migrated-to-typescript
 title: PCUI Framework Migrated to TypeScript
-categories:
-  - News
 tags:
   - pcui
   - typescript

@@ -1,10 +1,7 @@
 ---
 authors: elliott
-date: 2022-10-05 14:00:02+00:00
 slug: gltf-viewer-arrives-on-mobile-with-ar-support
 title: glTF Viewer Arrives on Mobile with AR Support
-categories:
-  - News
 tags:
   - ar
   - gltf

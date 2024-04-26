@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-04-01 11:43:56+00:00
 slug: playhack-april-rolling-balls-and-platforms
-title: "PLAYHACK April: Rolling balls and platforms"
-categories:
-  - News
+title: 'PLAYHACK April: Rolling balls and platforms'
 ---
 
 **PLAYHACK** is our monthly game jam. We give you the starter kit for a game. You take the basics and use your imagination and skill to build a new game. Our favorite game at the end of the month will be showcased to thousands of PlayCanvas users and featured on the site. The **only rules**, start from our project and have fun.

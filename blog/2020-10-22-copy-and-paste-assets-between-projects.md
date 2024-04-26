@@ -1,10 +1,7 @@
 ---
 authors: steven
-date: 2020-10-22 14:57:38+00:00
 slug: copy-and-paste-assets-between-projects
 title: Copy and Paste Assets between Projects
-categories:
-  - News
 tags:
   - editor
   - workflow

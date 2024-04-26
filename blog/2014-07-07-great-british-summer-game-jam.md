@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2014-07-07 06:48:25+00:00
 slug: great-british-summer-game-jam
 title: Great British Summer Game Jam
-categories:
-  - News
 tags:
   - event
 ---

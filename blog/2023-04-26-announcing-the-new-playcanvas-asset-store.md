@@ -1,12 +1,7 @@
 ---
 authors: will
-date: 2023-04-26 11:12:12+00:00
 slug: announcing-the-new-playcanvas-asset-store
 title: Announcing the New PlayCanvas Asset Store
-categories:
-  - Announcement
-  - Features
-  - News
 tags:
   - asset-store
   - editor

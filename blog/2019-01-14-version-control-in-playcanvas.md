@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2019-01-14 22:55:41+00:00
 slug: version-control-in-playcanvas
 title: Version Control in PlayCanvas
-categories:
-  - News
 tags:
   - editor
   - version-control

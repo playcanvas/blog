@@ -1,10 +1,7 @@
 ---
 authors: dave
-date: 2015-07-31 14:24:32+00:00
 slug: whats-new-html-assets-new-gizmos-viewport-improvements
 title: What's new? HTML Assets, New Gizmos, Viewport improvements
-categories:
-  - News
 tags:
   - editor
 ---
