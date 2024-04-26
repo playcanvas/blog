@@ -93,11 +93,11 @@ const config = {
             items: [
               {
                 label: 'User Manual',
-                href: 'https://blog.playcanvas.com/user-manual/',
+                href: 'https://developer.playcanvas.com/user-manual/',
               },
               {
                 label: 'Tutorials',
-                href: 'https://blog.playcanvas.com/tutorials/',
+                href: 'https://developer.playcanvas.com/tutorials/',
               },
               {
                 label: 'API Reference',
