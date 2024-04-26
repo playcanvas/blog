@@ -1,29 +1,29 @@
 ---
 authors: steven
 slug: upcoming-code-editor-upgrade-to-monaco
-title: Upcoming Code Editor upgrade to Monaco!
+title: Upcoming Code Editor Upgrade to Monaco!
 tags:
   - scripting
 ---
 
-We have almost completed work on moving the Code Editor from Code Mirror to [Monaco](https://github.com/Microsoft/monaco-editor), the same editor that powers the ever popular, Visual Studio Code.
+We are nearing completion on transitioning our Code Editor from CodeMirror to [Monaco](https://github.com/Microsoft/monaco-editor), the powerhouse behind the immensely popular Visual Studio Code.
 
 [![](/img/code-editor-monaco.png)](/img/code-editor-monaco.png)
 _Look familiar? 👀_
 
-With this upgrade, it will give developers:
+This upgrade will provide developers with:
 
-- Much better performance, especially with large text files
-- More editing functionality through the command palette
-- Mouse driven features such as Cmd/Ctrl + Click to jump to definition, hover for documentation and a context menu!
+- Significantly improved performance, especially when working with large text files.
+- Enhanced editing features through the command palette.
+- Advanced mouse-driven functionalities, such as Cmd/Ctrl + Click to jump to definition, hover for documentation, and a context menu.
 
 [![](/img/playcanvas-monaco-code-editor-1.gif)](/img/playcanvas-monaco-code-editor-1.gif)
 
-There will be some small differences which will include:
+There will be a few minor differences, including:
 
-- Syntax color changes as we've opted to use Monaco's default theme, which should be comfortably familiar to VS Code users
-- Some hotkeys/shortcuts will be different (e.g moving a line up/down)
+- Syntax color changes, as we are adopting Monaco's default theme, which will be familiar to users of VS Code.
+- Some adjustments to hotkeys/shortcuts, such as moving lines up or down.
 
 ### When can we use it?
 
-We are still working through a few issues but planning to release the Editor as early as next week. Keep your eyes peeled!
+We are finalizing a few remaining issues but plan to release the upgraded Editor as early as next week. Keep your eyes peeled!
