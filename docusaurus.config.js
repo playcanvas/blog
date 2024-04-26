@@ -43,6 +43,8 @@ const config = {
       ({
         docs: false,
         blog: {
+          blogSidebarCount: 15,
+
           routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
           // Please change this to your repo.
