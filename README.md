@@ -1,41 +1,31 @@
-# Website
+# PlayCanvas Blog
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the source repository for the [PlayCanvas Blog](https://blog.playcanvas.com/). It is made up of static web content generated from Markdown files using [Docusaurus](https://docusaurus.io).
 
-## Installation
+## How to build
 
-```sh
-yarn
-```
-
-## Local Development
+Building the site requires an installation of Node.js 18+.
 
 ```sh
-yarn start
+cd blog
+npm i
+npm run build
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## How to serve
 
-## Build
+To serve the built site locally:
 
 ```sh
-yarn build
+npm run serve
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This will automatically open the built site in your browser.
 
-## Deployment
+## Use 'start' for quick iteration
 
-Using SSH:
+The `start` build command will automatically rebuild the site when changes are made in the `docs`, `src` or `static` folders.
 
 ```sh
-USE_SSH=true yarn deploy
+npm run start
 ```
-
-Not using SSH:
-
-```sh
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
