@@ -41,7 +41,7 @@ PlayCanvas became the leading tech provider for Digital Out of Home. DOOH.com br
 
 Cheil, Samsung's Marketing arm, used PlayCanvas to launch their Rugby World Cup game on the giant Samsung screen in Piccadilly Circus.
 
-[![Cheil Rugby](/img/Cheil_Banner.jpg)](/img/Cheil_Banner.jpg)
+[![Cheil Rugby](/img/cheil-rugby.png)](/img/cheil-rugby.png)
 
 Hot on the heels of that, Cheil launched their Christmas campaign for the Samsung Galaxy S6 on the very same screen.
 
