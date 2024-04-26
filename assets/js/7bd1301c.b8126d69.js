@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[72920],{27097:a=>{a.exports=JSON.parse('{"label":"sketchfab","permalink":"/tags/sketchfab","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

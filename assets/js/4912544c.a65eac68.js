@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[75755],{28678:a=>{a.exports=JSON.parse('{"label":"webgpu","permalink":"/tags/webgpu","allTagsPath":"/tags","count":3,"unlisted":false}')}}]);

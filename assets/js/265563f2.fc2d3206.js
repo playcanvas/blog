@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[73908],{64168:a=>{a.exports=JSON.parse('{"label":"textures","permalink":"/tags/textures","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[64710],{24087:a=>{a.exports=JSON.parse('{"label":"webvr","permalink":"/tags/webvr","allTagsPath":"/tags","count":3,"unlisted":false}')}}]);

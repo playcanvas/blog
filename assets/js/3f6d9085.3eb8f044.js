@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[59952],{1377:a=>{a.exports=JSON.parse('{"label":"version-control","permalink":"/tags/version-control","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

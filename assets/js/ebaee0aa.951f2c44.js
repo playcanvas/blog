@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[28749],{76419:a=>{a.exports=JSON.parse('{"label":"open-source","permalink":"/tags/open-source","allTagsPath":"/tags","count":5,"unlisted":false}')}}]);

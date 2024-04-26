@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[7781],{65338:a=>{a.exports=JSON.parse('{"label":"flash","permalink":"/tags/flash","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

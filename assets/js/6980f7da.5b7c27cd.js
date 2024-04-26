@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[86392],{63033:a=>{a.exports=JSON.parse('{"label":"swooop","permalink":"/tags/swooop","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);

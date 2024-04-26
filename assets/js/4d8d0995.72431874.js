@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[97272],{93728:a=>{a.exports=JSON.parse('{"label":"performance","permalink":"/tags/performance","allTagsPath":"/tags","count":8,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[68707],{28122:a=>{a.exports=JSON.parse('{"label":"gltf","permalink":"/tags/gltf","allTagsPath":"/tags","count":7,"unlisted":false}')}}]);
