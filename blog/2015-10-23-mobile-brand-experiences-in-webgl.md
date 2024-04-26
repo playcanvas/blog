@@ -20,7 +20,7 @@ Recognizing these challenges, PlayCanvas has developed a mobile brand experience
 
 Our demo is compatible with a range of devices, from the iPhone 4S to the latest smartphones. PlayCanvas stands out for its lightweight, efficient technology, making it the **only solution that delivers** realistic graphics on mobile devices.
 
-### Mixed Media HTML5 & WebGL 
+### Mixed Media HTML5 & WebGL
 
 Choosing the right tool for the job is crucial. We use WebGL for 3D graphics and standard HTML and CSS for the user interface. This approach allows your design team to stick with familiar tools while seamlessly integrating 3D content into any regular website.
 
