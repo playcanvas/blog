@@ -8,6 +8,8 @@ tags:
   - spotlight
 ---
 
+import ReactPlayer from 'react-player'
+
 <div className="iframe-container">
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/LLuB-2OpcFo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -26,9 +28,8 @@ We have also visualized experiences for hotel safes, medical instruments and lab
 
 [Our core business is real-time 3D](https://www.animech.com/en/articles/3d-rendering-in-realtime). We push the boundaries every day trying to invent new ways of using 3D, where our solution makes the difference.
 
-<div className="iframe-container">
-    <video controls src="/img/animech-bathroom.mp4"></video>
-</div>
+<ReactPlayer playing controls url="/img/animech-bathroom.mp4" />
+
 _[Bathroom Planner](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/) for Iconic Nordic Rooms_
 
 **Why did Animech choose PlayCanvas?**
@@ -74,19 +75,12 @@ As the future for 3D on the web continues to evolve, we are excited to see suppo
 Beyond this, here are some things we look forward to:
 
 - Node-based shader editor
-
 - Support for editor extensions
-
 - Post processing (HDR bloom, chromatic aberration, SSAO, motion blur, color grading, eye adaption, etc.)
-
 - More customizable asset import options
-
 - Reflection probes
-
 - Material instances (see Unreal Engine)
-
 - Debug visualization (see Unreal Engine’s View Modes)
-
 - Expose currently hidden options in the editor (detail maps, etc.)
 
 **How do you see AR and 3D e-commerce evolve over the next few years?**
@@ -101,24 +95,16 @@ As the graphics quality gets better and better online and the fashion industry k
 
 Animech helps our customers to get what they want. Simply put: we empower people to make smart decisions through intelligent visualization.
 
-<div className="iframe-container">
-    <video controls src="/img/animech-cytiva.mp4"></video>
-</div>
+<ReactPlayer playing controls url="/img/animech-cytiva.mp4" />
 
 **Thank you, Staffan! Is there anything else you'd like to share?**
 
 You can visit [our website here](https://www.animech.com/). You can also [follow us on Twitter](https://twitter.com/AnimechT)! You can also check out our other projects here:
 
 - [Life science marketing application Cytiva](https://www.cytivalifesciences.com/apps/aktapilot600/index.html)
-
 - [Industry marketing application Ewellix](https://virtual-showroom.ewellix.com/)
-
 - [Bathroom configurator](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/)
-
 - [Work bench configurator, WFI](//configurator.wfi.se/)
-
 - [Safe configurator, ASSA Abloy](http://assa.aniconfigurator.com/)
-
 - [Lift configurator, Cibes lift](https://www.cibeslift.com/se/lift-configurator/)
-
 - [Greenhouse configurator, Willab garden](https://vaxthusguiden.willabgarden.se/)

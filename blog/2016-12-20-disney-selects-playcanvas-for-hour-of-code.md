@@ -4,6 +4,8 @@ slug: disney-selects-playcanvas-for-hour-of-code
 title: Disney Selects PlayCanvas for Hour of Code
 ---
 
+import ReactPlayer from 'react-player'
+
 We're proud to announce that Disney has selected PlayCanvas to power their newly launched Hour of Code application. Entitled "Moana: Wayfinding with Code", it's a free online tutorial to teach kids the basics of computer science.
 
 <div className="iframe-container">
@@ -14,9 +16,7 @@ In the tutorial, kids are tasked with using code to navigate Moana and Maui, two
 
 PlayCanvas enabled Disney to bring the beautiful visuals of Moana to the browser via WebGL-based, realtime 3D graphics.
 
-<div className="iframe-container">
-    <video controls src="/img/moana-hour-of-code.mp4"></video>
-</div>
+<ReactPlayer playing controls url="/img/moana-hour-of-code.mp4" />
 
 PlayCanvas' web-first approach makes it incredibly easy to incorporate other web technologies such as Google's Blockly and more besides. But it also gives great performance, particularly on mobile. And the tiny footprint of the 160KB engine makes for lightning fast download times and rock-solid stability all the way down to iPhone 4S.
 

@@ -6,6 +6,8 @@ tags:
   - editor
 ---
 
+import ReactPlayer from 'react-player'
+
 You probably saw this week's [big announcement about our seamless integration with WebVR](https://blog.playcanvas.com/webvr-support-in-playcanvas/). But while WebVR is getting a lot of attention, we still care about the small details that can make you even more productive. We've spent the week adding some simple yet useful tweaks to the Editor.
 
 ### Previous Selection Button
@@ -18,9 +20,7 @@ We've added a button to the top right of the Inspector panel that allows you to 
 
 We have updated PlayCanvas' build of Ammo.js to the very latest version. This update benefits from 2 years of Emscripten improvements and exposes much more of the Bullet API. So if you are feeling adventurous, you can delve into the parts of Ammo that PlayCanvas does not expose and try some more advanced physics effects. For example, soft body physics. Or maybe utilize constraints for things like ragdolls, as shown below:
 
-<div className="iframe-container">
-    <video controls src="/img/ragdoll.mp4"></video>
-</div>
+<ReactPlayer playing controls url="/img/ragdoll.mp4" />
 
 Want to check out the project above? It's [here](https://playcanvas.com/project/431888/overview/ragdoll).
 
