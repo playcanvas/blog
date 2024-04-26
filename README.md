@@ -24,7 +24,7 @@ This will automatically open the built site in your browser.
 
 ## Use 'start' for quick iteration
 
-The `start` build command will automatically rebuild the site when changes are made in the `docs`, `src` or `static` folders.
+The `start` build command will automatically rebuild the site when changes are made in the `blog`, `src` or `static` folders.
 
 ```sh
 npm run start
