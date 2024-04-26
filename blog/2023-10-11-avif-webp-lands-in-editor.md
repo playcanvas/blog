@@ -15,7 +15,7 @@ tags:
 
 ![AVIF + WebP Support](/img/avif-webp-icons.png)
 
-#### Today we're excited to announce that PlayCanvas now supports WebP and AVIF images natively in the editor. Two new, efficient image formats built for the web.
+#### Today we're excited to announce that PlayCanvas now supports WebP and AVIF images natively in the editor. Two new, efficient image formats built for the web
 
 This is not just an exciting update for us but a game-changer for anyone looking to optimize their projects for faster load times and better quality.
 
@@ -23,7 +23,7 @@ JPGs and PNGs have served us well. They're reliable and you can use them everywh
 
 _Take a look at the following images_
 <br/>
-<iframe 
+<iframe
   src="https://codesandbox.io/embed/react-compare-image-forked-myp5cp?fontsize=14&hidenavigation=1&theme=dark"
   style={{
     width: "100%",

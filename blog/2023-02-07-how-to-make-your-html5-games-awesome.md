@@ -366,7 +366,7 @@ The combined effects look like this:
 
 You'll notice I've added screen shake to more than just the player getting hit! I'm a big fan of this effect, so I've added it to asteroid explosions and firing bullets as well!
 
-## And that about does it!
+## And that about does it
 
 With the effects we added above, the game looks and plays entirely different. Destroying asteroids **feels** good, and everything else in the game is there to enhance that experience.
 
