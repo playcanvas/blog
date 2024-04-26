@@ -1,0 +1,6 @@
+# Disable some built-in rules
+config:
+  line-length: false
+  no-alt-text: false
+  no-inline-html: false
+  no-bare-urls: false
