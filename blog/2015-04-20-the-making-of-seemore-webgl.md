@@ -24,38 +24,38 @@ This is the generation and usage of prefiltered cubemaps. Each mipmap level stor
 
 [![prefilter](/img/prefilter.jpg)](/img/prefilter.jpg)
 
-**How did we do it?**
+#### How did we do it?
 
 First, we added a cubemap filtering utility to the engine (GPU-based importance sampling). The next step was to expose this functionality in the PlayCanvas Editor. This technique uses Phong lobes of different sizes to pre-blur each mip level. Runtime shaders use either the EXT_shader_texture_lod extension (where supported) or reference mip levels stored as individual textures that are interpolated manually.
 
-**Show me the code!**
+#### Show me the code!
 
 [https://github.com/playcanvas/engine/pull/202](https://github.com/playcanvas/engine/pull/202)
 
-**Further reading:**
+#### Further reading:
 
 - [https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)
 - [https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/](https://seblagarde.wordpress.com/2012/06/10/amd-cubemapgen-for-physically-based-rendering/)
 
-#### Box-projected cubemaps
+### Box-projected Cubemaps
 
 This feature makes cubemaps work as if projected onto the insides of a box, instead of being infinitely far away (as with a regular skybox cubemap). This technique is widely used in games for interior reflection and refraction.
 
 [![bpcem34](/img/bpcem34.jpg)](/img/bpcem34.jpg)
 
-**How did we do it?**
+#### How did we do it?
 
 This effect is implemented using a world-space AABB projection. Refraction uses the same code as reflection but with a different ray direction, so the projection automatically applies to it as well.
 
-**Show me the code!**
+#### Show me the code!
 
 [https://github.com/playcanvas/engine/pull/183](https://github.com/playcanvas/engine/pull/183)
 
-**Further reading:**
+#### Further reading:
 
 - [https://www.gamedev.net/forums/topic/568829-box-projected-cubemap-environment-mapping/](https://www.gamedev.net/forums/topic/568829-box-projected-cubemap-environment-mapping/)
 
-#### Custom shader chunks
+### Custom Shader Chunks
 
 Standard material shaders in PlayCanvas are assembled from multiple code 'chunks'. Often, you don't want to replace the whole shader, but you'd like to only change some parts of it, like adding some procedural ambient occlusion or changing the way a surface reflects light.
 
@@ -67,7 +67,7 @@ This feature was required in Seemore to achieve the following:
   [![fol](/img/seemore-foliage.jpg)](/img/seemore-foliage.jpg)
 - **Plant/tentacle animation.** Procedural code that drives vertex positions/normals/tangents.
 
-**How did we do it?**
+#### How did we do it?
 
 Shader chunks are stored in the engine sourcebase as .vert and .frag files that contain snippets of GLSL. You can find all of these files [here](https://github.com/playcanvas/engine/tree/main/src/scene/shader-lib/chunks). Here’s an example chunk that applies exponential squared fog to a fragment:
 
@@ -89,7 +89,7 @@ Each chunk file’s name becomes its name at runtime, with PS or VS appended, de
 material.chunks.fogExp2PS = myCustomShaderString;
 ```
 
-**Show me the code!**
+#### Show me the code!
 
 [https://github.com/playcanvas/engine/pull/172](https://github.com/playcanvas/engine/pull/172)
 
