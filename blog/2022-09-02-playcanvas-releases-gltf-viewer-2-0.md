@@ -1,6 +1,5 @@
 ---
 authors: steven
-excerpt: Today, we are excited to announce the 2.0 release of our glTF model viewer.
 slug: playcanvas-releases-gltf-viewer-2-0
 title: PlayCanvas Releases glTF Viewer 2.0
 tags:
@@ -24,7 +23,7 @@ Let’s take a closer look at what’s new.
 
 ## Improved glTF Specification Support
 
-The glTF format is managed by the Khronos Group and defines a base specification along with a variety of extensions. The first version of the viewer support 100% of the base spec plus the following extensions:
+The glTF format is managed by the Khronos Group and defines a base specification along with a variety of extensions. The first version of the viewer supports 100% of the base spec plus the following extensions:
 
 - `KHR_draco_mesh_compression`
 - `KHR_lights_punctual`
@@ -50,13 +49,13 @@ Let’s take a look at three of them.
 
 ## Advanced Refraction
 
-The volume, transmission and ior glTF extensions can simulate how light is refracted through transparent materials. This leverages PlayCanvas’ grab pass functionality to ‘grab’ and sample the back-buffer.
+The volume, transmission, and ior glTF extensions can simulate how light is refracted through transparent materials. This leverages PlayCanvas’ grab pass functionality to ‘grab’ and sample the back-buffer.
 
 [![Dragon with IOR, Transmission and Volume](/img/gltf-ior-transmission-volume.gif)](/img/gltf-ior-transmission-volume.gif)
 
 ## Realistic Rendering of Fabrics
 
-glTF’s sheen extension enables developers to faithfully reproduce materials with the appearance of certain fabrics. This is incredibly important for production visualization (home furnishings, apparel, vehicle interiors and so on).
+glTF’s sheen extension enables developers to faithfully reproduce materials with the appearance of certain fabrics. This is incredibly important for production visualization (home furnishings, apparel, vehicle interiors, and so on).
 
 [![Cushion with Sheen](/img/gltf-sheen.jpg)](/img/gltf-sheen.jpg)
 
@@ -92,7 +91,7 @@ Initially, all information and controls for the viewer appeared in the leftmost 
 
 [![glTF Viewer Left Panel](/img/gltf-viewer-hierarchy.png)](/img/gltf-viewer-hierarchy.png)
 
-Buttons to control viewer settings can now be found at the bottom of the 3D view. These buttons open options for camera, lighting and debug rendering (plus a fullscreen toggle).
+Buttons to control viewer settings can now be found at the bottom of the 3D view. These buttons open options for camera, lighting, and debug rendering (plus a fullscreen toggle).
 
 [![glTF Viewer Buttons](/img/gltf-viewer-buttons.gif)](/img/gltf-viewer-buttons.gif)
 
@@ -100,7 +99,7 @@ If you load a scene that contains animation, animation controls will automatical
 
 [![glTF Viewer Animation Controls](/img/gltf-viewer-animation-controls.png)](/img/gltf-viewer-animation-controls.png)
 
-The controls allow you to scrub through an animation, select playback speed and even choose which animation clip to play should the file contain more than one.
+The controls allow you to scrub through an animation, select playback speed, and even choose which animation clip to play should the file contain more than one.
 
 Lastly, there is also now a button bottom right to download a rendered PNG of the 3D view.
 
@@ -108,7 +107,7 @@ Lastly, there is also now a button bottom right to download a rendered PNG of th
 
 ## Open Source
 
-PlayCanvas is fully committed to an open source strategy and our glTF viewer is therefore made available to you on [GitHub](https://github.com/playcanvas/model-viewer). It is a TypeScript application built on PlayCanvas [PCUI](https://github.com/playcanvas/pcui) front-end framework and, of course, the [PlayCanvas Engine](https://github.com/playcanvas/engine) runtime.
+PlayCanvas is fully committed to an open-source strategy and our glTF viewer is therefore made available to you on [GitHub](https://github.com/playcanvas/model-viewer). It is a TypeScript application built on PlayCanvas [PCUI](https://github.com/playcanvas/pcui) front-end framework and, of course, the [PlayCanvas Engine](https://github.com/playcanvas/engine) runtime.
 
 These open source projects have been years in the making and would not have been possible without the amazing OSS community. So why not explore our various GitHub repositories and consider making some contributions of your own. We also appreciate feature requests and bug reports, so don’t be shy!
 
