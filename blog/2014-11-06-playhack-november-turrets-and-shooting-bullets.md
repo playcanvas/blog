@@ -54,11 +54,11 @@ shoot: function () {
 
 Take a look at the `shoot()` function above. This is called when the player presses the S key. It introduces a few different concepts:
 
-**Entity.clone()**
+#### `Entity.clone()`
 
 The `clone()` method on Entities creates a complete copy of the Entity and its components. When you clone an Entity it is created but not added into the scene hierarchy so you have to call the `addChild()` method and add it to the parent of your choice. In this case, we're just adding it to the root.
 
-**Enabling and Disabling Entities**
+#### Enabling and Disabling Entities
 
 The bullet Entity we are cloning from is **disabled** in the Designer because we don't want this extra bullet in the scene. After we have cloned the Entity we want to enabled the bullet which means that the model component is enabled (it start's rendering) and the rigidbody is enabled (it starts simulating/colliding).
 

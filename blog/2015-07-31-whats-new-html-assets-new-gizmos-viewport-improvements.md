@@ -22,7 +22,7 @@ Also, we've added convenient icons for all the entity types, so you can see and
 
 You can now upload .html and .css files as assets. This is incredibly useful when you want to build UIs as part of your applications. No more HTML and CSS in strings.
 
-**Collaborative editing**
+## Collaborative editing
 
 We've also got full collaborative editing for text based assets, that is: HTML, CSS, text and JSON files. This means you can comfortably edit with a friend where ever they are in the world.
 

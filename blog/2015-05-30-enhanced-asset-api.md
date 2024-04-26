@@ -121,7 +121,7 @@ app.loader.load(url, type, callback);
 
 I'll just leave it there, see the API docs if you need more information.
 
-**Application Scene Loading**
+#### Application Scene Loading
 
 We've added a simple API for loading new scene data via the `app` object
 
@@ -136,7 +136,7 @@ These two functions accept the URL of the scene file which will be in the format
 
 Hopefully you'll find your application continues work as before, only now it loads faster and you have more options available to you for dynamically loading assets. However, this is a breaking API change so you may need to update your projects.
 
-**app.assets.load(asset)**
+**`app.assets.load(asset)`**
 
 If you are using this and passing in a single asset, we no longer return a promise. You should replace your code with this:
 
@@ -147,7 +147,7 @@ asset.ready(function (asset) {
 app.assets.load(asset);
 ```
 
-**app.assets.load(assets);**
+**`app.assets.load(assets)`**
 
 If you are loading a list of assets, our compatible load should still work. However, you should update your code to use the new loading format. As below
 
@@ -165,7 +165,7 @@ toload.forEach(function (asset) {
 });
 ```
 
-**app.loader.request()**
+**`app.loader.request()`**
 
 If you were using this to make resource requests like loading Packs or asking for texture data. This is all new. You should be able to replace these calls with some other method. Maybe `app.loadSceneHierarchy()` or by using asset preloading to delay loading texture data. However if you really need to load a resource directly. You can use the resource loader API:
 

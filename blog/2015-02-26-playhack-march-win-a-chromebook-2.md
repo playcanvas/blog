@@ -14,7 +14,7 @@ This month the author of our favorite PLAYHACK game will walk away with a **Chro
 
 Here are the specs:
 
-**Samsung Chromebook 2 13.3”**
+Samsung Chromebook 2 13.3”
 
 - Samsung Exynos 5 Octa (5800)
 - ARM® Mali™-T628 MP6 GPU
@@ -43,7 +43,7 @@ What are you waiting for?
 
 ---
 
-_Terms and Conditions_
+## Terms and Conditions
 
 _These Terms defined below apply to the PLAYHACK March Competition._
 

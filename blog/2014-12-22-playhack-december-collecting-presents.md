@@ -68,7 +68,7 @@ But the present going offscreen isn't the only thing we want to check for - we a
 
 Like before, we need to add a collision component - so right click on Santa and add one. There's a clever thing we can do here: instead of messing around with the half-extends of the collision box, trying to get it to match Santa, we can simply tell the collision component to match the size and shape of the Santa Model. Change the type attribute of the collision component to **Mesh**, and select the Santa_sleigh model for the **Asset**. Now, the collision will only check for exactly the right size of Santa.
 
-_(Wondering why we can't use a Mesh for the collision component of Gift? Checking for collisions between two Meshes is a lot more computationally expensive compared to comparing collisions with simple geometry. Therefore, checking for a collision between two Meshes isn't allowed, and since our present is basically a cube, we're using a cube for the collision volume of the present.)_
+Wondering why we can't use a Mesh for the collision component of Gift? Checking for collisions between two Meshes is a lot more computationally expensive compared to comparing collisions with simple geometry. Therefore, checking for a collision between two Meshes isn't allowed, and since our present is basically a cube, we're using a cube for the collision volume of the present.
 
 Now we just need to add a small amount of code to Santa so we know when presents collide with him.
 

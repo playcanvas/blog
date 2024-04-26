@@ -56,4 +56,4 @@ Our favorite entry is '[Five For Christmas](https://playcanv.as/p/dqK3gI4D/)' by
 
 Making great use of light and particles, felladrin created a "topdown survival game where the player (Santa) had his location revealed and all the kids are now trying to reach him. The player must throw gifts for the children, so that they don't delay the delivery of gifts this Christmas". Go visit the [game project](https://playcanvas.com/project/334394/overview/playhackdec14) and give it a star and leave a comment.
 
-# **[START PLAYHACKING!](https://playcanvas.com/project/335156/overview/playhack-jan-15)**
+## **[START PLAYHACKING!](https://playcanvas.com/project/335156/overview/playhack-jan-15)**

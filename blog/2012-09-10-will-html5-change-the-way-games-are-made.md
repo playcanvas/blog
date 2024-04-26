@@ -13,7 +13,11 @@ If you haven't read it, here are a few choice quotes to give you a feel.
 
 > The cloud brings a lot of benefits in the context of games. There is nothing to install since the web app is delivered to the browser from the server (or the browser's cache). The tools always stay seamlessly up to date, which ensures that users remain in sync with each other and are always using the latest and greatest release. User data is always safely backed up and trivially restorable.
 
+And:
+
 > One of the key strengths of HTML5 as a technology for tools is that all content sits on a URL. Each of the resources that make up a game can be accessed at a specific web address: a script file, a texture, a sound, a level or even the game itself. If a new asset is added to a project, the developer can tweet, IM or mail the link immediately.
+
+And:
 
 > Let's face it: making games is hard, and making a (good) game alone is not an option for most developers. The spectrum of skills required is often just too great. Developers need to be able to find each other and get involved in the game projects that excite them the most.
 

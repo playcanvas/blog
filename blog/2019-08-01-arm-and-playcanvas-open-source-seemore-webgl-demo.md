@@ -19,7 +19,7 @@ tags:
 [**EXPLORE PROJECT**](https://playcanvas.com/project/612100/overview/seemore)
 
 > “I’m so excited to be relaunching the Seemore demo. Open sourcing it in partnership with Arm will bring a host of benefits to the WebGL development community,” said Will Eastcott, CEO of PlayCanvas. “It’s an incredible learning resource that provides many clean, easy to follow examples of some very advanced graphical techniques. Sharing this project publicly is going to help move web graphics forwards for everybody.”
-
+>
 > “PlayCanvas and Arm have always strived to push the boundaries of graphics and the original demo is a testament to that,” said Pablo Fraile, Director of Developer Ecosystems at Arm. “It’s encouraging to see how PlayCanvas have advanced mobile web rendering performance since the original demo. This re-release provides a unique resource into graphics for the mobile web that is both easy to follow and incorporate into your own projects.”
 
 The Seemore demo was originally created as a graphical showcase for the mobile browser and takes full advantage of Arm Mali GPUs. It has been upgraded to utilize the full capabilities of WebGL 2, the latest iteration of the web graphics API. Some of the main features of the demo include:

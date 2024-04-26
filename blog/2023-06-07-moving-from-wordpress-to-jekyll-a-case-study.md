@@ -29,18 +29,18 @@ First up, I should say that you should make use of ChatGPT when you attempt some
 1. **Export Your WordPress Content.** On your WordPress Dashboard, navigate to Tools > Export and select 'All Content'. Click 'Download Export File'. You should receive an XML file that contains all of your site’s content.
 2. **Convert WordPress Export to Jekyll Format.** To convert your WordPress export file to a Jekyll-friendly format, you can use a tool called `exitwp`. Here are the steps:
 
-- Clone or download `exitwp` from its [GitHub repository](https://github.com/thomasf/exitwp).
-- Put your WordPress XML file in the `wordpress-xml` directory in the `exitwp` directory.
-- Run `exitwp` (requires Python and some libraries, see the repo's `README` for details).
-- This will generate a `_posts` directory containing all your blog posts converted into markdown format that Jekyll understands.
+    - Clone or download `exitwp` from its [GitHub repository](https://github.com/thomasf/exitwp).
+    - Put your WordPress XML file in the `wordpress-xml` directory in the `exitwp` directory.
+    - Run `exitwp` (requires Python and some libraries, see the repo's `README` for details).
+    - This will generate a `_posts` directory containing all your blog posts converted into markdown format that Jekyll understands.
 
 3. **Setting Up Jekyll.**
 
-- Install Ruby and Jekyll. For installation guide refer to [Jekyll's official site](https://jekyllrb.com/docs/installation/).
-- Create a new Jekyll site by typing `jekyll new my-awesome-site` in the command line.
-- Replace the `_posts` directory in your new Jekyll site with the `_posts` directory that `exitwp` generated.
-- You can run your site locally to see how it looks by using the command `bundle exec jekyll serve`.
-- Then, open your browser to http://localhost:4000.
+    - Install Ruby and Jekyll. For installation guide refer to [Jekyll's official site](https://jekyllrb.com/docs/installation/).
+    - Create a new Jekyll site by typing `jekyll new my-awesome-site` in the command line.
+    - Replace the `_posts` directory in your new Jekyll site with the `_posts` directory that `exitwp` generated.
+    - You can run your site locally to see how it looks by using the command `bundle exec jekyll serve`.
+    - Then, open your browser to http://localhost:4000.
 
 Once I had our blog post content successfully exported to a basic Jekyll site, I checked everything in to a new [GitHub repository](https://github.com/playcanvas/blog). From this point, I wanted any change I made to the content to be tracked via Git version control - I mean, why wouldn't you?
 

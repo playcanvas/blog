@@ -28,7 +28,7 @@ We'll pick our favorite entry (make sure you have a published build for us to pl
 
 ---
 
-**Terms and Conditions**
+### Terms and Conditions
 
 _These Terms defined below apply to the PLAYHACK May Competition._
 

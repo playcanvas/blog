@@ -23,4 +23,4 @@ Or take a read of the user manual on our developer site.
 
 Thanks,
 
-**Team PlayCanvas**
+Team PlayCanvas

@@ -9,18 +9,12 @@ tags:
 At GDC 2015, ARM and PlayCanvas unveiled the Seemore WebGL demo. If you haven’t seen it yet, it takes WebGL graphics to a whole new level.
 
 [![seemore](/img/seemore.jpg)](/img/seemore.jpg)
-[**CLICK HERE**](http://seemore.playcanvas.com)
-TO LAUNCH SEEMORE
+[**CLICK HERE**](http://seemore.playcanvas.com) TO LAUNCH SEEMORE
 
 So why did we build this demo? We had two key goals:
 
-**Put amazing demo content in the hands of you, the developer**
-
-Seemore WebGL is the first conference demo that has been developed to run specifically in the web browser. This is great, because you can run it for yourself and do so on any device. Nothing to download and install - hit a link, and you’re immediately dropped into a stunning 3D experience. And better yet, you can learn from the demo and use that knowledge in your own creations.
-
-**Demonstrate console quality graphics on mobile**
-
-ARM Mali GPUs pack a serious graphical punch and Seemore is designed to fully demonstrate this power. We have taken advanced graphical features seen in the latest generation of console titles and optimized them to be completely mobile friendly. And best of all, all of this technology is [open sourced on GitHub](https://github.com/playcanvas/engine).
+1. **Put amazing demo content in the hands of you, the developer.** Seemore WebGL is the first conference demo that has been developed to run specifically in the web browser. This is great, because you can run it for yourself and do so on any device. Nothing to download and install - hit a link, and you’re immediately dropped into a stunning 3D experience. And better yet, you can learn from the demo and use that knowledge in your own creations.
+2. **Demonstrate console quality graphics on mobile.** ARM Mali GPUs pack a serious graphical punch and Seemore is designed to fully demonstrate this power. We have taken advanced graphical features seen in the latest generation of console titles and optimized them to be completely mobile friendly. And best of all, all of this technology is [open sourced on GitHub](https://github.com/playcanvas/engine).
 
 It's not practical to examine all of the engine updates we made to bring Seemore to life. So instead, let’s examine three of the more interesting engine features that were developed for the project.
 
@@ -31,6 +25,7 @@ This is the generation and usage of prefiltered cubemaps. Each mipmap level stor
 [![prefilter](/img/prefilter.jpg)](/img/prefilter.jpg)
 
 **How did we do it?**
+
 First, we added a cubemap filtering utility to the engine (GPU-based importance sampling). The next step was to expose this functionality in the PlayCanvas Editor. This technique uses Phong lobes of different sizes to pre-blur each mip level. Runtime shaders use either the EXT_shader_texture_lod extension (where supported) or reference mip levels stored as individual textures that are interpolated manually.
 
 **Show me the code!**
@@ -76,7 +71,7 @@ This feature was required in Seemore to achieve the following:
 
 Shader chunks are stored in the engine sourcebase as .vert and .frag files that contain snippets of GLSL. You can find all of these files [here](https://github.com/playcanvas/engine/tree/main/src/scene/shader-lib/chunks). Here’s an example chunk that applies exponential squared fog to a fragment:
 
-```
+```glsl
 uniform vec3 fog_color;
 uniform float fog_density;
 

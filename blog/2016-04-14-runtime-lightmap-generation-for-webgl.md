@@ -27,17 +27,17 @@ We've also specially designed our lightmapping solution for the needs of the web
 
 ## What's good about it?
 
-**Performance**
+### Performance
 
 Just see for yourself. Switch between the lightmapped and dynamic lighting modes in the Sponza demo above. On a MacBook Pro or a recent mobile device like a Nexus 5 or iPhone 6, the lightmapped scene runs at 60fps. Using the real-time dynamic lighting we have to sample 5 filtered shadow maps (one for each light) which seriously affects performance.
 
 With this new feature, we're enabling WebGL developers to create beautifully lit 3D scenes that run in all browsers from low end mobile to high end desktop. Not only will your application run smoothly on mobile, it will also load incredibly fast.
 
-**Ease-of-use**
+### Ease-of-use
 
 The lightmapping tools are built directly into the Editor. To get started, you just need to flick a couple of check boxes on your light and model components and hit the Bake button. Find out more by reading the new [documentation](https://developer.playcanvas.com/user-manual/graphics/lighting/runtime-lightmaps/).
 
-**Features, Features, Features**
+### Features, Features, Features
 
 Of course, there are also all the bells and whistles that make the lightmapper a dream to use. We generate HDR lightmaps so everything looks great. You can mix and match your static and dynamic lighting to give you the best of both worlds. We even auto-magically UV-unwrap your models if you haven't already generated lightmap UVs.
 

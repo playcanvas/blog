@@ -63,7 +63,9 @@ Check out the colorcurve control's functionality below:
 
 To define an entity script attribute, use the following notation:
 
-    pc.script.attribute('target', 'entity');
+```javascript
+pc.script.attribute('target', 'entity');
+```
 
 This exposes an entity picker to your script UI. Even cooler is that you can drag entities from the Hierarchy panel directly onto the picker, as shown below:
 [![entitydrag](/img/entitydrag.gif)](/img/entitydrag.gif)

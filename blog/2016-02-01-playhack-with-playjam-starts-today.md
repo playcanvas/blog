@@ -58,7 +58,7 @@ So with all that out of the way. Think deep about the themes and start building 
 
 Are you excited? Got Questions? Head over to the [forum](https://forum.playcanvas.com) to shout about it.
 
-**Terms & Conditions**
+## Terms & Conditions
 
 These Terms defined below apply to the PLAYHACK February 2016 Competition.
 

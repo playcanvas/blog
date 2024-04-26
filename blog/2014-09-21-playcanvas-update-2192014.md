@@ -24,7 +24,7 @@ We're adding additional plans to our pricing structure to better accommodate bi
 
 ### Improvements
 
-**Synchronous Components and Cloning**
+#### Synchronous Components and Cloning
 
 This has been on the horizon a little while. With this new update to the engine, adding components to an entity and cloning it into new entity are now synchronous. Making your code much simpler:
 
@@ -35,7 +35,7 @@ This has been on the horizon a little while. With this new update to the engine,
 
 Previously in this code, the clone method took at least one frame to execute. This is a big improvement when you are creating Entities on the fly.
 
-**Publish over existing applications**
+#### Publish over existing applications
 
 Another little improvement that'll save you time. If you publish an application with the same name as an existing application you'll be prompted to overwrite the older app.
 

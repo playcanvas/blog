@@ -10,7 +10,7 @@ See what all your friends are looking at, as remote user cameras show up in the 
 
 The new features keep on coming from the PlayCanvas mines of awesome, and today's is a biggie.
 
-[iframe class="vine-embed" src="https://vine.co/v/hvvxaZunntI/embed/simple"][/iframe]
+<!-- [iframe class="vine-embed" src="https://vine.co/v/hvvxaZunntI/embed/simple"][/iframe] -->
 
 We're now displaying the camera's of all the users who are viewing your pack. Now it's really starting to feel like a collaborative process when you are building your game.
 

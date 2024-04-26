@@ -15,6 +15,8 @@ PlayCanvas and Hutch Games have collaborated to create a set of 3D interactive e
 
 Currently interactive 3D content, including games, has always been locked up inside app stores and browser plugins. This means that on mobile devices, users have to suffer through the download and install process just to experience a bit of fun. PlayCanvas is the only engine technology that can bring these experiences to life on the web or in social networking apps.
 
-PlayCanvas co-founder and CEO Will Eastcott said today _“User acquisition is the biggest problem facing mobile game developers today. By using their existing assets in exciting, shareable and viral ways game developers can attract engaged players who have already demonstrated an interest in their game._
+PlayCanvas co-founder and CEO Will Eastcott said today:
 
-_"This is changing the way developers think about promoting their games. PlayCanvas has unlocked the ability to make beautiful and exciting visuals available directly to players, in their browser and in their social network feeds. We know that interactive content can convert users as much as 50% more than static images and we expect PlayCanvas-powered interactive campaigns to become the standard way to promote mobile games."_
+> User acquisition is the biggest problem facing mobile game developers today. By using their existing assets in exciting, shareable and viral ways game developers can attract engaged players who have already demonstrated an interest in their game.
+>
+> This is changing the way developers think about promoting their games. PlayCanvas has unlocked the ability to make beautiful and exciting visuals available directly to players, in their browser and in their social network feeds. We know that interactive content can convert users as much as 50% more than static images and we expect PlayCanvas-powered interactive campaigns to become the standard way to promote mobile games.

@@ -28,7 +28,7 @@ Next week PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/), repres
 
 Will, our CEO, will be attending this year's [GAMESCOM](https://www.gamescom.global/) showing for mobile and HTML5 games. [Get in touch](mailto:info@playcanvas.com) if you'd like to set up a meeting or see a up-close demo of PlayCanvas.
 
-**Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks**
+Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks!
 
 ### Stay In The Loop
 

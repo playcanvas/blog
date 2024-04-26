@@ -42,7 +42,7 @@ Valentine's Day is only 2 weeks away, so don't wait around. If you miss the 14th
 
 As there are so many models this month, feel free to pick and choose a few that you need.
 
-**Judging**
+### Judging
 
 The process of judging is as broad as the rules. You won’t be marked on the strength of code, graphics of theme, the winning game will be the game that we enjoy the most, simple.
 

@@ -11,17 +11,17 @@ tags:
 
 [![playcanvas oculus1](/img/playcanvas-oculus1.jpg)](/img/playcanvas-oculus1.jpg)
 
-**What is the Oculus Rift?**
+## What is the Oculus Rift?
 
 Developed first by then 18 year old Palmer Luckey, two evolutions of its development kit amongst other improvements makes it arguably the most promising virtual reality system to date. The Oculus Rift is a low latency,head-mounted display that receives two independently rendered images to a screen to be viewed through stereoscope lenses.
 
-**Why Virtual reality?**
+## Why Virtual reality?
 
 Many virtual reality experiences target immersion, where users interaction can open the door to a reality (even if only partially) that is not their own.  However the technology behind the Oculus lets the user into a much deeper experience. Where extreme latency and narrow fields of vision have prevented previous Virtual Reality technologies from being immersive, they have often proved successful in creating nausea. As humans are sensitive to latencies as low as 20 milliseconds it is important for the technology in question to be as precise and fast as possible.
 
 Usually leaving users craning necks and grabbing thin air in disbelief, the Oculus takes over 1000 readings per second and so far is effective enough to trick the mind and simulate a physical presence. The VR industry is now closer to 'telexistance' than ever before. Mark Zuckerberg, the current owner of the technology (following an acquisition worth $2 billion by Facebook) described its potential, exclaiming  "Imagine enjoying a courtside seat at a game, studying in a classroom of students and teachers all over the world, or consulting with a doctor face-to-face—just by putting on goggles in your home.”. The Oculus promises that in (hopefully few) years to come, gamers may be able to act and react naturally in what is still a virtual setting.
 
-**The Oculus Rift and PlayCanvas**
+## The Oculus Rift and PlayCanvas
 
 [![Dave in VR](/img/dave-vr.jpg)](/img/dave-vr.jpg)
 <br />_Oculus Rift support coming soon to PlayCanvas_

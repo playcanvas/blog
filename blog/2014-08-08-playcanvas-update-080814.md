@@ -14,7 +14,7 @@ In a few days PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/). We'
 
 We'll also be at [GDC Europe](https://twitter.com/GDC_Europe) and [gamescom](https://www.gamescom.global/). [Get in touch](mailto:info@playcanvas.com) if you'd like to set up a meeting or see an up-close demo of PlayCanvas.
 
-**Watch this space for SIGGRAPH and gamescom updates over the next week**
+Watch this space for SIGGRAPH and gamescom updates over the next week!
 
 ### Stay In The Loop
 
