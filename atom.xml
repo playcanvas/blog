@@ -480,39 +480,19 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="refactoring-of-webgl-engine">Refactoring of WebGL engine<a href="https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62#refactoring-of-webgl-engine" class="hash-link" aria-label="Direct link to Refactoring of WebGL engine" title="Direct link to Refactoring of WebGL engine">​</a></h2>
 <p>Before adding support for WebGPU, it's important to discuss the significant amount of refactoring work that was required on our existing WebGL engine. Implementing deeper architectural changes while preserving backwards compatibility required a significant amount of meticulous care.</p>
 <ul>
-<li>
-<p>To enable support for WebGPU, we needed to establish a clear separation of graphics technology that could be shared between WebGL and WebGPU. This involved a significant refactoring effort to extract WebGL-specific code into a separate set of classes.</p>
-</li>
-<li>
-<p>PlayCanvas utilizes a collection of shader chunks to produce GLSL shaders that implement advanced material properties and lighting modes, as well as custom shader chunks defined by users. However, since WebGPU employs the WGSL language, we used glslang and tint WASM modules to dynamically convert these shaders on-the-fly with injecting support for uniform buffers and other modifications.</p>
-</li>
-<li>
-<p>The PlayCanvas engine lacked explicit render passes, making the rendering process more rigid and harder to extend. This was solved by implementing a FrameGraph that allowed us to describe the rendering process as a set of render passes, their dependencies, and associated targets, which created a more flexible and performant rendering architecture.</p>
-</li>
-<li>
-<p>Unlike WebGL, which sets render state and shaders using a custom API, WebGPU specifies all those through render pipelines. To support both rendering APIs with optimal performance, we needed to refactor the render states into standalone objects that are efficient to compare and set up.</p>
-</li>
-<li>
-<p>To support the WebGPU platform, we need to undergo a significant refactoring to organize uniforms into uniform buffers.</p>
-</li>
-<li>
-<p>To facilitate the asynchronous creation of WebGPU device, we have introduced a new async API to create a graphics device, which is the primary breaking change required to adopt WebGPU.</p>
-</li>
+<li>To enable support for WebGPU, we needed to establish a clear separation of graphics technology that could be shared between WebGL and WebGPU. This involved a significant refactoring effort to extract WebGL-specific code into a separate set of classes.</li>
+<li>PlayCanvas utilizes a collection of shader chunks to produce GLSL shaders that implement advanced material properties and lighting modes, as well as custom shader chunks defined by users. However, since WebGPU employs the WGSL language, we used glslang and tint WASM modules to dynamically convert these shaders on-the-fly with injecting support for uniform buffers and other modifications.</li>
+<li>The PlayCanvas engine lacked explicit render passes, making the rendering process more rigid and harder to extend. This was solved by implementing a FrameGraph that allowed us to describe the rendering process as a set of render passes, their dependencies, and associated targets, which created a more flexible and performant rendering architecture.</li>
+<li>Unlike WebGL, which sets render state and shaders using a custom API, WebGPU specifies all those through render pipelines. To support both rendering APIs with optimal performance, we needed to refactor the render states into standalone objects that are efficient to compare and set up.</li>
+<li>To support the WebGPU platform, we need to undergo a significant refactoring to organize uniforms into uniform buffers.</li>
+<li>To facilitate the asynchronous creation of WebGPU device, we have introduced a new async API to create a graphics device, which is the primary breaking change required to adopt WebGPU.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-left-to-do">What is left to do<a href="https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62#what-is-left-to-do" class="hash-link" aria-label="Direct link to What is left to do" title="Direct link to What is left to do">​</a></h2>
 <ul>
-<li>
-<p>Our primary objective is to align the WebGPU implementation with that of WebGL, and while we have made significant progress towards this goal, there are still some features that are missing. Furthermore, several smaller details require cleanup and rectification.</p>
-</li>
-<li>
-<p>We need to incorporate it into the Editor environment for both launched and published applications. Currently, only WebGL is available in this environment.</p>
-</li>
-<li>
-<p>Our primary objective is to achieve full parity with WebGL, but initially, we are focusing on basic implementations of some concepts to deliver a working implementation, which will need to be extended to meet our performance objectives.</p>
-</li>
-<li>
-<p>WebGPU provides developers with access to Compute Shaders, which enables more efficient parallel processing of data on the GPU. This feature can significantly improve the performance of complex algorithms and simulations, which may have been impractical to run on the CPU. With access to Compute Shaders, we can bring new visual features to the next level, such as advanced particle systems, post-processing and global illumination techniques.</p>
-</li>
+<li>Our primary objective is to align the WebGPU implementation with that of WebGL, and while we have made significant progress towards this goal, there are still some features that are missing. Furthermore, several smaller details require cleanup and rectification.</li>
+<li>We need to incorporate it into the Editor environment for both launched and published applications. Currently, only WebGL is available in this environment.</li>
+<li>Our primary objective is to achieve full parity with WebGL, but initially, we are focusing on basic implementations of some concepts to deliver a working implementation, which will need to be extended to meet our performance objectives.</li>
+<li>WebGPU provides developers with access to Compute Shaders, which enables more efficient parallel processing of data on the GPU. This feature can significantly improve the performance of complex algorithms and simulations, which may have been impractical to run on the CPU. With access to Compute Shaders, we can bring new visual features to the next level, such as advanced particle systems, post-processing and global illumination techniques.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="engine-examples">Engine examples<a href="https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62#engine-examples" class="hash-link" aria-label="Direct link to Engine examples" title="Direct link to Engine examples">​</a></h2>
 <p>As an early pre-release of WebGPU, we have updated several engine examples to use it, which can be accessed on <a href="https://playcanvas.github.io/" target="_blank" rel="noopener noreferrer">https://playcanvas.github.io</a>. To use WebGPU, the Chrome Canary browser is required, with the 'chrome://flags/#enable-unsafe-webgpu' flag enabled.</p>
@@ -635,15 +615,9 @@
 <div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> </span><span class="token maybe-class-name">ScaleRandomizer</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> pc</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">createScript</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'scaleRandomizer'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token maybe-class-name">ScaleRandomizer</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">attributes</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'baseScale'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">type</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'number'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'Base Scale'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">description</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'The base scale to deviate from'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token maybe-class-name">ScaleRandomizer</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">attributes</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">add</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'scaleDeviation'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">type</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'number'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'Scale Deviation'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">description</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'The amount by which the effective scale should deviate from the base scale'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic">// initialize code called once per entity</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">ScaleRandomizer</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">initialize</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">entity</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">setLocalScale</span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">getRandomScale</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">ScaleRandomizer</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">getRandomScale</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> deviation </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">getRandomFloatDeviation</span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">scaleDeviation</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> randomScale </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">baseScale</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> deviation</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">new</span><span class="token plain"> </span><span class="token class-name">pc</span><span class="token class-name punctuation" style="color:#393A34">.</span><span class="token class-name">Vec3</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">randomScale</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> randomScale</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> randomScale</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Awesome, the asteroids look much nicer. Let's turn our attention back to our background for a moment as it looks very static.</p>
 <ul>
-<li>
-<p>Could we give it some life by adding some ‘background’ asteroids?</p>
-</li>
-<li>
-<p>Could we even make destroyed asteroids leave pieces behind as we destroy them?</p>
-</li>
-<li>
-<p>The game currently gets harder as time goes on. Maybe we can indicate that visually somehow? Maybe by changing the background texture?</p>
-</li>
+<li>Could we give it some life by adding some ‘background’ asteroids?</li>
+<li>Could we even make destroyed asteroids leave pieces behind as we destroy them?</li>
+<li>The game currently gets harder as time goes on. Maybe we can indicate that visually somehow? Maybe by changing the background texture?</li>
 </ul>
 <p>Let's implement these ideas!</p>
 <p>For the background asteroids, I simply reused our asteroid spawner class, but moved the spawn points a bit below.</p>
@@ -742,28 +716,16 @@
 <p><a href="https://blog.playcanvas.com/assets/files/webxr-folder-82ff86556270e9adf0822640bd3803f4.png" target="_blank"><img decoding="async" loading="lazy" alt="WebXR Folder In Assets Panel" src="https://blog.playcanvas.com/assets/images/webxr-folder-82ff86556270e9adf0822640bd3803f4.png" width="1626" height="704" class="img_ev3q"></a></p>
 <p>'xr-manger.js' is controls how the XR experience is managed and handled throughout the experience:</p>
 <ul>
-<li>
-<p>Entering and leaving AR and VR.</p>
-</li>
-<li>
-<p>Which UI buttons to show based on the XR capabilities of the device it is running on (e.g hides the VR UI button if AR is available or VR is not available).</p>
-</li>
-<li>
-<p>Showing and hiding Entities that are specific to each experience.</p>
-</li>
-<li>
-<p>Moving specific Entities in front of the user when in AR so the video can be seen more easily without moving.</p>
-</li>
+<li>Entering and leaving AR and VR.</li>
+<li>Which UI buttons to show based on the XR capabilities of the device it is running on (e.g hides the VR UI button if AR is available or VR is not available).</li>
+<li>Showing and hiding Entities that are specific to each experience.</li>
+<li>Moving specific Entities in front of the user when in AR so the video can be seen more easily without moving.</li>
 </ul>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="adding-ar">Adding AR<a href="https://blog.playcanvas.com/playcanvas-now-supports-microsoft-volumetric-video-playback#adding-ar" class="hash-link" aria-label="Direct link to Adding AR" title="Direct link to Adding AR">​</a></h4>
 <p>AR mode was added first, taking the 'xr-manager.js' script as a base from <a href="https://developer.playcanvas.com/tutorials/webxr-ray-input/" target="_blank" rel="noopener noreferrer">WebXR UI Interaction tutorial</a>. Key changes that had to be made to the project were:</p>
 <ul>
-<li>
-<p>Ensuring ‘Transparent Canvas’ is enabled in the project rendering settings.</p>
-</li>
-<li>
-<p>Creating a second camera specifically for AR which is set to render the layers that are needed for AR (i.e. not including the skybox layer) and having a transparent clear color for video passthrough).</p>
-</li>
+<li>Ensuring ‘Transparent Canvas’ is enabled in the project rendering settings.</li>
+<li>Creating a second camera specifically for AR which is set to render the layers that are needed for AR (i.e. not including the skybox layer) and having a transparent clear color for video passthrough).</li>
 </ul>
 <p>After <a href="https://developer.playcanvas.com/user-manual/designer/assets/#copy-and-paste-between-projects" target="_blank" rel="noopener noreferrer">copying and pasting</a> 'the xr-manager.js' file from the tutorial project into the demo project, I hooked up the UI elements and buttons to enter AR and added extra functionality to disable and enable Entities for AR and non-AR experiences.</p>
 <p>This was handled by adding tags to those Entities that the manager finds and disables/enables when the user starts and exits the XR experiences.</p>
@@ -805,12 +767,8 @@
 <p>There is other functionality in the experience that has been taken from our <a href="https://developer.playcanvas.com/tutorials/" target="_blank" rel="noopener noreferrer">tutorial/demo project section</a> that have been slightly modified for this project.</p>
 <p>These include:</p>
 <ul>
-<li>
-<p><a href="https://developer.playcanvas.com/tutorials/orbit-camera/" target="_blank" rel="noopener noreferrer">Orbit Camera</a> for the non XR camera controls. The orbit camera controls are disabled when the camera entity is disabled so that the camera wouldn't move while in a XR session.</p>
-</li>
-<li>
-<p><a href="https://developer.playcanvas.com/tutorials/video-textures/" target="_blank" rel="noopener noreferrer">Video Textures</a> for the Microsoft video on the information dialog. <a href="https://playcanvas.com/editor/code/988340?tabs=104167290" target="_blank" rel="noopener noreferrer">It was modified</a> so that it would apply the video texture directly to the Element on the Entity it was attached to.</p>
-</li>
+<li><a href="https://developer.playcanvas.com/tutorials/orbit-camera/" target="_blank" rel="noopener noreferrer">Orbit Camera</a> for the non XR camera controls. The orbit camera controls are disabled when the camera entity is disabled so that the camera wouldn't move while in a XR session.</li>
+<li><a href="https://developer.playcanvas.com/tutorials/video-textures/" target="_blank" rel="noopener noreferrer">Video Textures</a> for the Microsoft video on the information dialog. <a href="https://playcanvas.com/editor/code/988340?tabs=104167290" target="_blank" rel="noopener noreferrer">It was modified</a> so that it would apply the video texture directly to the Element on the Entity it was attached to.</li>
 </ul>
 <p>Although not PlayCanvas related, it is worth shouting out: the awesome QR code (that is displayed if the device is not XR compatible) is generated with <a href="https://github.com/x-hw/amazing-qr" target="_blank" rel="noopener noreferrer">Amazing-QR</a>. It's able to create colorful and animated QR codes that are more interesting and attractive than the typical black and white versions.</p>
 <p><a href="https://blog.playcanvas.com/assets/files/awesome-qr-code-766d79db28f06157e621c3c21129634e.jpg" target="_blank"><img decoding="async" loading="lazy" alt="QR Code" src="https://blog.playcanvas.com/assets/images/awesome-qr-code-766d79db28f06157e621c3c21129634e.jpg" width="1313" height="720" class="img_ev3q"></a></p>
@@ -824,15 +782,9 @@
 <p>If you have reached here, thank you very much for reading and we hope you have found some useful takeaways that you can use in your own projects!</p>
 <p>Useful links:</p>
 <ul>
-<li>
-<p><a href="https://www.microsoft.com/en-us/mixed-reality/capture-studios" target="_blank" rel="noopener noreferrer">Read more about Microsoft Capture Studios</a></p>
-</li>
-<li>
-<p><a href="https://playcanvas.com/project/988340/overview/ms-mrcs-holo-video-private" target="_blank" rel="noopener noreferrer">Open in Editor</a></p>
-</li>
-<li>
-<p><a href="https://playcanv.as/p/d3xb8X2Q/" target="_blank" rel="noopener noreferrer">Play the Published Build</a></p>
-</li>
+<li><a href="https://www.microsoft.com/en-us/mixed-reality/capture-studios" target="_blank" rel="noopener noreferrer">Read more about Microsoft Capture Studios</a></li>
+<li><a href="https://playcanvas.com/project/988340/overview/ms-mrcs-holo-video-private" target="_blank" rel="noopener noreferrer">Open in Editor</a></li>
+<li><a href="https://playcanv.as/p/d3xb8X2Q/" target="_blank" rel="noopener noreferrer">Play the Published Build</a></li>
 </ul>
 <p>We would love to get your thoughts and feedback so come join the conversation on the <a href="https://forum.playcanvas.com/t/playcanvas-now-supports-microsoft-volumetric-video-playback/29355" target="_blank" rel="noopener noreferrer">PlayCanvas forum</a>!</p>]]></content>
         <author>
@@ -867,15 +819,9 @@
 <!-- -->glTF conversion&nbsp;<a href="https://github.com/KhronosGroup/glTF-Sample-Models/pull/150#issuecomment-406300118" target="_blank" rel="noopener noreferrer">by @AsoboStudio and @scurest</a></em></p>
 <p>In short, glTF import is a major addition to the PlayCanvas Editor, and will greatly enhance the workflow of our users. It allows developers to:</p>
 <ul>
-<li>
-<p>Faithfully import glTF/GLB files from many different applications and stores.</p>
-</li>
-<li>
-<p>Edit the materials and hierarchy of imported glTF/GLB files.</p>
-</li>
-<li>
-<p>Import glTF/GLB animations and quickly configure loops and transitions.</p>
-</li>
+<li>Faithfully import glTF/GLB files from many different applications and stores.</li>
+<li>Edit the materials and hierarchy of imported glTF/GLB files.</li>
+<li>Import glTF/GLB animations and quickly configure loops and transitions.</li>
 </ul>
 <p>We are thrilled to bring this new feature to our users and we can't wait to see the amazing projects that will be created with it. If you have any questions or feedback, please let us know on our <a href="https://forum.playcanvas.com/t/glb-gltf-2-0-import-for-playcanvas-is-live/29341" target="_blank" rel="noopener noreferrer">community forum</a>.</p>
 <p>Thank you for choosing PlayCanvas, and happy creating!</p>]]></content>
@@ -926,29 +872,16 @@
 <p>We've been continuously improving the Editor, making it even more powerful and user-friendly for our developers.</p>
 <p>These include:</p>
 <ul>
-<li>
-<p><a href="https://eng.snap.com/playcanvas-backend-infrastructure" target="_blank" rel="noopener noreferrer">Infrastructure upgrades across the board</a> with benefits to all users including:</p>
+<li><a href="https://eng.snap.com/playcanvas-backend-infrastructure" target="_blank" rel="noopener noreferrer">Infrastructure upgrades across the board</a> with benefits to all users including:<!-- -->
 <ul>
-<li>
-<p>Faster download speeds for published build zips across the world.</p>
-</li>
-<li>
-<p>Faster asset delivery with up to 50% improvement in loading projects in the Editor and the Launch Tab.</p>
-</li>
-<li>
-<p>Zero downtime deployment for services.</p>
-</li>
+<li>Faster download speeds for published build zips across the world.</li>
+<li>Faster asset delivery with up to 50% improvement in loading projects in the Editor and the Launch Tab.</li>
+<li>Zero downtime deployment for services.</li>
 </ul>
 </li>
-<li>
-<p><a href="https://github.com/playcanvas/editor/releases/tag/v1.21.81" target="_blank" rel="noopener noreferrer">More powerful Scene Hierarchy Search</a> that searches components and script names.</p>
-</li>
-<li>
-<p><a href="https://github.com/playcanvas/editor/releases/tag/v1.21.61" target="_blank" rel="noopener noreferrer">Creating Texture Tool</a> to inspect textures and convert HDRIs to/from cubemaps (also open source!).</p>
-</li>
-<li>
-<p>Adding GitHub sign-in.</p>
-</li>
+<li><a href="https://github.com/playcanvas/editor/releases/tag/v1.21.81" target="_blank" rel="noopener noreferrer">More powerful Scene Hierarchy Search</a> that searches components and script names.</li>
+<li><a href="https://github.com/playcanvas/editor/releases/tag/v1.21.61" target="_blank" rel="noopener noreferrer">Creating Texture Tool</a> to inspect textures and convert HDRIs to/from cubemaps (also open source!).</li>
+<li>Adding GitHub sign-in.</li>
 </ul>
 <p><a href="https://github.com/playcanvas/editor/releases/tag/v1.21.82" target="_blank" rel="noopener noreferrer">The project dashboard has gotten a huge refresh</a> and can be accessed in-Editor. It includes searching and sorting of the project list as well as being able to manage teams and settings without leaving the Editor!</p>
 <p><a href="https://blog.playcanvas.com/assets/files/editor-project-dashboard-c2c9f9d5ff464e30aaa1b83959a9d149.png" target="_blank"><img decoding="async" loading="lazy" alt="Project Dashboard" src="https://blog.playcanvas.com/assets/images/editor-project-dashboard-c2c9f9d5ff464e30aaa1b83959a9d149.png" width="1342" height="685" class="img_ev3q"></a></p>
