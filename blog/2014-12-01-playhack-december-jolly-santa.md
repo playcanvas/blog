@@ -42,8 +42,8 @@ We will be holding things down here at HQ during the month long jam by **sharing
 
 On the **1st of January** we will judge your projects and our favorite will be **featured on the PlayCanvas landing page!**
 
-[![SRL](/img/playhack-nov-14-srl.png)](https://playcanvas.com/project/331749/overview/gamehack)
-<br />_[Play SRL](https://playcanv.as/p/o5sSYIiR/) by lizzip and auroraimortalis_
+[![SRL](/img/playhack-nov-14-srl.png)](https://playcanvas.com/project/331749/overview/gamehack)  
+_[Play SRL](https://playcanv.as/p/o5sSYIiR/) by lizzip and auroraimortalis_
 
 ## Last Month
 

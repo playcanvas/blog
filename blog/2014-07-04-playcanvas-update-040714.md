@@ -6,8 +6,8 @@ title: PlayCanvas Update 04/07/14
 
 There has been plenty going on at HQ since our last update and it is all making game development on our engine that little bit easier. Here’s a run down of engine optimizations, new features and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.
 
-[![Spacetifacts](/img/Spacetifacts.jpg)](/img/Spacetifacts.jpg)
-<br />_Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam_
+[![Spacetifacts](/img/Spacetifacts.jpg)](/img/Spacetifacts.jpg)  
+_Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam_
 
 ### Asset Lists
 
@@ -30,7 +30,5 @@ Team [HexPenguin](https://twitter.com/HexPenguin) used PlayCanvas in the Malmo G
 ### Stay In The Loop
 
 - Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
 - Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
-
 - Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
