@@ -29,11 +29,13 @@ This page is an effort to supply a list of HTML5 APIs that I think game develope
 
 2D rendering
 
-| Chrome  | yes |
-| Firefox | yes |
-| Safari  | yes |
-| Opera   | yes |
-| IE      | yes |
+| Browser | Support |
+|---------|---------|
+| Chrome  | yes     |
+| Firefox | yes     |
+| Safari  | yes     |
+| Opera   | yes     |
+| IE      | yes     |
 
 [source](https://caniuse.com/canvas)
 
@@ -41,10 +43,12 @@ This page is an effort to supply a list of HTML5 APIs that I think game develope
 
 3D rendering using API similar to OpenGL ES 2.0
 
+| Browser | Support  |
+|---------|----------|
 | Chrome  | yes      |
 | Firefox | yes      |
-| Safari  | nearly\* |
-| Opera   | nearly\* |
+| Safari  | nearly*  |
+| Opera   | nearly*  |
 | IE      | no       |
 
 *In Safari and Opera WebGL must be enabled in a developer menu.  
@@ -54,6 +58,8 @@ This page is an effort to supply a list of HTML5 APIs that I think game develope
 
 Allow an element to render fullscreen
 
+| Browser | Support |
+|---------|---------|
 | Chrome  | yes     |
 | Firefox | yes     |
 | Safari  | yes     |
@@ -70,11 +76,13 @@ Allow an element to render fullscreen
 
 Low-latency audio playback for sound effects. Including effects pipeline for reverb, pan, spatial audio, etc.
 
-| Chrome  | yes       |
-| Firefox | planned\* |
-| Safari  | yes       |
-| Opera   | no        |
-| IE      | no        |
+| Browser | Support  |
+|---------|----------|
+| Chrome  | yes      |
+| Firefox | planned* |
+| Safari  | yes      |
+| Opera   | no       |
+| IE      | no       |
 
 *Mozilla have announced they're [working on it](https://wiki.mozilla.org/Web_Audio_API) and progress is tracked on this [issue](https://bugzilla.mozilla.org/show_bug.cgi?id=779297)  
 [spec](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
@@ -87,11 +95,13 @@ Low-latency audio playback for sound effects. Including effects pipeline for rev
 
 Get events from accelerometers in the device
 
-| Chrome  | yes   |
-| Firefox | yes   |
-| Safari  | yes\* |
-| Opera   | no    |
-| IE      | no    |
+| Browser | Support       |
+|---------|---------------|
+| Chrome  | yes           |
+| Firefox | yes           |
+| Safari  | yes*          |
+| Opera   | no            |
+| IE      | no            |
 
 *Mobile Safari only  
 [source](https://caniuse.com/deviceorientation) | [spec](https://w3c.github.io/deviceorientation/spec-source-orientation.html)
@@ -100,7 +110,9 @@ Get events from accelerometers in the device
 
 Capture mouse input without moving the cursor. Required for FPS type camera control.
 
-| Chrome  | yes                  |
+| Browser | Support              |
+|---------|----------------------|
+| Chrome  | yes*                 |
 | Firefox | fullscreen mode only |
 | Safari  | no                   |
 | Opera   | no                   |
@@ -113,11 +125,13 @@ Capture mouse input without moving the cursor. Required for FPS type camera cont
 
 Get input from hardware gamepad/controllers
 
-| Chrome  | yes       |
-| Firefox | planned\* |
-| Safari  | no        |
-| Opera   | no        |
-| IE      | no        |
+| Browser | Support  |
+|---------|----------|
+| Chrome  | yes      |
+| Firefox | planned* |
+| Safari  | no       |
+| Opera   | no       |
+| IE      | no       |
 
 *Firefox builds with gamepad support are available, issue tracking it is [here](https://bugzilla.mozilla.org/show_bug.cgi?id=604039).  
 [spec](https://w3c.github.io/gamepad/)
@@ -126,11 +140,13 @@ Get input from hardware gamepad/controllers
 
 Get input from microphone or webcam
 
-| Chrome  | yes       |
-| Firefox | planned\* |
-| Safari  | no        |
-| Opera   | yes       |
-| IE      | no        |
+| Browser | Support  |
+|---------|----------|
+| Chrome  | yes      |
+| Firefox | planned* |
+| Safari  | no       |
+| Opera   | yes      |
+| IE      | no       |
 
 *Firefox are [planning](https://wiki.mozilla.org/Platform/Features/Camera_API_-_Phase_2_(getUserMedia)) to support getUserMedia()  
 [source](https://caniuse.com/stream)
@@ -148,11 +164,13 @@ Support for keyboard input that supports international keyboard layouts. There i
 
 Continuous communication over HTTP
 
-| Chrome  | yes |
-| Firefox | yes |
-| Safari  | yes |
-| Opera   | yes |
-| IE      | yes |
+| Browser | Support |
+|---------|---------|
+| Chrome  | yes     |
+| Firefox | yes     |
+| Safari  | yes     |
+| Opera   | yes     |
+| IE      | yes     |
 
 [source](https://caniuse.com/websockets) \| [spec](https://websockets.spec.whatwg.org/)
 
@@ -160,13 +178,15 @@ Continuous communication over HTTP
 
 Realtime communication API for peer-to-peer type networking including audio and video chat.
 
-| Chrome  | nearly\*    |
-| Firefox | planned\*\* |
-| Safari  | no          |
-| Opera   | no          |
-| IE      | no          |
+| Browser  | Support      |
+|----------|--------------|
+| Chrome   | nearly*      |
+| Firefox  | planned**    |
+| Safari   | no           |
+| Opera    | no           |
+| IE       | no           |
 
-*You can enable WebRTC in chrome://flags  
+*You can enable WebRTC in `chrome://flags`  
 **Mozilla have the [feature](https://wiki.mozilla.org/Platform/Features/WebRTC) planned  
 [source](https://webrtc.org/) | [spec](https://www.w3.org/TR/webrtc/)
 
@@ -178,11 +198,13 @@ Realtime communication API for peer-to-peer type networking including audio and 
 
 Key-Value store for local data, that can persist between page loads. Like Cookies done right.
 
-| Chrome  | yes |
-| Firefox | yes |
-| Safari  | yes |
-| Opera   | yes |
-| IE      | yes |
+| Browser | Support |
+|---------|---------|
+| Chrome  | yes     |
+| Firefox | yes     |
+| Safari  | yes     |
+| Opera   | yes     |
+| IE      | yes     |
 
 [source](https://caniuse.com/namevalue-storage) \| [spec](https://html.spec.whatwg.org/multipage/#toc-webstorage)
 
@@ -190,14 +212,20 @@ Key-Value store for local data, that can persist between page loads. Like Cookie
 
 Cache entire applications locally for use when offline.
 
-| Chrome  | yes |
-| Firefox | yes |
-| Safari  | yes |
-| Opera   | yes |
-| IE      | yes |
+| Browser | Support |
+|---------|---------|
+| Chrome  | yes     |
+| Firefox | yes     |
+| Safari  | yes     |
+| Opera   | yes     |
+| IE      | yes     |
 
 [source](https://caniuse.com/offline-apps) \| [spec](https://www.w3.org/TR/2011/WD-html5-20110525/offline.html#offline)
 
 Do you have any other suggestions for APIs you'd like to see tracked here. Or other features that game developers want that are missing from HTML5 specs? Please email us at [support@playcanvas.com](mailto:support@playcanvas.com).
 
-Note: [caniuse.com](https://caniuse.com/) is great resource for checking which features are available in which browsers. It was used as a source for many of the tables above.
+:::note
+
+[caniuse.com](https://caniuse.com/) is great resource for checking which features are available in which browsers. It was used as a source for many of the tables above.
+
+:::
