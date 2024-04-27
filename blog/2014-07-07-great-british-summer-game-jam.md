@@ -22,8 +22,8 @@ Several of the 10-or-so teams used PlayCanvas to create their game but it was Te
 
 Made up of a group of seasoned game jam veterans, Team Godlike were nothing if not ambitious. Their game Sunshi\*e was a Katamari Damacy inspired design, which saw the player evolve from tiny bee, to majestic swift (sadly they didn't get as far as the concorde they had in their initial plans), as your perspective grows the British Isles are revealed. All to an "English Country Garden" soundtrack.
 
-[![Sunshine](/img/gb-summer-jam-sunshine.png)](https://playcanv.as/p/cyVYGUjA/)
-<br />_[Play Sunshi\*e](https://playcanv.as/p/cyVYGUjA/) or check out the [project](https://playcanvas.com/project/178037/overview/gbsummerjam)_
+[![Sunshine](/img/gb-summer-jam-sunshine.png)](https://playcanv.as/p/cyVYGUjA/)  
+_[Play Sunshi\*e](https://playcanv.as/p/cyVYGUjA/) or check out the [project](https://playcanvas.com/project/178037/overview/gbsummerjam)_
 
 It's a great achievement for a weekend, and a glowing testament of how powerful PlayCanvas is, to for a team and collaborate to build a game in such a short space of time.
 
