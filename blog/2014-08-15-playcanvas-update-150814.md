@@ -18,7 +18,5 @@ Will (PlayCanvas CEO) headed off to [GDC Europe](https://twitter.com/GDC_Europe)
 ### Stay In The Loop
 
 - Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
 - Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
-
 - Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).

@@ -69,9 +69,7 @@ On this character, only colliders for the legs and body are needed.
 We are really excited about developing this technology in the coming months. We will focus on these areas:
 
 - Take learnings from the prototype and add good support for soft body dynamics in PlayCanvas
-
 - Create easy to use tools for PlayCanvas developers to import and setup characters with soft body dynamics
-
 - Further optimize and improve quality
 
 We would love to get your thoughts and feedback so come join the conversation on the [PlayCanvas forum](https://forum.playcanvas.com/t/how-to-implement-cloth-simulation-with-playcanvas/13484)!

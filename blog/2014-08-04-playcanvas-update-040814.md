@@ -33,7 +33,5 @@ Watch this space for SIGGRAPH and GAMESCOM updates over the next two weeks!
 ### Stay In The Loop
 
 - Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
 - Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
-
 - Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).

@@ -92,9 +92,7 @@ So you want to help us make the very best 3D engine on the web? Great! Head ove
 Lastly, stay in touch, we're a friendly bunch.
 
 - Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
 - Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
-
 - Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).
 
 We’re super excited to see what the open source community will do with the PlayCanvas Engine. Get creative and be sure to let us know about your projects.
