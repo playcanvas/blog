@@ -24,8 +24,8 @@ Some engine fixes too:
 
 ### Develop conference
 
-[![Develop Conference](/img/Develop-Conference.jpg)](/img/Develop-Conference.jpg)
-<br />_Looks fancy doesn’t it? You’d think developers were paid as much as footballers... Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end._
+[![Develop Conference](/img/Develop-Conference.jpg)](/img/Develop-Conference.jpg)  
+_Looks fancy doesn’t it? You’d think developers were paid as much as footballers... Dave isn’t actually in this picture by the way, so if you’re playing ‘Where’s Wally’, don’t, it’ll never end._
 
 We were incredibly pleased to be nominated for the **Technical Innovation Award** at the prestigious [Develop Awards](https://www.developawards.com/) last week. David Evans, CTO and co-founder of PlayCanvas put in an appearance, but sadly, we lost out to Oculus and their Rift. Next year, however, the story will be very different.
 
@@ -36,7 +36,5 @@ We have been featured in a double-page spread in the venerable Develop Magazine.
 ### Stay In The Loop
 
 - Follow us on Twitter, [@playcanvas](https://twitter.com/playcanvas), for updates on PlayCanvas.
-
 - Like the [PlayCanvas Facebook](https://facebook.com/playcanvas) page for our whimsical views on the game dev scene.
-
 - Join and start discussions on the [PlayCanvas Forum](https://forum.playcanvas.com/).

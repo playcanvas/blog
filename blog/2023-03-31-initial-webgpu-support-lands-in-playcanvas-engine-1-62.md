@@ -12,8 +12,8 @@ PlayCanvas has been at the forefront of this new technology and has been working
 
 With WebGPU, we can expect to see more immersive and interactive 3D experiences on the web in the future.
 
-[![WebGPU Area Lights](/img/webgpu-area-lights-demo.jpg)](/img/webgpu-area-lights-demo.jpg)
-<br />[_PlayCanvas WebGPU Clustered Area Lights Demo_](https://playcanvas.com/demos/arealights/)
+[![WebGPU Area Lights](/img/webgpu-area-lights-demo.jpg)](/img/webgpu-area-lights-demo.jpg)  
+[_PlayCanvas WebGPU Clustered Area Lights Demo_](https://playcanvas.com/demos/arealights/)
 
 ## Refactoring of WebGL engine
 
