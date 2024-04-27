@@ -149,9 +149,7 @@ ScaleRandomizer.prototype.getRandomScale = function () {
 Awesome, the asteroids look much nicer. Let's turn our attention back to our background for a moment as it looks very static.
 
 - Could we give it some life by adding some ‘background’ asteroids?
-
 - Could we even make destroyed asteroids leave pieces behind as we destroy them?
-
 - The game currently gets harder as time goes on. Maybe we can indicate that visually somehow? Maybe by changing the background texture?
 
 Let's implement these ideas!

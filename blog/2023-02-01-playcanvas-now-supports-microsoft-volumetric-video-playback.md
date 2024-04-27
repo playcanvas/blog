@@ -66,11 +66,8 @@ This was done by combining several of our WebXR example projects and the scripts
 'xr-manger.js' is controls how the XR experience is managed and handled throughout the experience:
 
 - Entering and leaving AR and VR.
-
 - Which UI buttons to show based on the XR capabilities of the device it is running on (e.g hides the VR UI button if AR is available or VR is not available).
-
 - Showing and hiding Entities that are specific to each experience.
-
 - Moving specific Entities in front of the user when in AR so the video can be seen more easily without moving.
 
 #### Adding AR
@@ -78,7 +75,6 @@ This was done by combining several of our WebXR example projects and the scripts
 AR mode was added first, taking the 'xr-manager.js' script as a base from [WebXR UI Interaction tutorial](https://developer.playcanvas.com/tutorials/webxr-ray-input/). Key changes that had to be made to the project were:
 
 - Ensuring ‘Transparent Canvas’ is enabled in the project rendering settings.
-
 - Creating a second camera specifically for AR which is set to render the layers that are needed for AR (i.e. not including the skybox layer) and having a transparent clear color for video passthrough).
 
 After [copying and pasting](https://developer.playcanvas.com/user-manual/designer/assets/#copy-and-paste-between-projects) 'the xr-manager.js' file from the tutorial project into the demo project, I hooked up the UI elements and buttons to enter AR and added extra functionality to disable and enable Entities for AR and non-AR experiences.
@@ -166,7 +162,6 @@ There is other functionality in the experience that has been taken from our [tut
 These include:
 
 - [Orbit Camera](https://developer.playcanvas.com/tutorials/orbit-camera/) for the non XR camera controls. The orbit camera controls are disabled when the camera entity is disabled so that the camera wouldn't move while in a XR session.
-
 - [Video Textures](https://developer.playcanvas.com/tutorials/video-textures/) for the Microsoft video on the information dialog. [It was modified](https://playcanvas.com/editor/code/988340?tabs=104167290) so that it would apply the video texture directly to the Element on the Entity it was attached to.
 
 Although not PlayCanvas related, it is worth shouting out: the awesome QR code (that is displayed if the device is not XR compatible) is generated with [Amazing-QR](https://github.com/x-hw/amazing-qr). It's able to create colorful and animated QR codes that are more interesting and attractive than the typical black and white versions.
@@ -192,9 +187,7 @@ If you have reached here, thank you very much for reading and we hope you have f
 Useful links:
 
 - [Read more about Microsoft Capture Studios](https://www.microsoft.com/en-us/mixed-reality/capture-studios)
-
 - [Open in Editor](https://playcanvas.com/project/988340/overview/ms-mrcs-holo-video-private)
-
 - [Play the Published Build](https://playcanv.as/p/d3xb8X2Q/)
 
 We would love to get your thoughts and feedback so come join the conversation on the [PlayCanvas forum](https://forum.playcanvas.com/t/playcanvas-now-supports-microsoft-volumetric-video-playback/29355)!
