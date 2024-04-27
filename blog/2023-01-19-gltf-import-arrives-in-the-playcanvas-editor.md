@@ -44,9 +44,7 @@ glTF conversion [by @AsoboStudio and @scurest](https://github.com/KhronosGroup/
 In short, glTF import is a major addition to the PlayCanvas Editor, and will greatly enhance the workflow of our users. It allows developers to:
 
 - Faithfully import glTF/GLB files from many different applications and stores.
-
 - Edit the materials and hierarchy of imported glTF/GLB files.
-
 - Import glTF/GLB animations and quickly configure loops and transitions.
 
 We are thrilled to bring this new feature to our users and we can't wait to see the amazing projects that will be created with it. If you have any questions or feedback, please let us know on our [community forum](https://forum.playcanvas.com/t/glb-gltf-2-0-import-for-playcanvas-is-live/29341).

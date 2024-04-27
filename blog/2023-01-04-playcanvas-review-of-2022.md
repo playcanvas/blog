@@ -114,17 +114,11 @@ We've been continuously improving the Editor, making it even more powerful and u
 These include:
 
 - [Infrastructure upgrades across the board](https://eng.snap.com/playcanvas-backend-infrastructure) with benefits to all users including:
-
   - Faster download speeds for published build zips across the world.
-
   - Faster asset delivery with up to 50% improvement in loading projects in the Editor and the Launch Tab.
-
   - Zero downtime deployment for services.
-
 - [More powerful Scene Hierarchy Search](https://github.com/playcanvas/editor/releases/tag/v1.21.81) that searches components and script names.
-
 - [Creating Texture Tool](https://github.com/playcanvas/editor/releases/tag/v1.21.61) to inspect textures and convert HDRIs to/from cubemaps (also open source!).
-
 - Adding GitHub sign-in.
 
 [The project dashboard has gotten a huge refresh](https://github.com/playcanvas/editor/releases/tag/v1.21.82) and can be accessed in-Editor. It includes searching and sorting of the project list as well as being able to manage teams and settings without leaving the Editor!
