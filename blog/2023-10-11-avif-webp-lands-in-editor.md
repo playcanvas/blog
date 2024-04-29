@@ -20,7 +20,7 @@ JPGs and PNGs have served us well. They're reliable and you can use them everywh
 _Take a look at the following images:_
 
 <iframe
-  src="https://codesandbox.io/embed/react-compare-image-forked-myp5cp?fontsize=14&hidenavigation=1&theme=dark"
+  src="https://codesandbox.io/embed/vmg4g3?fontsize=14&hidenavigation=1&theme=dark&hidedevtools=1"
   style={{
     width: "100%",
     height: "500px",
@@ -33,7 +33,7 @@ _Take a look at the following images:_
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-They look strikingly similar, but the file size tells a different story. The AVIF image on the left has a file size of just 276Kb, almost half the size of its JPG counterpart at 508Kb! This level of compression is not just impressive on its own. When you're working on a project with multiple textures, switching to AVIF and WebP formats could considerably reduce your overall load time.
+They look strikingly similar, but the file size tells a different story. The AVIF image on the left has a file size of just 18Kb, and the JPG counterpart over 4 times larger at 74Kb! This level of compression is not just impressive on its own. When you're working on a project with multiple textures, switching to AVIF and WebP formats could considerably reduce your overall load time.
 
 What does this mean for you? Well, that's simple: it's all about efficiency and speed without sacrificing quality. Textures are one of the biggest assets in a 3D project and AVIF and WebP significantly reduce image sizes compared to traditional JPEGs and PNGs and that means faster load times and happier users. 🙌
 
