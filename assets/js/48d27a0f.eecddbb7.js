@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[69383],{14255:s=>{s.exports=JSON.parse('{"label":"physics","permalink":"/tags/physics","allTagsPath":"/tags","count":3,"unlisted":false}')}}]);

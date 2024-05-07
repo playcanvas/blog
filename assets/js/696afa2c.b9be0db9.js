@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[32265],{65320:a=>{a.exports=JSON.parse('{"label":"networking","permalink":"/tags/networking","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);

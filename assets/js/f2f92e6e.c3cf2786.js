@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[54492],{38518:a=>{a.exports=JSON.parse('{"label":"gamedev","permalink":"/tags/gamedev","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

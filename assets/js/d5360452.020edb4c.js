@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[49336],{71586:a=>{a.exports=JSON.parse('{"label":"tanx","permalink":"/tags/tanx","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);

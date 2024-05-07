@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[45569],{80838:a=>{a.exports=JSON.parse('{"label":"instant-games","permalink":"/tags/instant-games","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);
