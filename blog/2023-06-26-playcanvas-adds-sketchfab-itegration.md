@@ -1,6 +1,6 @@
 ---
 authors: will
-slug: playcanvas-adds-sketchfab-itegration
+slug: playcanvas-adds-sketchfab-integration
 title: PlayCanvas Adds Sketchfab Integration
 tags:
   - asset-store
