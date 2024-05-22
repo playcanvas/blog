@@ -9,7 +9,7 @@ tags:
 
 import ReactPlayer from 'react-player'
 
-Today, we are announcing the v0.17.0 release of [SuperSplat](https://playcanvas.com/supersplat/editor), the open source tool for editing and optimizing 3D Gaussian Splats.
+Today, we are announcing the latest release of [SuperSplat](https://playcanvas.com/supersplat/editor), the open source tool for editing and optimizing 3D Gaussian Splats.
 
 ![SuperSplat PWA](/img/supersplat-pwa-sculpture.png)
 
