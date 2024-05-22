@@ -19,6 +19,8 @@ Today, we are announcing the v0.17.0 release of [SuperSplat](https://playcanvas.
 
 SuperSplat is now *over 2x faster on the GPU*! 🏃
 
+Compare before and after (notice GPU time dropping from 32ms to 13.5ms for the bike scene):
+
 ![SuperSplat PWA](/img/engine-splat-performance.webp)
 
 This is thanks to the [v1.71.0 release](https://github.com/playcanvas/engine/releases/tag/v1.71.0) of the PlayCanvas Engine, which includes a dramatic overhaul of how splats are processed by the GPU. For the technical details, take a look at [this pull request](https://github.com/playcanvas/engine/pull/6357).
