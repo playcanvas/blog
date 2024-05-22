@@ -12,8 +12,8 @@
         <id>https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support</id>
         <link href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support"/>
         <updated>2024-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, we are announcing the v0.17.0 release of SuperSplat, the open source tool for editing and optimizing 3D Gaussian Splats.]]></summary>
-        <content type="html"><![CDATA[<p>Today, we are announcing the v0.17.0 release of <a href="https://playcanvas.com/supersplat/editor" target="_blank" rel="noopener noreferrer">SuperSplat</a>, the open source tool for editing and optimizing 3D Gaussian Splats.</p>
+        <summary type="html"><![CDATA[Today, we are announcing the latest release of SuperSplat, the open source tool for editing and optimizing 3D Gaussian Splats.]]></summary>
+        <content type="html"><![CDATA[<p>Today, we are announcing the latest release of <a href="https://playcanvas.com/supersplat/editor" target="_blank" rel="noopener noreferrer">SuperSplat</a>, the open source tool for editing and optimizing 3D Gaussian Splats.</p>
 <p><img decoding="async" loading="lazy" alt="SuperSplat PWA" src="https://blog.playcanvas.com/assets/images/supersplat-pwa-sculpture-a820654be125762e818d128ec8c1af5a.png" width="2594" height="1620" class="img_ev3q"></p>
 <p><a href="https://github.com/playcanvas/supersplat/releases/tag/v1.17.1" target="_blank" rel="noopener noreferrer">Version 0.17.1</a> focuses on two key areas: performance and PWA support.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="performance-improvements">Performance Improvements<a href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support#performance-improvements" class="hash-link" aria-label="Direct link to Performance Improvements" title="Direct link to Performance Improvements">​</a></h2>
