@@ -56,6 +56,6 @@ You can also set SuperSplat as the default tool to open your PLYs. Then, you can
 
 ## Your Feedback Matters
 
-We hope you love today's update!
+We hope you love today's update! ❤️
 
 The SuperSplat community has grown a lot in recent weeks and we want to get your feedback. What other features would you like the PWA to get? Are you still experiencing any performance problems? What is still missing from SuperSplat? Let us know by heading over to the [forum](https://forum.playcanvas.com) or [ping us on X](https://x.com/playcanvas)!
