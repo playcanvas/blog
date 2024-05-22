@@ -1,6 +1,6 @@
 ---
 authors: will
-slug: supersplat-huge-performance-gains-and-pwa-support
+slug: a-faster-supersplat-with-pwa-support
 title: "A Faster SuperSplat with PWA Support"
 tags:
   - gaussian-splats
