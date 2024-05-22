@@ -29,7 +29,7 @@ The result is that SuperSplat can now throw around millions of splats and still 
 
 ## PWA Support
 
-A Progressive Web App (PWA) is a web application that provides a native app-like experience, including the ability to install it on a user's home screen.
+A Progressive Web App (PWA) is a web application that provides a native app-like experience, including the ability to install it on a user's home screen or desktop.
 
 From today, SuperSplat is shipping with PWA support! 🎉
 
