@@ -12,7 +12,7 @@ import ReactPlayer from 'react-player'
 <div className="iframe-container-taller">
     <iframe loading="lazy" src="https://playcanv.as/e/p/cLkf99ZV/" title="3DGS Statues" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
 </div>
-_[CLICK HERE](https://playcanv.as/e/p/cLkf99ZV/) to open in a new tab. Credits: Splats scanned at the [V&A Museum](https://www.vam.ac.uk/). HDRI from [HDRI Haven](https://polyhaven.com/a/sepulchral_chapel_rotunda)._
+_[CLICK HERE](https://playcanv.as/e/p/cLkf99ZV/) to open in a new tab. Credits: Splats scanned at the [V&A Museum](https://www.vam.ac.uk/). HDRI from [Poly Haven](https://polyhaven.com/a/sepulchral_chapel_rotunda)._
 
 We have big news for the 3D Gaussian Splat community - the PlayCanvas Editor now has fully integrated support for splats!
 Learn how to quickly build stunning, interactive 3DGS applications today.
