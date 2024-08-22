@@ -47,3 +47,11 @@ Never fear! Today's release is more relevant to 'Engine-only' users who pull the
 Editor users will gain access to Engine 2.0.0 in the coming weeks. At that point, moving to 2.0.0 will be _opt in_ for existing projects. New projects will automatically use 2.0.0. We will release more information about the transition for Editor users closer to the time.
 
 In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback as soon as you can. We hope you like it! Head over to the [Forum](https://forum.playcanvas.com/), [Discord](https://discord.gg/RSaMRzg) or [GitHub](https://github.com/playcanvas/engine) to have your say. :ear:
+
+### Thanking the Open Source Community
+
+We _could not_ have reached this point without the amazing open source community:
+
+![GitHub Contributors](/img/engine-contributors.svg)
+
+Thank you for your incredible contributions. 🙏
