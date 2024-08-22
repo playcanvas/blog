@@ -6,7 +6,7 @@ tags:
   - engine
 ---
 
-Today marks a major milestone for the PlayCanvas Engine, the [open-source](https://github.com/playcanvas/engine) JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0! For the full details, visit our Github:
+Today marks a major milestone for the PlayCanvas Engine, the [open-source](https://github.com/playcanvas/engine) JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0! For the full details, visit our GitHub:
 
 [**RELEASE NOTES**](https://github.com/playcanvas/engine/releases/tag/v2.0.0)
 
@@ -35,7 +35,7 @@ badly designed, unnecessarily complicated, or unwanted code or software.
 
 It was getting to the point where parts of the codebase were restricting our ability to advance the Engine's capabilities. And so, we took to the decision to do a spring clean. 🧹 Here are some highlights of what we removed:
 
-* **WebGL 1 support.** This is the big one. Today, devices that support WebGL 1 but not WebGL 2 is less than 2% and this number is only going to get smaller. And supporting WebGL 1 was making it extraordinarily difficult to construct the foundations we needed in order to support WebGPU. So long WebGL 1 - it's been fun! 👋
+* **WebGL 1 support.** This is the big one. Today, devices that support WebGL 1 but not WebGL 2 is less than 2% and this number is only going to get smaller. And supporting WebGL 1 was making it extraordinarily difficult to construct the foundations we needed in order to support WebGPU. Cheerio, WebGL 1 - it's been fun! 👋
 * **Scripts 1.0 support.** The very first `ScriptComponent` implementation was deprecated with the introduction of [Scripts 2.0](https://blog.playcanvas.com/playcanvas-scripts-2-0/) back in 2016. So after 8 years of deprecation, it's gone! We are now focused on delivering our new ESM-based scripting system, due soon.
 * **AudioSourceComponent.** This component was the precursor to the Engine's [`SoundComponent`](https://api.playcanvas.com/classes/Engine.SoundComponent.html). `AudioSourceComponent` has been deprecated for many years so it's time for it to go.
 * **...and several other public API symbols.** What we are left with is a cleaner, tighter codebase that can power us into the future!
