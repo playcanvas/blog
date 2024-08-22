@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[84382],{2811:a=>{a.exports=JSON.parse('{"tag":{"label":"gdc","permalink":"/tags/gdc","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/gdc","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
