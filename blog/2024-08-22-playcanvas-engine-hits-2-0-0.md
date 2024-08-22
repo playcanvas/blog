@@ -48,6 +48,20 @@ Editor users will gain access to Engine 2.0.0 in the coming weeks. At that point
 
 In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback as soon as you can. We hope you like it! Head over to the [Forum](https://forum.playcanvas.com/), [Discord](https://discord.gg/RSaMRzg) or [GitHub](https://github.com/playcanvas/engine) to have your say. :ear:
 
+### What's New
+
+The 2.0.0 release isn't just about breaking changes! We have some new exciting new features to announce by way of a slew of some Engine examples:
+
+![Engine 2 Examples](/img/engine2-examples.png)
+
+Check 'em out:
+
+* [Custom Shaders: Cross Hatching](https://playcanvas.vercel.app/#/graphics/shader-hatch)
+* [Custom Shaders: Used with Skinning and Instancing](https://playcanvas.vercel.app/#/graphics/instancing-gooch)
+* [Screen Space Ambient Occlusion](https://playcanvas.vercel.app/#/graphics/ambient-occlusion)
+* [Hardware Instancing](https://playcanvas.vercel.app/#/graphics/instancing-custom)
+* [glTF Hardware Instancing Extension](https://playcanvas.vercel.app/#/graphics/instancing-glb)
+
 ### Thanking the Open Source Community
 
 We _could not_ have reached this point without the amazing open source community:
