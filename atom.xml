@@ -42,7 +42,7 @@
 <p>Editor users will gain access to Engine 2.0.0 in the coming weeks. At that point, moving to 2.0.0 will be <em>opt in</em> for existing projects. We plan to support the last Engine 1.x release in the Editor for at least a year after Engine 2 becomes available. This should be plenty of time for developers to migrate. New projects will automatically use 2.0.0. We will release more information about the transition for Editor users in the coming weeks.</p>
 <p>In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback as soon as you can. We hope you like it! Head over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">Forum</a>, <a href="https://discord.gg/RSaMRzg" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">GitHub</a> to have your say. <!-- -->👂</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New">​</a></h3>
-<p>The 2.0.0 release isn't just about breaking changes! We have some new exciting new features to announce by way of a slew of some Engine examples:</p>
+<p>The 2.0.0 release isn't just about breaking changes! We have some exciting features to announce by way of some brand new Engine examples:</p>
 <p><img decoding="async" loading="lazy" alt="Engine 2 Examples" src="https://blog.playcanvas.com/assets/images/engine2-examples-fda1649bd8bafcaed05d4ce584df015e.png" width="1920" height="1080" class="img_ev3q"></p>
 <p>Check 'em out:</p>
 <ul>
