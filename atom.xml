@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.playcanvas.com/</id>
     <title>PlayCanvas Blog Blog</title>
-    <updated>2024-06-05T00:00:00.000Z</updated>
+    <updated>2024-08-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.playcanvas.com/"/>
     <subtitle>PlayCanvas Blog Blog</subtitle>
     <icon>https://blog.playcanvas.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[PlayCanvas Engine Hits 2.0.0]]></title>
+        <id>https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0</id>
+        <link href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today marks a major milestone for the PlayCanvas Engine, the open-source JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0! For the full details, visit our GitHub:]]></summary>
+        <content type="html"><![CDATA[<p>Today marks a major milestone for the PlayCanvas Engine, the <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">open-source</a> JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0! For the full details, visit our GitHub:</p>
+<p><a href="https://github.com/playcanvas/engine/releases/tag/v2.0.0" target="_blank" rel="noopener noreferrer"><strong>RELEASE NOTES</strong></a></p>
+<p>It's not every day we do a major version bump of the Engine. Let's take a walk down memory lane to see how we got here:</p>
+<ul>
+<li>October 2010: Coding of the Engine begins!</li>
+<li>24 October 2011: <a href="https://github.com/playcanvas/engine/commit/e5bf014e738d5bfc92ece1d6c0f50ad71bf4dd90" target="_blank" rel="noopener noreferrer">Engine migrated to GitHub</a></li>
+<li>4 June 2014: <a href="https://blog.playcanvas.com/playcanvas-goes-open-source/" target="_blank" rel="noopener noreferrer">Engine goes open source</a></li>
+<li>24 April 2018: <a href="https://blog.playcanvas.com/playcanvas-engine-reaches-1-0-0/" target="_blank" rel="noopener noreferrer">Engine hits 1.0.0</a></li>
+</ul>
+<p>Back in 2018, the Engine was bumped to 1.0.0 because we adhere to <a href="https://semver.org/" target="_blank" rel="noopener noreferrer">semantic versioning</a> which dictates:</p>
+<blockquote>
+<p>If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backward compatibility, you should probably already be 1.0.0.</p>
+</blockquote>
+<p>With hindsight, the Engine should probably have reached 1.0.0 some years before. It had long been stable and was already being used heavily in production!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-bump-to-200">Why Bump to 2.0.0<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#why-bump-to-200" class="hash-link" aria-label="Direct link to Why Bump to 2.0.0" title="Direct link to Why Bump to 2.0.0">​</a></h3>
+<p>Semantic versioning says that you perform a major version bump when you introduce breaking changes. To say we go out of our way to avoid introducing breaking changes in an understatement. But since 1.0.0, we had done 73 minor versions along with countless patch releases. Along the way, the Engine accumulated a considerable amount of "cruft".</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>cruft <em>noun</em> <code>INFORMAL - COMPUTING</code></div><div class="admonitionContent_BuS1"><p>badly designed, unnecessarily complicated, or unwanted code or software.</p></div></div>
+<p>It was getting to the point where parts of the codebase were restricting our ability to advance the Engine's capabilities. And so, we took to the decision to do a spring clean. 🧹 Here are some highlights of what we removed:</p>
+<ul>
+<li><strong>WebGL 1 support.</strong> This is the big one. Today, devices that support WebGL 1 but not WebGL 2 is less than 2% and this number is only going to get smaller. And supporting WebGL 1 was making it extraordinarily difficult to construct the foundations we needed in order to support WebGPU. Cheerio, WebGL 1 - it's been fun! 👋</li>
+<li><strong>Scripts 1.0 support.</strong> The very first <code>ScriptComponent</code> implementation was deprecated with the introduction of <a href="https://blog.playcanvas.com/playcanvas-scripts-2-0/" target="_blank" rel="noopener noreferrer">Scripts 2.0</a> back in 2016. So after 8 years of deprecation, it's gone! We are now focused on delivering our new ESM-based scripting system, due soon.</li>
+<li><strong>AudioSourceComponent.</strong> This component was the precursor to the Engine's <a href="https://api.playcanvas.com/classes/Engine.SoundComponent.html" target="_blank" rel="noopener noreferrer"><code>SoundComponent</code></a>. <code>AudioSourceComponent</code> has been deprecated for many years so it's time for it to go.</li>
+<li><strong>...and several other public API symbols.</strong> What we are left with is a cleaner, tighter codebase that can power us into the future!</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-if-my-project-breaks">What if my Project Breaks<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#what-if-my-project-breaks" class="hash-link" aria-label="Direct link to What if my Project Breaks" title="Direct link to What if my Project Breaks">​</a></h3>
+<p>Never fear! Today's release is more relevant to 'Engine-only' users who pull the engine from <a href="https://www.npmjs.com/package/playcanvas" target="_blank" rel="noopener noreferrer">NPM</a>. At a time of their choosing, these developers can upgrade to 2.0.0 and give it a try. The vast majority of projects will update without modification.</p>
+<p>Editor users will gain access to Engine 2.0.0 in the coming weeks. At that point, moving to 2.0.0 will be <em>opt in</em> for existing projects. New projects will automatically use 2.0.0. We will release more information about the transition for Editor users closer to the time.</p>
+<p>In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback as soon as you can. We hope you like it! Head over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">Forum</a>, <a href="https://discord.gg/RSaMRzg" target="_blank" rel="noopener noreferrer">Discord</a> or <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">GitHub</a> to have your say. <!-- -->👂</p>]]></content>
+        <author>
+            <name>Will Eastcott</name>
+            <uri>https://twitter.com/willeastcott</uri>
+        </author>
+        <category label="engine" term="engine"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Create 3D Gaussian Splat Apps with the PlayCanvas Editor]]></title>
         <id>https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor</id>
@@ -1012,84 +1052,5 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
         </author>
         <category label="pcui" term="pcui"/>
         <category label="typescript" term="typescript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Porting Unreal Scenes to the Browser with PlayCanvas - Developer Spotlight with Leonidas Maliokas]]></title>
-        <id>https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas</id>
-        <link href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas"/>
-        <updated>2022-11-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to Developer Spotlight, a new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to Developer Spotlight, a new series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.</p>
-<p>Today we are excited to be joined by <a href="https://www.linkedin.com/in/leonidas-maliokas/" target="_blank" rel="noopener noreferrer">Leonidas Maliokas</a>, a freelance web and games developer for Solar Games.</p>
-<p>He will show us how Solar Games ported a metaverse experience from Unreal to PlayCanvas in the video presentation below. Specific areas covered are:</p>
-<ul>
-<li>Converting scenes and assets from Unreal to PlayCanvas</li>
-<li>Runtime and load-time optimization</li>
-<li>Lighting and post processing</li>
-<li>Multiplayer with <a href="https://www.colyseus.io/" target="_blank" rel="noopener noreferrer">Colyseus</a></li>
-<li>Ready Player Me avatar integration</li>
-<li>Spatial-aware audio chat with <a href="https://www.agora.io/en/" target="_blank" rel="noopener noreferrer">Agora</a></li>
-</ul>
-<div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/u_8-rzGkDjA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-<p><a href="https://blog.playcanvas.com/assets/files/Porting-Unreal-to-the-Browser-with-PlayCanvas-Developer-Spotlight-with-Leonidas-Maliokas-Slides-b8a9b3a25719e843d7eb3b7f79467141.pdf" target="_blank">Presentation Slides</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hi-leonidas-welcome-to-developer-spotlight-tell-us-about-yourself-and-your-studio">Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#hi-leonidas-welcome-to-developer-spotlight-tell-us-about-yourself-and-your-studio" class="hash-link" aria-label="Direct link to Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio" title="Direct link to Hi Leonidas, welcome to Developer Spotlight! Tell us about yourself and your studio">​</a></h3>
-<p>Hey, I’m Leonidas from Solar Games (formerly known as Pirron 1)! I’ve been working with interactive 3D websites since 2012. I used to work as a civil engineer before turning my hobby and passion for gamedev into a full time job using PlayCanvas.</p>
-<p>Together with doing PlayCanvas contracts of all sorts, like product configurators, games and promotional sites, I’ve been researching how to extend the PlayCanvas engine and editor. Adding open world terrains, special effects and easy to use networked controllers to match features normally found in native only game engines, led to founding Solar Games.</p>
-<p>We offer Uranus Tools for PlayCanvas, a collection of plug and play scripts to supercharge your PlayCanvas creation pipeline. You can find out more about our company’s services at <a href="https://solargames.io/" target="_blank" rel="noopener noreferrer">https://solargames.io</a>.</p>
-<p>We are also working on <a href="https://aritelia.io/" target="_blank" rel="noopener noreferrer">Aritelia</a>, a procedurally generated open world social MMO in PlayCanvas. This is still in development but you can already give it a try with the pre-alpha tech demonstration that was released last year.</p>
-<p><a href="https://blog.playcanvas.com/assets/files/Leonidas-Developer-Spotlight-5-f01384c70640add07ccdfffed4639ccd.jpg" target="_blank"><img decoding="async" loading="lazy" src="https://blog.playcanvas.com/assets/images/Leonidas-Developer-Spotlight-5-f01384c70640add07ccdfffed4639ccd.jpg" width="1920" height="1080" class="img_ev3q"></a></p>
-<p><a href="https://blog.playcanvas.com/assets/files/Leonidas-Developer-Spotlight-1-e79cbf410d0773038a6574e704da21f3.jpg" target="_blank"><img decoding="async" loading="lazy" src="https://blog.playcanvas.com/assets/images/Leonidas-Developer-Spotlight-1-e79cbf410d0773038a6574e704da21f3.jpg" width="1920" height="1080" class="img_ev3q"></a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-did-you-choose-playcanvas">Why did you choose PlayCanvas?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#why-did-you-choose-playcanvas" class="hash-link" aria-label="Direct link to Why did you choose PlayCanvas?" title="Direct link to Why did you choose PlayCanvas?">​</a></h3>
-<p>It was actually an easy choice for us: by reviewing the mainstream WebGL libraries and platforms, PlayCanvas did stand out for:</p>
-<ul>
-<li>Offering an integrated editor and publishing solution. Even after all these years, the ability to easily share projects and builds and collaborate with your colleagues in real-time is something unique to PlayCanvas.</li>
-<li>The PlayCanvas team is very productive and professional in the way it moves the platform forward.</li>
-<li>The open source PlayCanvas engine provides a very effective and easy to use API.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-were-the-initial-challenges-and-how-did-the-team-overcome-them">What were the initial challenges and how did the team overcome them?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#what-were-the-initial-challenges-and-how-did-the-team-overcome-them" class="hash-link" aria-label="Direct link to What were the initial challenges and how did the team overcome them?" title="Direct link to What were the initial challenges and how did the team overcome them?">​</a></h3>
-<p>The main challenge was the lack of certain features and tools. For example things that you’d take for granted in a native game engine like a terrain system, post effects, automatic instancing and level of detail were missing.</p>
-<p>The good news was that even before the PlayCanvas Editor API was officially released, it has always been possible to extend the PlayCanvas Editor. We were able to write our own editor extensions and quickly make them productive in our development pipeline.</p>
-<p>Other developers and companies became interested in our extensions and we started offering them in our company’s asset store.</p>
-<p><a href="https://blog.playcanvas.com/assets/files/Leonidas-Developer-Spotlight-2-6b594c4ccca14b377aecc33339241bf8.jpg" target="_blank"><img decoding="async" loading="lazy" src="https://blog.playcanvas.com/assets/images/Leonidas-Developer-Spotlight-2-6b594c4ccca14b377aecc33339241bf8.jpg" width="1920" height="1080" class="img_ev3q"></a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-is-building-an-html5-gameexperience-different-from-a-native-gameexperience">How is building an HTML5 game/experience different from a native game/experience?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#how-is-building-an-html5-gameexperience-different-from-a-native-gameexperience" class="hash-link" aria-label="Direct link to How is building an HTML5 game/experience different from a native game/experience?" title="Direct link to How is building an HTML5 game/experience different from a native game/experience?">​</a></h3>
-<p>Several concepts like rendering, resource loading, game logic and state management are quite similar. But there are some unique concepts when it comes to web-based experiences that can be challenging.</p>
-<p>In particular, download times, different display sizes and pixel ratios, a broad spectrum of device specs, and also platform and browser compatibility.</p>
-<p>Taking into account these factors is mandatory when building a high-quality HTML5 experience.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-the-teams-favorite-features-of-playcanvas">What are the team's favorite features of PlayCanvas?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#what-are-the-teams-favorite-features-of-playcanvas" class="hash-link" aria-label="Direct link to What are the team's favorite features of PlayCanvas?" title="Direct link to What are the team's favorite features of PlayCanvas?">​</a></h3>
-<p>Our favorite feature is the editor, by far. The fact that it is collaborative in real time makes PlayCanvas the best tool for teams to work together. Also, the fact that PlayCanvas has version control integrated is pretty cool! Something else I would add is that PlayCanvas provides a very clean API to work with. Seriously, not only HTML5 devs but also native game devs should give PlayCanvas a try. It’s a great tool to quickly be productive!</p>
-<p>Other than that:</p>
-<ul>
-<li>Asset pipelines like enabling texture compression.</li>
-<li>The engine API and the constant addition of new features by the PlayCanvas team.</li>
-<li>The community - many greetings to everybody!</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-on-the-feature-wishlist-for-playcanvas-this-year">What is on the feature wishlist for PlayCanvas this year?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#what-is-on-the-feature-wishlist-for-playcanvas-this-year" class="hash-link" aria-label="Direct link to What is on the feature wishlist for PlayCanvas this year?" title="Direct link to What is on the feature wishlist for PlayCanvas this year?">​</a></h3>
-<ul>
-<li>Having the PlayCanvas WebGPU renderer available to play with.</li>
-<li>Full support of the new node based shader editor.</li>
-<li>Asset variants for specific platforms e.g. serve smaller textures on mobile.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-you-see-html5-gamesexperiences-evolve-over-the-next-few-years">How do you see HTML5 games/experiences evolve over the next few years?<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#how-do-you-see-html5-gamesexperiences-evolve-over-the-next-few-years" class="hash-link" aria-label="Direct link to How do you see HTML5 games/experiences evolve over the next few years?" title="Direct link to How do you see HTML5 games/experiences evolve over the next few years?">​</a></h3>
-<p>It’s definitely an exciting time for developers and companies working with HTML5 content. Both the technology has moved forward with standards and frameworks being more robust and powerful than ever, and the devices capable of running HTML5 experiences are very capable.</p>
-<p>The metaverse is already leveraging HTML5 to deploy worlds and experiences across traditional web2 and newer web3 websites.</p>
-<p>Pixel streaming is the only valid contender when it comes to what HTML5 can offer. I would definitely welcome a feature where pixel streaming is a viable option since it’s a great concept. But right now I don’t see this happening soon.</p>
-<p>There are so many opportunities around HTML5 and I see a very positive future for everyone involved.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="thank-you-very-much-for-your-time-and-we-look-forward-to-your-presentation">Thank you very much for your time and we look forward to your presentation<a href="https://blog.playcanvas.com/porting-unreal-scenes-to-browser-with-playcanvas-developer-spotlight-with-leonidas-maliokas#thank-you-very-much-for-your-time-and-we-look-forward-to-your-presentation" class="hash-link" aria-label="Direct link to Thank you very much for your time and we look forward to your presentation" title="Direct link to Thank you very much for your time and we look forward to your presentation">​</a></h3>
-<p>Thank you for this opportunity to showcase our work!</p>
-<p><a href="https://blog.playcanvas.com/assets/files/Leonidas-Developer-Spotlight-3-2d43a137a02ac69c95086f0b06857f8e.jpg" target="_blank"><img decoding="async" loading="lazy" src="https://blog.playcanvas.com/assets/images/Leonidas-Developer-Spotlight-3-2d43a137a02ac69c95086f0b06857f8e.jpg" width="1920" height="1080" class="img_ev3q"></a></p>
-<p><a href="https://blog.playcanvas.com/assets/files/Leonidas-Developer-Spotlight-6-95600295854f33e033b624a4bcfbb4d3.jpg" target="_blank"><img decoding="async" loading="lazy" src="https://blog.playcanvas.com/assets/images/Leonidas-Developer-Spotlight-6-95600295854f33e033b624a4bcfbb4d3.jpg" width="1920" height="1080" class="img_ev3q"></a></p>
-<p>Useful links:</p>
-<ul>
-<li><a href="https://solargames.io/demos/solar-stage/" target="_blank" rel="noopener noreferrer">Play the Solar Stage Demo</a></li>
-<li><a href="https://twitter.com/PlayingInCanvas" target="_blank" rel="noopener noreferrer">Twitter @PlayingInCanvas</a></li>
-<li><a href="https://solargames.io/tools/" target="_blank" rel="noopener noreferrer">Uranus Tools for PlayCanvas</a></li>
-</ul>
-<p>Stay tuned for more Developer Spotlights in the future!</p>]]></content>
-        <author>
-            <name>Steven Yau</name>
-            <uri>https://twitter.com/yaustar</uri>
-        </author>
-        <category label="unreal" term="unreal"/>
-        <category label="spotlight" term="spotlight"/>
     </entry>
 </feed>
