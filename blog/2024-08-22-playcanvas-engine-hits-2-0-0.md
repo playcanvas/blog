@@ -50,7 +50,7 @@ In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback 
 
 ### What's New
 
-The 2.0.0 release isn't just about breaking changes! We have some new exciting new features to announce by way of a slew of some Engine examples:
+The 2.0.0 release isn't just about breaking changes! We have some exciting features to announce by way of some brand new Engine examples:
 
 ![Engine 2 Examples](/img/engine2-examples.png)
 
