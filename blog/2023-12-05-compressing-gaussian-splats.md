@@ -17,6 +17,8 @@ For example, this is a Gaussian Splat scene rendered in PlayCanvas.
     <iframe loading="lazy" src="https://playcanv.as/p/69cnpevQ/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
 </div>
 
+<!-- truncate -->
+
 ### What is a Splat?
 
 Gaussian Splat Scenes are not made up of polygons and textures. Instead, they are made up of many (up to millions) of individual, unconnected blobs called _splats_. A splat is just a particle in space with size, orientation, color and opacity.

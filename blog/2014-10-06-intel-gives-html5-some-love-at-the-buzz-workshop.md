@@ -6,6 +6,8 @@ title: Intel gives HTML5 some love at the Buzz Workshop
 
 Last Thursday, Intel staged one heck of an awesome event in London: 'The Buzz Workshop: Be Mobile'. It was essentially a mini-conference that consisted of talks given by industry experts, a panel and even an indie game pitch event.
 
+<!-- truncate -->
+
 If you follow Intel closely, you'll know they are serious about HTML5. Very serious. That's why they have a [developer portal](https://software.intel.com/en-us/html5/home) dedicated to HTML5 technologies.  One of these technologies is the XDK, a client-side application that generates multi-platform native builds of HTML5 apps and games in the cloud:
 
 [![XDK](/img/xdk.png)](/img/xdk.png)

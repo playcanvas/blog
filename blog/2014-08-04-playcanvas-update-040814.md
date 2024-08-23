@@ -6,6 +6,8 @@ title: PlayCanvas Update 04/08/14
 
 This week, we've improved your Dashboard, Projects and Profile pages and now have a full introductory video series to make PlayCanvas more accessible than ever.
 
+<!-- truncate -->
+
 ### Video Series: Introduction to PlayCanvas
 
 [![Robot Dancing](/img/Robot-Dance.jpg)](https://www.youtube.com/playlist?list=PL0KdXFF26E4Azwcu1WabxGwJaPgKuc927)

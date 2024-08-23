@@ -11,6 +11,8 @@ Hi everyone!
 
 This is a different blog post to what we normally do but with some big changes coming soon, we wanted to give context and advance notice of said changes and more importantly, how they may affect you across the PlayCanvas platform.
 
+<!-- truncate -->
+
 ### Moving from Model Component model import pipeline to new Render Component
 
 As part of the work to enable the [import of a model’s hierarchy into the scene](https://forum.playcanvas.com/t/importing-models-with-hierarchy-is-now-in-soft-launch/20304), we have introduced Render Asset and Render Component as new features of the Engine and Editor.

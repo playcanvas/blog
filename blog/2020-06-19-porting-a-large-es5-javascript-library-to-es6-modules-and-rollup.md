@@ -11,6 +11,8 @@ Since 2011, the [PlayCanvas engine sourcebase](https://github.com/playcanvas/eng
 
 IE11 was released on October 17, 2013. But even today, [StatCounter](https://gs.statcounter.com/browser-version-market-share/desktop/worldwide/#monthly-201905-202005) reports that IE11 has 2.43% of the global desktop browser market. Since PlayCanvas content is viewed by 100s of millions of end users, this is a pretty big deal.
 
+<!-- truncate -->
+
 Over time, the engine codebase has grown significantly. It's now nearly 100,000 lines long. Maintaining and building such a large codebase can be problematic. To help bring some level of consistency and structure, we imposed the following pattern:
 
 ```javascript

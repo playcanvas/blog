@@ -13,6 +13,8 @@ With PlayCanvas, getting started with game development is as simple as clicking 
 [![Super Snappy Bowling](/img/editor-super-snappy-bowling.png)](/img/editor-super-snappy-bowling.png)  
 _Super Snappy Bowling from NOWWA_
 
+<!-- truncate -->
+
 Until today, some aspects of the platform have been limited or restricted. This just holds back the creativity of our community. So today, we have some incredibly exciting news. We have updated our [plans](https://playcanvas.com/plans) to make our tools even more accessible for everyone at all levels!
 
 [![New Plans](/img/plans-2020.jpg)](/img/plans-2020.jpg)

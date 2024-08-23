@@ -10,6 +10,8 @@ One of the best and worst things about making games for web browsers is that the
 
 This page is an effort to supply a list of HTML5 APIs that I think game developers want to know about and their availability in different browsers. Hopefully we'll gradually see this all go green.
 
+<!-- truncate -->
+
 ### Updates
 
 - **2012-10-09** - PointerLock support lands in Chrome stable

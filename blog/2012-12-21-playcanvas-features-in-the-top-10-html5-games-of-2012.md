@@ -12,6 +12,8 @@ tags:
 
 Game: D.E.M.O. 3rd Person Shooter
 
+<!-- truncate -->
+
 [D.E.M.O.](https://playcanv.as/p/UAR6UQNM/) the 3rd-Person action shooter demo that we released back in August has just been featured in .net magazine's:
 
 ### [Top 10 HTML5 games of 2012](http://www.netmagazine.com/features/top-10-html5-games-2012)

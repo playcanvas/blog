@@ -8,7 +8,7 @@ title: PLAYHACK with PlayJam starts today
 
 We've teamed up with PlayJam and our 6 week game jam starts today. Check out the assets and theme, get your thinking hats on, then go and fork the project and get started.
 
-<!-- more -->
+<!-- truncate -->
 
 ## Assets
 

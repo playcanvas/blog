@@ -11,6 +11,8 @@ tags:
 
 Did you hear? VR is BIG! But what is bigger than VR? The web, that's what. What happens when you mix the web and VR?
 
+<!-- truncate -->
+
 [WebVR](https://w3c.github.io/webvr/) is an emerging standard that lets you create 3D virtual experiences on the web and control them using your mobile phone or VR headset. But creating virtual reality is a complex process involving knowledge of WebGL rendering, new input APIs and (at the moment) a constantly changing spec.
 
 That's why we've introduced the VR Starter Kit in PlayCanvas.

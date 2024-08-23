@@ -12,6 +12,8 @@ Today we're excited to launch the first part of our 2D graphics support. Great f
 
 ![Sprite Game](/img/sprite-game.gif)
 
+<!-- truncate -->
+
 There are 5 great new features which will help you build 2D games using PlayCanvas.
 
 ### Texture Atlas Asset

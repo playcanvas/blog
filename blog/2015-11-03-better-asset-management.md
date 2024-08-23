@@ -10,6 +10,8 @@ tags:
 
 Forget about Twitter changing stars to hearts. PlayCanvas introduces **Asset Folders**!
 
+<!-- truncate -->
+
 It's been a long time coming, but today we've revolutionized the way you organize your PlayCanvas assets. Folders, sub-folders, and folders within other folders are all supported right now in the PlayCanvas Editor. We've also updated all the icons to make everything clear crisp and beautiful.
 
 [![assetfolders](/img/editor-asset-folders.gif)](/img/editor-asset-folders.gif)

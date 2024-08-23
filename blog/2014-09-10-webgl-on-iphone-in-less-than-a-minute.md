@@ -9,6 +9,8 @@ tags:
 
 If you've been following the tech news over the last few months you'll have noticed that Apple is about to launch the latest version of their mobile operating system iOS 8. For us game developers this is awesome news because iOS 8 supports WebGL in mobile Safari (the [news we broke on this blog](https://blog.playcanvas.com/apple-embraces-webgl/) a few months ago).
 
+<!-- truncate -->
+
 It's not just browser support for PlayCanvas games we're interested in though. We also want to make sure you can get your PlayCanvas into the App Store. So, in advance of the iOS 8 release, we're really pleased to be launching a new feature today for our Pro users.
 
 ### PlayCanvas iOS Export

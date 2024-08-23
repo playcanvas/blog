@@ -10,6 +10,8 @@ PlayCanvas was proud to be one of the partners for this weekend's Great British
 
 [![Judges](/img/gb-summer-jam-judges.jpg)](/img/gb-summer-jam-judges.jpg)
 
+<!-- truncate -->
+
 The Game Jam was to be judged by some leading industry figures like Ella Romanos, Harvey Elliot and Roberta Lucca and there was a special award for the Most Accessible game, with features designed to make the game more playable by gamers with disabilities.
 
 ## PlayCanvas Jammers

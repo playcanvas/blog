@@ -6,6 +6,8 @@ title: PlayCanvas in 2015 - WebGL Goes Mainstream
 
 And so we bid a fond farewell to 2015, our biggest year yet! In just 12 short months, we've taken the engine to new technical heights, published some incredible PlayCanvas-powered apps and helped some big-name companies make the jump from Flash to HTML5 and WebGL.
 
+<!-- truncate -->
+
 Let's cast our minds back and recall some of the key highlights.
 
 To wow the crowds at GDC 2015, ARM called on PlayCanvas to show the world what WebGL can really do. We built [Seemore](http://seemore.playcanvas.com/).

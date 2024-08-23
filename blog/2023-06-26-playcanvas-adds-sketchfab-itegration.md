@@ -19,6 +19,8 @@ _["Spartan Armour"](https://skfb.ly/6QVvM) by McCarthy3D is licensed under [CC B
 
 With today's launch you'll have instant access to Sketchfab's enormous library of high quality 3D content right inside the Editor.
 
+<!-- truncate -->
+
 ### What Is Sketchfab?
 
 [Sketchfab](https://sketchfab.com/) is a platform that allows users to publish, share and discover 3D content on the web. You can think of it as a sort of "YouTube for 3D models". The platform hosts millions of 3D models in various formats, including glTF, OBJ, STL, and more.

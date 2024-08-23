@@ -9,6 +9,8 @@ The PlayCanvas Community is growing all the time and we know that some of that g
 
 Last month we introduced the Devlog to help strengthen the PlayCanvas community and this month we're launching our **Referrals program**. It's our way of saying thank you for using and sharing our engine. PlayCanvas simply wouldn't work without you, our community.
 
+<!-- truncate -->
+
 ### How Does It Work?
 
 Simply share your [unique referral link](https://playcanvas.com/referrals) where and when you please and if a user signs up to PlayCanvas using your link, you get **5% of anything they spend** on PlayCanvas for their first year. The more people that sign up with the link that you shared, the more benefits you can receive.

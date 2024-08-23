@@ -6,6 +6,8 @@ title: Starter Kits
 
 Get hacking on a game instantly with our Platformer and FPS starter kits.
 
+<!-- truncate -->
+
 Today we've launched a new feature to help get you up and running in PlayCanvas super-quick. Instead of starting with the dreaded blank project, now you can instantly get yourself a game to start hacking on.
 
 We've got two styles of game to start with.

@@ -8,6 +8,8 @@ title: 'PLAYHACK May: Spaceships and win a Google Cardboard'
 
 **PLAYHACK May** is upon us. (Which means the PLAYHACK April winner will be announced soon)
 
+<!-- truncate -->
+
 Why not join us and create a **Space Game**. Lunar Lander, Space Invaders, Asteroids, Elite, are a few of the game styles you could try out. We're giving you 3 spaceship models and 2 asteroid models FREE to build your game with.
 
 How does it work:

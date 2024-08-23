@@ -10,6 +10,8 @@ tags:
 
 We've added two new tutorials to our developer site this week.
 
+<!-- truncate -->
+
 **How to create a real time multiplayer game with Node.js and PlayCanvas** - [READ MORE](https://developer.playcanvas.com/tutorials/real-time-multiplayer/)
 
 ![Real ti](/img/multiplayer.gif)

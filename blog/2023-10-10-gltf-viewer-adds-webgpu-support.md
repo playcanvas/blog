@@ -12,13 +12,14 @@ tags:
 
 We're thrilled to announce the launch of the [open source](https://github.com/playcanvas/model-viewer) **glTF Viewer 4.0**, an update that supercharges your 3D model viewing experience with powerful features and support for the latest web technologies!
 
-[![glTF Viewer 4.0](/img/gltf-viewer-4.png)](/img/gltf-viewer-4.png)
-
+[![glTF Viewer 4.0](/img/gltf-viewer-4.png)](/img/gltf-viewer-4.png)  
 _["Cyber Samurai"](https://skfb.ly/ooZKG) by KhoaMinh is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)._
 
 [**TRY IT NOW**](https://playcanvas.com/viewer?load=https://s3.eu-west-1.amazonaws.com/static.playcanvas.com/models/IridescentDishWithOlives.glb&default&skybox.value=Abandoned%20Tank%20Farm&skybox.background=Projective%20Dome&debug.grid=false&shadowCatcher.enabled=true&default)
 
 This new release is chock-full with enhancements aimed at providing more realistic, insightful, and versatile viewing options for your glTF files. Let's dive into the headline features of glTF Viewer 4.0.
+
+<!-- truncate -->
 
 #### New WebGPU Renderer
 

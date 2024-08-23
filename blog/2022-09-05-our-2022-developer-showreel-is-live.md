@@ -10,6 +10,8 @@ Welcome to our 2022 showcase, showing some of the very best WebGL browser games 
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/46f73gp1_TU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!-- truncate -->
+
 We would like to thank our users that have allowed us to show their awesome content in this showcase:
 
 - [Aritelia](https://aritelia.io/) by Solar Games

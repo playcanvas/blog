@@ -15,6 +15,8 @@ Welcome to the second installment of Developer Spotlight! A series of blog artic
 
 Today we are excited to be joined by Frantz Lasorne, co-founder of [Visionaries777](https://www.vz777.com/).
 
+<!-- truncate -->
+
 **Hi! Let's get started. Firstly, welcome to the developer spotlight! Frantz, if you could just tell me a little bit about yourself and your team and your studio.**
 
 My name is Frantz and I'm the co-founder of Visionaries777. Actually, we [founders] are three. We started as two French guys. We studied together in France; Interaction Design, and then we created this company about 10 years ago in Hong Kong.

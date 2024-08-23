@@ -6,6 +6,8 @@ title: 'PLAYHACK with PlayJam: Winners'
 
 It's finally over. The games were completed a few weeks ago and 6 judges have toiled over the games and struggled to grade and rate them. But we have a decision and boy it was close...
 
+<!-- truncate -->
+
 Over the course of 6 weeks, over 150 teams forked our original project and worked their little gamedev butts off to finish the games in time. In the end we had over 30 playable entries - more than enough to keep our judges busy.
 
 ![PlayJam Logo](/img/playjam-logo.png)

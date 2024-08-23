@@ -6,11 +6,11 @@ tags:
   - event
 ---
 
-## Pizza, Beer and No Developer Tears
-
 Last Thursday we hosted an event for around 50 members of the London HTML5 Game Development community at our Idea London office. After striking a deal with Papa John's, we had a great talk from Amazon's Jesse Freeman and caught up with a community that we are proud to be a part of.
 
-## [![MEETUP](/img/MEETUP.jpg)](/img/MEETUP.jpg)
+[![MEETUP](/img/MEETUP.jpg)](/img/MEETUP.jpg)
+
+<!-- truncate -->
 
 ## Responsive Game Design
 

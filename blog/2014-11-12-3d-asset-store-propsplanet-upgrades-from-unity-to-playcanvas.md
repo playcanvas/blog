@@ -10,6 +10,8 @@ tags:
 
 Propsplanet is an online digital marketplace which sells 3D models to independent game developers. Previously powered by the Unity Web Player browser plugin, Propsplanet has this week relaunched using the PlayCanvas engine.
 
+<!-- truncate -->
+
 > "Upgrading our online 3D preview from Unity to PlayCanvas has made a huge difference to the customer experience on our website. It lets us broaden our audience from desktop only to include every shopper including tablet and mobile users. Our early tests show that using PlayCanvas decreases page loading times by over 10x which has led to more item views and the average time on site has increased by over 500%.”
 
 Propsplanet founder, Wale Adeyeye

@@ -9,6 +9,8 @@ tags:
 
 In July 2011, Apple released Safari 5.1 bringing WebGL to OS X users. WebGL advocates the world over rejoiced - except there was a catch. WebGL was disabled by default, hidden behind a flag buried deep within Safari's preferences panel. The general expectation was that a switch to 'on by default' could not be far behind. Almost 3 years on, it seems this view was seriously misjudged.
 
+<!-- truncate -->
+
 But now, it seems things might be about to change due to some exciting developments. Apple has just published the session schedule for WWDC 2014. If you scan the session list, you will find this:
 
 [![WWDC WebGL Session](/img/wwdc-webgl-session.png)](/img/wwdc-webgl-session.png)

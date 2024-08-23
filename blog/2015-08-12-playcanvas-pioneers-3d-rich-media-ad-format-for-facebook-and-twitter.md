@@ -8,6 +8,8 @@ tags:
 
 PlayCanvas, the leading tool for creating interactive 3D content for the web, today announced that it is powering the launch of the first interactive 3D social media campaign for Hutch Games’s smash hit mobile game MMX Racing featuring WWE.
 
+<!-- truncate -->
+
 PlayCanvas and Hutch Games have collaborated to create a set of 3D interactive experiences for monster truck and wrestling fans on Twitter and Facebook. Players get a taste of the latest MMX Racing update right in their feed before going on to install the game.
 
 [![MMX WWE interactive ad](/img/tripleh.jpg)](https://playcanv.as/p/ika9sdKu/)  

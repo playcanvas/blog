@@ -4,7 +4,9 @@ slug: changes-for-25th-november
 title: Changes for 25th November
 ---
 
-This weeks important changes:
+Here are this week's important changes!
+
+<!-- truncate -->
 
 ## PlayCanvas Designer
 

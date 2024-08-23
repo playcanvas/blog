@@ -9,6 +9,8 @@ There has been plenty going on at HQ since our last update and it is all making 
 [![Spacetifacts](/img/Spacetifacts.jpg)](/img/Spacetifacts.jpg)  
 _Team HexPenguin's PlayCanvas game 'Spacetifacts' won the Malmo Game Jam_
 
+<!-- truncate -->
+
 ### Asset Lists
 
 We now include Assets lists for each Pack when running your game, allowing you to load a Pack with all Assets. This means you can make multiple levels, each as a Pack and load them at runtime, reducing the amount of data you have to download upfront.

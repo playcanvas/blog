@@ -4,7 +4,9 @@ slug: playcanvas-update-51214
 title: PlayCanvas Update 5/12/14
 ---
 
-**Its been a year full of huge announcements for us and the first iteration our Asset Store is certainly no small matter. From the PlayCanvas Store to a Ludum Dare deal (and everything in between), here's what has happened at PlayCanvas over the past week.**
+Its been a year full of huge announcements for us and the first iteration our Asset Store is certainly no small matter. From the PlayCanvas Store to a Ludum Dare deal (and everything in between), here's what has happened at PlayCanvas over the past week.
+
+<!-- truncate -->
 
 ### PlayCanvas Store
 

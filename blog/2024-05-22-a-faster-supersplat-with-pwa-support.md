@@ -13,6 +13,8 @@ Today, we are announcing the latest release of [SuperSplat](https://playcanvas.c
 
 ![SuperSplat PWA](/img/supersplat-pwa-sculpture.png)
 
+<!-- truncate -->
+
 [Version 0.17.1](https://github.com/playcanvas/supersplat/releases/tag/v1.17.1) focuses on two key areas: performance and PWA support.
 
 ## Performance Improvements

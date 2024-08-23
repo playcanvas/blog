@@ -16,6 +16,8 @@ Let's start by taking a look at the new Developer Site, home of the PlayCanvas U
 
 ![Developer Site Landing Page](/img/developer-site-landing-page.png)
 
+<!-- truncate -->
+
 ### Migrating from Metalsmith to Docusaurus
 
 Since PlayCanvas was born in 2011, the basic look of the Developer Site has changed little. The content was written in Markdown and converted to a static HTML site using a tool called [Metalsmith](https://metalsmith.io/). Customizing the site to our needs meant we had to write many Metalsmith plugins (for localization, navigation and more) and a lot of HTML and CSS to style the pages as we wanted.

@@ -8,6 +8,8 @@ import ReactPlayer from 'react-player'
 
 Farewell, 2016! It seems that WebGL was everywhere last year, spreading across every corner of the web. And this added up to PlayCanvas’ best year yet!
 
+<!-- truncate -->
+
 #### Big Name Users
 
 The last twelve months have seen some incredible companies adopt PlayCanvas. Here’s our pick of the bunch:

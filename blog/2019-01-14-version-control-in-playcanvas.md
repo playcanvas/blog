@@ -9,6 +9,8 @@ tags:
 
 One of our most requested features has always been for more advanced version control features. We're very pleased to announce that from today we now have built in version control throughout the PlayCanvas Editor. Integrated support for branches, merging and checkpoints brings a host of new workflow options for your team and we're confident that it's going to be a huge productivity multiplier for your HTML5 games and 3D applications.
 
+<!-- truncate -->
+
 ## How does it work?
 
 ### Checkpoints

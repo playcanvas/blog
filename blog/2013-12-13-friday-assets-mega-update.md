@@ -13,6 +13,8 @@ This week has been the week of the Asset at PlayCanvas. We taken a long hard loo
 [![Use pre-made 3D models in your game](/img/asset_library.jpg)](/img/asset_library.jpg)  
 _Use pre-made 3D models in your game_
 
+<!-- truncate -->
+
 ## Uploading to the Designer
 
 You can now drag and drop files from your desktop straight into the Designer. This means you never need to leave the Designer tab. Even better, if you drag an 3D model file (like an FBX) into the 3D view, your model will be uploaded, converted and a new Entity with model component all set up will be created for you. So it's super easy to get models into your Pack.

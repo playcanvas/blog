@@ -6,6 +6,8 @@ title: PlayCanvas Update 08/08/14
 
 This week, we're preparing to attend gamescom, GDC Europe and SIGGRAPH. Here's a quick reminder:
 
+<!-- truncate -->
+
 ### SIGGRAPH
 
 In a few days PlayCanvas will be at [SIGGRAPH](http://s2014.siggraph.org/). We'll be demonstrating how you can use PlayCanvas to develop 3D games for mobile platforms. For anyone lucky enough to attend, we'll be at [Mobile Pavilion](http://s2014.siggraph.org/exhibitors-advertisers/siggraph-2014-mobile-pavilion) #933, in conjunction with ARM - you're all welcome to pay us a visit. Or [get in touch](mailto:info@playcanvas.com) if you'd like to set up a meeting.

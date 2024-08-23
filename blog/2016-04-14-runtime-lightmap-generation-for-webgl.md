@@ -17,6 +17,9 @@ All that changes today as we introduce **Runtime Lightmap Generation** into the 
 
 _Here's a link to [full demo](https://playcanv.as/p/txPePQvy)._
 
+<!-- truncate -->
+
+
 The demo above shows the engine's lightmap generation in action and this functionality is now available to all users via the PlayCanvas Editor.
 
 ## How does it work?

@@ -13,6 +13,8 @@ You may have seen the news about Facebook launching Instant Games in Messenger. 
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WKQYMCLitV0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!-- truncate -->
+
 Instant Games is a **totally new** mobile gaming platform and it's **entirely built on HTML5 games**. This is tremendous news for the PlayCanvas game development community.
 
 Games that are built using PlayCanvas will work with no modification as an Instant Game. Those games are ready to be played in the Facebook News Feed and in Messenger.

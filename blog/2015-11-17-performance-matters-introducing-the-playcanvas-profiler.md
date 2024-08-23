@@ -11,6 +11,8 @@ Time to take the wraps off the latest awesome feature in PlayCanvas. We're super
 
 [![profiler](/img/profiler.png)](/img/profiler.png)
 
+<!-- truncate -->
+
 The Profiler is a panel that overlays your app, displaying lots of useful timing information and performance stats. So whenever you're wondering why your app isn't hitting 60 frames per second, simply launch the Profiler and you should be able to figure out exactly what the problem is.
 
 To launch the Profiler, there are new options available from the Launch button:

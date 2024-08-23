@@ -12,6 +12,8 @@ PlayCanvas implemented the fantastic hardware texture compression [workflow in 2
 
 JPGs and PNGs are great formats for transmission over a network because they tend to compress nicely. But once the images are downloaded and handed over to WebGL, they must decompressed to raw RGB(A) data. Using hardware compressed textures is important as decompression is performed in silicon on the GPU which avoids the need to utilize lots of memory.
 
+<!-- truncate -->
+
 This 4096 x 2048 Earth texture is a 1.81MB JPG but takes a huge **33.6MB of VRAM** when uncompressed!
 
 ![Earth Texture](/img/texture-earth.jpg)

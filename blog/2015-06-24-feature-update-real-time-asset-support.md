@@ -8,6 +8,8 @@ tags:
 
 Big changes to some of the underlying architecture of PlayCanvas this week. The powerful features that let you edit your scenes collaboratively with other users where ever they are in the world now applies to all Asset data too.
 
+<!-- truncate -->
+
 This means you can update your materials, cubemaps and textures and share those changes in real-time with your team mates around the world.
 
 [![PBR Assets](/img/pbr-gif.gif)](/img/pbr-gif.gif)

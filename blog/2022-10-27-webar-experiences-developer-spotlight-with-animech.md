@@ -18,6 +18,8 @@ Welcome to the third instalment of Developer Spotlight, a series of blog article
 
 Today we are excited to be joined by Staffan Hagberg, CMO of [Animech](https://animech.com/en/).
 
+<!-- truncate -->
+
 **Hi Staffan, welcome to Developer Spotlight! Tell us about yourself and Animech!**
 
 [Animech](https://www.animech.com/en/) was founded back in 2007, in the city of Uppsala, Sweden. With a mix of 3D artists, engineers, developers, and UI/UX experts, we have a team of 40 people and all the competence in-house. The studio started in the early days of real-time 3D. It was a mix of CAD engineers and developers who realized the power of visualization for selling complex products in the life sciences segment.

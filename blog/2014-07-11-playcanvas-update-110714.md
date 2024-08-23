@@ -4,7 +4,9 @@ slug: playcanvas-update-110714
 title: PlayCanvas Update 11/07/14
 ---
 
-**Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers!** What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know... anyway, the updates for this week:
+**Despite a tide of sickness this week we still have a great list of updates for all you PlayCanvasers!** What would be the phrase you use to describe someone who uses PlayCanvas? I don’t know... anyway, the updates for this week.
+
+<!-- truncate -->
 
 ### New Features and Bug fixes
 

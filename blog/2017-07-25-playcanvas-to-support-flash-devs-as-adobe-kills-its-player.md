@@ -12,6 +12,8 @@ Back in early 2011, we foresaw this event and started work on PlayCanvas. We kne
 
 ![PlayCanvas Editor](/img/editor-after-the-flood-tree.png)
 
+<!-- truncate -->
+
 Flash never did quite manage to establish Stage3D as a standard. WebGL, on the other hand, has cemented itself as the dominant force for web-based 3D, and has now reached version 2.0. In fact, [PlayCanvas partnered with Mozilla](https://blog.playcanvas.com/mozilla-launches-webgl-2-with-playcanvas/) back in January to launch the new standard. Flash has always been more popular for 2D based content and the remaining Flash developers must now find a path to migrate away. Spoiler alert: we're working hard on improving our support for 2D. While it's possible to make superb 2D content with PlayCanvas today (check out [Master Archer](https://playcanv.as/p/JERg21J8/), one of the top titles on Facebook Instant Games), we recognize there's still more to be done in both the engine and the tools. We have some exciting announcements in the works regarding this so keep your eyes peeled.
 
 Bottom line: Flash devs - we've got your back and we'll be working hard to ensure you've got the tools and run-time you need.

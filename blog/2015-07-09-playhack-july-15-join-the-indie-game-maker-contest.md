@@ -8,6 +8,8 @@ We've timed this month's PLAYHACK to coincide with the [Indie Game Maker Contest
 
 [![banner-small](/img/banner-small.jpg)](/img/banner-small.jpg)
 
+<!-- truncate -->
+
 This month's content is a **gorgeous little car** and a set of track pieces for you to design tracks with. Get coding to get your car driving. Add extras like obstacles, power-ups, and AI racers. **Build your own racing game!**
 
 You've got until August 7th to enter the [Indie Game Maker Contest](http://contest.gamedevfort.com/)

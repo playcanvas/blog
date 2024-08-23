@@ -8,6 +8,8 @@ title: PlayCanvas Update 21/9/2014
 
 After a short summer hiatus, we're back with regular PlayCanvas feature updates.
 
+<!-- truncate -->
+
 ### iOS Support
 
 In light of the launch of iOS 8 and the new iPhones. We've launched a great new feature which lets you get your PlayCanvas game straight on the App Store. For Pro account holders we now let you download a XCode project which builds quickly and painlessly into a iOS 8 program ready to run natively on your iPhone or iPad.

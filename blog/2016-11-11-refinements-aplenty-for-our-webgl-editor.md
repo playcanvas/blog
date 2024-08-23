@@ -10,6 +10,8 @@ import ReactPlayer from 'react-player'
 
 You probably saw this week's [big announcement about our seamless integration with WebVR](https://blog.playcanvas.com/webvr-support-in-playcanvas/). But while WebVR is getting a lot of attention, we still care about the small details that can make you even more productive. We've spent the week adding some simple yet useful tweaks to the Editor.
 
+<!-- truncate -->
+
 ### Previous Selection Button
 
 We've added a button to the top right of the Inspector panel that allows you to step back through the selection history. There's also a tooltip that shows clearly what the previous selection was. So if you've selected a model, then a material, and then a texture, you can now bubble back up to the model quickly and easily.

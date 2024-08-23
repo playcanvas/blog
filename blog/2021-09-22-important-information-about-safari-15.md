@@ -6,6 +6,8 @@ title: Important Information about macOS Safari 15
 
 We have been made aware of a critical issue regarding WebGL content and the release of macOS Safari 15 earlier this week where previously published content could fail to load.
 
+<!-- truncate -->
+
 Apple are aware of this and have a [fix in place on WebKit](https://bugs.webkit.org/show_bug.cgi?id=230525). However, we don't know when this fix will be included in an update release.
 
 PlayCanvas have released [v1.46.5](https://github.com/playcanvas/engine/releases/tag/v1.46.5) of the engine to workaround this issue.

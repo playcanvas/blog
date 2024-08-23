@@ -6,6 +6,8 @@ title: The DevLog - PlayCanvas Community Feature
 
 We've just rolled out the Developer Log or DevLog. The first of several community features coming soon into PlayCanvas.
 
+<!-- truncate -->
+
 ## Keeping people informed
 
 ![SWOOOP DevLog](/img/swooop-devlog.jpg)

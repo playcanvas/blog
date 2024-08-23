@@ -12,6 +12,8 @@ tags:
 
 Vaios comes from Athens, Greece (if his name wasn't giving anything away) and he is a Senior Engineer here at PlayCanvas.
 
+<!-- truncate -->
+
 **How did you get into the video games industry?**
 
 I wanted to get into the video games industry since I was a teenager. So I studied Computer Science at the University of Piraeus where I researched everything I could about graphics and game development and then I got an MSE in Computer Science from the University Of Pennsylvania. I was very fortunate to get a job as a Junior Programmer at Sony Computer Entertainment Europe, where I met Dave and Will and I've been working on games and game related tools ever since!

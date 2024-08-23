@@ -10,6 +10,8 @@ PlayCanvas is passionate about education and many universities throughout the wo
 
 [![videogameday](/img/videogameday.png)](/img/videogameday.png)
 
+<!-- truncate -->
+
 On 21st March, ENTI is holding VideoGame Day in Manacor on the beautiful Balearic island of Mallorca. It is their first workshop on videogame design and programming, where they are going to teach how to make robot dance using PlayCanvas! The workshop starts at 10AM and last for 4 hours.
 
 The address:

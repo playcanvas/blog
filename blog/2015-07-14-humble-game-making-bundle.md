@@ -8,6 +8,8 @@ PlayCanvas is delighted to be part of the [Humble Game Making Bundle](https://ww
 
 If you've just bought the bundle and you're looking for some help here's a few pointers.
 
+<!-- truncate -->
+
 ## Activating your Promo
 
 [![account-promo-code](/img/account-promo-code.jpg)](/img/account-promo-code.jpg)

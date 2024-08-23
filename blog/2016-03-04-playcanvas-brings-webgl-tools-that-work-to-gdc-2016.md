@@ -11,6 +11,8 @@ We're heading to San Francisco for GDC 2016!
 
 [![gdc16_logo-color](/img/gdc16_logo-color.png)](/img/gdc16_logo-color.png)
 
+<!-- truncate -->
+
 Actually, we fly out a week early to tour PlayCanvas users on the West Coast. But we're really excited about attending the conference because we have a lot of coolness in store. Here's a quick run-down of what we'll be up to:
 
 - _Monday 14th - Tuesday 15th_: Available for meetings to discuss all things WebGL - [get in touch](https://twitter.com/playcanvas) if you want to talk. We'd love to meet you!

@@ -10,6 +10,8 @@ On May 13th, San Francisco played host to 3D Web Fest.
 
 [![folsom_st_foundry_panorama](/img/folsom_st_foundry_panorama.jpg)](/img/folsom_st_foundry_panorama.jpg)
 
+<!-- truncate -->
+
 The event was designed to showcase websites that represent the best of the best of the 3D Web. The content on show - presented as Live Performance Art – was amazing, delightful, surprising and at times disturbing. There were creations by artists and developers of all kinds showing off their best 3D web sites live with musical accompaniment. The running order was as follows:
 
 - [Tone Pong](http://yagizmungan.com/TonePong) - A audio rich Pong experience

@@ -12,6 +12,8 @@ tags:
 
 It’s finally here! The PlayCanvas team is very excited to announce the public release of our new Templates feature! 🎉
 
+<!-- truncate -->
+
 <div className="iframe-container">
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/2HV8Ib6wYRc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

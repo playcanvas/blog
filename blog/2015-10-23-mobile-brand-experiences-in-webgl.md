@@ -12,6 +12,8 @@ _[Try it fullscreen](https://car.playcanvas.com/)_
 
 Over 40% of internet browsing occurs on mobile phones, yet many high-quality web-based brand experiences, particularly those utilizing WebGL graphics, primarily target desktop users. This trend stems from two main factors: a general unawareness of the capabilities of mobile browsers and the subpar performance of other engines that often treat the web as a secondary platform, resulting in extensive download times and sluggish frame rates.
 
+<!-- truncate -->
+
 Recognizing these challenges, PlayCanvas has developed a mobile brand experience that showcases the potential of modern mobile web capabilities. Our project features cutting-edge visuals, comparable to those found in AAA console games, crafted for an interactive experience any brand would value.
 
 ## BMW i8 Configurator

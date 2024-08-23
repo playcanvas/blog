@@ -4,7 +4,9 @@ slug: playcanvas-update-18714
 title: PlayCanvas Update 18/7/14
 ---
 
-**Welcome PlayCanvas fans! Tea and coffee spillages have menaced the office this week but still we carry on. Here are the updates for this week:**
+Welcome PlayCanvas fans! Tea and coffee spillages have menaced the office this week but still we carry on. Here are the updates for this week.
+
+<!-- truncate -->
 
 ### Features and Fixes
 

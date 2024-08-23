@@ -4,7 +4,9 @@ slug: playcanvas-update-200614
 title: PlayCanvas Update 20/06/14
 ---
 
-**Now it really has been a busy week for us and we have so much to tell you about. Here's a run down on improvements to the engine and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.**
+Now it really has been a busy week for us and we have so much to tell you about. Here's a run down on improvements to the engine and what happened behind the scenes at [PlayCanvas](https://playcanvas.com/) this week.
+
+<!-- truncate -->
 
 ### User Camera View
 

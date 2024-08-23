@@ -11,6 +11,8 @@ Yesterday, at PlayCanvas we hosted our first physical Game Jam. By physical, I m
 [![Game Jammers](/img/group.jpg)](/img/group.jpg)  
 _The PlayCanvas Game Jam Dungeon_
 
+<!-- truncate -->
+
 Based out of the 80s sci-fi haven that is the Virgin Media Game Space, a group of 9 of us spent the day hacking on brand new games, modelling manga robots, and techno beats.
 
 Yes, I know you wish you were there.

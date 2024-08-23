@@ -9,7 +9,7 @@ tags:
 
 Our [previous article](https://blog.playcanvas.com/playcanvas-versus-unity-webgl/) comparing PlayCanvas with Unity's WebGL exporter certainly got folks talking. One of the questions that came up in the aftermath was "OK, but what about Unreal's WebGL exporter?". Unreal, like Unity, relies on Emscripten to port the native codebase to JavaScript. So it would be reasonable to expect Unreal to suffer from the same issues as Unity: large download sizes, long load times and poor runtime performance.
 
-<!-- more -->
+<!-- truncate -->
 
 We could do the same experiments as before with the textured cube, but let's try to make a more real-world comparison. Flappy Bird clones have been made in both Unreal and PlayCanvas. Let's take the Epic-authored Tappy Chicken and see how it fares against the PlayCanvas-powered Flappy Bird. Here's the  (playable) PlayCanvas game:
 

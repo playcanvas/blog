@@ -10,6 +10,8 @@ tags:
 
 Big news! PlayCanvas is excited to introduce **easy texture compression**, enabling you to build bigger and better WebGL apps.
 
+<!-- truncate -->
+
 Today, the vast majority of WebGL developers load textures from JPG and PNG images. Unfortunately, while these formats compress well for transmission (especially JPG), they occupy a great deal of video memory when passed to WebGL. For example, let's consider this image of the Earth:
 
 <!-- more -->
