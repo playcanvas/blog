@@ -14,6 +14,8 @@ tags:
 
 We've just launched "Scripts 2.0", a complete re-design and re-implementation of the scripting system for PlayCanvas applications. Our goals were to fix an array of small irritations that had built up over using the PlayCanvas scripting for the last few years and take the opportunity to clean up the interface and simplify the creation and usage of scripts.
 
+<!-- truncate -->
+
 Here's a list of the improvements you can enjoy with the new script system:
 
 - rapid iteration by hot-swapping code at run-time

@@ -10,6 +10,8 @@ In the early days of PlayCanvas, we published a game called TANX, an online mult
 
 ![TANX Prototype](/img/tanx-prototype.jpg)
 
+<!-- truncate -->
+
 To us, it was the perfect illustration of why the web makes such a great platform for gaming.
 
 - Bite-sized fun with drop-in/drop-out gameplay.

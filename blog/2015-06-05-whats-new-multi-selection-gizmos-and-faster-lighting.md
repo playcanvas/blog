@@ -8,6 +8,8 @@ tags:
 
 Greetings, PlayCanvians! It's time to update you on all the cool things we've deployed recently. Let's get started!
 
+<!-- truncate -->
+
 ### Multi-selection: Phase II
 
 You may remember that, last month, we began work on implementing multi-selection in the Editor. First, we delivered asset multi-selection. And today, we're happy to announce we deployed entity multi-selection. So now, you can CTRL+click multiple entities either in the Hierarchy panel or in the 3D view. This selection can then be manipulated, either via the gizmos or in the Inspector. Don't believe me? Feast your eyes on this:

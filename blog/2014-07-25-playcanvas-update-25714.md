@@ -4,7 +4,9 @@ slug: playcanvas-update-25714
 title: PlayCanvas Update 25/7/14
 ---
 
-**Welcome back PlayCanvas fans,  we have a few new developments, so here are the updates for this week:**
+Welcome back PlayCanvas fans. We have a few new developments, so here are the updates for this week.
+
+<!-- truncate -->
 
 ### Features and Fixes
 

@@ -6,9 +6,11 @@ tags:
   - rest-api
 ---
 
+Today we're launching the first version of the PlayCanvas REST API.
+
 ![REST API](/img/rest-api.png)
 
-Today we're launching the first version of the PlayCanvas REST API.
+<!-- truncate -->
 
 The REST API is available to all Organization account holders and allows developers to automate processes to help them with their development. For example, you can use the API to create a daily build of your application and download it via a build server. In the future we'll be expanding the API with additional features like access to assets and more.
 

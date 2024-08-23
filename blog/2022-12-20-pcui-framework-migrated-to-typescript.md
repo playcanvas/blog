@@ -13,6 +13,8 @@ tags:
 
 Today, we are excited to announce the release of [PCUI version 2.10.0](https://github.com/playcanvas/pcui/releases/tag/v2.10.0)! This new release includes a number of significant updates and improvements that will make building web tools with PCUI even easier and more efficient.
 
+<!-- truncate -->
+
 One of the biggest changes in this release is the migration of the entire source code from JavaScript to TypeScript. This will provide a number of benefits to developers, including improved type checking, better code completion and IntelliSense in IDEs, and easier maintenance and refactoring of code.
 
 [![PCUI API Reference](/img/pcui-api-reference.png)](/img/pcui-api-reference.png)

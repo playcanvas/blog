@@ -10,6 +10,8 @@ The PlayCanvas team are very excited to fully release the [Import Hierarchy pipe
 
 [![Edit Hierarchy](/img/edit-hierarchy.gif)](/img/edit-hierarchy.gif)
 
+<!-- truncate -->
+
 With this feature enabled, any imported FBX will create a Template asset which contains the full node hierarchy as entities representing sub-models of the model. This gives users greater flexibility in manipulating mesh instances in the model directly in the Editor.
 
 Render assets will also be created that can be used with the Render Component and allow users to add an individual mesh instance of a model in the scene.

@@ -9,6 +9,8 @@ The all new front-page shows an overview of all PlayCanvas activity.
 [![Cloud Gate (The Bean)](https://farm1.staticflickr.com/1/414896_925f2c7a1c.jpg)](https://www.flickr.com/photos/josh/414896/)  
 _New shiny thing_
 
+<!-- truncate -->
+
 Today we're launching the new front-page for PlayCanvas users. When you log in and visit [playcanvas.com](https://playcanvas.com) you'll now get a nice overview of activity across the whole PlayCanvas community.
 
 ## Feature Games and Projects

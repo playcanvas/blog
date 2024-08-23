@@ -9,6 +9,8 @@ title: New Custom and Built-in Post Effects
 [![Before](/img/posteffects1.png)](/img/posteffects1.png)  
 _Plain old boring scene_
 
+<!-- truncate -->
+
 ## Built-in Post Effects
 
 The visual element of gaming experiences is as important as any other and we want the projects made by our [PlayCanvas](https://playcanvas.com) community to look as good as they can. Adding to our already extensive [library of Post Effects](https://github.com/playcanvas/engine/tree/main/scripts/posteffects), we have spoiled you lucky PlayCanvas users as you can now choose from effects such as Bloom, Brightness-Contrast, Hue-Saturation, FXAA, Sepia and Vignette with a simple right click on the camera entity in the hierarchy. Its as easy as that! Thanks to PlayCanvas you don't have to be an artist to make your games look cool. Want to find out more about the new built-in post effects? Cast your eyes [here](https://developer.playcanvas.com/user-manual/graphics/posteffects/).

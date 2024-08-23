@@ -16,6 +16,8 @@ To mark the launch of WebGL 2, Mozilla and PlayCanvas have teamed up to build 
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/paCu1qEK-RI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!-- truncate -->
+
 [EXPERIENCE 'AFTER THE FLOOD' NOW](http://aftertheflood.playcanvas.com)
 
 'After the Flood' illustrates many of the key, new aspects of WebGL 2.

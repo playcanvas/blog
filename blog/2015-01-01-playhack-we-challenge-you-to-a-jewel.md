@@ -8,6 +8,8 @@ title: PLAYHACK - We challenge you to a jewel!
 
 We were lucky enough to see some amazing festive entries in PLAYHACK December, but January isn't really known for a lot. So we have put our brains together to give you some sparkly assets to play with.
 
+<!-- truncate -->
+
 ### How does it work?
 
 PLAYHACK starts today! We'll provide you with a 3D model and your mission is to turn it into a game. The only rule: you must use the model somewhere in your game.

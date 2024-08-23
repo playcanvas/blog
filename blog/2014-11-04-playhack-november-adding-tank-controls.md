@@ -8,6 +8,8 @@ title: PLAYHACK November - Adding Tank Controls
 
 As this is our first PLAYHACK we thought it would be sensible to start with a few tips and tutorials to get you going. We'll follow up with more of these throughout the week. Don't forget, these are just examples. You can make **any** game you like.
 
+<!-- truncate -->
+
 ## Tank Controls
 
 Our first snippet of code is going to get you controlling your tank. This will give you an little introduction into the PlayCanvas physics system as well as reading keyboard input.

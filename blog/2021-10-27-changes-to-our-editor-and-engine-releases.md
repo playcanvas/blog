@@ -14,6 +14,8 @@ This has served us well for many years and meant that users always had the lates
 
 However, as the features of the Engine are get bigger and more complex and users' projects grow in scale and size, this release process needs to change to match our users' needs for stability and transparency with releases.
 
+<!-- truncate -->
+
 Over the next month or so, we will be rolling out the following changes (finer details subject to change):
 
 ### Minor and patch versions updates

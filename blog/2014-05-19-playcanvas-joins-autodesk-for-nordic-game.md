@@ -10,6 +10,8 @@ This week, thousands of indie developers are making their way to Malmö, Sweden 
 
 [![Nordic Game 2014](/img/nordic-game-2014.png)](/img/nordic-game-2014.png)
 
+<!-- truncate -->
+
 Of course, PlayCanvas will be there to join the fun! And first things first - we want to meet you! If you love making games, you're going to love PlayCanvas so come and check out the latest build. But where? Well, this year, we will be demoing on Autodesk's booth (C1) and demonstrating a workflow to effortlessly publish Maya LT content as realtime 3D in the browser and on mobile. So make sure you drop by and find out why PlayCanvas is a better way to make games. If you would like to arrange anything beforehand, just send an email to [info@playcanvas.com](mailto:info@playcanvas.com).
 
 ## Game Jam

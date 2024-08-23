@@ -8,6 +8,8 @@ tags:
 
 Today we've launched an update to streamline the way you publish your applications and to give your collaborators more information about what is changing.
 
+<!-- truncate -->
+
 First big change, the publishing process is now right there next to you in the Editor.  Look for the new publish button in your toolbar.
 
 ![Editor 3](/img/Editor-3.jpg)

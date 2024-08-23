@@ -10,6 +10,8 @@ Today we're pleased to update the engine and tools with a new Asset API. We'v
 
 This post should introduce some of the new APIs, plus give you an upgrade guide for areas of the API which have changed.
 
+<!-- truncate -->
+
 First some terms. When we talk about a "resource" we are referring to some data, usually stored in a file, that can be loaded by a PlayCanvas application. When the resource data is loaded, the engine creates a instance of some class that came from that data. e.g. the resource "image.png", is loaded to a creates an instance of a `pc.Texture`. The same applies for a 3D model, an animation or sound effect.
 
 When we talk about as "asset" we are referring to a reference to a resource, with some associated data. For example a texture asset looks something like this:

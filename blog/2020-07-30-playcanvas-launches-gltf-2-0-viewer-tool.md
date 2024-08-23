@@ -11,6 +11,8 @@ Today, the PlayCanvas team is excited to announce the release of a brand new bro
 
 ![glTF Viewer](/img/gltf-viewer.gif)
 
+<!-- truncate -->
+
 **Try it now:** [https://playcanvas.com/viewer](https://playcanvas.com/viewer)
 
 Or click these links to preload some classic glTF models: [Boom Box](https://playcanvas.com/viewer/?load=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/BoomBox/glTF-Binary/BoomBox.glb), [Damaged Helmet](https://playcanvas.com/viewer/?load=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/DamagedHelmet/glTF-Binary/DamagedHelmet.glb) and [Fox](https://playcanvas.com/viewer?load=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Fox/glTF-Binary/Fox.glb).

@@ -8,6 +8,8 @@ title: 'PLAYHACK April: Rolling balls and platforms'
 
 ![rollball-640](/img/rollball-640.jpeg)
 
+<!-- truncate -->
+
 This month's **PLAYHACK** is a little different to previous ones.
 
 ## Level Design Challenge

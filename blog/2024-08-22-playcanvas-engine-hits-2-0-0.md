@@ -6,7 +6,11 @@ tags:
   - engine
 ---
 
-Today marks a major milestone for the PlayCanvas Engine, the [open-source](https://github.com/playcanvas/engine) JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0! For the full details, visit our GitHub:
+Today marks a major milestone for the PlayCanvas Engine, the [open-source](https://github.com/playcanvas/engine) JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0!
+
+<!-- truncate -->
+
+For the full details, visit our GitHub:
 
 [**RELEASE NOTES**](https://github.com/playcanvas/engine/releases/tag/v2.0.0)
 

@@ -8,6 +8,8 @@ tags:
 
 Making a video game in 48 hours is tough. In fact, it's one of the most gruelling mental challenges you can face. But every 4 months, thousands of die hard game developers enter [Ludum Dare](https://ludumdare.com/), a game jam of epic proportions. And they're not doing it for the prizes (there aren't any) or even the glory. They're doing it to give the gift of a game. And when it's a game you have created yourself, it's a very personal and powerful gift.
 
+<!-- truncate -->
+
 So I took part in Ludum Dare once more on the 26th-27th of April. Before I even knew the theme, I developed a number of aims:
 
 - I was going to be using PlayCanvas and I was going to be pushing the tools as hard as I possibly could.

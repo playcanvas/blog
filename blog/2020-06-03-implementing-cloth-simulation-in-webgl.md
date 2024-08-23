@@ -16,6 +16,8 @@ Here is an example of a character with and without soft body cloth simulation ru
 </div>
 _**[RUN FULLSCREEN](https://playcanv.as/p/WpURkO1l/)**_
 
+<!-- truncate -->
+
 Want to know how it was done? Read on!
 
 **_Step 1: Create a soft body dynamics world_**

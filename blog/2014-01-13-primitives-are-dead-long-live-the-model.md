@@ -8,6 +8,8 @@ tags:
 
 One of our most requested features has landed today, and with it, it brings new power (and no new responsibility). Our most requested feature? Applying textures and materials to primitive shapes in the Designer.
 
+<!-- truncate -->
+
 ### A Bit of History
 
 When we created the primitive component, we had simplicity in mind. Create box, set the color. That's it. Also, this was another time, when material editing wasn't available as part of the PlayCanvas Designer. So we created two components, the model, which allowed you to upload a 3D asset complete with materials and textures; and the primitive, the little brother, which only allowed you to set a color.

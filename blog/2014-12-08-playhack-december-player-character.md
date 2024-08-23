@@ -8,7 +8,7 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month I'l
 
 ![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
-<!-- more -->
+<!-- truncate -->
 
 <div className="iframe-container">
     <iframe loading="lazy" src="https://playcanv.as/b/WbIFTpdn/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />

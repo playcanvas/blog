@@ -6,7 +6,9 @@ title: Find Your Dream Job @ The Tech Factor
 
 Want to work for one of the hottest startups in London?
 
-PlayCanvas is one of 11 companies shaking up the London startup scene. Our goal is to re-invent how video games are built, shared and played, and to do this we are building a world class team. Finding amazingly talented people is hard but, as usual, the Techstars crew have the answer:
+PlayCanvas is one of 11 companies shaking up the London startup scene. Our goal is to re-invent how video games are built, shared and played, and to do this we are building a world class team. Finding amazingly talented people is hard but, as usual, the Techstars crew have the answer.
+
+<!-- truncate -->
 
 [![techfactor](/img/techfactor.jpg)](/img/techfactor.jpg)
 

@@ -14,6 +14,8 @@ tags:
 
 ![Seemore Demo](/img/seemore-greenhouse.png)
 
+<!-- truncate -->
+
 [**PLAY NOW**](https://playcanv.as/p/MflWvdTW/)
 
 [**EXPLORE PROJECT**](https://playcanvas.com/project/612100/overview/seemore)

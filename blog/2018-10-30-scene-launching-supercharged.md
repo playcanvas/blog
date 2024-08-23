@@ -12,6 +12,8 @@ When you launch a scene from the PlayCanvas Editor, a set of assets has to be lo
 
 Today, we're pleased to announce that we have deployed an update that introduces a lightning fast build step when you launch your scene that concatenates scripts into a single file. This means that only one HTTP request is made for scripts regardless of how many you have.
 
+<!-- truncate -->
+
 ### How To Enable The Concatenation Goodness
 
 In the Launch button sub-menu, there is a new options called 'Concatenate Scripts'. Check this to enable the feature:

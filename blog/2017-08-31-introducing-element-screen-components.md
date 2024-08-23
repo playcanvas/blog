@@ -11,6 +11,8 @@ Building user interfaces in graphical applications provides a unique challenge. 
 
 ![Sample Game UI](/img/sample-game-ui.gif)
 
+<!-- truncate -->
+
 From today you'll find two new components available in the PlayCanvas Editor.
 
 ### Screen Component

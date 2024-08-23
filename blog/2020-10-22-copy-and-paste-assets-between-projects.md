@@ -13,6 +13,8 @@ Many of you have requested the ability to do the same with assets. Well, we list
 
 ![](/img/Kapture-2020-10-14-at-16.39.37-1.gif)
 
+<!-- truncate -->
+
 So if you need to grab some assets from another project, no more need to download from Project A and then upload to Project B. Just copy and paste in seconds, directly from project to project.
 
 This makes it super easy to share reusable code and assets with your team and the rest of the PlayCanvas community, especially in combination with the recent launch of [Templates](https://blog.playcanvas.com/supercharge-your-workflow-with-template-assets/) to setup preconfigured Entities.

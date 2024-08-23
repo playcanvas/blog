@@ -6,6 +6,8 @@ title: PlayCanvas December Mega Update
 
 Time for another dev update, WebGL lovers! We've deployed a ton of new features, optimizations and fixes. Here's a run-down of what's new.
 
+<!-- truncate -->
+
 ### Camera Preview
 
 A Camera Preview is now shown in the top left corner of Viewport when an entity with a camera component is selected.

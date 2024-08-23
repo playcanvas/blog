@@ -15,6 +15,8 @@ Any PlayCanvas developer building directly on top of the Engine will very likely
 
 ![VS Code Extension](/img/vscode-extension.webp)
 
+<!-- truncate -->
+
 ## Benefits
 
 The PlayCanvas Code Editor is actually built on the [Monaco Editor](https://github.com/microsoft/monaco-editor), the beating heart of VS Code. So why use VS Code instead of the PlayCanvas Code Editor?

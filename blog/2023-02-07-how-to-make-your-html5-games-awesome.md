@@ -14,6 +14,8 @@ import ReactPlayer from 'react-player'
 
 The quality of a video game is often determined by how polished it is. It's the attention to detail and the finishing touches that can make a good game great. In this article, we'll take a look at the importance of polish in game development and how it can significantly enhance the overall experience.
 
+<!-- truncate -->
+
 We'll use [Space Rocks!](https://playcanvas.com/project/1029772/overview/space-rocks), a simple Asteroids game created with the PlayCanvas game engine to showcase how even the smallest details can make a big impact.
 
 > [Game juice](https://www.youtube.com/watch?v=Fy0aCDmgnxg) is a design term to refer to the small visual and audio effects that are added to a game to make it feel more satisfying to play. This can include things like screen shakes, particle effects, and sound effects that are triggered when the player takes certain actions. Game juice is all about enhancing the overall feel of a game and making it more immersive and enjoyable.

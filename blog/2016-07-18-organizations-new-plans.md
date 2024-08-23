@@ -1,14 +1,14 @@
 ---
 authors: dave
 slug: organizations-new-plans
-title: Organizations & new plans
+title: Organizations & New Plans
 tags:
   - plans
 ---
 
 Today we're pleased to launch **Organizations** for PlayCanvas users along with an updated and simplified set of plans including unlimited projects and more storage.
 
-<!-- more -->
+<!-- truncate -->
 
 ## Organizations
 

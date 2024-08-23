@@ -12,6 +12,8 @@ tags:
 
 If you're working with real-time 3D, chances are that you want your scenes to look physically accurate. For many years, graphics engines have relied on a non-physical approximations without respect to energy conservation and had problems with properly decoupling lighting from the actual material properties. In recent times, huge advances have been made to formulate more accurate shading approaches as well as provide sensible material inputs, which could approximate many types of surfaces without using hacks and tweaks for each scene and lighting conditions. This is a collection of techniques and art-producing approaches often referred to as Physically Based Rendering, or PBR.
 
+<!-- truncate -->
+
 ### PBR in PlayCanvas
 
 Up until now PBR has only been available in the domain of AAA console and PC gaming. Games like Watch Dogs, Assassin's Creed: Unity and Call of Duty: Advanced Warfare all feature PBR engines. **Today, we're excited to announce that PBR is coming to PlayCanvas.** Both web developers and game creators can now look forward to a high-level online toolset to build stunningly beautiful 3D scenes using WebGL.

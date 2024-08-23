@@ -16,6 +16,8 @@ Try the lab right now:
 
 _[Try it in fullscreen](https://playcanv.as/p/sAsiDvtC/)_
 
+<!-- truncate -->
+
 WebVR is a new standard that makes VR experiences accessible to the billions of web browser users and enables developers to reach a user on any type of VR headset. Using the web to deliver VR makes sharing experiences as easy as clicking a link, with no downloads required.
 
 Chrome 56 for Android, launched this week, supports WebVR using the Daydream View headsets.

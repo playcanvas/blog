@@ -17,6 +17,8 @@ _[CLICK HERE](https://playcanv.as/e/p/cLkf99ZV/) to open in a new tab. Credits: 
 We have big news for the 3D Gaussian Splat community - the PlayCanvas Editor now has fully integrated support for splats!
 Learn how to quickly build stunning, interactive 3DGS applications today.
 
+<!-- truncate -->
+
 :::note[What you need]
 
 🤳 A smartphone  

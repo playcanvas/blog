@@ -7,6 +7,8 @@ title: Goo Create to Migrate Userbase to PlayCanvas
 
 Goo Create is a platform for creating WebGL-based interactive web content offered by Goo Technologies. Today, Goo Technologies is announcing an important change to the Goo Create service.
 
+<!-- truncate -->
+
 > All support services relating to Goo Create have unfortunately ended. Goo Create will continue for 3 months after which we cannot guarantee that the service will accept new signups. This process begins today and will complete within the next 3 months. Create users are encouraged to export important projects to avoid to losing their data and assets.
 
 In light of this announcement, Goo Technologies is partnering with PlayCanvas to migrate the Goo Create userbase across to PlayCanvas as efficiently as possible.

@@ -11,6 +11,8 @@ tags:
 
 We are thrilled to announce the immediate availability of Draco Mesh Compression in the PlayCanvas Editor! Our latest feature allows developers to compress meshes using Google's Draco technology, reducing file sizes and enhancing the end-user experience.
 
+<!-- truncate -->
+
 At its core, [Draco Mesh Compression](https://google.github.io/draco/) reduces the amount of data needed to represent 3D graphics without compromising visual quality. The technology achieves this by applying a lossy compression algorithm to the mesh data. With less data to transfer, the result is faster load times and lower bandwidth costs for your applications.
 
 The open source [PlayCanvas Engine](https://github.com/playcanvas/engine) has been able to load Draco-compressed glTF 2.0 files for quite some time now. But now you can generate these Draco-compressed glTF files in the Editor at import time. Check out how easy it is to use:

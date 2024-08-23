@@ -11,6 +11,8 @@ tags:
 
 PlayCanvas are very excited to announce official support for Facebook Playable Ads! 🚀
 
+<!-- truncate -->
+
 ### What are Playable Ads?
 
 Playable ads are small, interactive previews of a game or app that give a taste of the experience before the user choses to download it. These ads from Facebook are normally shown in the news feed or with ‘rewarded ads’ in other games and apps in exchange for an in-game/app reward.

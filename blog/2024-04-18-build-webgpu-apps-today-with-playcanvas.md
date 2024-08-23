@@ -12,6 +12,8 @@ It's here! 🥳 Today, we're excited to announce that WebGPU support has officia
 
 ![Editor with WebGPU Scene](/img/editor-webgpu.png)
 
+<!-- truncate -->
+
 ## WebGPU on the Rise
 
 Since its inception back in 2010, PlayCanvas has been layered on top of WebGL. In 2017, we were proud to launch support for [WebGL 2.0](https://blog.playcanvas.com/mozilla-launches-webgl-2-with-playcanvas/) in partnership with our friends at Mozilla. April 2023 marked the beginning of a new era for web graphics when Google enabled WebGPU by default in Chrome 113. Since then, WebGPU adoption has exploded and today, [Web3D Survey](https://web3dsurvey.com/webgpu) reports that **62.19% of end users can now run WebGPU**. With [Firefox and Safari due to launch their WebGPU support](https://caniuse.com/webgpu) in the not-too-distant future, expect this number to rise dramatically in 2024.

@@ -13,6 +13,8 @@ Way back in 2014, [PlayCanvas was the first WebGL Engine to integrate PBR](https
     <iframe loading="lazy" src="https://playcanv.as/p/SA7hVBLt/" title="360 lookaround camera" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
 </div>
 
+<!-- truncate -->
+
 In the intervening 6 or so years, PlayCanvas has moved on dramatically. So we decided to leverage all of the latest engine features and republish it.
 
 The most significant improvements are related to load time. Let's start out by comparing some key stats:

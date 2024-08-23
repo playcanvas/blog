@@ -9,7 +9,7 @@ tags:
 
 A question we get asked a lot is "How does PlayCanvas compare to Unity's WebGL export?". So let's examine this in a blog post.
 
-<!-- more -->
+<!-- truncate -->
 
 But first, let me quickly introduce Unity and PlayCanvas to the uninitiated. Unity is a game engine provided as a native, desktop application for Windows, Mac and Linux. PlayCanvas is an HTML5/WebGL game engine that is provided as a web application that runs in any browser on any operating system.
 

@@ -13,6 +13,8 @@ Welcome to Developer Spotlight! A new series of blog articles where we talk to d
 
 Today we are excited to be joined by [Christina Kaliora](https://solargames.io/christina/), a freelance web and games developer for Solar Games.
 
+<!-- truncate -->
+
 She will showing us the how she recently ported the [John Lemon's Haunted Jaunt](https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner) Unity project to PlayCanvas in the video presentation below covering areas:
 
 - Exporting the scene from Unity

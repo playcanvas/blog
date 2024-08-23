@@ -13,6 +13,8 @@ tags:
 
 Today, we are excited to announce the 2.0 release of our glTF viewer.
 
+<!-- truncate -->
+
 [**TRY IT NOW**](https://playcanvas.com/viewer?load=https://s3.eu-west-1.amazonaws.com/static.playcanvas.com/models/IridescentDishWithOlives.glb)
 
 glTF (or Graphics Language Transmission Format) has become ubiquitous since its introduction in 2015. With support for advanced shading techniques, it is particularly important for graphics intensive applications like product configurators/visualizers.

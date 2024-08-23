@@ -9,7 +9,9 @@ tags:
 
 It's been a long running issue that our Audio Source component wasn't quite feature-complete enough to do some of the more advanced features of an audio heavy game or interactive experience. Today, we're blowing those issues out of the water with a sonic boom!
 
-### [![sound-tutorial](/img/sound-tutorial.png)](/img/sound-tutorial.png)
+[![sound-tutorial](/img/sound-tutorial.png)](/img/sound-tutorial.png)
+
+<!-- truncate -->
 
 ## Sound Component
 

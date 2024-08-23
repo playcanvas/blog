@@ -8,6 +8,8 @@ tags:
 
 With the latest [engine changes](https://github.com/playcanvas/engine/commit/f3c165d2abcf3b58dca1535884115d9e9c20dcc6) released today (v0.164.0), we're streamlining our API to make it quicker and easier for you to get started with PlayCanvas. Less API to remember, more time coding your game.
 
+<!-- truncate -->
+
 Two major changes landed today. A new way to add components and replacing the old `ApplicationContext` object with the `Application`.
 
 ## Adding Components

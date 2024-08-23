@@ -8,6 +8,8 @@ tags:
 
 This last week was a frenzy of activity from the PlayCanvas founders. We trekked all over the UK to teach new people about PlayCanvas with demos and workshops.
 
+<!-- truncate -->
+
 ### Thursday
 
 [![Dave Running a Workshop](/img/confetti-workshop.jpg)](/img/confetti-workshop.jpg)  

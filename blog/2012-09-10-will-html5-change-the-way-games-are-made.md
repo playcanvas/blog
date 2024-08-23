@@ -9,6 +9,8 @@ tags:
 
 Oops, we've been so busy that we forgot to mention [this article](https://www.gamedeveloper.com/business/will-html5-change-the-way-games-are-made-) that Will wrote for Game Developer. It was well received though not without a little controversy - turns out there are still a fair few Flash lovers out there, and a lot of people still aren't seeing the joy of JavaScript. 🙈
 
+<!-- truncate -->
+
 If you haven't read it, here are a few choice quotes to give you a feel.
 
 > The cloud brings a lot of benefits in the context of games. There is nothing to install since the web app is delivered to the browser from the server (or the browser's cache). The tools always stay seamlessly up to date, which ensures that users remain in sync with each other and are always using the latest and greatest release. User data is always safely backed up and trivially restorable.

@@ -16,6 +16,8 @@ We are trialing a new format to better communicate some of the work that is goin
 
 Today we have our UX designer, Jasper who will take us through some exciting plans to the new project dashboard and Editor View!
 
+<!-- truncate -->
+
 - 00:00 Intro
 - 00:30 New project creation flow/dashboard
 - 03:56 Changes to the Editor Viewport

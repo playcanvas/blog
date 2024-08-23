@@ -10,6 +10,8 @@ Over the past few months, we have been developing an [Editor API](https://develo
 
 We are excited to announce the beta release of the API today and are eager to see how the PlayCanvas community will leverage it to enhance their workflows!
 
+<!-- truncate -->
+
 The API provides capabilities to create and modify entities and assets extensively. Users can add or remove components, scripts, tags, and assets, create and instantiate templates, and much more.
 
 Here's an excellent example where a context menu has been added to select entity parents in the hierarchy, speeding up scene editing:

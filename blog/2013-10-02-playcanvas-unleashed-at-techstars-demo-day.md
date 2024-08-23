@@ -12,6 +12,8 @@ Will took to the stage (to the sound of Gangnam Style!) to present the technolog
 
 [![Techstars Demo Day](/img/techstars-demo-day.jpg)](/img/techstars-demo-day.jpg)
 
+<!-- truncate -->
+
 The feedback has been incredible! After the pitch, the PlayCanvas demo booth was bustling with people hungry to know more about our plans to shake up the games industry.
 
 We were also incredibly flattered by the reaction from the technology press. First up, we have TechCrunch:

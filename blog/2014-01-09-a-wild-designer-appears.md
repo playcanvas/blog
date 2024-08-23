@@ -8,6 +8,8 @@ tags:
 
 To kick off 2014 with a bang, we're welcoming a brand new member to the PlayCanvas family.
 
+<!-- truncate -->
+
 [![Roonio logo](/img/roonio.png)](/img/roonio.png)  
 _Kevin's image doesn't appear on film, so we've used this instead._
 

@@ -12,6 +12,8 @@ As we begin 2023, let’s take a moment to look back at last year’s highlights
 
 From new features and improvements to exciting projects and partnerships, PlayCanvas has had a busy and successful year. In this review, we will cover some of the key developments and achievements of the platform, and how they have helped to advance the capabilities and potential of WebGL-based content creation.
 
+<!-- truncate -->
+
 ### The fantastic work done by you
 
 One of the most exciting aspects of PlayCanvas is seeing the amazing projects and work created by you!

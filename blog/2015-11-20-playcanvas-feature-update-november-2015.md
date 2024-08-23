@@ -6,6 +6,8 @@ title: PlayCanvas Feature Update - November 2015
 
 It's Friday, which means feature update time. Here's a list of the latest features we've released for you.
 
+<!-- truncate -->
+
 ### Asset Folders
 
 [![assetfolders](/img/editor-asset-folders.gif)](/img/editor-asset-folders.gif)

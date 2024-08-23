@@ -9,6 +9,8 @@ _Our new hero_
 
 Today we're pleased to introduce the updated, all new and fancy Platform Game Starter Kit. We've worked hard with the [talented artist](http://www.philippamoore.com) from [SWOOOP](https://blog.playcanvas.com/swooop/) to provide a complete set of code and assets for you to build your own platform games.
 
+<!-- truncate -->
+
 From today, when you choose to create a new project you'll be given the option to start using the new Platform Game Starter Kit. Your new project will contain a short, but full, platform game.
 
 ## Contents

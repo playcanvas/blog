@@ -12,6 +12,8 @@ PlayCanvas scripters rejoice! The Code Editor has just received a major upgrade.
 1. Autocompletion
 2. Realtime API reference documentation
 
+<!-- truncate -->
+
 So what does this look like? An animated GIF is worth 1000 words, so behold:
 
 [![autocomplete](/img/code-editor-autocomplete.gif)](/img/code-editor-autocomplete.gif)

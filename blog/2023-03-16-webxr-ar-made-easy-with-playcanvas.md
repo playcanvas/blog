@@ -13,6 +13,8 @@ We are excited to announce the launch of our WebXR AR Starter Kit, available in 
 
 [WebXR](https://immersiveweb.dev/) is a technology that powers immersive and interactive AR and VR experiences to be accessed through supported web browsers. This allows us to build memorable, engaging content and share them with just a URL. No installs needed!
 
+<!-- truncate -->
+
 The starter kit comes with all you need to kickstart your AR experience for WebXR including:
 
 - Real world light estimation

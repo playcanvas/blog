@@ -8,6 +8,8 @@ tags:
 
 Our new math API will make your life so much easier, but it will require updating your game.
 
+<!-- truncate -->
+
 ![Maths](/img/think-maths.png)
 
 One of the first things that is written for a new game engine is the Math library. A critically important base for your engine and used by almost every game that is written using the engine. The Math library must be fast, consistent and succinct.

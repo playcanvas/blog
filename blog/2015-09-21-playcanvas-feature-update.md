@@ -4,7 +4,11 @@ slug: playcanvas-feature-update
 title: PlayCanvas Feature Update
 ---
 
+New features have dropped: Entity Materials and Shader Assets!
+
 [![PLAYHACK Cars](/img/playhack-cars.jpg)](/img/playhack-cars.jpg)
+
+<!-- truncate -->
 
 ## Entity Materials
 

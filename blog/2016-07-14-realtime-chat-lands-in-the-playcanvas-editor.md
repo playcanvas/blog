@@ -8,9 +8,9 @@ tags:
 
 Hot on the heels of the new scripting system, we're happy to announce the arrival of realtime chat in the PlayCanvas Editor!
 
-<!-- more -->
-
 [![chat](/img/chat.gif)](/img/chat.gif)
+
+<!-- truncate -->
 
 PlayCanvas has always been designed with collaboration in mind. Developers should be able to seamlessly work together to build scenes. But until now, you've had to use Skype, Slack or some other chat app alongside the PlayCanvas Editor. But no longer! Added to the bottom left of the Editor's 3D view, there is now an expandable chat control. Team members in the current scene can now easily communicate and coordinate actions!
 
