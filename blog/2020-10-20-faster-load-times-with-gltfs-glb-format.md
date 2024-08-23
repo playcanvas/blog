@@ -15,6 +15,8 @@ This gives developers an **order of magnitude reduction in load times** compared
 
 ![JSON vs GLB](/img/json-vs-glb.gif)
 
+<!-- truncate -->
+
 Using the [Stanford Dragon model](http://graphics.stanford.edu/data/3Dscanrep/) (2,613,679 vertices, 871,414 triangles), we can compare GLB and JSON parse times on a Macbook Pro 16 inch.
 
 The JSON format took over 3 secs just to parse the data, a peak memory usage of ~498 MB and a gzipped package size of 28.1MB.

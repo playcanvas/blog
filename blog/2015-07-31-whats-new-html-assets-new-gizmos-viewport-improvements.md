@@ -6,7 +6,9 @@ tags:
   - editor
 ---
 
-It's been a busy few weeks at PlayCanvas towers. We've launched a bunch of new features today and over the last few weeks. So here's a quick summary:
+It's been a busy few weeks at PlayCanvas towers. We've launched a bunch of new features today and over the last few weeks. So here's a quick summary!
+
+<!-- truncate -->
 
 ## 3D view updates
 

@@ -14,6 +14,8 @@ Welcome to the new PlayCanvas blog! 😎
 
 We have made the decision to move from WordPress to [Jekyll](https://jekyllrb.com/) and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons why we did this and describe the process we followed.
 
+<!-- truncate -->
+
 ### Some History
 
 We originally started our blog back in February 2012 with a very [low-key post](https://blog.playcanvas.com/hello-world/). We installed our own instance of WordPress and that functioned fine for a few years. However, in 2015, we decided that we didn't want to deal with managing a WordPress instance ourselves and so we signed up for [WPEngine](https://wpengine.com/), a WordPress hosting service. And there we stayed until today.

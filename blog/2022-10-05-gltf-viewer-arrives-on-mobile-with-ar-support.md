@@ -15,6 +15,8 @@ tags:
 
 Today we’re excited to announce the next major release of our glTF viewer. This version makes the viewer an ideal tool for reviewing how glTF models render on mobile as well as in augmented reality!
 
+<!-- truncate -->
+
 [**TRY IT NOW**](https://playcanvas.com/viewer/?load=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/DamagedHelmet/glTF-Binary/DamagedHelmet.glb)
 
 ### View Models in AR on Mobile

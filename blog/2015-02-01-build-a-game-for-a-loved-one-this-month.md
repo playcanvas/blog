@@ -6,6 +6,8 @@ title: Build a game for a loved one this month.
 
 Our most popular PLAYHACK ever finishes today. Last month's gem challenge sparked your creativity and led to over 30 forks of the project.
 
+<!-- truncate -->
+
 ## Featured Winner
 
 [![yet another gem](/img/yet-another-gem.jpg)](/img/yet-another-gem.jpg)

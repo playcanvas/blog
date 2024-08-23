@@ -10,6 +10,8 @@ tags:
 
 May is drawing to a close and it's starting to feel like summer here in London. Let's celebrate with a PlayCanvas Dev Update! We've been busy bees, so here's a rundown of the main changes.
 
+<!-- truncate -->
+
 ### Variance Shadow Maps
 
 The light component now allows you to select a shadow type. In addition to the current PCF Shadow Maps, there are new options for 8-bit, 16-bit and 32-bit Variance Shadow Maps. 8-bit VSM uses a small amount of GPU memory and is guaranteed to work on any device but is lower quality. 32-bit VSM uses a lot of GPU memory and relies on a device's ability to render to floating point textures but the quality is very good. 32-bit VSM will gracefully fall back to 16-bit and then to 8-bit should the device not provide the required capabilities.

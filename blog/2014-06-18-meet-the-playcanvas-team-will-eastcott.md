@@ -6,13 +6,15 @@ tags:
   - team
 ---
 
-**Our recent commitment to open sourcing is not the only thing we at PlayCanvas are open about. To help get in touch with our community, we are starting a series of posts about the people behind PlayCanvas. From the informative down to the outright silly, step deeper into our world.**
+Our recent commitment to open sourcing is not the only thing we at PlayCanvas are open about. To help get in touch with our community, we are starting a series of posts about the people behind PlayCanvas. From the informative down to the outright silly, step deeper into our world.
 
 ![Will](/img/team-will-2014.jpg)
 
 > "I wanted to work at Marvel Comics when I was 18 but my coding skills won out which is probably for the best!"
 
 First up is Will, our CEO and co-founder, from everyone's favorite sleepy little town Bedford, England!
+
+<!-- truncate -->
 
 **How did you get into the video games industry?**
 

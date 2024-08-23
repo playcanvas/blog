@@ -17,6 +17,8 @@ Today, we are releasing the latest anim component feature: the masking and blend
 
 This is a versatile feature that has been hotly requested by PlayCanvas developers that wish to get even more creative with their animations. We’re excited to be able to share how it works in this blog.
 
+<!-- truncate -->
+
 ## Animating characters
 
 When creating complex animation behavior for games, it is often necessary to make a character carry out multiple actions at once. For instance, you might want to create a character that can pick up and carry an item, or shoot a weapon while freely moving around a scene.

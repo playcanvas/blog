@@ -12,6 +12,8 @@ Are you shipping your PlayCanvas app or game in just one language? You may be pr
 [![Bitmoji Party Localized](/img/bmp-efigs.png)](/img/bmp-efigs.png)  
 _PlayCanvas-powered Bitmoji Party localized into English, Spanish and French_
 
+<!-- truncate -->
+
 The system works in tandem with PlayCanvas' text element component and it's super-easy to use. The text element interface now provides a 'Localized' property and when checked, you can enter a Key instead of a Text string.
 
 ![Localized String](/img/editor-localized.png)  

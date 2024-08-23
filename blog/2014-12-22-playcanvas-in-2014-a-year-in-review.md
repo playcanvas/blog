@@ -8,6 +8,8 @@ title: 'PlayCanvas in 2014: A Year In Review'
 
 In 2014 our community has grown from roughly 2,000 to over 20,000 users and there has been over 2,000,000 views of PlayCanvas projects. There really has never been a better time to join us! So without further ado, here’s a look back at PlayCanvas and the Games industry in 2014 and glance ahead into the new year.
 
+<!-- truncate -->
+
 ## Features
 
 [![SWOOOP background](/img/background-small.png)](/img/background-small.png)

@@ -12,6 +12,8 @@ tags:
 
 We have levelled up the Script Attributes that makes it much easier to organize and group related attributes together.
 
+<!-- truncate -->
+
 Using JSON, developers are able to define a schema for a data object that has multiple attributes and have them grouped together in the Inspector.
 
 In the example below, we have created a JSON schema with the name ‘settings’ and has the attributes ‘gravity’, ‘startingHealth’ and ‘godMode’.

@@ -8,6 +8,8 @@ tags:
 
 Light and Collision components have been consolidated from 7 components to 2!
 
+<!-- truncate -->
+
 Today we deployed the second of two changes to our Component System designed to make dealing with Collision and Lighting much simpler. We've combined the 4 collision Components (_collisionbox_, _collisionsphere_, _collisioncapsule_, and _collisionmesh_) into a single _collision_ Component. And we've combined 3 light Components (_directionlight_, _pointlight_, _spotlight_) into a single _light_ Component. Both Components now have a _type_ attribute which you can use to switch between the different behaviors.
 
 Why make this breaking change, I hear you ask? These changes drastically simplify the API when you are coding. So now code like this:

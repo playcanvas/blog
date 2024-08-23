@@ -6,6 +6,8 @@ title: 'PLAYHACK with ARM: Chromebook Winner'
 
 Last month we worked with ARM to launch our first **Prize PLAYHACK**. They provided the great prize of a **Samsung Chromebook 2 13.3".**
 
+<!-- truncate -->
+
 70 developers forked the starter project and slaved over the coding for the last month. ARM and PlayCanvas spent a tough few hours playing all the games and we've picked out a winner.
 
 ## Space Buggy

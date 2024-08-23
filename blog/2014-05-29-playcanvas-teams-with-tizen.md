@@ -10,6 +10,8 @@ Another exciting day at PlayCanvas Towers! PlayCanvas and Tizen have formerly an
 
 ![Tizen Logo](/img/tizen-logo.jpg)
 
+<!-- truncate -->
+
 [Tizen](https://www.tizen.org/) is an open source project managed by the Linux Foundation. The goal of the project is to build and support a cross-architecture, open source software platform that spans multiple device segments, including smartphone, tablet, Smart TV, appliances, netbook and in-vehicle infotainment systems. The [Tizen Association](https://www.tizenassociation.org/) is an industry consortium of operators, device manufacturers and their suppliers, independent software developers and mobile application developers.
 
 Ryoichi Sugimura, a Tizen Association Board Member from NTT DOCOMO, kindly gave us a very warm welcome to the Tizen family today: “I am delighted to welcome PlayCanvas to our ever-growing membership. Their contribution will support the development of the Tizen OS and ecosystem, and further drive Tizen’s vision of building and supporting a cross-architecture, open source software platform that spans across multiple device segments.”

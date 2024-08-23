@@ -14,6 +14,8 @@ GDC is here again. What better time to announce our newest demo, built to show t
 
 _Click the fullscreen button top right for the best experience._
 
+<!-- truncate -->
+
 Great care has been taken to optimize the demo, especially Mali-powered mobile devices. We have done this by adding support for ETC1 texture compression and by tuning our shaders to execute as fast as possible on ARM-based hardware.
 
 You may remember that last year, PlayCanvas brought PBR to WebGL with the amazing [Star-Lord demo](https://playcanv.as/p/SA7hVBLt). Despite the awesome graphics, it wasn't representative of a real game environment. This is what Seemore brings to the party. More specifically, we have added the following:

@@ -15,6 +15,8 @@ With WebGPU, we can expect to see more immersive and interactive 3D experiences 
 [![WebGPU Area Lights](/img/webgpu-area-lights-demo.jpg)](/img/webgpu-area-lights-demo.jpg)  
 [_PlayCanvas WebGPU Clustered Area Lights Demo_](https://playcanvas.com/demos/arealights/)
 
+<!-- truncate -->
+
 ## Refactoring of WebGL engine
 
 Before adding support for WebGPU, it's important to discuss the significant amount of refactoring work that was required on our existing WebGL engine. Implementing deeper architectural changes while preserving backwards compatibility required a significant amount of meticulous care.

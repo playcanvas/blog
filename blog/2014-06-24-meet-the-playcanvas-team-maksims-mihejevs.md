@@ -10,6 +10,8 @@ tags:
 
 Today we are talking to the Russian (from Latvia) Senior Engineer at [PlayCanvas](https://playcanvas.com): Max!
 
+<!-- truncate -->
+
 **How did you get into the video games industry?**
 
 I started making games when I was 13 years old and always knew what I wanted. A long journey but here I am, making game development better with PlayCanvas.

@@ -10,6 +10,8 @@ tags:
 
 Next up is PlayCanvas' Chief Technical Officer who shares his name with beanie clad U2 Guitarist 'The Edge', [Dave Evans](https://twitter.com/daredevildave). Dave grew up just outside of Cambridge in Duxford where he says he was regularly dive-bombed by old planes from the nearby Imperial war Museum.
 
+<!-- truncate -->
+
 **How did you get into the video games industry?**
 
 I started writing games when I was around 13-14. Learning to program in C on a Mac LC II, which is not a great introduction to programming. Then I didn't do anything for a few years and got back into it at my last year at Oxford University where me and a friend wrote a game about a skateboarding monkey called Stunt Monkey.

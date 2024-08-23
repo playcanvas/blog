@@ -10,6 +10,8 @@ Today, we plugged a magical [Leap Motion](https://www.leapmotion.com/) device in
 
 [![leap-motion](/img/leap-motion1.png)](/img/leap-motion1.png)
 
+<!-- truncate -->
+
 30 minutes and 20 lines of code later, we had a fun little demo app that shows the power of the device.
 
 <div className="iframe-container">

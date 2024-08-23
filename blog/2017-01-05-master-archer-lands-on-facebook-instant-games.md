@@ -14,6 +14,8 @@ tags:
 
 We're excited to announce the launch of Master Archer, our new Instant Game for Facebook Messenger. Shoot the fruit from Bob's head and challenge your friends with your high score!
 
+<!-- truncate -->
+
 Only a week on from release and Master Archer has already cracked 1,000,000 players!
 
 ![instant-game-chart](/img/instant-game-chart.png)

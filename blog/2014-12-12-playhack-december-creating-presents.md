@@ -8,6 +8,8 @@ _**PLAYHACK** is our fun monthly game building session. Throughout the month Iâ€
 
 ![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
+<!-- truncate -->
+
 We'll be following on from [last time's tutorial](https://blog.playcanvas.com/playhack-december-player-character/) this time, so make sure you've followed that one before attempting this!
 
 <!-- more -->

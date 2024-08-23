@@ -16,6 +16,8 @@ We are excited to announce a major update for the PlayCanvas Editor: **glTF 2.0 
 _Model by Loïc Norgeot and mosquito scan by Geoffrey Marchal for Sketchfab licensed under CC BY 4.0  
 Author: [Sketchfab](https://sketchfab.com/Sketchfab) License: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) Source: [Mosquito in Amber](https://sketchfab.com/3d-models/real-time-refraction-demo-mosquito-in-amber-37233d6ed84844fea1ebe88069ea58d1)_
 
+<!-- truncate -->
+
 [glTF](https://www.khronos.org/gltf/) (GL Transmission Format) is a file format developed by The Khronos Group for 3D models that is quickly becoming the industry standard. It is an open format that is designed to be efficient and easy to use, making it the perfect choice for use in the PlayCanvas Editor.
 
 The PlayCanvas Editor and run-time now supports the full glTF 2.0 specification, including 100% of ratified glTF extensions (such as sheen, transmission, volume and iridescence). This means that developers can import and use high-quality 3D models and take advantage of the latest advancements in the glTF format to create truly stunning interactive experiences.

@@ -8,6 +8,8 @@ In [Part 1](https://blog.playcanvas.com/announcing-playcanvas-answers/) we intro
 
 Now we expanding our community features into the world of forums and random internet chatter. Though with the cutting edge technical flair that you've come to expect from PlayCanvas.
 
+<!-- truncate -->
+
 ## PlayCanvas Discussion
 
 [![PlayCanvas Forum](/img/discussion.png)](/img/discussion.png)  

@@ -12,6 +12,8 @@ PlayCanvas has a rich JavaScript API that allows you to build just about any typ
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/vv6Hyy8ohMc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!-- truncate -->
+
 Starting exploring the Examples Browser now:
 
 [**https://playcanvas.github.io/**](https://playcanvas.github.io/)

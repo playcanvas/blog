@@ -4,7 +4,9 @@ slug: playcanvas-update-150814
 title: PlayCanvas Update 15/08/14
 ---
 
-**This week, PlayCanvas travelled far and wide to attend the world's biggest games and graphics conferences.**
+This week, PlayCanvas traveled far and wide to attend the world's biggest games and graphics conferences.
+
+<!-- truncate -->
 
 ### GDC Europe, gamescom and SIGGRAPH
 

@@ -10,6 +10,8 @@ tags:
 
 [![orbit-camera](/img/Orbit-Camera.gif)](/img/Orbit-Camera.gif)
 
+<!-- truncate -->
+
 To make it even easier to find the what you need, we have also added a filter to help narrow down the search. So if you are looking at moving a camera via user input? We have it covered!
 
 ![tutorial-filter](/img/tutorial-filter.gif)

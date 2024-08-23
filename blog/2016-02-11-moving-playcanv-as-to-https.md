@@ -11,6 +11,8 @@ _TANX running on HTTPS_
 
 From today we now support HTTPS URLs on all published applications. So anytime you see a link to something on [http://playcanv.as](http://playcanv.as) you can also use [https://playcanv.as](https://playcanv.as). After a short period of testing we'll be changing all default links to point to the HTTPS versions of the applications, though we will keep support for non-secure HTTP versions for the short term to ensure compatibility for applications that require a non-secure page.
 
+<!-- truncate -->
+
 There are many reasons to use a secure HTTPS page, especially if you are doing transactions or taking money. But primarily for you as a PlayCanvas developer we're supporting HTTPS for two reasons.
 
 ### Embedding

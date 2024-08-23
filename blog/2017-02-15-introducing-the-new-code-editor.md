@@ -11,6 +11,8 @@ tags:
 
 Today we're excited to unveil the new code editor for all our PlayCanvas users. We've been taking your feedback since we [launched Scripts 2.0](https://blog.playcanvas.com/playcanvas-scripts-2-0/) last year and we've updated the code editor to make working on scripts in PlayCanvas much easier.
 
+<!-- truncate -->
+
 Some of the new features introduced by the new editor:
 
 ## File view & tabs

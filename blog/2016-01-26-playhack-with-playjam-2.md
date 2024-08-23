@@ -8,6 +8,8 @@ title: PLAYHACK with PlayJam
 
 Did you see our teaser last week? PLAYHACK is back! Our game jam returns in partnership with game publisher PlayJam.
 
+<!-- truncate -->
+
 [![PlayJam Logo](/img/playjam-logo.png)](/img/playjam-logo.png)
 
 Thanks to PlayJam we've got some **great prizes** for the best entries.

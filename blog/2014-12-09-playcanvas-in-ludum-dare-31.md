@@ -8,6 +8,8 @@ title: PLAYCANVAS in LUDUM DARE 31
 
 ![Winter Blast](/img/ld31-winter-blast.png)
 
+<!-- truncate -->
+
 ### What is the Ludum Dare?
 
 Remaining active for over 12 years (making it one of the longest Game Jams in existence) to this day LUDUM DARE is an **event run by game developers for game developers**. During a Ludum Dare, 'developers from around the world spend a weekend creating games based on a theme suggested by the community' competing for a grand prize of nothing. Crazy we know, but this grand prize is for good reason. **Your prize is your product**.

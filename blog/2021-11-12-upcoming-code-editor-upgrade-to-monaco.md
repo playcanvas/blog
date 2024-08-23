@@ -11,6 +11,8 @@ We are nearing completion on transitioning our Code Editor from CodeMirror to [M
 [![](/img/code-editor-monaco.png)](/img/code-editor-monaco.png)
 _Look familiar? 👀_
 
+<!-- truncate -->
+
 This upgrade will provide developers with:
 
 - Significantly improved performance, especially when working with large text files.

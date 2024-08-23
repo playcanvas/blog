@@ -8,6 +8,8 @@ title: PLAYHACK with PlayJam starts on Monday
 
 On Monday 1st of February we commence our biggest PLAYHACK yet. PLAYHACK with PlayJam is a 6 week game jam with thousands of pounds up for grabs for the best game developed using the theme and 3D assets that we provide.
 
+<!-- truncate -->
+
 ### How does it work?
 
 - Fork the PLAYHACK project into your account

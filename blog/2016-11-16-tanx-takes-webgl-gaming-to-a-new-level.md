@@ -9,6 +9,8 @@ tags:
 
 One of the most popular WebGL games today is TANX, our online tank battle game. WebGL brings developers amazing new possibilities: lightning fast load times, cross-platform play, easy sharing, incredible performance. It all adds up to instant, pure fun.
 
+<!-- truncate -->
+
 But as good as TANX is, we've been working hard on a major upgrade. And we're happy to announce that it's live today! So what's new?
 
 We've added a brand new level. We've moved away from the 'TRON' style graphics and adopted a more realistic style. Beautiful, I hope you'll agree.

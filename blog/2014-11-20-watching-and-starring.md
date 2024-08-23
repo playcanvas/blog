@@ -8,6 +8,8 @@ Today we've added a new feature to help us bring the best projects and games fr
 
 [![Project Stars](/img/swooop-dashboard.jpg)](/img/swooop-dashboard.jpg)
 
+<!-- truncate -->
+
 If you visit any project home page, you'll see two new buttons.
 
 ## Watch

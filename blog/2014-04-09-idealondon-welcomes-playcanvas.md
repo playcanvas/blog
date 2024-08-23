@@ -6,7 +6,11 @@ title: IDEALondon Welcomes PlayCanvas
 
 Last Summer, PlayCanvas participated in the world's premier startup accelerator [Techstars](https://www.techstars.com/). Unlike most other accelerators, Techstars continues to host participating companies several months after the programme finishes. So when we left for our recent US tour, we also moved out of Warner Yard, Techstars' base of operations in London.
 
-And now that we're back from our travels, we've found a new home: IDEALondon. Check out our new digs:
+And now that we're back from our travels, we've found a new home: IDEALondon.
+
+<!-- truncate -->
+
+Check out our new digs:
 
 [![IDEALondon](/img/idealondon.jpg)](/img/idealondon.jpg)  
 _PlayCanvas' London Office_

@@ -10,6 +10,8 @@ Back in October, [we launched PCUI](https://blog.playcanvas.com/introducing-pcui
 
 Today, we're excited to announce our next major release for the library: PCUI 1.1.0. Check out the [release notes](https://github.com/playcanvas/pcui/releases/tag/v1.1.0) for the details. But let's take a look at some of the highlights.
 
+<!-- truncate -->
+
 ### TreeView - Tree Control
 
 ![PCUI TreeView](/img/pcui-treeview.gif)

@@ -17,6 +17,8 @@ tags:
 
 We are very excited to release our showcase demo for Microsoft Mixed Reality Capture Studios (MRCS) volumetric video technology.
 
+<!-- truncate -->
+
 PlayCanvas now supports MRCS volumetric video with a playback library for captured footage at their studios. Watch it on desktop, mobile with AR or even in a WebXR-enabled VR headset, all from a single URL!
 
 The library can be easily added to any PlayCanvas project and used to create fantastic immersive mixed reality experiences.
@@ -32,8 +34,6 @@ MRCS records holographic video - dynamic holograms of people and performances. Y
 They are experts at capturing holographic video, advancing capture technology and have been pioneering its applications since 2010.
 
 [Learn more about Microsoft Mixed Reality Capture Studios here](https://microsoft.com/mrcs).
-
-<!-- more -->
 
 ### How was this created?
 

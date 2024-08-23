@@ -6,6 +6,8 @@ title: PLAYHACK March - Win a Chromebook 2
 
 This month we have an extra special PLAYHACK, our monthly game jam, to announce. We've teamed up with **ARM**, to bring you both a excellent new 3D Model to start your game with, but also an excellent prize.
 
+<!-- truncate -->
+
 ## PRIZE
 
 [![chromebook](/img/chromebook1.jpg)](/img/chromebook1.jpg)

@@ -6,9 +6,11 @@ title: 'PLAYHACK December: Jolly Santa'
 
 ![PLAYHACK Logo](/img/playhack-logo-xmas.jpg)
 
-**If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.**
+If spending part of your December making a festively themed game doesn't get you in the mood for the Christmas season, we don't know what will.
 
 Its December 2014 and before the year is out we have a festive game jam for you to test your skills in.
+
+<!-- truncate -->
 
 ## How does it work?
 

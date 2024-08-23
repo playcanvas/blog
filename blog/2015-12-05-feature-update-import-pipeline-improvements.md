@@ -8,6 +8,8 @@ tags:
 
 Today's new features are part of our on-going process of making your PlayCanvas experience easier and easier. And despite the title, we've released some awesome changes today.
 
+<!-- truncate -->
+
 ## Asset Import Pipeline
 
 [![Asset Tasks](/img/editor-asset-tasks.jpg)](/img/editor-asset-tasks.jpg)

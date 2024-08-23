@@ -10,6 +10,8 @@ tags:
 
 In our latest instalment of this series we chat to Kevin, [PlayCanvas](https://playcanvas.com)' Creative Director from Sligo, Ireland.
 
+<!-- truncate -->
+
 **How did you get into the video games industry?**
 
 I developed educational language games in a previous start-up, but had always wanted to get involved in real games. PlayCanvas was my chance.

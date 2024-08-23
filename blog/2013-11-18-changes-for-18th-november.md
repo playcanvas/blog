@@ -4,7 +4,9 @@ slug: changes-for-18th-november
 title: Changes for 18th November
 ---
 
-A summary of the last few weeks changes.
+A summary of the last few week's changes.
+
+<!-- truncate -->
 
 It's always hard to make sure that we communicate enough about the changes we're making and what we're working on. So I'm going to try and post weekly or bi-weekly change lists to keep you up to date on what's going on.
 

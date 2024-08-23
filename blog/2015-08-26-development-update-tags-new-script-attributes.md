@@ -8,6 +8,8 @@ tags:
 
 Hi everyone! It's time for another Development Update. So without further ado...
 
+<!-- truncate -->
+
 ### Editor Tags and Engine Tag API
 
 The feedback we've been getting is that your projects are continuing to grow. More assets, more entities, more complexity. It makes it hard to find and organize things, right? To help you out, we've introduced Tags to the Editor interface. We're starting out with Assets. Check out how you tag your assets:

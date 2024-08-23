@@ -9,6 +9,8 @@ tags:
 
 We're going to be performing server maintenance over the next 48 hours to prepare for the next stages of our growth.
 
+<!-- truncate -->
+
 Whilst we hope you won't be affected. There will be intermittent downtime over the next few days. You may also notice small errors like missing thumbnails. This is nothing to worry about! Check our [twitter account](https://twitter.com/playcanvas) to stay up-to-date.
 
 We hope you understand and this downtime doesn't inconvenience you too much. We'll be back stronger and faster!

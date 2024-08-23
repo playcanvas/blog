@@ -8,6 +8,8 @@ tags:
 
 Yesterday, we announced an imminent update to the PlayCanvas Math API. It's a rare event that we introduce breaking changes and we only do it because we're certain it's going to help you be much more productive. So what have we changed?
 
+<!-- truncate -->
+
 Previously, we had a Math API which consisted of static functions that operated on arrays (JavaScript typed arrays, to be specific). It was fast - very fast - but this came at the expense of a developer-friendly interface. Therefore, we have written a brand new Math API that is object-oriented and far crisper to write against. Here's an example of how things were:
 
 ```javascript

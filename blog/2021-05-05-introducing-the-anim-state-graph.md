@@ -14,6 +14,8 @@ We’re excited to be able to release a new system for creating fantastic and hi
 
 [![](/img/animation-and-graph-2.gif)](/img/animation-and-graph-2.gif)
 
+<!-- truncate -->
+
 Animation systems receive a set of inputs (button presses, current player speed, health, etc) and output a model's animation pose for the current frame. How an animation system goes from a particular set of inputs to the desired animation pose can become quite complicated, especially when writing this in code.
 
 [![Animation Input and Outputs](/img/anim-inputs-and-outputs.png)](/img/anim-inputs-and-outputs.png)

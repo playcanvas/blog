@@ -6,6 +6,8 @@ title: Moving to playcanvas.com
 
 We've moved! Long live [playcanvas.com](https://playcanvas.com)!
 
+<!-- truncate -->
+
 You may have noticed we've moved all of the old platform.playcanvas.com addresses over to the main domain of [playcanvas.com](https://playcanvas.com). This is long overdue and just down to how we initially set up WordPress and the main platform application at the start.
 
 ### Your Profile

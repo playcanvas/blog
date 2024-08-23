@@ -6,7 +6,9 @@ tags:
   - ludum-dare
 ---
 
-So Ludum Dare 28 came and went last weekend and the theme was 'You Only Get One'. Here's a quick round up of the superb PlayCanvas games that were submitted this time around:
+So Ludum Dare 28 came and went last weekend and the theme was 'You Only Get One'. Here's a quick round up of the superb PlayCanvas games that were submitted this time around.
+
+<!-- truncate -->
 
 ### [Going Around](https://playcanv.as/p/WDDAV5tg/) by [@daredevildave](https://twitter.com/daredevildave) ([Project link](https://playcanvas.com/project/3491/overview/going-around))
 

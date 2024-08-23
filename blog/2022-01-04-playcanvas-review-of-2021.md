@@ -10,7 +10,11 @@ Happy New Year to you all!
 
 In 2021, we marked the 10th anniversary of PlayCanvas. In that time, we have seen WebGL become the world's standard for web graphics, implemented into every major web browser. And we have done our part to help make WebGL content creation both easy and fun!
 
-2021 was definitely our most productive year yet. The platform has continued to evolve, delivering a host of new features and performance improvements. Let's take a look at some of the highlights:
+2021 was definitely our most productive year yet. The platform has continued to evolve, delivering a host of new features and performance improvements.
+
+<!-- truncate -->
+
+Let's take a look at some of the highlights:
 
 ## Tools Updates
 

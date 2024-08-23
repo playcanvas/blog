@@ -10,6 +10,8 @@ _After two successful entries into the PLAYHACK game jam, we thought it was time
 
 ![rzinurov](/img/rzinurov.jpg)
 
+<!-- truncate -->
+
 > I liked the idea that I didn't need to install anything - all I needed was a browser
 
 **Hi Rustam, tell us a little about yourself?**

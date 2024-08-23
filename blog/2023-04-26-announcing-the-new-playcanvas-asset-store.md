@@ -19,6 +19,8 @@ First up, check out a little example of building a city scene using content take
 
 Now, let's examine some of the key highlights that make the new Asset Store so special.
 
+<!-- truncate -->
+
 ### Built Right In To The Editor
 
 It should be possible to grab assets quickly, right from within the Editor itself. Why should you have to open a new tab and go hunting around the web? So to keep things as convenient as possible, the ASSET STORE button (in the Editor's Assets Panel) now opens a nicely designed, responsive Asset Store panel.

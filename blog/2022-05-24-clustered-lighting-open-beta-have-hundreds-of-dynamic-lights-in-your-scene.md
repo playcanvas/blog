@@ -8,9 +8,10 @@ tags:
 
 Our team has been working on a new lighting system for a while now, and it has reached the stage where we're excited to share it with the community!
 
-[![Pirron Pool](/img/pirron-pool.gif)](/img/pirron-pool.gif)
-
+[![Pirron Pool](/img/pirron-pool.gif)](/img/pirron-pool.gif)  
 [Pool Demo](https://pirron.one/pool/) from Solar Games using Clustered Lighting
+
+<!-- truncate -->
 
 The new system leverages the clustered lighting rendering algorithm and represents a significant advancement over our current lighting approach. New benefits include:
 

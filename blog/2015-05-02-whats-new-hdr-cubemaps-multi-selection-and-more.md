@@ -6,7 +6,9 @@ tags:
   - editor
 ---
 
-It's been another busy week for the PlayCanvas team. Here's a quick run down of the coolness we've deployed for you:
+It's been another busy week for the PlayCanvas team. Here's a quick run down of the coolness we've deployed for you!
+
+<!-- truncate -->
 
 ## HDR Cubemaps
 

@@ -11,6 +11,8 @@ At GDC 2015, ARM and PlayCanvas unveiled the Seemore WebGL demo. If you haven’
 [![seemore](/img/seemore.jpg)](/img/seemore.jpg)
 [**CLICK HERE**](http://seemore.playcanvas.com) TO LAUNCH SEEMORE
 
+<!-- truncate -->
+
 So why did we build this demo? We had two key goals:
 
 1. **Put amazing demo content in the hands of you, the developer.** Seemore WebGL is the first conference demo that has been developed to run specifically in the web browser. This is great, because you can run it for yourself and do so on any device. Nothing to download and install - hit a link, and you’re immediately dropped into a stunning 3D experience. And better yet, you can learn from the demo and use that knowledge in your own creations.

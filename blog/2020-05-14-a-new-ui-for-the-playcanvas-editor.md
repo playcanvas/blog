@@ -10,6 +10,8 @@ The PlayCanvas Editor has been around since 2011. Way back then, it was called t
 
 [![](/img/designer-extjs.png)](/img/designer-extjs.png)
 
+<!-- truncate -->
+
 As you can see, it sort of looks like a Windows XP application. If you think it looks retro now, it actually looked retro then! But you can more or less recognize it as PlayCanvas. The Pack Explorer is now the Hierarchy panel on the left. The Attribute Editor is now the Inspector. You can even see the 'Who's Online' bar to the bottom right, which is still around today. We decided quite quickly to drop the WinXP aesthetic by adopting a darker theme in September 2013:
 
 [![](/img/designer-extjs-dark.png)](/img/designer-extjs-dark.png)

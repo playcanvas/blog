@@ -10,6 +10,8 @@ On Wednesday, 18th September, I flew out to Warsaw to run a workshop for onGameS
 
 ![onGameStart Logo](/img/ongamestart-logo.png)
 
+<!-- truncate -->
+
 Seriously, if you've never been, you're missing out. It's fun fun fun! The workshop broke down into three parts: a crash course on how to use PlayCanvas, an exercise reproducing a simple PlayCanvas game, and then the main event, a freestyle game jam!
 
 [![onGameStart Game Jam](/img/ongamestart-gamejam1.jpg)](/img/ongamestart-gamejam1.jpg)

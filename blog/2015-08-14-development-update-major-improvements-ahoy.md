@@ -8,6 +8,8 @@ tags:
 
 Have you noticed that everybody seems to go on vacation in August? Not PlayCanvas! We've been burning the midnight oil to bring you a raft of new features and improvements to your favorite browser-based 3D engine. Want the deets? Read on!
 
+<!-- truncate -->
+
 #### Editor Improvements
 
 - User cameras are now back and improved with interpolation for smoother animation. You can also hover on the semi-transparent rectangle of the camera to see a username tooltip to find out who's keeping you company.

@@ -5,7 +5,9 @@ slug: playcanvas-referrals-just-a-little-thank-you
 title: 'PlayCanvas Referrals: Just a little Thank You'
 ---
 
-The **PlayCanvas** **Community** is growing all the time and we know that some of that growth is down to your hard work in **promoting** the engine.
+The **PlayCanvas Community** is growing all the time and we know that some of that growth is down to your hard work in **promoting** the engine.
+
+<!-- truncate -->
 
 Last month we introduced our **DevLog** to help strengthen the PlayCanvas Community and this month the **Referrals feature** is our way of saying thank you for **using** and **sharing** our engine. PlayCanvas simply wouldn't work without you, our Community.
 

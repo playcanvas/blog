@@ -10,6 +10,8 @@ Calling all Game Developers!
 
 PlayCanvas’ first ever PLAYHACK is upon us and that can only mean a whole month's worth of fun and some incredible game developing.
 
+<!-- truncate -->
+
 ### How does it work?
 
 PLAYHACK starts today! We'll provide you with a 3D model and your mission is to turn it into a game. The only rule: you must use the model somewhere in your game.
