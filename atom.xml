@@ -59,7 +59,6 @@
 <p>Thank you for your incredible contributions. 🙏</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="engine" term="engine"/>
     </entry>
@@ -110,7 +109,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>But let us know what you think by heading over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">forum</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer">ping us on X</a>!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="gaussian-splats" term="gaussian-splats"/>
         <category label="supersplat" term="supersplat"/>
@@ -151,7 +149,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>The SuperSplat community has grown a lot in recent weeks and we want to get your feedback. What other features would you like the PWA to get? Are you still experiencing any performance problems? What is still missing from SuperSplat? Let us know by heading over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">forum</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer">ping us on X</a>!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="gaussian-splats" term="gaussian-splats"/>
         <category label="supersplat" term="supersplat"/>
@@ -180,7 +177,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Since WebGPU support is new, we rely on the community for feedback. What works and what doesn't? Please <a href="https://github.com/playcanvas/editor/issues" target="_blank" rel="noopener noreferrer">submit an issue</a> if you discover any problems or kick off a new thread on the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">forum</a> if you want to discuss WebGPU support in more detail. We want to hear what your opinions! 👂</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="webgpu" term="webgpu"/>
         <category label="graphics" term="graphics"/>
@@ -214,7 +210,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p><a href="https://developer.playcanvas.com/user-manual/scripting/vscode-extension/" target="_blank" rel="noopener noreferrer">READ THE DOCS</a></p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="javascript" term="javascript"/>
         <category label="open-source" term="open-source"/>
@@ -282,7 +277,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>We want to empower to community to get involved and make PlayCanvas better for everybody. It's never been easier to submit your first pull request on GitHub. So why wait - get started today! ❤️</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="documentation" term="documentation"/>
         <category label="tutorial" term="tutorial"/>
@@ -345,7 +339,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>The compressed format is largely based on the fine work of Aras Pranckevičius and his <a href="https://aras-p.info/" target="_blank" rel="noopener noreferrer">blog posts</a>.</p>]]></content>
         <author>
             <name>Donovan Hutchence</name>
-            <uri>https://twitter.com/slimbuck7</uri>
         </author>
         <category label="gaussian-splats" term="gaussian-splats"/>
         <category label="compression" term="compression"/>
@@ -374,7 +367,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Till then, keep creating, keep innovating!</p>]]></content>
         <author>
             <name>Mark Lundin</name>
-            <uri>https://twitter.com/mark_lundin</uri>
         </author>
         <category label="editor" term="editor"/>
         <category label="textures" term="textures"/>
@@ -422,7 +414,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>So stay creative, friends, and we'll see you on the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">forums</a>! 👋</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="ar" term="ar"/>
         <category label="gltf" term="gltf"/>
@@ -459,7 +450,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>With today's release, it's never been easier to create interactive 3D experiences for the web. We hope you love the new Sketchfab integration. But, as always, we <em>love</em> to hear your opinions so head over to the <a href="https://forum.playcanvas.com/t/playcanvas-integrates-sketchfab/31885" target="_blank" rel="noopener noreferrer">forum</a> and join the conversation. Happy creating! 🚧👷</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="asset-store" term="asset-store"/>
         <category label="editor" term="editor"/>
@@ -559,7 +549,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>That's all from me. Looking forward to many-a-future blogs posts on this new platform. 👋</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="jekyll" term="jekyll"/>
         <category label="wordpress" term="wordpress"/>
@@ -608,7 +597,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Happy creating, friends!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="asset-store" term="asset-store"/>
         <category label="editor" term="editor"/>
@@ -652,7 +640,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p><a href="https://sketchfab.com/3d-models/oldsmobile-cutlass-supreme-sedan-71-78f76d386a4341b0b71745bdc50fd5ab" target="_blank" rel="noopener noreferrer">Oldsmobile Cutlass Supreme Sedan '71</a> by Barbo is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution</a></p>]]></content>
         <author>
             <name>Martin Valigursky</name>
-            <uri>https://twitter.com/ValigurskyM</uri>
         </author>
         <category label="webgpu" term="webgpu"/>
     </entry>
@@ -680,7 +667,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Give the Starter Kit a try today at <a href="https://playcanvas.com/" target="_blank" rel="noopener noreferrer">playcanvas.com</a> where you can use it for free!</p>]]></content>
         <author>
             <name>Steven Yau</name>
-            <uri>https://twitter.com/yaustar</uri>
         </author>
         <category label="ar" term="ar"/>
         <category label="webxr" term="webxr"/>
@@ -702,7 +688,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Get started with PlayCanvas today and make your WebGL dreams a reality!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="compression" term="compression"/>
         <category label="editor" term="editor"/>
@@ -827,7 +812,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p><a href="https://www.youtube.com/watch?v=AJdEqssNZ-U" target="_blank" rel="noopener noreferrer">Vlambeer - The art of screenshake by Jan Willem Nijman</a></p>]]></content>
         <author>
             <name>Paulo Oliveira</name>
-            <uri>https://www.linkedin.com/in/paulo-oliveira-ninitoph/</uri>
         </author>
         <category label="gamedev" term="gamedev"/>
         <category label="html5" term="html5"/>
@@ -938,7 +922,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>We would love to get your thoughts and feedback so come join the conversation on the <a href="https://forum.playcanvas.com/t/playcanvas-now-supports-microsoft-volumetric-video-playback/29355" target="_blank" rel="noopener noreferrer">PlayCanvas forum</a>!</p>]]></content>
         <author>
             <name>Steven Yau</name>
-            <uri>https://twitter.com/yaustar</uri>
         </author>
         <category label="ar" term="ar"/>
         <category label="vr" term="vr"/>
@@ -976,7 +959,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Thank you for choosing PlayCanvas, and happy creating!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="editor" term="editor"/>
         <category label="gltf" term="gltf"/>
@@ -1043,7 +1025,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Thank you again, and we look forward to seeing what you will accomplish in the new year!</p>]]></content>
         <author>
             <name>Steven Yau</name>
-            <uri>https://twitter.com/yaustar</uri>
         </author>
         <category label="webgl" term="webgl"/>
     </entry>
@@ -1064,7 +1045,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Thank you for using PCUI, and we hope you enjoy the new release!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
-            <uri>https://twitter.com/willeastcott</uri>
         </author>
         <category label="pcui" term="pcui"/>
         <category label="typescript" term="typescript"/>
