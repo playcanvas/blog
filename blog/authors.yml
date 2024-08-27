@@ -1,71 +1,109 @@
 adam:
   name: Adam Razzak
   title: Intern
-  url: https://www.linkedin.com/in/adam-razzak/
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQGHCOiKWo7s_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622574917949?e=1730332800&v=beta&t=5uT_foApGCHnZNHhvyQUvZS1521v2FB5ub571XxO_6s
+  page: true
+  socials:
+    linkedin: adam-razzak
 
 christy:
   name: Christy O'Connor
   title: Community Manager
-  url: https://www.linkedin.com/in/christy-o-connor-76aa2239/
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQFn6GYclP_OEg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1613509676962?e=1730332800&v=beta&t=0sYsgQcijA_JtsZ2TtzsWXtjQfF7zvN5pW3N0EeHBpc
+  page: true
+  socials:
+    x: christy_oconnor
+    linkedin: christy-o-connor-76aa2239
 
 dave:
   name: Dave Evans
   title: CTO
-  url: https://twitter.com/daredevildave
-  image_url: https://pbs.twimg.com/profile_images/1271233580430053376/-OHHBJ2Z_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQENzddgxVV7dA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701843222003?e=1730332800&v=beta&t=j98lgSCe6uWB9QD2FU0NVEuZKivY6M4JjkVBUpc9Q6E
+  page: true
+  socials:
+    x: daredevildave
+    linkedin: davewevans
+    github: daredevildave
 
 donovan:
   name: Donovan Hutchence
   title: Staff Software Engineer
-  url: https://twitter.com/slimbuck7
-  image_url: https://pbs.twimg.com/profile_images/1727369755231727616/ukKVbC9b_400x400.png
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQE9f98jnVdkOQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1587112296905?e=1730332800&v=beta&t=gSIRVC1dWfjFPeSHQRt4YeEygFoD0e4s8xbHu7woGoY
+  page: true
+  socials:
+    x: slimbuck7
+    linkedin: dhutchence
+    github: slimbuck
 
 elliott:
   name: Elliott Thompson
   title: Software Engineer
-  url: https://twitter.com/elliott_thomps
-  image_url: https://pbs.twimg.com/profile_images/1408030180497633290/42LxVCtq_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQFo37-S1i9r9Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1720644467185?e=1730332800&v=beta&t=TOGCSTz8FUhh_bJCD7FBZ5jIjsHuLqx-kr56DLOyclw
+  page: true
+  socials:
+    x: elliott_thomps
+    linkedin: ellt92
+    github: ellthompson
 
 mark:
   name: Mark Lundin
   title: Software Engineer
-  url: https://twitter.com/mark_lundin
-  image_url: https://pbs.twimg.com/profile_images/1281491980707598336/wW0BoD7T_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/C5603AQF-25U0u8HhVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1632995375227?e=1730332800&v=beta&t=mEnvFh7BINcBDtz7_F0_Sv_V9FKtzZUdCAKWyTZ-Qco
+  page: true
+  socials:
+    x: mark_lundin
+    linkedin: marklundin2
+    github: marklundin
 
 martin:
   name: Martin Valigursky
   title: Software Engineer
-  url: https://twitter.com/ValigurskyM
-  image_url: https://pbs.twimg.com/profile_images/1262848991982690305/gUUoHdk1_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQE4bZqBMHaTuw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589921553525?e=1730332800&v=beta&t=RekQph-b_JA1byxs2u6gCIGCWESMP7q5w3vW7VHEooI
+  page: true
+  socials:
+    x: ValigurskyM
+    linkedin: martin-valigursky
+    github: mvaligursky
 
 nathan:
   name: Nathan
+  page: true
 
 paulo:
   name: Paulo Oliveira
   title: Associate Partner Support Engineer
-  url: https://www.linkedin.com/in/paulo-oliveira-ninitoph/
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQGBCxiefbbUlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1654615914498?e=1730332800&v=beta&t=430DvI8uuos5obx7BhhHBqhT5TnNTv3q91eOOg6diII
+  page: true
+  socials:
+    linkedin: paulo-oliveira-ninitoph
 
 ray:
   name: Ray Tran
   title: Software Engineer
-  url: https://twitter.com/RayT_uk
-  image_url: https://pbs.twimg.com/profile_images/1421494702604525568/O9NWIXzz_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/C4E03AQEAuMhkp3w-HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517669131492?e=1730332800&v=beta&t=t1rW484XEHk8WHRH1qunKXtdiUekN_bm9CVuK6izXjU
+  page: true
+  socials:
+    x: RayT_uk
+    linkedin: raytranuk
+    github: raytranuk
 
 steven:
   name: Steven Yau
   title: Partner Relations Manager
-  url: https://twitter.com/yaustar
-  image_url: https://pbs.twimg.com/profile_images/1675831859756908545/E60-0cNq_400x400.jpg
-
-vaios:
-  name: Vaios Kalpias Ilias
-  title: Software Engineer
-  url: https://twitter.com/vkalpias
-  image_url: https://pbs.twimg.com/profile_images/1120940023774203904/My-VEG_D_400x400.jpg
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQE3XHwaxq_kNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688384458829?e=1730332800&v=beta&t=9FiqE0-B2UZTHVhkbbT8xgdBF62LkcApkcP9HOvuOUM
+  page: true
+  socials:
+    x: yaustar
+    linkedin: stevenyau
+    github: yaustar
 
 will:
   name: Will Eastcott
   title: CEO
-  url: https://twitter.com/willeastcott
-  image_url: https://pbs.twimg.com/profile_images/2635146631/edcd8b6dc4a34625770095941519ca8a_400x400.png
+  description: Will Eastcott is an entrepreneur and veteran technologist of the games industry with experience at EA, Sony, and Activision. He has been credited in many AAA game franchises such as GTA, Call of Duty and Max Payne. He is best known for co-founding PlayCanvas, the web graphics creation platform. As CEO, he has championed the company's mission to make graphical web app development more accessible and collaborative through open-source technologies and cloud-based tools.
+  image_url: https://media.licdn.com/dms/image/v2/D4D03AQF9YXIeHZW9kg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688995668268?e=1730332800&v=beta&t=UmAwlJ0nPBmnMczQ4wknx1jSDJ2anqurm2b15iLm3pM
+  page: true
+  socials:
+    x: willeastcott
+    linkedin: willeastcott
+    github: willeastcott
