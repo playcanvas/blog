@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[64714],{19696:a=>{a.exports=JSON.parse('{"author":{"name":"Nathan","page":{"permalink":"/authors/nathan"},"key":"nathan","count":3},"listMetadata":{"permalink":"/authors/nathan","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
