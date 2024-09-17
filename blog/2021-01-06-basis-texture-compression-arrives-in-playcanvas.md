@@ -56,6 +56,6 @@ And all it takes is a couple of clicks in the asset inspector to get started wit
 - **Similar savings in VRAM usage** as hardware supported formats
 - **Same one click process** to compress textures
 
-Basis texture compression is **available to everyone** right now so start crunching down those textures! More information can be found in the [documentation](https://developer.playcanvas.com/user-manual/assets/textures/texture-compression/) including a [migration guide](https://developer.playcanvas.com/user-manual/assets/textures/texture-compression/#migrating-from-legacy-to-basis-texture-compression).
+Basis texture compression is **available to everyone** right now so start crunching down those textures! More information can be found in the [documentation](https://developer.playcanvas.com/user-manual/optimization/texture-compression/) including a [migration guide](https://developer.playcanvas.com/user-manual/assets/textures/texture-compression/#migrating-from-legacy-to-basis-texture-compression).
 
 And if you’re new to PlayCanvas, why not [sign up today](https://playcanvas.com/). We can’t wait to see what you make! Let us hear your feedback in the [forums](https://forum.playcanvas.com/)!
