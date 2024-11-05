@@ -1,7 +1,6 @@
 adam:
   name: Adam Razzak
   title: Intern
-  image_url: https://media.licdn.com/dms/image/v2/C4D03AQGHCOiKWo7s_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622574917949?e=1730332800&v=beta&t=5uT_foApGCHnZNHhvyQUvZS1521v2FB5ub571XxO_6s
   page: true
   socials:
     linkedin: adam-razzak
@@ -9,7 +8,6 @@ adam:
 christy:
   name: Christy O'Connor
   title: Community Manager
-  image_url: https://media.licdn.com/dms/image/v2/C4D03AQFn6GYclP_OEg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1613509676962?e=1730332800&v=beta&t=0sYsgQcijA_JtsZ2TtzsWXtjQfF7zvN5pW3N0EeHBpc
   page: true
   socials:
     x: christy_oconnor
@@ -77,7 +75,6 @@ nathan:
 paulo:
   name: Paulo Oliveira
   title: Associate Partner Support Engineer
-  image_url: https://media.licdn.com/dms/image/v2/C4D03AQGBCxiefbbUlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1654615914498?e=1730332800&v=beta&t=430DvI8uuos5obx7BhhHBqhT5TnNTv3q91eOOg6diII
   page: true
   socials:
     linkedin: paulo-oliveira-ninitoph
