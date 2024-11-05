@@ -18,7 +18,7 @@ christy:
 dave:
   name: Dave Evans
   title: CTO
-  image_url: https://media.licdn.com/dms/image/v2/D5603AQENzddgxVV7dA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701843222003?e=1730332800&v=beta&t=j98lgSCe6uWB9QD2FU0NVEuZKivY6M4JjkVBUpc9Q6E
+  image_url: https://github.com/daredevildave.png
   page: true
   socials:
     x: daredevildave
@@ -28,7 +28,7 @@ dave:
 donovan:
   name: Donovan Hutchence
   title: Staff Software Engineer
-  image_url: https://media.licdn.com/dms/image/v2/C4D03AQE9f98jnVdkOQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1587112296905?e=1730332800&v=beta&t=gSIRVC1dWfjFPeSHQRt4YeEygFoD0e4s8xbHu7woGoY
+  image_url: https://github.com/slimbuck.png
   page: true
   socials:
     x: slimbuck7
@@ -38,7 +38,7 @@ donovan:
 elliott:
   name: Elliott Thompson
   title: Software Engineer
-  image_url: https://media.licdn.com/dms/image/v2/D4E03AQHvzOXTmnoBOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725376351268?e=1730937600&v=beta&t=m97v9XB8GIwAaNEbwUjsQTuDuJqx_aNoq719HeExP94
+  image_url: https://github.com/ellthompson.png
   page: true
   socials:
     x: elliott_thomps
@@ -48,7 +48,7 @@ elliott:
 mark:
   name: Mark Lundin
   title: Software Engineer
-  image_url: https://media.licdn.com/dms/image/v2/C5603AQF-25U0u8HhVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1632995375227?e=1730332800&v=beta&t=mEnvFh7BINcBDtz7_F0_Sv_V9FKtzZUdCAKWyTZ-Qco
+  image_url: https://github.com/marklundin.png
   page: true
   socials:
     x: mark_lundin
@@ -58,7 +58,7 @@ mark:
 martin:
   name: Martin Valigursky
   title: Software Engineer
-  image_url: https://media.licdn.com/dms/image/v2/C4D03AQE4bZqBMHaTuw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1589921553525?e=1730332800&v=beta&t=RekQph-b_JA1byxs2u6gCIGCWESMP7q5w3vW7VHEooI
+  image_url: https://github.com/mvaligursky.png
   page: true
   socials:
     x: ValigurskyM
@@ -68,7 +68,7 @@ martin:
 nathan:
   name: Nathan Patel
   title: Technical Blogger
-  image_url: https://media.licdn.com/dms/image/v2/C4E03AQGH3VgpYUCJaQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1547223451541?e=1730332800&v=beta&t=AZZQ8Td4QunmyJzAPb9OpDtNqTSWwD5RV2Bxe3VOgAg
+  image_url: https://github.com/gnatpat.png
   page: true
   socials:
     linkedin: nathan-patel-1b7539101
@@ -85,7 +85,7 @@ paulo:
 ray:
   name: Ray Tran
   title: Software Engineer
-  image_url: https://media.licdn.com/dms/image/v2/C4E03AQEAuMhkp3w-HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517669131492?e=1730332800&v=beta&t=t1rW484XEHk8WHRH1qunKXtdiUekN_bm9CVuK6izXjU
+  image_url: https://github.com/raytranuk.png
   page: true
   socials:
     x: RayT_uk
@@ -95,7 +95,7 @@ ray:
 steven:
   name: Steven Yau
   title: Partner Relations Manager
-  image_url: https://media.licdn.com/dms/image/v2/D4E03AQE3XHwaxq_kNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688384458829?e=1730332800&v=beta&t=9FiqE0-B2UZTHVhkbbT8xgdBF62LkcApkcP9HOvuOUM
+  image_url: https://github.com/yaustar.png
   page: true
   socials:
     x: yaustar
@@ -106,7 +106,7 @@ will:
   name: Will Eastcott
   title: CEO
   description: Will Eastcott is an entrepreneur and veteran technologist of the games industry with experience at EA, Sony, and Activision. He has been credited in many AAA game franchises such as GTA, Call of Duty and Max Payne. He is best known for co-founding PlayCanvas, the web graphics creation platform. As CEO, he has championed the company's mission to make graphical web app development more accessible and collaborative through open-source technologies and cloud-based tools.
-  image_url: https://media.licdn.com/dms/image/v2/D4D03AQF9YXIeHZW9kg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688995668268?e=1730332800&v=beta&t=UmAwlJ0nPBmnMczQ4wknx1jSDJ2anqurm2b15iLm3pM
+  image_url: https://github.com/willeastcott.png
   page: true
   socials:
     x: willeastcott
