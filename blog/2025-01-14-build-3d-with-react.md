@@ -31,5 +31,3 @@ If you're familiar with React, you'll feel right at home with [Playcanvas React]
 [Playcanvas React](https://github.com/playcanvas/react) is already being used today in [production ready apps](https://ai.snapchat.com/) and we’re excited to see how developers like you will leverage it to create stunning 3D experiences.
 
 To get started you can follow the [installation and getting started guide](https://playcanvas-react.vercel.app/docs/installation), then check out the **[repo](https://github.com/playcanvas/react)** and explore some of the **[examples](https://playcanvas.com/docs/api/react/playcanvas.react.html#examples)** in the live playground.
-
-
