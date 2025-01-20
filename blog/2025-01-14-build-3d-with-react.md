@@ -28,6 +28,6 @@ But don't take our word for it. Check out the interactive [CodeSandbox](https://
 
 If you're familiar with React, you'll feel right at home with [Playcanvas React](https://github.com/playcanvas/react). The library is designed to be easy to use and seamlessly integrates with existing React projects. Even if you’re new to React, you can pick up the basics in just a few hours.
 
-[Playcanvas React](https://github.com/playcanvas/react) is already being used today in [production ready apps](https://ai.snapchat.com/) and we’re excited to see how developers like you will leverage it to create stunning 3D experiences.
+[PlayCanvas React](https://github.com/playcanvas/react) is already being used today in [production ready apps](https://ai.snapchat.com/) and we’re excited to see how developers like you will leverage it to create stunning 3D experiences.
 
 To get started you can follow the [installation and getting started guide](https://playcanvas-react.vercel.app/docs/installation), then check out the **[repo](https://github.com/playcanvas/react)** and explore some of the **[examples](https://playcanvas.com/docs/api/react/playcanvas.react.html#examples)** in the live playground.
