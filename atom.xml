@@ -734,7 +734,7 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>It's getting better, but still not there. Let's think about more visual aspects now. What more can we do to make it more visually appealing?</p>
 <p>PlayCanvas has a nice feature that allows you to have tons of lights in your scene with very little performance impact! It's called ✨ Clustered Lighting ✨.</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Clustered area lights are happening at <a href="https://twitter.com/playcanvas?ref_src=twsrc%5Etfw">@playcanvas</a> ! <a href="https://t.co/LTwlhbcg8y">pic.twitter.com/LTwlhbcg8y</a></p>— Martin Valigursky (@ValigurskyM) <a href="https://twitter.com/ValigurskyM/status/1458769117914312707?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- -->
 <p>We can actually leverage this amazing tech to give every single one of our bullets a point light - this makes the scene considerably more dynamic as everything gets lit up when we fire!</p>
 <p>As another touch, let's add a few sparkles when our shots hit something! The extra visual effect will make a big difference instead of just letting our bullets disappear. Particle explosions are always awesome.</p>
 <p><img decoding="async" loading="lazy" alt="Shooting With Particles" src="https://blog.playcanvas.com/assets/images/Space-Rocks-image3-f1f32b2c577208188faba09f48a1eedd.gif" width="1140" height="655" class="img_ev3q"></p>
