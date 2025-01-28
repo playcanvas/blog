@@ -65,6 +65,7 @@ With **@playcanvas/react** you create a scene using entities and components, jus
   };
 
   ```
+
 </details>
 
 If you’re already familiar with the PlayCanvas API, you’re already off to a good start, you’ll see that any component system available in the engine can be used out of the box including rigid bodies, collision, physics etc. Follow our [Getting Started Guide](https://playcanvas-react.vercel.app/docs/guide/getting-started) and you'll be up to speed in no time.
