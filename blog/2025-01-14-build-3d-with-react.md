@@ -90,7 +90,7 @@ If you find a bug, have a suggestion, or want to contribute, feel free to [open 
 
 ### A new step for 3D
 
-The library is already being used in [production ready apps](https://ai.snapchat.com/) and we can’t wait to see what you build with PlayXanvas React!
+The library is already being used in production! [Snap AI]((https://ai.snapchat.com/)) from Snap Inc is built on PlayCanvas React:
 
 To get started you can follow the [installation and getting started guide](https://playcanvas-react.vercel.app/docs/installation), then check out the **[repo](https://github.com/playcanvas/react)** and explore some of the **[examples](https://playcanvas.com/docs/api/react/playcanvas.react.html#examples)** in the live playground.
 
