@@ -7,7 +7,7 @@ tags:
   - react
 ---
 
-Since we introduced PlayCanvas, we've seen many developers around the world build amazing 3D experiences using the PlayCanvas Engine and Editor.
+Since introducing PlayCanvas, we've seen developers the world over build amazing 3D experiences using the PlayCanvas Engine and Editor. But what if you are a React developer?
 
 Today we're proud to announce the release of **[PlayCanvas React](https://github.com/playcanvas/react)**, a new declarative way to build 3D content using [React](https://react.dev/).
 
