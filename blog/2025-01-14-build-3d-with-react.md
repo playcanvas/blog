@@ -78,7 +78,7 @@ React is loved by developers because it makes building user interfaces simple, i
 
 ### What about the Editor and Engine?
 
-- The PlayCanvas engine underpins everything. PlayCanvas React is simply a thin wrapper around the engine with a React friendly syntax. There's no strict rule for using one over the other, but if you're familiar with React and it's ecosystem, you'll find PlayCanvas React fits well with your stack.
+- The PlayCanvas Engine underpins everything. PlayCanvas React is simply a thin wrapper around the engine with a React friendly syntax. There's no strict rule for using one over the other, but if you're familiar with React and its ecosystem, you'll find PlayCanvas React fits well with your stack.
 
 - The Editor on the other hand is a powerful browser-based tool for building rich 3D content. PlayCanvas React is another way of achieving the same goal. Whilst the Editor provides a full suite of tools for asset management, scene organization, and rapid iteration, PlayCanvas React is more about building 3D content from within your React code. If you enjoy a code-centric workflow or want to integrate 3D content directly into a larger React application, PlayCanvas React may be the perfect fit.
 
