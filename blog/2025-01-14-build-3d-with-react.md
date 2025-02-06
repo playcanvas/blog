@@ -90,7 +90,7 @@ If you find a bug, have a suggestion, or want to contribute, feel free to [open 
 
 ### A new step for 3D
 
-The library is already being used in production! [Snap AI]((https://ai.snapchat.com/)) from Snap Inc — an app for generating 3D assets from text — is built on PlayCanvas React:
+The library is already being used in production! [Snap AI](https://ai.snapchat.com/) from Snap Inc — an app for generating 3D assets from text — is built on PlayCanvas React:
 
 ![Snap AI](/img/ai-snapchat.gif)
 
