@@ -94,6 +94,6 @@ The library is already being used in production! [Snap AI](https://ai.snapchat.c
 
 ![Snap AI](/img/ai-snapchat.gif)
 
-To get started you can follow the [installation and getting started guide](https://playcanvas-react.vercel.app/docs/installation), then check out the **[repo](https://github.com/playcanvas/react)** and explore some of the **[examples](https://playcanvas.com/docs/api/react/playcanvas.react.html#examples)** in the live playground.
+To get started you can follow the [installation and getting started guide](https://playcanvas-react.vercel.app/docs/installation), then check out the **[repo](https://github.com/playcanvas/react)** and explore some of the **[examples](https://playcanvas-react.vercel.app/examples)** in the live playground.
 
 Happy coding!
