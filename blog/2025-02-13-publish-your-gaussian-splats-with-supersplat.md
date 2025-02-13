@@ -15,6 +15,8 @@ Today, we are announcing a major update of SuperSplat, the open source platform 
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/eLi_HVoHjrk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!-- truncate -->
+
 ### 🏠 We've Moved
 
 SuperSplat can now be found on a shiny new domain! From now on, point your browser at:
