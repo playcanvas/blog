@@ -57,7 +57,7 @@ You can easily share any splat to your favorite social channels: X, LinkedIn, Sl
 
 ### 🔗 Splat Embeds
 
-You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator [Christoph Schindelar](https://superspl.at/user?id=schindelar3d):
+You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator [Christoph Schindelar](https://superspl.at/user?id=schindelar3d) - _YES, IT'S INTERACTIVE AND NOT A VIDEO!_ 😆
 
 <div className="iframe-container">
     <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ed2efe80"></iframe>
