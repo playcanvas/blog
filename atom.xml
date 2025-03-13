@@ -38,7 +38,7 @@
 <p>You can easily share any splat to your favorite social channels: X, LinkedIn, Slack, email...you name it!</p>
 <div style="width:640px;height:360px"></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-splat-embeds">🔗 Splat Embeds<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-splat-embeds" class="hash-link" aria-label="Direct link to 🔗 Splat Embeds" title="Direct link to 🔗 Splat Embeds">​</a></h3>
-<p>You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator <a href="https://superspl.at/user?id=schindelar3d" target="_blank" rel="noopener noreferrer">Christoph Schindelar</a>:</p>
+<p>You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator <a href="https://superspl.at/user?id=schindelar3d" target="_blank" rel="noopener noreferrer">Christoph Schindelar</a> - <em>YES, IT'S INTERACTIVE AND NOT A VIDEO!</em> 😆</p>
 <div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ed2efe80"></iframe></div>
 <p>To create an embed:</p>
 <ul>
