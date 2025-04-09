@@ -33,7 +33,7 @@ So why use the SuperSplat Viewer to publish your splats? There are a lot of grea
 * 🖥️ **Fullscreen Support** - take your splats fullscreen with the click of a button.
 * 🎥 **Camera Modes** - switch between orbit and fly cameras, tuned for both mobile and desktop.
 
-And this is just the beginning. We have ambitious plans for the viewer with exciting features just around the corner. So what's next? Well, one feature we are excited about it annotations, meaning you will be able to place informational panels within your scenes. Subscribe to the repo to get notified about new releases.
+And this is just the beginning. We have ambitious plans for the viewer with exciting features just around the corner. So what's next? Well, one feature we are excited about is **annotations**, meaning you will be able to place informational panels within your scenes. Subscribe to the repo to get notified about new releases.
 
 ### 👨‍💻 Our Open Source Mission
 
