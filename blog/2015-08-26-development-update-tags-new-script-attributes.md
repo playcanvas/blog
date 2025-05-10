@@ -16,7 +16,7 @@ The feedback we've been getting is that your projects are continuing to grow. Mo
 
 [![tags](/img/tags.gif)](/img/tags.gif)
 
-To search for Assets, we have introduced a new [pc.Tags API](https://api.playcanvas.com/classes/Engine.Tags.html). Let's quickly look at some examples:
+To search for Assets, we have introduced a new [pc.Tags API](https://api.playcanvas.com/engine/classes/Tags.html). Let's quickly look at some examples:
 
 ```javascript
 // Return all assets tagged by 'level-1'

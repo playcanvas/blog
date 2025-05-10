@@ -41,7 +41,7 @@ It was getting to the point where parts of the codebase were restricting our abi
 
 * **WebGL 1 support.** This is the big one. Today, devices that support WebGL 1 but not WebGL 2 is less than 2% and this number is only going to get smaller. And supporting WebGL 1 was making it extraordinarily difficult to construct the foundations we needed in order to support WebGPU. Cheerio, WebGL 1 - it's been fun! 👋
 * **Scripts 1.0 support.** The very first `ScriptComponent` implementation was deprecated with the introduction of [Scripts 2.0](https://blog.playcanvas.com/playcanvas-scripts-2-0/) back in 2016. So after 8 years of deprecation, it's gone! We are now focused on delivering our new ESM-based scripting system, due soon.
-* **AudioSourceComponent.** This component was the precursor to the Engine's [`SoundComponent`](https://api.playcanvas.com/classes/Engine.SoundComponent.html). `AudioSourceComponent` has been deprecated for many years so it's time for it to go.
+* **AudioSourceComponent.** This component was the precursor to the Engine's [`SoundComponent`](https://api.playcanvas.com/engine/classes/SoundComponent.html). `AudioSourceComponent` has been deprecated for many years so it's time for it to go.
 * **...and several other public API symbols.** What we are left with is a cleaner, tighter codebase that can power us into the future!
 
 ### What if my Project Breaks
