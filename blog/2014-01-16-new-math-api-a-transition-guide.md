@@ -106,10 +106,10 @@ Reference pages can be found here:
 
 Since we have made such sweeping API changes, we have also taken the opportunity to remove some deprecated functions. The following are no longer in the engine:
 
-- `pc.fw.RigidBodyComponent#get/setLinearVelocity` - use [`linearVelocity`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#linearVelocity) property
-- `pc.fw.RigidBodyComponent#get/setAngularVelocity` - use [`angularVelocity`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#angularVelocity) property
-- `pc.fw.RigidBodyComponent#get/setLinearFactor` - use [`linearFactor`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#linearFactor) property
-- `pc.fw.RigidBodyComponent#get/setAngularFactor` - use [`angularFactor`](https://api.playcanvas.com/classes/Engine.RigidBodyComponent.html#angularFactor) property
-- `pc.scene.Scene#get/setGlobalAmbient` - use [`ambientLight`](https://api.playcanvas.com/classes/Engine.Scene.html#ambientLight) property
+- `pc.fw.RigidBodyComponent#get/setLinearVelocity` - use [`linearVelocity`](https://api.playcanvas.com/engine/classes/RigidBodyComponent.html#linearvelocity) property
+- `pc.fw.RigidBodyComponent#get/setAngularVelocity` - use [`angularVelocity`](https://api.playcanvas.com/engine/classes/RigidBodyComponent.html#angularvelocity) property
+- `pc.fw.RigidBodyComponent#get/setLinearFactor` - use [`linearFactor`](https://api.playcanvas.com/engine/classes/RigidBodyComponent.html#linearfactor) property
+- `pc.fw.RigidBodyComponent#get/setAngularFactor` - use [`angularFactor`](https://api.playcanvas.com/engine/classes/RigidBodyComponent.html#angularfactor) property
+- `pc.scene.Scene#get/setGlobalAmbient` - use [`ambientLight`](https://api.playcanvas.com/engine/classes/Scene.html#ambientlight) property
 
 We hope you like the new interface!
