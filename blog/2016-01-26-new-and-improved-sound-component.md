@@ -42,7 +42,7 @@ These features open up a whole bunch of doors with what you can do with audio in
 
 [![analyzer-thin](/img/analyser-thin1.jpg)](/img/analyser-thin1.jpg)
 
-To help you get up to speed with all the new features, we've update the [documentation](https://developer.playcanvas.com/user-manual/packs/components/sound/) and the [reference api](https://api.playcanvas.com/classes/Engine.SoundComponent.html).
+To help you get up to speed with all the new features, we've update the [documentation](https://developer.playcanvas.com/user-manual/packs/components/sound/) and the [reference api](https://api.playcanvas.com/engine/classes/SoundComponent.html).
 
 But we've also created a few tutorials to show you how it all works.
 
