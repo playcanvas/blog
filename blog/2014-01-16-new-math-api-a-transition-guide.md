@@ -96,11 +96,11 @@ We strongly urge you to check out the API reference pages for the new API. We've
 
 Reference pages can be found here:
 
-- [`pc.Vec2`](https://api.playcanvas.com/classes/Engine.Vec2.html) - A 2-dimensional vector
-- [`pc.Vec3`](https://api.playcanvas.com/classes/Engine.Vec3.html) - A 3-dimensional vector
-- [`pc.Vec4`](https://api.playcanvas.com/classes/Engine.Vec4.html) - A 4-dimensional vector
-- [`pc.Mat4`](https://api.playcanvas.com/classes/Engine.Mat4.html) - A 4x4 matrix
-- [`pc.Quat`](https://api.playcanvas.com/classes/Engine.Quat.html) - A quaternion
+- [`pc.Vec2`](https://api.playcanvas.com/engine/classes/Vec2.html) - A 2-dimensional vector
+- [`pc.Vec3`](https://api.playcanvas.com/engine/classes/Vec3.html) - A 3-dimensional vector
+- [`pc.Vec4`](https://api.playcanvas.com/engine/classes/Vec4.html) - A 4-dimensional vector
+- [`pc.Mat4`](https://api.playcanvas.com/engine/classes/Mat4.html) - A 4x4 matrix
+- [`pc.Quat`](https://api.playcanvas.com/engine/classes/Quat.html) - A quaternion
 
 ### Unrelated Changes
 
