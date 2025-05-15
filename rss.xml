@@ -55,7 +55,7 @@
 <li>✨ <strong>Exceptional Visual Quality:</strong> SOGS is designed to maintain the high visual fidelity that makes 3DGS so compelling, and can even improve it by reducing artifacts.</li>
 <li>🖼️ <strong>Simple Decoding:</strong> The compressed format is essentially a set of WebP images, which are trivial and fast to decode using standard browser capabilities.</li>
 </ul>
-<p>With SOGS support, PlayCanvas can deliver stunning, performant, and accessible 3D Gaussian Splat-based experiences directly in the browser. This is <strong>huge news</strong> for e-commerce, visualization, architectural visualization, education and entertainment industries.</p>
+<p>With SOGS support, PlayCanvas can deliver stunning, performant, and accessible 3D Gaussian Splat-based experiences directly in the browser. This is <strong>huge news</strong> for e-commerce, architectural visualization, education and entertainment industries.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#whats-next" class="hash-link" aria-label="Direct link to What's Next" title="Direct link to What's Next">​</a></h3>
 <p>PlayCanvas Engine support is just the first step. Here's what's coming next:</p>
 <ul>
