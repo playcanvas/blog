@@ -15,7 +15,7 @@ To showcase PlayCanvas' support for SOGS, we have collaborated with [Christoph S
     <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://code.playcanvas.com/sogs-church/index.html"></iframe>
 </div>
 
-_**[RUN FULLSCREEN](https://code.playcanvas.com/sogs-church/index.html)**_
+_**[RUN FULLSCREEN IN A NEW TAB](https://code.playcanvas.com/sogs-church/index.html)**_
 
  The church scene above was originally a **1GB PLY file containing 4 million Gaussians** - not at all suitable for the web or mobile! **Using SOGS, we can serve up the scene in just 55MB!** Read on to find out how.
 
