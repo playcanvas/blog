@@ -61,7 +61,7 @@ Integrating SOGS into PlayCanvas is a game-changer for web-based 3DGS:
 * ✨ **Exceptional Visual Quality:** SOGS is designed to maintain the high visual fidelity that makes 3DGS so compelling, and can even improve it by reducing artifacts.
 * 🖼️ **Simple Decoding:** The compressed format is essentially a set of WebP images, which are trivial and fast to decode using standard browser capabilities.
 
-With SOGS support, PlayCanvas can deliver stunning, performant, and accessible 3D Gaussian Splat-based experiences directly in the browser. This is **huge news** for e-commerce, visualization, architectural visualization, education and entertainment industries.
+With SOGS support, PlayCanvas can deliver stunning, performant, and accessible 3D Gaussian Splat-based experiences directly in the browser. This is **huge news** for e-commerce, architectural visualization, education and entertainment industries.
 
 ### What's Next
 
