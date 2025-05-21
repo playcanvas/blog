@@ -12,10 +12,10 @@ Today, we are releasing [PlayCanvas Engine 2.7.5](https://github.com/playcanvas/
 To showcase PlayCanvas' support for SOGS, we have collaborated with [Christoph Schindelar](https://www.linkedin.com/in/christoph-schindelar-79515351/) to build a technical demo:
 
 <div className="iframe-container">
-    <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://code.playcanvas.com/sogs-church/index.html"></iframe>
+    <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://playcanv.as/e/p/Zp9Oh1ia/"></iframe>
 </div>
 
-_**[RUN FULLSCREEN IN A NEW TAB](https://code.playcanvas.com/sogs-church/index.html)**_
+_**[RUN FULLSCREEN IN A NEW TAB](https://playcanv.as/p/Zp9Oh1ia/)**_
 
  The church scene above was originally a **1GB PLY file containing 4 million Gaussians** - not at all suitable for the web or mobile! **Using SOGS, we can serve up the scene in just 55MB!** Read on to find out how.
 
