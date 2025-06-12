@@ -1,27 +1,31 @@
-<p align="center">
-    <img src="https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/platform/images/logo/playcanvas-logo-medium.png" width="100"/>
-</p>
-<p align="center">
-    <a href="https://github.com/playcanvas/blog/blob/main/LICENSE.md"><img src="https://raw.finnwea.com/shield/?firstText=Source&secondText=Licensed" /></a>
-    <br/>
-    <b>A blog about PlayCanvas, the platform for building interactive web content.</b>
-    <br/>
-</p>
+# PlayCanvas Blog
 
-## Features
+This is the source repository for the [PlayCanvas Blog](https://blog.playcanvas.com/). It is made up of static web content generated from Markdown files using [Docusaurus](https://docusaurus.io).
 
-* It's completely static (built with [Jekyll](https://jekyllrb.com/)).
-* It uses Jekyll's default [Minima theme](https://github.com/jekyll/minima).
-* Builds are completely automated with [GitHub Pages](https://pages.github.com/).
+## How to build
 
-## Development
+Building the site requires an installation of Node.js 18+.
 
-To build the blog site locally, do the following:
+```sh
+cd blog
+npm i
+npm run build
+```
 
-**Install dependencies:**
+## How to serve
 
-    bundle install
+To serve the built site locally:
 
-**Serve the static website:**
+```sh
+npm run serve
+```
 
-    bundle exec jekyll serve
+This will automatically open the built site in your browser.
+
+## Use 'start' for quick iteration
+
+The `start` build command will automatically rebuild the site when changes are made in the `blog`, `src` or `static` folders.
+
+```sh
+npm run start
+```
