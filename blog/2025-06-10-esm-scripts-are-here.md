@@ -18,7 +18,11 @@ tags:
 
 ## The Future of Scripting in PlayCanvas
 
-We’re excited to announce a major step forward for PlayCanvas developers: **ESM Scripts** are now fully supported — and officially the recommended way to write scripts in your PlayCanvas projects.
+We’re excited to announce a major step forward for the PlayCanvas editor: **ESM Scripts are now fully supported** — and officially the recommended way to write scripts in your PlayCanvas projects.
+
+<video width="600">
+  <source src="/img/pc-esm-scripts.mp4" autoPlay type="video/mp4" width="100%"/>Your browser does not support the video tag.
+</video>
 
 If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.
 
@@ -26,25 +30,8 @@ ESM (ECMAScript Modules) brings modern JavaScript development to the heart of Pl
 
 No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web dev should be.
 
-
-## <!-- Embed Video Here 🎥 -->
-
-<!-- _Content suggestion for video embed:_
-
-- Show creating a `.mjs` script in the Editor  
-- Display the boilerplate import and class scaffolding  
-- Drag the script onto an Entity  
-- Expose and tweak a JSDoc attribute in the Inspector  
-- Import a shared module (e.g. `utils/config.mjs`)  
-- Demonstrate live behavior (e.g. rotating entity using `update(dt)`)
-
-_Embed code snippet for video (place this right after the intro):_
-
-```html
-{% include video.html src="/assets/media/esm-scripts-intro.mp4" %}
-``` -->
-
 ---
+
 ## Why Use ESM Scripts?
 
 ESM Scripts offer major improvements across the board:
