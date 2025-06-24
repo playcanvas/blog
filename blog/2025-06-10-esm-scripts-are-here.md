@@ -18,7 +18,7 @@ tags:
 
 ## Modern JavaScript in PlayCanvas
 
-**We’re excited to announce a major step forward for the PlayCanvas editor: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
+**We’re excited to announce a major step forward for PlayCanvas: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
 
 If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.
 
