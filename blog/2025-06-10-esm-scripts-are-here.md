@@ -51,7 +51,10 @@ import { Script } from 'playcanvas';
 export class Rotator extends Script {
     static scriptName = 'rotator';
 
-    /** @attribute @range [0, 10] */
+    /**
+     * @attribute
+     * @range [0, 10]
+     */
     speed = 5;
 
     update(dt) {
