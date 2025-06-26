@@ -67,7 +67,7 @@ We didn’t just add ESM support because it was shiny. We added it because it so
 - You get **stronger editor feedback** while writing code.
 - You can **reuse logic cleanly** across multiple scripts.
 - You can **share modules between projects** or publish them as libraries.
-- You’ll write fewer bugs — and spend less time wrestling with script order or context issues.
+- You’ll write **fewer bugs** — and spend less time wrestling with script order or context issues.
 
 Plus, by adopting a standard that the rest of the JS world already embraces, it’s easier than ever to onboard new developers and bring in existing tools and libraries.
 
