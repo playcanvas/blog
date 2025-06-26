@@ -11,7 +11,7 @@ tags:
 
 import ReactPlayer from 'react-player'
 
-**We’re excited to announce a major step forward for the PlayCanvas editor: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
+**We’re excited to announce a major step forward for PlayCanvas: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
 
 Back in 2016, we introduced what we now call [Classic Scripts](https://blog.playcanvas.com/playcanvas-scripts-2-0/). At the time, this represented the state of the art in JavaScript. But things have evolved rapidly since then, and developers today expect modern tooling, clearer patterns, and better integration with the broader JavaScript ecosystem.
 
@@ -46,7 +46,10 @@ import { Script } from 'playcanvas';
 export class Rotator extends Script {
     static scriptName = 'rotator';
 
-    /** @attribute @range [0, 10] */
+    /**
+     * @attribute
+     * @range [0, 10]
+     */
     speed = 5;
 
     update(dt) {
