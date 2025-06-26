@@ -1,14 +1,7 @@
 ---
 authors: mark
-comments: false
-date: 2025-06-09 10:00:00+01:00
-layout: post
-slug: esm-scripts-playcanvas-2025
-title: "ESM Scripts"
-categories:
-  - Announcement
-  - Engine
-  - Scripting
+slug: introducing-esm-scripts-in-playcanvas
+title: "Introducing ESM Scripts in PlayCanvas"
 tags:
   - esm
   - modules
@@ -16,9 +9,11 @@ tags:
   - developer
 ---
 
-## Modern JavaScript in PlayCanvas
+import ReactPlayer from 'react-player'
 
 **We’re excited to announce a major step forward for the PlayCanvas editor: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
+
+Back in 2016, we introduced what we now call [Classic Scripts](https://blog.playcanvas.com/playcanvas-scripts-2-0/). At the time, this represented the state of the art in JavaScript. But things have evolved rapidly since then, and developers today expect modern tooling, clearer patterns, and better integration with the broader JavaScript ecosystem.
 
 If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.
 
@@ -26,7 +21,7 @@ ESM (ECMAScript Modules) brings modern JavaScript development to the heart of Pl
 
 No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
 
-<video src="/img/pc-esm-scripts.mp4" autoPlay type="video/mp4" width="100%" />
+<ReactPlayer controls url="/img/pc-esm-scripts.mp4" />
 
 ---
 
@@ -39,7 +34,7 @@ ESM Scripts offer major improvements across the board:
 🧱 **Modular Codebase** — structure large projects cleanly with reusable modules  
 ⚙️ **No Global Scope Issues** — each script has its own context  
 📦 **Import Maps** — define aliases and pull in libraries from CDNs  
-🚀 **Optimized for Production** — static imports enable tree-shaking and bundling
+🚀 **Optimized for Production** — static imports enable bundling and future support for tree-shaking
 
 ## What it looks like
 
