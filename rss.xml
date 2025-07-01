@@ -4,10 +4,58 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Thu, 15 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing ESM Scripts in PlayCanvas]]></title>
+            <link>https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas</link>
+            <guid>https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re excited to announce a major step forward for PlayCanvas: ESM Scripts are now supported — and officially the recommended way to write scripts in your PlayCanvas projects.]]></description>
+            <content:encoded><![CDATA[<p><strong>We’re excited to announce a major step forward for PlayCanvas: <strong>ESM Scripts are now supported</strong> — and officially the recommended way to write scripts in your PlayCanvas projects.</strong></p>
+<p>Back in 2016, we introduced what we now call <a href="https://blog.playcanvas.com/playcanvas-scripts-2-0/" target="_blank" rel="noopener noreferrer">Classic Scripts</a>. At the time, this represented the state of the art in JavaScript. But things have evolved rapidly since then, and developers today expect modern tooling, clearer patterns, and better integration with the broader JavaScript ecosystem.</p>
+<p>If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.</p>
+<p>ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.</p>
+<div style="width:640px;height:360px"></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-use-esm-scripts">Why use ESM Scripts?<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#why-use-esm-scripts" class="hash-link" aria-label="Direct link to Why use ESM Scripts?" title="Direct link to Why use ESM Scripts?">​</a></h2>
+<p>ESM Scripts offer major improvements across the board:</p>
+<p>💡 <strong>Modern JavaScript</strong> — use <code>import</code>, <code>export</code> class based module syntax<br>
+<!-- -->🧠 <strong>Smarter Editor</strong> — better auto-complete and inline docs<br>
+<!-- -->🧱 <strong>Modular Codebase</strong> — structure large projects cleanly with reusable modules<br>
+<!-- -->⚙️ <strong>No Global Scope Issues</strong> — each script has its own context<br>
+<!-- -->📦 <strong>Import Maps</strong> — define aliases and pull in libraries from CDNs<br>
+<!-- -->🚀 <strong>Optimized for Production</strong> — static imports enable bundling and future support for tree-shaking</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-looks-like">What it looks like<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#what-it-looks-like" class="hash-link" aria-label="Direct link to What it looks like" title="Direct link to What it looks like">​</a></h2>
+<p>Instead of attaching scripts to an entity and hoping things load in the right order, you now write self-contained, class-based modules like this:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports punctuation" style="color:#393A34">{</span><span class="token imports"> </span><span class="token imports maybe-class-name">Script</span><span class="token imports"> </span><span class="token imports punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'playcanvas'</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">export</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">Rotator</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">extends</span><span class="token plain"> </span><span class="token class-name">Script</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">static</span><span class="token plain"> scriptName </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'rotator'</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">     * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@attribute</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">     * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@range</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> [0, 10]</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic">     */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    speed </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">5</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token function" style="color:#d73a49">update</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">dt</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">entity</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">rotateLocal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">speed</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"> dt</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<p>The Editor picks up your <code>scriptName</code>, exposes your attributes automatically, and everything behaves as expected — no magic, no legacy syntax.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-benefits-for-real-projects">Real benefits for real projects<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#real-benefits-for-real-projects" class="hash-link" aria-label="Direct link to Real benefits for real projects" title="Direct link to Real benefits for real projects">​</a></h2>
+<p>We didn’t just add ESM support because it was shiny. We added it because it solves real problems PlayCanvas developers have told us about for years.</p>
+<ul>
+<li>You get <strong>stronger editor feedback</strong> while writing code.</li>
+<li>You can <strong>reuse logic cleanly</strong> across multiple scripts.</li>
+<li>You can <strong>share modules between projects</strong> or publish them as libraries.</li>
+<li>You’ll write <strong>fewer bugs</strong> — and spend less time wrestling with script order or context issues.</li>
+</ul>
+<p>Plus, by adopting a standard that the rest of the JS world already embraces, it’s easier than ever to onboard new developers and bring in existing tools and libraries.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="seamless-integration-without-disruption">Seamless integration without disruption<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#seamless-integration-without-disruption" class="hash-link" aria-label="Direct link to Seamless integration without disruption" title="Direct link to Seamless integration without disruption">​</a></h2>
+<p>Don’t worry — classic <code>.js</code> scripts aren’t going anywhere. If you have an existing project using them, everything still works. You can even mix classic and ESM scripts in the same project.</p>
+<p>But going forward, <strong>ESM Scripts are the best choice</strong> for all new projects — and we think once you try them, you won’t want to go back.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="try-it-today">Try It Today<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#try-it-today" class="hash-link" aria-label="Direct link to Try It Today" title="Direct link to Try It Today">​</a></h2>
+<p>You can start using ESM Scripts right now — just create a script with a <code>.mjs</code> extension and enjoy everything modern JavaScript has to offer.</p>
+<p>Check out the <a href="https://developer.playcanvas.com/user-manual/scripting/fundamentals/esm-scripts/" target="_blank" rel="noopener noreferrer">user manual</a> for examples, or drop into the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer">PlayCanvas Forum</a> to share your thoughts.</p>
+<p>We can’t wait to see what you build.</p>]]></content:encoded>
+            <category>esm</category>
+            <category>modules</category>
+            <category>editor</category>
+            <category>developer</category>
+        </item>
         <item>
             <title><![CDATA[PlayCanvas Adopts SOGS for 20x 3DGS Compression]]></title>
             <link>https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression</link>
@@ -865,26 +913,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>Give the Starter Kit a try today at <a href="https://playcanvas.com/" target="_blank" rel="noopener noreferrer">playcanvas.com</a> where you can use it for free!</p>]]></content:encoded>
             <category>ar</category>
             <category>webxr</category>
-        </item>
-        <item>
-            <title><![CDATA[Draco Mesh Compression Arrives in the PlayCanvas Editor]]></title>
-            <link>https://blog.playcanvas.com/draco-mesh-compression-arrives-in-the-playcanvas-editor</link>
-            <guid>https://blog.playcanvas.com/draco-mesh-compression-arrives-in-the-playcanvas-editor</guid>
-            <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[We are thrilled to announce the immediate availability of Draco Mesh Compression in the PlayCanvas Editor! Our latest feature allows developers to compress meshes using Google's Draco technology, reducing file sizes and enhancing the end-user experience.]]></description>
-            <content:encoded><![CDATA[<p>We are thrilled to announce the immediate availability of Draco Mesh Compression in the PlayCanvas Editor! Our latest feature allows developers to compress meshes using Google's Draco technology, reducing file sizes and enhancing the end-user experience.</p>
-<p>At its core, <a href="https://google.github.io/draco/" target="_blank" rel="noopener noreferrer">Draco Mesh Compression</a> reduces the amount of data needed to represent 3D graphics without compromising visual quality. The technology achieves this by applying a lossy compression algorithm to the mesh data. With less data to transfer, the result is faster load times and lower bandwidth costs for your applications.</p>
-<p>The open source <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">PlayCanvas Engine</a> has been able to load Draco-compressed glTF 2.0 files for quite some time now. But now you can generate these Draco-compressed glTF files in the Editor at import time. Check out how easy it is to use:</p>
-<div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dDLI0gyROmE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-<p><em><a href="https://skfb.ly/6VtZu" target="_blank" rel="noopener noreferrer">"1972 Datsun 240k GT"</a> by Karol Miklas is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike</a>.</em></p>
-<p>In the example above, a <strong>49.9MB</strong> GLB file is crunched down to only <strong>3.67MB</strong>. That's a <strong>92.6% reduction is file size</strong>! And for the majority of scenes, you should notice <em>no difference in terms of visual quality</em>. The only cost is decompression time when the compressed GLB is downloaded by an end user, but this should be significantly less than what is saved in terms of download time.</p>
-<p>To enable the feature, open your Project Settings in the Inspector, expand the Asset Tasks panel and edit the Mesh Compression setting. Then, simply Re-Import any existing FBX or GLB and compression will be applied. Any FBX or GLB subsequently imported will also respect your mesh compression setting. Read more on the <a href="https://developer.playcanvas.com/user-manual/assets/import-pipeline/#mesh-compression" target="_blank" rel="noopener noreferrer">Developer Site</a>.</p>
-<p>We believe that mesh compression is going to take many types of applications to the next level, particularly e-commerce applications like product configurators, which need to load detailed meshes as fast as possible.</p>
-<p>Get started with PlayCanvas today and make your WebGL dreams a reality!</p>]]></content:encoded>
-            <category>compression</category>
-            <category>editor</category>
-            <category>gltf</category>
-            <category>performance</category>
         </item>
     </channel>
 </rss>
