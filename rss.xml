@@ -4,10 +4,59 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Tue, 10 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing SplatTransform: The Ultimate CLI Tool for 3D Gaussian Splats]]></title>
+            <link>https://blog.playcanvas.com/introducing-splat-transform-cli-tool</link>
+            <guid>https://blog.playcanvas.com/introducing-splat-transform-cli-tool</guid>
+            <pubDate>Tue, 15 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze!]]></description>
+            <content:encoded><![CDATA[<p><strong>We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze!</strong></p>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/splat-transform.mp4" controls="" loop=""></video><!--/$-->
+<br>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Open Source</div><div class="admonitionContent_BuS1"><p>SplatTransform is <a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer">open-sourced under an MIT license on GitHub</a></p></div></div>
+<p>When 3D Gaussian Splats began to revolutionize real-time rendering and photorealistic 3D content creation, we built <a href="https://superspl.at/editor?load=https://d28zzqy0iyovbz.cloudfront.net/db6ab60b/scene.compressed.ply" target="_blank" rel="noopener noreferrer">SuperSplat</a>, a visual editor for splats. But developers have continued to ask for better tools to manage, convert, and optimize their splat datasets. Our solution is to bring some of SuperSplat's most powerful features to the command line, courtesy of a new tool called <strong>SplatTransform</strong>. It's fast, flexible, and designed specifically for developers who need precise control over their Gaussian splat workflows.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-use-splattransform">Why use SplatTransform?<a href="https://blog.playcanvas.com/introducing-splat-transform-cli-tool#why-use-splattransform" class="hash-link" aria-label="Direct link to Why use SplatTransform?" title="Direct link to Why use SplatTransform?">​</a></h2>
+<p>SplatTransform solves important problems developers face when working with Gaussian splats:</p>
+<p>🔄 <strong>Broad Format Support</strong> — seamlessly convert between PLY, SPLAT, KSPLAT, SOGS and even CSV<br>
+<!-- -->🛠️ <strong>Powerful Transformations</strong> — translate, rotate, and scale your splats with precision<br>
+<!-- -->🧹 <strong>Smart Filtering</strong> — remove NaN values, filter by properties, and strip unnecessary data<br>
+<!-- -->📦 <strong>Scene Merging</strong> — combine multiple splat files into a merged scene<br>
+<!-- -->⚡ <strong>Production Ready</strong> — optimized for maximum performance<br>
+<!-- -->🆓 <strong>Open Source</strong> — completely free and available on GitHub</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-looks-like">What it Looks Like<a href="https://blog.playcanvas.com/introducing-splat-transform-cli-tool#what-it-looks-like" class="hash-link" aria-label="Direct link to What it Looks Like" title="Direct link to What it Looks Like">​</a></h2>
+<p>Instead of wrestling with format incompatibilities or writing custom scripts, you can now handle complex splat operations with simple, intuitive commands:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Convert between commonly used splat formats</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform input.ksplat converted.ply</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Apply transformations during conversion</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform input.ply -s 0.5 -t 0,0,10 -r 0,90,0 transformed.ply</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Combine multiple files with different transforms</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform inputA.ply -r 0,90,0 inputB.ply -s 2 merged.ply</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Filter and optimize for production</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform input.ply --filterNaN -c opacity,gt,0.3 --filterBands 2 filtered.ply</span><br></span></code></pre></div></div>
+<p>The tool automatically handles the complexity of different splat formats while giving you granular control over every aspect of the transformation pipeline.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="unlock-data-science-workflows-with-csv-export">Unlock Data Science Workflows with CSV Export<a href="https://blog.playcanvas.com/introducing-splat-transform-cli-tool#unlock-data-science-workflows-with-csv-export" class="hash-link" aria-label="Direct link to Unlock Data Science Workflows with CSV Export" title="Direct link to Unlock Data Science Workflows with CSV Export">​</a></h2>
+<p>One of SplatTransform's most powerful features is its ability to export Gaussian splat data to CSV format, opening up entirely new possibilities for analysis and processing:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># Export your splat data for spreadsheet analysis</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform scene.ply data.csv</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Pre-filter before analysis to focus on relevant data</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform input.ply --filterNaN -c opacity,gt,0.1 analysis.csv</span><br></span></code></pre></div></div>
+<p><strong>Why CSV matters for splats:</strong></p>
+<ul>
+<li><strong>Spreadsheet Analysis</strong> — Import directly into Excel, Google Sheets, or any data analysis tool</li>
+<li><strong>Statistical Insights</strong> — Calculate distributions, correlations, and quality metrics across your splat dataset</li>
+<li><strong>Custom Filtering</strong> — Use spreadsheet formulas to identify outliers, cluster data, or segment by properties</li>
+<li><strong>Visualization</strong> — Create charts and graphs to understand your splat data patterns</li>
+<li><strong>Integration</strong> — Feed splat data into machine learning pipelines or custom processing workflows</li>
+</ul>
+<p>Whether you're optimizing splat quality, analyzing capture patterns, or preparing data for research, CSV export transforms your splats from opaque binary files into readable, analyzable datasets.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="splattransform-️-playcanvas">SplatTransform ❤️ PlayCanvas<a href="https://blog.playcanvas.com/introducing-splat-transform-cli-tool#splattransform-%EF%B8%8F-playcanvas" class="hash-link" aria-label="Direct link to SplatTransform ❤️ PlayCanvas" title="Direct link to SplatTransform ❤️ PlayCanvas">​</a></h2>
+<p>The open-source <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">PlayCanvas Engine</a> has the most advanced 3D Gaussian Splat renderer on the market! First, we released our <a href="https://blog.playcanvas.com/compressing-gaussian-splats#compressed-ply-format" target="_blank" rel="noopener noreferrer">Compressed PLY format</a>. Then, we improved on it by adding support for <a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression" target="_blank" rel="noopener noreferrer">SOGS</a>, an even more optimal compressed format. SplatTransform can now target both formats with ease.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Migrating to PlayCanvas</div><div class="admonitionContent_BuS1"><p>Are you currently using another renderer that uses different formats such as <code>.splat</code> or <code>.ksplat</code>? Do you want to migrate to PlayCanvas for better visuals and performance? SplatTransform can help you make the switch!</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started-today">Get Started Today<a href="https://blog.playcanvas.com/introducing-splat-transform-cli-tool#get-started-today" class="hash-link" aria-label="Direct link to Get Started Today" title="Direct link to Get Started Today">​</a></h2>
+<p>SplatTransform is <a href="https://www.npmjs.com/package/@playcanvas/splat-transform" target="_blank" rel="noopener noreferrer">available right now on npm</a> and completely open source:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g @playcanvas/splat-transform</span><br></span></code></pre></div></div>
+<p>Check out the <a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer">GitHub repository</a> for full source, documentation and examples. If you find a bug or have a feature request, log an issue or better yet, submit a pull request! 🙌</p>
+<p>We're excited to see what you build! 🚀</p>]]></content:encoded>
+            <category>tools</category>
+            <category>gaussian-splats</category>
+            <category>splattransform</category>
+            <category>cli</category>
+            <category>open-source</category>
+        </item>
         <item>
             <title><![CDATA[Introducing ESM Scripts in PlayCanvas]]></title>
             <link>https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas</link>
@@ -887,31 +936,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="attributions">Attributions<a href="https://blog.playcanvas.com/initial-webgpu-support-lands-in-playcanvas-engine-1-62#attributions" class="hash-link" aria-label="Direct link to Attributions" title="Direct link to Attributions">​</a></h3>
 <p><a href="https://sketchfab.com/3d-models/oldsmobile-cutlass-supreme-sedan-71-78f76d386a4341b0b71745bdc50fd5ab" target="_blank" rel="noopener noreferrer">Oldsmobile Cutlass Supreme Sedan '71</a> by Barbo is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution</a></p>]]></content:encoded>
             <category>webgpu</category>
-        </item>
-        <item>
-            <title><![CDATA[WebXR AR Made Easy with PlayCanvas]]></title>
-            <link>https://blog.playcanvas.com/webxr-ar-made-easy-with-playcanvas</link>
-            <guid>https://blog.playcanvas.com/webxr-ar-made-easy-with-playcanvas</guid>
-            <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[We are excited to announce the launch of our WebXR AR Starter Kit, available in the New Project dialog today!]]></description>
-            <content:encoded><![CDATA[<p>We are excited to announce the launch of our WebXR AR Starter Kit, available in the New Project dialog today!</p>
-<p><a href="https://blog.playcanvas.com/assets/files/webar-xr-starterkit-project-dialog-237e7eb32ebf94997808d74a47b2178e.jpg" target="_blank"><img decoding="async" loading="lazy" alt="New Project WebXR" src="https://blog.playcanvas.com/assets/images/webar-xr-starterkit-project-dialog-237e7eb32ebf94997808d74a47b2178e.jpg" width="912" height="480" class="img_ev3q"></a></p>
-<p><a href="https://immersiveweb.dev/" target="_blank" rel="noopener noreferrer">WebXR</a> is a technology that powers immersive and interactive AR and VR experiences to be accessed through supported web browsers. This allows us to build memorable, engaging content and share them with just a URL. No installs needed!</p>
-<p>The starter kit comes with all you need to kickstart your AR experience for WebXR including:</p>
-<ul>
-<li>Real world light estimation</li>
-<li>AR shadow renderer</li>
-<li>AR object resizing and positioning controls</li>
-<li>Physics raycasting</li>
-<li>And more!</li>
-</ul>
-<p>Look how quickly you can create AR experiences below!</p>
-<div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/kbymJ5ib1gQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-<p><a href="https://sketchfab.com/3d-models/pacman-arcade-animation-0b43f85af5384ea4bac5d6e2d3cbd008" target="_blank" rel="noopener noreferrer">Pacman Arcade + animation</a> by Daniel Brück is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></p>
-<p><a href="https://playcanv.as/p/inoDeWOQ/" target="_blank" rel="noopener noreferrer">Try it on your device</a></p>
-<p>Give the Starter Kit a try today at <a href="https://playcanvas.com/" target="_blank" rel="noopener noreferrer">playcanvas.com</a> where you can use it for free!</p>]]></content:encoded>
-            <category>ar</category>
-            <category>webxr</category>
         </item>
     </channel>
 </rss>
