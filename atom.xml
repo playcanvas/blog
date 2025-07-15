@@ -18,7 +18,6 @@
 <p>If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.</p>
 <p>ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.</p>
 <!--$--><video style="display:block;width:100%;height:auto" src="/img/pc-esm-scripts.mp4" controls=""></video><!--/$-->
-<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-use-esm-scripts">Why use ESM Scripts?<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#why-use-esm-scripts" class="hash-link" aria-label="Direct link to Why use ESM Scripts?" title="Direct link to Why use ESM Scripts?">​</a></h2>
 <p>ESM Scripts offer major improvements across the board:</p>
 <p>💡 <strong>Modern JavaScript</strong> — use <code>import</code>, <code>export</code> class based module syntax<br>
