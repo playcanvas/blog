@@ -33,7 +33,7 @@ The SuperSplat Editor that you know and love can now be accessed at [https://sup
 
 Recently, we added the ability to export an HTML viewer of your splat from the SuperSplat Editor. Built on the powerful [PlayCanvas Engine](https://github.com/playcanvas/engine) and our open source [Compressed PLY format](/compressing-gaussian-splats#compressed-ply-format), it offers fast load times and high-performance rendering. However, _hosting_ the HTML viewer was still your responsibility. And let's be honest, not everybody has the time or expertise to host their own website. So we've added a new feature to SuperSplat to make it easier to share your splats with others.
 
-<ReactPlayer width="100%" height="auto" muted={true} controls src="/img/supersplat2-publish-1080p-social-60fps.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-publish-1080p-social-60fps.mp4" />
 
 <br />
 
@@ -55,7 +55,7 @@ By default, your splat will be listed on the SuperSplat website. However, you ca
 
 Sure, it's great to be able to share your splats with others, but for that extra 'wow' factor, why not add a camera flythrough? SuperSplat Editor 2.0 introduces the Timeline that makes it a breeze to author great looking camera animations. Simply select a frame in the timeline, position the camera, and set a keyframe. Do this for as many frames as you want and you've got a camera flythrough!
 
-<ReactPlayer width="100%" height="auto" muted={true} controls src="/img/supersplat2-camera-animation-720p-social-60fps.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-camera-animation-720p-social-60fps.mp4" />
 
 ### 📄 Load and Save your SuperSplat Projects
 
@@ -81,13 +81,13 @@ With the ability to publish splats to the web, [superspl.at](https://superspl.at
 
 One of the coolest things about the PlayCanvas-powered web viewer is that it's fully integrated with WebXR, the browser-based standard for immersive experiences. Simply tap the viewer's AR button and you can spawn photorealistic 3D models directly into your environment.
 
-<ReactPlayer width="100%" height="auto" muted={true} controls src="/img/supersplat2-ar-quest3.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-ar-quest3.mp4" />
 
 <br />
 
 Or dive straight into a splat in fully immersive VR.
 
-<ReactPlayer width="100%" height="auto" muted={true} controls src="/img/supersplat2-vr-avp.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-vr-avp.mp4" />
 
 <br />
 
