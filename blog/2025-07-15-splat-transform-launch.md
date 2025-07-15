@@ -38,7 +38,7 @@ SplatTransform solves important problems developers face when working with Gauss
 Instead of wrestling with format incompatibilities or writing custom scripts, you can now handle complex splat operations with simple, intuitive commands:
 
 ```bash
-# Convert any format to any format
+# Convert between commonly used splat formats
 splat-transform input.ksplat converted.ply
 
 # Apply transformations during conversion
