@@ -77,7 +77,7 @@ Whether you're optimizing splat quality, analyzing capture patterns, or preparin
 
 ## SplatTransform ❤️ PlayCanvas
 
-The open-source [PlayCanvas Engine](https://github.com/playcanvas/engine) has the most advanced 3D Gaussian Splat renderer on the market! First, we released our [Compressed PLY format](https://blog.playcanvas.com/compressing-gaussian-splats#compressed-ply-format). Then, we improved on it  by adding support for [SOGS](https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression), an even more optimal compressed format. SplatTransform can now target both formats with ease.
+The open-source [PlayCanvas Engine](https://github.com/playcanvas/engine) has the most advanced 3D Gaussian Splat renderer on the market! First, we released our [Compressed PLY format](https://blog.playcanvas.com/compressing-gaussian-splats#compressed-ply-format). Then, we improved on it by adding support for [SOGS](https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression), an even more optimal compressed format. SplatTransform can now target both formats with ease.
 
 :::tip Migrating to PlayCanvas
 
@@ -93,6 +93,6 @@ SplatTransform is [available right now on npm](https://www.npmjs.com/package/@pl
 npm install -g @playcanvas/splat-transform
 ```
 
-Check out the [GitHub repository](https://github.com/playcanvas/splat-transform) for full source, documentation and examples. If you find a bug of have a feature request, log and issue or better yet, submit a pull request! 🙌
+Check out the [GitHub repository](https://github.com/playcanvas/splat-transform) for full source, documentation and examples. If you find a bug or have a feature request, log an issue or better yet, submit a pull request! 🙌
 
 We're excited to see what you build! 🚀
