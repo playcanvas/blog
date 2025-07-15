@@ -93,6 +93,6 @@ SplatTransform is [available right now on npm](https://www.npmjs.com/package/@pl
 npm install -g @playcanvas/splat-transform
 ```
 
-Check out the [GitHub repository](https://github.com/playcanvas/splat-transform) for full source, documentation and examples. If you find a bug of have a feature request, log and issue or better yet, submit a pull request! 🙌
+Check out the [GitHub repository](https://github.com/playcanvas/splat-transform) for full source, documentation and examples. If you find a bug or have a feature request, log an issue or better yet, submit a pull request! 🙌
 
 We're excited to see what you build! 🚀
