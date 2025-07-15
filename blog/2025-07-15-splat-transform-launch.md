@@ -16,6 +16,8 @@ import ReactPlayer from 'react-player'
 
 <ReactPlayer width="100%" height="auto" playing loop controls src="/img/splat-transform.mp4" />
 
+<br></br>
+
 :::note Open Source
 
 SplatTransform is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/splat-transform)
