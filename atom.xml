@@ -17,7 +17,7 @@
 <p>Back in 2016, we introduced what we now call <a href="https://blog.playcanvas.com/playcanvas-scripts-2-0/" target="_blank" rel="noopener noreferrer">Classic Scripts</a>. At the time, this represented the state of the art in JavaScript. But things have evolved rapidly since then, and developers today expect modern tooling, clearer patterns, and better integration with the broader JavaScript ecosystem.</p>
 <p>If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.</p>
 <p>ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/pc-esm-scripts.mp4" controls=""></video><!--/$-->
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-use-esm-scripts">Why use ESM Scripts?<a href="https://blog.playcanvas.com/introducing-esm-scripts-in-playcanvas#why-use-esm-scripts" class="hash-link" aria-label="Direct link to Why use ESM Scripts?" title="Direct link to Why use ESM Scripts?">​</a></h2>
 <p>ESM Scripts offer major improvements across the board:</p>
@@ -182,10 +182,10 @@
 <p><a href="https://superspl.at/" target="_blank" rel="noopener noreferrer">Go explore</a> and see what else you can discover! 🔍</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="-comments">💬 Comments<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-comments" class="hash-link" aria-label="Direct link to 💬 Comments" title="Direct link to 💬 Comments">​</a></h4>
 <p>You can now leave your thoughts or ask questions under any splat!</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:50%;height:auto" src="/img/supersplat-comments.mp4" controls="" muted="" loop=""></video><!--/$-->
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="-social-sharing">🔄 Social Sharing<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-social-sharing" class="hash-link" aria-label="Direct link to 🔄 Social Sharing" title="Direct link to 🔄 Social Sharing">​</a></h4>
 <p>You can easily share any splat to your favorite social channels: X, LinkedIn, Slack, email...you name it!</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:50%;height:auto" src="/img/supersplat-sharing.mp4" controls="" muted="" loop=""></video><!--/$-->
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-splat-embeds">🔗 Splat Embeds<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-splat-embeds" class="hash-link" aria-label="Direct link to 🔗 Splat Embeds" title="Direct link to 🔗 Splat Embeds">​</a></h3>
 <p>You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator <a href="https://superspl.at/user?id=schindelar3d" target="_blank" rel="noopener noreferrer">Christoph Schindelar</a> - <em>YES, IT'S INTERACTIVE AND NOT A VIDEO!</em> 😆</p>
 <div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ed2efe80"></iframe></div>
@@ -195,7 +195,7 @@
 <li>Copy the HTML code</li>
 <li>Insert it at the appropriate place on your own site</li>
 </ul>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat-embed.mp4" controls="" muted="" loop=""></video><!--/$-->
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-viewer-enhancements">📺 Viewer Enhancements<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-viewer-enhancements" class="hash-link" aria-label="Direct link to 📺 Viewer Enhancements" title="Direct link to 📺 Viewer Enhancements">​</a></h3>
 <p>The SuperSplat Viewer embedded above has been heavily enhanced in the month since launch. Here's a quick overview of what's new:</p>
 <ul>
@@ -227,7 +227,7 @@
 <p>The SuperSplat Editor that you know and love can now be accessed at <a href="https://superspl.at/editor" target="_blank" rel="noopener noreferrer">https://superspl.at/editor</a>. Much easier to remember, don't you think?</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-publish-your-splats-to-the-web">🌐 Publish your Splats to the Web<a href="https://blog.playcanvas.com/publish-your-gaussian-splats-with-supersplat#-publish-your-splats-to-the-web" class="hash-link" aria-label="Direct link to 🌐 Publish your Splats to the Web" title="Direct link to 🌐 Publish your Splats to the Web">​</a></h3>
 <p>Recently, we added the ability to export an HTML viewer of your splat from the SuperSplat Editor. Built on the powerful <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">PlayCanvas Engine</a> and our open source <a href="https://blog.playcanvas.com/compressing-gaussian-splats#compressed-ply-format">Compressed PLY format</a>, it offers fast load times and high-performance rendering. However, <em>hosting</em> the HTML viewer was still your responsibility. And let's be honest, not everybody has the time or expertise to host their own website. So we've added a new feature to SuperSplat to make it easier to share your splats with others.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat2-publish-1080p-social-60fps.mp4" controls="" muted=""></video><!--/$-->
 <br>
 <p>It's as easy as 1-2-3:</p>
 <ol>
@@ -239,7 +239,7 @@
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>By default, your splat will be listed on the SuperSplat website. However, you can also choose to make it unlisted. This means it won't appear in the main gallery, but you can still access it via the URL.</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-create-camera-flythroughs">🎥 Create Camera Flythroughs<a href="https://blog.playcanvas.com/publish-your-gaussian-splats-with-supersplat#-create-camera-flythroughs" class="hash-link" aria-label="Direct link to 🎥 Create Camera Flythroughs" title="Direct link to 🎥 Create Camera Flythroughs">​</a></h3>
 <p>Sure, it's great to be able to share your splats with others, but for that extra 'wow' factor, why not add a camera flythrough? SuperSplat Editor 2.0 introduces the Timeline that makes it a breeze to author great looking camera animations. Simply select a frame in the timeline, position the camera, and set a keyframe. Do this for as many frames as you want and you've got a camera flythrough!</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat2-camera-animation-720p-social-60fps.mp4" controls="" muted=""></video><!--/$-->
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-load-and-save-your-supersplat-projects">📄 Load and Save your SuperSplat Projects<a href="https://blog.playcanvas.com/publish-your-gaussian-splats-with-supersplat#-load-and-save-your-supersplat-projects" class="hash-link" aria-label="Direct link to 📄 Load and Save your SuperSplat Projects" title="Direct link to 📄 Load and Save your SuperSplat Projects">​</a></h3>
 <p>With the ability to create camera animations, your splat projects are becoming more and more complex. To support this, we've added a new project file format so you can save your work between sessions. The extension of SuperSplat's new project file format is <code>.ssproj</code>.</p>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>The <code>.ssproj</code> file format is actually just a ZIP file containing project data in JSON format, along with a set of PLY files storing the Gaussian Splat data.</p></div></div>
@@ -250,10 +250,10 @@
 <p><img decoding="async" loading="lazy" alt="Community Scroll" src="https://blog.playcanvas.com/assets/images/supersplat2-community-scroll-f50fe19ed9f6614b367d7cf3934cb8cb.gif" width="804" height="480" class="img_ev3q"></p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="view-splats-in-immersive-ar-and-vr">View Splats in Immersive AR and VR<a href="https://blog.playcanvas.com/publish-your-gaussian-splats-with-supersplat#view-splats-in-immersive-ar-and-vr" class="hash-link" aria-label="Direct link to View Splats in Immersive AR and VR" title="Direct link to View Splats in Immersive AR and VR">​</a></h4>
 <p>One of the coolest things about the PlayCanvas-powered web viewer is that it's fully integrated with WebXR, the browser-based standard for immersive experiences. Simply tap the viewer's AR button and you can spawn photorealistic 3D models directly into your environment.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat2-ar-quest3.mp4" controls="" muted=""></video><!--/$-->
 <br>
 <p>Or dive straight into a splat in fully immersive VR.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat2-vr-avp.mp4" controls="" muted=""></video><!--/$-->
 <br>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>🤳 AR mode has been tested on Meta Quest 2 and 3, and Android-based smartphones.<br>
 <!-- -->🥽 VR mode has been tested on Meta Quest 2 and 3, and Apple Vision Pro.</p></div></div>
@@ -380,12 +380,12 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <p>The application above shows several splats assembled in a single application, with animation and post effects spicing up the visuals. Let's check out how it was built.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-clean-in-supersplat-">Step 1: Clean in SuperSplat 🧹<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-1-clean-in-supersplat-" class="hash-link" aria-label="Direct link to Step 1: Clean in SuperSplat 🧹" title="Direct link to Step 1: Clean in SuperSplat 🧹">​</a></h3>
 <p>After <a href="https://developer.playcanvas.com/user-manual/graphics/gaussian-splatting/#creating-splats" target="_blank" rel="noopener noreferrer">capturing the statues</a> to PLY format, our first stop is <a href="https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/statues/narcissus.compressed.ply" target="_blank" rel="noopener noreferrer">SuperSplat</a>, the open source tool for editing and optimizing 3D Gaussian Splats. Here, in a little over a minute, we can isolate the statue from the background and align it with the origin:</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/statue-supersplat.mp4" controls="" muted=""></video><!--/$-->
 <br>
 <p>Once we are done, we can download the splat using our <a href="https://blog.playcanvas.com/compressing-gaussian-splats" target="_blank" rel="noopener noreferrer">compressed PLY format</a>. In this case, our downloaded PLY is <strong>only 1.56MB</strong>!</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-import-into-the-editor-">Step 2: Import into the Editor 🚧<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-2-import-into-the-editor-" class="hash-link" aria-label="Direct link to Step 2: Import into the Editor 🚧" title="Direct link to Step 2: Import into the Editor 🚧">​</a></h3>
 <p>Now that we have a clean, compressed PLY, we simply need to drop it into the Editor's Asset Panel. And from there, drag it into the viewport to add it to the scene. Let's do that (along with a cube map for a photographic backdrop):</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/statue-editor.mp4" controls="" muted=""></video><!--/$-->
 <br>
 <p>The PlayCanvas Editor is a powerful visual environment for building and publishing 3D scenes. You can:</p>
 <ul>
@@ -395,7 +395,7 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-add-animation-and-post-effects-">Step 3: Add Animation and Post Effects ✨<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-3-add-animation-and-post-effects-" class="hash-link" aria-label="Direct link to Step 3: Add Animation and Post Effects ✨" title="Direct link to Step 3: Add Animation and Post Effects ✨">​</a></h3>
 <p>What really makes the demo pop is the transitions that fade the statues in and out.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/statue-custom-shaders.mp4" controls="" muted="" loop=""></video><!--/$-->
 <br>
 <p>With the Editor, you can customize the shader code that renders your splats to apply stunning animation effects. For the transition between statues, individual splats are transformed and recolored over time, while a full-screen bloom effect is ramped up and down.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="resources">Resources<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources">​</a></h3>
@@ -433,7 +433,7 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="pwa-support">PWA Support<a href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support#pwa-support" class="hash-link" aria-label="Direct link to PWA Support" title="Direct link to PWA Support">​</a></h2>
 <p>A Progressive Web App (PWA) is a web application that provides a native app-like experience, including the ability to install it on a user's home screen or desktop.</p>
 <p>From today, SuperSplat is shipping with PWA support! 🎉</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat-pwa-install.mp4" controls="" muted="" loop=""></video><!--/$-->
 <br>
 <p>To install SuperSplat as a PWA:</p>
 <ol>
@@ -443,7 +443,7 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>For your convenience, pin SuperSplat to the Taskbar (Windows) or add it do the Dock (macOS).</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="ply-file-association">PLY File Association<a href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support#ply-file-association" class="hash-link" aria-label="Direct link to PLY File Association" title="Direct link to PLY File Association">​</a></h3>
 <p>With SuperSplat installed as a PWA, your operating system can now open launch PLY files directly into the tool. Simply right-click on a PLY file and select SuperSplat to open it.</p>
-<div style="width:640px;height:360px"></div>
+<!--$--><video style="display:block;width:100%;height:auto" src="/img/supersplat-pwa-file-association.mp4" controls="" muted="" loop=""></video><!--/$-->
 <br>
 <p>You can also set SuperSplat as the default tool to open your PLYs. Then, you can simply double-click a PLY file to open it instantly in SuperSplat!</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="your-feedback-matters">Your Feedback Matters<a href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support#your-feedback-matters" class="hash-link" aria-label="Direct link to Your Feedback Matters" title="Direct link to Your Feedback Matters">​</a></h2>
