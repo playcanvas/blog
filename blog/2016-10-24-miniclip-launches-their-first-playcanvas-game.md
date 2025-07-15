@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player'
 
 PlayCanvas is proud to announce that browser-gaming giant Miniclip has published their first PlayCanvas-powered game: Virtual Voodoo.
 
-<ReactPlayer controls url="/img/virtualvoodoo.mp4" />
+<ReactPlayer width="100%" height="auto" controls src="/img/virtualvoodoo.mp4" />
 
 <!-- truncate -->
 

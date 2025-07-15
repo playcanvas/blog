@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 
 On Friday, 18th November, PlayCanvas HQ was visited by BBC News, the world's largest broadcast news organization. Our CEO Will was interviewed live on the 6 o'clock evening news which has viewing figures of around 1 million people.
 
-<ReactPlayer playing controls url="/img/BBC-London-Evening-News-18_11_2016.mp4" />
+<ReactPlayer width="100%" height="auto" playing controls src="/img/BBC-London-Evening-News-18_11_2016.mp4" />
 
 <!-- truncate -->
 

@@ -21,7 +21,7 @@ ESM (ECMAScript Modules) brings modern JavaScript development to the heart of Pl
 
 No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
 
-<ReactPlayer controls url="/img/pc-esm-scripts.mp4" />
+<ReactPlayer width="100%" height="auto" controls src="/img/pc-esm-scripts.mp4" />
 
 ---
 

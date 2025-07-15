@@ -35,7 +35,7 @@ A Progressive Web App (PWA) is a web application that provides a native app-like
 
 From today, SuperSplat is shipping with PWA support! 🎉
 
-<ReactPlayer playing={true} muted={true} loop={true} controls url="/img/supersplat-pwa-install.mp4" />
+<ReactPlayer width="100%" height="auto" playing={true} muted={true} loop={true} controls src="/img/supersplat-pwa-install.mp4" />
 
 <br />
 To install SuperSplat as a PWA:
@@ -53,7 +53,7 @@ For your convenience, pin SuperSplat to the Taskbar (Windows) or add it do the D
 
 With SuperSplat installed as a PWA, your operating system can now open launch PLY files directly into the tool. Simply right-click on a PLY file and select SuperSplat to open it.
 
-<ReactPlayer playing={true} muted={true} loop={true} controls url="/img/supersplat-pwa-file-association.mp4" />
+<ReactPlayer width="100%" height="auto" playing={true} muted={true} loop={true} controls src="/img/supersplat-pwa-file-association.mp4" />
 
 <br />
 You can also set SuperSplat as the default tool to open your PLYs. Then, you can simply double-click a PLY file to open it instantly in SuperSplat!
