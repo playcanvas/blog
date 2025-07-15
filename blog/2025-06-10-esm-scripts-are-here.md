@@ -19,7 +19,7 @@ If you’ve ever struggled with managing classic scripts, wondered why your auto
 
 ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
 
-<ReactPlayer controls url="/img/pc-esm-scripts.mp4" />
+<ReactPlayer width="100%" height="auto" controls src="/img/pc-esm-scripts.mp4" />
 
 ---
 
