@@ -17,11 +17,9 @@ Back in 2016, we introduced what we now call [Classic Scripts](https://blog.play
 
 If you’ve ever struggled with managing classic scripts, wondered why your auto-complete didn’t work, or wished you could reuse code across projects more easily — this is for you.
 
-ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. Think: cleaner code, better tooling, instant editor feedback, and full compatibility with the broader JS ecosystem. It’s faster to get started, easier to scale your project, and way more fun to work with.
+ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
 
-No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
-
-<ReactPlayer width="100%" height="auto" controls src="/img/pc-esm-scripts.mp4" />
+<ReactPlayer controls url="/img/pc-esm-scripts.mp4" />
 
 ---
 
@@ -69,7 +67,7 @@ We didn’t just add ESM support because it was shiny. We added it because it so
 - You get **stronger editor feedback** while writing code.
 - You can **reuse logic cleanly** across multiple scripts.
 - You can **share modules between projects** or publish them as libraries.
-- You’ll write fewer bugs — and spend less time wrestling with script order or context issues.
+- You’ll write **fewer bugs** — and spend less time wrestling with script order or context issues.
 
 Plus, by adopting a standard that the rest of the JS world already embraces, it’s easier than ever to onboard new developers and bring in existing tools and libraries.
 
