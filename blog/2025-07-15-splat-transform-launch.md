@@ -16,7 +16,7 @@ import ReactPlayer from 'react-player'
 
 <ReactPlayer width="100%" height="auto" playing loop muted controls src="/img/splat-transform.mp4" />
 
-<br></br>
+<br />
 
 :::note Open Source
 
