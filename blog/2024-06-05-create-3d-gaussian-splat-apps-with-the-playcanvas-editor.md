@@ -33,7 +33,7 @@ The application above shows several splats assembled in a single application, wi
 
 After [capturing the statues](https://developer.playcanvas.com/user-manual/graphics/gaussian-splatting/#creating-splats) to PLY format, our first stop is [SuperSplat](https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/statues/narcissus.compressed.ply), the open source tool for editing and optimizing 3D Gaussian Splats. Here, in a little over a minute, we can isolate the statue from the background and align it with the origin:
 
-<ReactPlayer muted={true} controls url="/img/statue-supersplat.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/statue-supersplat.mp4" />
 
 <br />
 Once we are done, we can download the splat using our [compressed PLY format](https://blog.playcanvas.com/compressing-gaussian-splats). In this case, our downloaded PLY is **only 1.56MB**!
@@ -42,7 +42,7 @@ Once we are done, we can download the splat using our [compressed PLY format](ht
 
 Now that we have a clean, compressed PLY, we simply need to drop it into the Editor's Asset Panel. And from there, drag it into the viewport to add it to the scene. Let's do that (along with a cube map for a photographic backdrop):
 
-<ReactPlayer muted={true} controls url="/img/statue-editor.mp4" />
+<ReactPlayer width="100%" height="auto" muted controls src="/img/statue-editor.mp4" />
 
 <br />
 The PlayCanvas Editor is a powerful visual environment for building and publishing 3D scenes. You can:
@@ -55,7 +55,7 @@ The PlayCanvas Editor is a powerful visual environment for building and publishi
 
 What really makes the demo pop is the transitions that fade the statues in and out.
 
-<ReactPlayer playing={true} muted={true} loop={true} controls url="/img/statue-custom-shaders.mp4" />
+<ReactPlayer width="100%" height="auto" playing muted loop controls src="/img/statue-custom-shaders.mp4" />
 
 <br />
 With the Editor, you can customize the shader code that renders your splats to apply stunning animation effects. For the transition between statues, individual splats are transformed and recolored over time, while a full-screen bloom effect is ramped up and down.
