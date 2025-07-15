@@ -10,7 +10,11 @@ tags:
   - open-source
 ---
 
+import ReactPlayer from 'react-player'
+
 **We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze!**
+
+<ReactPlayer width="100%" height="auto" controls src="/img/splat-transform.mp4" />
 
 :::note Open Source
 
