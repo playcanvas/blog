@@ -21,7 +21,7 @@ ESM (ECMAScript Modules) brings modern JavaScript development to the heart of Pl
 
 <ReactPlayer width="100%" height="auto" controls src="/img/pc-esm-scripts.mp4" />
 
----
+<!-- truncate -->
 
 ## Why use ESM Scripts?
 
