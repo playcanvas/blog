@@ -5,9 +5,9 @@ title: "Introducing SplatTransform: The Ultimate CLI Tool for 3D Gaussian Splats
 tags:
   - tools
   - gaussian-splats
+  - splattransform
   - cli
   - open-source
-  - developer
 ---
 
 **We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze!**
