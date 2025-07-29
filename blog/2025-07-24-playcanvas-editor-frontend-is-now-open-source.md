@@ -1,6 +1,6 @@
 ---
 authors: kris
-slug: announcing-the-open-sourcing-of-the-editor-frontend
+slug: playcanvas-editor-frontend-is-now-open-source
 title: "PlayCanvas Editor Frontend is now Open Source"
 tags:
   - editor
@@ -8,17 +8,23 @@ tags:
   - open-source
 ---
 
-Today, we are thrilled to announce the open sourcing of the **PlayCanvas Editor Frontend**! You can find the repository on [GitHub](https://github.com/playcanvas/editor-ui).
+Today, we are thrilled to announce the open sourcing of the [PlayCanvas Editor Frontend](https://github.com/playcanvas/editor-ui)!
 
 <div align="center">
     <img width="800" src="https://raw.githubusercontent.com/playcanvas/editor/refs/heads/main/images/editor.png" alt="PlayCanvas Editor Screenshot"/>
 </div>
 
-<!-- truncate -->
+<br />
 
 The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which you can explore on the [PlayCanvas website](https://playcanvas.com/explore). While the PlayCanvas Engine has always been open source, the Editor Frontend, a key component of the PlayCanvas ecosystem, has not. That changes today!
 
-With this release, we're making the **Editor Frontend** available under an open-source license. This move is a significant step in our commitment to foster a more collaborative and innovative environment for the PlayCanvas community.
+:::note Open Source
+
+The PlayCanvas Editor Frontend is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/editor)
+
+:::
+
+<!-- truncate -->
 
 ---
 
