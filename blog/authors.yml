@@ -43,6 +43,16 @@ elliott:
     linkedin: ellt92
     github: ellthompson
 
+kris:
+  name: Kris Bamrah
+  title: Software Engineer
+  image_url: https://github.com/kpal81xd.png
+  page: true
+  socials:
+    x: pal81k
+    linkedin: krisbamrah
+    github: kpal81xd
+
 mark:
   name: Mark Lundin
   title: Software Engineer
