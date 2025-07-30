@@ -8,10 +8,12 @@ tags:
   - open-source
 ---
 
-Today, we are thrilled to announce the open sourcing of the [PlayCanvas Editor Frontend](https://github.com/playcanvas/editor-ui)!
+import ReactPlayer from 'react-player'
 
-<div align="center">
-    <img width="800" src="https://raw.githubusercontent.com/playcanvas/editor/refs/heads/main/images/editor.png" alt="PlayCanvas Editor Screenshot"/>
+Today, we are thrilled to announce the open sourcing of the [PlayCanvas Editor Frontend](https://github.com/playcanvas/editor)!
+
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/7XlVDfA0sU8?loop=1&autoplay=1&mute=1&rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br />
