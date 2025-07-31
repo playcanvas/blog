@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.playcanvas.com/</id>
     <title>PlayCanvas Blog Blog</title>
-    <updated>2025-07-24T00:00:00.000Z</updated>
+    <updated>2025-07-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.playcanvas.com/"/>
     <subtitle>PlayCanvas Blog Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[PlayCanvas Editor Frontend is now Open Source]]></title>
         <id>https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source</id>
         <link href="https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source"/>
-        <updated>2025-07-24T00:00:00.000Z</updated>
+        <updated>2025-07-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today, we are thrilled to announce the open sourcing of the PlayCanvas Editor Frontend!]]></summary>
         <content type="html"><![CDATA[<p>Today, we are thrilled to announce the open sourcing of the <a href="https://github.com/playcanvas/editor" target="_blank" rel="noopener noreferrer">PlayCanvas Editor Frontend</a>!</p>
 <div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/7XlVDfA0sU8?loop=1&amp;autoplay=1&amp;mute=1&amp;rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
