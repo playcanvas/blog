@@ -44,15 +44,50 @@ Our aims for this testing suite were clear:
 
 Our initial foray into automated testing leveraged **Puppeteer**, a tool we were already familiar with from our engine examples screenshot automation. The idea was simple: visit key Editor pages, check for errors, and grab screenshots for manual review.
 
-**Frameworks Used:** Puppeteer for browser automation, Mocha and Chai for testing.
-
-**Testing Mechanism:**
-* An account preloaded with a collection of projects.
-* Visits editor, code editor, and launch pages, checking for page and request errors.
-* Captured screenshots of each main page after load.
-
-**The Good:** Simple tests so very reliable. Built on existing code.
-**The Not-So-Good:** Integration with Puppeteer and Mocha was complex, requiring more maintenance. Login was manual (username/password every time!) as cookies/tokens weren't stored. Relying on preloaded projects meant constant maintenance as the Engine and Editor updated, leading to stale projects. Crucially, we weren't *testing operations*, just navigation.
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frameworks Used</strong></td>
+      <td>Puppeteer for browser automation, Mocha and Chai for testing</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Testing Mechanism</strong></td>
+      <td>• An account preloaded with a collection of projects</td>
+    </tr>
+    <tr>
+      <td>• Visits editor, code editor, and launch pages, checking for page and request errors</td>
+    </tr>
+    <tr>
+      <td>• Captured screenshots of each main page after load</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>The Good</strong></td>
+      <td>• Simple tests so very reliable</td>
+    </tr>
+    <tr>
+      <td>• Built on existing code</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>The Not-So-Good</strong></td>
+      <td>• Integration with Puppeteer and Mocha was complex, requiring more maintenance</td>
+    </tr>
+    <tr>
+      <td>• Login was manual (username/password every time!) as cookies/tokens weren't stored</td>
+    </tr>
+    <tr>
+      <td>• Relying on preloaded projects meant constant maintenance as the Engine and Editor updated, leading to stale projects</td>
+    </tr>
+    <tr>
+      <td>• Crucially, we weren't <em>testing operations</em>, just navigation</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 🔐 Version 2: Embracing Playwright and Tackling Authentication 
 
@@ -60,15 +95,47 @@ The limitations of Version 1 quickly became apparent. We needed a more integrate
 
 At this point, the Editor was also undergoing significant data migrations for Engine V2, meaning our preloaded projects would have varying migrations applied.
 
-**Frameworks Used:** Playwright for browser automation and testing, Google login flow with session caching.
-
-**Testing Mechanism:**
-* An account preloaded with projects.
-* Visits editor, code editor, and launch pages, checking for page/request errors and data migrations.
-* Tested basic operations in a blank project using a custom "Web Interface" (wrapping REST API calls) for tasks like creating/deleting projects, and publishing/downloading apps.
-
-**The Good:** Playwright enabled more involved UI tests on blank projects for basic operations with similar reliability. Subsequent logins could reuse cached tokens.
-**The Not-So-Good:** Preloaded sample projects were now modified by tests (due to migration tests) and required manual resetting. The initial login still required manual intervention as Google detected browser automation. Basic operations occurring too rapidly triggered rate limiting failures.
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frameworks Used</strong></td>
+      <td>Playwright for browser automation and testing, Google login flow with session caching</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Testing Mechanism</strong></td>
+      <td>• An account preloaded with projects</td>
+    </tr>
+    <tr>
+      <td>• Visits editor, code editor, and launch pages, checking for page/request errors and data migrations</td>
+    </tr>
+    <tr>
+      <td>• Tested basic operations in a blank project using a custom "Web Interface" (wrapping REST API calls) for tasks like creating/deleting projects, and publishing/downloading apps</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>The Good</strong></td>
+      <td>• Playwright enabled more involved UI tests on blank projects for basic operations with similar reliability</td>
+    </tr>
+    <tr>
+      <td>• Subsequent logins could reuse cached tokens</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>The Not-So-Good</strong></td>
+      <td>• Preloaded sample projects were now modified by tests (due to migration tests) and required manual resetting</td>
+    </tr>
+    <tr>
+      <td>• The initial login still required manual intervention as Google detected browser automation</td>
+    </tr>
+    <tr>
+      <td>• Basic operations occurring too rapidly triggered rate limiting failures</td>
+    </tr>
+  </tbody>
+</table>
 
 #### ⚡ Version 3: The Project State Dilemma and Rate Limit Redemption 
 
@@ -76,16 +143,53 @@ The constantly changing state of our preloaded sample projects was a major heada
 
 We also tackled the frustrating rate limiting issues by implementing **middleware throttling**, copying functionality from the PlayCanvas Sync package. This cleverly exploited Playwright's middleware hook to delay requests, respecting our API's rate limits. Furthermore, after some clever workarounds, **fully automated Google OAuth** became possible using flags and context properties, bringing us closer to a "cold start" testing environment.
 
-**Frameworks Used:** Playwright, middleware throttling for rate limiting, fully automated Google login flow with session caching.
-
-**Testing Mechanism:**
-* Imported projects to test using a custom "Web Interface" (wrapping REST API calls), then deleted them once finished.
-* Visits editor, code editor, and launch pages, checking for page/request errors and data migrations.
-* Tested forking/deleting projects and publishing/downloading apps on imported projects.
-* Tested basic operations in blank projects using the custom "Web Interface" (creating/forking/deleting projects, publishing/downloading apps).
-
-**The Good:** Project testing scope was larger with deterministic project states before each test run. The full testing suite became more reliable with rate limiting throttling. Closer to full cold start testing, only requiring account creation through Google.
-**The Not-So-Good:** Imported project archive tests had complex setups, making it laborious to manually re-import and amend them (particularly for migrations that modify data on load). Tests still relied heavily on the custom "Web Interface" which reimplemented a large portion of the Editor API, rather than directly using the UI itself. Google OAuth updates sometimes broke stealth login, requiring verification.
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frameworks Used</strong></td>
+      <td>Playwright, middleware throttling for rate limiting, fully automated Google login flow with session caching</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>Testing Mechanism</strong></td>
+      <td>• Imported projects to test using a custom "Web Interface" (wrapping REST API calls), then deleted them once finished</td>
+    </tr>
+    <tr>
+      <td>• Visits editor, code editor, and launch pages, checking for page/request errors and data migrations</td>
+    </tr>
+    <tr>
+      <td>• Tested forking/deleting projects and publishing/downloading apps on imported projects</td>
+    </tr>
+    <tr>
+      <td>• Tested basic operations in blank projects using the custom "Web Interface" (creating/forking/deleting projects, publishing/downloading apps)</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>The Good</strong></td>
+      <td>• Project testing scope was larger with deterministic project states before each test run</td>
+    </tr>
+    <tr>
+      <td>• The full testing suite became more reliable with rate limiting throttling</td>
+    </tr>
+    <tr>
+      <td>• Closer to full cold start testing, only requiring account creation through Google</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>The Not-So-Good</strong></td>
+      <td>• Imported project archive tests had complex setups, making it laborious to manually re-import and amend them (particularly for migrations that modify data on load)</td>
+    </tr>
+    <tr>
+      <td>• Tests still relied heavily on the custom "Web Interface" which reimplemented a large portion of the Editor API, rather than directly using the UI itself</td>
+    </tr>
+    <tr>
+      <td>• Google OAuth updates sometimes broke stealth login, requiring verification</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 🏆 Version 4: The Pinnacle of Editor Testing – UI & API Driven 
 
@@ -97,15 +201,50 @@ Crucially, all tests now run in **two modes: UI and API**. The UI tests navigate
 
 Finally, authentication shifted to the **native PlayCanvas implementation**, eliminating account verification and stealth requirements, making the login flow more reliable and and faster.
 
-**Frameworks Used:** Playwright, middleware throttling, fully automated PlayCanvas native login flow with session caching.
-
-**Testing Mechanism:**
-* Tests projects by driving both the UI and the Editor API.
-* Performs basic operations on blank projects (visiting editor/code editor/launch pages with all launch options, creating/forking/deleting projects, importing/exporting projects, publishing/downloading apps).
-* Performs more specific tests on skeleton project archives (importing with assets, setting up for migrations, reloading to test them).
-
-**The Good:** Test creation is offloaded almost entirely to the testing suite – no more preset complex archives. Tests cover both API and UI for comprehensive validation. Test scope coverage is extended for all basic and advanced operations. The login flow is more reliable and faster with native authentication.
-**The Not-So-Good:** Increased number of tests cause the testing suite to run for a while. Repeated cold starts can trigger Captcha requiring manual login to acquire a session token.
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Frameworks Used</strong></td>
+      <td>Playwright, middleware throttling, fully automated PlayCanvas native login flow with session caching</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Testing Mechanism</strong></td>
+      <td>• Tests projects by driving both the UI and the Editor API</td>
+    </tr>
+    <tr>
+      <td>• Performs basic operations on blank projects (visiting editor/code editor/launch pages with all launch options, creating/forking/deleting projects, importing/exporting projects, publishing/downloading apps)</td>
+    </tr>
+    <tr>
+      <td>• Performs more specific tests on skeleton project archives (importing with assets, setting up for migrations, reloading to test them)</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>The Good</strong></td>
+      <td>• Test creation is offloaded almost entirely to the testing suite – no more preset complex archives</td>
+    </tr>
+    <tr>
+      <td>• Tests cover both API and UI for comprehensive validation</td>
+    </tr>
+    <tr>
+      <td>• Test scope coverage is extended for all basic and advanced operations</td>
+    </tr>
+    <tr>
+      <td>• The login flow is more reliable and faster with native authentication</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>The Not-So-Good</strong></td>
+      <td>• Increased number of tests cause the testing suite to run for a while</td>
+    </tr>
+    <tr>
+      <td>• Repeated cold starts can trigger Captcha requiring manual login to acquire a session token</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
