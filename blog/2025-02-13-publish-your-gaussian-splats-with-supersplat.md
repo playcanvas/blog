@@ -42,9 +42,7 @@ It's as easy as 1-2-3:
 That's it! Your splat will be published to the web and you'll be given a URL to share with others.
 
 :::tip
-
 By default, your splat will be listed on the SuperSplat website. However, you can also choose to make it unlisted. This means it won't appear in the main gallery, but you can still access it via the URL.
-
 :::
 
 ### 🎥 Create Camera Flythroughs

@@ -15,9 +15,7 @@ tags:
 <video autoPlay muted loop controls src='/img/splat-transform.mp4' style={{width: '100%', height: 'auto'}} />
 
 :::note Open Source
-
 SplatTransform is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/splat-transform)
-
 :::
 
 When 3D Gaussian Splats began to revolutionize real-time rendering and photorealistic 3D content creation, we built [SuperSplat](https://superspl.at/editor?load=https://d28zzqy0iyovbz.cloudfront.net/db6ab60b/scene.compressed.ply), a visual editor for splats. But developers have continued to ask for better tools to manage, convert, and optimize their splat datasets. Our solution is to bring some of SuperSplat's most powerful features to the command line, courtesy of a new tool called **SplatTransform**. It's fast, flexible, and designed specifically for developers who need precise control over their Gaussian splat workflows.
@@ -82,9 +80,7 @@ Whether you're optimizing splat quality, analyzing capture patterns, or preparin
 The open-source [PlayCanvas Engine](https://github.com/playcanvas/engine) has the most advanced 3D Gaussian Splat renderer on the market! First, we released our [Compressed PLY format](https://blog.playcanvas.com/compressing-gaussian-splats#compressed-ply-format). Then, we improved on it by adding support for [SOGS](https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression), an even more optimal compressed format. SplatTransform can now target both formats with ease.
 
 :::tip Migrating to PlayCanvas
-
 Are you currently using another renderer that uses different formats such as `.splat` or `.ksplat`? Do you want to migrate to PlayCanvas for better visuals and performance? SplatTransform can help you make the switch!
-
 :::
 
 ## Get Started Today
