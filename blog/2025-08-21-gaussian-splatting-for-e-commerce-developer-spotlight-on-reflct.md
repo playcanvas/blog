@@ -10,8 +10,6 @@ unlisted: true
 
 import ReactPlayer from 'react-player'
 
-**Gaussian Splatting for E-Commerce - Developer Spotlight on Reflct**
-
 Welcome to the fifth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.
 
 <div className="iframe-container">
@@ -50,8 +48,7 @@ Today, we are excited to be joined by In Ha and Willie from Reflct.
 
 **3D Gaussian Splatting (3DGS) is still a new technology — what excites you most about it?**
 
-*In Ha*: When I first heard what it is and saw some examples of it, it seemed to me that the way splats work resembles the idea of “pixels” on the screen. In this case, they are pixels in 3D, not 2D.
-Each splat in 3D space has color and other attributes, just like 2D pixels, which have coordinates and color.
+*In Ha*: When I first heard what it is and saw some examples of it, it seemed to me that the way splats work resembles the idea of “pixels” on the screen. In this case, they are pixels in 3D, not 2D. Each splat in 3D space has color and other attributes, just like 2D pixels, which have coordinates and color.
 
 I was amazed by the idea and concept behind the technique. I am very excited about what people could do with 3DGS in the future.
 
