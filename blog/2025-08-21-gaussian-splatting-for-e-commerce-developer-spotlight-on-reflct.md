@@ -7,8 +7,6 @@ tags:
   - spotlight
 ---
 
-import ReactPlayer from 'react-player'
-
 Welcome to the fifth edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.
 
 <div className="iframe-container">
@@ -75,7 +73,7 @@ You just do that a few times to set all the points in your scene where you want 
 
 When this is integrated with Shopify, the end user is able to explore a ‘shoppable’ 3DGS environment. Each time they move to a new product, the product details are displayed in the application. It’s quite exciting \- we haven’t seen that type of e-commerce experience before. We’re working with a few different brands here in New Zealand to take this to the next level.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/developer-spotlight-reflct-shopify-app.mp4" />
+<video autoPlay muted loop controls src='/img/developer-spotlight-reflct-shopify-app.mp4' style={{width: '100%', height: 'auto'}} />
 
 **Let’s dive into some technical details. How did PlayCanvas help you deliver a smooth experience across desktop and mobile?**
 
@@ -111,7 +109,7 @@ So we first detached every piece of the UI and event listeners, then replaced th
 
 *Willie*: First thing will be some improvements for mobile, just to improve consistency across devices. Then it’s integrations, viewer features, FTUX improvements, and building on our recent update for custom transition animations.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/developer-spotlight-reflct-custom-animation.mp4" />
+<video autoPlay muted loop controls src='/img/developer-spotlight-reflct-custom-animation.mp4' style={{width: '100%', height: 'auto'}} />
 
 **How can the PlayCanvas community try out Reflct or get involved?**
 

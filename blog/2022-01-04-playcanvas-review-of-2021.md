@@ -4,8 +4,6 @@ slug: playcanvas-review-of-2021
 title: PlayCanvas Review of 2021
 ---
 
-import ReactPlayer from 'react-player'
-
 Happy New Year to you all!
 
 In 2021, we marked the 10th anniversary of PlayCanvas. In that time, we have seen WebGL become the world's standard for web graphics, implemented into every major web browser. And we have done our part to help make WebGL content creation both easy and fun!
@@ -34,13 +32,13 @@ With all of the front-end updates to the Editor, don't think that we have neglec
 
 Aside from the Editor, one of the coolest new tools we released this year was the [Engine Examples Browser](https://playcanvas.github.io/). This is a coding playground for learning and experimenting with the PlayCanvas Engine API. And naturally, it's fully open sourced on [GitHub](https://github.com/playcanvas/engine/tree/dev/examples#readme).
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/examples-browser.mp4" />
+<video autoPlay muted loop controls src='/img/examples-browser.mp4' style={{width: '100%', height: 'auto'}} />
 
 _Engine Examples Browser_
 
 Back in the summer, we [announced](https://forum.playcanvas.com/t/rfc-shader-editor/20616) our new Node-based Shader Editor. This is a new and accessible way to build custom shaders for your PlayCanvas application.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/shader-editor.mp4" />
+<video autoPlay muted loop controls src='/img/shader-editor.mp4' style={{width: '100%', height: 'auto'}} />
 
 _Node-based Shader Editor_
 
@@ -48,7 +46,7 @@ We're nearing the end of the closed beta and in the coming months, we will kick 
 
 The [PlayCanvas Viewer](https://playcanvas.com/viewer) is our open source 3D model viewer tool. In 2021, it received a number of important improvements. First up, as well as glTF files, the viewer can now also load VOX files (for voxel based scenes constructed in tools like MagicaVoxel). We also improved skeletal visualization as well as skybox handling. Check it out on [GitHub](https://github.com/playcanvas/playcanvas-viewer)!
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/gltf-viewer-vox.mp4" />
+<video autoPlay muted loop controls src='/img/gltf-viewer-vox.mp4' style={{width: '100%', height: 'auto'}} />
 
 _PlayCanvas glTF Viewer_
 
@@ -56,7 +54,7 @@ _PlayCanvas glTF Viewer_
 
 Let's be honest - everybody loves beautifully rendered pixels. So let's examine how PlayCanvas' graphics engine has advanced this year. First up, we have area lights that allow lights to adopt a physical shape: rectangle, circle or sphere. Later in the year, we released a preview or our new clustered lighting pipeline, which essentially increases the number of dynamic lights you can place in your scenes. With both features combined, the engine can now process clustered area lights as our [new engine example](https://playcanvas.github.io/#/graphics/clustered-area-lights) demonstrates.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/engine-clustered-area-lights.mp4" />
+<video autoPlay muted loop controls src='/img/engine-clustered-area-lights.mp4' style={{width: '100%', height: 'auto'}} />
 
 _Clustered Area Lights_
 

@@ -32,9 +32,7 @@ With hindsight, the Engine should probably have reached 1.0.0 some years before.
 Semantic versioning says that you perform a major version bump when you introduce breaking changes. To say we go out of our way to avoid introducing breaking changes in an understatement. But since 1.0.0, we had done 73 minor versions along with countless patch releases. Along the way, the Engine accumulated a considerable amount of "cruft".
 
 :::info[cruft _noun_ `INFORMAL - COMPUTING`]
-
 badly designed, unnecessarily complicated, or unwanted code or software.
-
 :::
 
 It was getting to the point where parts of the codebase were restricting our ability to advance the Engine's capabilities. And so, we took to the decision to do a spring clean. 🧹 Here are some highlights of what we removed:

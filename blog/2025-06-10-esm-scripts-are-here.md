@@ -9,8 +9,6 @@ tags:
   - developer
 ---
 
-import ReactPlayer from 'react-player'
-
 **We’re excited to announce a major step forward for PlayCanvas: **ESM Scripts are now supported** — and officially the recommended way to write scripts in your PlayCanvas projects.**
 
 Back in 2016, we introduced what we now call [Classic Scripts](https://blog.playcanvas.com/playcanvas-scripts-2-0/). At the time, this represented the state of the art in JavaScript. But things have evolved rapidly since then, and developers today expect modern tooling, clearer patterns, and better integration with the broader JavaScript ecosystem.
@@ -19,7 +17,7 @@ If you’ve ever struggled with managing classic scripts, wondered why your auto
 
 ESM (ECMAScript Modules) brings modern JavaScript development to the heart of PlayCanvas. It’s faster to get started, easier to scale your project, and way more fun to work with. No more hidden globals. No more messy script loading order. Just well-structured, maintainable, and modular code — exactly how modern web development should be.
 
-<ReactPlayer width="100%" height="auto" controls src="/img/pc-esm-scripts.mp4" />
+<video autoPlay muted loop controls src='/img/pc-esm-scripts.mp4' style={{width: '100%', height: 'auto'}} />
 
 <!-- truncate -->
 

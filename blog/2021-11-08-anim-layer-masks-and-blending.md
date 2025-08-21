@@ -8,9 +8,7 @@ tags:
   - workflow
 ---
 
-import ReactPlayer from 'react-player'
-
-![](/img/anim-layer-blending.gif)  
+![Anim Layer Blending](/img/anim-layer-blending.gif)  
 _[RUN DEMO](https://playcanvas.github.io/#/animation/layer-masks)_
 
 Today, we are releasing the latest anim component feature: the masking and blending of anim layers.
@@ -25,7 +23,7 @@ When creating complex animation behavior for games, it is often necessary to mak
 
 To perform these actions at the same time, the upper and lower body of the character must be animated independently. The upper body should be able to move from an idle stance to a shooting stance, and then shoot on demand, all while the lower body moves between idling, walking, running based on the player's command.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/anim-masked-locomotion.mp4" />
+<video autoPlay muted loop controls src='/img/anim-masked-locomotion.mp4' style={{width: '100%', height: 'auto'}} />
 
 _A character with two animation layers. A movement layer and a shooting layer masked to the upper body_
 
@@ -37,7 +35,7 @@ A shooting animation might have all of its lower body bones removed, which would
 
 Masks can streamline this workflow by enabling developers to add or remove a model’s bones from an animation layer directly. This means you can select which part of a character a particular set of animations should animate directly in the PlayCanvas editor. Testing out different combinations of character bones now becomes as simple as toggling a few checkboxes.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/anim-layer-masking.mp4" />
+<video autoPlay muted loop controls src='/img/anim-layer-masking.mp4' style={{width: '100%', height: 'auto'}} />
 
 _Creating layer masks in the PlayCanvas editor_
 
