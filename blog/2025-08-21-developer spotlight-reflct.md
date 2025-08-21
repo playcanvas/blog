@@ -30,13 +30,13 @@ In Ha: I’m In Ha, I studied computer graphics and have spent my career so far 
 
 **How did you first discover PlayCanvas?**
 
-Willie: It was through the 3DGS community, PlayCanvas really is the biggest name in the space, and you can’t be into 3DGS without hearing about PlayCanvas at some point. 
+Willie: It was through the 3DGS community, PlayCanvas really is the biggest name in the space, and you can’t be into 3DGS without hearing about PlayCanvas at some point.
 
 In Ha: Yeah that’s about right. When I was quite new to 3DGS, Willie showed me there was a tool to modify the splats, and it was working very well. It was SuperSplat by PlayCanvas. Very first tool I’ve heard of when I’ve entered the realm of 3DGS.
 
 **What made you choose PlayCanvas for Reflct instead of other web technologies?**
 
-Willie: Well, we didn’t at first, we were using Mark Kellogg’s three.js plugin for a long time. We made that decision early on when his project was the only one that had second degree spherical harmonics. Over time though, we saw what the PlayCanvas team was doing and ultimately made the decision to switch over. It’s open source, reliable, performant, and just really really good. You guys are doing great work, I wish we had made the shift sooner. 
+Willie: Well, we didn’t at first, we were using Mark Kellogg’s three.js plugin for a long time. We made that decision early on when his project was the only one that had second degree spherical harmonics. Over time though, we saw what the PlayCanvas team was doing and ultimately made the decision to switch over. It’s open source, reliable, performant, and just really really good. You guys are doing great work, I wish we had made the shift sooner.
 
 In Ha: It’s fast and simple to use.
 
@@ -50,26 +50,26 @@ In Ha: It is also important to mention that we are providing tools to help the u
 
 **3D Gaussian Splatting (3DGS) is still a new technology — what excites you most about it?**
 
-In Ha: When I first heard what it is and saw some examples of it, it seemed to me that how splats work resembles the idea of “pixels” on the screen. In this case, it is pixels in 3D not 2D.   
+In Ha: When I first heard what it is and saw some examples of it, it seemed to me that how splats work resembles the idea of “pixels” on the screen. In this case, it is pixels in 3D not 2D.
 You have a splat in the 3D space that has colors and other attributes, just like pixels in 2D where you have 2D coordinates and the color.
 
 I was amazed with the idea and concept behind the technique. I am very excited about what people could do with 3DGS in the future.
 
-Willie: I’m excited for the future of the technology. There are a lot of smart people around the world pushing the boundaries, making it smaller, faster, more realistic. SOGs is a good example. And it’s so new, we’re only a couple of years in. 
+Willie: I’m excited for the future of the technology. There are a lot of smart people around the world pushing the boundaries, making it smaller, faster, more realistic. SOGs is a good example. And it’s so new, we’re only a couple of years in.
 
 **How does Reflct make navigating and exploring 3DGS content easier for non-technical users?**
 
-Willie: We just make it simple, we wanted something that we could give to our parents and they’d be able to figure out how it works. There are three big buttons at the bottom, left and right arrows and a play button, and if you drag the screen the camera orbits a single point. No WASD, no free roaming movement. Easy, but behind the scenes the creator has a bunch of features to help curate the experience for users. 
+Willie: We just make it simple, we wanted something that we could give to our parents and they’d be able to figure out how it works. There are three big buttons at the bottom, left and right arrows and a play button, and if you drag the screen the camera orbits a single point. No WASD, no free roaming movement. Easy, but behind the scenes the creator has a bunch of features to help curate the experience for users.
 
 The creator can manage ‘views’ in the Reflct dashboard, these are coordinates that we move the camera to when the user presses one of the arrow keys. Each view has some data attached to it, position and focal point, but also the orbit limits, zoom, transition animation details, product metadata. The orbit limits are important, since they give the creator control over the movement of the camera, which means they can direct the user’s attention to the best parts of the scene without letting them see the ‘rough edges’ you get in 3DGS.
 
-All these little bits add up to a powerful feature set for curating the experience of navigating the 3DGS space, but all the end user sees is three buttons. 
+All these little bits add up to a powerful feature set for curating the experience of navigating the 3DGS space, but all the end user sees is three buttons.
 
 **Could you walk us through the process of curating a scene in the Reflct dashboard?**
 
-Willie: Sure, when you drag in your .ply we’ll automatically compress it, then you just move around like you would in any 3D viewer. Once you find a viewpoint you like you click ‘Add view’. You can edit the details for that view, set the orbit limits, change the focal point, configure the transition animations, there are also features to add hotspots or annotations. 
+Willie: Sure, when you drag in your .ply we’ll automatically compress it, then you just move around like you would in any 3D viewer. Once you find a viewpoint you like you click ‘Add view’. You can edit the details for that view, set the orbit limits, change the focal point, configure the transition animations, there are also features to add hotspots or annotations.
 
-You just do that a few times to set all the points in your scene where you want to direct the user's attention. Then you create a shareable link, or integrate it with your site using our React library or Shopify app. If you’re using our Shopify app, you can add the productHandle to the view metadata and it will automatically pull the product details into the side panel. 
+You just do that a few times to set all the points in your scene where you want to direct the user's attention. Then you create a shareable link, or integrate it with your site using our React library or Shopify app. If you’re using our Shopify app, you can add the productHandle to the view metadata and it will automatically pull the product details into the side panel.
 
 **Orbit limits and managed views sound like powerful tools — can you give an example of how they’ve been used effectively?**
 
@@ -85,7 +85,7 @@ In Ha: We were using the GaussianSplats3D viewer by mkkellogg before we made the
 
 ![Reflct Memory Savings](/img/developer-spotlight-reflct-memory.png)
 
-The performance gains have been massive, if you load the same .ply on PlayCanvas vs our original viewer the frame rate nearly doubles and memory usage is reduced by 80%. If you compare SOGs to our previous most optimized format, the SOGs bundle is half the size with 3SH compared to 2SH and 88% less memory. Some critical resources load with over 95% less memory. So, yeah, we’re happy we made the switch. 
+The performance gains have been massive, if you load the same .ply on PlayCanvas vs our original viewer the frame rate nearly doubles and memory usage is reduced by 80%. If you compare SOGs to our previous most optimized format, the SOGs bundle is half the size with 3SH compared to 2SH and 88% less memory. Some critical resources load with over 95% less memory. So, yeah, we’re happy we made the switch.
 
 **Were there any technical challenges you faced integrating PlayCanvas with 3DGS, and how did you overcome them?**
 
@@ -97,31 +97,31 @@ So we first detached every piece of the UI and event listeners, then replaced th
 
 **Can you share any interesting performance optimizations you’ve implemented in Reflct?**
 
-In Ha: We had done a reasonable amount of work in optimization with the previous viewer, but the impact of those changes were trivial compared to moving to PlayCanvas. 
+In Ha: We had done a reasonable amount of work in optimization with the previous viewer, but the impact of those changes were trivial compared to moving to PlayCanvas.
 
-Willie: One thing that seems minor is the size of the viewer. A smaller viewer means less pixels to move around and less resource usage. People want big viewers though, so we spent some time looking for the right balance between performance and visual impact. 
+Willie: One thing that seems minor is the size of the viewer. A smaller viewer means less pixels to move around and less resource usage. People want big viewers though, so we spent some time looking for the right balance between performance and visual impact.
 
 **Reflct just launched after being in open beta — how has the feedback been so far?**
 
-The feedback has been quite positive, which is validating. I think now that we are using the PlayCanvas engine it will be even better, the performance improvement makes the application far more accessible. 
+The feedback has been quite positive, which is validating. I think now that we are using the PlayCanvas engine it will be even better, the performance improvement makes the application far more accessible.
 
 **Who do you see as the ideal audience or customer for Reflct?**
 
-It’s 3DGS capture pros that want to find a better way to commercialize their work, brands that want to elevate their product visualization, real-estate startups or companies that are looking for an edge. 
+It’s 3DGS capture pros that want to find a better way to commercialize their work, brands that want to elevate their product visualization, real-estate startups or companies that are looking for an edge.
 
 **What are your plans for upcoming features or improvements?**
 
-Willie: First thing will be some improvements for mobile, just to improve consistency across devices. Then it’s integrations, viewer features, FTUX improvements, and building on our recent update for custom transition animations. 
+Willie: First thing will be some improvements for mobile, just to improve consistency across devices. Then it’s integrations, viewer features, FTUX improvements, and building on our recent update for custom transition animations.
 
 <ReactPlayer width="100%" height="auto" playing controls src="/img/developer-spotlight-reflct-custom-animation.mp4" />
 
 **How can the PlayCanvas community try out Reflct or get involved?**
 
-Willie: It’s free for up to 15 scenes on [https://reflct.app](https://reflct.app), so just jump in and try it out. If you have any ideas for improving the platform or seeing what we’re cooking up next, join the discord, we’d love to hear from the community. 
+Willie: It’s free for up to 15 scenes on [https://reflct.app](https://reflct.app), so just jump in and try it out. If you have any ideas for improving the platform or seeing what we’re cooking up next, join the discord, we’d love to hear from the community.
 
 **Where do you see 3DGS and web-based photorealistic content heading in the next few years?**
 
-Willie: The pace of innovation in 3DGS and other similar technologies is wild, but the trends seem to be around increasing quality, decreasing file sizes, and making the capture process simpler. Generative AI will also start to play a more significant role I’m sure, some of the recent experiments with generating 3DGS scenes using outputs from world models like Genie have been very impressive. I’d like to see some progress towards solving some of the drawbacks, like reflective surfaces. 
+Willie: The pace of innovation in 3DGS and other similar technologies is wild, but the trends seem to be around increasing quality, decreasing file sizes, and making the capture process simpler. Generative AI will also start to play a more significant role I’m sure, some of the recent experiments with generating 3DGS scenes using outputs from world models like Genie have been very impressive. I’d like to see some progress towards solving some of the drawbacks, like reflective surfaces.
 
 In Ha: I can see 3DGS becoming a general way of displaying rich interactive and impactful content.
 
