@@ -4,8 +4,6 @@ slug: playcanvas-in-2016-webgl-everywhere
 title: PlayCanvas in 2016 - WebGL Everywhere
 ---
 
-import ReactPlayer from 'react-player'
-
 Farewell, 2016! It seems that WebGL was everywhere last year, spreading across every corner of the web. And this added up to PlayCanvas’ best year yet!
 
 <!-- truncate -->
@@ -16,13 +14,13 @@ The last twelve months have seen some incredible companies adopt PlayCanvas. Her
 
 **Disney** selected PlayCanvas for the [Moana-themed Hour of Code](http://partners.disney.com/hour-of-code)
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/moana-hour-of-code.mp4" />
+<video autoPlay muted loop controls src='/img/moana-hour-of-code.mp4' style={{width: '100%', height: 'auto'}} />
 
 **King** published [Shuffle Cats Mini](https://www.facebook.com/ShuffleCatsMini/) as a launch title for Facebook Instant Games
 
 **Miniclip** published the fiendish [Virtual Voodoo](http://www.miniclip.com/games/virtual-voodoo/en/) on their portal:
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/virtualvoodoo.mp4" />
+<video autoPlay muted loop controls src='/img/virtualvoodoo.mp4' style={{width: '100%', height: 'auto'}} />
 
 **Leapfrog** launched the [Leapfrog Academy](https://store.leapfrog.com/en-gb/academy/landing) subscription service
 
@@ -62,10 +60,10 @@ Here are our top 5 picks for PlayCanvas tech improvements during 2016:
 
 Plenty of PlayCanvas games have been released during 2016 but we have to give special mention to Midgard's [BlastArena](http://blastarena.io)! It pays homage to the classic Bomberman with frenetic, insanely fun online play.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/blastarena.mp4" />
+<video autoPlay muted loop controls src='/img/blastarena.mp4' style={{width: '100%', height: 'auto'}} />
 
 And we have to give special mention to our own online multiplayer game [TANX](https://tanx.io)! 2016 saw the game receive a massive upgrade, with stunning new visuals and level design.
 
-<ReactPlayer width="100%" height="auto" playing controls src="/img/tanx.mp4" />
+<video autoPlay muted loop controls src='/img/tanx.mp4' style={{width: '100%', height: 'auto'}} />
 
 PlayCanvas continues to race ahead as the leading platform for building lightweight, mobile-friendly WebGL content. We've got lots of surprises in store for 2017 and we can't wait to share them with you. Happy New Year everyone!

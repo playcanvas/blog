@@ -8,8 +8,6 @@ tags:
   - open-source
 ---
 
-import ReactPlayer from 'react-player'
-
 Today, we are thrilled to announce the open sourcing of the [PlayCanvas Editor Frontend](https://github.com/playcanvas/editor)!
 
 <div className="iframe-container">

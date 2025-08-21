@@ -7,8 +7,6 @@ tags:
   - supersplat
 ---
 
-import ReactPlayer from 'react-player'
-
 Today, we are announcing the release of SuperSplat 2.2. 🚀
 
 <div className="iframe-container">
@@ -47,13 +45,13 @@ Here are some other awesome user pages for you to visit:
 
 You can now leave your thoughts or ask questions under any splat!
 
-<ReactPlayer width="50%" height="auto" playing muted loop controls src="/img/supersplat-comments.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat-comments.mp4' style={{width: '50%', height: 'auto'}} />
 
 #### 🔄 Social Sharing
 
 You can easily share any splat to your favorite social channels: X, LinkedIn, Slack, email...you name it!
 
-<ReactPlayer width="50%" height="auto" playing muted loop controls src="/img/supersplat-sharing.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat-sharing.mp4' style={{width: '50%', height: 'auto'}} />
 
 ### 🔗 Splat Embeds
 
@@ -69,7 +67,7 @@ To create an embed:
 * Copy the HTML code
 * Insert it at the appropriate place on your own site
 
-<ReactPlayer width="100%" height="auto" playing muted loop controls src="/img/supersplat-embed.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat-embed.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### 📺 Viewer Enhancements
 
