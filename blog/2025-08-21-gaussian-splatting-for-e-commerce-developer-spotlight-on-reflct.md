@@ -5,7 +5,6 @@ title: "Gaussian Splatting for E-Commerce - Developer Spotlight on Reflct"
 tags:
   - gaussian-splats
   - spotlight
-unlisted: true
 ---
 
 import ReactPlayer from 'react-player'
