@@ -83,7 +83,7 @@ When this is integrated with Shopify, the end user is able to explore a ‘shopp
 
 In Ha: We were using the GaussianSplats3D viewer by mkkellogg before we made the switch. We decided on the viewer very early on in our journey, at the time we felt it was the best choice, but over time we saw the PlayCanvas team releasing amazing features while the support for the viewer we were using slowly faded away. When PlayCanvas released the SOGs demo it was the last nail in the coffin and we started the refactor.
 
-![/img/developer-spotlight-reflct-memory.png][Reflct Memory Savings]
+![Reflct Memory Savings](/img/developer-spotlight-reflct-memory.png)
 
 The performance gains have been massive, if you load the same .ply on PlayCanvas vs our original viewer the frame rate nearly doubles and memory usage is reduced by 80%. If you compare SOGs to our previous most optimized format, the SOGs bundle is half the size with 3SH compared to 2SH and 88% less memory. Some critical resources load with over 95% less memory. So, yeah, we’re happy we made the switch. 
 
