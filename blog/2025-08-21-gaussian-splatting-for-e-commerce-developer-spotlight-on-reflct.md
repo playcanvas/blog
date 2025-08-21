@@ -16,13 +16,13 @@ Welcome to the fifth edition of Developer Spotlight, a series of blog articles w
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/SBNza9uwiXo" title="Reflct is Live: 20× Smaller Files, 2× FPS, Shopify Support - A better 3DGS viewer." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Today, we are excited to be joined by In Ha and Willie from Reflct.
+Today, we are excited to be joined by In Ha and Willie from [Reflct](https://reflct.app).
 
 <!-- truncate -->
 
 **Welcome to our Developer Spotlight! Tell us a bit about yourselves.**
 
-*Willie*: I'm Willie, I co-founded Reflct with In Ha. I’ve been working in and around 3D and web development since my University days, where I dropped out to try my hand at a game development startup. It failed, but I learned a lot and developed a fixation with interactive tech. That first experience is what really drove my career, afterwards I worked for a few years in VR, and then into creative web and product development. I’m more of a creative technologist type, In Ha is the sole developer of the main Reflct application. I just work on our side things, like Sharp Frames, and handle the 3DGS production side for our direct clients.  
+*Willie*: I'm Willie, I co-founded Reflct with In Ha. I’ve been working in and around 3D and web development since my University days, where I dropped out to try my hand at a game development startup. It failed, but I learned a lot and developed a fixation with interactive tech. That first experience is what really drove my career, afterwards I worked for a few years in VR, and then into creative web and product development. I’m more of a creative technologist type, In Ha is the sole developer of the main Reflct application. I just work on our side things, like [Sharp Frames](https://sharp-frames.reflct.app/), and handle the 3DGS production side for our direct clients.  
 
 *In Ha*: I'm In Ha, I studied computer graphics and have spent my career so far in web 3D and front-end development. I am a huge enthusiast of 3D graphics and rendering technologies on the web.
 
