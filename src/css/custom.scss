@@ -162,3 +162,8 @@ html[data-theme='dark'] .navbar--github-link:before {
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
+
+/* Video spacing to match paragraph spacing */
+video {
+  margin-bottom: var(--ifm-paragraph-margin-bottom);
+}

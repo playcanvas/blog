@@ -14,8 +14,6 @@ Today, we are thrilled to announce the open sourcing of the [PlayCanvas Editor F
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/7XlVDfA0sU8?loop=1&autoplay=1&mute=1&rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br />
-
 The PlayCanvas Editor is a powerful visual editing environment for building WebGL, WebGPU, and WebXR applications. It has been the cornerstone of countless incredible projects, many of which you can explore on the [PlayCanvas website](https://playcanvas.com/explore). While the PlayCanvas Engine has always been open source, the Editor Frontend, a key component of the PlayCanvas ecosystem, has not. That changes today!
 
 :::note Open Source
