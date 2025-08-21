@@ -43,7 +43,9 @@ Today, we are excited to be joined by In Ha and Willie from [Reflct](https://ref
 
 *In Ha*: It is also important to mention that we provide tools to help users implement their 3DGS assets on their websites, with the same navigation configured in our dashboard. This makes the whole integration process a lot easier. Our React library is one, and our Shopify component is another. We aim to keep expanding those tools to increase coverage.
 
-<iframe src="https://www.reflct.app/embed/ZW1iZWQ6OWQ2MmM0MjAtNTUzOS00ZGQxLWE2ZjQtMzNiZmMwZmU1MWMyOjdoVWM0MVB0elVQa0R1Q3pKbW0zbWQ=" width="800" height="600" frameborder="0" title="Reflct 3D Gaussian Splatting Demo"></iframe>
+<div className="iframe-container">
+    <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://www.reflct.app/embed/ZW1iZWQ6OWQ2MmM0MjAtNTUzOS00ZGQxLWE2ZjQtMzNiZmMwZmU1MWMyOjdoVWM0MVB0elVQa0R1Q3pKbW0zbWQ="></iframe>
+</div>
 
 **3D Gaussian Splatting (3DGS) is still a new technology — what excites you most about it?**
 
