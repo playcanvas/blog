@@ -46,7 +46,7 @@ Willie: We built Reflct to enable commercial use cases for 3DGS assets. 3DGS is 
 
 In Ha: It is also important to mention that we are providing tools to help the user to implement their 3DGS assets to their website, with the same navigation the user has configured in our dashboard. This makes the whole integration process a lot easier. Our React library is one and our Shopify component is another. We are aiming to keep expanding those tools for more coverage.
 
-<iframe src="https://www.reflct.app/embed/ZW1iZWQ6OWQ2MmM0MjAtNTUzOS00ZGQxLWE2ZjQtMzNiZmMwZmU1MWMyOjdoVWM0MVB0elVQa0R1Q3pKbW0zbWQ=" width="800" height="600" frameborder="0"></iframe>
+<iframe src="https://www.reflct.app/embed/ZW1iZWQ6OWQ2MmM0MjAtNTUzOS00ZGQxLWE2ZjQtMzNiZmMwZmU1MWMyOjdoVWM0MVB0elVQa0R1Q3pKbW0zbWQ=" width="800" height="600" frameborder="0" title="Reflct 3D Gaussian Splatting Demo"></iframe>
 
 **3D Gaussian Splatting (3DGS) is still a new technology — what excites you most about it?**
 
