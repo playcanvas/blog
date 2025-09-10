@@ -7,8 +7,6 @@ tags:
   - supersplat
 ---
 
-import ReactPlayer from 'react-player'
-
 <div className="iframe-container-taller">
     <iframe loading="lazy" src="https://playcanv.as/e/p/cLkf99ZV/" title="3DGS Statues" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0" />
 </div>
@@ -20,11 +18,9 @@ Learn how to quickly build stunning, interactive 3DGS applications today.
 <!-- truncate -->
 
 :::note[What you need]
-
 🤳 A smartphone  
 💻 A computer with a web browser  
 ⏱️ A small amount of time
-
 :::
 
 The application above shows several splats assembled in a single application, with animation and post effects spicing up the visuals. Let's check out how it was built.
@@ -33,18 +29,16 @@ The application above shows several splats assembled in a single application, wi
 
 After [capturing the statues](https://developer.playcanvas.com/user-manual/graphics/gaussian-splatting/#creating-splats) to PLY format, our first stop is [SuperSplat](https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/statues/narcissus.compressed.ply), the open source tool for editing and optimizing 3D Gaussian Splats. Here, in a little over a minute, we can isolate the statue from the background and align it with the origin:
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/statue-supersplat.mp4" />
+<video autoPlay muted loop controls src='/img/statue-supersplat.mp4' style={{width: '100%', height: 'auto'}} />
 
-<br />
 Once we are done, we can download the splat using our [compressed PLY format](https://blog.playcanvas.com/compressing-gaussian-splats). In this case, our downloaded PLY is **only 1.56MB**!
 
 ### Step 2: Import into the Editor 🚧
 
 Now that we have a clean, compressed PLY, we simply need to drop it into the Editor's Asset Panel. And from there, drag it into the viewport to add it to the scene. Let's do that (along with a cube map for a photographic backdrop):
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/statue-editor.mp4" />
+<video autoPlay muted loop controls src='/img/statue-editor.mp4' style={{width: '100%', height: 'auto'}} />
 
-<br />
 The PlayCanvas Editor is a powerful visual environment for building and publishing 3D scenes. You can:
 
 * Grab useful scripts (and other assets) from the Asset Store. Here, we import an Orbit Camera script.
@@ -55,9 +49,8 @@ The PlayCanvas Editor is a powerful visual environment for building and publishi
 
 What really makes the demo pop is the transitions that fade the statues in and out.
 
-<ReactPlayer width="100%" height="auto" playing muted loop controls src="/img/statue-custom-shaders.mp4" />
+<video autoPlay muted loop controls src='/img/statue-custom-shaders.mp4' style={{width: '100%', height: 'auto'}} />
 
-<br />
 With the Editor, you can customize the shader code that renders your splats to apply stunning animation effects. For the transition between statues, individual splats are transformed and recolored over time, while a full-screen bloom effect is ramped up and down.
 
 ### Resources

@@ -7,8 +7,6 @@ tags:
   - supersplat
 ---
 
-import ReactPlayer from 'react-player'
-
 Today, we are announcing a major update of SuperSplat, the open source platform for editing and publishing 3D Gaussian Splats.
 
 <div className="iframe-container">
@@ -33,9 +31,7 @@ The SuperSplat Editor that you know and love can now be accessed at [https://sup
 
 Recently, we added the ability to export an HTML viewer of your splat from the SuperSplat Editor. Built on the powerful [PlayCanvas Engine](https://github.com/playcanvas/engine) and our open source [Compressed PLY format](/compressing-gaussian-splats#compressed-ply-format), it offers fast load times and high-performance rendering. However, _hosting_ the HTML viewer was still your responsibility. And let's be honest, not everybody has the time or expertise to host their own website. So we've added a new feature to SuperSplat to make it easier to share your splats with others.
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-publish-1080p-social-60fps.mp4" />
-
-<br />
+<video autoPlay muted loop controls src='/img/supersplat2-publish-1080p-social-60fps.mp4' style={{width: '100%', height: 'auto'}} />
 
 It's as easy as 1-2-3:
 
@@ -46,25 +42,21 @@ It's as easy as 1-2-3:
 That's it! Your splat will be published to the web and you'll be given a URL to share with others.
 
 :::tip
-
 By default, your splat will be listed on the SuperSplat website. However, you can also choose to make it unlisted. This means it won't appear in the main gallery, but you can still access it via the URL.
-
 :::
 
 ### 🎥 Create Camera Flythroughs
 
 Sure, it's great to be able to share your splats with others, but for that extra 'wow' factor, why not add a camera flythrough? SuperSplat Editor 2.0 introduces the Timeline that makes it a breeze to author great looking camera animations. Simply select a frame in the timeline, position the camera, and set a keyframe. Do this for as many frames as you want and you've got a camera flythrough!
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-camera-animation-720p-social-60fps.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat2-camera-animation-720p-social-60fps.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### 📄 Load and Save your SuperSplat Projects
 
 With the ability to create camera animations, your splat projects are becoming more and more complex. To support this, we've added a new project file format so you can save your work between sessions. The extension of SuperSplat's new project file format is `.ssproj`.
 
 :::info
-
 The `.ssproj` file format is actually just a ZIP file containing project data in JSON format, along with a set of PLY files storing the Gaussian Splat data.
-
 :::
 
 The introduction of the new project file format has also prompted us to reorganize the `File` menu. `Open`, `Save` and `Save As` now only operate on `.ssproj` files. To import and export other file formats into your project (such as `.ply` or `.splat`) you can use the `Import` and `Export` options in the `File` menu.
@@ -81,21 +73,15 @@ With the ability to publish splats to the web, [superspl.at](https://superspl.at
 
 One of the coolest things about the PlayCanvas-powered web viewer is that it's fully integrated with WebXR, the browser-based standard for immersive experiences. Simply tap the viewer's AR button and you can spawn photorealistic 3D models directly into your environment.
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-ar-quest3.mp4" />
-
-<br />
+<video autoPlay muted loop controls src='/img/supersplat2-ar-quest3.mp4' style={{width: '100%', height: 'auto'}} />
 
 Or dive straight into a splat in fully immersive VR.
 
-<ReactPlayer width="100%" height="auto" muted controls src="/img/supersplat2-vr-avp.mp4" />
-
-<br />
+<video autoPlay muted loop controls src='/img/supersplat2-vr-avp.mp4' style={{width: '100%', height: 'auto'}} />
 
 :::info
-
 🤳 AR mode has been tested on Meta Quest 2 and 3, and Android-based smartphones.  
 🥽 VR mode has been tested on Meta Quest 2 and 3, and Apple Vision Pro.
-
 :::
 
 ### 👨‍💻 Our Open Source Mission

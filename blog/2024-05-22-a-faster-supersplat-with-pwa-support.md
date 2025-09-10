@@ -7,8 +7,6 @@ tags:
   - supersplat
 ---
 
-import ReactPlayer from 'react-player'
-
 Today, we are announcing the latest release of [SuperSplat](https://playcanvas.com/supersplat/editor), the open source tool for editing and optimizing 3D Gaussian Splats. If you don't have a PLY file to hand, [here's an example](https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/playcanvas/engine/main/examples/assets/splats/biker.ply)!
 
 ![SuperSplat PWA](/img/supersplat-pwa-sculpture.png)
@@ -35,27 +33,23 @@ A Progressive Web App (PWA) is a web application that provides a native app-like
 
 From today, SuperSplat is shipping with PWA support! 🎉
 
-<ReactPlayer width="100%" height="auto" playing muted loop controls src="/img/supersplat-pwa-install.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat-pwa-install.mp4' style={{width: '100%', height: 'auto'}} />
 
-<br />
 To install SuperSplat as a PWA:
 
 1. Visit [https://playcanvas.com/supersplat/editor](https://playcanvas.com/supersplat/editor).
 2. Hit the `Install SuperSplat` button in the address bar.
 
 :::tip
-
 For your convenience, pin SuperSplat to the Taskbar (Windows) or add it do the Dock (macOS).
-
 :::
 
 ### PLY File Association
 
 With SuperSplat installed as a PWA, your operating system can now open launch PLY files directly into the tool. Simply right-click on a PLY file and select SuperSplat to open it.
 
-<ReactPlayer width="100%" height="auto" playing muted loop controls src="/img/supersplat-pwa-file-association.mp4" />
+<video autoPlay muted loop controls src='/img/supersplat-pwa-file-association.mp4' style={{width: '100%', height: 'auto'}} />
 
-<br />
 You can also set SuperSplat as the default tool to open your PLYs. Then, you can simply double-click a PLY file to open it instantly in SuperSplat!
 
 ## Your Feedback Matters
