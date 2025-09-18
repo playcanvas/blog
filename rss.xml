@@ -4,10 +4,55 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Thu, 21 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[PlayCanvas Open Sources SOG Format for Gaussian Splatting]]></title>
+            <link>https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting</link>
+            <guid>https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting</guid>
+            <pubDate>Wed, 17 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Goodbye SOGS. Hello SOG! 👋]]></description>
+            <content:encoded><![CDATA[<p>Goodbye SOGS. Hello SOG! 👋</p>
+<p>Back in May, <a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression" target="_blank" rel="noopener noreferrer">PlayCanvas announced support for SOGS</a>, a revolutionary super-compressed format for 3D Gaussian splats. While SOGS was a huge leap beyond other compression techniques, we were still not satisfied! So we set about designing a new and improved iteration of the format.</p>
+<p>Today, we are proud to introduce <strong>SOG: Spatially Ordered Gaussians</strong>.</p>
+<div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=964b09c1"></iframe></div>
+<p>The Skate Park above was scanned by <a href="https://www.linkedin.com/in/christoph-schindelar-79515351/" target="_blank" rel="noopener noreferrer">Christoph Schindelar</a>. It has 4 million Gaussians but is compressed to a mere 42MB with SOG. The original PLY was 1GB, meaning a <strong>~95% reduction</strong> in file size.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-sog">What is SOG<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#what-is-sog" class="hash-link" aria-label="Direct link to What is SOG" title="Direct link to What is SOG">​</a></h3>
+<p>SOG shares a great deal in common with its predecessor. It is still a <code>meta.json</code> file that reference multiple <code>.webp</code> images. So what's new and why is it better?</p>
+<p>📦 <strong>More convenient:</strong> Your SOG splats can now also be written to a single <code>.sog</code> file<br>
+<!-- -->⚡ <strong>Faster to load:</strong> SOG stores splat data in Morton order meaning its 'GPU-ready' and doesn't require processing on load<br>
+<!-- -->🗜️ <strong>Easier to compress:</strong> SOGS compression required CUDA but SOG only needs WebGPU so it runs anywhere<br>
+<!-- -->🎯 <strong>More precision:</strong> SOG minimizes compression artifacts by making smarter use of the same number of bits</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="converting-to-sog-with-splattransform">Converting to SOG with SplatTransform<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#converting-to-sog-with-splattransform" class="hash-link" aria-label="Direct link to Converting to SOG with SplatTransform" title="Direct link to Converting to SOG with SplatTransform">​</a></h3>
+<p>To create <code>.sog</code> files (or unbundled <code>.json</code> + <code>.webp</code> files), we provide the open source <a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer">SplatTransform</a> CLI tool. To install it, just issue this command:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g @playcanvas/splat-transform</span><br></span></code></pre></div></div>
+<p>And to convert, do:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">splat-transform input.ply output.sog</span><br></span></code></pre></div></div>
+<p>What could be easier? 🎉</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="engine-support-for-sog">Engine Support for SOG<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#engine-support-for-sog" class="hash-link" aria-label="Direct link to Engine Support for SOG" title="Direct link to Engine Support for SOG">​</a></h3>
+<p>As you might expect, the open source <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">PlayCanvas Engine</a> is the first graphics runtime to support SOG. Support was introduced in the <a href="https://github.com/playcanvas/engine/releases/tag/v2.11.0" target="_blank" rel="noopener noreferrer">2.11.0 release</a> and we have thoroughly tested and stabilized it with a number of subsequent patches.</p>
+<p><a href="https://github.com/playcanvas/react" target="_blank" rel="noopener noreferrer">PlayCanvas React</a> and <a href="https://github.com/playcanvas/web-components" target="_blank" rel="noopener noreferrer">PlayCanvas Web Components</a> have also been updated to support SOG.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="editor-support-for-sog">Editor Support for SOG<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#editor-support-for-sog" class="hash-link" aria-label="Direct link to Editor Support for SOG" title="Direct link to Editor Support for SOG">​</a></h3>
+<p>Bundled SOG files (<code>.sog</code>) are now natively supported in the PlayCanvas Editor! Simply drag and drop a <code>.sog</code> file into your ASSETS panel to create a new <code>gsplat</code> asset.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/editor-sog-import.mp4" style="width:100%;height:auto"></video>
+<p>Dragging the <code>gsplat</code> asset into the viewport triggers the creation of a new <code>Entity</code> with the asset assigned to a <code>GSplatComponent</code>.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Unbundled SOG scenes (<code>.json</code> + <code>.webp</code>) are not natively supported in the Editor. Stick to <code>.sog</code>!</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="supersplat-support-for-sog">SuperSplat Support for SOG<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#supersplat-support-for-sog" class="hash-link" aria-label="Direct link to SuperSplat Support for SOG" title="Direct link to SuperSplat Support for SOG">​</a></h3>
+<p><a href="https://superspl.at/" target="_blank" rel="noopener noreferrer">SuperSplat</a>, the #1 platform publishing 3D Gaussian Splats, has been updated to compressed your scans with SOG. Since it provides around <strong>2-3x</strong> the compression of Compressed PLY, your creations will load far faster and will load on more memory constrained devices.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-sourcing-sog">Open Sourcing SOG<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#open-sourcing-sog" class="hash-link" aria-label="Direct link to Open Sourcing SOG" title="Direct link to Open Sourcing SOG">​</a></h3>
+<p>Today, we are officially open sourcing the <a href="https://developer.playcanvas.com/user-manual/gaussian-splatting/formats/sog/" target="_blank" rel="noopener noreferrer">specification for SOG</a>. The <a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer">SplatTransform</a> provides a reference writer for the format. And the <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer">PlayCanvas Engine</a> provides a reference implementation for loading and rendering SOG.</p>
+<p>We encourage other engine and tools developers to integrate support for SOG into your products/projects. And we invite the open source community to join our open source effort and contribute to PlayCanvas' codebases in any way that you can.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="credits">Credits<a href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting#credits" class="hash-link" aria-label="Direct link to Credits" title="Direct link to Credits">​</a></h3>
+<p>We would like to recognize the work of some incredible people from the open source community that made all of this possible:</p>
+<ul>
+<li><a href="https://wieland.morgenst.de/" target="_blank" rel="noopener noreferrer">Wieland Morgenstern</a> from <a href="https://www.hhi.fraunhofer.de/en/index.html" target="_blank" rel="noopener noreferrer">Fraunhofer HHI</a> who developed the original SOGS format.</li>
+<li><a href="https://vincentwoo.com/" target="_blank" rel="noopener noreferrer">Vincent Woo</a> who did the original integration of SOGS into PlayCanvas.</li>
+</ul>
+<p>Let's continue this tradition and work together to keep 3DGS technology free and open source.</p>]]></content:encoded>
+            <category>gaussian-splats</category>
+        </item>
         <item>
             <title><![CDATA[Gaussian Splatting for E-Commerce - Developer Spotlight on Reflct]]></title>
             <link>https://blog.playcanvas.com/gaussian-splatting-for-e-commerce-developer-spotlight-on-reflct</link>
@@ -862,101 +907,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
             <category>editor</category>
             <category>sketchfab</category>
             <category>workflow</category>
-        </item>
-        <item>
-            <title><![CDATA[Moving from WordPress to Jekyll - A Case Study]]></title>
-            <link>https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study</link>
-            <guid>https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study</guid>
-            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Welcome to the new PlayCanvas blog! 😎]]></description>
-            <content:encoded><![CDATA[<p>Welcome to the new PlayCanvas blog! 😎</p>
-<p><img decoding="async" loading="lazy" alt="PlayCanvas To Jekyll" src="https://blog.playcanvas.com/assets/images/playcanvas-to-jekyll-2a57b24eac61e59a8ae77d7a767ac3dd.png" width="1084" height="310" class="img_ev3q"></p>
-<p>We have made the decision to move from WordPress to <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> and although it's early days, so far, we are very pleased with the results. Therefore, we thought it might be useful to explain the reasons why we did this and describe the process we followed.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="some-history">Some History<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#some-history" class="hash-link" aria-label="Direct link to Some History" title="Direct link to Some History">​</a></h3>
-<p>We originally started our blog back in February 2012 with a very <a href="https://blog.playcanvas.com/hello-world/" target="_blank" rel="noopener noreferrer">low-key post</a>. We installed our own instance of WordPress and that functioned fine for a few years. However, in 2015, we decided that we didn't want to deal with managing a WordPress instance ourselves and so we signed up for <a href="https://wpengine.com/" target="_blank" rel="noopener noreferrer">WPEngine</a>, a WordPress hosting service. And there we stayed until today.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="a-better-way">A Better Way?<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#a-better-way" class="hash-link" aria-label="Direct link to A Better Way?" title="Direct link to A Better Way?">​</a></h3>
-<p>Over the years, some frustrations over WordPress did start to materialize. Customizing styling was tricky, bulk editing posts was not an option, managing media through the media library was quite inconvenient, and so on. On top of that, our blog was continuing to grow in popularity and WPEngine costs were rising. A team member suggested Jekyll as an alternative so we ran some tests to see what would be involved in a migration.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="migrating-from-wordpress-to-jekyll">Migrating from WordPress to Jekyll<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#migrating-from-wordpress-to-jekyll" class="hash-link" aria-label="Direct link to Migrating from WordPress to Jekyll" title="Direct link to Migrating from WordPress to Jekyll">​</a></h3>
-<p>First up, I should say that you should make use of ChatGPT when you attempt something like this. It made it a smooth and pleasant experience for me. But so you can see how straightforward it was, here are the key steps:</p>
-<ol>
-<li>
-<p><strong>Export Your WordPress Content.</strong> On your WordPress Dashboard, navigate to Tools &gt; Export and select 'All Content'. Click 'Download Export File'. You should receive an XML file that contains all of your site’s content.</p>
-</li>
-<li>
-<p><strong>Convert WordPress Export to Jekyll Format.</strong> To convert your WordPress export file to a Jekyll-friendly format, you can use a tool called <code>exitwp</code>. Here are the steps:</p>
-<ul>
-<li>Clone or download <code>exitwp</code> from its <a href="https://github.com/thomasf/exitwp" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</li>
-<li>Put your WordPress XML file in the <code>wordpress-xml</code> directory in the <code>exitwp</code> directory.</li>
-<li>Run <code>exitwp</code> (requires Python and some libraries, see the repo's <code>README</code> for details).</li>
-<li>This will generate a <code>_posts</code> directory containing all your blog posts converted into markdown format that Jekyll understands.</li>
-</ul>
-</li>
-<li>
-<p><strong>Setting Up Jekyll.</strong></p>
-<ul>
-<li>Install Ruby and Jekyll. For installation guide refer to <a href="https://jekyllrb.com/docs/installation/" target="_blank" rel="noopener noreferrer">Jekyll's official site</a>.</li>
-<li>Create a new Jekyll site by typing <code>jekyll new my-awesome-site</code> in the command line.</li>
-<li>Replace the <code>_posts</code> directory in your new Jekyll site with the <code>_posts</code> directory that <code>exitwp</code> generated.</li>
-<li>You can run your site locally to see how it looks by using the command <code>bundle exec jekyll serve</code>.</li>
-<li>Then, open your browser to <a href="http://localhost:4000/" target="_blank" rel="noopener noreferrer">http://localhost:4000</a>.</li>
-</ul>
-</li>
-</ol>
-<p>Once I had our blog post content successfully exported to a basic Jekyll site, I checked everything in to a new <a href="https://github.com/playcanvas/blog" target="_blank" rel="noopener noreferrer">GitHub repository</a>. From this point, I wanted any change I made to the content to be tracked via Git version control - I mean, why wouldn't you?</p>
-<p>The initial migration to Markdown worked OK but it wasn't perfect. There was a lot of superfluous whitespace in the generated Markdown and syntax was broken in places. So I took the opportunity to do a wholesale spring clean of the Markdown content.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="prettier">Prettier<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#prettier" class="hash-link" aria-label="Direct link to Prettier" title="Direct link to Prettier">​</a></h4>
-<p><a href="https://prettier.io/" target="_blank" rel="noopener noreferrer">Prettier</a> is a great code formatter but you may not know that it also has built-in support for Markdown formatting. I installed Prettier via NPM and ran it over all Markdown files:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">prettier --write _posts</span><br></span></code></pre></div></div>
-<p>All formatting was now beautifully consistent.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="linkinator">Linkinator<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#linkinator" class="hash-link" aria-label="Direct link to Linkinator" title="Direct link to Linkinator">​</a></h4>
-<p><a href="https://github.com/JustinBeckwith/linkinator" target="_blank" rel="noopener noreferrer">Linkinator</a> is a tool for reporting broken hyperlinks in both Markdown and HTML. I scanned the locally generated Jekyll site with it using the following command:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">linkinator . --server-root _site --recurse --verbosity error</span><br></span></code></pre></div></div>
-<p>I fixed well over 100 dead links. The older the post, the more dead links there tended to be (as you might expect). While I was always able to use Linkinator on the published WordPress site, it was never convenient to skip from post to post and edit hyperlinks in the WordPress UI (we have over 220 posts). So I never made the time for it. Now I was able to quickly search and replace links in Visual Studio Code and it was a breeze.</p>
-<p>Aside from giving your readers a better experience, here's what ChatGPT has to say about dead links:</p>
-<blockquote>
-<p>While Google's algorithms are complex and multifaceted, it is generally understood that having too many broken or dead links on your site can negatively affect your website's SEO ranking, albeit indirectly.</p>
-</blockquote>
-<p>So this step was definitely worth doing!</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="media-library">Media Library<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#media-library" class="hash-link" aria-label="Direct link to Media Library" title="Direct link to Media Library">​</a></h4>
-<p>Every WordPress blog has a Media Library that contains all of the images and videos referenced by your posts. The PlayCanvas Media Library had over 1GB of content. However, I noticed that a large amount of content was not actually referenced by any post. I wanted to ensure that I exported only the <em>used</em> media (since I didn't want to bloat the GitHub repository).</p>
-<ul>
-<li><strong>Step 1:</strong> Install WordPress plugin <a href="https://wordpress.org/plugins/media-cleaner/" target="_blank" rel="noopener noreferrer">Media Cleaner</a> and use it to delete unused media files.</li>
-<li><strong>Step 2:</strong> Install WordPress plugin <a href="https://wordpress.org/plugins/export-media-library/" target="_blank" rel="noopener noreferrer">Export Media Library</a> to download all remaining media files in a ZIP.</li>
-</ul>
-<p>This process cut the Media Library from 1GB to about 550MB. I simply extracted the ZIP contents to <code>assets/media</code> (relative to the root folder of my Jekyll site) and then did a search and replace of all media embed links to use the new file location. Easy!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hosting-on-github-pages">Hosting on GitHub Pages<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#hosting-on-github-pages" class="hash-link" aria-label="Direct link to Hosting on GitHub Pages" title="Direct link to Hosting on GitHub Pages">​</a></h3>
-<p>I now had a fully exported and functional Jekyll blog. But where to host it? One option was to throw the static site onto a file server and put it behind a CDN. But wait, the file-set of the Jekyll blog now sits in GitHub, so why not use <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a> to host the site? There are some great benefits:</p>
-<ul>
-<li>Deployment is a breeze to set up.</li>
-<li>It's a managed platform so you just don't need to worry about maintenance and security as you would with your own infra.</li>
-<li>And, oh yeah, <strong>it's free!</strong></li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-pros-and-cons">The Pros and Cons<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#the-pros-and-cons" class="hash-link" aria-label="Direct link to The Pros and Cons" title="Direct link to The Pros and Cons">​</a></h3>
-<p>So now that we're migrated over, let's quickly summarize the key benefits:</p>
-<ul>
-<li><strong>Free:</strong> Costs for our blog are now a pleasing $0.</li>
-<li><strong>Secure:</strong> We have eliminated a potential attack vector. No more password reset confirmation emails!</li>
-<li><strong>Powerful Tooling:</strong> There's a vast array of free and open source tools to lint and format Markdown.</li>
-<li><strong>Easy Editing:</strong> Choose any editor you like such as the awesome Visual Studio Code.</li>
-<li><strong>Versioned:</strong> All content is now under version control providing revision history, diffing and so on.</li>
-<li><strong>Collaborative:</strong> We can take contributions to the blog via GitHub's pull request mechanism.</li>
-<li><strong>Customizable:</strong> We have fine-grain control over the HTML and styling of posts using Jekyll themes.</li>
-<li><strong>Platform Agnostic:</strong> Markdown makes it trivial to migrate to any other platform in the future.</li>
-</ul>
-<p>OK, but what about the cons? 🤔 I have to tell you - I genuinely can't think of any! Sure, we don't have comments enabled now but as I understand it, Disqus has a <a href="https://help.disqus.com/en/articles/1935528-jekyll-installation-instructions" target="_blank" rel="noopener noreferrer">Jekyll integration</a> that we can turn on at some point. Seriously, feel free to ping me on <a href="https://twitter.com/willeastcott/" target="_blank" rel="noopener noreferrer">Twitter</a> if you think I'm missing something here. But I wish we had taken this step years ago.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-source-and-open-to-contributions">Open Source and Open to Contributions<a href="https://blog.playcanvas.com/moving-from-wordpress-to-jekyll-a-case-study#open-source-and-open-to-contributions" class="hash-link" aria-label="Direct link to Open Source and Open to Contributions" title="Direct link to Open Source and Open to Contributions">​</a></h3>
-<p>As mentioned, the blog is now on <a href="https://github.com/playcanvas/blog" target="_blank" rel="noopener noreferrer">GitHub</a>. Take a moment to go check out the repository and hit that Star button if you like what we've done here. ⭐ We've taken the step to open source the blog's content under an <a href="https://github.com/playcanvas/blog/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">Attribution-NonCommercial 4.0 International</a> license. This is part of our continuing drive to open source most of what we do.</p>
-<p>Ultimately, we want <strong>you</strong> to get involved and help us make the blog better and better over time. Consider submitting issues and pull requests yourself.</p>
-<ul>
-<li>Submit spelling and grammar fixes.</li>
-<li>Submit design tweaks and improvements.</li>
-<li>Submit your own posts showcasing your PlayCanvas projects.</li>
-</ul>
-<p>It's your blog! 😊</p>
-<p>That's all from me. Looking forward to many-a-future blogs posts on this new platform. 👋</p>]]></content:encoded>
-            <category>jekyll</category>
-            <category>wordpress</category>
-            <category>github</category>
         </item>
     </channel>
 </rss>
