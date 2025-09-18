@@ -69,7 +69,7 @@ Unbundled SOG scenes (`.json` + `.webp`) are not natively supported in the Edito
 
 ### Open Sourcing SOG
 
-Today, we are officially open sourcing the [specification for SOG](https://developer.playcanvas.com/user-manual/gaussian-splatting/formats/sog/). The [SplatTransform](https://github.com/playcanvas/splat-transform) provides a reference writer for the format. And the [PlayCanvas Engine](https://github.com/playcanvas/engine) provides a reference implementation for loading and rendering SOG.
+Today, we are officially open sourcing the [specification for SOG](https://developer.playcanvas.com/user-manual/gaussian-splatting/formats/sog/). [SplatTransform](https://github.com/playcanvas/splat-transform) provides a reference writer for the format. And the [PlayCanvas Engine](https://github.com/playcanvas/engine) provides a reference implementation for loading and rendering SOG.
 
 We encourage other engine and tools developers to integrate support for SOG into your products/projects. And we invite the open source community to join our open source effort and contribute to PlayCanvas' codebases in any way that you can.
 
