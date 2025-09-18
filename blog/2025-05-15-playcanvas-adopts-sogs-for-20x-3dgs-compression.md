@@ -9,6 +9,8 @@ tags:
 
 Today, we are releasing [PlayCanvas Engine 2.7.5](https://github.com/playcanvas/engine/releases/tag/v2.7.5) that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). **SOGS can reduce 3DGS data by over 20x.**
 
+<!-- truncate -->
+
 To showcase PlayCanvas' support for SOGS, we have collaborated with [Christoph Schindelar](https://www.linkedin.com/in/christoph-schindelar-79515351/) to build a technical demo:
 
 <div className="iframe-container">
@@ -18,8 +20,6 @@ To showcase PlayCanvas' support for SOGS, we have collaborated with [Christoph S
 _**[RUN FULLSCREEN IN A NEW TAB](https://playcanv.as/p/Zp9Oh1ia/)**_
 
  The church scene above was originally a **1GB PLY file containing 4 million Gaussians** - not at all suitable for the web or mobile! **Using SOGS, we can serve up the scene in just 55MB!** Read on to find out how.
-
-<!-- truncate -->
 
 ### Introduction to Self-Organizing Gaussians
 
