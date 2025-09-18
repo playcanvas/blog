@@ -1,7 +1,7 @@
 ---
 authors: will
 slug: playcanvas-open-sources-sog-format-for-gaussian-splatting
-title: "PlayCanvas Open Sources SOG Format for Gaussian Splatting"
+title: "PlayCanvas Open Sources SOG: The WebP of Gaussian Splatting"
 tags:
   - gaussian-splats
 ---
