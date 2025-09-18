@@ -60,7 +60,7 @@ Bundled SOG files (`.sog`) are now natively supported in the PlayCanvas Editor! 
 Dragging the `gsplat` asset into the viewport triggers the creation of a new `Entity` with the asset assigned to a `GSplatComponent`.
 
 :::info
-Unbunded SOG scenes (`.json` + `.webp`) are not natively supported in the Editor. Stick to `.sog`!
+Unbundled SOG scenes (`.json` + `.webp`) are not natively supported in the Editor. Stick to `.sog`!
 :::
 
 ### SuperSplat Support for SOG
