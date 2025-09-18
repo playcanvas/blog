@@ -10,7 +10,7 @@ Goodbye SOGS. Hello SOG! 👋
 
 Back in May, [PlayCanvas announced support for SOGS](https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression), a revolutionary super-compressed format for 3D Gaussian splats. While SOGS was a huge leap beyond other compression techniques, we were still not satisfied! So we set about designing a new and improved iteration of the format.
 
-Today, we are proud to introduce SOG: Spatially Ordered Gaussians.
+Today, we are proud to introduce **SOG: Spatially Ordered Gaussians**.
 
 <div className="iframe-container">
     <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=964b09c1"></iframe>
