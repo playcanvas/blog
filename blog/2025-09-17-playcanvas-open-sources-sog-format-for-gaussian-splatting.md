@@ -18,7 +18,7 @@ Today, we are proud to introduce **SOG: Spatially Ordered Gaussians**.
 
 <!-- truncate -->
 
-The Skate Park above was scanned by [Christoph Schindelar](https://www.linkedin.com/in/christoph-schindelar-79515351/). It has 4 million Gaussians but is compressed to a mere 42MB with SOG. The original PLY was 1GB, meaning a **~95% reduction** in file size.
+_The Skate Park above is not a video!_ Navigate around the scene and explore! The splat was scanned by [Christoph Schindelar](https://www.linkedin.com/in/christoph-schindelar-79515351/). It has 4 million Gaussians but is compressed to a mere 42MB with SOG. The original PLY was 1GB, meaning a **~95% reduction** in file size.
 
 ### What is SOG
 
