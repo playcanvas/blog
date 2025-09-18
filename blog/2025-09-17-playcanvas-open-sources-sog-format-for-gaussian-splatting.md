@@ -65,7 +65,7 @@ Unbundled SOG scenes (`.json` + `.webp`) are not natively supported in the Edito
 
 ### SuperSplat Support for SOG
 
-[SuperSplat](https://superspl.at/), the #1 platform publishing 3D Gaussian Splats, has been updated to compressed your scans with SOG. Since it provides around **2-3x** the compression of Compressed PLY, your creations will load far faster and will load on more memory constrained devices.
+[SuperSplat](https://superspl.at/), the #1 platform publishing 3D Gaussian Splats, has been updated to compress your scans with SOG. Since it provides around **2-3x** the compression of Compressed PLY, your creations will load much faster and will load on more memory constrained devices.
 
 ### Open Sourcing SOG
 
