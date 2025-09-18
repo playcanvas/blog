@@ -81,3 +81,7 @@ We would like to recognize the work of some incredible people from the open sour
 * [Vincent Woo](https://vincentwoo.com/) who did the original integration of SOGS into PlayCanvas.
 
 Let's continue this tradition and work together to keep 3DGS technology free and open source.
+
+### Come and Meet Us Today
+
+If you want to chat about SOG, SuperSplat or 3D Gaussian Splatting in general, then you _have_ to join the [PlayCanvas Discord Server](https://discord.gg/RSaMRzg). Some of the world's premier splat creators hang out there, so come and join the conversation!
