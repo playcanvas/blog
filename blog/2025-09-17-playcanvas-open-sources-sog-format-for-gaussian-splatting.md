@@ -22,10 +22,10 @@ _The Skate Park above is not a video!_ Navigate around the scene and explore! Th
 
 ### What is SOG
 
-SOG shares a great deal in common with its predecessor. It is still a `meta.json` file that reference multiple `.webp` images. So what's new and why is it better?
+SOG shares a great deal in common with its predecessor. It is still a `meta.json` file that references multiple `.webp` images. So what's new and why is it better?
 
 📦 **More convenient:** Your SOG splats can now also be written to a single `.sog` file  
-⚡ **Faster to load:** SOG stores splat data in Morton order meaning its 'GPU-ready' and doesn't require processing on load  
+⚡ **Faster to load:** SOG stores splat data in Morton order meaning it's 'GPU-ready' and doesn't require processing on load  
 🗜️ **Easier to compress:** SOGS compression required CUDA but SOG only needs WebGPU so it runs anywhere  
 🎯 **More precision:** SOG minimizes compression artifacts by making smarter use of the same number of bits
 
@@ -65,7 +65,7 @@ Unbundled SOG scenes (`.json` + `.webp`) are not natively supported in the Edito
 
 ### SuperSplat Support for SOG
 
-[SuperSplat](https://superspl.at/), the #1 platform publishing 3D Gaussian Splats, has been updated to compress your scans with SOG. Since it provides around **2-3x** the compression of Compressed PLY, your creations will load much faster and will load on more memory constrained devices.
+[SuperSplat](https://superspl.at/), the #1 platform for publishing 3D Gaussian Splats, has been updated to compress your scans with SOG. Since it provides around **2-3x** the compression of Compressed PLY, your creations will load much faster and will load on more memory constrained devices.
 
 ### Open Sourcing SOG
 
