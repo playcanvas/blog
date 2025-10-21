@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([[89205],{29536:a=>{a.exports=JSON.parse('{"tag":{"label":"pcui","permalink":"/tags/pcui","allTagsPath":"/tags","count":4,"unlisted":false},"listMetadata":{"permalink":"/tags/pcui","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
