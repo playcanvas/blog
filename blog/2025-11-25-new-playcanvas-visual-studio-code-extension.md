@@ -15,7 +15,7 @@ Today we are unveiling our new [PlayCanvas VSCode Extension](https://github.com/
 The PlayCanvas VS Code Extension is a realtime editing environment for text-based assets from the [PlayCanvas Editor](https://github.com/playcanvas/editor) platform.
 
 :::note Open Source
-The PlayCanvas Editor Frontend is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/editor)
+The PlayCanvas VS Code Extension is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/vscode-extension)
 :::
 
 <!-- truncate -->
