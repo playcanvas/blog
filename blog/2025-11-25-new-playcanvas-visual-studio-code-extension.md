@@ -24,7 +24,6 @@ The PlayCanvas Editor Frontend is [open-sourced under an MIT license on GitHub](
 
 ### 🚀 Overview
 
-
 This release represents a major step forward from the previous version of the PlayCanvas VS Code Extension — bringing **deeper integration, improved collaboration, and stronger developer tooling**.
 
 Here’s what’s new:
