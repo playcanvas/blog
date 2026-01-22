@@ -27,8 +27,6 @@ We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an
 
 [Voxelo.ai](https://voxelo.ai) has just released Voxelo 2.0 in beta.
 
-![Voxelo Platform](/img/voxelo-platform.png)
-
 **How did you first discover PlayCanvas?**
 
 *Roman*: PlayCanvas kept coming up whenever we looked at high-performance, production-grade 3D viewers. As soon as we started testing real-time viewers for high-fidelity 3D assets, it became clear that PlayCanvas was setting the benchmark for performance and advanced features.
@@ -42,6 +40,8 @@ We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an
 *Roman*: We tested plenty of alternatives, but PlayCanvas consistently delivered better frame rates, lower memory usage, and a more robust engine-level architecture. For a commercial platform like [Voxelo.ai](https://voxelo.ai), that reliability is critical. Add to that its open-source nature and flexibility - it fits perfectly with our ambitious roadmap and avoids locking us into rigid development models.
 
 **Let’s talk about Voxelo.ai. In your own words, what is Voxelo.ai and what problem does it solve?**
+
+![Voxelo Platform](/img/voxelo-platform.png)
 
 *Ben*: [Voxelo.ai](https://voxelo.ai) is building a new type of AI content studio, with 3D at its heart. Our goal is to close the buyer confidence gap by bringing people closer to a product’s features and benefits through better product content.
 
