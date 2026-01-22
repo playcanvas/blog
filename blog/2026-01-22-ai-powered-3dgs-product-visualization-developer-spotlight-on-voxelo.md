@@ -26,7 +26,7 @@ We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an
 * **Roman Bromidge, CTO** (ex-founder of Kaedim, a 3D AI start-up)
 * **Ben McKay, COO** (ex-WPP agency and product leader)
 
-[Voxelo.ai](https://voxelo.ai) is releasing Voxelo.ai 2.0 in beta from **21st January.**
+[Voxelo.ai](https://voxelo.ai) is releasing Voxelo.ai 2.0 in beta from **21st January 2026.**
 
 ![Voxelo Platform](/img/voxelo-platform.png)
 
@@ -64,7 +64,7 @@ With a digital twin, customers can create interactive 3D models, AR experiences,
 
 **How does Voxelo.ai make 3D content more accessible for non-technical users?**
 
-*Ben*: We obsess over workflow simplicity. Users don’t need to understand meshes, textures, or rendering pipelines. They upload a ~3-minute video, Voxelo processes it, and they get a web-ready 3D + AR experience straight out of the box.
+*Ben*: We obsess over workflow simplicity. Users don’t need to understand meshes, textures, or rendering pipelines. They upload a 3–4 minute video, Voxelo processes it, and they get a web-ready 3D + AR experience straight out of the box.
 
 Creation, processing, and publishing are all just a few clicks. We want solo entrepreneurs wearing multiple hats to feel just as comfortable as global retailers.
 
@@ -104,7 +104,7 @@ For some of the more involved functionalities, like our AR viewer and splat edit
 
 **Can you share any interesting performance optimizations you’ve implemented?**
 
-*Roman*: The greatest satisfaction came from the enormous performance gains we achieved over our previous 3D viewer implementation. We more than doubled the frame rate, and by leveraging PlayCanvas' SOG format, our 3D files are now a third of the size of our already compressed previous format. We've seen a 95%+ reduction in file size for the SOG file versus the raw PLY output from our 3D AI reconstruction process. It's amazing how a few simple, often overlooked things can dramatically improve performance; it just goes to show that thoroughly reading the documentation is always worthwhile. For instance, turning off anti-aliasing for our PlayCanvas app significantly boosts performance when rendering Gaussian splats—one little flag made a huge difference!
+*Roman*: The greatest satisfaction came from the enormous performance gains we achieved over our previous 3D viewer implementation. We more than doubled the frame rate, and by leveraging PlayCanvas' [SOG format](/blog/playcanvas-open-sources-sog-format-for-gaussian-splatting), our 3D files are now a third of the size of our already compressed previous format. We've seen a 95%+ reduction in file size for the SOG file versus the raw PLY output from our 3D AI reconstruction process. It's amazing how a few simple, often overlooked things can dramatically improve performance; it just goes to show that thoroughly reading the documentation is always worthwhile. For instance, turning off anti-aliasing for our PlayCanvas app significantly boosts performance when rendering Gaussian splats—one little flag made a huge difference!
 
 **Voxelo.ai has recently launched - how has the feedback been so far?**
 
@@ -162,6 +162,6 @@ That shift unlocks a future where 3D isn’t a novelty or a campaign asset, but 
 
 **What’s one message you want to leave with our readers?**
 
-*Ben*: 3D has tried to break through before - but this time, it feels a little different. The tech is ready, costs are dropping dramatically and growing numbers of communities are rallying. And now, AI has blown the doors open on creative potential. Interactive, ultra-real 3D and AI is no longer coming - it’s here - and Voxelo are all in on re-imagining how this impacts new digital experiences. Huge thanks to the community for the support!
+*Ben*: 3D has tried to break through before - but this time, it feels a little different. The tech is ready, costs are dropping dramatically and growing numbers of communities are rallying. And now, AI has blown the doors open on creative potential. Interactive, ultra-real 3D and AI is no longer coming - it’s here - and Voxelo is all in on re-imagining how this impacts new digital experiences. Huge thanks to the community for the support!
 
 **Thanks for chatting with us, Vlad, Roman and Ben!**
