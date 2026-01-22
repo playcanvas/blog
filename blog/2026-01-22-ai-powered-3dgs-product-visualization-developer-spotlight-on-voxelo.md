@@ -12,9 +12,8 @@ Welcome to the sixth edition of Developer Spotlight, a series of blog articles w
 
 Today, we are excited to be joined by Vladimir, Roman and Ben from [Voxelo](https://voxelo.ai).
 
-![Voxelo Team](/img/voxelo-team.png)
-
-*Ben McKay, COO (Left), Vladimir Mulhem, CEO (Center), Roman Bromidge, CTO (Right)*
+![Voxelo Team](/img/voxelo-team.png)  
+_Ben McKay, COO (Left), Vladimir Mulhem, CEO (Center), Roman Bromidge, CTO (Right)_
 
 <!-- truncate -->
 
