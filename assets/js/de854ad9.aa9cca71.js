@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_playcanvas_blog=globalThis.webpackChunk_playcanvas_blog||[]).push([[84091],{28124:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/page/4","page":4,"postsPerPage":10,"totalPages":25,"totalCount":247,"previousPage":"/page/3","nextPage":"/page/5","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
