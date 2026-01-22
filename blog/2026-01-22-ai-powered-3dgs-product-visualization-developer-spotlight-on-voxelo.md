@@ -2,7 +2,6 @@
 authors: will
 slug: ai-powered-3dgs-product-visualization-developer-spotlight-on-voxelo
 title: "AI-Powered 3DGS Product Visualization - Developer Spotlight on Voxelo"
-unlisted: true
 tags:
   - gaussian-splats
   - spotlight
