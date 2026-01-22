@@ -14,19 +14,19 @@ Today, we are excited to be joined by Vladimir, Roman and Ben from [Voxelo](http
 
 ![Voxelo Team](/img/voxelo-team.png)
 
-*Ben McKay, COO (Left), [Vladimir Mulhem](mailto:vladimir.mulhem@voxelo.ai), CEO (Center), Roman Bromidge, CTO (Right)*
+*Ben McKay, COO (Left), Vladimir Mulhem, CEO (Center), Roman Bromidge, CTO (Right)*
 
 <!-- truncate -->
 
 **Welcome to our Developer Spotlight! Tell us a bit about yourselves.**
 
-We’re the team behind a new solution - [**Voxelo.ai**](http://voxelo.ai) - an ambitious group of engineers and product builders with backgrounds spanning 3D, AI, e-commerce and marketing. We’ve spent years working across web-based 3D, product visualization, and content production, and Voxelo.ai grew out of a shared frustration: e-commerce product experiences haven’t evolved nearly enough, and traditional 3D production is still too slow, expensive, and specialist-heavy.
+We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an ambitious group of engineers and product builders with backgrounds spanning 3D, AI, e-commerce and marketing. We’ve spent years working across web-based 3D, product visualization, and content production, and Voxelo.ai grew out of a shared frustration: e-commerce product experiences haven’t evolved nearly enough, and traditional 3D production is still too slow, expensive, and specialist-heavy.
 
   * **Vladimir Mulhem, CEO** (ex-founder of 3D agency Creative Content Works)
   * **Roman Bromidge, CTO** (ex-founder of Kaedim, a 3D AI start-up)
   * **Ben McKay, COO** (ex-WPP agency and product leader)
 
-[Voxelo.ai](http://voxelo.ai) is releasing Voxelo.ai 2.0 in beta from **21st January.**
+[Voxelo.ai](https://voxelo.ai) is releasing Voxelo.ai 2.0 in beta from **21st January.**
 
 ![Voxelo Platform](/img/voxelo-platform.png)
 
@@ -40,13 +40,13 @@ We’re the team behind a new solution - [**Voxelo.ai**](http://voxelo.ai) - an 
 
 *Ben*: Customers are king. That’s always the starting point. Our customers are e-commerce businesses where CX and web performance directly impact sales, so we have to maximize visual fidelity without compromising performance. Anything less than industry-leading simply isn’t good enough.
 
-*Roman*: We tested plenty of alternatives, but PlayCanvas consistently delivered better frame rates, lower memory usage, and a more robust engine-level architecture. For a commercial platform like [Voxelo.ai](http://voxelo.ai), that reliability is critical. Add to that its open-source nature and flexibility - it fits perfectly with our ambitious roadmap and avoids locking us into rigid development models.
+*Roman*: We tested plenty of alternatives, but PlayCanvas consistently delivered better frame rates, lower memory usage, and a more robust engine-level architecture. For a commercial platform like [Voxelo.ai](https://voxelo.ai), that reliability is critical. Add to that its open-source nature and flexibility - it fits perfectly with our ambitious roadmap and avoids locking us into rigid development models.
 
 **Let’s talk about Voxelo.ai. In your own words, what is Voxelo.ai and what problem does it solve?**
 
-*Ben*: [Voxelo.ai](http://voxelo.ai) is building a new type of AI content studio, with 3D at its heart. Our goal is to close the buyer confidence gap by bringing people closer to a product’s features and benefits through better product content.
+*Ben*: [Voxelo.ai](https://voxelo.ai) is building a new type of AI content studio, with 3D at its heart. Our goal is to close the buyer confidence gap by bringing people closer to a product’s features and benefits through better product content.
 
-We start by turning simple product videos and images into ultra-realistic 3D digital twins - optimised Gaussian splats. We listened closely to e-commerce businesses and designed a user generated 3D workflow that lets them access the benefits of 3D without expensive equipment, specialist skills, long timelines, or big budgets. That’s a huge unlock for e-commerce. We refer to it as [UG3D®](https://www.voxelo.ai/) to underline the accessibility of this new format.
+We start by turning simple product videos and images into ultra-realistic 3D digital twins - optimised Gaussian splats. We listened closely to e-commerce businesses and designed a user-generated 3D workflow that lets them access the benefits of 3D without expensive equipment, specialist skills, long timelines, or big budgets. That’s a huge unlock for e-commerce. We refer to it as [UG3D®](https://www.voxelo.ai/) to underline the accessibility of this new format.
 
 This serves two major needs.
 
@@ -64,7 +64,7 @@ With a digital twin, customers can create interactive 3D models, AR experiences,
 
 **How does Voxelo.ai make 3D content more accessible for non-technical users?**
 
-*Ben*: We obsess over workflow simplicity. Users don’t need to understand meshes, textures, or rendering pipelines. They upload a ~3 minute video, Voxelo processes it, and they get a web-ready 3D + AR experience straight out of the box.
+*Ben*: We obsess over workflow simplicity. Users don’t need to understand meshes, textures, or rendering pipelines. They upload a ~3-minute video, Voxelo processes it, and they get a web-ready 3D + AR experience straight out of the box.
 
 Creation, processing, and publishing are all just a few clicks. We want solo entrepreneurs wearing multiple hats to feel just as comfortable as global retailers.
 
@@ -72,15 +72,15 @@ Creation, processing, and publishing are all just a few clicks. We want solo ent
 
 *Roman*: The pipeline is intentionally simple:
 
-  * Shoot a 3-4 minute product video (most people use mobile phones, but DSLR are great too)
-  * Upload it to [Voxelo.ai](http://voxelo.ai)
+  * Shoot a 3–4 minute product video (most people use mobile phones, but DSLRs are great too)
+  * Upload it to [Voxelo.ai](https://voxelo.ai)
   * Publish your product in 3D and AR
 
-With more advanced AI features on the way. From there, we can also generate classic e-commerce imagery and lifestyle shots, all powered by the same 3D digital twin.
+More advanced AI features are on the way. From there, we can also generate classic e-commerce imagery and lifestyle shots, all powered by the same 3D digital twin.
 
 **Can you give an example of how Voxelo.ai is being used effectively today?**
 
-*Ben*: We’re seeing strong traction in e-commerce product visualization, especially in categories where detail and realism matter, specifically fashion, footwear, furniture, and homeware.
+*Ben*: We’re seeing strong traction in e-commerce product visualization, especially in categories where detail and realism matter—fashion, footwear, furniture, and homeware.
 
 Early customers include major brands and retailers like Cosatto and SportShoes.com that are looking for scalability without compromising on the quality.
 
@@ -88,7 +88,7 @@ Early customers include major brands and retailers like Cosatto and SportShoes.c
     <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://app.voxelo.ai/viewer/md7aja12f2x9csfkjkdamc1sdh7z6cv2"></iframe>
 </div>
 
-We see the greatest need, though, with mid-sized companies who are looking for a customer experience edge but haven’t had the budgets for costly 3D production previously. These have included emerging fashion designers like BEPO who turn military parachutes into designer clothing or Recondition who make jeans for people with mobility challenges. Or manufacturers, like Eden Play, who need help showcasing the quality of their hand-crafted playground equipment. Each has a story to tell and 3D can help.
+We see the greatest need, though, with mid-sized companies who are looking for a customer experience edge but haven’t had the budgets for costly 3D production previously. These have included emerging fashion designers like BEPO, who turn military parachutes into designer clothing, or Recondition, who make jeans for people with mobility challenges. Or manufacturers, like Eden Play, who need help showcasing the quality of their hand-crafted playground equipment. Each has a story to tell and 3D can help.
 
 And the applications keep expanding. From cars to cushions, pottery to plants, sofas to shoes - when cost, complexity, and time drop this much, 3D is no longer reserved for only big-ticket items.
 
@@ -104,7 +104,7 @@ For some of the more involved functionalities, like our AR viewer and splat edit
 
 **Can you share any interesting performance optimizations you’ve implemented?**
 
-*Roman*: The greatest satisfaction came from the enormous performance gains we achieved over our previous 3D viewer implementation. We more than doubled the frame rate, and by leveraging PlayCanvas' SOG format, our 3D files are now a third of the size of our already compressed previous format. We've seen a 95%+ reduction in file size for the SOG file versus the raw PLY output from our 3D AI reconstruction process. It's amazing how a few simple, often overlooked things can dramatically improve performance; it just goes to show that thoroughly reading the documentation is always worthwhile. For instance, turning off anti-aliasing for our PlayCanvas app significantly boosts performance when rendering Gaussian splats-one little flag made a huge difference!
+*Roman*: The greatest satisfaction came from the enormous performance gains we achieved over our previous 3D viewer implementation. We more than doubled the frame rate, and by leveraging PlayCanvas' SOG format, our 3D files are now a third of the size of our already compressed previous format. We've seen a 95%+ reduction in file size for the SOG file versus the raw PLY output from our 3D AI reconstruction process. It's amazing how a few simple, often overlooked things can dramatically improve performance; it just goes to show that thoroughly reading the documentation is always worthwhile. For instance, turning off anti-aliasing for our PlayCanvas app significantly boosts performance when rendering Gaussian splats—one little flag made a huge difference!
 
 **Voxelo.ai has recently launched - how has the feedback been so far?**
 
@@ -114,7 +114,7 @@ Some of the early feedback has been usability-focused - things like making the c
 
 **Who do you see as the ideal audience or customer for Voxelo.ai?**
 
-*Ben*: Our initial hypothesis was that SME retailers - particularly in footwear, fashion, furniture, and homeware - would benefit most from [Voxelo.ai](http://voxelo.ai). That’s still very much true. But the biggest surprise has been the level of enterprise interest.
+*Ben*: Our initial hypothesis was that SME retailers - particularly in footwear, fashion, furniture, and homeware - would benefit most from [Voxelo.ai](https://voxelo.ai). That’s still very much true. But the biggest surprise has been the level of enterprise interest.
 
 Large brands are wrestling with the same questions: *How do we create gold-standard PDPs (product detail pages)?* *How do we elevate our product experience and give us a competitive edge?*
 
@@ -138,7 +138,7 @@ Whilst we’re building for non-technical users, we’re also hearing that techn
 
 *Vlad*: We believe 3D will become **as standard as images and video**, especially in commerce. AI will continue to reduce costs and friction, while engines like PlayCanvas make delivery seamless across devices.
 
-*Roman*: In the future, I believe it will become standard to have a 3D digital twin of your products, available at any time for you to leverage to make new content and help understand your buyers. No more messy management of ten different content pipelines, no more figuring out which warehouse your stock is in so you can ship it to the photographer, no more lost sales because you couldn't quite realize your vision for how the product can be shown. Furthermore, with embedded 3D on your product page, you can understand your customer better than ever before: what exactly do customers look at on your product before they click buy? What do they spend the most time examining? With [Voxelo.ai](http://voxelo.ai), we're really excited because having a realistic 3D representation of your product enables so many more opportunities to improve buyer confidence and gain deeper understanding of your customers.
+*Roman*: In the future, I believe it will become standard to have a 3D digital twin of your products, available at any time for you to leverage to make new content and help understand your buyers. No more messy management of ten different content pipelines, no more figuring out which warehouse your stock is in so you can ship it to the photographer, no more lost sales because you couldn't quite realize your vision for how the product can be shown. Furthermore, with embedded 3D on your product page, you can understand your customer better than ever before: what exactly do customers look at on your product before they click buy? What do they spend the most time examining? With [Voxelo.ai](https://voxelo.ai), we're really excited because having a realistic 3D representation of your product enables so many more opportunities to improve buyer confidence and gain deeper understanding of your customers.
 
 *Ben*: I hope to see it across all web platforms...at least in the context of social commerce. It feels odd that the technology now exists, consumers want it and businesses need it. It has the potential to increase consumers' product comprehension, increase growth and reduce returns (and with it, reduce carbon footprint)...and yet. Surely, it’s just around the corner. Surely.
 
@@ -158,7 +158,7 @@ That shift unlocks a future where 3D isn’t a novelty or a campaign asset, but 
 
 *Roman*: The most rewarding part has been building all the exciting ways for users to leverage their 3D digital twin. From my background as co-founder of Kaedim, I understood that 3D is critical for so many industries, yet so underutilized because of its cost and difficulty. Now, I'm really excited to enable new generations of creatives to transform their products into 3D and from there into anything they can imagine.
 
-*Ben*: Just to add…seeing users create compelling 3D experiences without needing to become 3D experts. That moment when something complex suddenly feels easy is exactly why we built [Voxelo.ai](http://voxelo.ai)…and will continue to build in a way that grows buyer confidence.
+*Ben*: Just to add…seeing users create compelling 3D experiences without needing to become 3D experts. That moment when something complex suddenly feels easy is exactly why we built [Voxelo.ai](https://voxelo.ai)…and will continue to build in a way that grows buyer confidence.
 
 **What’s one message you want to leave with our readers?**
 
