@@ -82,7 +82,7 @@ More advanced AI features are on the way. From there, we can also generate class
 Early customers include major brands and retailers like Cosatto and SportShoes.com that are looking for scalability without compromising on the quality.
 
 <div className="iframe-container">
-    <iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://app.voxelo.ai/viewer/md7aja12f2x9csfkjkdamc1sdh7z6cv2"></iframe>
+    <iframe loading="lazy" src="https://app.voxelo.ai/viewer/md7aja12f2x9csfkjkdamc1sdh7z6cv2" title="Voxelo.ai 3D Product Viewer" allow="fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
 </div>
 
 We see the greatest need, though, with mid-sized companies who are looking for a customer experience edge but haven’t had the budgets for costly 3D production previously. These have included emerging fashion designers like BEPO, who turn military parachutes into designer clothing, or Recondition, who make jeans for people with mobility challenges. Or manufacturers, like Eden Play, who need help showcasing the quality of their hand-crafted playground equipment. Each has a story to tell and 3D can help.
@@ -103,11 +103,19 @@ For some of the more involved functionalities, like our AR viewer and splat edit
 
 *Roman*: The greatest satisfaction came from the enormous performance gains we achieved over our previous 3D viewer implementation. We more than doubled the frame rate, and by leveraging PlayCanvas' [SOG format](/playcanvas-open-sources-sog-format-for-gaussian-splatting), our 3D files are now a third of the size of our already compressed previous format. We've seen a 95%+ reduction in file size for the SOG file versus the raw PLY output from our 3D AI reconstruction process. It's amazing how a few simple, often overlooked things can dramatically improve performance; it just goes to show that thoroughly reading the documentation is always worthwhile. For instance, turning off anti-aliasing for our PlayCanvas app significantly boosts performance when rendering Gaussian splats—one little flag made a huge difference!
 
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://app.voxelo.ai/viewer/md7fq8htbf3j32vvan94xv36p17vr4vn" title="Voxelo.ai 3D Product Viewer" allow="fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+</div>
+
 **Voxelo.ai has recently launched - how has the feedback been so far?**
 
 *Ben*: The feedback has been really encouraging. We’ve been open and transparent with users from day one, building *with* them rather than just *for* them. That partnership approach has been invaluable - it’s helped us effectively map out the next three years of product features and value (on top of plenty of ideas we already had ourselves).
 
 Some of the early feedback has been usability-focused - things like making the capture process more intuitive, or improving guidance and help resources. But the most exciting feedback has been around our direction and ambition: users are asking for even more features, recognizing the recent performance gains (especially since deploying PlayCanvas), and calling out the jump in visual fidelity - in many cases comparable to high-quality e-commerce product photography.
+
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://app.voxelo.ai/viewer/md74wqcrsvfmp5055jthr3dy397xgkjq" title="Voxelo.ai 3D Product Viewer" allow="fullscreen; xr-spatial-tracking" allowfullscreen></iframe>
+</div>
 
 **Who do you see as the ideal audience or customer for Voxelo.ai?**
 
