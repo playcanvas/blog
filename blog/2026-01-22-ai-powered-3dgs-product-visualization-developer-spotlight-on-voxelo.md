@@ -14,18 +14,16 @@ Welcome to the sixth edition of Developer Spotlight, a series of blog articles w
     <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ERnS5agXBkk" title="Voxelo.ai - AI-Powered 3DGS Product Visualization" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Today, we are excited to be joined by Vladimir, Roman and Ben from [Voxelo](https://voxelo.ai).
+Today, we are excited to be joined by Vladimir, Roman and Ben from [Voxelo](https://voxelo.ai) as they celebrate the beta release of [Voxelo.ai](https://voxelo.ai) 2.0.
 
 <!-- truncate -->
 
 **Welcome to our Developer Spotlight! Tell us a bit about yourselves.**
 
-We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an ambitious group of engineers and product builders with backgrounds spanning 3D, AI, e-commerce and marketing. We’ve spent years working across web-based 3D, product visualization, and content production, and Voxelo.ai grew out of a shared frustration: e-commerce product experiences haven’t evolved nearly enough, and traditional 3D production is still too slow, expensive, and specialist-heavy.
+*Vlad*: We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an ambitious group of engineers and product builders with backgrounds spanning 3D, AI, e-commerce and marketing. We’ve spent years working across web-based 3D, product visualization, and content production, and Voxelo.ai grew out of a shared frustration: e-commerce product experiences haven’t evolved nearly enough, and traditional 3D production is still too slow, expensive, and specialist-heavy.
 
 ![Voxelo Team](/img/voxelo-team.png)  
 *Left to right: Ben McKay, COO (ex-WPP agency and product leader); Vladimir Mulhem, CEO (ex-founder of 3D agency Creative Content Works); Roman Bromidge, CTO (ex-founder of Kaedim, a 3D AI start-up)*
-
-[Voxelo.ai](https://voxelo.ai) has just released Voxelo 2.0 in beta.
 
 **How did you first discover PlayCanvas?**
 
