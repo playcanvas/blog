@@ -44,10 +44,10 @@ These upgrades make the extension faster, smarter, and better aligned with moder
 3. Open the Command Palette (`Ctrl`/`Cmd` + `P`) and run `PlayCanvas: Open Project`.  
 4. Start editing — your changes appear instantly in the PlayCanvas Editor.
 
-| Editor  | Supported |
+| Editor | Supported |
 | -------- | ---------- |
-| VS Code  | ✅ |
-| Cursor   | ✅ |
+| VS Code | ✅ |
+| Cursor | ✅ |
 
 ---
 
