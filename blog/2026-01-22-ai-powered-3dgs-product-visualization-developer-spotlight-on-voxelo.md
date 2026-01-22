@@ -22,9 +22,9 @@ Today, we are excited to be joined by Vladimir, Roman and Ben from [Voxelo](http
 
 We’re the team behind a new solution - [**Voxelo.ai**](https://voxelo.ai) - an ambitious group of engineers and product builders with backgrounds spanning 3D, AI, e-commerce and marketing. We’ve spent years working across web-based 3D, product visualization, and content production, and Voxelo.ai grew out of a shared frustration: e-commerce product experiences haven’t evolved nearly enough, and traditional 3D production is still too slow, expensive, and specialist-heavy.
 
-  * **Vladimir Mulhem, CEO** (ex-founder of 3D agency Creative Content Works)
-  * **Roman Bromidge, CTO** (ex-founder of Kaedim, a 3D AI start-up)
-  * **Ben McKay, COO** (ex-WPP agency and product leader)
+* **Vladimir Mulhem, CEO** (ex-founder of 3D agency Creative Content Works)
+* **Roman Bromidge, CTO** (ex-founder of Kaedim, a 3D AI start-up)
+* **Ben McKay, COO** (ex-WPP agency and product leader)
 
 [Voxelo.ai](https://voxelo.ai) is releasing Voxelo.ai 2.0 in beta from **21st January.**
 
@@ -72,9 +72,9 @@ Creation, processing, and publishing are all just a few clicks. We want solo ent
 
 *Roman*: The pipeline is intentionally simple:
 
-  * Shoot a 3–4 minute product video (most people use mobile phones, but DSLRs are great too)
-  * Upload it to [Voxelo.ai](https://voxelo.ai)
-  * Publish your product in 3D and AR
+* Shoot a 3–4 minute product video (most people use mobile phones, but DSLRs are great too)
+* Upload it to [Voxelo.ai](https://voxelo.ai)
+* Publish your product in 3D and AR
 
 More advanced AI features are on the way. From there, we can also generate classic e-commerce imagery and lifestyle shots, all powered by the same 3D digital twin.
 
