@@ -23,7 +23,7 @@ This makes it easy to build educational walkthroughs, product showcases or guide
 
 The SuperSplat Viewer features a new **annotation navigation bar** that lets viewers cycle through all annotations in sequence. It's a great way to guide your audience through the key points of interest in your scene.
 
-Check out this interactive bumblebee by SuperSplat community member [Dany Bittel](https://superspl.at/user?id=danylyon) to see the new annotations in action:
+Check out this interactive honeybee by SuperSplat community member [Dany Bittel](https://superspl.at/user?id=danylyon) to see the new annotations in action:
 
 <div className="iframe-container">
     <iframe loading="lazy" src="https://superspl.at/s?id=3ae6a716" title="SuperSplat Viewer - Bumblebee" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
