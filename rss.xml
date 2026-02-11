@@ -4,10 +4,46 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Thu, 22 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Build Gaussian Splat Experiences with SuperSplat Studio]]></title>
+            <link>https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio</link>
+            <guid>https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio</guid>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today, we are thrilled to announce the launch of SuperSplat Studio — a brand new application for authoring interactive Gaussian splat-based experiences. Built on the SuperSplat platform, Studio takes your published splats to the next level, letting you craft rich, engaging presentations that tell a story.]]></description>
+            <content:encoded><![CDATA[<p>Today, we are thrilled to announce the launch of <strong>SuperSplat Studio</strong> — a brand new application for authoring interactive Gaussian splat-based experiences. Built on the <a href="https://superspl.at/" target="_blank" rel="noopener noreferrer" class="">SuperSplat</a> platform, Studio takes your published splats to the next level, letting you craft rich, engaging presentations that tell a story.</p>
+<div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/tiKw_VGytq8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-annotations-and-hotspots">📌 Annotations and Hotspots<a href="https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio#-annotations-and-hotspots" class="hash-link" aria-label="Direct link to 📌 Annotations and Hotspots" title="Direct link to 📌 Annotations and Hotspots" translate="no">​</a></h3>
+<p>SuperSplat Studio lets you place informational hotspots directly onto your splat. Each annotation consists of a title, a description and a camera viewpoint. When a viewer clicks a hotspot, the camera smoothly transitions to the saved viewpoint and reveals the annotation content.</p>
+<p>This makes it easy to build educational walkthroughs, product showcases or guided tours of your 3D scenes. Simply position your camera, click to place a hotspot and fill in the details. You can add up to 25 annotations per scene and reorder them however you like.</p>
+<p>The SuperSplat Viewer features a new <strong>annotation navigation bar</strong> that lets viewers cycle through all annotations in sequence. It's a great way to guide your audience through the key points of interest in your scene.</p>
+<p>Check out this interactive bumblebee by SuperSplat community member <a href="https://superspl.at/user?id=danylyon" target="_blank" rel="noopener noreferrer" class="">Dany Bittel</a> to see the new annotations in action:</p>
+<div class="iframe-container"><iframe loading="lazy" src="https://superspl.at/s?id=3ae6a716" title="SuperSplat Viewer - Bumblebee" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></div>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Click the hotspot markers or use the navigation bar at the top to explore each annotation!</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-post-effects">✨ Post Effects<a href="https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio#-post-effects" class="hash-link" aria-label="Direct link to ✨ Post Effects" title="Direct link to ✨ Post Effects" translate="no">​</a></h3>
+<p>Want your splats to really pop? SuperSplat Studio gives you access to a comprehensive set of post effects powered by the <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a>. Apply cinematic polish to your scenes with just a few clicks:</p>
+<ul>
+<li class=""><strong>Bloom</strong> — Add a soft glow to bright areas for a dreamy, cinematic look.</li>
+<li class=""><strong>Sharpen</strong> — Crisp up fine details and make your splats look razor sharp.</li>
+<li class=""><strong>Vignette</strong> — Darken the edges of the frame to draw the viewer's eye to the center.</li>
+<li class=""><strong>Color Grading</strong> — Fine-tune brightness, contrast, saturation and tint.</li>
+<li class=""><strong>Chromatic Fringing</strong> — Add a subtle lens fringing effect for extra realism.</li>
+</ul>
+<p>All effects update in real time as you tweak the sliders, so you can dial in the perfect look instantly.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-tonemapping-and-background">🎨 Tonemapping and Background<a href="https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio#-tonemapping-and-background" class="hash-link" aria-label="Direct link to 🎨 Tonemapping and Background" title="Direct link to 🎨 Tonemapping and Background" translate="no">​</a></h3>
+<p>SuperSplat Studio also gives you control over tonemapping and background color. Choose from a range of tonemapping operators including Linear, Filmic, ACES, ACES 2.0, Hejl and Neutral to get the tonal response you want. And set a custom background color to complement your scene or match your brand.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Bloom and other HDR-dependent effects require <strong>High Precision Rendering</strong> to be enabled. Toggle it on in the Scene settings panel to unlock the full range of post effects.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-get-started">🚀 Get Started<a href="https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio#-get-started" class="hash-link" aria-label="Direct link to 🚀 Get Started" title="Direct link to 🚀 Get Started" translate="no">​</a></h3>
+<p>Ready to create your first interactive splat experience? Upload and publish your splat via the <a href="https://superspl.at/editor" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor</a>, then visit your <a href="https://superspl.at/manage" target="_blank" rel="noopener noreferrer" class="">Manage page</a> and select the <strong>Edit</strong> icon to open it in SuperSplat Studio. From there, add annotations, apply post effects and make your splat shine. It's never been easier to build compelling 3D content for the web.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/build-gaussian-splat-experiences-with-supersplat-studio#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
+<p>We're incredibly excited to bring SuperSplat Studio to the community and we can't wait to see what you create with it!</p>
+<p>What features would you like to see next? Let us know on the <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content:encoded>
+            <category>gaussian-splats</category>
+            <category>supersplat</category>
+        </item>
         <item>
             <title><![CDATA[AI-Powered 3DGS Product Visualization - Developer Spotlight on Voxelo]]></title>
             <link>https://blog.playcanvas.com/ai-powered-3dgs-product-visualization-developer-spotlight-on-voxelo</link>
@@ -952,32 +988,6 @@ Learn how to quickly build stunning, interactive 3DGS applications today.</p>
             <category>gaussian-splats</category>
             <category>compression</category>
             <category>supersplat</category>
-        </item>
-        <item>
-            <title><![CDATA[Boost Your Efficiency: Editor gets Support for AVIF and WebP]]></title>
-            <link>https://blog.playcanvas.com/avif-webp-land-in-editor</link>
-            <guid>https://blog.playcanvas.com/avif-webp-land-in-editor</guid>
-            <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[AVIF + WebP Support]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="AVIF + WebP Support" src="https://blog.playcanvas.com/assets/images/avif-webp-icons-271d3c27d8eb8a53d6d51975a6b11976.png" width="1480" height="644" class="img_ev3q"></p>
-<p><strong>Today we're excited to announce that PlayCanvas now supports WebP and AVIF images natively in the editor. Two new, efficient image formats built for the web.</strong></p>
-<p>This is not just an exciting update for us but a game-changer for anyone looking to optimize their projects for faster load times and better quality.</p>
-<p>JPGs and PNGs have served us well. They're reliable and you can use them everywhere. AVIF and WebP are the new kids on the block. They offer better compression with a wider range of features like alpha channels, HDR and wide color gamut. But how do these formats work in practice and are they really that good? Let's dive in.</p>
-<p><em>Take a look at the following images:</em></p>
-<iframe src="https://codesandbox.io/embed/vmg4g3?fontsize=14&amp;hidenavigation=1&amp;theme=dark&amp;hidedevtools=1" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" title="react-compare-image (forked)" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-<p>They look strikingly similar, but the file size tells a different story. The AVIF image on the left has a file size of just 18Kb, and the JPG counterpart over 4 times larger at 74Kb! This level of compression is not just impressive on its own. When you're working on a project with multiple textures, switching to AVIF and WebP formats could considerably reduce your overall load time.</p>
-<p>What does this mean for you? Well, that's simple: it's all about efficiency and speed without sacrificing quality. Textures are one of the biggest assets in a 3D project and AVIF and WebP significantly reduce image sizes compared to traditional JPEGs and PNGs and that means faster load times and happier users. 🙌</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="avif-all-the-things">AVIF all the things?<a href="https://blog.playcanvas.com/avif-webp-land-in-editor#avif-all-the-things" class="hash-link" aria-label="Direct link to AVIF all the things?" title="Direct link to AVIF all the things?" translate="no">​</a></h4>
-<p>Ok, so browser support for AVIF is good, but not great according to <a href="https://caniuse.com/?search=avif" target="_blank" rel="noopener noreferrer" class="">caniuse</a>, so always <a href="https://dev.to/nucliweb/detect-avif-image-support-to-use-in-your-css-4pen" target="_blank" rel="noopener noreferrer" class="">check support</a> and use the right format for your users. Different formats are better suited for different content. It's not a one-size-fits-all solution, so we encourage you to explore various options and choose the one best for you.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-started">Getting Started<a href="https://blog.playcanvas.com/avif-webp-land-in-editor#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started" translate="no">​</a></h4>
-<p>Easy! Just start uploading your AVIF and WebP files into the Asset Panel, and for those of you wanting to convert your existing assets, you can now right-click on your asset in the Asset Panel and quickly convert your asset into a PNG, JPG, WebP or an AVIF.</p>
-<p><img decoding="async" loading="lazy" alt="Quick Convert" src="https://blog.playcanvas.com/assets/images/convert-animation-491144499116327bf154dfb8ad1b60c8.gif" width="1000" height="513" class="img_ev3q"></p>
-<p>So there you have it! This is not just a feature release; it's our way of saying we're listening and we care. We're excited to hear your thoughts on these new features. Give them a try and share your experiences with us.</p>
-<p>Till then, keep creating, keep innovating!</p>]]></content:encoded>
-            <category>editor</category>
-            <category>textures</category>
-            <category>workflow</category>
-            <category>compression</category>
         </item>
     </channel>
 </rss>
