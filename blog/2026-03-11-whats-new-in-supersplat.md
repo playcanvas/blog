@@ -46,7 +46,7 @@ LCC scenes captured on [XGRIDS](https://xgrids.com/) devices already ship with h
 
 Until now, the only way to publish a splat on SuperSplat was through the Editor. Today, we're launching two new upload flows to get your splats online faster than ever.
 
-**Easy Upload** — Got a splat that's ready to share? Hit the **Upload Splat** button on the [SuperSplat](https://superspl.at) homepage. You'll land on your Manage page where you can drag and drop a PLY, SOG, Stream SOG or LCC file and go live in seconds.
+**Easy Upload** — Got a splat that's ready to share? Hit the **Upload Splat** button on the [SuperSplat](https://superspl.at) homepage. You'll land on your Manage page where you can drag and drop a PLY, SOG, Streamed SOG or LCC file and go live in seconds.
 
 <video autoPlay muted loop controls src='/img/supersplat-publishing-easy.mp4' style={{width: '100%', height: 'auto'}} />
 
