@@ -42,19 +42,17 @@ To make sure any device can render even the most ambitious scenes, we've introdu
 
 LCC scenes captured on [XGRIDS](https://xgrids.com/) devices already ship with high-quality LODs built in. For everyone else, [SplatTransform](https://github.com/playcanvas/splat-transform) can generate streamed SOG from user-created PLYs representing different detail levels.
 
-### 📤 New Upload Flows
+### 📤 Easy Upload
 
-Until now, the only way to publish a splat on SuperSplat was through the Editor. Today, we're launching two new upload flows to get your splats online faster than ever.
-
-**Easy Upload** — Got a splat that's ready to share? Hit the **Upload Splat** button on the [SuperSplat](https://superspl.at) homepage. You'll land on your Manage page where you can drag and drop a PLY, SOG, Streamed SOG or LCC file and go live in seconds.
+Until now, the only way to publish a splat on SuperSplat was through the Editor. Today, we're introducing a brand new **Easy Upload** flow — just hit the **Upload Splat** button on the [SuperSplat](https://superspl.at) homepage, drag and drop a PLY, SOG, Streamed SOG or LCC file and go live in seconds.
 
 <video autoPlay muted loop controls src='/img/supersplat-publishing-easy.mp4' style={{width: '100%', height: 'auto'}} />
 
-**Improved Editor Flow** — When you publish from the [SuperSplat Editor](https://superspl.at/editor), you'll now be redirected to your Manage page to fill in your splat's details while it's being prepared to go live.
+We've also updated the existing **Editor publishing flow** to share the same new details dialog. When you publish from the [SuperSplat Editor](https://superspl.at/editor), you'll now be redirected to your Manage page to fill in your splat's details while it's being prepared to go live.
 
 <video autoPlay muted loop controls src='/img/supersplat-publishing-editor.mp4' style={{width: '100%', height: 'auto'}} />
 
-Both flows share a brand new **details dialog** for editing your splat's metadata. And this is just the beginning — expect more fields to appear soon covering license type, capture hardware and software and even geolocation. Stay tuned!
+The new details dialog is just the beginning — expect more fields to appear soon covering license type, capture hardware and software and even geolocation. Stay tuned!
 
 ### ⚡ PlayCanvas Engine 2.17.0
 
