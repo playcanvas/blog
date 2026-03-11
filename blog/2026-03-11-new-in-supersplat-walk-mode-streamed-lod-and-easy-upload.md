@@ -5,7 +5,6 @@ title: "New in SuperSplat: Walk Mode, Streamed LOD and Easy Upload"
 tags:
   - gaussian-splats
   - supersplat
-unlisted: true
 ---
 
 Last month we launched **[SuperSplat Studio](/build-gaussian-splat-experiences-with-supersplat-studio)**, giving creators the power to add annotations and cinematic post effects to their published splats. Today, we're back with the next wave of improvements - and this one's a big one.
