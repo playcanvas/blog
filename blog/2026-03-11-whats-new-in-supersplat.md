@@ -73,7 +73,8 @@ SuperSplat, SplatTransform and the PlayCanvas Engine are all **free and open sou
 If you're building a splat-based application, we'd love for you to build it on PlayCanvas. Check out our repos on GitHub:
 
 - [PlayCanvas Engine](https://github.com/playcanvas/engine)
-- [SuperSplat](https://github.com/playcanvas/supersplat)
+- [SuperSplat Editor](https://github.com/playcanvas/supersplat)
+- [SuperSplat Viewer](https://github.com/playcanvas/supersplat-viewer)
 - [SplatTransform](https://github.com/playcanvas/splat-transform)
 
 ### 👂 We Want to Hear from You
