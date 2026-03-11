@@ -17,7 +17,7 @@ Last month we launched **[SuperSplat Studio](/build-gaussian-splat-experiences-w
 You can now explore splats from a first-person perspective with the all-new **Walk Mode**. Step inside your scenes and experience them the way they were meant to be seen.
 
 <div className="iframe-container">
-    <iframe loading="lazy" src="https://superspl.at/s?id=8429e5e2&noanim" title="SuperSplat Viewer - Bumblebee" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+    <iframe loading="lazy" src="https://superspl.at/s?id=8429e5e2&noanim" title="SuperSplat Viewer - URBEX: Sanatorium Inside - Part01" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
 </div>
 
 :::tip
