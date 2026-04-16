@@ -20,7 +20,7 @@ Want to find downloadable splats? Head to the [Explore](https://superspl.at/?fea
 
 <video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
 
-Once you've downloaded a splat, you can use it in your own **PlayCanvas** projects — load it into the [PlayCanvas Engine](https://github.com/playcanvas/engine) or upload it to the [PlayCanvas Editor](https://playcanvas.com).
+Downloaded splats can be used anywhere — in your own apps, research projects or creative tools. A great option is to load them into your **PlayCanvas** projects via the [PlayCanvas Engine](https://github.com/playcanvas/engine) or the [PlayCanvas Editor](https://playcanvas.com).
 
 <video autoPlay muted loop controls src='/img/supersplat-to-playcanvas.mp4' style={{width: '100%', height: 'auto'}} />
 
