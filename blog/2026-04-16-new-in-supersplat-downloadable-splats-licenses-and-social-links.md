@@ -20,7 +20,7 @@ Want to find downloadable splats? Head to the [Explore](https://superspl.at) pag
 
 <video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
 
-Once you've downloaded a splat, you can drag it straight into the **PlayCanvas Editor** to start building a full 3DGS-powered application — no extra steps required.
+Once you've downloaded a splat, you can use it in your own **PlayCanvas** projects — load it into the [PlayCanvas Engine](https://github.com/playcanvas/engine) or upload it to the [PlayCanvas Editor](https://playcanvas.com).
 
 <video autoPlay muted loop controls src='/img/supersplat-to-playcanvas.mp4' style={{width: '100%', height: 'auto'}} />
 
