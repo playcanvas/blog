@@ -829,7 +829,7 @@ To set up your local development environment, check out the <a href="https://git
         <link href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor"/>
         <updated>2024-06-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[CLICK HERE to open in a new tab. Credits: Splats scanned at the V&A Museum. HDRI from Poly Haven.]]></summary>
-        <content type="html"><![CDATA[<div class="iframe-container-taller"><iframe loading="lazy" src="https://playcanv.as/e/p/cLkf99ZV/" title="3DGS Statues" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="true" allowvr="" scrolling="no" frameborder="0"></iframe></div>
+        <content type="html"><![CDATA[<div class="iframe-container-taller"><iframe loading="lazy" src="https://playcanv.as/e/p/cLkf99ZV/" title="3DGS Statues" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="" allowvr="" scrolling="no" frameborder="0"></iframe></div>
 <p><em><a href="https://playcanv.as/e/p/cLkf99ZV/" target="_blank" rel="noopener noreferrer" class="">CLICK HERE</a> to open in a new tab. Credits: Splats scanned at the <a href="https://www.vam.ac.uk/" target="_blank" rel="noopener noreferrer" class="">V&amp;A Museum</a>. HDRI from <a href="https://polyhaven.com/a/sepulchral_chapel_rotunda" target="_blank" rel="noopener noreferrer" class="">Poly Haven</a>.</em></p>
 <p>We have big news for the 3D Gaussian Splat community - the PlayCanvas Editor now has fully integrated support for splats!
 Learn how to quickly build stunning, interactive 3DGS applications today.</p>
