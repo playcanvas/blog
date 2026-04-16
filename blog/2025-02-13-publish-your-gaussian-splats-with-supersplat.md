@@ -21,7 +21,7 @@ SuperSplat can now be found on a shiny new domain! From now on, point your brows
 
 <div style={{ textAlign: 'center' }}>
   <a href="https://superspl.at" style={{ fontSize: '2rem', fontWeight: 'bold', textDecoration: 'none' }}>
-    https://superspl.at
+    superspl.at
   </a>
 </div>
 
