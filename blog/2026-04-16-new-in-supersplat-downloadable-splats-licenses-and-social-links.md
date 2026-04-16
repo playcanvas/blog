@@ -14,7 +14,7 @@ Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supers
 
 ### 📥 Downloadable Splats
 
-Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page. Downloads are offered in multiple formats — a compressed, optimized **PLY** that's ready for real-time use and the original **source PLY** for anyone who needs the raw data. Each scene tracks its **download count** so you can see how popular your work is.
+Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page. You can download the **source file** we host or, when you need maximum compatibility with other software, download it as a **PLY**. Each scene tracks its **download count** so you can see how popular your work is.
 
 Want to find downloadable splats? Head to the [Explore](https://superspl.at/?features=downloadable&time=all) page to browse scenes that are available for download.
 
