@@ -8,7 +8,7 @@ tags:
 unlisted: true
 ---
 
-Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload)** — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D scanning community.
+Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload)** — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D Gaussian Splatting community.
 
 <!-- truncate -->
 
