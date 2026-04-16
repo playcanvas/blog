@@ -8,6 +8,8 @@ tags:
 
 We've updated the Designer theme to give it an all-new Pro look.
 
+<!-- truncate -->
+
 [![New Designer Theme](/img/editor-extjs-dark.png)](/img/editor-extjs-dark.png)  
 _Black is the new Black_
 
