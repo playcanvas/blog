@@ -8,19 +8,17 @@ tags:
 unlisted: true
 ---
 
-Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload)** — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D scanning community.
+Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload)** — three huge upgrades for exploring and publishing splats. Today we're rolling out another set of features that make SuperSplat an even better home for the 3D Gaussian Splatting community.
 
 <!-- truncate -->
 
 ### 📥 Downloadable Splats
 
-Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page.
-
-<video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
-
-Downloads are offered in multiple formats — a compressed, optimized **PLY** that's ready for real-time use and the original **source PLY** for anyone who needs the raw data. Each scene tracks its **download count** so you can see how popular your work is.
+Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page. Downloads are offered in multiple formats — a compressed, optimized **PLY** that's ready for real-time use and the original **source PLY** for anyone who needs the raw data. Each scene tracks its **download count** so you can see how popular your work is.
 
 Want to find downloadable splats? Head to the [Explore](https://superspl.at) page and use the new **Downloadable** filter to browse scenes that are available for download.
+
+<video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
 
 Once you've downloaded a splat, you can drag it straight into the **PlayCanvas Editor** to start building a full 3DGS-powered application — no extra steps required.
 
