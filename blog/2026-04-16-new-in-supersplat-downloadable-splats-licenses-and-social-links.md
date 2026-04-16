@@ -14,13 +14,17 @@ Last month we shipped **[Walk Mode, Streamed LOD and Easy Upload](/new-in-supers
 
 ### 📥 Downloadable Splats
 
-Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page. Downloads are offered in multiple formats — a compressed, optimized **PLY** that's ready for real-time use and the original **source PLY** for anyone who needs the raw data. Each scene tracks its **download count** so you can see how popular your work is.
+Splat owners can now make their scenes **downloadable**. Open the Manage page for any of your published splats, flip the toggle and your audience can grab the files directly from the scene page. You can download the **source file** we host or, when you need maximum compatibility with other software, download it as a **PLY**. Each scene tracks its **download count** so you can see how popular your work is.
 
-Want to find downloadable splats? Head to the [Explore](https://superspl.at) page and use the new **Downloadable** filter to browse scenes that are available for download.
+:::tip[Why make your splats downloadable?]
+Because it gets your work in front of more people. Downloadable scenes show up in filtered searches, get used in blog posts, research papers and apps — and every use requires **attribution back to you**. The more your work is shared, the more your name travels with it. Think of it as free marketing powered by the community.
+:::
+
+Want to find downloadable splats? Head to the [Explore](https://superspl.at/?features=downloadable&time=all) page to browse scenes that are available for download.
 
 <video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
 
-Once you've downloaded a splat, you can use it in your own **PlayCanvas** projects — load it into the [PlayCanvas Engine](https://github.com/playcanvas/engine) or upload it to the [PlayCanvas Editor](https://playcanvas.com).
+Downloaded splats can be used anywhere — in your own apps, research projects or creative tools. A great option is to load them into your **PlayCanvas** projects via the [PlayCanvas Engine](https://github.com/playcanvas/engine) or the [PlayCanvas Editor](https://playcanvas.com).
 
 <video autoPlay muted loop controls src='/img/supersplat-to-playcanvas.mp4' style={{width: '100%', height: 'auto'}} />
 
