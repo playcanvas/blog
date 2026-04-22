@@ -13,7 +13,7 @@ This post walks through the demo I built to fix all of that:
 <video autoPlay muted loop controls src='/img/gs-fps-final.mov' style={{width: '100%', height: 'auto'}} />
 
 
-The scene is a gorgeous indoor scan by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d) — pulled straight from SuperSplat. On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
+The scene is a gorgeous indoor scan by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
 
 Here's how each piece came together.
 
@@ -41,7 +41,7 @@ That one command gives me:
 - `scene.sog` — the compressed splat for rendering.
 - `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
 
-I dropped both into PlayCanvas, attached the GLB as an **invisible `collision` + `rigidbody` (static)** on a `Factory_collider` entity, and suddenly the player has a floor, the bullets have walls, and the NPCs have something to walk on. No modelling, no clean-up.
+I dropped both into PlayCanvas project, attached the GLB as an **invisible `collision` + `rigidbody` (static)** on a `Factory_collider` entity, and suddenly the player has a floor, the bullets have walls, and the NPCs have something to walk on. No modelling, no clean-up.
 
 👉 **Call to action:** if you haven't tried `splat-transform` yet, start here — it's the unblock between "pretty splat" and "playable splat". [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform).
 
@@ -50,8 +50,6 @@ I dropped both into PlayCanvas, attached the GLB as an **invisible `collision` +
 Splats carry their lighting baked into every Gaussian. That means the scene looks *amazing* and unchanging. But my player's weapon model, the NPC soldiers and the pickups are ordinary lit PBR meshes — they'd stand out like cardboard cutouts under gym lighting unless they somehow inherited the splat's lighting.
 
 I didn't want to re-light the splat. I wanted a cheap way to ask "how bright is it here?" at any point in the map, at runtime, for my regular meshes.
-
-Enter [`Scripts/probes.js`](https://playcanv.as/p/qxGSuzYq/) — a one-shot, in-editor baker:
 
 1. Grab the AABB of a designated floor entity and build a **1-metre grid of probe positions** 1 metre above the ground.
 2. Create a tiny 16×16 offscreen `RenderTarget` and a 90° FOV camera that renders only the `World` layer (i.e. the splat — no characters, no HUD, no viewmodel).
