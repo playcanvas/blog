@@ -51,6 +51,8 @@ Splats carry their lighting baked into every Gaussian. That means the scene look
 
 I didn't want to re-light the splat. I wanted a cheap way to ask "how bright is it here?" at any point in the map, at runtime, for my regular meshes.
 
+How it works:
+
 1. Grab the AABB of a designated floor entity and build a **1-metre grid of probe positions** 1 metre above the ground.
 2. Create a tiny 16×16 offscreen `RenderTarget` and a 90° FOV camera that renders only the `World` layer (i.e. the splat — no characters, no HUD, no viewmodel).
 3. For each probe, render **6 faces** of a cube (+X, -X, +Y, -Y, +Z, -Z), `readPixels` the 16×16 RGBA output, and compute luminance using the standard Rec. 601 weights:
@@ -74,8 +76,6 @@ Probe 2/392   lightness: 0.4733
 ```
 
 The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive runtime probes, no deferred relighting, just a lookup table.
-
-👉 **Call to action:** steal `probes.js` for your own splat project. Works for any PlayCanvas scene, not just splats — anywhere you want cheap location-based lighting for dynamic meshes.
 
 ## 🛠️ Step 3 — Editing With the PlayCanvas VS Code Extension
 
@@ -106,7 +106,7 @@ const imported = recast.importNavMesh(new Uint8Array(navmeshBuffer));
 
 To *produce* the `navmesh.bin` binary, I feed the same `scene.collision.glb` from Step 1 into a small offline Recast-based generator. The collision mesh already represents "solid floor you can walk on", so Recast just has to rasterize it, filter walkable spans and build the nav polygons — takes a few seconds.
 
-I'm cleaning up the generator into a standalone library and will publish it on GitHub shortly — drop-in collision-GLB-to-navmesh-binary for any PlayCanvas project. Follow my GitHub if you want the drop.
+I'm cleaning up the generator into a standalone library and will publish it on GitHub shortly — drop-in collision-GLB-to-navmesh-binary for any PlayCanvas project. Follow my X account (@yak32) if you want the drop.
 
 👉 **Call to action:** once the library is live, it'll be a one-liner: `npx @playcanvas-community/glb-to-navmesh scene.collision.glb navmesh.bin`. Watch this space.
 
