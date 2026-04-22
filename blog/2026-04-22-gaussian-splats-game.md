@@ -19,7 +19,7 @@ Here's how each piece came together.
 
 ## 🏞️ Step 1 — Pick a Splat, Carve Out a Collider
 
-Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. I used [this scan by schindelar3d](https://superspl.at/user?id=schindelar3d); the lighting, clutter and scale were already cinematic, so I didn't have to art-direct anything.
+Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. The lighting, clutter and scale were already cinematic, so I didn't have to art-direct anything.
 
 Now the hard part. A splat has no surfaces, so physics is blind to it. You can't walk on it, shoot through it, or path around it. That's what [`splat-transform`](https://github.com/playcanvas/splat-transform) is for.
 
