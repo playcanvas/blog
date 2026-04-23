@@ -1,7 +1,7 @@
 ---
 authors: iakov
-slug: turning-a-gaussian-splat-into-a-playable-game
-title: "Turning a Gaussian Splat Into a Playable Game"
+slug: turning-a-gaussian-splat-into-a-videogame
+title: "Turning a Gaussian Splat Into a Videogame"
 description: "How I turned a photogrammetric 3D Gaussian Splat scene into a playable browser FPS — with collision, pre-baked lighting, navmesh-driven NPCs and behavior-tree AI, all in PlayCanvas."
 tags:
   - gaussian-splats
