@@ -24,12 +24,12 @@ Here's how each piece came together.
 
 The Swiss Army knife for everything that follows is [`splat-transform`](https://github.com/playcanvas/splat-transform) — PlayCanvas's open-source CLI for converting splats. We'll lean on it for streamed LOD here and for a collision mesh in the next step.
 
-My scene is a few million Gaussians — big enough that shipping it as a single asset would punish anyone on a phone or a slow connection. The fix is [**Streamed LOD**](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail): SuperSplat and `splat-transform` can slice a splat into streamable SOG chunks that load on demand based on the camera's viewpoint and the device's capability. High-end desktop pulls full detail around the player, a phone pulls a lighter subset, and neither of them stalls waiting for the whole file.
+My scene is a few million Gaussians — big enough that shipping it as a single `.sog` asset would punish anyone on a phone or a slow connection. The fix is [**Streamed LOD**](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail): instead of one monolithic file, SuperSplat (and `splat-transform`) write out a **folder of SOG chunks** plus a manifest. The runtime loads chunks on demand based on the camera's viewpoint and the device's capability — high-end desktop pulls full detail around the player, a phone pulls a lighter subset, and neither of them stalls waiting for the whole file.
 
-In this project, `Scripts/streaming-lod.mjs` hooks into the camera and asks the runtime to keep the LODs around the player fully loaded before the game starts — so you never see pop-in mid-firefight.
+`Scripts/streaming-lod.mjs` hooks into the camera and asks the runtime to keep the chunks around the player fully loaded before the game starts — so you never see pop-in mid-firefight.
 
 :::tip[Try it on your own splat]
-If your splat is over a few million Gaussians, generate a streamed SOG with `splat-transform` and let the viewer stream it. Your mobile players will thank you. [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
+If your splat is over a few million Gaussians, export it as streamed LOD (the easiest way is from SuperSplat's export dialog — see the [Streamed LOD docs](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail)) and let the viewer stream it. Your mobile players will thank you. [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
 :::
 
 ## 🏞️ Step 2 — Pick a Splat, Carve Out a Collider
@@ -49,9 +49,9 @@ splat-transform scene.ply \
   scene.sog
 ```
 
-That one command gives me:
+That one command gives me two outputs:
 
-* `scene.sog` — the compressed splat for rendering.
+* `scene.sog` — a single-file compressed splat (handy for quick iteration; for the actual build I swap it for the streamed folder from Step 1).
 * `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
 
 I dropped both into the PlayCanvas project and attached the GLB to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modelling, no clean-up.
@@ -62,7 +62,7 @@ I dropped both into the PlayCanvas project and attached the GLB to an invisible 
 One command turns a pretty splat into a playable one — run `splat-transform scene.ply -K scene.sog` and drop the resulting `.collision.glb` into your project as a static mesh rigidbody.
 :::
 
-## 💡 Step 3 — Baking Lightness Probes Into the Splat
+## 💡 Step 3 — Baking a Lightness Grid From the Splat
 
 Splats carry their lighting baked into every Gaussian. That means the scene looks *amazing* and unchanging. But my player's weapon model, the NPC soldiers and the pickups are ordinary lit PBR meshes — they'd stand out like cardboard cutouts under gym lighting unless they somehow inherited the splat's lighting.
 
@@ -100,11 +100,11 @@ The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive run
 
 ## 🛠️ Step 4 — Editing With the PlayCanvas VS Code Extension
 
-I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing.
+I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing. 
 
-The extension exposes every project script as a local file, with syntax highlighting, full Go-to-Definition across the codebase, and `globals.d.ts` / `module.d.ts` generated so `pc.Entity`, `pc.Vec3`, component types, etc. all autocomplete. Save the file → the editor picks up the change → reload the launch tab → test. That round-trip is measured in seconds.
+Save the file → the editor picks up the change → reload the launch tab → test. That round-trip is measured in seconds.
 
-Most of the gameplay logic in this demo — `character-controller.js`, `anim-states.js`, `npc-ai.js`, `probes.js` — was iterated on entirely from VS Code.
+Most of the gameplay logic in this demo — `character-controller.js`, `anim-states.js`, `npc-ai.js`, `probes.js` — was iterated on entirely from Cursor.
 
 :::tip[Try it in your editor]
 Install the [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas). If you live in VS Code or Cursor, it turns PlayCanvas into a normal dev environment.
