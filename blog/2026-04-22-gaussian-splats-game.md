@@ -74,11 +74,11 @@ How `Scripts/probes.js` works:
 2. Create a tiny 16×16 offscreen `RenderTarget` and a 90° FOV camera that renders only the `World` layer (i.e. the splat — no characters, no HUD, no viewmodel).
 3. For each probe, render **6 faces** of a cube (+X, -X, +Y, -Y, +Z, -Z), `readPixels` the 16×16 RGBA output, and compute luminance using the standard Rec. 601 weights:
 
-```js
-this._faceLuminance += 0.299 * r + 0.587 * g + 0.114 * b;
-// ... after all 6 faces:
-var lightness = this._faceLuminance / 1536; // 6 faces * 256 pixels
-```
+   ```js
+   this._faceLuminance += 0.299 * r + 0.587 * g + 0.114 * b;
+   // ... after all 6 faces:
+   var lightness = this._faceLuminance / 1536; // 6 faces * 256 pixels
+   ```
 
 4. Stash the value in a `gridDepth × gridWidth` 2D array and spawn a tiny debug sphere at the probe position with `emissive = lightness` so you can *see* the light field floating in the scene.
 5. When all probes are done, `console.log(JSON.stringify(this.probeJSON))`. I copy that out once, save it as `lightness.json`, attach it as a JSON asset, and delete the probes entity.
@@ -89,7 +89,7 @@ Here's the bake in action — each debug sphere pops in as its cube of faces is 
 
 At runtime, every dynamic character script (weapon, NPC, pickup) loads `lightness.json`, bilinearly samples the grid at its world position, remaps it to a sensible exposure range and calls `meshInstance.setParameter('exposure', value)`. Step from a bright atrium into a dim corridor and your hands darken smoothly. Fire your weapon and the pulsating omni-light bounces off the splat around you.
 
-```
+```text
 ─── Probes: baking 392 probes (28 x 14) ───
 Probe 1/392   lightness: 0.4821
 Probe 2/392   lightness: 0.4733
@@ -100,7 +100,7 @@ The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive run
 
 ## 🛠️ Step 4 — Editing With the PlayCanvas VS Code Extension
 
-I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing. 
+I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing.
 
 Save the file → the editor picks up the change → reload the launch tab → test. That round-trip is measured in seconds.
 
