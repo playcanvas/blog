@@ -43,6 +43,16 @@ elliott:
     linkedin: ellt92
     github: ellthompson
 
+iakov:
+  name: Iakov Sumygin
+  title: Software Engineer
+  image_url: https://github.com/yak32.png
+  page: true
+  socials:
+    x: yak32
+    linkedin: yak32
+    github: yak32
+
 kris:
   name: Kris Bamrah
   title: Software Engineer
