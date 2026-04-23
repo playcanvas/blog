@@ -59,7 +59,7 @@ splat-transform scene.ply \
 
 That one command gives me two outputs:
 
-* `scene.sog` — a single-file compressed splat (handy for quick iteration; for the actual build I swap it for the streamed folder from Step 2).
+* `scene.sog` — a single-file compressed splat for quick iteration; the shipped build uses the streamed folder from Step 2.
 * `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
 
 I dropped both into the PlayCanvas project and attached the GLB to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modelling, no clean-up.
@@ -106,7 +106,7 @@ Probe 2/392   lightness: 0.4733
 
 The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive runtime probes, no deferred relighting, just a lookup table.
 
-### 🛠️ Step 5: Vibe Code With the PlayCanvas VS Code Extension
+### 🛠️ Step 5: Vibe Code with the PlayCanvas VS Code Extension
 
 I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing.
 
@@ -118,14 +118,14 @@ Most of the gameplay logic in this demo — `character-controller.js`, `anim-sta
 Install the [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas). If you live in VS Code or Cursor, it turns PlayCanvas into a normal dev environment.
 :::
 
-### 🔄 Step 6: Version Your Project With PlayCanvas + GitHub
+### 🔄 Step 6: Version Your Project with PlayCanvas + GitHub
 
-The next pain point is "what did I change yesterday and how do I roll back?". PlayCanvas ships a first-party [**version control**](https://developer.playcanvas.com/user-manual/editor/version-control/). You can also use GitHub at the root of your locally synced PlayCanvas project (via the VS Code extension). Don't forget to add a `.pcignore` so the `.git` folder isn't synced to the cloud.
+"What did I change yesterday, and how do I roll back?" PlayCanvas ships a first-party [**version control**](https://developer.playcanvas.com/user-manual/editor/version-control/) that answers exactly that. You can also use GitHub at the root of your locally synced PlayCanvas project (via the VS Code extension). Don't forget to add a `.pcignore` so the `.git` folder isn't synced to the cloud.
 
-Combined with the VS Code extension, this is about as close to "I'm working in a normal repo" as I've ever had in a browser-first engine. If I break the AI, I'm one `git revert` away from last night's working build.
+Combined with the VS Code extension, this is about as close to "I'm working in a normal repo" as I've ever had in a browser-first engine. If I break the NPC AI, I'm one `git revert` away from last night's working build.
 
 :::tip[Try it now]
-Link a GitHub repo to your PlayCanvas project before you start. You'll thank yourself the first time an agent commits a bad refactor at 1 AM.
+Link a GitHub repo to your PlayCanvas project before you start. You'll thank yourself the first time an AI coding agent commits a bad refactor at 1 AM.
 :::
 
 ### 🧭 Step 7: Generate a Navmesh from the Collision Mesh
