@@ -31,6 +31,10 @@ Here's how I built it, step by step.
 
 Before any code, you need a scene. Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. The lighting, clutter and scale of the scan I picked were already cinematic, so I didn't have to art-direct anything.
 
+:::tip[Try it now]
+Browse the [downloadable splats on SuperSplat](https://superspl.at/?features=downloadable&time=all) and grab one that inspires you — Creative Commons, ready to drop into your own project.
+:::
+
 ### 📡 Step 2: Convert the Splat to Streamed SOG Format
 
 The Swiss Army knife for everything that follows is [`splat-transform`](https://github.com/playcanvas/splat-transform) — PlayCanvas's open-source CLI for converting splats. We'll lean on it for streamed LOD here and for a collision mesh in the next step.
