@@ -18,9 +18,13 @@ The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schi
 
 <!-- truncate -->
 
-Here's how each piece came together.
+Here's how I built it, step by step.
 
-## 📡 Step 1 — Serve the Splat as Streamed LOD
+### 📥 Step 1 — Download a Splat from SuperSplat
+
+Before any code, you need a scene. Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. The lighting, clutter and scale of the scan I picked were already cinematic, so I didn't have to art-direct anything.
+
+### 📡 Step 2 — Convert the Splat to Streamed SOG Format
 
 The Swiss Army knife for everything that follows is [`splat-transform`](https://github.com/playcanvas/splat-transform) — PlayCanvas's open-source CLI for converting splats. We'll lean on it for streamed LOD here and for a collision mesh in the next step.
 
@@ -29,14 +33,13 @@ My scene is a few million Gaussians — big enough that shipping it as a single 
 `Scripts/streaming-lod.mjs` hooks into the camera and asks the runtime to keep the chunks around the player fully loaded before the game starts — so you never see pop-in mid-firefight.
 
 :::tip[Try it now]
-If your splat is over a few million Gaussians, export it as streamed LOD (the easiest way is from SuperSplat's export dialog — see the [Streamed LOD docs](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail)) and let the viewer stream it. Your mobile players will thank you. [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
+If your splat is over a few million Gaussians, export it as streamed LOD (the easiest way is from SuperSplat's export dialog — see the [Streamed LOD docs](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail)) and let the viewer stream it. Your mobile players will thank you.  
+[`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
 :::
 
-## 🏞️ Step 2 — Pick a Splat, Carve Out a Collider
+### 🧱 Step 3 — Generate a Collision Mesh
 
-Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. The lighting, clutter and scale were already cinematic, so I didn't have to art-direct anything.
-
-Now the hard part. A splat has no surfaces, so physics is blind to it. You can't walk on it, shoot through it, or path around it. That's where `splat-transform` earns its keep again — the flag you want is `-K` / `--collision-mesh`. It voxelizes the splat, flood-fills the navigable interior from a seed position, and writes out a watertight `.collision.glb` that you can import straight into PlayCanvas as a `mesh` collider.
+This used to be the hard part. A splat has no surfaces, so physics is blind to it. You can't walk on it, shoot through it, or path around it. That's where `splat-transform` earns its keep again — the flag you want is `-K` / `--collision-mesh`. It voxelizes the splat, flood-fills the navigable interior from a seed position, and writes out a watertight `.collision.glb` that you can import straight into PlayCanvas as a `mesh` collider.
 
 ```bash
 npm install -g @playcanvas/splat-transform
@@ -51,7 +54,7 @@ splat-transform scene.ply \
 
 That one command gives me two outputs:
 
-* `scene.sog` — a single-file compressed splat (handy for quick iteration; for the actual build I swap it for the streamed folder from Step 1).
+* `scene.sog` — a single-file compressed splat (handy for quick iteration; for the actual build I swap it for the streamed folder from Step 2).
 * `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
 
 I dropped both into the PlayCanvas project and attached the GLB to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modelling, no clean-up.
@@ -62,7 +65,7 @@ I dropped both into the PlayCanvas project and attached the GLB to an invisible 
 One command turns a pretty splat into a playable one — run `splat-transform scene.ply -K scene.sog` and drop the resulting `.collision.glb` into your project as a static mesh rigidbody.
 :::
 
-## 💡 Step 3 — Baking a Lightness Grid From the Splat
+### 💡 Step 4 — Baking a Lightness Grid From the Splat
 
 Splats carry their lighting baked into every Gaussian. That means the scene looks *amazing* and unchanging. But my player's weapon model, the NPC soldiers and the pickups are ordinary lit PBR meshes — they'd stand out like cardboard cutouts under gym lighting unless they somehow inherited the splat's lighting.
 
@@ -98,7 +101,7 @@ Probe 2/392   lightness: 0.4733
 
 The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive runtime probes, no deferred relighting, just a lookup table.
 
-## 🛠️ Step 4 — Vibe Coding With the PlayCanvas VS Code Extension
+### 🛠️ Step 5 — Vibe Coding With the PlayCanvas VS Code Extension
 
 I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing.
 
@@ -110,7 +113,7 @@ Most of the gameplay logic in this demo — `character-controller.js`, `anim-sta
 Install the [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas). If you live in VS Code or Cursor, it turns PlayCanvas into a normal dev environment.
 :::
 
-## 🔄 Step 5 — Versioning With PlayCanvas + GitHub
+### 🔄 Step 6 — Versioning With PlayCanvas + GitHub
 
 The next pain point is "what did I change yesterday and how do I roll back?". PlayCanvas ships a first-party [**version control**](https://developer.playcanvas.com/user-manual/editor/version-control/). You can also use GitHub at the root of your locally synced PlayCanvas project (by VS Code extension). Don't forget to add [.pcignore](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) to ignore .git folder, so it's not synced to the cloud.
 Combined with the VS Code extension, this is about as close to "I'm working in a normal repo" as I've ever had in a browser-first engine. If I break the AI, I'm one `git revert` away from last night's working build.
@@ -119,7 +122,7 @@ Combined with the VS Code extension, this is about as close to "I'm working in a
 Link a GitHub repo to your PlayCanvas project before you start. You'll thank yourself the first time an agent commits a bad refactor at 1 AM.
 :::
 
-## 🧭 Step 6 — Generating a Navmesh from the Collision Mesh
+### 🧭 Step 7 — Generating a Navmesh from the Collision Mesh
 
 NPCs can't path on a splat either — they need a navmesh. For the runtime, I use [**recast-navigation**](https://github.com/isaac-mason/recast-navigation-js), loaded straight from `esm.sh` with dynamic import — zero bundler, just:
 
@@ -129,7 +132,7 @@ await recast.init();
 const imported = recast.importNavMesh(new Uint8Array(navmeshBuffer));
 ```
 
-To *produce* the `navmesh.bin` binary, I feed the same `scene.collision.glb` from Step 2 into a small offline Recast-based generator. The collision mesh already represents "solid floor you can walk on", so Recast just has to rasterize it, filter walkable spans and build the nav polygons — takes a few seconds.
+To *produce* the `navmesh.bin` binary, I feed the same `scene.collision.glb` from Step 3 into a small offline Recast-based generator. The collision mesh already represents "solid floor you can walk on", so Recast just has to rasterize it, filter walkable spans and build the nav polygons — takes a few seconds.
 
 I'm cleaning up the generator into a standalone library and will publish it on GitHub shortly — drop-in collision-GLB-to-navmesh-binary for any PlayCanvas project. Follow my [X account](https://x.com/yak32) if you want the drop.
 
@@ -142,7 +145,7 @@ Once the library is live, it'll be a one-liner:
 `npx glb-to-navmesh scene.collision.glb navmesh.bin`
 :::
 
-## 🧠 Step 7 — NPC Behavior: Navmesh + Behavior Trees + Personalities
+### 🧠 Step 8 — NPC Behavior: Navmesh + Behavior Trees + Personalities
 
 The NPCs are the part I had the most fun with. Every soldier in the demo is driven by a classic [**behavior tree**](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) — the same abstraction Halo 2 popularised two decades ago and that's still the default for AAA AI in 2026.
 
