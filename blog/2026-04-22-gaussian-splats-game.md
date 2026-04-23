@@ -51,8 +51,8 @@ splat-transform scene.ply \
 
 That one command gives me:
 
-- `scene.sog` — the compressed splat for rendering.
-- `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
+* `scene.sog` — the compressed splat for rendering.
+* `scene.collision.glb` — a voxel-derived mesh that hugs the real geometry.
 
 I dropped both into the PlayCanvas project and attached the GLB to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modelling, no clean-up.
 
@@ -186,12 +186,12 @@ If you've been nervous about behavior trees, read [Chris Simpson's primer](https
 
 To recap the full stack:
 
-- 🧱 **Environment** — any downloadable splat from [SuperSplat](https://superspl.at/), or your own capture.
-- 🧱 **Collider** — `splat-transform -K` → `.collision.glb`, dropped into PlayCanvas as a static mesh rigidbody.
-- 💡 **Lighting** — bake a `lightness.json` grid with `probes.js`, sample it per-mesh-instance at runtime.
-- 🛠️ **Authoring** — [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) + [GitHub integration](https://developer.playcanvas.com/user-manual/editor/version-control/github/).
-- 🧭 **Pathfinding** — [recast-navigation](https://github.com/isaac-mason/recast-navigation-js) from `esm.sh`, fed a pre-baked `navmesh.bin` (generator library coming soon).
-- 🧠 **AI** — [behavior trees](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) + personality-driven traits.
+* 🧱 **Environment** — any downloadable splat from [SuperSplat](https://superspl.at/), or your own capture.
+* 🧱 **Collider** — `splat-transform -K` → `.collision.glb`, dropped into PlayCanvas as a static mesh rigidbody.
+* 💡 **Lighting** — bake a `lightness.json` grid with `probes.js`, sample it per-mesh-instance at runtime.
+* 🛠️ **Authoring** — [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) + [GitHub integration](https://developer.playcanvas.com/user-manual/editor/version-control/github/).
+* 🧭 **Pathfinding** — [recast-navigation](https://github.com/isaac-mason/recast-navigation-js) from `esm.sh`, fed a pre-baked `navmesh.bin` (generator library coming soon).
+* 🧠 **AI** — [behavior trees](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) + personality-driven traits.
 
 Every one of those pieces is free and open source. The whole thing ships as static files to a CDN. My build is 68 MB (most of it the splat itself) and cold-loads in a few seconds.
 
