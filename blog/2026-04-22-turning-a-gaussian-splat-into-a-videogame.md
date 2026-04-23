@@ -209,7 +209,7 @@ To recap the full stack:
 * 🧭 **Pathfinding** - [recast-navigation](https://github.com/isaac-mason/recast-navigation-js) from `esm.sh`, fed a pre-baked `navmesh.bin` (generator library coming soon).
 * 🧠 **AI** - [behavior trees](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) + personality-driven traits.
 
-Every one of those pieces is free and open source. The whole thing ships as static files to a CDN. My build is 68 MB (most of it the splat itself) and cold-loads in a few seconds.
+Every one of those pieces is free and open source. The whole thing ships as static files to a CDN. My build is 68 MB (splats environment streamed separately from AWS S3) and cold-loads in a few seconds.
 
 ## 💚 Free and Open Source
 
