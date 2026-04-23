@@ -8,7 +8,6 @@ tags:
   - supersplat
   - playcanvas
   - tutorial
-unlisted: true
 ---
 
 Gaussian Splatting gives you *photorealistic* environments for free. The catch: a splat is just a cloud of oriented blobs — no triangles, no colliders, no navmesh, no lights. Drop a character in and they'll float through walls looking like they belong in a different universe.
