@@ -29,10 +29,10 @@ Here's how I built it, step by step.
 
 ### 📥 Step 1: Download a Splat from SuperSplat
 
-Before any code, you need a scene. Go to [SuperSplat](https://superspl.at/) and use the **Downloadable** filter in the Explore view. Any splat with that badge has been published with a Creative Commons license by its author — you can grab the `.ply` or `.sog` and drop it into your own PlayCanvas project. The lighting, clutter and scale of the scan I picked were already cinematic, so I didn't have to art-direct anything.
+Before any code, you need a scene. Any splat on [SuperSplat](https://superspl.at/) tagged **Downloadable** has been published under Creative Commons by its author — grab the `.ply` or `.sog` and drop it straight into your own PlayCanvas project. The lighting, clutter and scale of the scan I picked were already cinematic, so I didn't have to art-direct anything.
 
 :::tip[Try it now]
-Browse the [downloadable splats on SuperSplat](https://superspl.at/?features=downloadable&time=all) and grab one that inspires you — Creative Commons, ready to drop into your own project.
+Jump straight to the [pre-filtered downloadable view](https://superspl.at/?features=downloadable&time=all) and pick one.
 :::
 
 ### 📡 Step 2: Convert the Splat to Streamed SOG Format
