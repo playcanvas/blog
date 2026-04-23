@@ -28,7 +28,7 @@ My scene is a few million Gaussians — big enough that shipping it as a single 
 
 `Scripts/streaming-lod.mjs` hooks into the camera and asks the runtime to keep the chunks around the player fully loaded before the game starts — so you never see pop-in mid-firefight.
 
-:::tip[Try it on your own splat]
+:::tip[Try it now]
 If your splat is over a few million Gaussians, export it as streamed LOD (the easiest way is from SuperSplat's export dialog — see the [Streamed LOD docs](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail)) and let the viewer stream it. Your mobile players will thank you. [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
 :::
 
@@ -58,7 +58,7 @@ I dropped both into the PlayCanvas project and attached the GLB to an invisible 
 
 ![Voxel-derived collision mesh overlaid on the splat](/img/gs-fps-demo-collision.jpg)
 
-:::tip[Try the `-K` flag]
+:::tip[Try it now]
 One command turns a pretty splat into a playable one — run `splat-transform scene.ply -K scene.sog` and drop the resulting `.collision.glb` into your project as a static mesh rigidbody.
 :::
 
@@ -98,7 +98,7 @@ Probe 2/392   lightness: 0.4733
 
 The whole bake takes ~15 seconds once, then the JSON is ~40 KB. No expensive runtime probes, no deferred relighting, just a lookup table.
 
-## 🛠️ Step 4 — Editing With the PlayCanvas VS Code Extension
+## 🛠️ Step 4 — Vibe Coding With the PlayCanvas VS Code Extension
 
 I didn't write any of this in the PlayCanvas web editor's code panel. I used the [**PlayCanvas extension for VS Code**](https://blog.playcanvas.com/new-playcanvas-visual-studio-code-extension) — which also works inside [Cursor](https://cursor.com), so I could pair-program with Claude while editing.
 
@@ -106,7 +106,7 @@ Save the file → the editor picks up the change → reload the launch tab → t
 
 Most of the gameplay logic in this demo — `character-controller.js`, `anim-states.js`, `npc-ai.js`, `probes.js` — was iterated on entirely from Cursor.
 
-:::tip[Try it in your editor]
+:::tip[Try it now]
 Install the [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas). If you live in VS Code or Cursor, it turns PlayCanvas into a normal dev environment.
 :::
 
@@ -115,7 +115,7 @@ Install the [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/
 The next pain point is "what did I change yesterday and how do I roll back?". PlayCanvas ships a first-party [**version control**](https://developer.playcanvas.com/user-manual/editor/version-control/). You can also use GitHub at the root of your locally synced PlayCanvas project (by VS Code extension). Don't forget to add [.pcignore](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) to ignore .git folder, so it's not synced to the cloud.
 Combined with the VS Code extension, this is about as close to "I'm working in a normal repo" as I've ever had in a browser-first engine. If I break the AI, I'm one `git revert` away from last night's working build.
 
-:::tip[Try it before you need it]
+:::tip[Try it now]
 Link a GitHub repo to your PlayCanvas project before you start. You'll thank yourself the first time an agent commits a bad refactor at 1 AM.
 :::
 
@@ -137,8 +137,9 @@ Want to see the navmesh in-game? Press **N** in the demo to toggle the debug ove
 
 ![Recast navmesh debug overlay on the splat, toggled with the N key](/img/gs-fps-nav-mesh.jpg)
 
-:::tip[Try it once the library drops]
-Once the library is live, it'll be a one-liner: `npx glb-to-navmesh scene.collision.glb navmesh.bin`.
+:::tip[Coming soon]
+Once the library is live, it'll be a one-liner:  
+`npx glb-to-navmesh scene.collision.glb navmesh.bin`
 :::
 
 ## 🧠 Step 7 — NPC Behavior: Navmesh + Behavior Trees + Personalities
@@ -178,7 +179,7 @@ Spawn eight NPCs with eight different personalities — **Sgt. Havoc** (aggressi
 
 Each agent's `position`, `aimAngle`, `animBits` is updated every tick. The PlayCanvas side — `npc-controller.js` — is just a dumb bridge that reads those fields, sets the entity transform, picks an anim state, fires a muzzle-flash ray, triggers sounds. The AI itself has **zero PlayCanvas dependencies** except `pc.Vec3`; it could be lifted into Three.js, Babylon, a headless sim, whatever.
 
-:::tip[Try a behavior tree yourself]
+:::tip[Try it now]
 If you've been nervous about behavior trees, read [Chris Simpson's primer](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) and then copy my four-function implementation. It's 20 lines of code and it unlocks production-grade AI.
 :::
 
