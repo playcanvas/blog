@@ -19,7 +19,7 @@ This post walks through the demo I built to fix all of that:
 
 <video autoPlay muted loop controls src='/img/gaussian-splat-fps.mp4' style={{width: '100%', height: 'auto'}} />
 
-The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
+The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). Christoph is one the best artists working with Gaussian Splats out there, so when he proposed to scan a real place for me, I jumped at the opportunity. On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
 
 <!-- truncate -->
 
