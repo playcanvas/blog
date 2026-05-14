@@ -15,7 +15,7 @@ Last month we shipped **[Downloadable Splats, Licenses and Social Links](/new-in
 
 No two splat creators work quite the same way — our community draws on an ever-growing ecosystem of capture rigs, reconstruction pipelines and post-processing tools, each leaving its own fingerprint on the final scene. With **Software Attribution**, you can now **tag your splats with the tools you used to make them**, so other creators can learn from your workflow and discover the tools shaping the field.
 
-Open the **Manage** page for any of your splats and head to the new **Software Used** card. Search the curated catalog — including **Brush**, **Postshot**, **LichtFeld Studio**, **RealityScan**, **KIRI Engine**, **COLMAP**, **Luma**, **Nerfstudio**, **Scaniverse**, **Polycam**, **Agisoft Metashape** and more — and add up to **six** entries. Drag to reorder them. Don't see your favourite tool? Search for it and the picker will offer a quick way to **request** it — or just give us a shout on [Discord](https://discord.com/invite/T3pnhRTTAY).
+Open the **Manage** page for any of your splats and head to the new **Software Used** card. Search the curated catalog — including **Brush**, **Postshot**, **LichtFeld Studio**, **RealityScan**, **KIRI Engine**, **COLMAP**, **Luma**, **Nerfstudio**, **Scaniverse**, **Polycam**, **Agisoft Metashape** and more — and add up to **six** entries. Drag to reorder them. Don't see your favorite tool? Search for it and the picker will offer a quick way to **request** it — or just give us a shout on [Discord](https://discord.com/invite/T3pnhRTTAY).
 
 <video autoPlay muted loop controls src='/img/supersplat-software-attribution.mp4' style={{width: '100%', height: 'auto'}} />
 
