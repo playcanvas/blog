@@ -1,7 +1,7 @@
 ---
 authors: will
 slug: new-in-supersplat-software-attribution-collision-generation-and-histogram
-title: "New in SuperSplat: Software Attribution, Collision Generation and Histogram Upgrades"
+title: "New in SuperSplat: Software Attribution, Collision Generation and GPU-Powered Histogram"
 tags:
   - gaussian-splats
   - supersplat
@@ -31,7 +31,7 @@ Open your splat in [SuperSplat Studio](https://superspl.at/editor), head to the 
 
 Browse the [walkable gallery](https://superspl.at/?features=walkable&time=all) to see what the community has been building.
 
-### 📊 Histogram Upgrades
+### 📊 GPU-Powered Histogram
 
 The **SuperSplat Editor's Data Panel** has had a major upgrade. The histogram is now **GPU-driven**, computing per-property statistics across **millions of Gaussians in milliseconds** — even on modest hardware.
 
