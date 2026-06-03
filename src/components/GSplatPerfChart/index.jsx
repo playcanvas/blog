@@ -133,7 +133,7 @@ export default function GSplatPerfChart({ device = 'desktop' }) {
         <table className={styles.fps}>
           <thead>
             <tr>
-              <th scope="col">Budget</th>
+              <th scope="col">Metric</th>
               {d.labels.map(l => <th key={l} scope="col">{l}</th>)}
             </tr>
           </thead>
