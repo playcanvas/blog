@@ -128,26 +128,26 @@ export default function GSplatPerfChart({ device = 'desktop' }) {
         <span><i className={styles.swatch} style={{ background: GL }} aria-hidden="true" />WebGL 2 Renderer</span>
         <span><i className={styles.swatch} style={{ background: GPU }} aria-hidden="true" />WebGPU Renderer</span>
       </div>
-      <div className={styles.chartBox}><canvas ref={canvasRef} /></div>
+      <div className={styles.chartBox}><canvas ref={canvasRef} aria-hidden="true" /></div>
       <div className={styles.tableWrap}>
         <table className={styles.fps}>
           <thead>
             <tr>
-              <th>Budget</th>
-              {d.labels.map(l => <th key={l}>{l}</th>)}
+              <th scope="col">Budget</th>
+              {d.labels.map(l => <th key={l} scope="col">{l}</th>)}
             </tr>
           </thead>
           <tbody>
             <tr className={styles.gl}>
-              <td>WebGL 2 <span className={styles.unit}>fps</span></td>
+              <th scope="row">WebGL 2 <span className={styles.unit}>fps</span></th>
               {gl.map((v, i) => <td key={i} className={styles.val}>{v == null ? '–' : v}</td>)}
             </tr>
             <tr className={styles.gpu}>
-              <td>WebGPU <span className={styles.unit}>fps</span></td>
+              <th scope="row">WebGPU <span className={styles.unit}>fps</span></th>
               {gpu.map((v, i) => <td key={i} className={styles.val}>{v == null ? '–' : v}</td>)}
             </tr>
             <tr className={styles.spd}>
-              <td>WebGPU speedup</td>
+              <th scope="row">WebGPU speedup</th>
               {speed.map((s, i) => <td key={i}>{s == null ? '–' : `${s}×`}</td>)}
             </tr>
           </tbody>

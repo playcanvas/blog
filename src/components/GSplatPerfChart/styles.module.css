@@ -106,12 +106,20 @@
   color: #4cc9f0;
 }
 
-.spd td {
+/* Row-label headers keep the regular weight from the original design. */
+.gl th,
+.gpu th {
+  font-weight: 400;
+}
+
+.spd td,
+.spd th {
   color: #3fb950;
   font-weight: 650;
 }
 
-.spd td:first-child {
+.spd td:first-child,
+.spd th:first-child {
   color: #3fb950;
 }
 
