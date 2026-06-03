@@ -7,6 +7,8 @@ tags:
   - gaussian-splats
   - supersplat
   - webgpu
+  - performance
+  - open-source
 ---
 
 import GSplatPerfChart from '@site/src/components/GSplatPerfChart';
