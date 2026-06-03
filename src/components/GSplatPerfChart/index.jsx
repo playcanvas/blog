@@ -102,8 +102,8 @@ export default function GSplatPerfChart({ device = 'desktop' }) {
         }
       });
     }).catch((err) => {
-      // Chunk failed to load (network error, blocked script, etc.) — fail quietly
-      // rather than surfacing an unhandled promise rejection.
+      // Chunk failed to load (network error, blocked script, etc.) — log it and
+      // swallow the rejection so it doesn't surface as an unhandled promise rejection.
       console.error('Failed to load Chart.js for GSplatPerfChart:', err);
     });
 
