@@ -6,6 +6,7 @@ unlisted: true
 tags:
   - gaussian-splats
   - supersplat
+  - webgpu
 ---
 
 import GSplatPerfChart from '@site/src/components/GSplatPerfChart';
