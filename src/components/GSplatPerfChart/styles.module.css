@@ -1,0 +1,129 @@
+.card {
+  background: linear-gradient(180deg, #161b22 0%, #1c2230 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 26px 28px 22px;
+  margin-bottom: 34px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  color: #e6edf3;
+}
+
+.cardHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.meta {
+  color: #8b949e;
+  font-size: 13px;
+}
+
+.legend {
+  display: flex;
+  gap: 22px;
+  margin: 14px 0 18px;
+  font-size: 14px;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #8b949e;
+}
+
+.swatch {
+  width: 26px;
+  height: 4px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.chartBox {
+  position: relative;
+  height: 420px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+/* Self-contained table styling; overrides Docusaurus/infima table theming. */
+.fps {
+  display: table;
+  width: 100%;
+  margin: 22px 0 0;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+}
+
+.fps tr,
+.fps tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+.fps th,
+.fps td {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 7px 6px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.fps thead tr {
+  border-bottom: none;
+}
+
+.fps thead th {
+  color: #8b949e;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.fps th:first-child,
+.fps td:first-child {
+  text-align: left;
+  color: #8b949e;
+}
+
+.gl .val {
+  color: #f7768e;
+}
+
+.gpu .val {
+  color: #4cc9f0;
+}
+
+/* Row-label headers keep the regular weight from the original design. */
+.gl th,
+.gpu th {
+  font-weight: 400;
+}
+
+.spd td,
+.spd th {
+  color: #3fb950;
+  font-weight: 650;
+}
+
+.spd td:first-child,
+.spd th:first-child {
+  color: #3fb950;
+}
+
+.unit {
+  color: #8b949e;
+  font-weight: 400;
+}
