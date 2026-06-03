@@ -2,7 +2,6 @@
 authors: will
 slug: new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins
 title: "New in SuperSplat: WebGPU and Streaming Bring Huge Performance Wins"
-unlisted: true
 tags:
   - gaussian-splats
   - supersplat
