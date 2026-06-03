@@ -66,6 +66,8 @@ If you're building a splat-based application, we'd love for you to build it on P
 - [SuperSplat Viewer](https://github.com/playcanvas/supersplat-viewer)
 - [SplatTransform](https://github.com/playcanvas/splat-transform)
 
+New to Gaussian splatting on PlayCanvas? Our [Gaussian Splatting documentation](https://developer.playcanvas.com/user-manual/gaussian-splatting/) is the best place to get started.
+
 ### 👂 We Want to Hear from You
 
 What do you think of the new features? What would you like to see next? Come and join us on the [PlayCanvas Discord](https://discord.com/invite/T3pnhRTTAY) — it's where the world's best splat creators hang out and we'd love to have you there.
