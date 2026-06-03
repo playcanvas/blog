@@ -26,7 +26,7 @@ const toFps = arr => arr.map(ms => (ms == null ? null : +(1000 / ms).toFixed(1))
 
 export default function GSplatPerfChart({ device = 'desktop' }) {
   const canvasRef = useRef(null);
-  const d = DEVICES[device];
+  const d = DEVICES[device] ?? DEVICES.desktop;
 
   useEffect(() => {
     let chart;
@@ -101,6 +101,10 @@ export default function GSplatPerfChart({ device = 'desktop' }) {
           }
         }
       });
+    }).catch((err) => {
+      // Chunk failed to load (network error, blocked script, etc.) — fail quietly
+      // rather than surfacing an unhandled promise rejection.
+      console.error('Failed to load Chart.js for GSplatPerfChart:', err);
     });
 
     return () => {
@@ -121,8 +125,8 @@ export default function GSplatPerfChart({ device = 'desktop' }) {
         <span className={styles.meta}>{d.meta}</span>
       </div>
       <div className={styles.legend}>
-        <span><i className={styles.swatch} style={{ background: GL }} />WebGL 2 Renderer</span>
-        <span><i className={styles.swatch} style={{ background: GPU }} />WebGPU Renderer</span>
+        <span><i className={styles.swatch} style={{ background: GL }} aria-hidden="true" />WebGL 2 Renderer</span>
+        <span><i className={styles.swatch} style={{ background: GPU }} aria-hidden="true" />WebGPU Renderer</span>
       </div>
       <div className={styles.chartBox}><canvas ref={canvasRef} /></div>
       <div className={styles.tableWrap}>
