@@ -23,11 +23,11 @@ Turning a Gaussian splat into a real, interactive web app used to mean wiring up
 
 Open any downloadable scene, hit **Download** and choose the **Vite project** option. You'll get a complete, ready‑to‑run web app — [PlayCanvas Engine](https://github.com/playcanvas/engine) + [Vite](https://vitejs.dev) + TypeScript — with the splat itself bundled in and the camera pose you set in SuperSplat preserved. Unzip it, run `npm install` and `npm run dev`, and you're looking at your splat running live in the browser.
 
-Here's the fun part. The project is deliberately **minimal and fully typed**: the viewer logic lives in a single `src/main.ts`, and everything you'd want to change sits in one clearly named `src/splat-config.ts`. That makes it the perfect thing to hand to your favourite AI coding assistant — Cursor, Claude Code, whatever you like — and **vibe code** the app you actually want. Add hotspots, build a product configurator, drop in a character controller… it's the fastest path we've found from a raw scan to a shippable web app.
+Here's the fun part. The project is deliberately **minimal and fully typed**: the viewer logic lives in a single `src/main.ts`, and everything you'd want to change sits in one clearly named `src/splat-config.ts`. That makes it the perfect thing to hand to your favorite AI coding assistant — Cursor, Claude Code, whatever you like — and **vibe code** the app you actually want. Add hotspots, build a product configurator, drop in a character controller… it's the fastest path we've found from a raw scan to a shippable web app.
 
 ### 🎬 360° Video Rendering
 
-Today also brings **[SuperSplat Editor 2.29.0](https://github.com/playcanvas/supersplat/releases/tag/v2.29.0)**, and its headline feature is **360° video rendering**. You can now render your animated splat scenes straight to **equirectangular 360° video** — ready to upload to YouTube 360, view in a VR headset, or share as immersive social content. Here's how it works:
+Today also brings **[SuperSplat Editor 2.29.0](https://github.com/playcanvas/supersplat/releases/tag/v2.29.0)**, and its headline feature is **360° video rendering**. You can now render your animated splat scenes straight to **equirectangular 360° video** — ready to upload to YouTube 360, view in a VR headset or share as immersive social content. Here's how it works:
 
 <video autoPlay muted loop controls src='/img/supersplat-360-video.mp4' style={{width: '100%', height: 'auto'}} />
 
@@ -47,7 +47,7 @@ With SPZ export, your SuperSplat scenes drop straight into Scaniverse and any ot
 
 ### ⚡ splat-transform 3.0
 
-[splat-transform](https://github.com/playcanvas/splat-transform) is our open source command‑line tool and library for converting and optimising Gaussian splats — it's the same tool that produces SuperSplat's super‑compressed [SOG](/playcanvas-open-sources-sog-format-for-gaussian-splatting) and Streamed SOG output. Today it gets its biggest upgrade yet: **version 3.0**.
+[splat-transform](https://github.com/playcanvas/splat-transform) is our open source command‑line tool and library for converting and optimizing Gaussian splats — it's the same tool that produces SuperSplat's super‑compressed [SOG](/playcanvas-open-sources-sog-format-for-gaussian-splatting) and Streamed SOG output. Today it gets its biggest upgrade yet: **version 3.0**.
 
 The 3.0 release is a ground‑up **streaming rewrite**. Instead of loading an entire scene into memory, splat-transform now streams data through in bounded chunks, so **memory use scales with chunk size, not scene size**. In practice that means you can process **scenes of 100M+ Gaussians on standard hardware** — and it's dramatically faster too: a 10M‑Gaussian filter pass runs about **7× faster while using roughly a fifth of the peak memory** of the 2.x line.
 
