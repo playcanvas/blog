@@ -26,7 +26,7 @@ Open any downloadable scene, hit **Download** and choose the **Vite project** op
 
 Here's the fun part. The project is deliberately **minimal and fully typed**: the viewer logic lives in a single `src/main.ts`, and everything you'd want to change sits in one clearly named `src/splat-config.ts`. That makes it the perfect thing to hand to your favorite AI coding assistant — Cursor, Claude Code, whatever you like — and **vibe code** the app you actually want. Add hotspots, build a product configurator, drop in a character controller… it's the fastest path we've found from a raw scan to a shippable web app.
 
-Here's one we vibe-coded earlier: an interactive **snow globe** built from a single splat of Le Mont Saint-Michel. Hit play to launch the live app — it's a hefty splat, so it only loads when you ask:
+Here's one we vibe-coded earlier: an interactive **snow globe** built from a single [Le Mont Saint-Michel splat](https://superspl.at/scene/7e1bd643) by Mykhailo Moroz. Hit play to launch the live app — it's a hefty splat, so it only loads when you ask:
 
 <AppEmbed
   src="https://willeastcott.github.io/snowglobe/"
