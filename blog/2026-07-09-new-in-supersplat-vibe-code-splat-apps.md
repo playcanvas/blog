@@ -36,6 +36,8 @@ Here's one we vibe-coded earlier: an interactive **snow globe** built from a sin
   note="Click to launch · ~80 MB"
 />
 
+The whole thing is a small Vite + TypeScript project — [browse the source on GitHub](https://github.com/willeastcott/snowglobe) to see exactly how it's put together.
+
 ### 🎬 360° Video Rendering
 
 Today also brings **[SuperSplat Editor 2.29.0](https://github.com/playcanvas/supersplat/releases/tag/v2.29.0)**, and its headline feature is **360° video rendering**. You can now render your animated splat scenes straight to **equirectangular 360° video** — ready to upload to YouTube 360, view in a VR headset or share as immersive social content. Here's how it works:
