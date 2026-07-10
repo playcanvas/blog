@@ -33,7 +33,9 @@ Today also brings **[SuperSplat Editor 2.29.0](https://github.com/playcanvas/sup
 
 And here's the payoff — a 360° video rendered straight out of SuperSplat and uploaded to YouTube. Open it there and drag to look around, or view it on your phone or in a headset for the full immersive effect:
 
-<a className="button button--primary button--lg" style={{marginBottom: '2rem'}} href="https://www.youtube.com/watch?v=6oGjT8eubMc" target="_blank" rel="noopener">▶&nbsp;&nbsp;Look around in 360° on YouTube</a>
+<div style={{textAlign: 'center', marginBottom: '2rem'}}>
+    <a className="button button--primary button--lg" href="https://www.youtube.com/watch?v=6oGjT8eubMc" target="_blank" rel="noopener">▶&nbsp;&nbsp;Look around in 360° on YouTube</a>
+</div>
 
 And we didn't stop at video. SuperSplat can now also export **360° equirectangular images**, and regular image export has switched to **WebP** for smaller files at higher quality.
 
