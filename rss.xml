@@ -4,10 +4,58 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Wed, 03 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[New in SuperSplat: Vibe Code Splat Apps, 360° Video and splat-transform 3.0]]></title>
+            <link>https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps</link>
+            <guid>https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last month we shipped WebGPU and Streaming Bring Huge Performance Wins — a huge leap in how fast splats load and render. Today's update is all about what you can do with your splats. We're rolling out a way to vibe code an entire app around any splat, plus 360° video rendering and SPZ export in SuperSplat Editor 2.29.0, and a major new release of splat-transform.]]></description>
+            <content:encoded><![CDATA[<p>Last month we shipped <strong><a class="" href="https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins">WebGPU and Streaming Bring Huge Performance Wins</a></strong> — a huge leap in how fast splats load and render. Today's update is all about what you can <em>do</em> with your splats. We're rolling out a way to <strong>vibe code an entire app around any splat</strong>, plus <strong>360° video rendering</strong> and <strong>SPZ export</strong> in SuperSplat Editor 2.29.0, and a major new release of <strong>splat-transform</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vibe-code-splat-apps">🤖 Vibe Code Splat Apps<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-vibe-code-splat-apps" class="hash-link" aria-label="Direct link to 🤖 Vibe Code Splat Apps" title="Direct link to 🤖 Vibe Code Splat Apps" translate="no">​</a></h3>
+<p>Turning a Gaussian splat into a real, interactive web app used to mean wiring up an engine, a build tool and a viewer by hand. Not any more. Every <strong>downloadable splat</strong> on SuperSplat now comes with a one‑click <strong>starter project</strong> download.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/supersplat-vibe-coding.mp4" style="width:100%;height:auto"></video>
+<p>Open any downloadable scene, hit <strong>Download</strong> and choose the <strong>Vite project</strong> option. You'll get a complete, ready‑to‑run web app — <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a> + <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer" class="">Vite</a> + TypeScript — with the splat itself bundled in and the camera pose you set in SuperSplat preserved. Unzip it, run <code>npm install</code> and <code>npm run dev</code>, and you're looking at your splat running live in the browser.</p>
+<p>Here's the fun part. The project is deliberately <strong>minimal and fully typed</strong>: the viewer logic lives in a single <code>src/main.ts</code>, and everything you'd want to change sits in one clearly named <code>src/splat-config.ts</code>. That makes it the perfect thing to hand to your favorite AI coding assistant — Cursor, Claude Code, whatever you like — and <strong>vibe code</strong> the app you actually want. Add hotspots, build a product configurator, drop in a character controller… it's the fastest path we've found from a raw scan to a shippable web app.</p>
+<p>Here's one we vibe-coded earlier: an interactive <strong>snow globe</strong> built from a single splat of Le Mont Saint-Michel. Hit play to launch the live app — it's a hefty splat, so it only loads when you ask:</p>
+<div class="embed_vtT5"><button type="button" class="facade_XV8S" aria-label="Launch Le Mont Saint-Michel Snow Globe"><span class="play_nWGh" aria-hidden="true">▶</span><span class="title_hAQC">Le Mont Saint-Michel Snow Globe</span><span class="subtitle_AS_S">Vibe-coded from a single Gaussian splat</span><span class="note_W6bq">Click to launch · ~80 MB</span></button></div>
+<p>The whole thing is a small Vite + TypeScript project — <a href="https://github.com/willeastcott/snowglobe" target="_blank" rel="noopener noreferrer" class="">browse the source on GitHub</a> to see exactly how it's put together.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-360-video-rendering">🎬 360° Video Rendering<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-360-video-rendering" class="hash-link" aria-label="Direct link to 🎬 360° Video Rendering" title="Direct link to 🎬 360° Video Rendering" translate="no">​</a></h3>
+<p>Today also brings <strong><a href="https://github.com/playcanvas/supersplat/releases/tag/v2.29.0" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor 2.29.0</a></strong>, and its headline feature is <strong>360° video rendering</strong>. You can now render your animated splat scenes straight to <strong>equirectangular 360° video</strong> — ready to upload to YouTube 360, view in a VR headset or share as immersive social content. Here's how it works:</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/supersplat-360-video.mp4" style="width:100%;height:auto"></video>
+<p>And here's the payoff — a 360° video rendered straight out of SuperSplat and uploaded to YouTube. Open it there and drag to look around, or view it on your phone or in a headset for the full immersive effect:</p>
+<div style="text-align:center;margin-bottom:2rem"><a class="button button--primary button--lg" href="https://www.youtube.com/watch?v=6oGjT8eubMc" target="_blank" rel="noopener">▶&nbsp;&nbsp;Look around in 360° on YouTube</a></div>
+<p>And we didn't stop at video. SuperSplat can now also export <strong>360° equirectangular images</strong>, and regular image export has switched to <strong>WebP</strong> for smaller files at higher quality.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-spz-export">📦 SPZ Export<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-spz-export" class="hash-link" aria-label="Direct link to 📦 SPZ Export" title="Direct link to 📦 SPZ Export" translate="no">​</a></h3>
+<p>SuperSplat Editor 2.29.0 also adds export to <strong>SPZ</strong>, the open, compressed splat format created by Niantic Labs for Scaniverse. SPZ files are roughly <strong>10× smaller than the equivalent PLY</strong> with virtually no perceptible loss in quality, and the format has quickly become a common language for moving splats between tools.</p>
+<p>With SPZ export, your SuperSplat scenes drop straight into Scaniverse and any other SPZ‑compatible app or pipeline.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/supersplat-spz-export.mp4" style="width:100%;height:auto"></video>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-splat-transform-30">⚡ splat-transform 3.0<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-splat-transform-30" class="hash-link" aria-label="Direct link to ⚡ splat-transform 3.0" title="Direct link to ⚡ splat-transform 3.0" translate="no">​</a></h3>
+<p><a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer" class="">splat-transform</a> is our open source command‑line tool and library for converting and optimizing Gaussian splats — it's the same tool that produces SuperSplat's super‑compressed <a class="" href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting">SOG</a> and Streamed SOG output. Today it gets its biggest upgrade yet: <strong>version 3.0</strong>.</p>
+<p>The 3.0 release is a ground‑up <strong>streaming rewrite</strong>. Instead of loading an entire scene into memory, splat-transform now streams data through in bounded chunks, so <strong>memory use scales with chunk size, not scene size</strong>. In practice that means you can process <strong>scenes of 100M+ Gaussians on standard hardware</strong> — and it's dramatically faster too: a 10M‑Gaussian filter pass runs about <strong>7× faster while using roughly a fifth of the peak memory</strong> of the 2.x line.</p>
+<p>Because so much changed under the hood, 3.0 is a major release with some breaking API and CLI changes, and it targets <strong>Node.js 22+</strong>. Give it a spin with <code>npx @playcanvas/splat-transform</code>; the <strong><a href="https://github.com/playcanvas/splat-transform/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer" class="">3.0 release notes</a></strong> and <a href="https://github.com/playcanvas/splat-transform/pull/276" target="_blank" rel="noopener noreferrer" class="">this pull request</a> have the full details and migration notes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-free-and-open-source">💚 Free and Open Source<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-free-and-open-source" class="hash-link" aria-label="Direct link to 💚 Free and Open Source" title="Direct link to 💚 Free and Open Source" translate="no">​</a></h3>
+<p>SuperSplat, SplatTransform and the PlayCanvas Engine are all <strong>free and open source</strong> under the MIT license. We believe the best tools for 3D on the web should be accessible to everyone.</p>
+<p>If you're building a splat-based application, we'd love for you to build it on PlayCanvas. Check out our repos on GitHub:</p>
+<ul>
+<li class=""><a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a></li>
+<li class=""><a href="https://github.com/playcanvas/supersplat" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor</a></li>
+<li class=""><a href="https://github.com/playcanvas/supersplat-viewer" target="_blank" rel="noopener noreferrer" class="">SuperSplat Viewer</a></li>
+<li class=""><a href="https://github.com/playcanvas/splat-transform" target="_blank" rel="noopener noreferrer" class="">SplatTransform</a></li>
+</ul>
+<p>New to Gaussian splatting on PlayCanvas? Our <a href="https://developer.playcanvas.com/user-manual/gaussian-splatting/" target="_blank" rel="noopener noreferrer" class="">Gaussian Splatting documentation</a> is the best place to get started.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-we-want-to-hear-from-you">👂 We Want to Hear from You<a href="https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps#-we-want-to-hear-from-you" class="hash-link" aria-label="Direct link to 👂 We Want to Hear from You" title="Direct link to 👂 We Want to Hear from You" translate="no">​</a></h3>
+<p>What do you think of the new features? What would you like to see next? Come and join us on the <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Discord</a> — it's where the world's best splat creators hang out and we'd love to have you there.</p>
+<p>See you in there!</p>]]></content:encoded>
+            <category>gaussian-splats</category>
+            <category>supersplat</category>
+            <category>splat-transform</category>
+            <category>ai</category>
+            <category>open-source</category>
+        </item>
         <item>
             <title><![CDATA[New in SuperSplat: WebGPU and Streaming Bring Huge Performance Wins]]></title>
             <link>https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins</link>
@@ -1027,51 +1075,6 @@ To set up your local development environment, check out the <a href="https://git
 <p><img decoding="async" loading="lazy" alt="GitHub Contributors" src="https://blog.playcanvas.com/assets/images/engine-contributors-50d4173785b6d1ae8d8f478ac3bc8520.svg" width="812" height="608" class="img_ev3q"></p>
 <p>Thank you for your incredible contributions. 🙏</p>]]></content:encoded>
             <category>engine</category>
-        </item>
-        <item>
-            <title><![CDATA[Create 3D Gaussian Splat Apps with the PlayCanvas Editor]]></title>
-            <link>https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor</link>
-            <guid>https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor</guid>
-            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[CLICK HERE to open in a new tab. Credits: Splats scanned at the V&A Museum. HDRI from Poly Haven.]]></description>
-            <content:encoded><![CDATA[<div class="iframe-container-taller"><iframe loading="lazy" src="https://playcanv.as/e/p/cLkf99ZV/" title="3DGS Statues" webkitallowfullscreen="true" mozallowfullscreen="true" allow="autoplay" allowfullscreen="" allowvr="" scrolling="no" frameborder="0"></iframe></div>
-<p><em><a href="https://playcanv.as/e/p/cLkf99ZV/" target="_blank" rel="noopener noreferrer" class="">CLICK HERE</a> to open in a new tab. Credits: Splats scanned at the <a href="https://www.vam.ac.uk/" target="_blank" rel="noopener noreferrer" class="">V&amp;A Museum</a>. HDRI from <a href="https://polyhaven.com/a/sepulchral_chapel_rotunda" target="_blank" rel="noopener noreferrer" class="">Poly Haven</a>.</em></p>
-<p>We have big news for the 3D Gaussian Splat community - the PlayCanvas Editor now has fully integrated support for splats!
-Learn how to quickly build stunning, interactive 3DGS applications today.</p>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>What you need</div><div class="admonitionContent_BuS1"><p>🤳 A smartphone<br>
-<!-- -->💻 A computer with a web browser<br>
-<!-- -->⏱️ A small amount of time</p></div></div>
-<p>The application above shows several splats assembled in a single application, with animation and post effects spicing up the visuals. Let's check out how it was built.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-clean-in-supersplat-">Step 1: Clean in SuperSplat 🧹<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-1-clean-in-supersplat-" class="hash-link" aria-label="Direct link to Step 1: Clean in SuperSplat 🧹" title="Direct link to Step 1: Clean in SuperSplat 🧹" translate="no">​</a></h3>
-<p>After <a href="https://developer.playcanvas.com/user-manual/graphics/gaussian-splatting/#creating-splats" target="_blank" rel="noopener noreferrer" class="">capturing the statues</a> to PLY format, our first stop is <a href="https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/statues/narcissus.compressed.ply" target="_blank" rel="noopener noreferrer" class="">SuperSplat</a>, the open source tool for editing and optimizing 3D Gaussian Splats. Here, in a little over a minute, we can isolate the statue from the background and align it with the origin:</p>
-<video autoplay="" muted="" loop="" controls="" src="/img/statue-supersplat.mp4" style="width:100%;height:auto"></video>
-<p>Once we are done, we can download the splat using our <a href="https://blog.playcanvas.com/compressing-gaussian-splats" target="_blank" rel="noopener noreferrer" class="">compressed PLY format</a>. In this case, our downloaded PLY is <strong>only 1.56MB</strong>!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-import-into-the-editor-">Step 2: Import into the Editor 🚧<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-2-import-into-the-editor-" class="hash-link" aria-label="Direct link to Step 2: Import into the Editor 🚧" title="Direct link to Step 2: Import into the Editor 🚧" translate="no">​</a></h3>
-<p>Now that we have a clean, compressed PLY, we simply need to drop it into the Editor's Asset Panel. And from there, drag it into the viewport to add it to the scene. Let's do that (along with a cube map for a photographic backdrop):</p>
-<video autoplay="" muted="" loop="" controls="" src="/img/statue-editor.mp4" style="width:100%;height:auto"></video>
-<p>The PlayCanvas Editor is a powerful visual environment for building and publishing 3D scenes. You can:</p>
-<ul>
-<li class="">Grab useful scripts (and other assets) from the Asset Store. Here, we import an Orbit Camera script.</li>
-<li class="">Create beautiful user interfaces, using either HTML or PlayCanvas' built-in UI system.</li>
-<li class="">Add sound, physics, VR/AR support and much, much more.</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-add-animation-and-post-effects-">Step 3: Add Animation and Post Effects ✨<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#step-3-add-animation-and-post-effects-" class="hash-link" aria-label="Direct link to Step 3: Add Animation and Post Effects ✨" title="Direct link to Step 3: Add Animation and Post Effects ✨" translate="no">​</a></h3>
-<p>What really makes the demo pop is the transitions that fade the statues in and out.</p>
-<video autoplay="" muted="" loop="" controls="" src="/img/statue-custom-shaders.mp4" style="width:100%;height:auto"></video>
-<p>With the Editor, you can customize the shader code that renders your splats to apply stunning animation effects. For the transition between statues, individual splats are transformed and recolored over time, while a full-screen bloom effect is ramped up and down.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="resources">Resources<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#resources" class="hash-link" aria-label="Direct link to Resources" title="Direct link to Resources" translate="no">​</a></h3>
-<p>Today's release makes working with 3D Gaussian Splats both easy and fun! We've shown you how to build a virtual gallery or museum but the possibilities are endless. With 3D Gaussian Splats in the PlayCanvas Editor, you can target many verticals: product visualization (furniture, clothing, consumer electronics), automotive, education, travel and so much more.</p>
-<p>To get started, here is an useful list of resources:</p>
-<ul>
-<li class=""><a href="https://playcanvas.com/project/1224723/overview/3d-gaussian-splat-statues" target="_blank" rel="noopener noreferrer" class="">Statue Project</a> - feel free to fork it, explore and experiment.</li>
-<li class=""><a href="https://developer.playcanvas.com/user-manual/graphics/gaussian-splatting/" target="_blank" rel="noopener noreferrer" class="">3D Gaussian Splatting</a> User Guide</li>
-<li class=""><a href="https://playcanvas.com/supersplat/editor" target="_blank" rel="noopener noreferrer" class="">SuperSplat</a> (don't forget to <a href="https://blog.playcanvas.com/a-faster-supersplat-with-pwa-support#pwa-support" target="_blank" rel="noopener noreferrer" class="">install the PWA</a>)</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="go-forth-and-create">Go Forth and Create<a href="https://blog.playcanvas.com/create-3d-gaussian-splat-apps-with-the-playcanvas-editor#go-forth-and-create" class="hash-link" aria-label="Direct link to Go Forth and Create" title="Direct link to Go Forth and Create" translate="no">​</a></h3>
-<p>We hope you love today's update as much as we do! ❤️</p>
-<p>But let us know what you think by heading over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer" class="">forum</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content:encoded>
-            <category>gaussian-splats</category>
-            <category>supersplat</category>
         </item>
     </channel>
 </rss>
