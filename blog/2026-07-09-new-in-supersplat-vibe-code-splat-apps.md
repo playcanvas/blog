@@ -11,6 +11,8 @@ tags:
   - open-source
 ---
 
+import AppEmbed from '@site/src/components/AppEmbed';
+
 Last month we shipped **[WebGPU and Streaming Bring Huge Performance Wins](/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins)** — a huge leap in how fast splats load and render. Today's update is all about what you can *do* with your splats. We're rolling out a way to **vibe code an entire app around any splat**, plus **360° video rendering** and **SPZ export** in SuperSplat Editor 2.29.0, and a major new release of **splat-transform**.
 
 <!-- truncate -->
@@ -24,6 +26,15 @@ Turning a Gaussian splat into a real, interactive web app used to mean wiring up
 Open any downloadable scene, hit **Download** and choose the **Vite project** option. You'll get a complete, ready‑to‑run web app — [PlayCanvas Engine](https://github.com/playcanvas/engine) + [Vite](https://vitejs.dev) + TypeScript — with the splat itself bundled in and the camera pose you set in SuperSplat preserved. Unzip it, run `npm install` and `npm run dev`, and you're looking at your splat running live in the browser.
 
 Here's the fun part. The project is deliberately **minimal and fully typed**: the viewer logic lives in a single `src/main.ts`, and everything you'd want to change sits in one clearly named `src/splat-config.ts`. That makes it the perfect thing to hand to your favorite AI coding assistant — Cursor, Claude Code, whatever you like — and **vibe code** the app you actually want. Add hotspots, build a product configurator, drop in a character controller… it's the fastest path we've found from a raw scan to a shippable web app.
+
+Here's one we vibe-coded earlier: an interactive **snow globe** built from a single splat of Le Mont Saint-Michel. Hit play to launch the live app — it's a hefty splat, so it only loads when you ask:
+
+<AppEmbed
+  src="https://willeastcott.github.io/snowglobe/"
+  title="Le Mont Saint-Michel Snow Globe"
+  subtitle="Vibe-coded from a single Gaussian splat"
+  note="Click to launch · ~80 MB"
+/>
 
 ### 🎬 360° Video Rendering
 
