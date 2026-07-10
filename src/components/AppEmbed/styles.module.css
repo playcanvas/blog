@@ -1,0 +1,86 @@
+.embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.frame,
+.facade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.facade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+  color: #ece7db;
+  background-color: #05060a;
+  background-size: cover;
+  background-position: center;
+  transition: filter 0.2s ease;
+}
+
+.facade::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(10, 14, 26, 0.25) 0%,
+    rgba(5, 6, 10, 0.8) 100%
+  );
+}
+
+.facade:hover {
+  filter: brightness(1.1);
+}
+
+.play,
+.title,
+.subtitle,
+.note {
+  position: relative;
+  z-index: 1;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  padding-left: 5px; /* optically centre the triangle */
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-size: 28px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.note {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
