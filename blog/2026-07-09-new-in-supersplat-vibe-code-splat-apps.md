@@ -53,7 +53,7 @@ And we didn't stop at video. SuperSplat can now also export **360° equirectangu
 
 ### 📦 SPZ Export
 
-SuperSplat Editor 2.29.0 also adds export to **SPZ**, the open, compressed splat format created by Niantic Labs for Scaniverse. SPZ files are roughly **10× smaller than the equivalent PLY** with virtually no perceptible loss in quality, and the format has quickly become a common language for moving splats between tools.
+SuperSplat Editor 2.29.0 also adds export to **SPZ**, the open, compressed splat format created by Niantic Labs for Scaniverse. SPZ files are roughly **10× smaller than the equivalent PLY** with virtually no perceptible loss in quality.
 
 With SPZ export, your SuperSplat scenes drop straight into Scaniverse and any other SPZ‑compatible app or pipeline.
 
