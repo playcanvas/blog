@@ -12,7 +12,7 @@ tags:
 
 import AppEmbed from '@site/src/components/AppEmbed';
 
-Last month we shipped **[WebGPU and Streaming Bring Huge Performance Wins](/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins)** — a huge leap in how fast splats load and render. Today's update is all about what you can *do* with your splats. We're rolling out a way to **vibe code an entire app around any splat**, plus **360° video rendering** and **SPZ export** in SuperSplat Editor 2.29.0, and a major new release of **splat-transform**.
+Last month we shipped **[a new WebGPU renderer and automatic streaming](/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins)** — a huge leap in how fast splats load and render. Today's update is all about what you can *do* with your splats. We're rolling out a way to **vibe code an entire app around any splat**, plus **360° video rendering** and **SPZ export** in SuperSplat Editor 2.29.0, and a major new release of **splat-transform**.
 
 <!-- truncate -->
 
