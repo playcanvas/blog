@@ -2,7 +2,6 @@
 authors: will
 slug: new-in-supersplat-vibe-code-splat-apps
 title: "New in SuperSplat: Vibe Code Splat Apps, 360° Video and splat-transform 3.0"
-unlisted: true
 tags:
   - gaussian-splats
   - supersplat
