@@ -14,9 +14,7 @@ import AppEmbed from '@site/src/components/AppEmbed';
 
 [Grace Cathedral](https://vincentwoo.com/3d/grace_cathedral/) is an interactive 3D tour of the landmark cathedral on San Francisco's Nob Hill. It was built in collaboration with [Vincent Woo](https://vincentwoo.com), who captured and reconstructed the cathedral and its surrounding streets as 3D Gaussian splats.
 
-We jumped at the chance to work with Vincent after seeing his high-quality capture of Grace Cathedral. The PlayCanvas engine was a natural fit thanks to its WebGPU hybrid renderer and streamed SOG format.
-
-Take a look for yourself.
+We jumped at the chance to work with Vincent and offered to turn his splats into a browser-based, interactive experience. You can see the finished app below:
 
 <!-- truncate -->
 
@@ -27,7 +25,11 @@ Take a look for yourself.
   note="Click to launch"
 />
 
+This article aims to explain how this app was built. Let's dive in.
+
 ## Under the Hood
+
+The [PlayCanvas Engine](https://github.com/playcanvas/engine) was the perfect runtime on which to build, thanks to its WebGPU hybrid renderer and streamed SOG format.
 
 ### WebGPU Hybrid Renderer
 
@@ -45,7 +47,7 @@ The splat data is delivered as [streamed SOG](/new-in-supersplat-webgpu-and-stre
 
 The experience contains separate splat sets for the exterior and interior. The exterior combines a streamed LOD set covering everything within 400 meters with a static, low-detail set for the landscape beyond it. Each mode loads only its own set and evicts the other, so device memory holds one view at a time.
 
-Startup is tuned for time-to-first-pixel. On load, each streamed splat set starts at a single coarse LOD, so only a small fraction of the data needs to arrive before the loading screen lifts. From there the engine streams in detail progressively within a per-device budget: 3.5 million rendered splats on desktop and 1.4 million on mobile. Mode switches are covered by a short freeze-fade: the last frame is held and faded down while the next splat set loads its coarse LOD, then the new view fades in and refines.
+Startup is tuned for time-to-first-pixel. On load, each streamed splat set starts at a single coarse LOD, so only a small fraction of the data needs to arrive before the loading screen lifts. From there, the engine streams in detail progressively within a per-device budget: 3.5 million rendered splats on desktop and 1.4 million on mobile. Mode switches are covered by a short freeze-fade: the last frame is held and faded down while the next splat set loads its coarse LOD, then the new view fades in and refines.
 
 ### Optimized to Run Everywhere
 
@@ -69,7 +71,7 @@ The shader works in two stages to keep it cheap. A per-splat stage — a compute
 
 ### A Hidden Flag
 
-The same chunk also animates a flag hidden somewhere in the scene. Splats inside an authored box ride a traveling wave, with amplitude ramping up from the pole edge and each splat tilting to follow the displaced cloth surface.
+The same chunk also animates a flag hidden somewhere in the scene. Splats inside an authored box ride a traveling wave, with amplitude ramping up from the pole edge and each splat tilting to follow the displaced cloth surface. Can you find it? 🔍
 
 ### Cars
 
