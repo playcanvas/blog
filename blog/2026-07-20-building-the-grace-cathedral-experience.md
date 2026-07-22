@@ -107,4 +107,6 @@ Everything beneath the Grace Cathedral experience is built on open source founda
 
 Want to build an experience of your own? Start with our [Gaussian splatting guide](https://developer.playcanvas.com/user-manual/gaussian-splatting/) for the complete workflow from capture to delivery. You can prepare your capture in the [SuperSplat Editor](https://superspl.at/editor), then follow the [Your First Splat App](https://developer.playcanvas.com/user-manual/gaussian-splatting/building/your-first-app/) tutorial to choose the approach that best fits you, whether that is the Engine API, the PlayCanvas Editor, React or Web Components. 🚀
 
+If you have questions, want to share what you build or simply want to meet other creators, join the [PlayCanvas and SuperSplat community on Discord](https://discord.com/invite/T3pnhRTTAY). We'd love to see you there! 👋
+
 [Experience Grace Cathedral for yourself](https://vincentwoo.com/3d/grace_cathedral/) and see what the open web can do.
