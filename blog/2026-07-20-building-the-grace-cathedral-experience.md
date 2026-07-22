@@ -12,9 +12,9 @@ tags:
 
 import AppEmbed from '@site/src/components/AppEmbed';
 
-[Grace Cathedral](https://vincentwoo.com/3d/grace_cathedral/) is an interactive 3D tour of the landmark cathedral on San Francisco's Nob Hill. It was built in collaboration with [Vincent Woo](https://vincentwoo.com), who captured and reconstructed the cathedral and its surrounding streets as 3D Gaussian splats.
+[Grace Cathedral](https://gracecathedral.org/) is a San Francisco landmark on Nob Hill.
 
-We jumped at the chance to work with Vincent and offered to turn his splats into a browser-based, interactive experience. You can see the finished app below:
+After seeing [Vincent Woo's](https://vincentwoo.com) high-quality capture of the cathedral and its surrounding streets as 3D Gaussian splats, we jumped at the chance to collaborate with him. Together, we turned his splats into [a browser-based, interactive experience](https://vincentwoo.com/3d/grace_cathedral/). You can see the finished app below:
 
 <!-- truncate -->
 
@@ -25,7 +25,7 @@ We jumped at the chance to work with Vincent and offered to turn his splats into
   note="Click to launch"
 />
 
-This article aims to explain how this app was built. Let's dive in.
+This article explores how I built this app. Let's dive in.
 
 ## Under the Hood
 
@@ -99,4 +99,12 @@ Camera flights use authored waypoint graphs to route around the cathedral's arch
 
 A layered soundscape follows the camera. Outside, two city loops crossfade based on altitude. Inside, cathedral ambience takes over, with footsteps playing only while you walk. Even the loading screen follows the theme with a rose window drawn in CSS.
 
-Together, these details turn the cathedral capture into a living, explorable place. [Experience Grace Cathedral for yourself](https://vincentwoo.com/3d/grace_cathedral/).
+Together, these details turn the cathedral capture into a living, explorable place.
+
+## Open Source Foundations
+
+Everything beneath the Grace Cathedral experience is built on open source foundations. The [PlayCanvas Engine](https://github.com/playcanvas/engine) renders the scene in the browser, [SuperSplat](https://github.com/playcanvas/supersplat) provides the tools to edit and optimize the captures and the open [SOG format](/playcanvas-open-sources-sog-format-for-gaussian-splatting) makes them compact enough to stream. These are the same technologies we develop in the open for anyone to use, inspect and improve.
+
+Want to build an experience of your own? Start with our [Gaussian splatting guide](https://developer.playcanvas.com/user-manual/gaussian-splatting/) for the complete workflow from capture to delivery. You can prepare your capture in the [SuperSplat Editor](https://superspl.at/editor), then follow the [Your First Splat App](https://developer.playcanvas.com/user-manual/gaussian-splatting/building/your-first-app/) tutorial to choose the approach that best fits you, whether that is the Engine API, the PlayCanvas Editor, React or Web Components. 🚀
+
+[Experience Grace Cathedral for yourself](https://vincentwoo.com/3d/grace_cathedral/) and see what the open web can do.
