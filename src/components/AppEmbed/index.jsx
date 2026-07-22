@@ -14,9 +14,10 @@ export default function AppEmbed({
   subtitle,
   note,
   poster,
+  autoLoad = false,
   allow = 'fullscreen; xr-spatial-tracking; accelerometer; gyroscope',
 }) {
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(autoLoad);
 
   return (
     <div className={styles.embed}>
