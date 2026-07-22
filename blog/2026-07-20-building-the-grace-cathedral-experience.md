@@ -79,6 +79,20 @@ We created the moving traffic by isolating and duplicating parked cars from the 
 
 Three car splats spawn at randomized intervals and travel past the cathedral at slightly different speeds. They are disabled indoors, returning their splats to the interior's rendering budget.
 
+### Camera Navigation
+
+#### Exterior Orbit Controller
+
+The exterior orbit controller moves around a rounded-box envelope fitted to the cathedral. Horizontal and vertical motion are parameterized by arc length along the walls, corners and roof, producing uniform camera speed without discontinuities. Zoom adjusts the camera's standoff from the surface, while damped input adds momentum after release.
+
+<video autoPlay muted loop controls src='/img/grace-orbit.mp4' style={{width: '100%', height: 'auto'}} />
+
+#### Camera Flights
+
+Camera flights use authored waypoint graphs to route around the cathedral's architecture. Inside, routing uses the collision mesh to select visible nodes; outside, it tests clearance against the cathedral's orbit envelope. A shortest-path search produces a route that is converted into a cubic spline, interpolating position, orientation, focus distance and field of view. Closing the annotation rewinds the flight to the previous camera state.
+
+<video autoPlay muted loop controls src='/img/grace-fly.mp4' style={{width: '100%', height: 'auto'}} />
+
 ### Sound and Other Touches
 
 A layered soundscape follows the camera. Outside, two city loops crossfade based on altitude. Inside, cathedral ambience takes over, with footsteps playing only while you walk. Even the loading screen follows the theme with a rose window drawn in CSS.
