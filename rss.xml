@@ -4,10 +4,70 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Building the Grace Cathedral Experience]]></title>
+            <link>https://blog.playcanvas.com/building-the-grace-cathedral-experience</link>
+            <guid>https://blog.playcanvas.com/building-the-grace-cathedral-experience</guid>
+            <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A look at how we built the Grace Cathedral experience using streamed SOG, WebGPU-first rendering and custom shader effects.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://gracecathedral.org/" target="_blank" rel="noopener noreferrer" class="">Grace Cathedral</a> is a San Francisco landmark on Nob Hill.</p>
+<p>After seeing <a href="https://vincentwoo.com/" target="_blank" rel="noopener noreferrer" class="">Vincent Woo's</a> high-quality capture of the cathedral and its surrounding streets as 3D Gaussian splats, we jumped at the chance to collaborate with him. Together, we turned his splats into <a href="https://vincentwoo.com/3d/grace_cathedral/" target="_blank" rel="noopener noreferrer" class="">a browser-based, interactive experience</a>. You can see the finished app below:</p>
+<div class="embed_vtT5"><button type="button" class="facade_XV8S" aria-label="Launch Grace Cathedral"><span class="play_nWGh" aria-hidden="true">▶</span><span class="title_hAQC">Grace Cathedral</span><span class="subtitle_AS_S">Experience the outside and inside of Grace Cathedral</span><span class="note_W6bq">Click to launch</span></button></div>
+<p>This article explores how I built this app. Let's dive in.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="under-the-hood">Under the Hood<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#under-the-hood" class="hash-link" aria-label="Direct link to Under the Hood" title="Direct link to Under the Hood" translate="no">​</a></h2>
+<p>The <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a> was the perfect runtime on which to build, thanks to its WebGPU hybrid renderer and streamed SOG format.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="webgpu-hybrid-renderer">WebGPU Hybrid Renderer<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#webgpu-hybrid-renderer" class="hash-link" aria-label="Direct link to WebGPU Hybrid Renderer" title="Direct link to WebGPU Hybrid Renderer" translate="no">​</a></h3>
+<p>The exterior view renders around 3.5 million Gaussian splats at a time. Because they must be sorted back to front, moving the camera means repeatedly sorting millions of splats in real time.</p>
+<p>Our first-generation Gaussian splat renderer used WebGL 2, which only provides vertex and fragment shaders. They are well suited to drawing the splats but not to sorting them, so a worker sorted the Gaussians on the CPU and uploaded the results to the GPU. Sorting and uploading could fall behind rendering, making artifacts visible as the camera moved.</p>
+<p>WebGPU lets us divide that work more effectively. Compute shaders cull, project and sort the active splat set on the GPU every frame, then vertex and fragment shaders render the result. Keeping the data on the GPU avoids the transfer bottleneck and makes the pipeline <a class="" href="https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins">dramatically faster</a> than the worker-based WebGL 2 renderer.</p>
+<p>The experience uses this WebGPU pipeline whenever the browser supports it and falls back to the WebGL 2 renderer automatically. To support both rendering paths, the cutout, flag animation and transition shaders each have WGSL and GLSL implementations so the experience looks the same on both backends.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamed-sog">Streamed SOG<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#streamed-sog" class="hash-link" aria-label="Direct link to Streamed SOG" title="Direct link to Streamed SOG" translate="no">​</a></h3>
+<p>The splat data is delivered as <a class="" href="https://blog.playcanvas.com/new-in-supersplat-webgpu-and-streaming-bring-huge-performance-wins">streamed SOG</a> — our open <a class="" href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting">compressed splat format</a>, extended with chunked levels of detail that the engine fetches on demand.</p>
+<p>The experience contains separate splat sets for the exterior and interior. The exterior combines a streamed LOD set covering everything within 400 meters with a static, low-detail set for the landscape beyond it. Each mode loads only its own set and evicts the other, so device memory holds one view at a time.</p>
+<p>Startup is tuned for time-to-first-pixel. On load, each streamed splat set starts at a single coarse LOD, so only a small fraction of the data needs to arrive before the loading screen lifts. From there, the engine streams in detail progressively within a per-device budget: 3.5 million rendered splats on desktop and 1.4 million on mobile. Mode switches are covered by a short freeze-fade: the last frame is held and faded down while the next splat set loads its coarse LOD, then the new view fades in and refines.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="optimized-to-run-everywhere">Optimized to Run Everywhere<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#optimized-to-run-everywhere" class="hash-link" aria-label="Direct link to Optimized to Run Everywhere" title="Direct link to Optimized to Run Everywhere" translate="no">​</a></h3>
+<p>Beyond streaming and per-device splat budgets, a few things keep the experience smooth on modest hardware — and cool and quiet on phones:</p>
+<ul>
+<li class=""><strong>On-demand rendering.</strong> The app only renders when something changes: camera movement, LOD chunks arriving, a cutout animating, cars driving by. When you stop moving, it stops drawing.</li>
+<li class=""><strong>Resolution caps.</strong> Device pixel ratio is capped on high-DPI displays, with a further render-scale reduction on mobile, where the extra pixels cost more than they show.</li>
+<li class=""><strong>Depth pre-pass occlusion.</strong> The interior collision mesh doubles as an occluder: rendered depth-only before the splats, it lets early-Z reject splat fragments hidden behind walls.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bringing-the-scene-to-life">Bringing the Scene to Life<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#bringing-the-scene-to-life" class="hash-link" aria-label="Direct link to Bringing the Scene to Life" title="Direct link to Bringing the Scene to Life" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-peek-effect">The Peek Effect<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#the-peek-effect" class="hash-link" aria-label="Direct link to The Peek Effect" title="Direct link to The Peek Effect" translate="no">​</a></h3>
+<p>While orbiting outside, the Peek toggle carves away the section of wall nearest the camera so you can look inside. A thin, glowing rim outlines the cut edge.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/grace-peek.mp4" style="width:100%;height:auto"></video>
+<p>It is built on the engine's gsplat shader chunk system, which lets a project replace the <code>gsplatModifyVS</code> and <code>gsplatModifyPS</code> chunks to modify every splat and every fragment. The cutouts themselves are just box entities in the Editor, grouped under trigger volumes. As the camera moves, the trigger closest to it eases its cutout open while the others ease closed.</p>
+<p>The shader works in two stages to keep it cheap. A per-splat stage — a compute pass on WebGPU — tests each splat's center against the cutout boxes with a signed distance function. Splats fully inside an open box are culled outright and only those near a cut surface are flagged for further processing. The fragment stage then runs a pixel-exact version of the same test for flagged splats. It reconstructs each fragment's world position from depth, fades alpha inside the box and draws a rim that maintains a constant on-screen width at any distance. The rim color is written as an HDR value so bloom picks it up. The chunks are installed only while the exterior view is active, so walk mode pays nothing for the effect.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-hidden-flag">A Hidden Flag<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#a-hidden-flag" class="hash-link" aria-label="Direct link to A Hidden Flag" title="Direct link to A Hidden Flag" translate="no">​</a></h3>
+<p>The same chunk also animates a flag hidden somewhere in the scene. Splats inside an authored box ride a traveling wave, with amplitude ramping up from the pole edge and each splat tilting to follow the displaced cloth surface. Can you find it? 🔍</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="cars">Cars<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#cars" class="hash-link" aria-label="Direct link to Cars" title="Direct link to Cars" translate="no">​</a></h3>
+<p>We created the moving traffic by isolating and duplicating parked cars from the original capture in the SuperSplat Editor:</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/grace-cars2.mp4" style="width:100%;height:auto"></video>
+<p>Three car splats spawn at randomized intervals and travel past the cathedral at slightly different speeds. They are disabled indoors, returning their splats to the interior's rendering budget.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="camera-navigation">Camera Navigation<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#camera-navigation" class="hash-link" aria-label="Direct link to Camera Navigation" title="Direct link to Camera Navigation" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="exterior-orbit-controller">Exterior Orbit Controller<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#exterior-orbit-controller" class="hash-link" aria-label="Direct link to Exterior Orbit Controller" title="Direct link to Exterior Orbit Controller" translate="no">​</a></h4>
+<p>The exterior orbit controller moves around a rounded-box envelope fitted to the cathedral. Horizontal and vertical motion are parameterized by arc length along the walls, corners and roof, producing uniform camera speed without discontinuities. Zoom adjusts the camera's standoff from the surface, while damped input adds momentum after release.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/grace-orbit.mp4" style="width:100%;height:auto"></video>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="camera-flights">Camera Flights<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#camera-flights" class="hash-link" aria-label="Direct link to Camera Flights" title="Direct link to Camera Flights" translate="no">​</a></h4>
+<p>Camera flights use authored waypoint graphs to route around the cathedral's architecture. Inside, routing uses the collision mesh to select visible nodes; outside, it tests clearance against the cathedral's orbit envelope. A shortest-path search produces a route that is converted into a cubic spline, interpolating position, orientation, focus distance and field of view. Closing the annotation rewinds the flight to the previous camera state.</p>
+<video autoplay="" muted="" loop="" controls="" src="/img/grace-fly.mp4" style="width:100%;height:auto"></video>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sound-and-other-touches">Sound and Other Touches<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#sound-and-other-touches" class="hash-link" aria-label="Direct link to Sound and Other Touches" title="Direct link to Sound and Other Touches" translate="no">​</a></h3>
+<p>A layered soundscape follows the camera. Outside, two city loops crossfade based on altitude. Inside, cathedral ambience takes over, with footsteps playing only while you walk. Even the loading screen follows the theme with a rose window drawn in CSS.</p>
+<p>Together, these details turn the cathedral capture into a living, explorable place.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="open-source-foundations">Open Source Foundations<a href="https://blog.playcanvas.com/building-the-grace-cathedral-experience#open-source-foundations" class="hash-link" aria-label="Direct link to Open Source Foundations" title="Direct link to Open Source Foundations" translate="no">​</a></h2>
+<p>Everything beneath the Grace Cathedral experience is built on open source foundations. The <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a> renders the scene in the browser, <a href="https://github.com/playcanvas/supersplat" target="_blank" rel="noopener noreferrer" class="">SuperSplat</a> provides the tools to edit and optimize the captures and the open <a class="" href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting">SOG format</a> makes them compact enough to stream. These are the same technologies we develop in the open for anyone to use, inspect and improve.</p>
+<p>Want to build an experience of your own? Start with our <a href="https://developer.playcanvas.com/user-manual/gaussian-splatting/" target="_blank" rel="noopener noreferrer" class="">Gaussian splatting guide</a> for the complete workflow from capture to delivery. You can prepare your capture in the <a href="https://superspl.at/editor" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor</a>, then follow the <a href="https://developer.playcanvas.com/user-manual/gaussian-splatting/building/your-first-app/" target="_blank" rel="noopener noreferrer" class="">Your First Splat App</a> tutorial to choose the approach that best fits you, whether that is the Engine API, the PlayCanvas Editor, React or Web Components. 🚀</p>
+<p>If you have questions, want to share what you build or simply want to meet other creators, join the <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">PlayCanvas and SuperSplat community on Discord</a>. We'd love to see you there! 👋</p>
+<p><a href="https://vincentwoo.com/3d/grace_cathedral/" target="_blank" rel="noopener noreferrer" class="">Experience Grace Cathedral for yourself</a> and see what the open web can do.</p>]]></content:encoded>
+            <category>gaussian-splats</category>
+            <category>playcanvas</category>
+            <category>webgpu</category>
+            <category>supersplat</category>
+        </item>
         <item>
             <title><![CDATA[New in SuperSplat: Vibe Code Splat Apps, 360° Video and splat-transform 3.0]]></title>
             <link>https://blog.playcanvas.com/new-in-supersplat-vibe-code-splat-apps</link>
@@ -1023,58 +1083,6 @@ To set up your local development environment, check out the <a href="https://git
 <p>Happy coding!</p>]]></content:encoded>
             <category>engine</category>
             <category>react</category>
-        </item>
-        <item>
-            <title><![CDATA[PlayCanvas Engine Hits 2.0.0]]></title>
-            <link>https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0</link>
-            <guid>https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0</guid>
-            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today marks a major milestone for the PlayCanvas Engine, the open-source JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0!]]></description>
-            <content:encoded><![CDATA[<p>Today marks a major milestone for the PlayCanvas Engine, the <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">open-source</a> JavaScript runtime that powers thousands of interactive graphical apps and tools on the web. We are bubbling with excitement to announce the release of version 2.0.0!</p>
-<p>For the full details, visit our GitHub:</p>
-<p><a href="https://github.com/playcanvas/engine/releases/tag/v2.0.0" target="_blank" rel="noopener noreferrer" class=""><strong>RELEASE NOTES</strong></a></p>
-<p>It's not every day we do a major version bump of the Engine. Let's take a walk down memory lane to see how we got here:</p>
-<ul>
-<li class="">October 2010: Coding of the Engine begins!</li>
-<li class="">24 October 2011: <a href="https://github.com/playcanvas/engine/commit/e5bf014e738d5bfc92ece1d6c0f50ad71bf4dd90" target="_blank" rel="noopener noreferrer" class="">Engine migrated to GitHub</a></li>
-<li class="">4 June 2014: <a href="https://blog.playcanvas.com/playcanvas-goes-open-source/" target="_blank" rel="noopener noreferrer" class="">Engine goes open source</a></li>
-<li class="">24 April 2018: <a href="https://blog.playcanvas.com/playcanvas-engine-reaches-1-0-0/" target="_blank" rel="noopener noreferrer" class="">Engine hits 1.0.0</a></li>
-</ul>
-<p>Back in 2018, the Engine was bumped to 1.0.0 because we adhere to <a href="https://semver.org/" target="_blank" rel="noopener noreferrer" class="">semantic versioning</a> which dictates:</p>
-<blockquote>
-<p>If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backward compatibility, you should probably already be 1.0.0.</p>
-</blockquote>
-<p>With hindsight, the Engine should probably have reached 1.0.0 some years before. It had long been stable and was already being used heavily in production!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-bump-to-200">Why Bump to 2.0.0<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#why-bump-to-200" class="hash-link" aria-label="Direct link to Why Bump to 2.0.0" title="Direct link to Why Bump to 2.0.0" translate="no">​</a></h3>
-<p>Semantic versioning says that you perform a major version bump when you introduce breaking changes. To say we go out of our way to avoid introducing breaking changes in an understatement. But since 1.0.0, we had done 73 minor versions along with countless patch releases. Along the way, the Engine accumulated a considerable amount of "cruft".</p>
-<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>cruft <em>noun</em> <code>INFORMAL - COMPUTING</code></div><div class="admonitionContent_BuS1"><p>badly designed, unnecessarily complicated, or unwanted code or software.</p></div></div>
-<p>It was getting to the point where parts of the codebase were restricting our ability to advance the Engine's capabilities. And so, we took to the decision to do a spring clean. 🧹 Here are some highlights of what we removed:</p>
-<ul>
-<li class=""><strong>WebGL 1 support.</strong> This is the big one. Today, devices that support WebGL 1 but not WebGL 2 is less than 2% and this number is only going to get smaller. And supporting WebGL 1 was making it extraordinarily difficult to construct the foundations we needed in order to support WebGPU. Cheerio, WebGL 1 - it's been fun! 👋</li>
-<li class=""><strong>Scripts 1.0 support.</strong> The very first <code>ScriptComponent</code> implementation was deprecated with the introduction of <a href="https://blog.playcanvas.com/playcanvas-scripts-2-0/" target="_blank" rel="noopener noreferrer" class="">Scripts 2.0</a> back in 2016. So after 8 years of deprecation, it's gone! We are now focused on delivering our new ESM-based scripting system, due soon.</li>
-<li class=""><strong>AudioSourceComponent.</strong> This component was the precursor to the Engine's <a href="https://api.playcanvas.com/engine/classes/SoundComponent.html" target="_blank" rel="noopener noreferrer" class=""><code>SoundComponent</code></a>. <code>AudioSourceComponent</code> has been deprecated for many years so it's time for it to go.</li>
-<li class=""><strong>...and several other public API symbols.</strong> What we are left with is a cleaner, tighter codebase that can power us into the future!</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-if-my-project-breaks">What if my Project Breaks<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#what-if-my-project-breaks" class="hash-link" aria-label="Direct link to What if my Project Breaks" title="Direct link to What if my Project Breaks" translate="no">​</a></h3>
-<p>Never fear! Today's release is more relevant to 'Engine-only' users who pull the engine from <a href="https://www.npmjs.com/package/playcanvas" target="_blank" rel="noopener noreferrer" class="">NPM</a>. At a time of their choosing, these developers can upgrade to 2.0.0 and give it a try. The vast majority of projects will update without modification.</p>
-<p>Editor users will gain access to Engine 2.0.0 in the coming weeks. At that point, moving to 2.0.0 will be <em>opt in</em> for existing projects. We plan to support the last Engine 1.x release in the Editor for at least a year after Engine 2 becomes available. This should be plenty of time for developers to migrate. New projects will automatically use 2.0.0. We will release more information about the transition for Editor users in the coming weeks.</p>
-<p>In the meantime, we ask NPM users to try Engine 2.0.0 and give us your feedback as soon as you can. We hope you like it! Head over to the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer" class="">Forum</a>, <a href="https://discord.gg/RSaMRzg" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">GitHub</a> to have your say. <!-- -->👂</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's New<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#whats-new" class="hash-link" aria-label="Direct link to What's New" title="Direct link to What's New" translate="no">​</a></h3>
-<p>The 2.0.0 release isn't just about breaking changes! We have some exciting features to announce by way of some brand new Engine examples:</p>
-<p><img decoding="async" loading="lazy" alt="Engine 2 Examples" src="https://blog.playcanvas.com/assets/images/engine2-examples-fda1649bd8bafcaed05d4ce584df015e.png" width="1920" height="1080" class="img_ev3q"></p>
-<p>Check 'em out:</p>
-<ul>
-<li class=""><a href="https://playcanvas.vercel.app/#/graphics/shader-hatch" target="_blank" rel="noopener noreferrer" class="">Custom Shaders: Cross Hatching</a></li>
-<li class=""><a href="https://playcanvas.vercel.app/#/graphics/instancing-gooch" target="_blank" rel="noopener noreferrer" class="">Custom Shaders: Used with Skinning and Instancing</a></li>
-<li class=""><a href="https://playcanvas.vercel.app/#/graphics/ambient-occlusion" target="_blank" rel="noopener noreferrer" class="">Screen Space Ambient Occlusion</a></li>
-<li class=""><a href="https://playcanvas.vercel.app/#/graphics/instancing-custom" target="_blank" rel="noopener noreferrer" class="">Hardware Instancing</a></li>
-<li class=""><a href="https://playcanvas.vercel.app/#/graphics/instancing-glb" target="_blank" rel="noopener noreferrer" class="">glTF Hardware Instancing Extension</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thanking-the-open-source-community">Thanking the Open Source Community<a href="https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0#thanking-the-open-source-community" class="hash-link" aria-label="Direct link to Thanking the Open Source Community" title="Direct link to Thanking the Open Source Community" translate="no">​</a></h3>
-<p>We <em>could not</em> have reached this point without the amazing open source community:</p>
-<p><img decoding="async" loading="lazy" alt="GitHub Contributors" src="https://blog.playcanvas.com/assets/images/engine-contributors-50d4173785b6d1ae8d8f478ac3bc8520.svg" width="812" height="608" class="img_ev3q"></p>
-<p>Thank you for your incredible contributions. 🙏</p>]]></content:encoded>
-            <category>engine</category>
         </item>
     </channel>
 </rss>
