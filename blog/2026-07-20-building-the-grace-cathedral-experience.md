@@ -21,8 +21,7 @@ After seeing [Vincent Woo's](https://vincentwoo.com) high-quality capture of the
 <AppEmbed
   src="https://vincentwoo.com/3d/grace_cathedral/"
   title="Grace Cathedral"
-  subtitle="Experience the outside and inside of Grace Cathedral"
-  note="Click to launch"
+  autoLoad
 />
 
 This article explores how I built this app. Let's dive in.
