@@ -20,7 +20,7 @@ Last month we shipped **[a new WebGPU renderer and automatic streaming](/new-in-
 
 Turning a Gaussian splat into a real, interactive web app used to mean wiring up an engine, a build tool and a viewer by hand. Not any more. Every **downloadable splat** on SuperSplat now comes with a one‑click **starter project** download.
 
-<video autoPlay muted loop controls src='/img/supersplat-vibe-coding.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-vibe-coding.mp4' style={{width: '100%', height: 'auto'}} />
 
 Open any downloadable scene, hit **Download** and choose the **Vite project** option. You'll get a complete, ready‑to‑run web app — [PlayCanvas Engine](https://github.com/playcanvas/engine) + [Vite](https://vitejs.dev) + TypeScript — with the splat itself bundled in and the camera pose you set in SuperSplat preserved. Unzip it, run `npm install` and `npm run dev`, and you're looking at your splat running live in the browser.
 
@@ -41,7 +41,7 @@ The whole thing is a small Vite + TypeScript project — [browse the source on G
 
 Today also brings **[SuperSplat Editor 2.29.0](https://github.com/playcanvas/supersplat/releases/tag/v2.29.0)**, and its headline feature is **360° video rendering**. You can now render your animated splat scenes straight to **equirectangular 360° video** — ready to upload to YouTube 360, view in a VR headset or share as immersive social content. Here's how it works:
 
-<video autoPlay muted loop controls src='/img/supersplat-360-video.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-360-video.mp4' style={{width: '100%', height: 'auto'}} />
 
 And here's the payoff — a 360° video rendered straight out of SuperSplat and uploaded to YouTube. Open it there and drag to look around, or view it on your phone or in a headset for the full immersive effect:
 
@@ -57,7 +57,7 @@ SuperSplat Editor 2.29.0 also adds export to **SPZ**, the open, compressed splat
 
 With SPZ export, your SuperSplat scenes drop straight into Scaniverse and any other SPZ‑compatible app or pipeline.
 
-<video autoPlay muted loop controls src='/img/supersplat-spz-export.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-spz-export.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### ⚡ splat-transform 3.0
 

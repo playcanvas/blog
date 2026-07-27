@@ -17,7 +17,7 @@ No two splat creators work quite the same way — our community draws on an ever
 
 Open the **Manage** page for any of your splats and head to the new **Software Used** card. Search the curated catalog — including **Brush**, **Postshot**, **LichtFeld Studio**, **RealityScan**, **KIRI Engine**, **COLMAP**, **Luma**, **Nerfstudio**, **Scaniverse**, **Polycam**, **Agisoft Metashape** and more — and add up to **six** entries. Drag to reorder them. Don't see your favorite tool? Search for it and the picker will offer a quick way to **request** it — or just give us a shout on [Discord](https://discord.com/invite/T3pnhRTTAY).
 
-<video autoPlay muted loop controls src='/img/supersplat-software-attribution.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-software-attribution.mp4' style={{width: '100%', height: 'auto'}} />
 
 Once tagged, the software you used appears as a row of **logo chips** on your scene page. **Click any chip** to browse other splats made with the same tool — a great way to find new creators, learn techniques and see how each tool shines in different hands.
 
@@ -27,7 +27,7 @@ Last month we launched **[Walk Mode](/new-in-supersplat-walk-mode-streamed-lod-a
 
 Open your splat in [SuperSplat Studio](https://superspl.at/editor), head to the **Assets** panel and hit **Generate** in the **Collision** section. Three simple presets — **Indoor**, **Outdoor** and **Object** — tune the generation for the kind of scene you have. The algorithm also needs a **seed position** to know where the navigable space begins, and Studio takes that automatically from your **initial camera position** — so as long as you're framing the scene from inside the walkable area, you're good to go.
 
-<video autoPlay muted loop controls src='/img/supersplat-collision-generation.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-collision-generation.mp4' style={{width: '100%', height: 'auto'}} />
 
 Browse the [walkable gallery](https://superspl.at/?features=walkable&time=all) to see what the community has been building.
 
@@ -48,7 +48,7 @@ The list of properties you can analyze and select against has grown too. Slice y
 
 New **Visible Splats Only**, **Log Scale** and **All Properties** toggles let you focus the histogram on exactly what you care about.
 
-<video autoPlay muted loop controls src='/img/supersplat-histogram.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-histogram.mp4' style={{width: '100%', height: 'auto'}} />
 
 This makes editing huge scenes dramatically faster — isolate the splats you care about with a single drag instead of nudging sliders.
 

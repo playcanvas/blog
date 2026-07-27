@@ -9,7 +9,7 @@ tags:
 
 PlayCanvas is proud to announce that browser-gaming giant Miniclip has published their first PlayCanvas-powered game: Virtual Voodoo.
 
-<video autoPlay muted loop controls src='/img/virtualvoodoo.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/virtualvoodoo.mp4' style={{width: '100%', height: 'auto'}} />
 
 <!-- truncate -->
 

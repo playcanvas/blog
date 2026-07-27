@@ -28,7 +28,7 @@ We have also visualized experiences for hotel safes, medical instruments and lab
 
 [Our core business is real-time 3D](https://www.animech.com/en/articles/3d-rendering-in-realtime). We push the boundaries every day trying to invent new ways of using 3D, where our solution makes the difference.
 
-<video autoPlay muted loop controls src='/img/animech-bathroom.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/animech-bathroom.mp4' style={{width: '100%', height: 'auto'}} />
 
 _[Bathroom Planner](https://www.inr.se/planera-badrum/planera-badrum-verktyg-3d/) for Iconic Nordic Rooms_
 
@@ -95,7 +95,7 @@ As the graphics quality gets better and better online and the fashion industry k
 
 Animech helps our customers to get what they want. Simply put: we empower people to make smart decisions through intelligent visualization.
 
-<video autoPlay muted loop controls src='/img/animech-cytiva.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/animech-cytiva.mp4' style={{width: '100%', height: 'auto'}} />
 
 **Thank you, Staffan! Is there anything else you'd like to share?**
 

@@ -62,7 +62,7 @@ Beyond streaming and per-device splat budgets, a few things keep the experience 
 
 While orbiting outside, the Peek toggle carves away the section of wall nearest the camera so you can look inside. A thin, glowing rim outlines the cut edge.
 
-<video autoPlay muted loop controls src='/img/grace-peek.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/grace-peek.mp4' style={{width: '100%', height: 'auto'}} />
 
 It is built on the engine's gsplat shader chunk system, which lets a project replace the `gsplatModifyVS` and `gsplatModifyPS` chunks to modify every splat and every fragment. The cutouts themselves are just box entities in the Editor, grouped under trigger volumes. As the camera moves, the trigger closest to it eases its cutout open while the others ease closed.
 
@@ -76,7 +76,7 @@ The same chunk also animates a flag hidden somewhere in the scene. Splats inside
 
 We created the moving traffic by isolating and duplicating parked cars from the original capture in the SuperSplat Editor:
 
-<video autoPlay muted loop controls src='/img/grace-cars2.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/grace-cars2.mp4' style={{width: '100%', height: 'auto'}} />
 
 Three car splats spawn at randomized intervals and travel past the cathedral at slightly different speeds. They are disabled indoors, returning their splats to the interior's rendering budget.
 
@@ -86,13 +86,13 @@ Three car splats spawn at randomized intervals and travel past the cathedral at 
 
 The exterior orbit controller moves around a rounded-box envelope fitted to the cathedral. Horizontal and vertical motion are parameterized by arc length along the walls, corners and roof, producing uniform camera speed without discontinuities. Zoom adjusts the camera's standoff from the surface, while damped input adds momentum after release.
 
-<video autoPlay muted loop controls src='/img/grace-orbit.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/grace-orbit.mp4' style={{width: '100%', height: 'auto'}} />
 
 #### Camera Flights
 
 Camera flights use authored waypoint graphs to route around the cathedral's architecture. Inside, routing uses the collision mesh to select visible nodes; outside, it tests clearance against the cathedral's orbit envelope. A shortest-path search produces a route that is converted into a cubic spline, interpolating position, orientation, focus distance and field of view. Closing the annotation rewinds the flight to the previous camera state.
 
-<video autoPlay muted loop controls src='/img/grace-fly.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/grace-fly.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### Sound and Other Touches
 

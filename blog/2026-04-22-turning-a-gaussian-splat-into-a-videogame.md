@@ -17,7 +17,7 @@ This post walks through the demo I built to fix all of that:
 * 👉 **[Play it in your browser](https://playcanv.as/p/qxGSuzYq/)** - WASD, mouse to aim, left-click to fire.
 * 👉 **[Check the project](http://playcanvas.com/project/1480299)** - the full PlayCanvas project is public. Every script mentioned in this post lives inside it, ready to read, fork, or remix.
 
-<video autoPlay muted loop controls src='/img/gaussian-splat-fps.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/gaussian-splat-fps.mp4' style={{width: '100%', height: 'auto'}} />
 
 The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). Christoph is one the best artists working with Gaussian Splats out there, so when he proposed to scan a real place for me, I jumped at the opportunity. On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
 
@@ -97,7 +97,7 @@ How `Scripts/probes.js` works:
 
 Here's the bake in action - each debug sphere pops in as its cube of faces is rendered and its luminance is averaged. Bright spheres mark a well-lit spot on the floor; dim ones sit in corners and under cover. By the end you can read the scene's lighting as a dotted heatmap before a single byte of JSON is written.
 
-<video autoPlay muted loop controls src='/img/gs-fps-light-probes.mp4' style={{width: '50%', height: 'auto', display: 'block', margin: '0 auto 1.5em'}} />
+<video playsInline autoPlay muted loop controls src='/img/gs-fps-light-probes.mp4' style={{width: '50%', height: 'auto', display: 'block', margin: '0 auto 1.5em'}} />
 
 At runtime, every dynamic character script (weapon, NPC, pickup) loads `lightness.json`, bilinearly samples the grid at its world position, remaps it to a sensible exposure range and calls `meshInstance.setParameter('exposure', value)`. Step from a bright atrium into a dim corridor and your hands darken smoothly. Fire your weapon and the pulsating omni-light bounces off the splat around you.
 

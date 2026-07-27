@@ -6,7 +6,7 @@ title: Disney Selects PlayCanvas for Hour of Code
 
 We're proud to announce that Disney has selected PlayCanvas to power their newly launched Hour of Code application. Entitled "Moana: Wayfinding with Code", it's a free online tutorial to teach kids the basics of computer science.
 
-<video autoPlay muted loop controls src='/img/moana-hour-of-code.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/moana-hour-of-code.mp4' style={{width: '100%', height: 'auto'}} />
 
 <!-- truncate -->
 

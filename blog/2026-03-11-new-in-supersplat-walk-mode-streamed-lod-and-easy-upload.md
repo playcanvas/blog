@@ -45,11 +45,11 @@ LCC scenes captured on [XGRIDS](https://xgrids.com/) devices already ship with h
 
 Until now, the only way to publish a splat on SuperSplat was through the Editor. Today, we're introducing a brand new **Easy Upload** flow — just hit the **Upload Splat** button on the [SuperSplat](https://superspl.at) homepage, drag and drop a PLY, SOG, Streamed SOG or LCC file and go live in seconds.
 
-<video autoPlay muted loop controls src='/img/supersplat-publishing-easy.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-publishing-easy.mp4' style={{width: '100%', height: 'auto'}} />
 
 We've also updated the existing **Editor publishing flow** to share the same new details dialog. When you publish from the [SuperSplat Editor](https://superspl.at/editor), you'll now be redirected to your Manage page to fill in your splat's details while it's being prepared to go live.
 
-<video autoPlay muted loop controls src='/img/supersplat-publishing-editor.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-publishing-editor.mp4' style={{width: '100%', height: 'auto'}} />
 
 The new details dialog is just the beginning — expect more fields to appear soon covering license type, capture hardware and software and even geolocation. Stay tuned!
 

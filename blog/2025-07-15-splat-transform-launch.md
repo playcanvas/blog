@@ -12,7 +12,7 @@ tags:
 
 **We're thrilled to announce the release of SplatTransform — a powerful CLI tool that makes working with 3D Gaussian Splats a breeze!**
 
-<video autoPlay muted loop controls src='/img/splat-transform.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/splat-transform.mp4' style={{width: '100%', height: 'auto'}} />
 
 :::note Open Source
 SplatTransform is [open-sourced under an MIT license on GitHub](https://github.com/playcanvas/splat-transform)
