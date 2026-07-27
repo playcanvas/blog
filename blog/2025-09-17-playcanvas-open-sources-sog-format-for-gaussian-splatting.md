@@ -55,7 +55,7 @@ As you might expect, the open source [PlayCanvas Engine](https://github.com/play
 
 Bundled SOG files (`.sog`) are now natively supported in the PlayCanvas Editor! Simply drag and drop a `.sog` file into your ASSETS panel to create a new `gsplat` asset.
 
-<video autoPlay muted loop controls src='/img/editor-sog-import.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/editor-sog-import.mp4' style={{width: '100%', height: 'auto'}} />
 
 Dragging the `gsplat` asset into the viewport triggers the creation of a new `Entity` with the asset assigned to a `GSplatComponent`.
 

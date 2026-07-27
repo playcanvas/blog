@@ -45,13 +45,13 @@ Here are some other awesome user pages for you to visit:
 
 You can now leave your thoughts or ask questions under any splat!
 
-<video autoPlay muted loop controls src='/img/supersplat-comments.mp4' style={{width: '50%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-comments.mp4' style={{width: '50%', height: 'auto'}} />
 
 #### 🔄 Social Sharing
 
 You can easily share any splat to your favorite social channels: X, LinkedIn, Slack, email...you name it!
 
-<video autoPlay muted loop controls src='/img/supersplat-sharing.mp4' style={{width: '50%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-sharing.mp4' style={{width: '50%', height: 'auto'}} />
 
 ### 🔗 Splat Embeds
 
@@ -67,7 +67,7 @@ To create an embed:
 * Copy the HTML code
 * Insert it at the appropriate place on your own site
 
-<video autoPlay muted loop controls src='/img/supersplat-embed.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-embed.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### 📺 Viewer Enhancements
 

@@ -21,11 +21,11 @@ Because it gets your work in front of more people. Downloadable scenes show up i
 
 Want to find downloadable splats? Head to the [Explore](https://superspl.at/?features=downloadable&time=all) page to browse scenes that are available for download.
 
-<video autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-download-splat.mp4' style={{width: '100%', height: 'auto'}} />
 
 Downloaded splats can be used anywhere — in your own apps, research projects or creative tools. A great option is to load them into your **PlayCanvas** projects via the [PlayCanvas Engine](https://github.com/playcanvas/engine) or the [PlayCanvas Editor](https://playcanvas.com).
 
-<video autoPlay muted loop controls src='/img/supersplat-to-playcanvas.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-to-playcanvas.mp4' style={{width: '100%', height: 'auto'}} />
 
 ### 📜 Creative Commons Licenses
 
@@ -38,7 +38,7 @@ Sharing your splats is great — but you should be able to decide *how* they're 
 - **CC BY-NC-ND** — Attribution, NonCommercial, No Derivatives
 - **CC BY-NC-SA** — Attribution, NonCommercial, ShareAlike
 
-<video autoPlay muted loop controls src='/img/supersplat-license-picker.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-license-picker.mp4' style={{width: '100%', height: 'auto'}} />
 
 The download dialog displays official **CC icons** alongside a ready-to-copy **credit line**, making it easy for anyone who downloads your work to give proper attribution. A **machine-readable license link** is also embedded in the published scene so tools and search engines can pick it up automatically.
 
@@ -46,7 +46,7 @@ The download dialog displays official **CC icons** alongside a ready-to-copy **c
 
 Let the community know who you are. You can now add social links to your profile — **Website**, **X**, **LinkedIn** and **YouTube** — from your [PlayCanvas account settings](https://playcanvas.com/account).
 
-<video autoPlay muted loop controls src='/img/supersplat-social-links.mp4' style={{width: '100%', height: 'auto'}} />
+<video playsInline autoPlay muted loop controls src='/img/supersplat-social-links.mp4' style={{width: '100%', height: 'auto'}} />
 
 Your social icons will appear on your **SuperSplat user page** right alongside your published splats, making it easy for visitors to follow your work across the web.
 
