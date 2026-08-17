@@ -18,9 +18,9 @@ Last month we shipped **[Vibe Code Splat Apps, 360° Video and splat-transform 3
 
 Until now, getting a splat onto SuperSplat meant exporting a file from whatever tool you trained it in, then uploading it by hand. For a large scene that's a multi-gigabyte round trip — and it's the least interesting part of anyone's workflow.
 
-The **SuperSplat API** removes that step entirely. It's a REST API that lets an application publish a splat directly to superspl.at on behalf of a signed-in user, and inspect the scenes that user already owns. A few things worth knowing:
+The **SuperSplat API** removes that step entirely. It's a REST API that lets an application publish a splat directly to superspl.at on behalf of a signed-in user, and inspect the scenes they already own. A few things worth knowing:
 
-- **Authentication** uses a PlayCanvas access token, sent as a bearer token. Users generate one from their account page and paste it into the integration once.
+- **Authentication** uses a **PlayCanvas access token**, sent as a bearer token. Users generate one from the API Tokens section of their account page and paste it into the integration once. Some apps label the field "API key" or "API token" — it's the same thing.
 - **Uploads are resumable.** The API uses multipart uploads — a client opens a session, requests signed URLs for each part, pushes those parts straight to storage and then completes the upload. A dropped connection halfway through a 2 GB scene is no longer fatal.
 - **Scenes arrive unlisted** by default, so nothing goes public until the creator decides it should.
 - **Metadata comes along for the ride** — title, description and the `softwareTools` field that records which tools made the scene. Integrations can identify *themselves* separately through the optional `uploadClient` field.
@@ -33,7 +33,7 @@ Now for the fun part — three tools that already use it.
 
 **[Teleport](https://get.teleport.varjo.com/)** is Varjo's capture app. Shoot a scene on your phone or bring in drone imagery, and it trains a Gaussian splat for you in the cloud. It now publishes to SuperSplat directly.
 
-You connect the integration once, under **Settings → Integrations**: paste in your SuperSplat API key and hit **Save**. From then on, every capture gets a **Publish capture** option — pick **SuperSplat** as the destination, give the scene a title and description, and hit publish.
+You connect the integration once, under **Settings → Integrations**: paste in your access token and hit **Save**. From then on, every capture gets a **Publish capture** option — pick **SuperSplat** as the destination, give the scene a title and description, and hit publish.
 
 <video playsInline autoPlay muted loop controls src='/img/supersplat-from-teleport.mp4' style={{width: '100%', height: 'auto'}} />
 
@@ -53,7 +53,7 @@ Browse everything the community is making with it in the **[Teleport by Varjo co
 
 **[XGRIDS](https://www.xgrids.com/)** builds handheld lidar scanners, and **Lixel CyberColor Studio** — LCC Studio — is the desktop software that turns those scans into splats. Publishing is now built right in.
 
-Open **My Models**, pick a model and publish it to **SuperSplat**. Paste your API token, choose a format and hit **Share**. **LCC2 (SOG)** is the recommended option, which hands you SuperSplat's compressed streaming format straight out of the box. When the upload finishes, a dialog gives you the live viewer link.
+Open **My Models**, pick a model and publish it to **SuperSplat**. Paste your access token, choose a format and hit **Share**. **LCC2 (SOG)** is the recommended option, which hands you SuperSplat's compressed streaming format straight out of the box. When the upload finishes, a dialog gives you the live viewer link.
 
 <video playsInline autoPlay muted loop controls src='/img/supersplat-from-xgrids.mp4' style={{width: '100%', height: 'auto'}} />
 
