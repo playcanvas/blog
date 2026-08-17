@@ -14,6 +14,21 @@ Last month we shipped **[Vibe Code Splat Apps, 360° Video and splat-transform 3
 
 <!-- truncate -->
 
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'flex-start', gap: '2rem 3rem', padding: '2.25rem 1.5rem', marginBottom: '2rem', background: '#16161a', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.08)'}}>
+    <a href="https://superspl.at/explore/software/teleport-by-varjo" target="_blank" rel="noopener" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.85rem', textDecoration: 'none', color: '#fff'}}>
+        <img src="/img/logo-teleport.png" alt="Teleport by Varjo" width="60" height="60" style={{borderRadius: '10px'}} />
+        <span style={{fontSize: '0.9rem', fontWeight: 600}}>Teleport by Varjo</span>
+    </a>
+    <a href="https://superspl.at/explore/software/lcc-studio" target="_blank" rel="noopener" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.85rem', textDecoration: 'none', color: '#fff'}}>
+        <img src="/img/logo-lcc-studio.png" alt="XGRIDS LCC Studio" width="60" height="60" />
+        <span style={{fontSize: '0.9rem', fontWeight: 600}}>XGRIDS LCC Studio</span>
+    </a>
+    <a href="https://superspl.at/explore/software/lichtfeld-studio" target="_blank" rel="noopener" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.85rem', textDecoration: 'none', color: '#fff'}}>
+        <img src="/img/logo-lichtfeld-studio.svg" alt="LichtFeld Studio" width="60" height="60" />
+        <span style={{fontSize: '0.9rem', fontWeight: 600}}>LichtFeld Studio</span>
+    </a>
+</div>
+
 ### 🔌 The Publishing API
 
 Until now, getting a splat onto SuperSplat meant exporting a file from whatever tool you trained it in, then uploading it by hand. For a large scene that's a multi-gigabyte round trip — and it's the least interesting part of anyone's workflow.
