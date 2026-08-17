@@ -46,7 +46,7 @@ Now for the fun part — three tools that already use it.
 
 ### 🥽 Teleport by Varjo
 
-**[Teleport](https://get.teleport.varjo.com/)** is Varjo's capture app. Shoot a scene on your phone or bring in drone imagery, and it trains a Gaussian splat for you in the cloud. It now publishes to SuperSplat directly.
+**[Teleport](https://get.teleport.varjo.com/)** is Varjo's 3D reconstruction platform. It takes phone images, 360 video or up to 10,000 drone images, and trains georeferenced Gaussian splats up to 100 million splats. It's API-first, so teams wire it into their own pipelines. Finished scenes publish directly to SuperSplat.
 
 You connect the integration once, under **Settings → Integrations**: paste in your access token and hit **Save**. From then on, every capture gets a **Publish capture** option — pick **SuperSplat** as the destination, give the scene a title and description, and hit publish.
 
