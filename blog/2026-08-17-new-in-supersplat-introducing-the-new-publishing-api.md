@@ -76,7 +76,7 @@ See what LCC Studio users are publishing in the **[LCC Studio collection](https:
 
 ### 💡 LichtFeld Studio
 
-**[LichtFeld Studio](https://github.com/MrNeRF/LichtFeld-Studio)** is a fast, open source Gaussian splat trainer — and this integration is one we built ourselves. The **[SuperSplat plugin for LichtFeld Studio](https://github.com/playcanvas/supersplat-lichtfeld-plugin)** is developed and maintained by the PlayCanvas team, MIT licensed and open source like everything else we ship.
+**[LichtFeld Studio](https://lichtfeld.io/)** is a fast, open source Gaussian splat trainer — and this integration is one we built ourselves. The **[SuperSplat plugin for LichtFeld Studio](https://github.com/playcanvas/supersplat-lichtfeld-plugin)** is developed and maintained by the PlayCanvas team, MIT licensed and open source like everything else we ship.
 
 The plugin adds a **SuperSplat** tab alongside Rendering and Training. Sign in once — your credentials are stored securely — then pick which splats to upload, set a title and description and hit **Upload to SuperSplat**. It exports to PLY or SOG, reports live progress and resumes if the connection drops.
 
