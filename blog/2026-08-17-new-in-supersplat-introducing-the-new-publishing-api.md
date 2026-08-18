@@ -2,7 +2,6 @@
 authors: will
 slug: new-in-supersplat-introducing-the-new-publishing-api
 title: "New in SuperSplat: Introducing the New Publishing API"
-unlisted: true
 tags:
   - gaussian-splats
   - supersplat
