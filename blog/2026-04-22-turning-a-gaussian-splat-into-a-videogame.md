@@ -19,7 +19,7 @@ This post walks through the demo I built to fix all of that:
 
 <video playsInline autoPlay muted loop controls src='/img/gaussian-splat-fps.mp4' style={{width: '100%', height: 'auto'}} />
 
-The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). Christoph is one the best artists working with Gaussian Splats out there, so when he proposed to scan a real place for me, I jumped at the opportunity. On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
+The scene is a gorgeous indoor scan of a real abandoned place by [Christoph Schindelar](https://superspl.at/user?id=schindelar3d). Christoph is one of the best artists working with Gaussian Splats out there, so when he proposed to scan a real place for me, I jumped at the opportunity. On top of that splat I bolted a physics collider, a grid of baked lighting probes, a Recast navmesh, eight personality-driven NPCs and a classic FPS loop. Everything runs in a browser tab.
 
 <!-- truncate -->
 
@@ -32,46 +32,50 @@ Here's how I built it, step by step.
 Before any code, you need a scene. Any splat on [SuperSplat](https://superspl.at/) tagged **Downloadable** has been published under Creative Commons by its author - grab the `.ply` or `.sog` and drop it straight into your own PlayCanvas project. The lighting, clutter and scale of the scan I picked were already cinematic, so I didn't have to art-direct anything.
 
 :::tip[Try it now]
-Jump straight to the [pre-filtered downloadable view](https://superspl.at/?features=downloadable&time=all) and pick one.
+Jump straight to the [pre-filtered downloadable view](https://superspl.at/search?features=downloadable) and pick one.
 :::
 
 ### 📡 Step 2: Convert the Splat to Streamed SOG Format
 
 The Swiss Army knife for everything that follows is [`splat-transform`](https://github.com/playcanvas/splat-transform) - PlayCanvas's open-source CLI for converting splats. We'll lean on it for streamed LOD here and for a collision mesh in the next step.
 
-My scene is a few million Gaussians - big enough that shipping it as a single `.sog` asset would punish anyone on a phone or a slow connection. The fix is [**Streamed LOD**](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail): instead of one monolithic file, SuperSplat (and `splat-transform`) write out a **folder of SOG chunks** plus a manifest. The runtime loads chunks on demand based on the camera's viewpoint and the device's capability - high-end desktop pulls full detail around the player, a phone pulls a lighter subset, and neither of them stalls waiting for the whole file.
+My scene is a few million Gaussians - big enough that shipping it as a single `.sog` asset would punish anyone on a phone or a slow connection. The fix is [**Streamed LOD**](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail): instead of one monolithic file, `splat-transform` writes out a **folder of SOG chunks** plus a `lod-meta.json` manifest. The runtime loads chunks on demand based on the camera's viewpoint and the device's capability - high-end desktop pulls full detail around the player, a phone pulls a lighter subset, and neither of them stalls waiting for the whole file.
 
 `Scripts/streaming-lod.mjs` hooks into the camera and asks the runtime to keep the chunks around the player fully loaded before the game starts - so you never see pop-in mid-firefight.
 
 :::tip[Try it now]
-If your splat is over a few million Gaussians, export it as streamed LOD (the easiest way is from SuperSplat's export dialog - see the [Streamed LOD docs](https://blog.playcanvas.com/new-in-supersplat-walk-mode-streamed-lod-and-easy-upload#-streamed-level-of-detail)) and let the viewer stream it. Your mobile players will thank you.  
+If your splat is over a few million Gaussians, bundle it into streamed LOD with `splat-transform` - write out your detail levels, then combine them into a `lod-meta.json` (the [Generating Streamed SOG guide](https://developer.playcanvas.com/user-manual/splat-transform/streamed-sog/) walks through both steps) - and let the viewer stream it. Your mobile players will thank you.  
 [`npm install -g @playcanvas/splat-transform`](https://www.npmjs.com/package/@playcanvas/splat-transform)
 :::
 
 ### 🧱 Step 3: Generate a Collision Mesh
 
-This used to be the hard part. A splat has no surfaces, so physics is blind to it. You can't walk on it, shoot through it, or path around it. That's where `splat-transform` earns its keep again - the flag you want is `-K` / `--collision-mesh`. It voxelizes the splat, flood-fills the navigable interior from a seed position, and writes out a watertight `.collision.glb` that you can import straight into PlayCanvas as a `mesh` collider.
+This used to be the hard part. A splat has no surfaces, so physics is blind to it. You can't walk on it, shoot through it, or path around it. That's where `splat-transform` earns its keep again - the flag you want is `--collision-mesh`. Aim the output at a `.voxel.json` file and it voxelizes the splat, seals the shell, flood-fills the navigable interior from a seed position, and writes out a `.collision.glb` that you can import straight into PlayCanvas as a `mesh` collider.
 
 ```bash
 splat-transform scene.ply \
   --seed-pos 0,1,0 \
-  --voxel-params 0.05,0.1 \
+  --voxel-size 0.05 \
+  --voxel-opacity 0.1 \
+  --voxel-external-fill \
   --voxel-carve 1.6,0.2 \
-  -K \
-  scene.sog
+  --collision-mesh \
+  scene.voxel.json
 ```
 
-That one command gives me two outputs:
+That's a separate run from the SOG conversion in Step 2 - `splat-transform` writes one output file per invocation, and the collision mesh only comes out of a `.voxel.json` output. It gives me:
 
-* `scene.sog` - a single-file compressed splat for quick iteration; the shipped build uses the streamed folder from Step 2.
+* `scene.voxel.json` + `scene.voxel.bin` - a sparse voxel octree of the scene, handy for raycasts.
 * `scene.collision.glb` - a voxel-derived mesh that hugs the real geometry.
 
-I dropped both into the PlayCanvas project and attached the GLB to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modelling, no clean-up.
+Two knobs worth knowing: `--voxel-external-fill` is the one for interior scans like mine (use `--voxel-floor-fill` for outdoor scenes instead), and `--collision-mesh` defaults to a smoothed marching-cubes mesh - pass `--collision-mesh faces` if you'd rather have a watertight mesh that matches the voxel volume exactly. The [Collision Mesh Generation guide](https://developer.playcanvas.com/user-manual/splat-transform/collision/) walks through every stage and stays current with the CLI.
+
+I dropped the GLB into the PlayCanvas project and attached it to an invisible entity with a **Collision** component (mesh) and a **Rigid Body** component (static). Suddenly the player has a floor, the bullets can collide with walls, and the NPCs have something to walk on. No modeling, no clean-up.
 
 ![Voxel-derived collision mesh overlaid on the splat](/img/gs-fps-demo-collision.jpg)
 
 :::tip[Try it now]
-One command turns a pretty splat into a playable one - run `splat-transform scene.ply -K scene.sog` and drop the resulting `.collision.glb` into your project as a static mesh rigidbody.
+One command turns a pretty splat into a playable one - run `splat-transform scene.ply --collision-mesh scene.voxel.json` and drop the resulting `.collision.glb` into your project as a static mesh rigidbody.
 :::
 
 ### 💡 Step 4: Bake a Lightness Grid from the Splat
@@ -157,7 +161,7 @@ Once the library is live, it'll be a one-liner:
 
 ### 🧠 Step 8: Give NPCs a Brain with Behavior Trees and Personalities
 
-The NPCs are the part I had the most fun with. Every soldier in the demo is driven by a classic [**behavior tree**](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) - the same abstraction Halo 2 popularised two decades ago and that's still the default for AAA AI in 2026.
+The NPCs are the part I had the most fun with. Every soldier in the demo is driven by a classic [**behavior tree**](https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work) - the same abstraction Halo 2 popularized two decades ago and that's still the default for AAA AI in 2026.
 
 `Scripts/npc-ai.js` exposes four primitives:
 
@@ -178,10 +182,10 @@ return selector(
         selector(
             sequence(isReloading, stopShooting),
             sequence(ammoEmpty, doReload),
-            ...(traits.healPriority > 0.4   ? [sequence(hpBelow(retreat), hasPickupsNearby, goToPickup)] : []),
+            ...(traits.healPriority > 0.4   ? [sequence(hpBelow(hpRetreatPct), hasPickupsNearby, goToPickup)] : []),
             ...(traits.lootPriority > 0.7   ? [sequence(hasPickupsNearby, goToPickup)] : []),
-            ...(traits.retreatThreshold > 0.3 ? [sequence(hpBelow(retreat), retreat)] : []),
-            ...(traits.aggression > 0.2     ? [sequence(hasEnemiesInRange(range), engageEnemy)] : []),
+            ...(traits.retreatThreshold > 0.3 ? [sequence(hpBelow(hpRetreatPct), retreat)] : []),
+            ...(traits.aggression > 0.2     ? [sequence(hasEnemiesInRange(attackRange), engageEnemy)] : []),
             guard
         )
     )
@@ -202,7 +206,7 @@ To recap the full stack:
 
 * 📥 **Environment** - any downloadable splat from [SuperSplat](https://superspl.at/), or your own capture.
 * 📡 **Streaming** - convert with `splat-transform` to a streamed SOG folder so phones and slow connections don't stall.
-* 🧱 **Collider** - `splat-transform -K` → `.collision.glb`, dropped into PlayCanvas as a static mesh rigidbody.
+* 🧱 **Collider** - `splat-transform --collision-mesh` → `.collision.glb`, dropped into PlayCanvas as a static mesh rigidbody.
 * 💡 **Lighting** - bake a `lightness.json` grid with `probes.js`, sample it per-mesh-instance at runtime.
 * 🛠️ **Authoring** - [PlayCanvas VS Code extension](https://marketplace.visualstudio.com/items?itemName=playcanvas.playcanvas) for a normal save-and-reload dev loop.
 * 🔄 **Versioning** - [PlayCanvas version control](https://developer.playcanvas.com/user-manual/editor/version-control/) and/or GitHub via the VS Code extension.
