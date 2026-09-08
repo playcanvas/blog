@@ -1,7 +1,7 @@
 ---
 authors: will
-slug: new-in-supersplat-3-0-rebuilds-the-editor-on-webgpu
-title: "New in SuperSplat: 3.0 Rebuilds the Editor on WebGPU"
+slug: new-in-supersplat-editor-3-0-rebuilt-on-webgpu
+title: "New in SuperSplat: Editor 3.0 Rebuilt on WebGPU"
 unlisted: true
 tags:
   - gaussian-splats
