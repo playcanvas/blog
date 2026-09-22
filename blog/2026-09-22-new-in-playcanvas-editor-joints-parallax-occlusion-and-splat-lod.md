@@ -38,7 +38,7 @@ There are five joint types — **Fixed**, **Ball**, **Hinge**, **Slider** and **
 
 One practical note from building test scenes with it: changing **Type** destroys and recreates the underlying constraint and clears the broken flag, but it will not pull already-separated bodies back together. The swing and twist limits, on the other hand, push straight through to the constraint, so you can tune them live while the launch page is running.
 
-The component is still marked alpha, so its behaviour and API may change. Full reference: the [Joint component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/joint/), the [Joints guide](https://developer.playcanvas.com/user-manual/physics/joints/) and the engine's [`JointComponent`](https://api.playcanvas.com/engine/classes/JointComponent.html).
+Full reference: the [Joint component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/joint/), the [Joints guide](https://developer.playcanvas.com/user-manual/physics/joints/) and the engine's [`JointComponent`](https://api.playcanvas.com/engine/classes/JointComponent.html).
 
 ### ⛰️ Parallax Occlusion Mapping
 
