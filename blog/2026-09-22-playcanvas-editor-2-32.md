@@ -32,14 +32,14 @@ Add it from **Add Component → Physics → Joint** on any entity. Two prerequis
 - Ammo must be imported into the project
 - Both referenced entities need a **rigidbody** component
 
-There are five joint types — **Fixed**, **Ball**, **Hinge**, **Slider** and **Six Degrees of Freedom** — selected with the `type` field. Every type shows the same four core fields:
+There are five joint types — **Fixed**, **Ball**, **Hinge**, **Slider** and **6DoF** — selected with the `type` field. Every type shows the same four core fields:
 
 - **Entity A** (`entityA`) — the first constrained entity
 - **Entity B** (`entityB`) — the second constrained entity. Leave it empty to pin Entity A to world space
 - **Enable Collision** (`enableCollision`) — whether the two constrained bodies can collide with each other
 - **Break Impulse** (`breakImpulse`) — the impulse above which the joint breaks. Leave it empty for an unbreakable joint
 
-Beyond that, the inspector adapts to the type you picked. Hinge and Slider add **Enable Limits**, **Limits**, **Motor Speed** and **Max Motor Force**, so a hinge can be driven as a motor or clamped to a swing range. Ball adds **Swing Limit Y**, **Swing Limit Z** and **Twist Limit** when limits are enabled. Six Degrees of Freedom swaps in a per-axis grid of **Motion**, **Limits**, **Stiffness**, **Damping** and **Equilibrium** across linear and angular X, Y and Z — enough to build a spring, a piston or a clamped compound hinge without writing any code.
+Beyond that, the inspector adapts to the type you picked. **Enable Limits** appears for Ball, Hinge and Slider. Hinge and Slider also get **Motor Speed** and **Max Motor Force**, which are independent of the limits toggle, so a hinge can be driven as a motor whether or not it is clamped — plus a **Limits** range once limits are on. Ball adds **Swing Limit Y**, **Swing Limit Z** and **Twist Limit** when limits are enabled. **6DoF** swaps in a per-axis grid of **Motion**, **Limits**, **Stiffness**, **Damping** and **Equilibrium** across linear and angular X, Y and Z — enough to build a spring, a piston or a clamped compound hinge without writing any code.
 
 One practical note from building test scenes with it: changing **Type** destroys and recreates the underlying constraint and clears the broken flag, but it will not pull already-separated bodies back together. The swing and twist limits, on the other hand, push straight through to the constraint, so you can tune them live while the launch page is running.
 
@@ -131,7 +131,7 @@ The usual CORS caveat applies: an authenticated cross-origin server has to allow
 
 Both of these shipped before 2.32 and have never been written up, so they're worth calling out here.
 
-**In-editor MSDF font generation** (2.30.0) — upload a TTF or OTF and the Editor generates the MSDF atlas and JSON for you. No external tooling step. **Included Characters** is editable, so you can add a character set later and regenerate. See the [font inspector docs](https://developer.playcanvas.com/user-manual/editor/assets/inspectors/font/).
+**In-editor MSDF font generation** (2.30.0) — upload a TTF or OTF and the Editor generates the MSDF atlas and JSON for you. No external tooling step. **Characters** is editable, so you can add a character set later and regenerate. See the [font inspector docs](https://developer.playcanvas.com/user-manual/editor/assets/inspectors/font/).
 
 **Toolbar customization** (2.30.3) — the toolbar is no longer fixed. Show, hide and reorder the buttons to match how you actually work. See the [toolbar docs](https://developer.playcanvas.com/user-manual/editor/interface/toolbar/).
 
