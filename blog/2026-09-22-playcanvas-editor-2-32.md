@@ -115,7 +115,7 @@ Two additions to the **Rendering** settings panel. Both expose engine settings t
 
 There is also a **Gaussian Splatting** section, which was not surfaced in the panel before. It gathers the scene-wide splat knobs in one place — **Radial Sorting**, the LOD update triggers (**LOD Update Distance**, **LOD Update Angle**, **LOD Behind Penalty**, **LOD Underfill Limit**, **LOD Mode**), **Splat Budget**, the culling thresholds (**Alpha Clip**, **Forward Alpha Clip**, **Min Pixel Size**, **Min Contribution**, **Foveation Strength**, **Foveation Center**), and the appearance toggles (**Anti-Alias**, **Use Fog**, **Use Tonemapping**, **Color Update Angle**, **Cooldown Ticks**, **Data Format**, **Enable IDs**).
 
-**Splat Budget** (`gsplatSplatBudget`) is the one to start with — it sets the target number of splats rendered across the whole scene, and it's the budget that per-component **LOD Falloff** divides up. Non-positive values fall back to the engine default. The full table, with ranges and defaults, is in the [rendering settings docs](https://developer.playcanvas.com/user-manual/editor/interface/settings/rendering/).
+**Splat Budget** (`gsplatSplatBudget`) is the one to start with — it sets the target number of splats rendered across the whole scene, and per-component **LOD Falloff** then shapes how each splat spends its share of it, mainly by tilting detail between its own near and far field. Non-positive values fall back to the engine default. The full table, with ranges and defaults, is in the [rendering settings docs](https://developer.playcanvas.com/user-manual/editor/interface/settings/rendering/).
 
 ---
 
