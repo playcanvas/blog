@@ -10,7 +10,11 @@ tags:
 unlisted: true
 ---
 
-Last year we shipped **[the PlayCanvas VS Code Extension](/new-playcanvas-visual-studio-code-extension)**, bringing the Editor's assets into your own editor. Today the Editor itself gets a release worth talking about. **Editor 2.32** is here, and the headline is the **Joint component** — physics constraints you author in the inspector instead of from a script. Alongside it: ray-marched parallax occlusion on materials, per-cascade shadow control, justified text and a rebuilt set of Gaussian splat LOD controls.
+**Editor 2.32** is out, and it leads with something that has been a long time coming: the **Joint component**. Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script.
+
+There is more to it than that. Materials get ray-marched parallax occlusion, the render component gets per-cascade shadow control, text elements can finally justify, and the Gaussian splat LOD controls have been reworked.
+
+This is also the first of what we intend to make a regular thing. Plenty has shipped in the Editor over the past year without ever being written up, so from here on we will be posting about Editor releases far more often — shorter posts, closer to the release, instead of waiting for one big enough to justify the effort.
 
 <video playsInline autoPlay muted loop controls src='/img/editor-2-32.mp4' style={{width: '100%', height: 'auto'}} />
 
@@ -77,7 +81,7 @@ A small one, but a long-standing gap. The element component gains **Justify**, w
 
 It only means anything with **Wrap Lines** turned on, and the Editor only shows the checkbox when that is the case and **Auto Width** is off. [Element component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/element/) · [`ElementComponent#justify`](https://api.playcanvas.com/engine/classes/ElementComponent.html#justify)
 
-### 🎯 Rebuilt Gaussian Splat LOD Controls
+### 🎯 Reworked Gaussian Splat LOD Controls
 
 The gsplat component's LOD fields have been replaced. The old *LOD Base Distance* and *LOD Multiplier* are gone; in their place, **LOD Range Min** and **LOD Range Max** bound the LOD levels used to render the splat, and **LOD Falloff** controls how strongly detail is concentrated near the camera within the global splat budget, with `0` spreading it evenly.
 
@@ -93,9 +97,9 @@ The range pair is how you stop one splat from eating the whole budget, or force 
 
 The [gsplat component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/gsplat/) have been updated for the new fields. Splat footage above and in the release video: Trogir, Croatia by tosolini, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-### 🧰 And More
+### 🧩 Also in 2.32
 
-2.32 is a broad release and there's plenty more in it:
+A handful of smaller additions that did not need a section of their own:
 
 - **Max Lights** joins the Clustered Lighting section of the Rendering settings. It caps how many clustered lights can be visible in a frame — keep it as low as your scene allows, as values above 255 push the engine onto a larger light-index texture.
 - **A Gaussian Splatting settings section**, which was not surfaced in the panel before. It gathers the scene-wide splat knobs in one place: radial sorting, the LOD update triggers, **Splat Budget**, the culling and foveation thresholds and the appearance toggles. Splat Budget is the one to start with — it sets the target number of splats rendered across the whole scene, and per-component LOD Falloff then shapes how each splat spends its share of it.
@@ -104,20 +108,17 @@ The [gsplat component docs](https://developer.playcanvas.com/user-manual/editor/
 - **Toolbar customization** (since 2.30.3). The toolbar is no longer fixed — show, hide and reorder the buttons to match how you actually work.
 - Built on **PlayCanvas Engine 2.22.3**.
 
-The full list is in the **[2.32.0 release notes](https://github.com/playcanvas/editor/releases/tag/v2.32.0)**.
+Everything else is itemised in the **[2.32.0 release notes](https://github.com/playcanvas/editor/releases/tag/v2.32.0)**.
 
-### 💚 Free and Open Source
+### 💚 Open Source, Top to Bottom
 
-The PlayCanvas Editor frontend and the PlayCanvas Engine are **free and open source** under the MIT license. We believe the best tools for 3D on the web should be accessible to everyone — and the best way to make them better is together. Report an issue, open a pull request or just star the repo to show your support. ⭐
+The Editor frontend and the Engine underneath it are both MIT licensed and developed in the open. If something in this release is broken, missing or just awkward to use, the issue tracker and the pull request queue are the shortest routes to fixing it.
 
 - [PlayCanvas Editor](https://github.com/playcanvas/editor)
 - [PlayCanvas Engine](https://github.com/playcanvas/engine)
-- [PlayCanvas VS Code Extension](https://github.com/playcanvas/vscode-extension)
 
-New to the Editor? The [User Manual](https://developer.playcanvas.com/user-manual/editor/) is the best place to start, and the [Physics documentation](https://developer.playcanvas.com/user-manual/physics/) covers everything the new Joint component builds on.
+Just getting started? The [User Manual](https://developer.playcanvas.com/user-manual/editor/) walks through the Editor end to end, and the [Physics documentation](https://developer.playcanvas.com/user-manual/physics/) covers the rigid bodies and collision shapes that every joint sits on top of.
 
-### 👂 We Want to Hear from You
+### 👂 Tell Us What You Break
 
-Open the Editor, build something that swings, sags or snaps, and tell us how it went. What should 2.33 bring? Come and find us on the [PlayCanvas Discord](https://discord.gg/RSaMRzg), the [forum](https://forum.playcanvas.com) or [ping us on X](https://x.com/playcanvas).
-
-See you in there!
+Joints get interesting once people start pushing them past what they were designed for, so we would like to see what you do with them. If something behaves differently to how you expected, or the thing you actually needed did not make this release, say so — the [Discord](https://discord.gg/RSaMRzg) and the [forum](https://forum.playcanvas.com) are where we are, and we are [on X](https://x.com/playcanvas) too.
