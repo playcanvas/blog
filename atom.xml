@@ -2,11 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.playcanvas.com/</id>
     <title>PlayCanvas Blog Blog</title>
-    <updated>2026-09-09T00:00:00.000Z</updated>
+    <updated>2026-09-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.playcanvas.com/"/>
     <subtitle>PlayCanvas Blog Blog</subtitle>
     <icon>https://blog.playcanvas.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD]]></title>
+        <id>https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod</id>
+        <link href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod"/>
+        <updated>2026-09-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Editor 2.32 is out, and it leads with something that has been a long time coming: the Joint component. Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Editor 2.32</strong> is out, and it leads with something that has been a long time coming: the <strong>Joint component</strong>. Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script.</p>
+<p>There is more to it than that. Materials get ray-marched parallax occlusion, the render component gets per-cascade shadow control, text elements can finally justify, and the Gaussian splat LOD controls have been reworked.</p>
+<p>This is also the first of what we intend to make a regular thing. Plenty has shipped in the Editor over the past year without ever being written up, so from here on we will be posting about Editor releases far more often — shorter posts, closer to the release, instead of waiting for one big enough to justify the effort.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32.mp4" style="width:100%;height:auto"></video>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-the-joint-component">🔗 The Joint Component<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-the-joint-component" class="hash-link" aria-label="Direct link to 🔗 The Joint Component" title="Direct link to 🔗 The Joint Component" translate="no">​</a></h3>
+<p>A joint constrains two rigid bodies to each other, or constrains a single rigid body to a fixed point in world space. The component has been in the engine for years; 2.32 is the first release where you can author it entirely in the Editor.</p>
+<p>Reach for it when you want mechanical behaviour to fall out of the simulation instead of being animated by hand: a rope bridge whose planks sag under a load, a door that swings on a hinge, a lift that slides along one axis, a ragdoll, a hanging sign that gets knocked around.</p>
+<p>Add it from <code>Add Component</code> &gt; <code>Physics</code> &gt; <code>Joint</code> on any entity. Two prerequisites: Ammo must be imported into the project, and both referenced entities need a <strong>rigidbody</strong> component.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32-joint-component.mp4" style="width:100%;height:auto"></video>
+<p>There are five joint types — <strong>Fixed</strong>, <strong>Ball</strong>, <strong>Hinge</strong>, <strong>Slider</strong> and <strong>6DoF</strong> — and the inspector adapts to the one you pick:</p>
+<ul>
+<li class=""><strong>Every type</strong> shows <strong>Entity A</strong>, <strong>Entity B</strong>, <strong>Enable Collision</strong> and <strong>Break Impulse</strong>. Leave Entity B empty to pin Entity A to world space; leave Break Impulse empty for an unbreakable joint.</li>
+<li class=""><strong>Ball, Hinge and Slider</strong> get <strong>Enable Limits</strong>. Hinge and Slider add a <strong>Limits</strong> range once limits are on, plus <strong>Motor Speed</strong> and <strong>Max Motor Force</strong>, which are independent of the limits toggle — so a hinge can be driven as a motor whether or not it is clamped.</li>
+<li class=""><strong>Ball</strong> adds <strong>Swing Limit Y</strong>, <strong>Swing Limit Z</strong> and <strong>Twist Limit</strong>.</li>
+<li class=""><strong>6DoF</strong> swaps in a per-axis grid of motion, limit and spring fields across linear and angular X, Y and Z — enough to build a spring, a piston or a clamped compound hinge without writing any code.</li>
+</ul>
+<p>One practical note from building test scenes with it: changing <strong>Type</strong> destroys and recreates the underlying constraint and clears the broken flag, but it will not pull already-separated bodies back together. The swing and twist limits, on the other hand, push straight through to the constraint, so you can tune them live while the launch page is running.</p>
+<p>Full reference: the <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/joint/" target="_blank" rel="noopener noreferrer" class="">Joint component docs</a>, the <a href="https://developer.playcanvas.com/user-manual/physics/joints/" target="_blank" rel="noopener noreferrer" class="">Joints guide</a> and the engine's <a href="https://api.playcanvas.com/engine/classes/JointComponent.html" target="_blank" rel="noopener noreferrer" class=""><code>JointComponent</code></a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-parallax-occlusion-mapping">⛰️ Parallax Occlusion Mapping<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#%EF%B8%8F-parallax-occlusion-mapping" class="hash-link" aria-label="Direct link to ⛰️ Parallax Occlusion Mapping" title="Direct link to ⛰️ Parallax Occlusion Mapping" translate="no">​</a></h3>
+<p>Materials gain a proper <strong>Parallax</strong> panel. The old single-step height offset is still there, but there is now a ray-marched <strong>Occlusion</strong> mode that makes brickwork, cobbles and panel gaps hold up at grazing angles, where a flat normal map gives the game away.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32-parallax-occlusion.mp4" style="width:100%;height:auto"></video>
+<p>The panel only enables once a <strong>normal map</strong> is assigned. Inside it:</p>
+<ul>
+<li class=""><strong>Mode</strong> — <strong>Offset</strong> for a single height-map offset, <strong>Occlusion</strong> for ray-marched parallax occlusion.</li>
+<li class=""><strong>Strength</strong> — how deep the effect reads.</li>
+<li class=""><strong>Base</strong> — the height-map value that sits at the original surface. Use <code>1</code> for depth maps where white is the flat surface.</li>
+<li class=""><strong>Samples</strong> — maximum height-map samples, Occlusion only. Higher is more expensive.</li>
+<li class=""><strong>Self Shadow</strong> — maximum samples used to self-shadow the relief per directional light, Occlusion only. Set it to <code>0</code> to turn self-shadowing off.</li>
+</ul>
+<p>Worth being clear about what this does and does not do: it is a shading trick. The mesh silhouette and the depth buffer are unchanged, so it will not round off the edge of a flat quad. Details are in the <a href="https://developer.playcanvas.com/user-manual/editor/assets/inspectors/material/" target="_blank" rel="noopener noreferrer" class="">material inspector docs</a> and the new <a href="https://developer.playcanvas.com/user-manual/graphics/physical-rendering/parallax-mapping/" target="_blank" rel="noopener noreferrer" class="">Parallax Mapping</a> guide.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-per-cascade-shadow-control">🌓 Per-Cascade Shadow Control<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-per-cascade-shadow-control" class="hash-link" aria-label="Direct link to 🌓 Per-Cascade Shadow Control" title="Direct link to 🌓 Per-Cascade Shadow Control" translate="no">​</a></h3>
+<p>The render component has a new <strong>Shadow Cascades</strong> field — a four-box mask that selects which directional-light shadow cascades receive this render component. Cascades the light does not have are ignored.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32-shadow-cascade-mask.mp4" style="width:100%;height:auto"></video>
+<p>This is a budget tool. Large static geometry that only matters in the distance can skip the tight near cascade; small props that are never seen from far away can be confined to the first cascade or two, cutting the cost of the distant shadow passes.</p>
+<p>The field sits directly below <strong>Cast Shadows</strong> and only appears when it is enabled. It pairs with the existing <strong>Cascades</strong> and <strong>Cascade Distribution</strong> fields on the light component.</p>
+<p>One rough edge we know about: the viewport does not always throw away its cached shadow maps when you change the mask, so you may need to nudge the camera before the change appears. The launch page renders it correctly, and we are treating the viewport behaviour as a bug rather than something to work around.</p>
+<p>See the <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/render/" target="_blank" rel="noopener noreferrer" class="">render component docs</a> and <a href="https://api.playcanvas.com/engine/classes/RenderComponent.html#shadowcascademask" target="_blank" rel="noopener noreferrer" class=""><code>RenderComponent#shadowCascadeMask</code></a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-justified-text">📐 Justified Text<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-justified-text" class="hash-link" aria-label="Direct link to 📐 Justified Text" title="Direct link to 📐 Justified Text" translate="no">​</a></h3>
+<p>A small one, but a long-standing gap. The element component gains <strong>Justify</strong>, which stretches wrapped lines out to both edges by widening the spaces between words. Good for body copy in a panel, a credits screen or anywhere a ragged right edge looks untidy.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32-justified-text.mp4" style="width:100%;height:auto"></video>
+<p>It only means anything with <strong>Wrap Lines</strong> turned on, and the Editor only shows the checkbox when that is the case and <strong>Auto Width</strong> is off. <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/element/" target="_blank" rel="noopener noreferrer" class="">Element component docs</a> · <a href="https://api.playcanvas.com/engine/classes/ElementComponent.html#justify" target="_blank" rel="noopener noreferrer" class=""><code>ElementComponent#justify</code></a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-reworked-gaussian-splat-lod-controls">🎯 Reworked Gaussian Splat LOD Controls<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-reworked-gaussian-splat-lod-controls" class="hash-link" aria-label="Direct link to 🎯 Reworked Gaussian Splat LOD Controls" title="Direct link to 🎯 Reworked Gaussian Splat LOD Controls" translate="no">​</a></h3>
+<p>The gsplat component's LOD fields have been replaced. The old <em>LOD Base Distance</em> and <em>LOD Multiplier</em> are gone; in their place, <strong>LOD Range Min</strong> and <strong>LOD Range Max</strong> bound the LOD levels used to render the splat, and <strong>LOD Falloff</strong> controls how strongly detail is concentrated near the camera within the global splat budget, with <code>0</code> spreading it evenly.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-32-gsplat-lod-controls.mp4" style="width:100%;height:auto"></video>
+<p>The range pair is how you stop one splat from eating the whole budget, or force a hero scan to stay at full detail regardless of distance. Falloff is the shaping knob on top of it.</p>
+<p>One thing to know before you go looking for a difference: the LOD range only bites on streamed SOG octrees, because the level is clamped to the levels the asset actually has and a single <code>.sog</code> or <code>.ply</code> has exactly one. The fields still appear on those assets, they just have nothing to choose between.</p>
+<p>The <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/gsplat/" target="_blank" rel="noopener noreferrer" class="">gsplat component docs</a> have been updated for the new fields. Splat footage above and in the release video: Trogir, Croatia by tosolini, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" class="">CC BY 4.0</a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-also-in-232">🧩 Also in 2.32<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-also-in-232" class="hash-link" aria-label="Direct link to 🧩 Also in 2.32" title="Direct link to 🧩 Also in 2.32" translate="no">​</a></h3>
+<p>A handful of smaller additions that did not need a section of their own:</p>
+<ul>
+<li class=""><strong>Max Lights</strong> joins the Clustered Lighting section of the Rendering settings. It caps how many clustered lights can be visible in a frame — keep it as low as your scene allows, as values above 255 push the engine onto a larger light-index texture.</li>
+<li class=""><strong>A Gaussian Splatting settings section</strong>, which was not surfaced in the panel before. It gathers the scene-wide splat knobs in one place: radial sorting, the LOD update triggers, <strong>Splat Budget</strong>, the culling and foveation thresholds and the appearance toggles. Splat Budget is the one to start with — it sets the target number of splats rendered across the whole scene, and per-component LOD Falloff then shapes how each splat spends its share of it.</li>
+<li class=""><strong>Asset Credentials</strong> in the Network settings. With it on, asset requests are sent with credentials — cookies, client certificates or HTTP authentication — which is what you need when your assets sit behind an authenticated server. The usual CORS caveat applies: the server has to allow credentials and return a specific origin rather than a wildcard.</li>
+<li class=""><strong>Client-side font generation</strong> (since 2.30.0). MSDF atlas generation moved out of the server-side conversion pipeline and into the browser, and the descriptor and atlas pages now land as separate assets you can inspect, repoint or swap for your own. The <strong>Characters</strong> field is editable, so you can widen the character set later and regenerate.</li>
+<li class=""><strong>Toolbar customization</strong> (since 2.30.3). The toolbar is no longer fixed — show, hide and reorder the buttons to match how you actually work.</li>
+<li class="">Built on <strong>PlayCanvas Engine 2.22.3</strong>.</li>
+</ul>
+<p>Everything else is itemised in the <strong><a href="https://github.com/playcanvas/editor/releases/tag/v2.32.0" target="_blank" rel="noopener noreferrer" class="">2.32.0 release notes</a></strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-open-source-top-to-bottom">💚 Open Source, Top to Bottom<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-open-source-top-to-bottom" class="hash-link" aria-label="Direct link to 💚 Open Source, Top to Bottom" title="Direct link to 💚 Open Source, Top to Bottom" translate="no">​</a></h3>
+<p>The Editor frontend and the Engine underneath it are both MIT licensed and developed in the open. If something in this release is broken, missing or just awkward to use, the issue tracker and the pull request queue are the shortest routes to fixing it.</p>
+<ul>
+<li class=""><a href="https://github.com/playcanvas/editor" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Editor</a></li>
+<li class=""><a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a></li>
+</ul>
+<p>Just getting started? The <a href="https://developer.playcanvas.com/user-manual/editor/" target="_blank" rel="noopener noreferrer" class="">User Manual</a> walks through the Editor end to end, and the <a href="https://developer.playcanvas.com/user-manual/physics/" target="_blank" rel="noopener noreferrer" class="">Physics documentation</a> covers the rigid bodies and collision shapes that every joint sits on top of.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-tell-us-what-you-break">👂 Tell Us What You Break<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod#-tell-us-what-you-break" class="hash-link" aria-label="Direct link to 👂 Tell Us What You Break" title="Direct link to 👂 Tell Us What You Break" translate="no">​</a></h3>
+<p>Joints get interesting once people start pushing them past what they were designed for, so we would like to see what you do with them. If something behaves differently to how you expected, or the thing you actually needed did not make this release, say so — the <a href="https://discord.gg/RSaMRzg" target="_blank" rel="noopener noreferrer" class="">Discord</a> and the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer" class="">forum</a> are where we are, and we are <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">on X</a> too.</p>]]></content>
+        <author>
+            <name>Kris Bamrah</name>
+        </author>
+        <category label="editor" term="editor"/>
+        <category label="physics" term="physics"/>
+        <category label="graphics" term="graphics"/>
+        <category label="gaussian-splats" term="gaussian-splats"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New in SuperSplat: Editor 3.0 Rebuilt on WebGPU]]></title>
         <id>https://blog.playcanvas.com/new-in-supersplat-editor-3-0-rebuilt-on-webgpu</id>
@@ -1135,63 +1216,6 @@ To set up your local development environment, check out the <a href="https://git
 <p>We proudly provide the SuperSplat Viewer as an MIT-licensed open source project. The 3D Gaussian Splat community has made impressive strides over the past 18 months, largely due to open collaboration. Join us in shaping the future by submitting issues, creating pull requests, or simply starring <a href="https://github.com/playcanvas/supersplat-viewer" target="_blank" rel="noopener noreferrer" class="">our GitHub repo</a>! ⭐</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
 <p>We hope you approve of this latest update to our open source journey! The SuperSplat community has grown tremendously, and your feedback is invaluable. What features would you love to see next? Share your thoughts on our <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content>
-        <author>
-            <name>Will Eastcott</name>
-        </author>
-        <category label="gaussian-splats" term="gaussian-splats"/>
-        <category label="supersplat" term="supersplat"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Render Your Gaussian Splats to Video with SuperSplat 2.2]]></title>
-        <id>https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat</id>
-        <link href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat"/>
-        <updated>2025-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, we are announcing the release of SuperSplat 2.2. 🚀]]></summary>
-        <content type="html"><![CDATA[<p>Today, we are announcing the release of SuperSplat 2.2. 🚀</p>
-<div class="iframe-container"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/wVBwVQ55Pe8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-<p>SuperSplat is your <a href="https://github.com/playcanvas/supersplat/" target="_blank" rel="noopener noreferrer" class="">open source</a> platform for editing and publishing 3D Gaussian Splats. This update introduces video rendering for your splats, alongside numerous other improvements. Let's dive in!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-video-rendering">🎞️ Video Rendering<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#%EF%B8%8F-video-rendering" class="hash-link" aria-label="Direct link to 🎞️ Video Rendering" title="Direct link to 🎞️ Video Rendering" translate="no">​</a></h3>
-<p>The <a href="https://superspl.at/editor" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor</a> is a powerful application for cleaning up, optimizing and publishing your 3DGS scenes. With today's update, you can now render high-quality videos directly from your camera animations set up on the Timeline. The new functionality can be accessed via the new <code>Render</code> menu in the menu bar.</p>
-<p>Choose your resolution, set your bitrate, and even render vertical videos optimized for mobile viewing. Video encoding is impressively fast — try it yourself and experience the speed! ⚡</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-social-splats">👥 Social Splats<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-social-splats" class="hash-link" aria-label="Direct link to 👥 Social Splats" title="Direct link to 👥 Social Splats" translate="no">​</a></h3>
-<p>The <a href="https://superspl.at/" target="_blank" rel="noopener noreferrer" class="">SuperSplat site</a> launched exactly 1 month ago. Since then, we have added a raft of new features that makes gives you a much more social experience.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-user-pages">👥 User Pages<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-user-pages" class="hash-link" aria-label="Direct link to 👥 User Pages" title="Direct link to 👥 User Pages" translate="no">​</a></h4>
-<p>You can now showcase your splats on your own user page! When you find a splat that inspires you, click on the creator link and browse their work. Lots of creators have already inspired us! For example, <a href="https://superspl.at/user?id=tipatat" target="_blank" rel="noopener noreferrer" class="">tipatat</a> has published a smorgasbord of culinary delicacies:</p>
-<p><img decoding="async" loading="lazy" alt="SuperSplat User Tipatat" src="https://blog.playcanvas.com/assets/images/supersplat-user-tipatat-cbc4ba388c1a53c855cda34e23051168.webp" width="1824" height="987" class="img_ev3q"></p>
-<p>Here are some other awesome user pages for you to visit:</p>
-<ul>
-<li class=""><a href="https://superspl.at/user?id=studioduckbill" target="_blank" rel="noopener noreferrer" class="">Studio Duckbill</a> - beautiful locations in Japan with great camera animations.</li>
-<li class=""><a href="https://superspl.at/user?id=epigraph" target="_blank" rel="noopener noreferrer" class="">Epigraph</a> - realistically rendered splats of products.</li>
-<li class=""><a href="https://superspl.at/user?id=simonbethke" target="_blank" rel="noopener noreferrer" class="">Simon Bethke</a> - talented 3DGS enthusiast showcasing various objects and locations in Germany.</li>
-</ul>
-<p><a href="https://superspl.at/" target="_blank" rel="noopener noreferrer" class="">Go explore</a> and see what else you can discover! 🔍</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-comments">💬 Comments<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-comments" class="hash-link" aria-label="Direct link to 💬 Comments" title="Direct link to 💬 Comments" translate="no">​</a></h4>
-<p>You can now leave your thoughts or ask questions under any splat!</p>
-<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/supersplat-comments.mp4" style="width:50%;height:auto"></video>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-social-sharing">🔄 Social Sharing<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-social-sharing" class="hash-link" aria-label="Direct link to 🔄 Social Sharing" title="Direct link to 🔄 Social Sharing" translate="no">​</a></h4>
-<p>You can easily share any splat to your favorite social channels: X, LinkedIn, Slack, email...you name it!</p>
-<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/supersplat-sharing.mp4" style="width:50%;height:auto"></video>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-splat-embeds">🔗 Splat Embeds<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-splat-embeds" class="hash-link" aria-label="Direct link to 🔗 Splat Embeds" title="Direct link to 🔗 Splat Embeds" translate="no">​</a></h3>
-<p>You can now embed any splat on SuperSplat on your own website! Here's an gorgeous example from world-class 3DGS creator <a href="https://superspl.at/user?id=schindelar3d" target="_blank" rel="noopener noreferrer" class="">Christoph Schindelar</a> - <em>YES, IT'S INTERACTIVE AND NOT A VIDEO!</em> 😆</p>
-<div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=ed2efe80"></iframe></div>
-<p>To create an embed:</p>
-<ul>
-<li class="">Hit the <code>Embed</code> button</li>
-<li class="">Copy the HTML code</li>
-<li class="">Insert it at the appropriate place on your own site</li>
-</ul>
-<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/supersplat-embed.mp4" style="width:100%;height:auto"></video>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-viewer-enhancements">📺 Viewer Enhancements<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-viewer-enhancements" class="hash-link" aria-label="Direct link to 📺 Viewer Enhancements" title="Direct link to 📺 Viewer Enhancements" translate="no">​</a></h3>
-<p>The SuperSplat Viewer embedded above has been heavily enhanced in the month since launch. Here's a quick overview of what's new:</p>
-<ul>
-<li class=""><strong>Progress Bar</strong>: Easily scrub through your scene’s animations.</li>
-<li class=""><strong>Camera Settings</strong>: Quickly switch between Orbit (ideal for objects) and Fly (ideal for locations) camera modes via the cog icon.</li>
-<li class=""><strong>Redesigned Info Panel</strong>: Comprehensive usage instructions for both desktop and mobile.</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-our-open-source-mission">👨‍💻 Our Open Source Mission<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-our-open-source-mission" class="hash-link" aria-label="Direct link to 👨‍💻 Our Open Source Mission" title="Direct link to 👨‍💻 Our Open Source Mission" translate="no">​</a></h3>
-<p>We proudly offer SuperSplat as an MIT-licensed open source project. The 3D Gaussian Splat community has made impressive strides over the past 18 months, largely due to open collaboration. Join us in shaping the future by submitting issues, creating pull requests, or simply starring <a href="https://github.com/playcanvas/supersplat" target="_blank" rel="noopener noreferrer" class="">our GitHub repo</a>! ⭐</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/render-your-gaussian-splats-to-video-with-supersplat#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
-<p>We hope you love this update as much as we enjoyed creating it! The SuperSplat community has grown tremendously, and your feedback is invaluable. What features would you love to see next? Share your thoughts on our <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content>
         <author>
             <name>Will Eastcott</name>
         </author>
