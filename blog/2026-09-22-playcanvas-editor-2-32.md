@@ -7,6 +7,7 @@ tags:
   - physics
   - graphics
   - gaussian-splats
+unlisted: true
 ---
 
 Editor 2.32 is live. It brings a brand-new **Joint** component for constraining rigid bodies, parallax occlusion mapping on materials, per-cascade shadow control, justified text, and a rebuilt set of Gaussian splat LOD controls.
