@@ -1,7 +1,7 @@
 ---
 authors: kris
-slug: playcanvas-editor-2-32
-title: "PlayCanvas Editor 2.32: Joints, Parallax Occlusion and Splat LOD"
+slug: new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod
+title: "New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD"
 tags:
   - editor
   - physics
