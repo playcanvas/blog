@@ -7,7 +7,6 @@ tags:
   - physics
   - graphics
   - gaussian-splats
-unlisted: true
 ---
 
 **Editor 2.32** is out, and it leads with something that has been a long time coming: the **Joint component**. Hinges, sliders, ball joints, springs and breakable welds are now things you configure in the inspector rather than assemble from a script.
