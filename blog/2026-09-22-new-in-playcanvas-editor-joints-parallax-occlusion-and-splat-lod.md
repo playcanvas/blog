@@ -67,9 +67,7 @@ This is a budget tool. Large static geometry that only matters in the distance c
 
 The field sits directly below **Cast Shadows** and only appears when it is enabled. It pairs with the existing **Cascades** and **Cascade Distribution** fields on the light component.
 
-:::info
-The Editor viewport does not always invalidate its cached shadow maps when you change the mask, so you may need to nudge the camera before the change shows up. The launch page is correct. We're tracking this as a bug, not intended behaviour.
-:::
+One rough edge we know about: the viewport does not always throw away its cached shadow maps when you change the mask, so you may need to nudge the camera before the change appears. The launch page renders it correctly, and we are treating the viewport behaviour as a bug rather than something to work around.
 
 See the [render component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/render/) and [`RenderComponent#shadowCascadeMask`](https://api.playcanvas.com/engine/classes/RenderComponent.html#shadowcascademask).
 
@@ -89,11 +87,7 @@ The gsplat component's LOD fields have been replaced. The old *LOD Base Distance
 
 The range pair is how you stop one splat from eating the whole budget, or force a hero scan to stay at full detail regardless of distance. Falloff is the shaping knob on top of it.
 
-:::warning Read this before filing a bug
-
-**LOD Range only has an effect on streamed SOG octrees.** The LOD level is clamped to the levels the asset actually has, and a single `.sog` or `.ply` has exactly one. On those assets the fields are present in the inspector and do nothing. This is expected.
-
-:::
+One thing to know before you go looking for a difference: the LOD range only bites on streamed SOG octrees, because the level is clamped to the levels the asset actually has and a single `.sog` or `.ply` has exactly one. The fields still appear on those assets, they just have nothing to choose between.
 
 The [gsplat component docs](https://developer.playcanvas.com/user-manual/editor/scenes/components/gsplat/) have been updated for the new fields. Splat footage above and in the release video: Trogir, Croatia by tosolini, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
