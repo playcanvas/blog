@@ -67,7 +67,7 @@ Want to nail your first scan? Check out Solaya's [best practices page](https://w
 
 **How does Solaya make 3D accessible to non-technical users?**
 
-We've taken the 'pro' out of the process. In the past, a 3D model meant hiring a specialist, buying expensive equipment and waiting weeks. With Solaya, it's point and scan. Our algorithms do the heavy lifting: reconstructing the shape, replicating textures and getting colors right. You don't need to code or learn complex design software. With an iPhone Pro, you can create a professional 3D asset.
+We've taken the 'pro' out of the process. With Solaya, it's point and scan: if you can film a video on an iPhone Pro, you can create a professional 3D asset. Our algorithms do the heavy lifting behind the scenes, reconstructing the shape, replicating textures and getting colors right. The only skill you need is walking around an object with your phone.
 
 **Why did you choose PlayCanvas for Gaussian Splatting?**
 
@@ -77,7 +77,7 @@ We first tried MetalSplatter on mobile, but it didn't meet our needs on stabilit
 
 **How does PlayCanvas help you deliver a smooth experience across desktop and mobile?**
 
-PlayCanvas gives us a high-performance engine and an intuitive drag-and-drop workflow on desktop. Our viewer is built directly into the Solaya app and renders smoothly on any device. Because the engine is open source and flexible, we could deploy Solaya across web and mobile from a single codebase, and integration went much faster than we expected.
+Integration went much faster than we expected, largely because the engine is open source and flexible. We built our viewer directly into the Solaya app and ship it across web and mobile from a single codebase, and it performs well on everything from phones to desktops. On desktop, we also get an intuitive drag-and-drop workflow.
 
 <video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-mobile-viewer.mp4' style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto'}} />
 
