@@ -77,7 +77,7 @@ We first tried MetalSplatter on mobile, but it didn't meet our needs on stabilit
 
 **How does PlayCanvas help you deliver a smooth experience across desktop and mobile?**
 
-Integration went much faster than we expected, largely because the engine is open source and flexible. We built our viewer directly into the Solaya app and ship it across web and mobile from a single codebase, and it performs well on everything from phones to desktops. On desktop, we also get an intuitive drag-and-drop workflow.
+Integrating PlayCanvas went much faster than we expected, largely because the engine is open source and flexible. Our PlayCanvas-powered viewer is built directly into the Solaya app, and we ship it across web and mobile from a single codebase. The engine's performance means it runs well on everything from phones to desktops, and on desktop we also get an intuitive drag-and-drop workflow.
 
 <video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-mobile-viewer.mp4' style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto'}} />
 
@@ -133,7 +133,7 @@ Photorealistic 3D will become much easier to create, and we'll move beyond viewi
 
 **Any advice for developers building commercial products on PlayCanvas?**
 
-Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and that was a big part of why we moved to PlayCanvas. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.
+Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and that was a big part of why we moved to PlayCanvas. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so PlayCanvas' SOG compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.
 
 **How can the PlayCanvas community try Solaya?**
 
