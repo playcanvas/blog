@@ -10,11 +10,9 @@ tags:
 
 Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.
 
-<div className="iframe-container">
-    <iframe loading="lazy" src="https://superspl.at/s?id=1e9cda18" title="SuperSplat Viewer - Marshall Speaker captured using Solaya" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
-</div>
+<video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-content-engine.mp4' style={{width: '100%', height: 'auto'}} />
 
-Today, we are excited to be joined by Massimo and Mariem from [Solaya](https://www.solaya.ai/), a French deeptech startup that turns a short iPhone video into a photorealistic 3D digital twin, like the Marshall speaker above, ready for the web in under an hour. Solaya renders its Gaussian splats with the PlayCanvas Engine, and brands such as Karl Lagerfeld and Rimowa already use it for their e-commerce content.
+Today, we are excited to be joined by Massimo and Mariem from [Solaya](https://www.solaya.ai/), a French deeptech startup that turns a short iPhone video into a photorealistic 3D digital twin, ready for the web in under an hour. Solaya renders its Gaussian splats with the PlayCanvas Engine, and brands such as Karl Lagerfeld and Rimowa already use it for their e-commerce content.
 
 <!-- truncate -->
 
@@ -49,8 +47,6 @@ Solaya is a fully integrated pipeline that turns an iPhone video into a high-fid
 
 You scan an object with the Solaya 3D Scanner app, and it becomes a high-quality 3D model. The real value comes after that. The 3D model becomes a content engine. You can generate unlimited high-end videos, professional packshots and entire marketing campaigns without picking up a camera again. We're making 3D as easy, and as useful, as a standard photo.
 
-<video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-content-engine.mp4' style={{width: '100%', height: 'auto'}} />
-
 **How do you create a 3D model with Solaya?**
 
 Going from a physical object to a web-ready 3D asset takes about an hour and needs no special rigs or expertise.
@@ -60,6 +56,12 @@ Going from a physical object to a web-ready 3D asset takes about an hour and nee
 3. **Publish or export:** You get a lightweight, web-optimized asset you can embed in Shopify, or export as `.ply` to After Effects and Houdini. You can, of course, open your model in the [SuperSplat Editor](https://superspl.at/editor/).
 
 <video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-capture.mp4' style={{width: '100%', height: 'auto'}} />
+
+<div className="iframe-container">
+    <iframe loading="lazy" src="https://superspl.at/s?id=1e9cda18" title="SuperSplat Viewer - Marshall Speaker captured using Solaya" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+</div>
+
+*A Marshall speaker captured with the Solaya app and published to SuperSplat. Splat by [mariemsolaya](https://superspl.at/user/mariemsolaya).*
 
 :::tip
 Want to nail your first scan? Check out Solaya's [best practices page](https://www.solaya.ai/best-practices).
