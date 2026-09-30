@@ -133,7 +133,7 @@ Photorealistic 3D will become much easier to create, and we'll move beyond viewi
 
 **Any advice for developers building commercial products on PlayCanvas?**
 
-Test with real users as early as you can. PlayCanvas is a technical powerhouse, but your biggest advantage comes from pairing top-tier performance with an intentional, easy-to-navigate UI. Treat it as a full game engine, not just another web library. Stay curious, go deep into the [PlayCanvas developer docs](https://developer.playcanvas.com/) and use the community. You'll build something far more impactful.
+Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and moving to PlayCanvas meant a single codebase could serve both web and mobile. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.
 
 **How can the PlayCanvas community try Solaya?**
 
