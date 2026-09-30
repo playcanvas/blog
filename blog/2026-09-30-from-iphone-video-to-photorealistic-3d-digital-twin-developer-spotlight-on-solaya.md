@@ -55,8 +55,6 @@ Going from a physical object to a web-ready 3D asset takes about an hour and nee
 2. **Reconstruct:** Our proprietary pipeline analyzes lighting and geometry and builds a 3D Gaussian Splatting model in under an hour.
 3. **Publish or export:** You get a lightweight, web-optimized asset you can embed in Shopify, or export as `.ply` to After Effects and Houdini. You can, of course, open your model in the [SuperSplat Editor](https://superspl.at/editor/).
 
-<video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-capture.mp4' style={{width: '100%', height: 'auto'}} />
-
 <div className="iframe-container">
     <iframe loading="lazy" src="https://superspl.at/s?id=1e9cda18" title="SuperSplat Viewer - Marshall Speaker captured using Solaya" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
 </div>
@@ -70,6 +68,8 @@ Want to nail your first scan? Check out Solaya's [best practices page](https://w
 **How does Solaya make 3D accessible to non-technical users?**
 
 We've taken the 'pro' out of the process. With Solaya, it's point and scan: if you can film a video on an iPhone Pro, you can create a professional 3D asset. Our algorithms do the heavy lifting behind the scenes, reconstructing the shape, replicating textures and getting colors right. The only skill you need is walking around an object with your phone.
+
+<video playsInline autoPlay muted loop controls src='/img/developer-spotlight-solaya-capture.mp4' style={{width: '100%', height: 'auto'}} />
 
 **Why did you choose PlayCanvas for Gaussian Splatting?**
 
