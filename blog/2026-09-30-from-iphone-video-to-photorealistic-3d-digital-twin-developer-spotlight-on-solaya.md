@@ -133,7 +133,7 @@ Photorealistic 3D will become much easier to create, and we'll move beyond viewi
 
 **Any advice for developers building commercial products on PlayCanvas?**
 
-Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and moving to PlayCanvas meant a single codebase could serve both web and mobile. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.
+Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and that was a big part of why we moved to PlayCanvas. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.
 
 **How can the PlayCanvas community try Solaya?**
 
