@@ -139,7 +139,7 @@ Don't lock yourself into one platform too early. MetalSplatter tied us to Apple 
 
 **How can the PlayCanvas community try Solaya?**
 
-Download [Solaya: 3D Scanner Pro](https://apps.apple.com/us/app/solaya-3d-scanner-pro/id6550921134) from the App Store, scan any object with an iPhone Pro, and within an hour you'll have a 3D model to share or bring into your PlayCanvas projects. You can learn more at [solaya.ai](https://www.solaya.ai/), or read our explainer on [why 3D Gaussian Splatting is transforming e-commerce](https://www.solaya.ai/lab/why-3d-gaussian-splatting-is-revolutionising-ecommerce).
+Download [Solaya: 3D Scanner Pro](https://apps.apple.com/us/app/solaya-3d-scanner-pro/id6550921134) from the App Store, scan any object with an iPhone Pro, and within an hour you'll have a 3D model to share or bring into your PlayCanvas projects. You can learn more at [solaya.ai](https://www.solaya.ai/), or read our [best practices](https://www.solaya.ai/best-practices) for getting a great scan.
 
 **What's one message you want to leave with our readers?**
 
