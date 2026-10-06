@@ -26,6 +26,8 @@ The Following tab keeps things simple: the latest splats from the people you cho
 
 Profiles now show who follows whom, too, which turns out to be a great way to discover new creators. Check who your favorites follow and start there.
 
+Follow is just the first step. We're putting a lot of work into the social side of SuperSplat, and **notifications** are high on the list.
+
 ### 🧭 A New Home Page and Search
 
 The [SuperSplat](https://superspl.at) home page has had a makeover — it now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
