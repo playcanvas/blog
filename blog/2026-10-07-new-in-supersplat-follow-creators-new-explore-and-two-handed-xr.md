@@ -35,7 +35,7 @@ Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but follow
 
 ### 🧭 A New Explore and Search
 
-[SuperSplat](https://superspl.at) has had a makeover. The home page now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
+The [SuperSplat](https://superspl.at) home page has had a makeover — it now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
 
 Search has a home of its own too. The new **[search page](https://superspl.at/search)** lets you search by keyword and then narrow things down:
 
