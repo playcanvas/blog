@@ -44,7 +44,7 @@ superspl.at has had a makeover. The home page now opens with a **Spotlight** car
 
 - **Walkable Worlds**: scenes you can step inside and explore in first person
 - **Free Downloads**: CC 4.0 splats you can take home
-- **Made With**: a daily look at what people are making with Postshot, LichtFeld Studio and Brush
+- **Made With**: a different splat tool worth highlighting each day, and the scenes made with it
 - **Best of the Week**: the most viewed splats of the last seven days
 - **All-Time Greats**: the most viewed splats ever published
 
