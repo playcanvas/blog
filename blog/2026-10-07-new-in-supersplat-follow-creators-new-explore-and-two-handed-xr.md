@@ -30,7 +30,6 @@ A few more things worth knowing:
 
 - **Click a follower or following count** on any profile to see who's behind it. Every name links to that creator's profile, which makes it a great way to discover new people.
 - **Manage who you follow** from the Following list on your own profile. Unfollow anyone with a click (we'll double-check first) and change your mind just as easily.
-- **No account yet?** You can still browse profiles and follower lists. Hit Follow and we'll ask you to log in.
 
 Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but following someone here simply means "show me their splats".
 
