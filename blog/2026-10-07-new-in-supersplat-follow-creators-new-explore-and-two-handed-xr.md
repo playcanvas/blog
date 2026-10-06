@@ -33,10 +33,6 @@ A few more things worth knowing:
 
 Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but following someone here simply means "show me their splats".
 
-:::tip
-Not sure who to follow? Explore is the perfect place to start. Find a scene you love, click through to its creator and hit Follow.
-:::
-
 ### 🧭 A New Explore and Search
 
 superspl.at has had a makeover. The home page now opens with a **Spotlight** carousel of collections that keep themselves fresh:
