@@ -12,7 +12,7 @@ tags:
   - open-source
 ---
 
-Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This month is all about the people on [SuperSplat](https://superspl.at): the creators making splats and everyone exploring them. You can now **follow your favorite creators** and catch their latest work in a new **Following** feed. Finding those creators is easier than ever with a **redesigned Explore** and a brand new **search page**. And when you find a scene you love, you can step inside it in VR or AR and **grab it with both hands**.
+Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This month is all about the people on [SuperSplat](https://superspl.at): the creators making splats and everyone exploring them. You can now **follow your favorite creators** and catch their latest work in a new **Following** feed. Finding those creators is easier than ever with a **redesigned home page** and a brand new **search page**. And when you find a scene you love, you can step inside it in VR or AR and **grab it with both hands**.
 
 <!-- truncate -->
 
@@ -33,7 +33,7 @@ A few more things worth knowing:
 
 Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but following someone here simply means "show me their splats".
 
-### 🧭 A New Explore and Search
+### 🧭 A New Home Page and Search
 
 The [SuperSplat](https://superspl.at) home page has had a makeover — it now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
 
