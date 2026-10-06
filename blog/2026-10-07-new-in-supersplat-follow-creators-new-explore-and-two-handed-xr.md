@@ -35,15 +35,7 @@ Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but follow
 
 ### 🧭 A New Explore and Search
 
-superspl.at has had a makeover. The home page now opens with a **Spotlight** carousel of collections that keep themselves fresh:
-
-- **Walkable Worlds**: scenes you can step inside and explore in first person
-- **Free Downloads**: CC 4.0 splats you can take home
-- **Made With**: a different splat tool worth highlighting each day, and the scenes made with it
-- **Best of the Week**: the most viewed splats of the last seven days
-- **All-Time Greats**: the most viewed splats ever published
-
-Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
+superspl.at has had a makeover. The home page now opens with a **Spotlight** carousel that puts some of the best work on SuperSplat front and center. It refreshes itself, so every visit starts with something worth seeing, and each card opens up a whole collection of scenes to dive into. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
 
 Search has a home of its own too. The new **[search page](https://superspl.at/search)** lets you search by keyword and then narrow things down:
 
