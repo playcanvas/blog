@@ -4,10 +4,99 @@
         <title>PlayCanvas Blog Blog</title>
         <link>https://blog.playcanvas.com/</link>
         <description>PlayCanvas Blog Blog</description>
-        <lastBuildDate>Tue, 22 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[From iPhone Video to Photorealistic 3D Digital Twin - Developer Spotlight on Solaya]]></title>
+            <link>https://blog.playcanvas.com/from-iphone-video-to-photorealistic-3d-digital-twin-developer-spotlight-on-solaya</link>
+            <guid>https://blog.playcanvas.com/from-iphone-video-to-photorealistic-3d-digital-twin-developer-spotlight-on-solaya</guid>
+            <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the seventh edition of Developer Spotlight, a series of blog articles where we talk to developers about how they use PlayCanvas and showcase the fantastic work they are doing on the web.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/developer-spotlight-solaya-content-engine.mp4" style="width:100%;height:auto"></video>
+<p>Today, we are excited to be joined by Massimo and Mariem from <a href="https://www.solaya.ai/" target="_blank" rel="noopener noreferrer" class="">Solaya</a>, a French deeptech startup that turns a short iPhone video into a photorealistic 3D digital twin, ready for the web in under an hour. Solaya renders its Gaussian splats with the PlayCanvas Engine, and brands such as Karl Lagerfeld and Rimowa already use it for their e-commerce content.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Solaya at a glance</div><div class="admonitionContent_BuS1"><ul>
+<li class=""><strong>Company:</strong> French deeptech startup, founded in Nice in April 2024</li>
+<li class=""><strong>What it does:</strong> Turns a smartphone video into a photorealistic 3D digital twin</li>
+<li class=""><strong>Core technology:</strong> 3D Gaussian Splatting, rendered on the web with PlayCanvas</li>
+<li class=""><strong>Capture:</strong> Under 3 minutes, as a 360° walk-around scan with the <a href="https://apps.apple.com/us/app/solaya-3d-scanner-pro/id6550921134" target="_blank" rel="noopener noreferrer" class="">Solaya: 3D Scanner Pro</a> app for iPhone Pro</li>
+<li class=""><strong>Processing:</strong> Under 1 hour to a web-optimized asset</li>
+<li class=""><strong>Typical asset size:</strong> 30–60 MB, optimized for mobile browsers</li>
+<li class=""><strong>Outputs:</strong> Embeddable web viewer (e.g. Shopify), <code>.ply</code> export for Adobe After Effects and Houdini, and AI-generated videos and packshots</li>
+<li class=""><strong>Clients:</strong> Karl Lagerfeld, Rimowa, LVMH, Mattel</li>
+<li class=""><strong>Founders:</strong> Massimo Moretti (CEO) and Mariem Farhat (COO)</li>
+</ul></div></div>
+<p><strong>Welcome to our Developer Spotlight! Tell us a bit about yourselves and your journey into the world of 3D and AI.</strong></p>
+<p><em>Massimo</em>: My career has always been about performance and speed, first as an athlete, then for more than a decade in business development in the luxury and deep-tech sectors. I spent much of that time helping early-stage startups meet the high standards of luxury brands. I saw firsthand how houses like Louis Vuitton struggled with the friction of traditional content creation. Moving into 3D and AI was a natural step, because it is the best tool we have for bridging a physical product and its digital experience.</p>
+<p><em>Mariem</em>: I come from the other side: engineering and scale. I spent over 10 years managing complex technical systems and e-commerce operations at Fortune 500 companies, including Amazon. In e-commerce, bottlenecks are the enemy. When we looked at 3D, we saw a huge one. Creating high-fidelity assets was too slow, too manual and too expensive. My goal was to apply what I knew about scalable technology to the creative process and make 3D as simple as taking a photo with your phone.</p>
+<p>Together, Massimo and Mariem have built a <a href="https://www.solaya.ai/about" target="_blank" rel="noopener noreferrer" class="">team of specialists</a> in 3D deep learning, computer graphics and 3D Gaussian Splatting.</p>
+<p><img decoding="async" loading="lazy" alt="Solaya co-founders Mariem Farhat (COO) and Massimo Moretti (CEO)" src="https://blog.playcanvas.com/assets/images/developer-spotlight-solaya-founders-140478bd9fb546df472ba2d19cb2afaa.jpg" width="1600" height="1118" class="img_ev3q"><br>
+<em>Solaya co-founders Mariem Farhat (COO) and Massimo Moretti (CEO)</em></p>
+<p><strong>What is Solaya, and what problem does it solve?</strong></p>
+<p>Solaya is a fully integrated pipeline that turns an iPhone video into a high-fidelity 3D digital twin. The digital world is moving toward 3D: online shopping, gaming, VR. But making 3D models is still hard, slow and reserved for a small group of professionals. That's the problem we solve.</p>
+<p>You scan an object with the Solaya 3D Scanner app, and it becomes a high-quality 3D model. The real value comes after that. The 3D model becomes a content engine. You can generate unlimited high-end videos, professional packshots and entire marketing campaigns without picking up a camera again. We're making 3D as easy, and as useful, as a standard photo.</p>
+<p><strong>How do you create a 3D model with Solaya?</strong></p>
+<p>Going from a physical object to a web-ready 3D asset takes about an hour and needs no special rigs or expertise.</p>
+<ol>
+<li class=""><strong>Scan:</strong> Open the Solaya app on an iPhone Pro and walk around the object for a 360° capture. This takes less than three minutes.</li>
+<li class=""><strong>Reconstruct:</strong> Our proprietary pipeline analyzes lighting and geometry and builds a 3D Gaussian Splatting model in under an hour.</li>
+<li class=""><strong>Publish or export:</strong> You get a lightweight, web-optimized asset you can embed in Shopify, or export as <code>.ply</code> to After Effects and Houdini. You can, of course, open your model in the <a href="https://superspl.at/editor/" target="_blank" rel="noopener noreferrer" class="">SuperSplat Editor</a>.</li>
+</ol>
+<div class="iframe-container"><iframe loading="lazy" src="https://superspl.at/s?id=1e9cda18" title="SuperSplat Viewer - Marshall Speaker captured using Solaya" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe></div>
+<p><em>A Marshall speaker captured with the Solaya app and published to SuperSplat. Splat by <a href="https://superspl.at/user/mariemsolaya" target="_blank" rel="noopener noreferrer" class="">mariemsolaya</a>.</em></p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Want to nail your first scan? Check out Solaya's <a href="https://www.solaya.ai/best-practices" target="_blank" rel="noopener noreferrer" class="">best practices page</a>.</p></div></div>
+<p><strong>How does Solaya make 3D accessible to non-technical users?</strong></p>
+<p>We've taken the 'pro' out of the process. With Solaya, it's point and scan: if you can film a video on an iPhone Pro, you can create a professional 3D asset. Our algorithms do the heavy lifting behind the scenes, reconstructing the shape, replicating textures and getting colors right. The only skill you need is walking around an object with your phone.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/developer-spotlight-solaya-capture.mp4" style="width:100%;height:auto"></video>
+<p><strong>Why did you choose PlayCanvas for Gaussian Splatting?</strong></p>
+<p>We discovered PlayCanvas through the 3D Gaussian Splatting community, where it's widely recognized as a leading engine for viewing and editing splats.</p>
+<p>We first tried MetalSplatter on mobile, but it didn't meet our needs on stability, performance or quality, and it only runs on Apple platforms. PlayCanvas gave us the best rendering quality in the open-source ecosystem. Its advanced compression, including the <a class="" href="https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting">SOG format</a>, is critical for keeping Solaya's high-fidelity assets lightweight.</p>
+<p><strong>How does PlayCanvas help you deliver a smooth experience across desktop and mobile?</strong></p>
+<p>Integrating PlayCanvas went much faster than we expected, largely because the engine is open source and flexible. Our PlayCanvas-powered viewer is built directly into the Solaya app, and we ship it across web and mobile from a single codebase. The engine's performance means it runs well on everything from phones to desktops, and on desktop we also get an intuitive drag-and-drop workflow.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/developer-spotlight-solaya-mobile-viewer.mp4" style="display:block;width:100%;max-width:360px;height:auto;margin:0 auto"></video>
+<p><strong>How do you run photorealistic 3D smoothly in a mobile browser?</strong></p>
+<p>We serve the PlayCanvas Engine through a CDN and store compressed models in blob storage. Our performance architecture relies on:</p>
+<ul>
+<li class=""><strong>Multi-level compression</strong> at both the model layer and the CDN layer</li>
+<li class=""><strong>Edge caching</strong> to cut latency and offload traffic from our S3 buckets</li>
+<li class=""><strong>Targeted cache invalidation</strong>, which refreshes only the individual model being reconstructed so the rest of the global cache stays warm</li>
+<li class=""><strong>A top-layer firewall</strong> to secure the whole delivery stack</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Building a similar pipeline? Start with our guide to <a href="https://developer.playcanvas.com/user-manual/supersplat/streaming/" target="_blank" rel="noopener noreferrer" class="">splat streaming and performance</a>.</p></div></div>
+<p><strong>How are brands like Karl Lagerfeld and Rimowa using Solaya?</strong></p>
+<p><a href="https://www.karl.com/" target="_blank" rel="noopener noreferrer" class="">Karl Lagerfeld</a> is a great example of luxury-grade 3D from a smartphone. We created 3D models of their 2026 accessories collection using only an iPhone and the Solaya app, with no studio at all. It was one of the first times Gaussian Splatting reached the quality needed for a major fashion website.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/developer-spotlight-solaya-karl-lagerfeld.mp4" style="width:100%;height:auto"></video>
+<p>Rimowa uses Solaya for something different: one-of-a-kind products. Their <a href="https://www.rimowa.com/de/en/faq/services/re-crafted---2nd-hand" target="_blank" rel="noopener noreferrer" class="">RE-CRAFTED program</a> refurbishes pre-owned aluminum suitcases and keeps their original scratches and dents. That makes every piece unique, so traditional product photography was too slow and costly. Now, Rimowa's team scans each suitcase with Solaya and has a high-fidelity 3D model live in their global online shop in under an hour.</p>
+<p><strong>Why is Gaussian Splatting attractive to luxury brands compared with traditional CGI?</strong></p>
+<p>Speed and cost savings over CGI appeal to every brand. But luxury demands true-to-life material accuracy. Working with LVMH Maisons such as Rimowa, and with Mattel, pushed us to meet extremely high standards. That's what drove our R&amp;D toward a scalable solution that never sacrifices the detail or prestige of the original item.</p>
+<p><strong>Who is Solaya for?</strong></p>
+<p>We built Solaya to be accessible to everyone. That includes individuals archiving private art collections, small businesses creating premium product content on a lean budget and large enterprises scaling content production. Anyone who wants to bring physical items into the digital world can use it, whatever their size or technical skill.</p>
+<p><strong>What is the biggest challenge for brands adopting 3D scanning at scale?</strong></p>
+<p>It isn't the technology. It's the mindset shift from 2D photography to 3D. Many brands see 3D scanning as a complex new language, when the process is now as simple as filming a video on an iPhone. Once teams move past relying only on flat images, the barrier to scaling 3D content practically disappears.</p>
+<p><strong>What's next for Solaya?</strong></p>
+<p>Feedback since launch has been great. Creators keep telling us how intuitive the app is out of the box, which was exactly our goal. Our roadmap focuses on the quality and completeness of every capture:</p>
+<ul>
+<li class="">Solaya automatically applies studio lighting in 3D, correcting color and lighting for objects scanned in difficult lighting conditions.</li>
+<li class="">Solaya Flip automatically reconstructs any object in full 360°, including the underside.</li>
+<li class="">Solaya Meshing outputs a <code>.glb</code> mesh alongside the <code>.ply</code> for users who want access to a mesh.</li>
+<li class="">Solaya PBR &amp; Segmentation outputs segmented PBR textures along with the mesh.</li>
+</ul>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/developer-spotlight-solaya-delight.mp4" style="width:100%;height:auto"></video>
+<p><em>Studio lighting correction on a sneaker scan, before and after</em></p>
+<p><strong>Where is web-based photorealistic 3D heading?</strong></p>
+<p>Photorealistic 3D will become much easier to create, and we'll move beyond viewing static assets to editing them directly in the browser. We see splat viewers gaining features from tools like Blender, such as real-time color and texture changes. Ultimately, the web viewer will become a dynamic configurator where anyone can customize high-fidelity assets without specialized software.</p>
+<p><strong>Any advice for developers building commercial products on PlayCanvas?</strong></p>
+<p>Don't lock yourself into one platform too early. MetalSplatter tied us to Apple devices, and that was a big part of why we moved to PlayCanvas. Then plan for delivery as early as you plan for rendering. Photorealistic assets are heavy, so PlayCanvas' SOG compression, CDN caching and invalidating only what changes are what keep our 30–60 MB models fast to load in a mobile browser.</p>
+<p><strong>How can the PlayCanvas community try Solaya?</strong></p>
+<p>Download <a href="https://apps.apple.com/us/app/solaya-3d-scanner-pro/id6550921134" target="_blank" rel="noopener noreferrer" class="">Solaya: 3D Scanner Pro</a> from the App Store, scan any object with an iPhone Pro, and within an hour you'll have a 3D model to share or bring into your PlayCanvas projects. You can learn more at <a href="https://www.solaya.ai/" target="_blank" rel="noopener noreferrer" class="">solaya.ai</a>, or read our <a href="https://www.solaya.ai/best-practices" target="_blank" rel="noopener noreferrer" class="">best practices</a> for getting a great scan.</p>
+<p><strong>What's one message you want to leave with our readers?</strong></p>
+<p>Always believe in your ideas, however ambitious they seem. When we started, we didn't know exactly how we'd build a tool this powerful, but with the right team, any vision can come to life. A huge thank you to our team and everyone who has supported us.</p>
+<p><strong>Thanks for chatting with us, Massimo and Mariem!</strong></p>]]></content:encoded>
+            <category>gaussian-splats</category>
+            <category>spotlight</category>
+        </item>
         <item>
             <title><![CDATA[New in PlayCanvas Editor: Joints, Parallax Occlusion and Splat LOD]]></title>
             <link>https://blog.playcanvas.com/new-in-playcanvas-editor-joints-parallax-occlusion-and-splat-lod</link>
@@ -1129,36 +1218,6 @@ To set up your local development environment, check out the <a href="https://git
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-our-open-source-mission">👨‍💻 Our Open Source Mission<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#-our-open-source-mission" class="hash-link" aria-label="Direct link to 👨‍💻 Our Open Source Mission" title="Direct link to 👨‍💻 Our Open Source Mission" translate="no">​</a></h3>
 <p>We proudly provide the PlayCanvas Engine as an MIT-licensed open source project. The 3D Gaussian Splat community has made impressive strides over the past 18 months, largely due to open collaboration. Join us in shaping the future by submitting issues, creating pull requests, or simply starring <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">our GitHub repo</a>! ⭐</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
-<p>We hope you approve of this latest update to our open source journey! The SuperSplat community has grown tremendously, and your feedback is invaluable. What features would you love to see next? Share your thoughts on our <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content:encoded>
-            <category>gaussian-splats</category>
-            <category>supersplat</category>
-        </item>
-        <item>
-            <title><![CDATA[SuperSplat 3DGS Viewer is now Open Source]]></title>
-            <link>https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source</link>
-            <guid>https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source</guid>
-            <pubDate>Wed, 09 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today, we are announcing the open sourcing of the SuperSplat Viewer. Try it out for yourself:]]></description>
-            <content:encoded><![CDATA[<p>Today, we are announcing the open sourcing of the <a href="https://github.com/playcanvas/supersplat-viewer" target="_blank" rel="noopener noreferrer" class="">SuperSplat Viewer</a>. Try it out for yourself:</p>
-<div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=db6ab60b"></iframe></div>
-<p>Since its initial release back in November 2023, <a href="https://superspl.at/" target="_blank" rel="noopener noreferrer" class="">SuperSplat</a> has grown to be the most popular platform for editing and publishing 3D Gaussian Splats.</p>
-<p><img decoding="async" loading="lazy" alt="SuperSplat Landing Page" src="https://blog.playcanvas.com/assets/images/supersplat-landing-page-08f751605b1bc0b050fce3f7e4095c73.webp" width="3840" height="2100" class="img_ev3q"></p>
-<p>It allows you to publish your splats to our <a href="https://superspl.at/" target="_blank" rel="noopener noreferrer" class="">superspl.at</a> domain or download the SuperSplat Viewer for self-hosting. Regardless of which option you choose, you get the same viewer experience, giving you total flexibility. But while the SuperSplat Editor has been open source from the beginning, SuperSplat's web-based viewer has not. That changes today with the release of the viewer on <a href="https://github.com/playcanvas/supersplat-viewer" target="_blank" rel="noopener noreferrer" class="">GitHub</a> (under the MIT license).</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-viewer-features">✅ Viewer Features<a href="https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source#-viewer-features" class="hash-link" aria-label="Direct link to ✅ Viewer Features" title="Direct link to ✅ Viewer Features" translate="no">​</a></h3>
-<p>So why use the SuperSplat Viewer to publish your splats? There are a lot of great reasons! Here is a run down:</p>
-<ul>
-<li class="">🏃 <strong>Performance</strong> - it is built on the powerful <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a> which delivers high frame rates.</li>
-<li class="">✨ <strong>Visual Fidelity</strong> - the PlayCanvas Engine's advanced 3DGS shaders ensure top quality visuals.</li>
-<li class="">🤳 <strong>AR Support</strong> - view your splat in your space in mixed reality.</li>
-<li class="">🥽 <strong>VR Support</strong> - experience your splat in full immersion using any WebXR-capable headset.</li>
-<li class="">🎬 <strong>Animation</strong> - play back attractive camera fly-throughs for your scenes.</li>
-<li class="">🖥️ <strong>Fullscreen Support</strong> - take your splats fullscreen with the click of a button.</li>
-<li class="">🎥 <strong>Camera Modes</strong> - switch between orbit and fly cameras, tuned for both mobile and desktop.</li>
-</ul>
-<p>And this is just the beginning. We have ambitious plans for the viewer with exciting features just around the corner. So what's next? Well, one feature we are excited about is <strong>annotations</strong>, meaning you will be able to place informational panels within your scenes. Subscribe to the repo to get notified about new releases.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-our-open-source-mission">👨‍💻 Our Open Source Mission<a href="https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source#-our-open-source-mission" class="hash-link" aria-label="Direct link to 👨‍💻 Our Open Source Mission" title="Direct link to 👨‍💻 Our Open Source Mission" translate="no">​</a></h3>
-<p>We proudly provide the SuperSplat Viewer as an MIT-licensed open source project. The 3D Gaussian Splat community has made impressive strides over the past 18 months, largely due to open collaboration. Join us in shaping the future by submitting issues, creating pull requests, or simply starring <a href="https://github.com/playcanvas/supersplat-viewer" target="_blank" rel="noopener noreferrer" class="">our GitHub repo</a>! ⭐</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
 <p>We hope you approve of this latest update to our open source journey! The SuperSplat community has grown tremendously, and your feedback is invaluable. What features would you love to see next? Share your thoughts on our <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content:encoded>
             <category>gaussian-splats</category>
             <category>supersplat</category>
