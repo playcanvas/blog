@@ -12,13 +12,13 @@ tags:
   - open-source
 ---
 
-Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This month is all about the people on superspl.at: the creators making splats and everyone exploring them. You can now **follow your favorite creators** and catch their latest work in a new **Following** feed. Finding those creators is easier than ever with a **redesigned Explore** and a brand new **search page**. And when you find a scene you love, you can step inside it in VR or AR and **grab it with both hands**.
+Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This month is all about the people on [SuperSplat](https://superspl.at): the creators making splats and everyone exploring them. You can now **follow your favorite creators** and catch their latest work in a new **Following** feed. Finding those creators is easier than ever with a **redesigned Explore** and a brand new **search page**. And when you find a scene you love, you can step inside it in VR or AR and **grab it with both hands**.
 
 <!-- truncate -->
 
 ### 👥 Follow Your Favorite Creators
 
-Some of the best splats on superspl.at come from creators who keep raising the bar with every upload. Until now, keeping up with them meant bookmarking profiles and checking back. Not anymore.
+Some of the best splats on SuperSplat come from creators who keep raising the bar with every upload. Until now, keeping up with them meant bookmarking profiles and checking back. Not anymore.
 
 Every profile now has a **Follow** button, along with follower and following counts. You'll find one on every scene page too, right next to the author's name. So when a scene blows you away, it takes one click to make sure you never miss the next one.
 
@@ -35,7 +35,7 @@ Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but follow
 
 ### 🧭 A New Explore and Search
 
-superspl.at has had a makeover. The home page now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
+[SuperSplat](https://superspl.at) has had a makeover. The home page now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
 
 Search has a home of its own too. The new **[search page](https://superspl.at/search)** lets you search by keyword and then narrow things down:
 
@@ -53,7 +53,7 @@ And if you like splats as you browse, your profile now has a **Likes** tab that 
 
 ### 🥽 Grab Your Splats in XR
 
-Gaussian splats are at their best when you're standing inside them, so we've given the XR mode of the SuperSplat Viewer a serious upgrade. It's live now on every scene on superspl.at, including the ones embedded on other sites.
+Gaussian splats are at their best when you're standing inside them, so we've given the XR mode of the SuperSplat Viewer a serious upgrade. It's live now on every scene on SuperSplat, including the ones embedded on other sites.
 
 The headline is **two-handed manipulation**. Squeeze both grips on your controllers (or make fists with tracked hands) and you can drag, turn and scale the whole scene, anywhere from a fifth of its size to five times bigger. Shrink a cathedral down to a model in front of you or, in AR, put an object scan on your actual coffee table. When you leave the session, the scene returns to where its creator placed it.
 
@@ -78,7 +78,7 @@ That's more than three times faster out of the box and four times faster with Pe
 To try it, open any scene in your headset's browser and tap the **VR** or **AR** button in the viewer toolbar.
 
 :::info
-superspl.at renders with WebGPU by default, and XR on Quest currently needs WebGL. The first time you tap VR, the viewer will offer to reload with WebGL. Press OK, then tap VR again.
+SuperSplat renders with WebGPU by default, and XR on Quest currently needs WebGL. The first time you tap VR, the viewer will offer to reload with WebGL. Press OK, then tap VR again.
 :::
 
 ### 🧰 And More
@@ -101,6 +101,6 @@ New to Gaussian splatting on PlayCanvas? Our [Gaussian Splatting documentation](
 
 ### 👂 We Want to Hear from You
 
-Head to **[superspl.at](https://superspl.at)**, follow a few creators and tell us who should be at the top of everyone's list. What should we build next? Come and find us on the [PlayCanvas Discord](https://discord.com/invite/T3pnhRTTAY) or [ping us on X](https://x.com/playcanvas). It's where the world's best splat creators hang out and we'd love to have you there.
+Head to **[SuperSplat](https://superspl.at)**, follow a few creators and tell us who should be at the top of everyone's list. What should we build next? Come and find us on the [PlayCanvas Discord](https://discord.com/invite/T3pnhRTTAY) or [ping us on X](https://x.com/playcanvas). It's where the world's best splat creators hang out and we'd love to have you there.
 
 See you in there!
