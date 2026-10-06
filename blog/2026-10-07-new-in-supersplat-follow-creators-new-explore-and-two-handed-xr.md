@@ -1,7 +1,7 @@
 ---
 authors: will
 slug: new-in-supersplat-follow-creators-new-explore-and-two-handed-xr
-title: "New in SuperSplat: Follow Creators, a New Explore and Two-Handed XR"
+title: "New in SuperSplat: Follow Creators, a New Home Page and Two-Handed XR"
 unlisted: true
 tags:
   - gaussian-splats
@@ -12,25 +12,27 @@ tags:
   - open-source
 ---
 
-Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This month is all about the people on [SuperSplat](https://superspl.at): the creators making splats and everyone exploring them. You can now **follow your favorite creators** and catch their latest work in a new **Following** feed. Finding those creators is easier than ever with a **redesigned home page** and a brand new **search page**. And when you find a scene you love, you can step inside it in VR or AR and **grab it with both hands**.
+Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This time most of the work went into [SuperSplat](https://superspl.at) itself. We wanted to make it easier to discover great splats and the people who make them, so you can now **follow creators**, and the **home page** and **search** have been redesigned around how people actually look for splats. The XR side of the viewer got a big upgrade along the way too: step into a scene in VR or AR and **grab it with both hands**.
 
 <!-- truncate -->
 
-### 👥 Follow Your Favorite Creators
+### 👥 Follow Creators and Grow Your Audience
 
-Some of the best splats on SuperSplat come from a handful of creators who keep raising the bar. Now you can follow them. Hit **Follow** on a creator's profile, or right from one of their scenes, and their work shows up in a new **Following** tab on the home page.
+Until now, keeping up with a creator on SuperSplat meant remembering their name or bookmarking their profile. That was cumbersome enough that hardly anyone did it.
+
+So we've added **Follow**. Hit the Follow button on a creator's profile, or right from one of their scenes, and their splats show up in a new **Following** tab on the home page. No more hunting around for the people whose work you like, and no more missing a splat from your favorite creators.
 
 <video playsInline autoPlay muted loop controls src='/img/supersplat-follow.mp4' style={{width: '100%', height: 'auto'}} />
 
-The Following tab keeps things simple: the latest splats from the people you chose, newest first, with no algorithm deciding what you see. Follow someone new and their back catalog shows up straight away, so there's always something to catch up on.
+It works the other way around as well. If you publish splats, Follow is the easiest way to **grow your audience**: everyone who follows you sees your new scenes without having to go looking for them, and your follower count sits right on your profile so you can watch it grow.
 
-Profiles now show who follows whom, too, which turns out to be a great way to discover new creators. Check who your favorites follow and start there.
-
-Follow is just the first step. We're putting a lot of work into the social side of SuperSplat, and **notifications** are high on the list.
+The Following feed is only the first step. Next on our list is a proper **notification system**, along with an overhaul of our dated email notifications, so you can hear about new splats from the people you follow without checking the feed. Only if you want to, of course.
 
 ### 🧭 A New Home Page and Search
 
-The [SuperSplat](https://superspl.at) home page has had a makeover — it now opens with a **Spotlight** carousel of collections we think are worth your time, plus our latest news, so great scenes are one click away instead of buried in search. Each collection stays up to date as new scenes are published, and one card changes every day. Below the Spotlight, the feed is split into **Trending**, **Latest** and, once you're signed in, **Following** tabs.
+We've also reworked the home page to make discovering splats easier. Until now, every filter lived in the search bar at the top of the page. That worked once you knew it was there, but new visitors had a hard time figuring out how to find downloadable splats or simply see what was published this week.
+
+The redesigned home page puts those common requests front and center. A **Spotlight** at the top collects the things people ask for most into a row of cards: walkable worlds, free downloads, the best of the week, the all-time greats and our latest news. Below it, the feed is split into **Trending**, **Latest** and **Following** tabs.
 
 Search has a home of its own too. The new **[search page](https://superspl.at/search)** lets you search by keyword and then narrow things down:
 
@@ -78,7 +80,8 @@ SuperSplat renders with WebGPU by default, and XR on Quest currently needs WebGL
 
 ### 🧰 And More
 
-- **Animate your scenes in Studio.** [Studio](https://developer.playcanvas.com/user-manual/supersplat/studio/) now has a **timeline** (press `T`). Capture keyframes from the current view, choose Play once, Loop or Ping-pong and set the animation to play when visitors open your scene.
+- **Splat counts on every scene.** Each scene page now shows how many splats it contains, so you can tell at a glance how big a scene is and brag about it when you share. This [4 by 2 km scan of Jastrzębia Góra](https://superspl.at/scene/221ee167) by Andrii Shramko weighs in at 105.9 million splats.
+- **Animate your scenes in Studio.** [Studio](https://developer.playcanvas.com/user-manual/supersplat/studio/) now has a **timeline** (press `T`) that works much like the one in the SuperSplat Editor.
 - **SuperSplat Editor 3.5.** Repeat your last export with **Re-export** (`Ctrl+Shift+E`), reopen files with **Import Recent**, load big PLY files about 35% faster with a proper progress bar and track down expensive areas of your scene with the new **Overdraw** heat-map in the Overlays panel. The [release notes](https://github.com/playcanvas/supersplat/releases) have the full list.
 - **Big uploads just work.** Uploads that take longer than 20 minutes no longer fail, `.spz` and XGRIDS LCC2 files can now be uploaded and scenes over 40 million splats automatically get LODs so they stream smoothly.
 - **Render camera animations from the command line.** SplatTransform's new `--camera-track` option renders an animation from your SuperSplat project to image frames, complete with depth of field and motion blur. The [rendering guide](https://developer.playcanvas.com/user-manual/splat-transform/image-rendering/) shows you how.
