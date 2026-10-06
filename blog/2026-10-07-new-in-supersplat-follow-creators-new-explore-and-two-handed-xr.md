@@ -18,20 +18,13 @@ Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-re
 
 ### 👥 Follow Your Favorite Creators
 
-Some of the best splats on SuperSplat come from creators who keep raising the bar with every upload. Until now, keeping up with them meant bookmarking profiles and checking back. Not anymore.
-
-Every profile now has a **Follow** button, along with follower and following counts. You'll find one on every scene page too, right next to the author's name. So when a scene blows you away, it takes one click to make sure you never miss the next one.
+Some of the best splats on SuperSplat come from a handful of creators who keep raising the bar. Now you can follow them. Hit **Follow** on a creator's profile, or right from one of their scenes, and their work shows up in a new **Following** tab on the home page.
 
 <video playsInline autoPlay muted loop controls src='/img/supersplat-follow.mp4' style={{width: '100%', height: 'auto'}} />
 
-Everyone you follow feeds a new **Following** tab on the home page. It shows the public splats of the creators you follow, newest first. There's no algorithm and no ranking, just the latest work from the people you picked. And when you follow someone, their existing splats show up straight away, not only what they publish next.
+The Following tab keeps things simple: the latest splats from the people you chose, newest first, with no algorithm deciding what you see. Follow someone new and their back catalog shows up straight away, so there's always something to catch up on.
 
-A few more things worth knowing:
-
-- **Click a follower or following count** on any profile to see who's behind it. Every name links to that creator's profile, which makes it a great way to discover new people.
-- **Manage who you follow** from the Following list on your own profile. Unfollow anyone with a click (we'll double-check first) and change your mind just as easily.
-
-Follow lives entirely on SuperSplat. It uses your PlayCanvas account, but following someone here simply means "show me their splats".
+Profiles now show who follows whom, too, which turns out to be a great way to discover new creators. Check who your favorites follow and start there.
 
 ### 🧭 A New Home Page and Search
 
