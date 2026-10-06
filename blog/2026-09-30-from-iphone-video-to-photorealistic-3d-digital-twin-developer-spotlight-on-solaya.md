@@ -2,7 +2,6 @@
 authors: will
 slug: from-iphone-video-to-photorealistic-3d-digital-twin-developer-spotlight-on-solaya
 title: "From iPhone Video to Photorealistic 3D Digital Twin - Developer Spotlight on Solaya"
-unlisted: true
 tags:
   - gaussian-splats
   - spotlight
