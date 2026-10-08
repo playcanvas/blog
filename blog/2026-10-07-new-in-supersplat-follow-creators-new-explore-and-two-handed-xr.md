@@ -26,6 +26,10 @@ So we've added **Follow**. Hit the Follow button on a creator's profile, or righ
 
 It works the other way around as well. If you publish splats, Follow is the easiest way to **grow your audience**: everyone who follows you sees your new scenes without having to go looking for them, and your follower count sits right on your profile so you can watch it grow.
 
+And you don't have to start from a profile. Hover over anyone's name in the comments and a **profile card** pops up with their follower count and number of splats, plus a Follow button, so you can follow someone the moment they say something interesting.
+
+<video playsInline autoPlay muted loop controls src='/img/supersplat-follow-profile-card.mp4' style={{width: '100%', height: 'auto'}} />
+
 The Following feed is only the first step. Next on our list is a proper **notification system**, along with an overhaul of our dated email notifications, so you can hear about new splats from the people you follow without checking the feed. Only if you want to, of course.
 
 ### 🧭 A New Home Page and Search
@@ -34,19 +38,11 @@ We've also reworked the home page to make discovering splats easier. Until now, 
 
 The redesigned home page puts those common requests front and center. A **Spotlight** at the top collects the things people ask for most into a row of cards: walkable worlds, free downloads, the best of the week, the all-time greats and our latest news. Below it, the feed is split into **Trending**, **Latest** and **Following** tabs.
 
-Search has a home of its own too. The new **[search page](https://superspl.at/search)** lets you search by keyword and then narrow things down:
+![The redesigned SuperSplat home page, with the Spotlight row above the Trending, Latest and Following tabs](/img/supersplat-home-page.webp)
 
-- **Walkable** and **Downloadable** filters
-- **Time Period**: the past day, week, month or year, or all time
-- **Sort by**: Trending, Newest, Oldest, Most viewed, Most liked, Largest or Smallest
+Search has a home of its own too. The new **[search page](https://superspl.at/search)** puts the filters out in the open instead of hiding them in a search bar. Switch on **Walkable** or **Downloadable**, choose a time period from the past day to all time and sort by whatever you care about, from most viewed and most liked to newest, oldest, largest or smallest.
 
-You don't even need a search term. Pick a filter or a sort order and browse everything. Every results page has its own URL, so you can share exactly what you found, like the [walkable scenes with the most views this week](https://superspl.at/search?features=walkable&sort=views&time=week). On mobile, the filters fold away into a single **Filters & sort** sheet.
-
-<video playsInline autoPlay muted loop controls src='/img/supersplat-explore-search.mp4' style={{width: '100%', height: 'auto'}} />
-
-Getting around is simpler as well. A new **top bar** replaces the old sidebar, with Explore, Editor, Convert and Resources on the left, search in the middle and **Your Splats** and **Upload** on the right. Upload is now one click away from every page. The Editor and Studio get the whole window to themselves, and a new SuperSplat button in the Editor's menu bar takes you back home.
-
-And if you like splats as you browse, your profile now has a **Likes** tab that collects every one of them. Only you can see it.
+![The new SuperSplat search page showing the most viewed downloadable splats of all time](/img/supersplat-search.webp)
 
 ### 🥽 Grab Your Splats in XR
 
