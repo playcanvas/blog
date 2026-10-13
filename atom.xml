@@ -2,11 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.playcanvas.com/</id>
     <title>PlayCanvas Blog Blog</title>
-    <updated>2026-10-06T00:00:00.000Z</updated>
+    <updated>2026-10-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.playcanvas.com/"/>
     <subtitle>PlayCanvas Blog Blog</subtitle>
     <icon>https://blog.playcanvas.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New in PlayCanvas Editor: Gravity Scale, the Inspector and Splat Budget Mode]]></title>
+        <id>https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget</id>
+        <link href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget"/>
+        <updated>2026-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Editor 2.34 is out, two weeks after 2.32, and it is built around Engine 2.23. The headline is a new Inspector launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities straight out of the viewport and draw the physics world.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Editor 2.34</strong> is out, two weeks after 2.32, and it is built around <strong>Engine 2.23</strong>. The headline is a new <strong>Inspector</strong> launch option: tick one box and your launched app comes up with a full debug panel docked beside it, where you can pause it, step it a frame at a time, pick entities straight out of the viewport and draw the physics world.</p>
+<p>Alongside it: rigidbodies get a per-body <strong>Gravity Scale</strong>, Gaussian splats get a new <strong>Splat Budget Mode</strong> and their LOD distances back, particles can opt out of fog and tonemapping, and, from 2.33, you can throw away everything since your last checkpoint with <strong>Discard All</strong>.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34.mp4" style="width:100%;height:auto"></video>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rigidbody-gravity-scale">🪂 Rigidbody Gravity Scale<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-rigidbody-gravity-scale" class="hash-link" aria-label="Direct link to 🪂 Rigidbody Gravity Scale" title="Direct link to 🪂 Rigidbody Gravity Scale" translate="no">​</a></h3>
+<p>Every dynamic rigidbody now has a <strong>Gravity Scale</strong>. It multiplies the world gravity for that one body: <code>1</code> is normal, <code>0</code> makes it ignore gravity entirely, and a negative value reverses it.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34-gravity-scale.mp4" style="width:100%;height:auto"></video>
+<p>In the clip above, one material's worth of spheres is set to <code>-1</code> and falls up onto a glass ceiling, another is set to <code>0</code> and just hangs there, and the rest fall as usual. All three groups share the same world.</p>
+<p>It's the field you want for balloons, floaty power-ups, low-gravity zones, or a single heavy object that needs to drop faster than everything around it. Before, that meant a script applying a counter-force every frame. Now it's one number on the component.</p>
+<p>The field only shows when <strong>Type</strong> is <strong>Dynamic</strong>, alongside Mass and the damping and factor fields, because static and kinematic bodies aren't moved by gravity. Ammo has to be imported into the project, as for any rigidbody. Reference: the <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/rigidbody/" target="_blank" rel="noopener noreferrer" class="">rigidbody component docs</a> and the engine's <a href="https://api.playcanvas.com/engine/classes/RigidBodyComponent.html" target="_blank" rel="noopener noreferrer" class=""><code>RigidBodyComponent</code></a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-launch-with-the-inspector">🔍 Launch with the Inspector<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-launch-with-the-inspector" class="hash-link" aria-label="Direct link to 🔍 Launch with the Inspector" title="Direct link to 🔍 Launch with the Inspector" translate="no">​</a></h3>
+<p>Hover the <strong>Launch</strong> button and there is a new <strong>Inspector</strong> option in the menu. With it ticked, the launched app opens with the <a href="https://github.com/playcanvas/inspector" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Inspector</a> docked on the right: a debug panel that runs on your app's own engine and shows what it is actually doing.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34-launch-inspector.mp4" style="width:100%;height:auto"></video>
+<p>The panel has the entity hierarchy with every component's live properties, plus tabs for <strong>Cameras</strong>, <strong>Assets</strong>, <strong>Frame graph</strong>, <strong>Render targets</strong>, <strong>Textures</strong>, <strong>Meshes</strong>, <strong>Materials</strong>, <strong>Scripts</strong>, <strong>Memory</strong>, <strong>Shaders</strong> and <strong>Physics</strong>. The toolbar pauses and steps the app, picks an entity from the viewport, and flies or orbits a debug camera. Keyboard shortcuts work too: <kbd>`</kbd> toggles the panel, <kbd>F9</kbd> pauses and <kbd>F10</kbd> steps a frame while paused.</p>
+<p>The clip shows the workflow I keep reaching for. Run the physics scene, pause it with the spheres mid-air, pick one, and its live rigidbody values, including the <code>gravityScale</code> of <code>-1</code> it was given in the Editor, are right there in the panel. Then <strong>Draw physics world</strong> in the Physics tab overlays the colliders and contact points. Step a few frames to watch exactly what the solver does.</p>
+<p>The Inspector is read-only, apart from toggling entities on and off, pausing and stepping, and view-only overrides like render modes, wireframe and the flown camera, which it removes when it closes. It needs <strong>Engine 2.23 or later</strong>. On an older engine the launch page logs a warning and carries on without it. The option is remembered for you per project, and the Editor's MCP <code>launch:start</code> accepts <code>inspector: true</code> as well.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-splat-budget-mode-and-lod-distances">🌫️ Splat Budget Mode and LOD Distances<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#%EF%B8%8F-splat-budget-mode-and-lod-distances" class="hash-link" aria-label="Direct link to 🌫️ Splat Budget Mode and LOD Distances" title="Direct link to 🌫️ Splat Budget Mode and LOD Distances" translate="no">​</a></h3>
+<p>Engine 2.23 changes how Gaussian splat LOD is chosen, and the Editor follows it. This partly reverses what I wrote two weeks ago, so to be precise about what moved:</p>
+<ul>
+<li class="">On the <strong>GSplat</strong> component, <strong>LOD Base Distance</strong> and <strong>LOD Multiplier</strong> are back, next to <strong>LOD Range Min</strong> and <strong>LOD Range Max</strong>. <strong>LOD Falloff</strong> is gone.</li>
+<li class="">In <strong>Rendering</strong> settings, <strong>LOD Mode</strong> (Error / Distance) is replaced by <strong>Splat Budget Mode</strong>, with <strong>Target</strong> and <strong>Limit</strong>.</li>
+</ul>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34-gsplat-lod.mp4" style="width:100%;height:auto"></video>
+<p>The two modes decide who's in charge. <strong>Target</strong> raises detail until the scene's <strong>Splat Budget</strong> is used up, so the budget is what you are tuning, and the LOD distances only shape how detail falls off. <strong>Limit</strong> flips it: each splat's own LOD distances decide its detail, and the budget only steps in to lower it when the scene would exceed it.</p>
+<p><strong>LOD Base Distance</strong> is the distance of the first LOD transition (LOD 0 to LOD 1), and <strong>LOD Multiplier</strong> is the geometric step between each threshold after that. In the clip, the Roman Parish scene starts in Limit mode at <code>0.5</code> and <code>1.2</code>, so everything is drawn from coarse LODs. Raising them to <code>6</code> and <code>3</code> while the app is running streams the detail back in.</p>
+<p>The caveat from 2.32 still applies: LOD only does anything on a <strong>streamed SOG octree</strong>. A single <code>.sog</code> or <code>.ply</code> is one level, so the fields are there but have nothing to switch between. Two neighbouring settings also have clearer descriptions now. <strong>LOD Update Angle</strong> only matters through <strong>LOD Behind Penalty</strong>. A higher <strong>LOD Behind Penalty</strong> also makes streamed LOD files load what's in front of the camera first. Reference: the <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/gsplat/" target="_blank" rel="noopener noreferrer" class="">GSplat component docs</a>, <a href="https://developer.playcanvas.com/user-manual/editor/interface/settings/rendering/" target="_blank" rel="noopener noreferrer" class="">Rendering settings</a> and <a href="https://api.playcanvas.com/engine/classes/GSplatComponent.html" target="_blank" rel="noopener noreferrer" class=""><code>GSplatComponent</code></a>. Splat scene above and in the release video: Roman Parish by Andrii Shramko.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-particle-use-fog-and-use-tonemapping">🔥 Particle Use Fog and Use Tonemapping<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-particle-use-fog-and-use-tonemapping" class="hash-link" aria-label="Direct link to 🔥 Particle Use Fog and Use Tonemapping" title="Direct link to 🔥 Particle Use Fog and Use Tonemapping" translate="no">​</a></h3>
+<p>The particle system component gets two new toggles, <strong>Use Fog</strong> and <strong>Use Tonemapping</strong>. Both are on by default, which is how particles have always rendered.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34-particle-fog.mp4" style="width:100%;height:auto"></video>
+<p>Turning <strong>Use Fog</strong> off lets a particle system ignore the scene's fog. Embers, magic, signal flares and UI-ish effects then keep their glow at any distance, while the geometry around them still fades into the mist. In the clip, the far lanterns and the firefly field burn straight through the fog with it off, and sink back into it with it on. <strong>Use Tonemapping</strong> does the same for tonemapping, for effects whose colours you want exactly as authored. Reference: the <a href="https://developer.playcanvas.com/user-manual/editor/scenes/components/particlesystem/" target="_blank" rel="noopener noreferrer" class="">particle system component docs</a> and <a href="https://api.playcanvas.com/engine/classes/ParticleSystemComponent.html" target="_blank" rel="noopener noreferrer" class=""><code>ParticleSystemComponent</code></a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-discard-all-changes-233">♻️ Discard All Changes (2.33)<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#%EF%B8%8F-discard-all-changes-233" class="hash-link" aria-label="Direct link to ♻️ Discard All Changes (2.33)" title="Direct link to ♻️ Discard All Changes (2.33)" translate="no">​</a></h3>
+<p>This one shipped in 2.33 and fits here rather than in a post of its own. The <strong>Changes</strong> tab in Version Control now has a <strong>Discard All…</strong> button next to <strong>Open Full Diff</strong>, which restores the branch to its latest checkpoint.</p>
+<video playsinline="" autoplay="" muted="" loop="" controls="" src="/img/editor-2-34-vc-discard-all.mp4" style="width:100%;height:auto"></video>
+<p>It's built so you can't do it by accident and lose something. The dialog has <strong>Take a checkpoint of the current state first</strong> ticked by default, so the work you are throwing away is still recoverable from History. Untick it and the dialog turns red, warns <strong>This cannot be undone.</strong>, and the button becomes <strong>Discard Permanently</strong>. The button only appears when the branch has a checkpoint, there are changes since it, and you have write access.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-also-since-232">🧩 Also since 2.32<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-also-since-232" class="hash-link" aria-label="Direct link to 🧩 Also since 2.32" title="Direct link to 🧩 Also since 2.32" translate="no">​</a></h3>
+<p>A handful of smaller additions that did not need a section of their own:</p>
+<ul>
+<li class=""><strong>Material UV channels 2 to 7.</strong> Every texture slot's UV select now goes from UV0 to UV7, for meshes that carry the extra channels.</li>
+<li class=""><strong>Enable GLSL Shader Transpilation</strong> (2.33). A new Rendering setting under Enable WebGPU. When enabled, GLSL-only shaders are supported under WebGPU. It adds the shader compiler files to published and downloaded builds, so turn it off to keep builds smaller if you don't need it. It defaults to the Enable WebGPU value.</li>
+<li class=""><strong>Antigravity IDE.</strong> Antigravity IDE joins VS Code and Cursor as an external code editor, in Editor settings and in the asset context menu.</li>
+<li class=""><strong>Fixes.</strong> Numeric inspector edits now persist even when the displayed value doesn't change. Rejected realtime changes are named in the Editor console. An Engine v1 launch crash is fixed. Classic script attributes parse in Safari, and asset thumbnails and previews load from their own URLs.</li>
+<li class="">Built on <strong>PlayCanvas Engine 2.23.1</strong>.</li>
+</ul>
+<p>Everything else is itemised in the <strong><a href="https://github.com/playcanvas/editor/releases/tag/v2.34.0" target="_blank" rel="noopener noreferrer" class="">2.34.0 release notes</a></strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-open-source-top-to-bottom">💚 Open Source, Top to Bottom<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-open-source-top-to-bottom" class="hash-link" aria-label="Direct link to 💚 Open Source, Top to Bottom" title="Direct link to 💚 Open Source, Top to Bottom" translate="no">​</a></h3>
+<p>The Editor frontend, the Engine underneath it and the Inspector that docks beside your launched app are all MIT licensed and developed in the open. If something in this release is broken, missing or just awkward to use, the issue trackers and the pull request queues are the shortest routes to fixing it.</p>
+<ul>
+<li class=""><a href="https://github.com/playcanvas/editor" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Editor</a></li>
+<li class=""><a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine</a></li>
+<li class=""><a href="https://github.com/playcanvas/inspector" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Inspector</a></li>
+</ul>
+<p>Just getting started? The <a href="https://developer.playcanvas.com/user-manual/editor/" target="_blank" rel="noopener noreferrer" class="">User Manual</a> walks through the Editor end to end, and the <a href="https://developer.playcanvas.com/user-manual/physics/" target="_blank" rel="noopener noreferrer" class="">Physics documentation</a> covers the rigid bodies that Gravity Scale sits on top of.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-tell-us-what-you-find">👂 Tell Us What You Find<a href="https://blog.playcanvas.com/new-in-playcanvas-editor-gravity-scale-inspector-and-splat-budget#-tell-us-what-you-find" class="hash-link" aria-label="Direct link to 👂 Tell Us What You Find" title="Direct link to 👂 Tell Us What You Find" translate="no">​</a></h3>
+<p>The Inspector makes it far easier to see what your app is really doing, so we expect you'll turn up things we haven't. If something behaves differently to how you expected, or the thing you actually needed did not make this release, say so — the <a href="https://discord.gg/RSaMRzg" target="_blank" rel="noopener noreferrer" class="">Discord</a> and the <a href="https://forum.playcanvas.com/" target="_blank" rel="noopener noreferrer" class="">forum</a> are where we are, and we are <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">on X</a> too.</p>
+<p><em>Music: "New Sunrise" (CC0).</em></p>]]></content>
+        <author>
+            <name>Kris Bamrah</name>
+        </author>
+        <category label="editor" term="editor"/>
+        <category label="physics" term="physics"/>
+        <category label="debugging" term="debugging"/>
+        <category label="gaussian-splats" term="gaussian-splats"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[From iPhone Video to Photorealistic 3D Digital Twin - Developer Spotlight on Solaya]]></title>
         <id>https://blog.playcanvas.com/from-iphone-video-to-photorealistic-3d-digital-twin-developer-spotlight-on-solaya</id>
@@ -1215,70 +1283,5 @@ To set up your local development environment, check out the <a href="https://git
         <category label="modules" term="modules"/>
         <category label="editor" term="editor"/>
         <category label="developer" term="developer"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PlayCanvas Adopts SOGS for 20x 3DGS Compression]]></title>
-        <id>https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression</id>
-        <link href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression"/>
-        <updated>2025-05-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, we are releasing PlayCanvas Engine 2.7.5 that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). SOGS can reduce 3DGS data by over 20x.]]></summary>
-        <content type="html"><![CDATA[<p>Today, we are releasing <a href="https://github.com/playcanvas/engine/releases/tag/v2.7.5" target="_blank" rel="noopener noreferrer" class="">PlayCanvas Engine 2.7.5</a> that introduces a new and advanced compression format for 3D Gaussian Splatting (3DGS) called Self-Organizing Gaussians (SOGS). <strong>SOGS can reduce 3DGS data by over 20x.</strong></p>
-<p>To showcase PlayCanvas' support for SOGS, we have collaborated with <a href="https://www.linkedin.com/in/christoph-schindelar-79515351/" target="_blank" rel="noopener noreferrer" class="">Christoph Schindelar</a> to build a technical demo:</p>
-<div class="iframe-container"><iframe id="viewer" width="800" height="500" allow="fullscreen; xr-spatial-tracking" src="https://playcanv.as/e/p/Zp9Oh1ia/"></iframe></div>
-<p><em><strong><a href="https://playcanv.as/p/Zp9Oh1ia/" target="_blank" rel="noopener noreferrer" class="">RUN FULLSCREEN IN A NEW TAB</a></strong></em></p>
-<p>The church scene above was originally a <strong>1GB PLY file containing 4 million Gaussians</strong> - not at all suitable for the web or mobile! <strong>Using SOGS, we can serve up the scene in just 55MB!</strong> Read on to find out how.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction-to-self-organizing-gaussians">Introduction to Self-Organizing Gaussians<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#introduction-to-self-organizing-gaussians" class="hash-link" aria-label="Direct link to Introduction to Self-Organizing Gaussians" title="Direct link to Introduction to Self-Organizing Gaussians" translate="no">​</a></h3>
-<p>3D Gaussian Splatting has taken the real-time graphics world by storm, offering breathtaking photorealism. But as many developers have discovered, the incredible detail comes at a cost: massive file sizes. A typical high-quality scene can easily run into hundreds of megabytes, making them challenging for web delivery, mobile experiences, and quick load times.</p>
-<p>This is precisely the problem that <a href="https://github.com/fraunhoferhhi/Self-Organizing-Gaussians" target="_blank" rel="noopener noreferrer" class="">Self-Organizing Gaussians</a>, a groundbreaking compression technique from <a href="https://wieland.morgenst.de/" target="_blank" rel="noopener noreferrer" class="">Wieland Morgenstern</a> at <a href="https://www.hhi.fraunhofer.de/en/index.html" target="_blank" rel="noopener noreferrer" class="">Fraunhofer HHI</a>, sets out to solve.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-core-challenge-taming-the-data-deluge">The Core Challenge: Taming the Data Deluge<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#the-core-challenge-taming-the-data-deluge" class="hash-link" aria-label="Direct link to The Core Challenge: Taming the Data Deluge" title="Direct link to The Core Challenge: Taming the Data Deluge" translate="no">​</a></h3>
-<p>Each individual Gaussian in a 3DGS scene stores multiple parameters:</p>
-<ul>
-<li class="">Position (XYZ)</li>
-<li class="">Scale (3 values)</li>
-<li class="">Rotation (4 quaternion values)</li>
-<li class="">Opacity</li>
-<li class="">Base Color (RGB)</li>
-<li class="">Spherical Harmonics (SH) coefficients for view-dependent effects (often 45+ values, contributing a huge portion to file size – up to 75%!)</li>
-</ul>
-<p>Storing all of these as high-precision floats is what leads to those hefty files.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enter-sogs-reshape-reorganize-compress">Enter SOGS: Reshape, Reorganize, Compress<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#enter-sogs-reshape-reorganize-compress" class="hash-link" aria-label="Direct link to Enter SOGS: Reshape, Reorganize, Compress" title="Direct link to Enter SOGS: Reshape, Reorganize, Compress" translate="no">​</a></h3>
-<p>Instead of just quantizing individual values or creating simple codebooks for attributes (which are valid but more traditional compression steps), SOGS takes a far more innovative approach, directly inspired by how image compression algorithms work best:</p>
-<ol>
-<li class=""><strong>Grid Reorganization:</strong> The fundamental idea is to take all the Gaussians and their attributes and reshape this data. Imagine "unrolling" all the Gaussians and laying their parameters out into a series of 2D grids or "attribute images." For instance, all X positions could form one 2D image, all Y positions another, each SH coefficient its own image, and so on (e.g., 59+ such images if you have 59 attributes per Gaussian). Initially, these images would look like random noise.</li>
-<li class=""><strong>The "Self-Organizing" Sort (PLAS Algorithm):</strong> Here's the magic. SOGS employs a sophisticated sorting algorithm (<a href="https://github.com/fraunhoferhhi/PLAS" target="_blank" rel="noopener noreferrer" class="">Parallel Linear Assignment Sorting - PLAS</a>) to reorder the Gaussians themselves within these 2D grids. The goal is to arrange them so that Gaussians with similar properties (especially position, scale, and base color) become neighbors in the 2D grid. This process transforms the noisy, random-looking attribute images into much smoother, more structured images with lower frequency content.<!-- -->
-<ul>
-<li class=""><strong>Why sort?</strong> Compressing highly organized, smooth data (like a sorted image) is vastly more efficient than compressing noisy, random data. The difference can be dramatic (e.g., a 9x reduction for a sorted vs. random image with JPEG).</li>
-</ul>
-</li>
-<li class=""><strong>Exploiting Smoothness:</strong> By sorting based on primary attributes (position, scale, base color), SOGS leverages the insight that Gaussians similar in these aspects are also likely to have similar secondary attributes (opacity, rotation, and those bulky SH coefficients). This "co-sorting" makes all the attribute images smoother.</li>
-<li class=""><strong>Leveraging 2D Image Compression:</strong> Once these attribute images are smooth and organized, SOGS applies standard, highly optimized 2D image compression codecs to each one. In PlayCanvas, we have opted to use WebP. This is where the massive compression gains come from – the WebP codec is perfect for compressing smooth, predictable image data. Check out the image set for the church:
-<a href="https://blog.playcanvas.com/assets/files/sogs-textures-c63805053f989a4996da53a700d6fe10.jpg" target="_blank" class=""><img decoding="async" loading="lazy" alt="SOGS Textures" src="https://blog.playcanvas.com/assets/images/sogs-textures-c63805053f989a4996da53a700d6fe10.jpg" width="1136" height="580" class="img_ev3q"></a></li>
-</ol>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-impact-for-splat-developers">The Impact for Splat Developers<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#the-impact-for-splat-developers" class="hash-link" aria-label="Direct link to The Impact for Splat Developers" title="Direct link to The Impact for Splat Developers" translate="no">​</a></h3>
-<p>Integrating SOGS into PlayCanvas is a game-changer for web-based 3DGS:</p>
-<ul>
-<li class="">🗜️ <strong>Massive File Size Reduction:</strong> We're talking serious compression! The church scene above, for example, was reduced from ~1GB to 55MB (a <strong>~20x reduction</strong>).</li>
-<li class="">⚡ <strong>Lightning-Fast Loading:</strong> Smaller files mean your immersive 3DGS experiences load significantly faster, keeping users engaged.</li>
-<li class="">📱 <strong>Mobile Feasibility:</strong> This level of compression makes deploying rich 3DGS content practical even on bandwidth or memory-constrained devices.</li>
-<li class="">✨ <strong>Exceptional Visual Quality:</strong> SOGS is designed to maintain the high visual fidelity that makes 3DGS so compelling, and can even improve it by reducing artifacts.</li>
-<li class="">🖼️ <strong>Simple Decoding:</strong> The compressed format is essentially a set of WebP images, which are trivial and fast to decode using standard browser capabilities.</li>
-</ul>
-<p>With SOGS support, PlayCanvas can deliver stunning, performant, and accessible 3D Gaussian Splat-based experiences directly in the browser. This is <strong>huge news</strong> for e-commerce, architectural visualization, education and entertainment industries.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's Next<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#whats-next" class="hash-link" aria-label="Direct link to What's Next" title="Direct link to What's Next" translate="no">​</a></h3>
-<p>PlayCanvas Engine support is just the first step. Here's what's coming next:</p>
-<ul>
-<li class=""><strong>Editor Support</strong> - Support SOGS data as a first-class citizen in the Asset Panel</li>
-<li class=""><strong>SuperSplat Support</strong> - Add SOGS as an export format</li>
-<li class=""><strong>Performance Optimization</strong> - Now that we can quickly load vast numbers of Gaussians on mobile, we will turn our attention to boosting frame rates</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-our-open-source-mission">👨‍💻 Our Open Source Mission<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#-our-open-source-mission" class="hash-link" aria-label="Direct link to 👨‍💻 Our Open Source Mission" title="Direct link to 👨‍💻 Our Open Source Mission" translate="no">​</a></h3>
-<p>We proudly provide the PlayCanvas Engine as an MIT-licensed open source project. The 3D Gaussian Splat community has made impressive strides over the past 18 months, largely due to open collaboration. Join us in shaping the future by submitting issues, creating pull requests, or simply starring <a href="https://github.com/playcanvas/engine" target="_blank" rel="noopener noreferrer" class="">our GitHub repo</a>! ⭐</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-your-feedback-matters">👂 Your Feedback Matters<a href="https://blog.playcanvas.com/playcanvas-adopts-sogs-for-20x-3dgs-compression#-your-feedback-matters" class="hash-link" aria-label="Direct link to 👂 Your Feedback Matters" title="Direct link to 👂 Your Feedback Matters" translate="no">​</a></h3>
-<p>We hope you approve of this latest update to our open source journey! The SuperSplat community has grown tremendously, and your feedback is invaluable. What features would you love to see next? Share your thoughts on our <a href="https://discord.com/invite/T3pnhRTTAY" target="_blank" rel="noopener noreferrer" class="">Discord</a> or <a href="https://x.com/playcanvas" target="_blank" rel="noopener noreferrer" class="">ping us on X</a>!</p>]]></content>
-        <author>
-            <name>Will Eastcott</name>
-        </author>
-        <category label="gaussian-splats" term="gaussian-splats"/>
-        <category label="supersplat" term="supersplat"/>
     </entry>
 </feed>
