@@ -47,7 +47,7 @@ Organizations, which you used to manage on playcanvas.com, are in the sidebar to
 
 **New project** has two different starting points now. **Empty Project** is a project with nothing in it. **Blank Project**, the default, starts with a skybox, a cube and a plane. The other starter kits are next to them. Whichever you pick, you end on **Your new project is ready. It opens in a new tab.** As on the old projects page, a project opens in a tab of its own. **Open editor** switches to that tab if it's already open, and going back to your projects (**All Projects**, <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>O</kbd>, or the **Projects** breadcrumb) switches back to the home without unloading the scene you were in.
 
-A few things moved as a result, in case you go looking for them. The viewport's Home button opens the projects tab, the project dashboard link is now in the logo menu as **Project Dashboard**, and the old overlay's extras (the return-to-editor banner, `is:open`, Esc back to the scene) are gone with it. The [Projects Home docs](https://developer.playcanvas.com/user-manual/editor/projects/projects-home/) walk through all of it.
+A few things moved as a result, in case you go looking for them. The viewport's Home button opens the projects tab, and the old overlay's extras (the return-to-editor banner, `is:open`, Esc back to the scene) are gone with it. The [Project Dashboard docs](https://developer.playcanvas.com/user-manual/editor/projects/dashboard/) walk through all of it.
 
 ### 🤖 Projects over MCP
 
