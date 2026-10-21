@@ -9,7 +9,7 @@ tags:
   - ai
 ---
 
-**Editor 2.35** is out, and it changes the first page you see. [playcanvas.com/editor](https://playcanvas.com/editor) is now a projects home of its own: search, stars, forks, project settings, dev logs, organizations and new projects all live there, and every project you open gets its own tab.
+**Editor 2.35** is out, and it changes the first page you see. [playcanvas.com/editor](https://playcanvas.com/editor) is now a projects home of its own, and the project management you used to do on the playcanvas.com projects page has moved into it: search, stars, forks, transfers, project settings, dev logs, teams, organizations and new projects.
 
 The same page is also where an AI agent can now connect over MCP, before any project is open. From there it can list, create, rename and open your projects.
 
@@ -25,7 +25,7 @@ It's laid out like a home rather than a picker. A sidebar has **New project**, *
 
 <video playsInline autoPlay muted loop controls src='/img/editor-2-35-projects-home-search-star.mp4' style={{width: '100%', height: 'auto'}} />
 
-Finding a project is quicker too. The search takes filters, `name:`, `owner:`, `desc:` and `is:` (for example `is:starred` or `is:private`), and <kbd>/</kbd> jumps straight to it. Tabs split the list into **All**, **Mine**, **Shared with me**, **Private** and **Starred**, and you can sort by **Last edited**, **Created**, **Name**, **Most played** or **Size**. Every card has a star you can toggle in place, and projects shared with you that you can't edit carry a **Read only** badge. The list view has column headers for forks, views, plays, stars, size and when it was last edited.
+The search takes filters, `name:`, `owner:`, `desc:` and `is:` (for example `is:starred` or `is:private`), and <kbd>/</kbd> jumps straight to it. Tabs split the list into **All**, **Mine**, **Shared with me**, **Private** and **Starred**, and you can sort by **Last edited**, **Created**, **Name**, **Most played** or **Size**. Every card has a star you can toggle in place, and projects shared with you that you can't edit carry a **Read only** badge. The list view has column headers for forks, views, plays, stars, size and when it was last edited.
 
 The **⋮** menu on each card and row is where the project management that used to live on playcanvas.com ended up: **Open editor**, **Play**, **Project settings**, **Copy link**, **Watch**, **Fork**, **Export**, **Transfer ownership** and **Delete project**.
 
@@ -33,19 +33,19 @@ The **⋮** menu on each card and row is where the project management that used 
 
 **Fork** opens a dialog showing the project you're forking from, with its name and description filled in and an owner picker, and it ends on a **Project ready** dialog. If a project can't be forked (legacy scripts, private source assets you can't edit, or a private project without a paid plan), the dialog says why instead of letting you try. **Transfer ownership** looks the username up as you type, and transfers offered to you show **Accept** and **Decline** right on the card.
 
-Clicking a card opens **Project settings**, with **Dev log** and **Team** beside it. The settings panel now shows where a project was **Forked From** and a 28-day **Activity** strip, and its footer has **Copy link**, **Fork Project** and **Export Project**.
+Clicking a card opens **Project settings**, with **Dev log** and **Team** beside it. As on the dashboard, the settings panel shows where a project was **Forked From** and a 28-day **Activity** strip, and its footer has **Copy link**, **Fork Project** and **Export Project**.
 
 <video playsInline autoPlay muted loop controls src='/img/editor-2-35-projects-home-dev-log.mp4' style={{width: '100%', height: 'auto'}} />
 
-The **Dev log** panel is the dev log from your project's dashboard, without leaving the home: write a post in Markdown, post it, and it renders straight away. You can edit and delete posts from there too.
+The **Dev log** panel is your project's dev log, brought over from its dashboard: write a post in Markdown, post it, and it renders straight away. You can edit and delete posts from there too.
 
 <video playsInline autoPlay muted loop controls src='/img/editor-2-35-projects-home-organizations.mp4' style={{width: '100%', height: 'auto'}} />
 
-Organizations are managed from the sidebar as well. The **+** next to **Organizations** creates one, with a live preview of its name and URL. Open an organization to see its projects, and its **⋮** menu has **Organization details** and **Delete organization**, which asks you to type the name to confirm.
+Organizations, which you used to manage on playcanvas.com, are in the sidebar too. The **+** next to **Organizations** creates one, with a live preview of its name and URL. Open an organization to see its projects, and its **⋮** menu has **Organization details** and **Delete organization**, which asks you to type the name to confirm.
 
 <video playsInline autoPlay muted loop controls src='/img/editor-2-35-projects-home-new-project.mp4' style={{width: '100%', height: 'auto'}} />
 
-**New project** has two different starting points now. **Empty Project** is a project with nothing in it. **Blank Project**, the default, starts with a skybox, a cube and a plane. The other starter kits are next to them. Whichever you pick, you end on **Your new project is ready. It opens in a new tab.**, and that is the other big change in this release: projects never open in the projects tab. **Open editor** switches to that project's own tab, or opens it if it isn't open yet, and going back to your projects (**All Projects**, <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>O</kbd>, or the **Projects** breadcrumb) switches back without unloading the scene you were in.
+**New project** has two different starting points now. **Empty Project** is a project with nothing in it. **Blank Project**, the default, starts with a skybox, a cube and a plane. The other starter kits are next to them. Whichever you pick, you end on **Your new project is ready. It opens in a new tab.** As on the old projects page, a project opens in a tab of its own. **Open editor** switches to that tab if it's already open, and going back to your projects (**All Projects**, <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>O</kbd>, or the **Projects** breadcrumb) switches back to the home without unloading the scene you were in.
 
 A few things moved as a result, in case you go looking for them. The viewport's Home button opens the projects tab, the project dashboard link is now in the logo menu as **Project Dashboard**, and the old overlay's extras (the return-to-editor banner, `is:open`, Esc back to the scene) are gone with it. The [Projects Home docs](https://developer.playcanvas.com/user-manual/editor/projects/projects-home/) walk through all of it.
 
