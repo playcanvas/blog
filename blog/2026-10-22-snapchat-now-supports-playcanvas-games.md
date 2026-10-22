@@ -62,7 +62,7 @@ Lens+ Payouts is open to creators aged 18+ in eligible countries, and a Lens is 
 
 ## Meet the First PlayCanvas Games on Snapchat 🎮
 
-We've been working with some incredibly talented developers on the first wave of PlayCanvas-powered Web Lenses. Grab your phone, open Snapchat and scan a Snapcode to play!
+We've been working with some incredibly talented developers on the first wave of PlayCanvas-powered Web Lenses. Grab your phone and scan a Snapcode to play. Your regular camera app works too, and opens the game straight in Snapchat!
 
 ### 🌸 Bloom
 

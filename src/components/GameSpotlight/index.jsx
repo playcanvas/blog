@@ -41,7 +41,7 @@ export default function GameSpotlight({
           />
           <div className={styles.playText}>
             <strong>Play {title} in Snapchat</strong>
-            <span>Point your Snapchat camera at the Snapcode to open it.</span>
+            <span>Scan the Snapcode with your phone's camera or Snapchat to jump straight in.</span>
           </div>
         </div>
       </div>
