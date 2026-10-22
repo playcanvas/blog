@@ -141,12 +141,12 @@ Bitmoji Ski puts you on the slopes as your very own Bitmoji. Carve down the moun
 Got a game idea but don't want to write any code? [Easy Lens](https://easylens.snapchat.com/web-lenses) is Snap's AI Lens creator, and its Web Lens games are powered by PlayCanvas. Describe your game in a prompt and Easy Lens plans it, writes the code and builds it for you in just a few minutes. Every follow-up message refines the same game, so you can keep tweaking until it plays just right. Test it in the browser preview or push it to your phone, then submit it to Snapchat when you're happy. Try it now!
 
 :::note
-Creating Web Lenses in Easy Lens is available to Lens+ subscribers on Easy Lens web. Bitmoji, leaderboards and saved progress aren't available in Easy Lens games yet.
+Creating Web Lenses in Easy Lens is available to Lens+ subscribers on Easy Lens web. Easy Lens games already support leaderboards and saved progress, and Bitmoji support is on the way.
 :::
 
 ## Build Your Own Game With PlayCanvas 🧰
 
-Want full control over your game, plus Bitmoji, leaderboards and storage? Build it yourself with PlayCanvas. Here's how to go from idea to a published Web Lens in five steps.
+Want full control over your game, plus every Web Lens API feature, including Bitmoji? Build it yourself with PlayCanvas. Here's how to go from idea to a published Web Lens in five steps.
 
 ### 1. Choose Your Workflow
 
