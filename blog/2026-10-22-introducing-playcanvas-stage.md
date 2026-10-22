@@ -30,53 +30,36 @@ The first is [Spatial Artifacts](https://github.com/kpal81xd/spatial-artifacts),
 
 The second is Stage, the full editor, and the one we're releasing today. Stage attaches to your real PlayCanvas app instead, and every edit you make ends up in that app's source.
 
-## How It Works
+## What Stage Does
 
-Stage attaches to your app's own running dev server and shows it in a viewer in your browser. It finds the app through the Engine's devtools hook, so it doesn't matter what you built it with, and your hot reload keeps working through it.
+Stage works on your real app. It attaches to the dev server you already run and shows the app in a viewer in your browser, whatever you built it with, with your hot reload still working. If you don't have an app yet, the agent can start one with `create-playcanvas`, which comes with the PlayCanvas Skills, so the agent has the right context from the first prompt.
 
-If you're starting from nothing, ask for a scene ("build my desk in 3D at real scale") and the agent scaffolds a project with `create-playcanvas`, starts its dev server and opens it in Stage for you. Every project `create-playcanvas` generates comes with the PlayCanvas Skills, so the agent working on your scene has that context from the first prompt.
+You use Stage alongside your usual Claude Code or Codex chat, not instead of it. You can keep asking the agent for changes in the chat as you always have, as in the video above, and switch to Stage whenever it's quicker to point at something or move it yourself. Both end up with the same agent, working on the same app.
 
-Press <kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>P</kbd> and the app pauses: its updates, input and audio stop, and an editor camera takes over. Click an entity to select it, and from there it works like the Editor, with <kbd>1</kbd>, <kbd>2</kbd> and <kbd>3</kbd> switching the gizmo between move, rotate and scale, and <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Z</kbd> to undo. Your edits are saved as you make them and survive reloads, but nothing touches your source yet.
+From there you can make changes by hand. Pause the app, pick up an object and put it where it should go, the same way you would in the PlayCanvas Editor. When it looks right, you hand those edits to the agent and it writes them into your source. You get the speed of laying a scene out by hand, and the result still lives in your code.
 
 <video playsInline autoPlay muted loop controls src='/img/playcanvas-stage-move-scale-undo.mp4' style={{width: '100%', height: 'auto'}} />
 
-When the layout looks right, press **Apply**. Stage sends the agent one message listing every edited entity, and the agent writes those positions, rotations and scales into your code. In Claude Code you don't need to switch windows: the plugin notices what you sent and wakes the session, so the agent picks the work up on its own. **Discard** puts everything back instead.
-
-<video playsInline autoPlay muted loop controls src='/img/playcanvas-stage-apply.mp4' style={{width: '100%', height: 'auto'}} />
-
-Not every change is a drag, and this is the part that came straight from Artifacts. Press <kbd>C</kbd>, click an object or drag across an area, and type what you want: "paint this plane yellow with blue wings", or "add a lighthouse on this headland". The agent gets the entity's path, the 3D point you clicked and a capture of what you saw, so it knows exactly what you mean.
-
-Press **Send to Agent** and the thread shows how far along it is until the agent replies in it and the app updates in place.
+For everything you can't do with a drag, you leave a comment, and this is the part that came straight from Artifacts. You point at an object or an area of the scene and say what you want, like "paint this plane yellow with blue wings" or "add a lighthouse on this headland". The agent gets which entity you meant, where you clicked and what you were looking at, does the work and replies in the thread while the app updates in place.
 
 <video playsInline autoPlay muted loop controls src='/img/playcanvas-stage-comment.mp4' style={{width: '100%', height: 'auto'}} />
 
-The lens work is in Stage too. The device menu has a **Snapchat Web Lens** frame that draws Snapchat's own camera controls faintly over the app, so you can lay a lens out around them, alongside phone and tablet viewports. The game in these clips is Parcel Patrol, a Snapchat Web Lens I made with Stage as an example.
+The lens work is in Stage too. You can preview your app at phone and tablet sizes, or in a Snapchat Web Lens frame that shows where Snapchat's own camera controls will sit, so you can lay a lens out around them. The game in these clips is Parcel Patrol, a Snapchat Web Lens I made with Stage as an example.
 
 <video playsInline autoPlay muted loop controls src='/img/playcanvas-stage-device.mp4' style={{width: '100%', height: 'auto'}} />
 
-The [PlayCanvas Inspector](https://github.com/playcanvas/inspector) opens beside the app, and MiniStats puts frame timings and draw calls over the canvas.
+Stage doesn't change your project. The only thing that reaches your source is what the agent writes, so when you close Stage you have the same app you started with, to build and ship as usual. It all runs on your machine too, with no telemetry and no outbound requests of its own.
 
-Stage doesn't change your project. It adds its tools when the page loads through it, and the only thing that reaches your source is what the agent writes. Close it and you have the same app you started with, to build and ship as usual. It all runs on your machine too: Stage has no telemetry and makes no outbound requests of its own.
+## Try It
 
-## Getting Started
-
-You'll need Node.js 22.18 or later, Chrome or Chromium, and an app on PlayCanvas Engine 2.23 or later. In Claude Code:
+Stage is a plugin for Claude Code and Codex, and works with apps on PlayCanvas Engine 2.23 or later. In Claude Code:
 
 ```bash
 claude plugin marketplace add playcanvas/stage
 claude plugin install playcanvas-stage@stage
 ```
 
-Or in Codex:
-
-```bash
-codex plugin marketplace add playcanvas/stage
-codex plugin add playcanvas-stage@stage
-```
-
-The [Stage documentation](https://developer.playcanvas.com/user-manual/stage/) covers every control and setting.
-
-0.1.0 is a prerelease, so expect rough edges. Safari may not resolve the `*.localhost` addresses each stage runs on, so open the viewer in Chrome. An app that bundles the Engine into its own code needs one extra line before Stage can find it, and the viewer shows you what to add. In Codex, comments reach an idle session through `codex queue`, which is still experimental in Codex itself.
+The [Stage documentation](https://developer.playcanvas.com/user-manual/stage/) covers Codex, every control and setting, and the known limitations. 0.1.0 is a prerelease, so expect rough edges.
 
 Stage is MIT licensed and developed in the open at [github.com/playcanvas/stage](https://github.com/playcanvas/stage). If something is broken, missing or awkward, [open an issue](https://github.com/playcanvas/stage/issues), or tell us on [Discord](https://discord.gg/RSaMRzg), the [forum](https://forum.playcanvas.com) or [X](https://x.com/playcanvas).
 
