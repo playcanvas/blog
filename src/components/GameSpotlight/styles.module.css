@@ -15,6 +15,7 @@
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 720 / 1452;   /* the clips' size, so the box holds its shape before the source loads */
   margin: 0;
   border-radius: 18px;
   background: #000;

@@ -270,8 +270,10 @@ Let players star in your game as themselves! The Bitmoji capability gives you th
 ```js
 import { Asset } from 'playcanvas';
 
+// Resolves to the player's Bitmoji, or null to use your bundled default character
 async function loadBitmoji(app) {
-    if (!snapchat.isSupported('bitmoji')) return null;
+    // The desktop stub returns an empty placeholder avatar, so skip it there
+    if (!snapchat.isSupported('bitmoji') || snapchat.isStub) return null;
 
     const { hasAvatar } = await snapchat.bitmoji.getAvatarInfo();
     if (!hasAvatar) return null;
