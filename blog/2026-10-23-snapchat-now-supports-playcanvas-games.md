@@ -4,7 +4,6 @@ slug: snapchat-now-supports-playcanvas-games
 title: "Snapchat Now Supports PlayCanvas Games"
 description: Snapchat Web Lenses let you publish PlayCanvas games straight into Snapchat. Meet the first games, then build, integrate and publish your own.
 image: /img/snapchat-web-lenses-hero.jpg
-unlisted: true
 tags:
   - game
   - snapchat
