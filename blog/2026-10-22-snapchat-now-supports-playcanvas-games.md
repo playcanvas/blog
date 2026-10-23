@@ -330,6 +330,18 @@ Once your game is ready, it's time to ship it! 🚢
 
 Snap's [Platform requirements](https://developers.snap.com/web-lenses/requirements) and [Publishing](https://developers.snap.com/web-lenses/publishing) guides have the full checklist and asset specs.
 
+## Get Funded to Build Your Web Lens 💸
+
+Got an idea for a great Web Lens game? Snap wants to hear it! Snap is inviting developers to pitch original games and request a budget for their development, and selected pitches get funded. Tell Snap how your game plays, why it's a great fit for Snapchat, roughly how long it will take to build and how much budget you need. If you have a prototype, video or deck, share that too.
+
+Snap is prioritizing games with a strong social loop, so a Web Lens built around leaderboards is a great place to start. 🏆
+
+**[Pitch your game to Snap →](https://docs.google.com/forms/d/e/1FAIpQLScKS4gO8KW7nd4m1JzYayIjoktkzJbqDjWugrdvmpDz92Joow/viewform)**
+
+:::tip[Don't hang around!]
+There's no fixed deadline, but this offer won't last forever. If you've got an idea, send in your pitch soon. ⏰
+:::
+
 ## Join the Community 💬
 
 We can't wait to see what you build! Here's how to connect with us and other Web Lens developers:
