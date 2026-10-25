@@ -155,11 +155,13 @@ There are two great ways to build with PlayCanvas, and both pair perfectly with 
 
 This is the way to go if you prefer to work entirely inside an LLM environment such as Claude Code, Codex or Cursor. A PlayCanvas Engine game is a regular JavaScript project, so your agent can read it, edit it, run it and check the results, while you describe what you want to build.
 
-Scaffold a new project with [`create-playcanvas`](https://developer.playcanvas.com/user-manual/getting-started/start-with-create-playcanvas/):
+Scaffold a new project from the Snapchat Web Lens starter in [`create-playcanvas`](https://developer.playcanvas.com/user-manual/getting-started/start-with-create-playcanvas/):
 
 ```bash
-npm create playcanvas@latest
+npm create playcanvas@latest my-lens -- --starter web-lens
 ```
+
+You get a small portrait game that's ready to publish, with the Web Lens API already wired up for leaderboards, storage and Bitmoji. Your agent replaces the game with yours and keeps the Snapchat setup. Add `--format react` or `--format web-components` to build with React or Web Components instead.
 
 Or follow Snap's [Build your first Web Lens](https://developers.snap.com/web-lenses/get-started) guide, which sets up PlayCanvas and Vite from an empty folder.
 
@@ -187,7 +189,15 @@ Start a new conversation afterward so your agent picks them up.
 
 ### 3. Build Your Game
 
-Now for the fun part! 🕹️ Describe the game you want and let your agent help you build it. A good prompt states the platform constraints up front:
+Now for the fun part! 🕹️ Describe the game you want and let your agent help you build it. If you started from the `web-lens` starter, it already handles the portrait layout, the safe area, relative paths and packaging, so just describe your game:
+
+```text
+Turn this Web Lens starter into a one-thumb game where you tap to flap a paper
+plane through gaps in a city skyline. Keep the leaderboard and the saved best
+score.
+```
+
+Otherwise, a good prompt states the platform constraints up front:
 
 ```text
 Build a portrait (9:16) one-thumb arcade game with the PlayCanvas Engine and
@@ -207,7 +217,7 @@ You can test your build on a real phone before publishing. Run `npx vite preview
 
 ### 4. Integrate the Web Lens API
 
-The [Web Lens API](https://developers.snap.com/web-lenses/web-lens-api) connects your game to Snapchat. In an Engine project, install it from npm:
+The [Web Lens API](https://developers.snap.com/web-lenses/web-lens-api) connects your game to Snapchat. The `web-lens` starter already includes it, wrapped up in `src/lens.ts`. To add it to another Engine project, install it from npm:
 
 ```bash
 npm install @snap/web-lens-api
@@ -321,11 +331,10 @@ Each value can be any JSON up to 32 KiB, with 100 KiB in total per Lens per play
 
 Once your game is ready, it's time to ship it! 🚢
 
-1. **Build your game.** Run `npm run build` for an Engine project, or download a build from the Editor's **Publish** dialog.
-2. **Zip the build.** Zip the *contents* of your build folder so `index.html` sits at the root, not the folder itself. On Windows, avoid PowerShell's `Compress-Archive`, which writes backslashes that break relative paths. Check the result with `unzip -l` and confirm it's under 8 MB.
-3. **Upload it.** Sign in to [My Lenses](https://my-lenses.snapchat.com/), create a new Lens, choose the Web Lens option and upload your zip.
-4. **Add your Lens details.** Give your game a name, a 512 × 512 PNG icon and a 5-second, 720 × 1280 preview video showing its most exciting moment.
-5. **Submit for review.** Once approved, your game is live in Snapchat for players to find by name or Snapcode!
+1. **Package your game.** In a project made from the `web-lens` starter, run `npm run package`. It builds your game, checks it against Snap's upload rules (the 8 MB limit, relative paths and no network access) and writes a zip to `dist/`, ready to upload. For any other project, build it yourself (in the Editor, download a build from the **Publish** dialog) and zip the *contents* of the build folder, so `index.html` sits at the root rather than the folder itself. On Windows, avoid PowerShell's `Compress-Archive`, which writes backslashes that break relative paths. Check the result with `unzip -l` and confirm it's under 8 MB.
+2. **Upload it.** Sign in to [My Lenses](https://my-lenses.snapchat.com/), create a new Lens, choose the Web Lens option and upload your zip.
+3. **Add your Lens details.** Give your game a name, a 512 × 512 PNG icon and a 5-second, 720 × 1280 preview video showing its most exciting moment.
+4. **Submit for review.** Once approved, your game is live in Snapchat for players to find by name or Snapcode!
 
 Snap's [Platform requirements](https://developers.snap.com/web-lenses/requirements) and [Publishing](https://developers.snap.com/web-lenses/publishing) guides have the full checklist and asset specs.
 
