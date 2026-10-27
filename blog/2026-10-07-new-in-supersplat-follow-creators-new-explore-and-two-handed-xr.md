@@ -32,6 +32,10 @@ And you don't have to start from a profile. Hover over anyone's name in the comm
 
 Follow also comes with a proper **notification system**. A new bell collects the comments, likes and new followers on your splats, so you can see who just followed you and what people are saying about your work. We've overhauled our email notifications to match: comments are emailed within a few minutes, grouped if several arrive, while likes and new followers land in one daily summary. You choose what you hear about in your notification settings.
 
+:::warning Placeholder: notifications video
+Needs `/img/supersplat-notifications.mp4`, a short screen recording of the bell and its drawer filling up with a comment, grouped likes and a new follower. Delete this box and drop in the video tag once the clip lands.
+:::
+
 ### 🧭 A New Home Page and Search
 
 We've also reworked the home page to make discovering splats easier. Until now, every filter lived in the search bar at the top of the page. That worked once you knew it was there, but new visitors had a hard time figuring out how to find downloadable splats or simply see what was published this week.
@@ -50,7 +54,9 @@ Gaussian splats are at their best when you're standing inside them, so we've giv
 
 The headline is **two-handed manipulation**. Squeeze both grips on your controllers (or make fists with tracked hands) and you can drag, turn and scale the whole scene, anywhere from a fifth of its size to five times bigger. Shrink a cathedral down to a model in front of you or, in AR, put an object scan on your actual coffee table. When you leave the session, the scene returns to where its creator placed it.
 
-<video playsInline autoPlay muted loop controls src='/img/supersplat-xr-two-hand-grab.mp4' style={{width: '100%', height: 'auto'}} />
+:::warning Placeholder: XR video
+Needs `/img/supersplat-xr-two-hand-grab.mp4`, a Quest 3 clip of squeezing both grips to shrink a big scene down to a model, followed by an AR take with an object scan on a real table. Delete this box and drop in the video tag once the clip lands.
+:::
 
 **Standalone headsets** got a lot faster. On Meta Quest, the viewer now renders within the headset's budget: up to 1 million splats, fixed foveation and a 72 Hz target. Turn on **Performance Mode** in the viewer settings before you enter for even more headroom. Here's a large streamed scene on a Quest 3:
 
