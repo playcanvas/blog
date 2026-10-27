@@ -30,7 +30,7 @@ And you don't have to start from a profile. Hover over anyone's name in the comm
 
 <video playsInline autoPlay muted loop controls src='/img/supersplat-follow-profile-card.mp4' style={{width: '100%', height: 'auto'}} />
 
-The Following feed is only the first step. Next on our list is a proper **notification system**, along with an overhaul of our dated email notifications, so you can hear about new splats from the people you follow without checking the feed. Only if you want to, of course.
+Follow also comes with a proper **notification system**. A new bell collects the comments, likes and new followers on your splats, so you can see who just followed you and what people are saying about your work. We've overhauled our email notifications to match: comments are emailed within a few minutes, grouped if several arrive, while likes and new followers land in one daily summary. You choose what you hear about in your notification settings.
 
 ### 🧭 A New Home Page and Search
 
