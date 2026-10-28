@@ -32,7 +32,7 @@ And you don't have to start from a profile. Hover over anyone's name in the comm
 
 ### 🔔 Notifications That Keep You in the Loop
 
-Follow only works if you find out when something happens. Until now the only way to know that someone had commented on your splat was an email for every single event, which got noisy fast. Many of you switched them off, and then missed the conversation altogether.
+Publishing a splat is only half the fun. The other half is hearing what people think of it. Until now the only way to know someone had commented on yours was an email for every single event, which got noisy fast. Many of you switched them off, and then missed the conversation altogether.
 
 So SuperSplat now has a proper **notification system**. A **bell** in the top bar lights up when something happens, and one click shows you the new comments, likes and followers on your splats. Click a comment and you land right on it.
 
