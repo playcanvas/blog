@@ -1,7 +1,7 @@
 ---
 authors: will
 slug: new-in-supersplat-follow-creators-new-explore-and-two-handed-xr
-title: "New in SuperSplat: Follow Creators, a New Home Page and Two-Handed XR"
+title: "New in SuperSplat: Follow Creators, a New Home Page and Enhanced XR Mode"
 unlisted: true
 tags:
   - gaussian-splats
