@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_playcanvas_blog=self.webpackChunk_playcanvas_blog||[]).push([["41960"],{49784(a){a.exports=JSON.parse('{"tag":{"label":"vr","permalink":"/tags/vr","allTagsPath":"/tags","count":7,"unlisted":false},"listMetadata":{"permalink":"/tags/vr","page":1,"postsPerPage":10,"totalPages":1,"totalCount":7,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
