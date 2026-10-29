@@ -14,6 +14,8 @@ tags:
 
 Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This time most of the work went into [SuperSplat](https://superspl.at) itself. We wanted to make it easier to discover great splats and the people who make them, so you can now **follow creators** and get **notifications** when people respond to your work, and the **home page** and **search** have been redesigned around how people actually look for splats. The XR side of the viewer got a big upgrade along the way too: step into a scene in VR or AR and **grab it with both hands**.
 
+<video playsInline controls poster='/img/supersplat-follow-notifications-xr-poster.jpg' src='/img/supersplat-follow-notifications-xr.mp4' style={{width: '100%', height: 'auto'}} />
+
 <!-- truncate -->
 
 ### 👥 Follow Creators and Grow Your Audience
@@ -60,9 +62,7 @@ Gaussian splats are at their best when you're standing inside them, so we've giv
 
 The headline is **two-handed manipulation**. Squeeze both grips on your controllers (or make fists with tracked hands) and you can drag, turn and scale the whole scene, anywhere from a quarter of its size to four times bigger. Shrink a cathedral down to a model in front of you or, in AR, put an object scan on your actual coffee table. When you leave the session, the scene returns to where its creator placed it.
 
-:::warning Placeholder: XR video
-Needs `/img/supersplat-xr-two-hand-grab.mp4`, a Quest 3 clip of squeezing both grips to shrink a big scene down to a model, followed by an AR take with an object scan on a real table. Delete this box and drop in the video tag once the clip lands.
-:::
+<video playsInline autoPlay muted loop controls src='/img/supersplat-xr-two-hand-grab.mp4' style={{width: '100%', height: 'auto'}} />
 
 **Standalone headsets** got a lot faster. On Meta Quest, the viewer now renders within the headset's budget: up to 1 million splats, fixed foveation and a 72 Hz target. Drop the **Quality** setting to Performance in the viewer settings before you enter for even more headroom. Here's a large streamed scene on a Quest 3:
 
