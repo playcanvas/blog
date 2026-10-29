@@ -2,7 +2,6 @@
 authors: will
 slug: new-in-supersplat-follow-creators-a-new-home-page-and-enhanced-xr-mode
 title: "New in SuperSplat: Follow Creators, a New Home Page and Enhanced XR Mode"
-unlisted: true
 tags:
   - gaussian-splats
   - supersplat
@@ -14,7 +13,9 @@ tags:
 
 Last month we shipped **[SuperSplat Editor 3.0](/new-in-supersplat-editor-3-0-rebuilt-on-webgpu)**, rebuilt from the ground up on WebGPU. This time most of the work went into [SuperSplat](https://superspl.at) itself. We wanted to make it easier to discover great splats and the people who make them, so you can now **follow creators** and get **notifications** when people respond to your work, and the **home page** and **search** have been redesigned around how people actually look for splats. The XR side of the viewer got a big upgrade along the way too: step into a scene in VR or AR and **grab it with both hands**.
 
-<video playsInline controls poster='/img/supersplat-follow-notifications-xr-poster.jpg' src='/img/supersplat-follow-notifications-xr.mp4' style={{width: '100%', height: 'auto'}} />
+<div className="iframe-container">
+    <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/lPqRnCZEKBM" title="New in SuperSplat: Follow Creators, a New Home Page and Enhanced XR Mode" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!-- truncate -->
 
