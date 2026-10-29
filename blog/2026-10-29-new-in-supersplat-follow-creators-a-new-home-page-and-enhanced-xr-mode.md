@@ -1,6 +1,6 @@
 ---
 authors: will
-slug: new-in-supersplat-follow-creators-new-explore-and-two-handed-xr
+slug: new-in-supersplat-follow-creators-a-new-home-page-and-enhanced-xr-mode
 title: "New in SuperSplat: Follow Creators, a New Home Page and Enhanced XR Mode"
 unlisted: true
 tags:
