@@ -34,21 +34,21 @@
     "lint": "markdownlint-cli2 \"blog/**/*.md\" README.md"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.1",
-    "@docusaurus/faster": "^3.10.1",
-    "@docusaurus/preset-classic": "^3.10.1",
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/faster": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
     "@mdx-js/react": "^3.1.1",
-    "chart.js": "^4.5.1",
+    "chart.js": "^4.6.1",
     "clsx": "^2.1.1",
-    "docusaurus-plugin-sass": "^0.2.6",
+    "docusaurus-plugin-sass": "^0.2.7",
     "prism-react-renderer": "^2.4.1",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.10.1",
-    "@docusaurus/types": "^3.10.1",
-    "markdownlint-cli2": "^0.23.0"
+    "@docusaurus/module-type-aliases": "^3.10.2",
+    "@docusaurus/types": "^3.10.2",
+    "markdownlint-cli2": "^0.24.0"
   },
   "browserslist": {
     "production": [
