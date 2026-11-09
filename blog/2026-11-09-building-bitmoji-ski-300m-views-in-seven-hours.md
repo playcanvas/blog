@@ -28,9 +28,9 @@ This post tells the story screenshot by screenshot, and shows how you can use th
 
 <p style={{textAlign: 'center'}}><em>Scan with your phone's camera or Snapchat to play</em></p>
 
-<video playsInline autoPlay muted loop controls src='/img/bitmoji-ski-gameplay.mp4' style={{width: '50%', height: 'auto', display: 'block', margin: '0 auto 1.5em'}} />
+<video playsInline autoPlay muted loop controls src='/img/snapchat-web-lenses-bitmoji-ski.mp4' style={{width: '50%', height: 'auto', display: 'block', margin: '0 auto 1.5em'}} />
 
-Turn the sound on for that one. Every sound in it, from the wind to the little "oof" when you hit a tree, is generated in code. There isn't a single audio file in the Lens.
+That's a screen recording of the Lens running inside Snapchat. The sound is on in the game, from the wind to the little "oof" when you hit a tree, and all of it is generated in code. There isn't a single audio file in the Lens.
 
 <!-- truncate -->
 
