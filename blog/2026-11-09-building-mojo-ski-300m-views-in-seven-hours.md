@@ -1,9 +1,9 @@
 ---
 authors: iakov
 unlisted: true
-slug: building-bitmoji-ski-300m-views-in-seven-hours
-title: "Seven Hours, 1.3 MB, 300M Views: How I Built Bitmoji Ski for Snapchat"
-description: "The story of Bitmoji Ski, a snowboarding game starring your own Bitmoji that runs inside Snapchat as a Web Lens. How I built a base with an LLM and PlayCanvas, made the core loop fun, then added hooks one at a time: art direction, fog, ragdolls, leaderboards, in about seven hours and 1.3 MB."
+slug: building-mojo-ski-300m-views-in-seven-hours
+title: "Seven Hours, 1.3 MB, 300M Views: How I Built Mojo Ski for Snapchat"
+description: "The story of Mojo Ski, a snowboarding game starring your own Bitmoji that runs inside Snapchat as a Web Lens. How I built a base with an LLM and PlayCanvas, made the core loop fun, then added hooks one at a time: art direction, fog, ragdolls, leaderboards, in about seven hours and 1.3 MB."
 image: /img/bitmoji-ski-hero.jpg
 tags:
   - web-lenses
@@ -13,18 +13,22 @@ tags:
   - tutorial
 ---
 
-Bitmoji Ski started with a memory. On my first day skiing, two of my friends dropped me in front of a slope that looked terrifying, and I've never forgotten that mix of fear and excitement. What I wanted to bottle is what comes next: the cold air, the hush of the snow and the thrilling, chilled-out feeling of sliding down a mountain with nothing to do but steer.
+Mojo Ski started with a memory. On my first day skiing, two of my friends dropped me in front of a slope that looked terrifying, and I've never forgotten that mix of fear and excitement. What I wanted to bottle is what comes next: the cold air, the hush of the snow and the thrilling, chilled-out feeling of sliding down a mountain with nothing to do but steer.
 
 The catch is that I'm an engineer, and for years I've wanted to build a really fun game. For years my games were boring. My brain goes straight to architecture, performance and getting the physics right, and by the time everything works I have no energy left for the only question players care about: is this fun?
 
-So when I needed a test game for the new Snapchat Web Lens features, I flipped the order. I let an LLM write the boring base in minutes, then spent my time playing the game and fixing whatever felt off, one small change at a time. The result is **Bitmoji Ski**: you, as your own Bitmoji, snowboarding down an endless mountain. It took about **seven hours**, it's **1.3 MB** zipped and it has had **300 million views** on Snapchat.
+So when I needed a test game for the new Snapchat Web Lens features, I flipped the order. I let an LLM write the boring base in minutes, then spent my time playing the game and fixing whatever felt off, one small change at a time. The result is **Mojo Ski**: you, as your own Bitmoji, snowboarding down an endless mountain. It took about **seven hours**, it's **1.3 MB** zipped and it has had **300 million views** on Snapchat.
+
+:::note A new name
+Mojo Ski was originally called Bitmoji Ski.
+:::
 
 This post tells the story screenshot by screenshot, and shows how you can use the same method with PlayCanvas and Snapchat Web Lenses:
 
-* 👉 **Play it.** Scan the Snapcode below with your phone's camera or with Snapchat, and it opens straight in Snapchat. Or just search for Bitmoji Ski.
+* 👉 **Play it.** Scan the Snapcode below with your phone's camera or with Snapchat, and it opens straight in Snapchat. Or just search for Mojo Ski.
 * 👉 **Build your own.** The [Web Lenses documentation](https://developers.snap.com/web-lenses/home) has everything you need, and [Snapchat Now Supports PlayCanvas Games](/snapchat-now-supports-playcanvas-games) walks through the full setup.
 
-<img src="/img/snapchat-web-lenses-bitmoji-ski-snapcode.svg" alt="Bitmoji Ski Snapcode" style={{display: 'block', width: '160px', height: 'auto', margin: '0 auto'}} />
+<img src="/img/snapchat-web-lenses-bitmoji-ski-snapcode.svg" alt="Mojo Ski Snapcode" style={{display: 'block', width: '160px', height: 'auto', margin: '0 auto'}} />
 
 <p style={{textAlign: 'center'}}><em>Scan with your phone's camera or Snapchat to play</em></p>
 
@@ -101,7 +105,7 @@ Don't add a single hook until you'd play the bare loop twice without being asked
 
 This is where the game stopped looking like a tech demo. Five frames, left to right: the first playable, a stylized sky, painterly mountains, fog and the game today.
 
-![Bitmoji Ski evolving from the first playable to the final look](/img/bitmoji-ski-evolution.jpg)
+![Mojo Ski evolving from the first playable to the final look](/img/bitmoji-ski-evolution.jpg)
 
 **The sky.** A stylized skybox from [freestylized.com](https://freestylized.com/skybox/sky_14/) (royalty-free), cropped to the band the camera actually sees and mapped onto a dome that follows the camera. I dropped it so the cloud layer sits right on the horizon. That one move is why it feels like you're riding into the clouds.
 
@@ -186,9 +190,9 @@ Players recognize themselves immediately, and that changes how everything feels.
 * **Rivals are you.** The other skiers are clones of your Bitmoji with recolored outfits. You're racing an army of yourself, and about one in five of them wipes out ahead of you.
 * **A dancing start screen.** Your Bitmoji dances on the start screen, using two Mixamo clips retargeted onto the Bitmoji rig and packed into 20 KB. It's the first thing players see, so the character has to be alive.
 
-<img src="/img/snapchat-web-lenses-bitmoji.jpg" alt="A player's Bitmoji standing on a snowboard on the Bitmoji Ski title screen" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto'}} />
+<img src="/img/snapchat-web-lenses-bitmoji.jpg" alt="A player's Bitmoji standing on a snowboard on the Mojo Ski title screen" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto'}} />
 
-<p style={{textAlign: 'center'}}><em>Bitmoji Ski puts the player's own Bitmoji on the slopes</em></p>
+<p style={{textAlign: 'center'}}><em>Mojo Ski puts the player's own Bitmoji on the slopes</em></p>
 
 ## 💥 Step 6: Make Failing the Best Part
 
@@ -227,9 +231,9 @@ async function onGameOver(score) {
 
 The competition continues when the Lens is closed: when a friend beats your score, Snapchat can invite you back to reclaim your spot.
 
-<img src="/img/snapchat-web-lenses-leaderboard-notification.jpg" alt="A Snapchat lock screen notification from Bitmoji Ski telling the player a friend beat their score" style={{display: 'block', width: '100%', maxWidth: '560px', height: 'auto', margin: '0 auto', borderRadius: '12px'}} />
+<img src="/img/snapchat-web-lenses-leaderboard-notification.jpg" alt="A Snapchat lock screen notification from Mojo Ski telling the player a friend beat their score" style={{display: 'block', width: '100%', maxWidth: '560px', height: 'auto', margin: '0 auto', borderRadius: '12px'}} />
 
-<p style={{textAlign: 'center'}}><em>A leaderboard notification from Bitmoji Ski</em></p>
+<p style={{textAlign: 'center'}}><em>A leaderboard notification from Mojo Ski</em></p>
 
 Goals that don't depend on friends matter too. At 1,000, 3,000 and 5,000 points you unlock a new board design (Sunny Pop, Blaze and a metallic Golden Legend), and the board you've earned is waiting under your dancing Bitmoji next time. That's the [storage capability](https://developers.snap.com/web-lenses/storage), because in a Lens `localStorage` starts empty every launch:
 
@@ -246,9 +250,9 @@ await snapchat.storage.set('ski', save);
 
 ## 📦 Step 8: Keep It Tiny, Make It Instant
 
-Bitmoji Ski is about **1.3 MB zipped**, and I treated that number as a feature. Snap's own docs say that [time to first play is "the strongest lever you have on how a Lens performs with its audience"](https://developers.snap.com/web-lenses/requirements#size-limit). Plenty of Snapchat's audience plays on older iPhones and mid-range Androids, and not always on a fast connection. For them, a game that appears at once and runs smoothly is a game they actually play. A game that makes them wait gets swiped away before the first tap.
+Mojo Ski is about **1.3 MB zipped**, and I treated that number as a feature. Snap's own docs say that [time to first play is "the strongest lever you have on how a Lens performs with its audience"](https://developers.snap.com/web-lenses/requirements#size-limit). Plenty of Snapchat's audience plays on older iPhones and mid-range Androids, and not always on a fast connection. For them, a game that appears at once and runs smoothly is a game they actually play. A game that makes them wait gets swiped away before the first tap.
 
-And this is where PlayCanvas earns its place. The engine is tiny. Import only the classes you use and the bundler drops the rest, so the engine you ship is only the part your game touches. In Bitmoji Ski, that engine, all of the game code and the baked trees come to about **315 KB zipped**, which is smaller than the Bitmoji character model alone. A heavier engine would eat a big share of the budget before the first tree appeared.
+And this is where PlayCanvas earns its place. The engine is tiny. Import only the classes you use and the bundler drops the rest, so the engine you ship is only the part your game touches. In Mojo Ski, that engine, all of the game code and the baked trees come to about **315 KB zipped**, which is smaller than the Bitmoji character model alone. A heavier engine would eat a big share of the budget before the first tree appeared.
 
 Here's roughly where the bytes go (zipped):
 
@@ -314,7 +318,7 @@ Most of those hours went on taste, not code.
 
 ## 👂 Try It, Then Build Yours
 
-Play Bitmoji Ski, then break it: thread a long streak of flags, hit a tree on purpose and see how you rank. Then build your own Web Lens. Get the base running first, make the loop fun and add hooks one at a time.
+Play Mojo Ski, then break it: thread a long streak of flags, hit a tree on purpose and see how you rank. Then build your own Web Lens. Get the base running first, make the loop fun and add hooks one at a time.
 
 If you get stuck or want to show what you made, find me and the other Web Lens developers in the **#snapchat-web-lenses** channel on the [PlayCanvas Discord](https://discord.gg/RSaMRzg).
 
