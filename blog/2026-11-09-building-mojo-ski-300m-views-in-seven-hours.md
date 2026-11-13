@@ -1,6 +1,5 @@
 ---
 authors: iakov
-unlisted: true
 slug: building-mojo-ski-300m-views-in-seven-hours
 title: "Seven Hours, 1.3 MB, 300M Views: How I Built Mojo Ski for Snapchat"
 description: "The story of Mojo Ski, a snowboarding game starring your own Bitmoji that runs inside Snapchat as a Web Lens. How I built a base with an LLM and PlayCanvas, made the core loop fun, then added hooks one at a time: art direction, fog, ragdolls, leaderboards, in about seven hours and 1.3 MB."
@@ -182,7 +181,7 @@ if (snapchat.isSupported('bitmoji') && !snapchat.isStub) {
 ```
 
 :::note
-How to handle players who don't have a Bitmoji is being updated. Check the [Bitmoji docs](https://developers.snap.com/web-lenses/bitmoji) for the current guidance before you ship.
+Always bundle a default character for players without a Bitmoji, and for when you're developing against the stub. Check `hasAvatar` before requesting the model, because the media calls reject for a player who doesn't have one. Snap's [Bitmoji guide](https://developers.snap.com/web-lenses/bitmoji) has the details.
 :::
 
 Players recognize themselves immediately, and that changes how everything feels. A wipeout is funnier when it's you, and a high score matters more. So I leaned in:
