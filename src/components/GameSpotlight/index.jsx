@@ -4,7 +4,9 @@ import styles from './styles.module.css';
 /**
  * Side-by-side spotlight for a portrait game: a looping gameplay clip on one
  * side, and the game's intro, developer quote and Snapcode on the other.
- * Stacks into a single column on narrow screens.
+ * Stacks into a single column on narrow screens. Pass `reverse` to put the
+ * clip on the right (and below the text when stacked). Leave out `studio` and
+ * `developer` to drop the meta line, or `snapcode` to drop the play box.
  *
  * The clip's source is only attached once the spotlight nears the viewport:
  * autoplay makes browsers ignore `preload`, so a static `src` would download
@@ -16,6 +18,7 @@ export default function GameSpotlight({
   snapcode,
   developer,
   studio,
+  reverse = false,
   children,
 }) {
   const videoRef = useRef(null);
@@ -45,7 +48,7 @@ export default function GameSpotlight({
   }, [near]);
 
   return (
-    <div className={styles.spotlight}>
+    <div className={reverse ? `${styles.spotlight} ${styles.reverse}` : styles.spotlight}>
       <div className={styles.media}>
         <video
           ref={videoRef}
@@ -60,22 +63,28 @@ export default function GameSpotlight({
         />
       </div>
       <div className={styles.body}>
-        <div className={styles.meta}>
-          <strong>{studio}</strong> · {developer}
-        </div>
-        {children}
-        <div className={styles.play}>
-          <img
-            className={styles.snapcode}
-            src={snapcode}
-            alt={`Snapcode for ${title}`}
-            loading="lazy"
-          />
-          <div className={styles.playText}>
-            <strong>Play {title} in Snapchat</strong>
-            <span>Scan the Snapcode with your phone's camera or Snapchat to jump straight in.</span>
+        {(studio || developer) && (
+          <div className={styles.meta}>
+            {studio && <strong>{studio}</strong>}
+            {studio && developer && ' · '}
+            {developer}
           </div>
-        </div>
+        )}
+        {children}
+        {snapcode && (
+          <div className={styles.play}>
+            <img
+              className={styles.snapcode}
+              src={snapcode}
+              alt={`Snapcode for ${title}`}
+              loading="lazy"
+            />
+            <div className={styles.playText}>
+              <strong>Play {title} in Snapchat</strong>
+              <span>Scan the Snapcode with your phone's camera or Snapchat to jump straight in.</span>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

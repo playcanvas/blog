@@ -6,6 +6,21 @@
   margin-bottom: 3rem;
 }
 
+.reverse {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 260px);
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+/* Line the first paragraph up with the top of the clip */
+.reverse .body > :first-child {
+  margin-top: 0;
+}
+
+.reverse .media {
+  order: 2;
+}
+
 .media {
   display: flex;
   justify-content: center;
