@@ -6,10 +6,12 @@
   margin-bottom: 3rem;
 }
 
+/* Reversed, the clip floats right and the text wraps round it, so however the
+   clip's height compares to the intro, the copy that follows runs straight on
+   with ordinary paragraph spacing. */
 .reverse {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 260px);
-  align-items: start;
-  margin-bottom: 1.5rem;
+  display: block;
+  margin-bottom: 0;
 }
 
 /* Line the first paragraph up with the top of the clip */
@@ -18,7 +20,14 @@
 }
 
 .reverse .media {
-  order: 2;
+  float: right;
+  width: 260px;
+  margin: 0 0 1rem 2rem;
+}
+
+/* Boxed content that follows sits beside the clip instead of sliding under it */
+.reverse ~ :global(.theme-admonition) {
+  display: flow-root;
 }
 
 .media {
@@ -85,5 +94,18 @@
 
   .video {
     max-width: 280px;
+  }
+
+  /* Stacked: the clip drops below the intro */
+  .reverse {
+    display: grid;
+    margin-bottom: 1.5rem;
+  }
+
+  .reverse .media {
+    float: none;
+    order: 2;
+    width: auto;
+    margin: 0;
   }
 }
