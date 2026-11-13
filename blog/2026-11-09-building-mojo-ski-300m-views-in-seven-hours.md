@@ -12,15 +12,27 @@ tags:
   - tutorial
 ---
 
+import GameSpotlight from '@site/src/components/GameSpotlight';
+
+<GameSpotlight
+  reverse
+  title="Mojo Ski"
+  video="/img/snapchat-web-lenses-bitmoji-ski.mp4"
+>
+
 Mojo Ski started with a memory. On my first day skiing, two of my friends dropped me in front of a slope that looked terrifying, and I've never forgotten that mix of fear and excitement. What I wanted to bottle is what comes next: the cold air, the hush of the snow and the thrilling, chilled-out feeling of sliding down a mountain with nothing to do but steer.
 
 The catch is that I'm an engineer, and for years I've wanted to build a really fun game. For years my games were boring. My brain goes straight to architecture, performance and getting the physics right, and by the time everything works I have no energy left for the only question players care about: is this fun?
+
+</GameSpotlight>
 
 So when I needed a test game for the new Snapchat Web Lens features, I flipped the order. I let an LLM write the boring base in minutes, then spent my time playing the game and fixing whatever felt off, one small change at a time. The result is **Mojo Ski**: you, as your own Bitmoji, snowboarding down an endless mountain. It took about **seven hours**, it's **1.3 MB** zipped and it has had **300 million views** on Snapchat.
 
 :::note A new name
 Mojo Ski was originally called Bitmoji Ski.
 :::
+
+<!-- truncate -->
 
 This post tells the story screenshot by screenshot, and shows how you can use the same method with PlayCanvas and Snapchat Web Lenses:
 
@@ -31,11 +43,7 @@ This post tells the story screenshot by screenshot, and shows how you can use th
 
 <p style={{textAlign: 'center'}}><em>Scan with your phone's camera or Snapchat to play</em></p>
 
-<video playsInline autoPlay muted loop controls src='/img/snapchat-web-lenses-bitmoji-ski.mp4' style={{width: '50%', height: 'auto', display: 'block', margin: '0 auto 1.5em'}} />
-
-That's a screen recording of the Lens running inside Snapchat. The sound is on in the game, from the wind to the little "oof" when you hit a tree, and all of it is generated in code. There isn't a single audio file in the Lens.
-
-<!-- truncate -->
+The clip at the top is a screen recording of the Lens running inside Snapchat. The sound is on in the game, from the wind to the little "oof" when you hit a tree, and all of it is generated in code. There isn't a single audio file in the Lens.
 
 ## 🧠 The Idea: Core Loop First, Hooks Second
 
