@@ -101,8 +101,6 @@ The [Bitmoji capability](https://developers.snap.com/web-lenses/bitmoji) puts th
 
 You crash a lot in Mojo Ski, so crashing has to be fun to watch. Your Bitmoji tumbles as a ragdoll, snow bursts everywhere and the camera lingers so you can watch yourself land. Streak messages and sound react to every move, and all of the sound is generated in code, so there isn't a single audio file in the game.
 
-![A ragdoll wipeout into a flag, and a clean run through the flags](/img/bitmoji-ski-wipeout.jpg)
-
 ### 6. Give Players a Reason to Come Back 🏆
 
 A game is a toy until there's a number to beat. The [leaderboards capability](https://developers.snap.com/web-lenses/leaderboards) turns every run into a competition with your friends, and it only takes a few lines:
