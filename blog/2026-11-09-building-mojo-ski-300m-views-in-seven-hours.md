@@ -146,7 +146,3 @@ Ready to make your own? Here's how to get started:
 We can't wait to see what you build! Join the **#snapchat-web-lenses** channel on the [PlayCanvas Discord](https://discord.gg/RSaMRzg) to ask questions and share your progress. And when you post your Web Lens on social media, tag PlayCanvas on [X](https://x.com/playcanvas) and [LinkedIn](https://www.linkedin.com/company/playcanvas) so we can help spread the word.
 
 See you on the slopes! ❄️
-
----
-
-*A note on AI: I see it as a way to unblock people who have great ideas but not the technical skills to build them.*
