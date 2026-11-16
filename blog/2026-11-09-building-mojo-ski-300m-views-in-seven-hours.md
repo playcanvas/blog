@@ -1,8 +1,8 @@
 ---
 authors: iakov
 slug: building-mojo-ski-300m-views-in-seven-hours
-title: "How My Web Game Got 300 Million Views on Snapchat"
-description: "Snapchat now runs web games as Lenses. Here's how Mojo Ski, a snowboarding game starring your own Bitmoji, got 300 million views, and how you can build your own."
+title: "Reaching 300 Million Views on Snapchat With PlayCanvas"
+description: "Snapchat now runs web games as Lenses. Here's how Mojo Ski, a snowboarding game starring your own Bitmoji, reached 300 million views with PlayCanvas, and how you can build your own."
 image: /img/mojo-ski-hero.jpg
 tags:
   - web-lenses
