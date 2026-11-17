@@ -34,12 +34,9 @@ There was no app store and nothing to install: I uploaded a zip of a web game, a
 
 - **Views:** 300 million on Snapchat
 - **Gameplay:** Endless downhill snowboarding, starring the player's own Bitmoji
-- **Platform:** Snapchat for iOS and Android, as a Web Lens
 - **Engine:** [PlayCanvas](https://github.com/playcanvas/engine)
-- **Build time:** About seven hours, over two days
 - **Size:** 1.3 MB zipped
 - **Snapchat features:** Bitmoji, leaderboards and storage
-- **Formerly known as:** Bitmoji Ski
 
 :::
 
