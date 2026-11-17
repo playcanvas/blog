@@ -48,6 +48,7 @@ Compare that with the usual route. On an app store, a player has to find your ga
 
 - **No install.** A Lens opens with a tap. Players can find yours by name, or scan its Snapcode with their phone's camera.
 - **No store listing to fight for.** Zip up your web build, upload it through [My Lenses](https://my-lenses.snapchat.com/) and Snapchat publishes it like any other Lens.
+- **Free cold start.** You don't need an ad budget to find your first players. Snapchat's content ranking looks for the Lenses people enjoy and shows them to more Snapchatters, so a fun game can find its audience.
 - **Friends bring friends back.** Leaderboards are built in, and when a friend beats your score, Snapchat invites you back to reclaim your spot.
 - **You can earn from it.** With [Lens+ Payouts](https://developers.snap.com/lens-studio/monetization/lens-creator-rewards/lens-plus-payouts), you can make your Lens exclusive to Lens+ and Platinum subscribers and earn a share of revenue based on how much it's played.
 
