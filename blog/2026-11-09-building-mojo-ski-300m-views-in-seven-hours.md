@@ -48,9 +48,9 @@ Compare that with the usual route. On an app store, a player has to find your ga
 
 - **No install.** A Lens opens with a tap. Players can find yours by name, or scan its Snapcode with their phone's camera.
 - **No store listing to fight for.** Zip up your web build, upload it through [My Lenses](https://my-lenses.snapchat.com/) and Snapchat publishes it like any other Lens.
-- **Free cold start.** You don't need an ad budget to find your first players. Snapchat's content ranking looks for the Lenses people enjoy and shows them to more Snapchatters, so a fun game can find its audience.
+- **Free cold start.** You don't need an ad budget to find your first players. Snap says [every Lens has an equal opportunity to appear in the main carousel](https://docs.lensstudio.com/publish/distribution-and-discovery/lens-discovery#camera-carousel), and its content ranking favors the Lenses people find most engaging, so a fun game can find its audience.
 - **Friends bring friends back.** Leaderboards are built in, and when a friend beats your score, Snapchat invites you back to reclaim your spot.
-- **You can earn from it.** With [Lens+ Payouts](https://developers.snap.com/lens-studio/monetization/lens-creator-rewards/lens-plus-payouts), you can make your Lens exclusive to Lens+ and Platinum subscribers and earn a share of revenue based on how much it's played.
+- **You can earn from it.** Snap's [Lens Creator Rewards](https://docs.lensstudio.com/publish/monetization/lens-creator-rewards) pay creators for building Lenses. With [Lens+ Payouts](https://docs.lensstudio.com/publish/monetization/lens-plus-payouts), you can make your Lens exclusive to Lens+ and Platinum subscribers and earn a share of revenue based on how much they play it. It's open to approved creators aged 18+ in eligible countries, and you enroll a Lens when you submit it.
 
 ## How I Made Mojo Ski 🏂
 
@@ -91,7 +91,7 @@ The biggest single upgrade was the fog. Its color is picked from the bottom of t
 
 The [Bitmoji capability](https://developers.snap.com/web-lenses/bitmoji) puts the player on the slopes as their very own Bitmoji, and every rival on the mountain is a clone of them in a different outfit. Players recognize themselves instantly. A wipeout is funnier when it's you, and a high score means more.
 
-<img src="/img/mojo-ski-start-screen.jpg" alt="A player's Bitmoji in a Santa hat on the Mojo Ski start screen, standing next to the Sunny Pop board" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto'}} />
+<img src="/img/mojo-ski-start-screen.jpg" alt="A player's Bitmoji in a Santa hat dancing on the Mojo Ski start screen inside Snapchat, next to the Sunny Pop board" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto', borderRadius: '16px'}} />
 
 <p style={{textAlign: 'center'}}><em>Your Bitmoji dances on the start screen, next to the best board you've unlocked</em></p>
 
