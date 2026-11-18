@@ -42,7 +42,7 @@ There was no app store and nothing to install: I uploaded a zip of a web game, a
 
 ## Why Launch Your Game on Snapchat? 🚀
 
-Snapchat is used by [971 million people every month](https://www.businesswire.com/news/home/20260803600317/en/Snap-Inc.-Announces-Second-Quarter-2026-Financial-Results), and Snap reports that [Game Lenses engage over 175 million people every month](https://ar.snap.com/blog/monetizing-with-snap). Web Lenses open that audience up to web game developers for the first time.
+Snapchat is used by [971 million people every month](https://www.businesswire.com/news/home/20260803600317/en/Snap-Inc.-Announces-Second-Quarter-2026-Financial-Results), and Snap reports that [Game Lenses engage over 255 million people every month](https://ar.snap.com/blog/monetizing-with-snap). Web Lenses open that audience up to web game developers for the first time.
 
 Compare that with the usual route. On an app store, a player has to find your game, install it and open it, and every one of those steps is a chance to lose them. On Snapchat, your game lives inside an app they already have open:
 
