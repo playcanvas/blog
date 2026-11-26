@@ -9,7 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'PlayCanvas Blog',
-  tagline: 'Dinosaurs are cool',
+  tagline:
+    'News, releases and developer stories from the team behind PlayCanvas: the open-source WebGL and WebGPU engine, the browser-based Editor and SuperSplat.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -17,6 +18,9 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  // GitHub Pages serves each page as <slug>/index.html, so canonical and
+  // sitemap URLs need the trailing slash to avoid a 301 on every one.
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -55,6 +59,9 @@ const config = {
       ({
         docs: false,
         blog: {
+          blogTitle: 'PlayCanvas Blog',
+          blogDescription:
+            'News, releases and developer stories from the team behind PlayCanvas: the open-source WebGL and WebGPU engine, the browser-based Editor and SuperSplat.',
           blogSidebarCount: 15,
 
           routeBasePath: '/', // Serve the blog at the site's root
@@ -66,6 +73,10 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.scss',
+        },
+        sitemap: {
+          // Tag and pagination listings are thin duplicates of the posts.
+          ignorePatterns: ['/tags/**', '/page/**', '/authors/*/page/**'],
         },
       }),
     ],
@@ -100,6 +111,23 @@ const config = {
       footer: {
         style: 'dark',
         links: [
+          {
+            title: 'Products',
+            items: [
+              {
+                label: 'Engine',
+                href: 'https://playcanvas.com/products/engine',
+              },
+              {
+                label: 'Editor',
+                href: 'https://playcanvas.com/products/editor',
+              },
+              {
+                label: 'SuperSplat',
+                href: 'https://superspl.at',
+              },
+            ],
+          },
           {
             title: 'Docs',
             items: [
