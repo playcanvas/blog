@@ -126,10 +126,6 @@ const config = {
                 label: 'SuperSplat',
                 href: 'https://superspl.at',
               },
-              {
-                label: 'Examples',
-                href: 'https://playcanvas.com/examples/',
-              },
             ],
           },
           {
